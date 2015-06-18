@@ -7584,8 +7584,6 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 <part name="C9" library="rcl" deviceset="C-US" device="C1206" value="1uF"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-US" device="C1206" value="1uF"/>
-<part name="GND14" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7710,8 +7708,6 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 <instance part="C9" gate="G$1" x="68.58" y="137.16" rot="R90"/>
 <instance part="GND12" gate="1" x="78.74" y="132.08"/>
 <instance part="GND13" gate="1" x="66.04" y="106.68"/>
-<instance part="C10" gate="G$1" x="43.18" y="106.68" rot="R270"/>
-<instance part="GND14" gate="1" x="35.56" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -7853,12 +7849,6 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 <pinref part="IC1" gate="A" pin="V-"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="66.04" y1="111.76" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C10" gate="G$1" pin="2"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="38.1" y1="106.68" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="106.68" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -8573,17 +8563,6 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 <pinref part="U$1" gate="G$1" pin="VREF"/>
 <wire x1="40.64" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
 <label x="43.18" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="B" pin="+IN"/>
-<wire x1="58.42" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="93.98" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="+IN"/>
-<wire x1="45.72" y1="106.68" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
-<label x="43.18" y="121.92" size="1.778" layer="95"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<junction x="45.72" y="106.68"/>
 </segment>
 </net>
 </nets>
