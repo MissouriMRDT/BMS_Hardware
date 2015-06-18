@@ -91,8 +91,6 @@
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="140" name="Page" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="141" name="Fabrication" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="142" name="AMD" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="143" name="PMD" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
@@ -1493,106 +1491,6 @@ Source: http://focus.ti.com/lit/ml/mpds041b/mpds041b.pdf / slma002.pdf</descript
 <rectangle x1="-4.87" y1="2.645" x2="-4.64" y2="3.7" layer="51" rot="R180"/>
 <rectangle x1="-5.37" y1="2.645" x2="-5.14" y2="3.7" layer="51" rot="R180"/>
 </package>
-<package name="PFF_LEADFORM">
-<pad name="2" x="0" y="0" drill="0.8" diameter="1.5"/>
-<pad name="1" x="-1.91" y="0" drill="0.8" diameter="1.5"/>
-<pad name="3" x="1.91" y="0" drill="0.8" diameter="1.5"/>
-<polygon width="0" layer="46">
-<vertex x="-8" y="21.4" curve="-90"/>
-<vertex x="-7" y="22.4"/>
-<vertex x="-3" y="22.4" curve="-90"/>
-<vertex x="-2" y="21.4" curve="-90"/>
-<vertex x="-3" y="20.4"/>
-<vertex x="-7" y="20.4" curve="-90"/>
-</polygon>
-<polygon width="0" layer="46">
-<vertex x="2" y="21.4" curve="-90"/>
-<vertex x="3" y="22.4"/>
-<vertex x="7" y="22.4" curve="-90"/>
-<vertex x="8" y="21.4" curve="-90"/>
-<vertex x="7" y="20.4"/>
-<vertex x="3" y="20.4" curve="-90"/>
-</polygon>
-<wire x1="-4.5" y1="8.7" x2="-3.5" y2="9.7" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="8.7" x2="-3.5" y2="7.7" width="0.127" layer="21"/>
-<wire x1="-5" y1="3.2" x2="-5" y2="16.2" width="0.127" layer="21"/>
-<wire x1="-5" y1="16.2" x2="5" y2="16.2" width="0.127" layer="21"/>
-<wire x1="5" y1="16.2" x2="5" y2="3.2" width="0.127" layer="21"/>
-<wire x1="5" y1="3.2" x2="-5" y2="3.2" width="0.127" layer="21"/>
-<polygon width="0.127" layer="21">
-<vertex x="-5" y="7.6"/>
-<vertex x="-6.6" y="7.6"/>
-<vertex x="-7" y="8"/>
-<vertex x="-7" y="21.4"/>
-<vertex x="-3" y="21.4"/>
-<vertex x="-3" y="16.2"/>
-<vertex x="-5" y="16.2"/>
-<vertex x="-5" y="7.6"/>
-<vertex x="-6.5" y="7.6"/>
-</polygon>
-<polygon width="0.127" layer="21">
-<vertex x="5" y="7.6"/>
-<vertex x="6.6" y="7.6"/>
-<vertex x="7" y="8"/>
-<vertex x="7" y="21.4"/>
-<vertex x="3" y="21.4"/>
-<vertex x="3" y="16.2"/>
-<vertex x="5" y="16.2"/>
-<vertex x="5" y="7.6"/>
-<vertex x="6.5" y="7.6"/>
-</polygon>
-<rectangle x1="1.6" y1="0" x2="2.2" y2="3.2" layer="21"/>
-<rectangle x1="-0.3" y1="0" x2="0.3" y2="3.2" layer="21"/>
-<rectangle x1="-2.2" y1="0" x2="-1.6" y2="3.2" layer="21"/>
-<text x="-4.1" y="13.8" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.2" y="11.2" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-0.7" y1="9.7" x2="-0.4" y2="9.7" width="0.127" layer="21"/>
-<wire x1="-0.1" y1="9.7" x2="-0.4" y2="9.7" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="9.7" x2="-0.4" y2="8.9" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="8.9" x2="-0.7" y2="8.9" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="8.9" x2="-0.1" y2="8.9" width="0.127" layer="21"/>
-<wire x1="-2.8" y1="9.2" x2="-2.9" y2="8.3" width="0.127" layer="21" curve="-290.449548"/>
-<wire x1="-2.8" y1="9.6" x2="-2.8" y2="9.2" width="0.127" layer="21"/>
-<wire x1="-2.8" y1="9.2" x2="-2.5" y2="9.2" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="8.7" x2="-1.6" y2="8.7" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="8.7" x2="3.9" y2="8.7" width="0.127" layer="21"/>
-<smd name="5_T" x="-5" y="21.4" dx="9" dy="6" layer="1"/>
-<smd name="5_B" x="-5" y="21.4" dx="9" dy="6" layer="16"/>
-<smd name="4_T" x="5" y="21.4" dx="9" dy="6" layer="1"/>
-<smd name="4_B" x="5" y="21.4" dx="9" dy="6" layer="16"/>
-<pad name="5_1" x="-7" y="23.4" drill="0.5"/>
-<pad name="5_2" x="-5.67" y="23.4" drill="0.5"/>
-<pad name="5_3" x="-4.33" y="23.4" drill="0.5"/>
-<pad name="5_4" x="-3" y="23.4" drill="0.5"/>
-<pad name="5_5" x="-1.8" y="23" drill="0.5"/>
-<pad name="5_6" x="-1.1" y="22.1" drill="0.5"/>
-<pad name="5_7" x="-1.1" y="20.7" drill="0.5"/>
-<pad name="5_8" x="-1.8" y="19.8" drill="0.5"/>
-<pad name="5_9" x="-3" y="19.4" drill="0.5"/>
-<pad name="5_10" x="-4.33" y="19.4" drill="0.5"/>
-<pad name="5_11" x="-5.67" y="19.4" drill="0.5"/>
-<pad name="5_12" x="-7" y="19.4" drill="0.5"/>
-<pad name="5_13" x="-8.2" y="19.8" drill="0.5"/>
-<pad name="5_14" x="-8.9" y="20.7" drill="0.5"/>
-<pad name="5_15" x="-8.9" y="22.1" drill="0.5"/>
-<pad name="5_16" x="-8.2" y="23" drill="0.5"/>
-<pad name="4_1" x="3" y="23.4" drill="0.5"/>
-<pad name="4_2" x="4.33" y="23.4" drill="0.5"/>
-<pad name="4_3" x="5.67" y="23.4" drill="0.5"/>
-<pad name="4_4" x="7" y="23.4" drill="0.5"/>
-<pad name="4_5" x="8.2" y="23" drill="0.5"/>
-<pad name="4_6" x="8.9" y="22.1" drill="0.5"/>
-<pad name="4_7" x="8.9" y="20.7" drill="0.5"/>
-<pad name="4_8" x="8.2" y="19.8" drill="0.5"/>
-<pad name="4_9" x="7" y="19.4" drill="0.5"/>
-<pad name="4_10" x="5.67" y="19.4" drill="0.5"/>
-<pad name="4_11" x="4.33" y="19.4" drill="0.5"/>
-<pad name="4_12" x="3" y="19.4" drill="0.5"/>
-<pad name="4_13" x="1.8" y="19.8" drill="0.5"/>
-<pad name="4_14" x="1.1" y="20.7" drill="0.5"/>
-<pad name="4_15" x="1.1" y="22.1" drill="0.5"/>
-<pad name="4_16" x="1.8" y="23" drill="0.5"/>
-</package>
 </packages>
 </library>
 <library name="linear">
@@ -1936,7 +1834,7 @@ design rules under a new name.</description>
 <element name="R2" library="SparkFun-Resistors" package="AXIAL-0.6" value="10R, 3W, 1%" x="-21.59" y="13.97"/>
 <element name="R20" library="SparkFun-Resistors" package="1206" value="3.3k" x="-60.96" y="53.34"/>
 <element name="R21" library="rcl" package="R1206" value="100R" x="-41.91" y="43.18"/>
-<element name="R22" library="SparkFun-Resistors" package="AXIAL-0.6" value="10R, 3W, 1%" x="20.32" y="36.83"/>
+<element name="R22" library="SparkFun-Resistors" package="AXIAL-0.6" value="10R, 3W, 1%" x="-57.15" y="21.59"/>
 <element name="R23" library="SparkFun-Resistors" package="1206" value="450R" x="-15.24" y="57.15"/>
 <element name="R24" library="SparkFun-Resistors" package="1206" value="3.3k" x="-20.32" y="57.15"/>
 <element name="R25" library="rcl" package="R1206" value="100R" x="-48.26" y="43.18"/>
@@ -1945,7 +1843,7 @@ design rules under a new name.</description>
 <element name="R28" library="SparkFun-Resistors" package="1206" value="3.3k" x="-30.48" y="57.15"/>
 <element name="R29" library="rcl" package="R1206" value="100R" x="-54.61" y="43.18"/>
 <element name="R3" library="SparkFun-Resistors" package="1206" value="450R" x="-15.24" y="53.34"/>
-<element name="R30" library="SparkFun-Resistors" package="AXIAL-0.6" value="10R, 3W, 1%" x="24.13" y="29.21"/>
+<element name="R30" library="SparkFun-Resistors" package="AXIAL-0.6" value="10R, 3W, 1%" x="-39.37" y="29.21"/>
 <element name="R31" library="SparkFun-Resistors" package="1206" value="450R" x="-35.56" y="57.15"/>
 <element name="R32" library="SparkFun-Resistors" package="1206" value="3.3k" x="-40.64" y="57.15"/>
 <element name="R4" library="SparkFun-Resistors" package="1206" value="3.3k" x="-20.32" y="53.34"/>
@@ -1988,7 +1886,6 @@ design rules under a new name.</description>
 </element>
 <element name="R37" library="rcl" package="R1206" value="100R" x="-86.36" y="-69.85"/>
 <element name="C13" library="rcl" package="C1206" value="100nF" x="-86.36" y="-76.2"/>
-<element name="U$2" library="MRDT-2015-BMS" package="PFF_LEADFORM" value="ACS770" x="-78.74" y="-104.14"/>
 </elements>
 <signals>
 <signal name="CELL_8_FILTER">
@@ -2037,9 +1934,6 @@ design rules under a new name.</description>
 <contactref element="D19" pad="A"/>
 <contactref element="D17" pad="A"/>
 <contactref element="C13" pad="2"/>
-<contactref element="U$1" pad="32"/>
-<contactref element="U$2" pad="2"/>
-<wire x1="-84.96" y1="-76.2" x2="-78.74" y2="-104.14" width="0" layer="19" extent="1-1"/>
 <wire x1="-84.785" y1="-64.77" x2="-84.96" y2="-76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-84.785" y1="-60.96" x2="-84.785" y2="-64.77" width="0" layer="19" extent="1-1"/>
 <wire x1="-84.785" y1="-57.15" x2="-84.785" y2="-60.96" width="0" layer="19" extent="1-1"/>
@@ -2054,8 +1948,7 @@ design rules under a new name.</description>
 <wire x1="-48.47" y1="8.38" x2="-48.97" y2="8.38" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.97" y1="8.38" x2="-48.47" y2="8.38" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.47" y1="8.38" x2="-47.97" y2="8.38" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.97" y1="8.38" x2="-47.47" y2="8.38" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.97" y1="8.38" x2="-44.97" y2="8.38" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.97" y1="8.38" x2="-47.47" y2="8.38" width="0" layer="19" extent="1-1"/>
 <wire x1="-51.94" y1="29.21" x2="-48.97" y2="8.38" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.56" y1="29.21" x2="-51.94" y2="29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.48" y1="36.83" x2="-51.94" y2="29.21" width="0" layer="19" extent="1-1"/>
@@ -2257,8 +2150,8 @@ design rules under a new name.</description>
 <contactref element="Q7" pad="2"/>
 <contactref element="R30" pad="P$2"/>
 <contactref element="D16" pad="C"/>
-<wire x1="31.75" y1="29.21" x2="-33.02" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.838" y1="43.18" x2="31.75" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.75" y1="29.21" x2="-33.02" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.838" y1="43.18" x2="-31.75" y2="29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.93" y1="47.26" x2="-46.838" y2="43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.19" y1="60.96" x2="-54.93" y2="47.26" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2279,8 +2172,8 @@ design rules under a new name.</description>
 <contactref element="Q5" pad="2"/>
 <contactref element="R22" pad="P$2"/>
 <contactref element="D12" pad="C"/>
-<wire x1="-27.94" y1="6.35" x2="27.94" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.138" y1="43.18" x2="27.94" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.94" y1="6.35" x2="-49.53" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.138" y1="43.18" x2="-49.53" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-39.69" y1="47.26" x2="-34.138" y2="43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="-48.03" y1="60.96" x2="-39.69" y2="47.26" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2361,7 +2254,7 @@ design rules under a new name.</description>
 <contactref element="Q6" pad="3"/>
 <contactref element="R22" pad="P$1"/>
 <contactref element="R23" pad="1"/>
-<wire x1="-48.26" y1="49.36" x2="12.7" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.26" y1="49.36" x2="-64.77" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.64" y1="57.15" x2="-48.26" y2="49.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
@@ -2396,7 +2289,7 @@ design rules under a new name.</description>
 <contactref element="R30" pad="P$1"/>
 <contactref element="R31" pad="1"/>
 <wire x1="-63.5" y1="49.36" x2="-36.96" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="16.51" y1="29.21" x2="-63.5" y2="49.36" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.99" y1="29.21" x2="-63.5" y2="49.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="R31" pad="2"/>
@@ -2483,12 +2376,6 @@ design rules under a new name.</description>
 <contactref element="C13" pad="1"/>
 <wire x1="-87.782" y1="-69.85" x2="-87.76" y2="-76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.97" y1="1.78" x2="-87.782" y2="-69.85" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="+5V">
-<contactref element="U$2" pad="1"/>
-</signal>
-<signal name="PACK_I_MEAS">
-<contactref element="U$2" pad="3"/>
 </signal>
 </signals>
 </board>
