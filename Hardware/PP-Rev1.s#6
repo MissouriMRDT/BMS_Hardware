@@ -9462,6 +9462,11 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <wire x1="66.04" y1="124.46" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
 <junction x="66.04" y="124.46"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VTEMP1"/>
+<wire x1="40.64" y1="15.24" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<label x="43.18" y="15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TEMP_2" class="0">
 <segment>
@@ -9472,6 +9477,11 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="86.36" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
 <junction x="66.04" y="86.36"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VTEMP2"/>
+<wire x1="40.64" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
+<label x="43.18" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$26" class="0">
