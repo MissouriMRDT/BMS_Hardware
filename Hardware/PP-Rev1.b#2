@@ -3222,6 +3222,7 @@ design rules under a new name.</description>
 <element name="LED2" library="SparkFun-LED" package="LED-1206" value="" x="-111.76" y="-243.84"/>
 <element name="R45" library="resistor" package="R1206" value="5kΩ" x="-111.76" y="-248.92"/>
 <element name="U$4" library="MRDT-2015-BMS" package="PFF_LEADFORM" value="ACS770" x="-125.73" y="-250.19"/>
+<element name="C15" library="rcl" package="C1206" value="10uF" x="-132.08" y="-255.27"/>
 </elements>
 <signals>
 <signal name="CELL_8_FILTER">
@@ -3279,6 +3280,8 @@ design rules under a new name.</description>
 <contactref element="C14" pad="2"/>
 <contactref element="R44" pad="2"/>
 <contactref element="R45" pad="2"/>
+<contactref element="U$4" pad="2"/>
+<contactref element="C15" pad="2"/>
 <wire x1="-84.96" y1="-76.2" x2="-78.74" y2="-104.14" width="0" layer="19" extent="1-1"/>
 <wire x1="-84.785" y1="-64.77" x2="-84.96" y2="-76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-84.785" y1="-60.96" x2="-84.785" y2="-64.77" width="0" layer="19" extent="1-1"/>
@@ -3315,6 +3318,8 @@ design rules under a new name.</description>
 <wire x1="-84.96" y1="-215.9" x2="-85.725" y2="-210.88" width="0" layer="19" extent="1-1"/>
 <wire x1="-110.338" y1="-238.76" x2="-84.96" y2="-215.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-110.338" y1="-248.92" x2="-110.338" y2="-238.76" width="0" layer="19" extent="1-1"/>
+<wire x1="-125.73" y1="-250.19" x2="-110.338" y2="-248.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-130.68" y1="-255.27" x2="-125.73" y2="-250.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q1" pad="3"/>
@@ -3754,6 +3759,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="+5V">
 <contactref element="U$2" pad="1"/>
+<contactref element="U$4" pad="1"/>
+<wire x1="-127.64" y1="-250.19" x2="-80.65" y2="-104.14" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PACK_I_MEAS">
 <contactref element="U$2" pad="3"/>
@@ -3872,9 +3879,15 @@ design rules under a new name.</description>
 <signal name="N$35">
 <contactref element="D20" pad="TAB"/>
 <contactref element="IRLS3034-7P1" pad="PAD"/>
-<wire x1="-95.25" y1="-206.115" x2="-109.22" y2="-216.44" width="0" layer="19" extent="1-1"/>
+<contactref element="U$3" pad="8"/>
+<contactref element="U$3" pad="6"/>
+<contactref element="C15" pad="1"/>
+<wire x1="-109.22" y1="-216.44" x2="-133.48" y2="-255.27" width="0" layer="19" extent="1-1"/>
+<wire x1="-98.425" y1="-222.19" x2="-109.22" y2="-216.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.885" y1="-222.19" x2="-98.425" y2="-222.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.25" y1="-206.115" x2="-95.885" y2="-222.19" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$38">
+<signal name="CHARGER_IN">
 <contactref element="D20" pad="1"/>
 <contactref element="D20" pad="2"/>
 <contactref element="R43" pad="1"/>

@@ -91,6 +91,8 @@
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="140" name="Page" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="141" name="Fabrication" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="AMD" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="PMD" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
@@ -241,6 +243,106 @@ Source: http://focus.ti.com/lit/ml/mpds041b/mpds041b.pdf / slma002.pdf</descript
 <rectangle x1="-4.87" y1="2.645" x2="-4.64" y2="3.7" layer="51" rot="R180"/>
 <rectangle x1="-5.37" y1="2.645" x2="-5.14" y2="3.7" layer="51" rot="R180"/>
 </package>
+<package name="PFF_LEADFORM">
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.5"/>
+<pad name="1" x="-1.91" y="0" drill="0.8" diameter="1.5"/>
+<pad name="3" x="1.91" y="0" drill="0.8" diameter="1.5"/>
+<polygon width="0" layer="46">
+<vertex x="-8" y="21.4" curve="-90"/>
+<vertex x="-7" y="22.4"/>
+<vertex x="-3" y="22.4" curve="-90"/>
+<vertex x="-2" y="21.4" curve="-90"/>
+<vertex x="-3" y="20.4"/>
+<vertex x="-7" y="20.4" curve="-90"/>
+</polygon>
+<polygon width="0" layer="46">
+<vertex x="2" y="21.4" curve="-90"/>
+<vertex x="3" y="22.4"/>
+<vertex x="7" y="22.4" curve="-90"/>
+<vertex x="8" y="21.4" curve="-90"/>
+<vertex x="7" y="20.4"/>
+<vertex x="3" y="20.4" curve="-90"/>
+</polygon>
+<wire x1="-4.5" y1="8.7" x2="-3.5" y2="9.7" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="8.7" x2="-3.5" y2="7.7" width="0.127" layer="21"/>
+<wire x1="-5" y1="3.2" x2="-5" y2="16.2" width="0.127" layer="21"/>
+<wire x1="-5" y1="16.2" x2="5" y2="16.2" width="0.127" layer="21"/>
+<wire x1="5" y1="16.2" x2="5" y2="3.2" width="0.127" layer="21"/>
+<wire x1="5" y1="3.2" x2="-5" y2="3.2" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-5" y="7.6"/>
+<vertex x="-6.6" y="7.6"/>
+<vertex x="-7" y="8"/>
+<vertex x="-7" y="21.4"/>
+<vertex x="-3" y="21.4"/>
+<vertex x="-3" y="16.2"/>
+<vertex x="-5" y="16.2"/>
+<vertex x="-5" y="7.6"/>
+<vertex x="-6.5" y="7.6"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="5" y="7.6"/>
+<vertex x="6.6" y="7.6"/>
+<vertex x="7" y="8"/>
+<vertex x="7" y="21.4"/>
+<vertex x="3" y="21.4"/>
+<vertex x="3" y="16.2"/>
+<vertex x="5" y="16.2"/>
+<vertex x="5" y="7.6"/>
+<vertex x="6.5" y="7.6"/>
+</polygon>
+<rectangle x1="1.6" y1="0" x2="2.2" y2="3.2" layer="21"/>
+<rectangle x1="-0.3" y1="0" x2="0.3" y2="3.2" layer="21"/>
+<rectangle x1="-2.2" y1="0" x2="-1.6" y2="3.2" layer="21"/>
+<text x="-4.1" y="13.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.2" y="11.2" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-0.7" y1="9.7" x2="-0.4" y2="9.7" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="9.7" x2="-0.4" y2="9.7" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="9.7" x2="-0.4" y2="8.9" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="8.9" x2="-0.7" y2="8.9" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="8.9" x2="-0.1" y2="8.9" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="9.2" x2="-2.9" y2="8.3" width="0.127" layer="21" curve="-290.449548"/>
+<wire x1="-2.8" y1="9.6" x2="-2.8" y2="9.2" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="9.2" x2="-2.5" y2="9.2" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="8.7" x2="-1.6" y2="8.7" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="8.7" x2="3.9" y2="8.7" width="0.127" layer="21"/>
+<smd name="5_T" x="-5" y="21.4" dx="9" dy="6" layer="1"/>
+<smd name="5_B" x="-5" y="21.4" dx="9" dy="6" layer="16"/>
+<smd name="4_T" x="5" y="21.4" dx="9" dy="6" layer="1"/>
+<smd name="4_B" x="5" y="21.4" dx="9" dy="6" layer="16"/>
+<pad name="5_1" x="-7" y="23.4" drill="0.5"/>
+<pad name="5_2" x="-5.67" y="23.4" drill="0.5"/>
+<pad name="5_3" x="-4.33" y="23.4" drill="0.5"/>
+<pad name="5_4" x="-3" y="23.4" drill="0.5"/>
+<pad name="5_5" x="-1.8" y="23" drill="0.5"/>
+<pad name="5_6" x="-1.1" y="22.1" drill="0.5"/>
+<pad name="5_7" x="-1.1" y="20.7" drill="0.5"/>
+<pad name="5_8" x="-1.8" y="19.8" drill="0.5"/>
+<pad name="5_9" x="-3" y="19.4" drill="0.5"/>
+<pad name="5_10" x="-4.33" y="19.4" drill="0.5"/>
+<pad name="5_11" x="-5.67" y="19.4" drill="0.5"/>
+<pad name="5_12" x="-7" y="19.4" drill="0.5"/>
+<pad name="5_13" x="-8.2" y="19.8" drill="0.5"/>
+<pad name="5_14" x="-8.9" y="20.7" drill="0.5"/>
+<pad name="5_15" x="-8.9" y="22.1" drill="0.5"/>
+<pad name="5_16" x="-8.2" y="23" drill="0.5"/>
+<pad name="4_1" x="3" y="23.4" drill="0.5"/>
+<pad name="4_2" x="4.33" y="23.4" drill="0.5"/>
+<pad name="4_3" x="5.67" y="23.4" drill="0.5"/>
+<pad name="4_4" x="7" y="23.4" drill="0.5"/>
+<pad name="4_5" x="8.2" y="23" drill="0.5"/>
+<pad name="4_6" x="8.9" y="22.1" drill="0.5"/>
+<pad name="4_7" x="8.9" y="20.7" drill="0.5"/>
+<pad name="4_8" x="8.2" y="19.8" drill="0.5"/>
+<pad name="4_9" x="7" y="19.4" drill="0.5"/>
+<pad name="4_10" x="5.67" y="19.4" drill="0.5"/>
+<pad name="4_11" x="4.33" y="19.4" drill="0.5"/>
+<pad name="4_12" x="3" y="19.4" drill="0.5"/>
+<pad name="4_13" x="1.8" y="19.8" drill="0.5"/>
+<pad name="4_14" x="1.1" y="20.7" drill="0.5"/>
+<pad name="4_15" x="1.1" y="22.1" drill="0.5"/>
+<pad name="4_16" x="1.8" y="23" drill="0.5"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LTC6802-2">
@@ -295,6 +397,23 @@ Source: http://focus.ti.com/lit/ml/mpds041b/mpds041b.pdf / slma002.pdf</descript
 <text x="-15.24" y="33.02" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-15.24" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="ACS770">
+<wire x1="-7.62" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="IP+" x="-10.16" y="10.16" visible="pin" length="middle"/>
+<pin name="IP-" x="-10.16" y="-10.16" visible="pin" length="middle"/>
+<pin name="VCC" x="12.7" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="VIOUT" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
+<text x="2.54" y="7.62" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="Q_LTC6802-2">
@@ -348,6 +467,25 @@ Source: http://focus.ti.com/lit/ml/mpds041b/mpds041b.pdf / slma002.pdf</descript
 <connect gate="G$1" pin="VTEMP1" pad="28"/>
 <connect gate="G$1" pin="VTEMP2" pad="29"/>
 <connect gate="G$1" pin="WDTB" pad="34"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACS770">
+<gates>
+<gate name="G$1" symbol="ACS770" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PFF_LEADFORM">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IP+" pad="4_1 4_2 4_3 4_4 4_5 4_6 4_7 4_8 4_9 4_10 4_11 4_12 4_13 4_14 4_15 4_16 4_B 4_T" route="any"/>
+<connect gate="G$1" pin="IP-" pad="5_1 5_2 5_3 5_4 5_5 5_6 5_7 5_8 5_9 5_10 5_11 5_12 5_13 5_14 5_15 5_16 5_B 5_T" route="any"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VIOUT" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -840,12 +978,31 @@ FQP27P06 -
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="+5V">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+5V" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -8334,6 +8491,9 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="rcl" deviceset="C-US" device="C1206" value="100nF"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
+<part name="U$2" library="MRDT-2015-BMS" deviceset="ACS770" device=""/>
+<part name="P+1" library="supply1" deviceset="+5V" device=""/>
+<part name="GND21" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8487,6 +8647,9 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <instance part="GND19" gate="1" x="-45.72" y="40.64"/>
 <instance part="C13" gate="G$1" x="-15.24" y="53.34"/>
 <instance part="GND20" gate="1" x="-15.24" y="43.18"/>
+<instance part="U$2" gate="G$1" x="38.1" y="213.36" rot="R90"/>
+<instance part="P+1" gate="1" x="40.64" y="238.76"/>
+<instance part="GND21" gate="1" x="30.48" y="231.14"/>
 </instances>
 <busses>
 </busses>
@@ -8607,12 +8770,17 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <wire x1="55.88" y1="40.64" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
 <junction x="55.88" y="43.18"/>
 <pinref part="U$1" gate="G$1" pin="A0"/>
-<wire x1="40.64" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="38.1" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="38.1" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
 <junction x="55.88" y="40.64"/>
 <wire x1="55.88" y1="38.1" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 <junction x="55.88" y="38.1"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="TOS"/>
+<wire x1="40.64" y1="25.4" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="25.4" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
+<junction x="50.8" y="38.1"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -8670,6 +8838,13 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="-15.24" y1="48.26" x2="-15.24" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<wire x1="38.1" y1="226.06" x2="38.1" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="236.22" x2="30.48" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="30.48" y1="236.22" x2="30.48" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9511,6 +9686,21 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-15.24" y="55.88"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="P+1" gate="1" pin="+5V"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<wire x1="40.64" y1="236.22" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PACK_I_MEAS" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="VIOUT"/>
+<wire x1="35.56" y1="226.06" x2="35.56" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="228.6" x2="7.62" y2="228.6" width="0.1524" layer="91"/>
+<label x="7.62" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
