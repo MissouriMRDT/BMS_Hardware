@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -66,7 +66,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -449,6 +449,21 @@ Source: http://www.infineon.com .. tle5205-2.pdf</description>
 <pad name="2" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
 <text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="22-23-2031">
+<description>.100" (2.54mm) Center Header - 3 Pin</description>
+<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.254" layer="21"/>
+<wire x1="3.81" y1="3.175" x2="3.81" y2="1.27" width="0.254" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="3.81" y1="-3.175" x2="-3.81" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-3.81" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -3233,7 +3248,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -3319,6 +3334,9 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -3635,6 +3653,42 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="TRANS-11151" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="V_OUT1" library="MRDT-2015-PowerBoard" package="LARGE_TERMINAL_HOLE" value="TERMINAL_HOLE" x="106.68" y="10.16"/>
+<element name="X1" library="con-molex" package="22-23-2031" value="22-23-2031" x="-146.05" y="5.08">
+<attribute name="OC_NEWARK" value="30C0862" x="-146.05" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2031" x="-146.05" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MOLEX" x="-146.05" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1462950" x="-146.05" y="5.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X2" library="con-molex" package="22-23-2031" value="22-23-2031" x="-154.94" y="5.08">
+<attribute name="OC_NEWARK" value="30C0862" x="-154.94" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2031" x="-154.94" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MOLEX" x="-154.94" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1462950" x="-154.94" y="5.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X3" library="con-molex" package="22-23-2031" value="22-23-2031" x="-163.83" y="5.08">
+<attribute name="OC_NEWARK" value="30C0862" x="-163.83" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2031" x="-163.83" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MOLEX" x="-163.83" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1462950" x="-163.83" y="5.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X4" library="con-molex" package="22-23-2031" value="22-23-2031" x="-172.72" y="5.08">
+<attribute name="OC_NEWARK" value="30C0862" x="-172.72" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2031" x="-172.72" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MOLEX" x="-172.72" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1462950" x="-172.72" y="5.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q12" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="-179.07" y="1.27">
+<attribute name="PROD_ID" value="TRANS-11151" x="-179.07" y="1.27" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q13" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="-182.88" y="1.27">
+<attribute name="PROD_ID" value="TRANS-11151" x="-182.88" y="1.27" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q14" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="-186.69" y="1.27">
+<attribute name="PROD_ID" value="TRANS-11151" x="-186.69" y="1.27" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q15" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="-190.5" y="1.27">
+<attribute name="PROD_ID" value="TRANS-11151" x="-190.5" y="1.27" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="CELL_8_FILTER">
@@ -3725,6 +3779,10 @@ design rules under a new name.</description>
 <wire x1="142.24" y1="84.1375" x2="137.795" y2="79.6925" width="1.27" layer="16"/>
 <wire x1="137.795" y1="79.6925" x2="137.795" y2="46.355" width="1.27" layer="16"/>
 <wire x1="137.795" y1="46.355" x2="124.46" y2="33.02" width="1.27" layer="16"/>
+<contactref element="Q12" pad="2"/>
+<contactref element="Q13" pad="2"/>
+<contactref element="Q14" pad="2"/>
+<contactref element="Q15" pad="2"/>
 <wire x1="155.575" y1="76.965" x2="155.575" y2="83.315" width="0" layer="19" extent="16-16"/>
 <wire x1="155.575" y1="70.615" x2="155.575" y2="76.965" width="0" layer="19" extent="16-16"/>
 <wire x1="155.575" y1="64.265" x2="155.575" y2="70.615" width="0" layer="19" extent="16-16"/>
@@ -3787,6 +3845,10 @@ design rules under a new name.</description>
 <wire x1="-125.73" y1="147.32" x2="-126.87" y2="139.7" width="0" layer="19" extent="1-1"/>
 <wire x1="87.63" y1="85.09" x2="66.1" y2="46.355" width="0" layer="19" extent="1-1"/>
 <wire x1="-111.76" y1="85.09" x2="-102.74" y2="133.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-178.42" y1="0.345" x2="-111.76" y2="85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-182.23" y1="0.345" x2="-178.42" y2="0.345" width="0" layer="19" extent="1-1"/>
+<wire x1="-186.04" y1="0.345" x2="-182.23" y2="0.345" width="0" layer="19" extent="1-1"/>
+<wire x1="-189.85" y1="0.345" x2="-186.04" y2="0.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q1" pad="3"/>
@@ -4417,10 +4479,18 @@ design rules under a new name.</description>
 <contactref element="C16" pad="1"/>
 <contactref element="L2" pad="2"/>
 <contactref element="C20" pad="1"/>
-<wire x1="127" y1="2.41" x2="126.89" y2="8.89" width="0" layer="19" extent="1-1"/>
-<wire x1="57.3505" y1="35.885" x2="126.89" y2="8.89" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.09" y1="114.47" x2="57.3505" y2="35.885" width="0" layer="19" extent="1-1"/>
+<contactref element="X1" pad="2"/>
+<contactref element="X4" pad="2"/>
+<contactref element="X3" pad="2"/>
+<contactref element="X2" pad="2"/>
+<wire x1="-163.83" y1="5.08" x2="-172.72" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-154.94" y1="5.08" x2="-163.83" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-146.05" y1="5.08" x2="-154.94" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-105.09" y1="114.47" x2="-146.05" y2="5.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-134.75" y1="139.7" x2="-105.09" y2="114.47" width="0" layer="19" extent="1-1"/>
+<wire x1="57.3505" y1="35.885" x2="-105.09" y2="114.47" width="0" layer="19" extent="1-1"/>
+<wire x1="126.89" y1="8.89" x2="57.3505" y2="35.885" width="0" layer="19" extent="1-1"/>
+<wire x1="127" y1="2.41" x2="126.89" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="D20" pad="3"/>
@@ -4726,6 +4796,53 @@ design rules under a new name.</description>
 <contactref element="R57" pad="2"/>
 <wire x1="165.252" y1="2.54" x2="163.83" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="167.386" y1="1.905" x2="165.252" y2="2.54" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$65">
+<via x="105.41" y="78.74" extent="1-16" drill="0.6" shape="square"/>
+</signal>
+<signal name="N$66">
+<contactref element="Q12" pad="3"/>
+<contactref element="X1" pad="1"/>
+<wire x1="-148.59" y1="5.08" x2="-179.07" y2="2.195" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FAN_CTL_1">
+<contactref element="Q12" pad="1"/>
+</signal>
+<signal name="FAN_TACH_1">
+<contactref element="X1" pad="3"/>
+</signal>
+<signal name="N$70">
+<contactref element="Q13" pad="3"/>
+<contactref element="X2" pad="1"/>
+<wire x1="-157.48" y1="5.08" x2="-182.88" y2="2.195" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$71">
+<contactref element="Q14" pad="3"/>
+<contactref element="X3" pad="1"/>
+<wire x1="-166.37" y1="5.08" x2="-186.69" y2="2.195" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$72">
+<contactref element="Q15" pad="3"/>
+<contactref element="X4" pad="1"/>
+<wire x1="-175.26" y1="5.08" x2="-190.5" y2="2.195" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FAN_TACH_2">
+<contactref element="X2" pad="3"/>
+</signal>
+<signal name="FAN_TACH_3">
+<contactref element="X3" pad="3"/>
+</signal>
+<signal name="FAN_TACH_4">
+<contactref element="X4" pad="3"/>
+</signal>
+<signal name="FAN_CTL_4">
+<contactref element="Q15" pad="1"/>
+</signal>
+<signal name="FAN_CTL_3">
+<contactref element="Q14" pad="1"/>
+</signal>
+<signal name="FAN_CTL_2">
+<contactref element="Q13" pad="1"/>
 </signal>
 </signals>
 </board>

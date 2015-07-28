@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -632,6 +632,21 @@ Source: http://www.infineon.com .. tle5205-2.pdf</description>
 <text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="22-23-2031">
+<description>.100" (2.54mm) Center Header - 3 Pin</description>
+<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.254" layer="21"/>
+<wire x1="3.81" y1="3.175" x2="3.81" y2="1.27" width="0.254" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="3.81" y1="-3.175" x2="-3.81" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-3.81" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MV">
@@ -702,6 +717,31 @@ Source: http://www.infineon.com .. tle5205-2.pdf</description>
 <attribute name="MPN" value="22-23-2021" constant="no"/>
 <attribute name="OC_FARNELL" value="1462926" constant="no"/>
 <attribute name="OC_NEWARK" value="25C3832" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22-23-2031" prefix="X">
+<description>.100" (2.54mm) Center Header - 3 Pin</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="22-23-2031">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="22-23-2031" constant="no"/>
+<attribute name="OC_FARNELL" value="1462950" constant="no"/>
+<attribute name="OC_NEWARK" value="30C0862" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -18512,6 +18552,22 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="V_OUT1" library="MRDT-2015-PowerBoard" deviceset="TERMINAL_HOLE" device=""/>
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="X1" library="con-molex" deviceset="22-23-2031" device=""/>
+<part name="X2" library="con-molex" deviceset="22-23-2031" device=""/>
+<part name="X3" library="con-molex" deviceset="22-23-2031" device=""/>
+<part name="X4" library="con-molex" deviceset="22-23-2031" device=""/>
+<part name="Q12" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW" value="2N7002PW"/>
+<part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="P+5" library="supply1" deviceset="+12V" device=""/>
+<part name="Q13" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW" value="2N7002PW"/>
+<part name="Q14" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW" value="2N7002PW"/>
+<part name="Q15" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW" value="2N7002PW"/>
+<part name="GND46" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="P+6" library="supply1" deviceset="+12V" device=""/>
+<part name="P+7" library="supply1" deviceset="+12V" device=""/>
+<part name="P+8" library="supply1" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18580,6 +18636,11 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <wire x1="345.44" y1="193.04" x2="345.44" y2="106.68" width="0.1524" layer="94"/>
 <wire x1="345.44" y1="106.68" x2="279.4" y2="106.68" width="0.1524" layer="94"/>
 <text x="281.94" y="109.22" size="2.54" layer="94" font="vector">Buzzer Alarms</text>
+<text x="355.6" y="109.22" size="2.54" layer="94" font="vector">Fan Power/Control</text>
+<wire x1="353.06" y1="106.68" x2="353.06" y2="193.04" width="0.1524" layer="94"/>
+<wire x1="353.06" y1="193.04" x2="408.94" y2="193.04" width="0.1524" layer="94"/>
+<wire x1="408.94" y1="193.04" x2="408.94" y2="106.68" width="0.1524" layer="94"/>
+<wire x1="408.94" y1="106.68" x2="353.06" y2="106.68" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="17.78" y="27.94"/>
@@ -18819,6 +18880,30 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <instance part="SUPPLY7" gate="G$1" x="309.88" y="175.26"/>
 <instance part="V_OUT1" gate="G$1" x="165.1" y="25.4"/>
 <instance part="GND42" gate="1" x="165.1" y="17.78"/>
+<instance part="X1" gate="-1" x="393.7" y="175.26"/>
+<instance part="X1" gate="-2" x="393.7" y="172.72"/>
+<instance part="X1" gate="-3" x="393.7" y="170.18"/>
+<instance part="X2" gate="-1" x="393.7" y="157.48"/>
+<instance part="X2" gate="-2" x="393.7" y="154.94"/>
+<instance part="X2" gate="-3" x="393.7" y="152.4"/>
+<instance part="X3" gate="-1" x="393.7" y="139.7"/>
+<instance part="X3" gate="-2" x="393.7" y="137.16"/>
+<instance part="X3" gate="-3" x="393.7" y="134.62"/>
+<instance part="X4" gate="-1" x="393.7" y="121.92"/>
+<instance part="X4" gate="-2" x="393.7" y="119.38"/>
+<instance part="X4" gate="-3" x="393.7" y="116.84"/>
+<instance part="Q12" gate="G$1" x="370.84" y="175.26" rot="MR90"/>
+<instance part="GND43" gate="1" x="363.22" y="170.18"/>
+<instance part="P+5" gate="1" x="388.62" y="180.34"/>
+<instance part="Q13" gate="G$1" x="370.84" y="157.48" rot="MR90"/>
+<instance part="Q14" gate="G$1" x="370.84" y="139.7" rot="MR90"/>
+<instance part="Q15" gate="G$1" x="370.84" y="121.92" rot="MR90"/>
+<instance part="GND46" gate="1" x="363.22" y="152.4"/>
+<instance part="GND47" gate="1" x="363.22" y="134.62"/>
+<instance part="GND48" gate="1" x="363.22" y="116.84"/>
+<instance part="P+6" gate="1" x="388.62" y="162.56"/>
+<instance part="P+7" gate="1" x="388.62" y="144.78"/>
+<instance part="P+8" gate="1" x="388.62" y="127"/>
 </instances>
 <busses>
 </busses>
@@ -19189,6 +19274,30 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <pinref part="V_OUT1" gate="G$1" pin="P$1"/>
 <pinref part="GND42" gate="1" pin="GND"/>
 <wire x1="165.1" y1="25.4" x2="165.1" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND43" gate="1" pin="GND"/>
+<wire x1="363.22" y1="172.72" x2="363.22" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="175.26" x2="365.76" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="Q12" gate="G$1" pin="S"/>
+</segment>
+<segment>
+<pinref part="Q13" gate="G$1" pin="S"/>
+<wire x1="365.76" y1="157.48" x2="363.22" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="GND46" gate="1" pin="GND"/>
+<wire x1="363.22" y1="157.48" x2="363.22" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q14" gate="G$1" pin="S"/>
+<wire x1="365.76" y1="139.7" x2="363.22" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="GND47" gate="1" pin="GND"/>
+<wire x1="363.22" y1="139.7" x2="363.22" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q15" gate="G$1" pin="S"/>
+<wire x1="365.76" y1="121.92" x2="363.22" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="GND48" gate="1" pin="GND"/>
+<wire x1="363.22" y1="121.92" x2="363.22" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -20258,6 +20367,30 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <wire x1="241.3" y1="7.62" x2="241.3" y2="10.16" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="P+5" gate="1" pin="+12V"/>
+<wire x1="391.16" y1="172.72" x2="388.62" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="172.72" x2="388.62" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X4" gate="-2" pin="S"/>
+<pinref part="P+8" gate="1" pin="+12V"/>
+<wire x1="391.16" y1="119.38" x2="388.62" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="119.38" x2="388.62" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X3" gate="-2" pin="S"/>
+<pinref part="P+7" gate="1" pin="+12V"/>
+<wire x1="391.16" y1="137.16" x2="388.62" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="137.16" x2="388.62" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-2" pin="S"/>
+<pinref part="P+6" gate="1" pin="+12V"/>
+<wire x1="391.16" y1="154.94" x2="388.62" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="154.94" x2="388.62" y2="160.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$38" class="0">
 <segment>
@@ -20733,6 +20866,94 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <wire x1="342.9" y1="71.12" x2="347.98" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="76.2" x2="342.9" y2="71.12" width="0.1524" layer="91"/>
 <junction x="342.9" y="71.12"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="Q12" gate="G$1" pin="D"/>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="375.92" y1="175.26" x2="391.16" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FAN_CTL_1" class="0">
+<segment>
+<pinref part="Q12" gate="G$1" pin="G"/>
+<wire x1="370.84" y1="167.64" x2="370.84" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="165.1" x2="386.08" y2="165.1" width="0.1524" layer="91"/>
+<label x="373.38" y="165.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FAN_TACH_1" class="0">
+<segment>
+<pinref part="X1" gate="-3" pin="S"/>
+<wire x1="391.16" y1="170.18" x2="375.92" y2="170.18" width="0.1524" layer="91"/>
+<label x="375.92" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="Q13" gate="G$1" pin="D"/>
+<pinref part="X2" gate="-1" pin="S"/>
+<wire x1="375.92" y1="157.48" x2="391.16" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$71" class="0">
+<segment>
+<pinref part="Q14" gate="G$1" pin="D"/>
+<pinref part="X3" gate="-1" pin="S"/>
+<wire x1="375.92" y1="139.7" x2="391.16" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="Q15" gate="G$1" pin="D"/>
+<pinref part="X4" gate="-1" pin="S"/>
+<wire x1="375.92" y1="121.92" x2="391.16" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FAN_TACH_2" class="0">
+<segment>
+<pinref part="X2" gate="-3" pin="S"/>
+<wire x1="391.16" y1="152.4" x2="375.92" y2="152.4" width="0.1524" layer="91"/>
+<label x="375.92" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FAN_TACH_3" class="0">
+<segment>
+<pinref part="X3" gate="-3" pin="S"/>
+<wire x1="391.16" y1="134.62" x2="375.92" y2="134.62" width="0.1524" layer="91"/>
+<label x="375.92" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FAN_TACH_4" class="0">
+<segment>
+<pinref part="X4" gate="-3" pin="S"/>
+<wire x1="391.16" y1="116.84" x2="375.92" y2="116.84" width="0.1524" layer="91"/>
+<label x="375.92" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FAN_CTL_4" class="0">
+<segment>
+<pinref part="Q15" gate="G$1" pin="G"/>
+<wire x1="370.84" y1="114.3" x2="370.84" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="111.76" x2="386.08" y2="111.76" width="0.1524" layer="91"/>
+<label x="373.38" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FAN_CTL_3" class="0">
+<segment>
+<pinref part="Q14" gate="G$1" pin="G"/>
+<wire x1="370.84" y1="132.08" x2="370.84" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="129.54" x2="386.08" y2="129.54" width="0.1524" layer="91"/>
+<label x="373.38" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FAN_CTL_2" class="0">
+<segment>
+<pinref part="Q13" gate="G$1" pin="G"/>
+<wire x1="370.84" y1="149.86" x2="370.84" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="147.32" x2="386.08" y2="147.32" width="0.1524" layer="91"/>
+<label x="373.38" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
