@@ -1,0 +1,31 @@
+* C:\Users\IEUser\Documents\Power-Pack\SPICE\BuckV1_Basic_Therm.asc
+XU1 N005 0 N007 CHGIN2 N008 N006 LTC4440
+L1 N002 CHGIN2 22µ Ipk=36.6 Rser=0.002236 Rpar=2072.4 Cpar=0 flux=0.000022*36.6*tanh(x/36.6)
+XM1 CHGIN Gate CHGIN2 irfh7184pbf
+C1 N006 CHGIN2 .22µ
+XD1 N005 N006 BAS21
+V1 N005 0 12
+C2 N005 0 1µ
+D3 0 CHGIN2 STTH60P03SW
+C3 N002 0 1000µ V=63 Irms=1.41 Rser=0.2324
+C4 N002 0 1000µ V=63 Irms=1.41 Rser=0.2324
+C5 N002 0 1000µ V=63 Irms=1.41 Rser=0.2324
+R1 N002 0 0.5 pwr=2000
+C6 N003 0 1000µ V=63 Irms=1.41 Rser=0.2324
+C7 N003 0 1000µ V=63 Irms=1.41 Rser=0.2324
+V2 N003 0 48
+V3 N007 0 PULSE(0 5 0 25n 25n 1u 2u)
+R2 Gate N008 1m
+B1 0 N004 I=((V(CHGIN)-V(CHGIN2))*I(R4))+(V(Gate)*I(R2))
+R4 N003 CHGIN 0.001
+XR3 N001 N004 irfh7184pbft
+V4 N001 0 25
+.model D D
+.lib C:\Program Files\LTC\LTspiceIV\lib\cmp\standard.dio
+.inc C:\Users\IEUser\Documents\Power-Pack\SPICE\Models\irfh7184pbf.spi
+.inc C:\Users\IEUser\Documents\Power-Pack\SPICE\Models\BAS21.prm
+* .lib C:\\Users\\IEUser\\Documents\\Power-Pack\\SPICE\\Models\\ultrafast_200v_300v_400v_v2.LIB
+.tran 5m
+.lib LTC4440.sub
+.backanno
+.end
