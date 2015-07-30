@@ -10,11 +10,11 @@ D3 0 CHGIN2 STTH60P03SW
 C3 N002 0 1000µ V=63 Irms=1.41 Rser=0.2324
 C4 N002 0 1000µ V=63 Irms=1.41 Rser=0.2324
 C5 N002 0 1000µ V=63 Irms=1.41 Rser=0.2324
-R1 N002 0 0.5 pwr=2000
+R1 N002 0 1 pwr=2000
 C6 N003 0 1000µ V=63 Irms=1.41 Rser=0.2324
 C7 N003 0 1000µ V=63 Irms=1.41 Rser=0.2324
 V2 N003 0 48
-V3 N007 0 PULSE(0 5 0 25n 25n 1u 2u)
+V3 N007 0 PULSE(0 5 0 25n 25n {on} 2u)
 R2 Gate N008 1m
 B1 0 N004 I=((V(CHGIN)-V(CHGIN2))*I(R4))+(V(Gate)*I(R2))
 R4 N003 CHGIN 0.001
@@ -25,7 +25,8 @@ V4 N001 0 25
 .inc C:\Users\IEUser\Documents\Power-Pack\SPICE\Models\irfh7184pbf.spi
 .inc C:\Users\IEUser\Documents\Power-Pack\SPICE\Models\BAS21.prm
 * .lib C:\\Users\\IEUser\\Documents\\Power-Pack\\SPICE\\Models\\ultrafast_200v_300v_400v_v2.LIB
-.tran 5m
+.tran 100m
+.STEP param on 0.2u 1.8u 0.2u
 .lib LTC4440.sub
 .backanno
 .end
