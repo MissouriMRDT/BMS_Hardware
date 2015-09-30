@@ -3635,6 +3635,80 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Boards">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find boards and modules: Arduino footprints, breadboards, non-RF modules, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="WIZ811MJ">
+<description>&lt;h3&gt;WIZnet W5100 Network Module with MagJack - WIZ811MJ&lt;/h3&gt;
+WIZnet's WIZ811MJ is a breakout board for the W5100 embedded TCP/IP chip. Also included on the board is a RJ-45 MagJack Connector (RJ45 with X'FMR).&lt;br&gt;&lt;br&gt;
+
+See http://www.sparkfun.com/commerce/product_info.php?products_id=9473 for more documentation and info.&lt;br&gt;
+&lt;B&gt;**UNPROVEN&lt;/b&gt;</description>
+<wire x1="-31.86" y1="-23.73" x2="-31.86" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-31.86" y1="1.27" x2="20.14" y2="1.27" width="0.127" layer="21"/>
+<wire x1="20.14" y1="1.27" x2="20.14" y2="-23.73" width="0.127" layer="21"/>
+<wire x1="20.14" y1="-23.73" x2="-31.86" y2="-23.73" width="0.127" layer="21"/>
+<wire x1="2.14" y1="-19.18" x2="23.34" y2="-19.18" width="0.127" layer="51"/>
+<wire x1="23.34" y1="-19.18" x2="23.34" y2="-3.28" width="0.127" layer="51"/>
+<wire x1="23.34" y1="-3.28" x2="2.14" y2="-3.28" width="0.127" layer="51"/>
+<wire x1="2.14" y1="-19.18" x2="2.14" y2="-3.28" width="0.127" layer="51"/>
+<pad name="40" x="-22.86" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="38" x="-20.32" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="36" x="-17.78" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="34" x="-15.24" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="32" x="-12.7" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="30" x="-10.16" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="28" x="-7.62" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="26" x="-5.08" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="24" x="-2.54" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="22" x="0" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="39" x="-22.86" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="37" x="-20.32" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="35" x="-17.78" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="33" x="-15.24" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="31" x="-12.7" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="29" x="-10.16" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="27" x="-7.62" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="25" x="-5.08" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="23" x="-2.54" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="21" x="0" y="-19.92" drill="1.02" diameter="1.8796" shape="square"/>
+<pad name="19" x="-22.86" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="17" x="-20.32" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="15" x="-17.78" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="13" x="-15.24" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="11" x="-12.7" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="9" x="-10.16" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="7" x="-7.62" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="5" x="-5.08" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="3" x="-2.54" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="1" x="0" y="0" drill="1.02" diameter="1.8796" shape="square"/>
+<pad name="20" x="-22.86" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="18" x="-20.32" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="16" x="-17.78" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="14" x="-15.24" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="12" x="-12.7" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="10" x="-10.16" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="8" x="-7.62" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="6" x="-5.08" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="4" x="-2.54" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="2" x="0" y="-2.54" drill="1.02" diameter="1.8796"/>
+<text x="1.14" y="-1.73" size="1.27" layer="51">J1</text>
+<text x="1.14" y="-21.73" size="1.27" layer="51">J2</text>
+<text x="6.14" y="-0.73" size="1.27" layer="51">WIZnet</text>
+<text x="3.44" y="-23.33" size="1.27" layer="51">WIZ811MJ REV1.0</text>
+<text x="-30.59" y="-7.22" size="1.778" layer="25">&gt;Name</text>
+<text x="-30.59" y="-17.38" size="1.778" layer="27">&gt;Value</text>
+<hole x="-27.86" y="-19.73" drill="3"/>
+<hole x="-27.86" y="-2.73" drill="3"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4102,6 +4176,7 @@ design rules under a new name.</description>
 <element name="JP4" library="SparkFun-Connectors" package="MOLEX-1X6" value="JST B6B-XH" x="-257.81" y="-85.09"/>
 <element name="JP5" library="SparkFun-Connectors" package="1X16_LONGPADS" value="" x="-257.81" y="-92.71"/>
 <element name="RV1" library="SparkFun-Electromechanical" package="TRIM_POT" value="" x="-257.81" y="-99.06"/>
+<element name="U1" library="SparkFun-Boards" package="WIZ811MJ" value="WIZ811MJ" x="-227.33" y="-104.14"/>
 </elements>
 <signals>
 <signal name="CELL_8_FILTER">
@@ -4210,6 +4285,11 @@ design rules under a new name.</description>
 <contactref element="U$13" pad="GND_8"/>
 <contactref element="JP5" pad="1"/>
 <contactref element="RV1" pad="2"/>
+<contactref element="U1" pad="30"/>
+<contactref element="U1" pad="40"/>
+<contactref element="U1" pad="39"/>
+<contactref element="U1" pad="29"/>
+<contactref element="U1" pad="11"/>
 <wire x1="-205.74" y1="-62.23" x2="-205.74" y2="-34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-205.74" y1="-64.77" x2="-205.74" y2="-62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="-205.74" y1="-74.93" x2="-205.74" y2="-64.77" width="0" layer="19" extent="1-1"/>
@@ -4224,6 +4304,11 @@ design rules under a new name.</description>
 <wire x1="-255.27" y1="-85.09" x2="-252.73" y2="-85.09" width="0" layer="19" extent="1-1"/>
 <wire x1="-257.81" y1="-92.71" x2="-255.27" y2="-85.09" width="0" layer="19" extent="1-1"/>
 <wire x1="-257.81" y1="-96.52" x2="-257.81" y2="-92.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-240.03" y1="-104.14" x2="-257.81" y2="-96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-237.49" y1="-124.06" x2="-240.03" y2="-104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-237.49" y1="-126.6" x2="-237.49" y2="-124.06" width="0" layer="19" extent="1-1"/>
+<wire x1="-250.19" y1="-126.6" x2="-237.49" y2="-126.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-250.19" y1="-124.06" x2="-250.19" y2="-126.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-251.46" y1="-64.77" x2="-252.73" y2="-85.09" width="0" layer="19" extent="1-1"/>
 <wire x1="-251.46" y1="-62.23" x2="-251.46" y2="-64.77" width="0" layer="19" extent="1-1"/>
 <wire x1="-248.92" y1="-36.83" x2="-251.46" y2="-62.23" width="0" layer="19" extent="1-1"/>
@@ -5452,8 +5537,10 @@ design rules under a new name.</description>
 <contactref element="U$13" pad="2.3"/>
 <wire x1="-208.28" y1="-49.53" x2="-245.11" y2="-85.09" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$106">
+<signal name="WIZNET_DATA_INT">
 <contactref element="U$13" pad="6.1"/>
+<contactref element="U1" pad="28"/>
+<wire x1="-248.92" y1="-39.37" x2="-234.95" y2="-126.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$107">
 <contactref element="U$13" pad="6.2"/>
@@ -5467,20 +5554,30 @@ design rules under a new name.</description>
 <signal name="N$110">
 <contactref element="U$13" pad="6.5"/>
 </signal>
-<signal name="N$35">
+<signal name="WIZNET_RESET">
 <contactref element="U$13" pad="9.0"/>
+<contactref element="U1" pad="22"/>
+<wire x1="-248.92" y1="-74.93" x2="-227.33" y2="-126.6" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$45">
+<signal name="WIZNET_SS">
 <contactref element="U$13" pad="9.4"/>
+<contactref element="U1" pad="24"/>
+<wire x1="-231.14" y1="-74.93" x2="-229.87" y2="-126.6" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$67">
+<signal name="WIZNET_SCLK">
 <contactref element="U$13" pad="9.5"/>
+<contactref element="U1" pad="23"/>
+<wire x1="-228.6" y1="-77.47" x2="-229.87" y2="-124.06" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$68">
+<signal name="WIZNET_MISO">
 <contactref element="U$13" pad="9.6"/>
+<contactref element="U1" pad="2"/>
+<wire x1="-228.6" y1="-74.93" x2="-227.33" y2="-106.68" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$93">
+<signal name="WIZNET_MOSI">
 <contactref element="U$13" pad="9.7"/>
+<contactref element="U1" pad="1"/>
+<wire x1="-226.06" y1="-77.47" x2="-227.33" y2="-104.14" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LCD_VBACK">
 <contactref element="JP5" pad="3"/>
@@ -5547,6 +5644,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$116">
 <contactref element="JP5" pad="16"/>
+</signal>
+<signal name="+3V3">
+<contactref element="U$13" pad="3V3_4"/>
+<contactref element="U$13" pad="3V3_3"/>
+<contactref element="U$13" pad="3V3_2"/>
+<contactref element="U$13" pad="3V3_1"/>
+<contactref element="U1" pad="21"/>
+<contactref element="U1" pad="12"/>
+<wire x1="-240.03" y1="-106.68" x2="-227.33" y2="-124.06" width="0" layer="19" extent="1-1"/>
+<wire x1="-208.28" y1="-77.47" x2="-240.03" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-208.28" y1="-74.93" x2="-208.28" y2="-77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-205.74" y1="-67.31" x2="-208.28" y2="-74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-251.46" y1="-34.29" x2="-205.74" y2="-67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

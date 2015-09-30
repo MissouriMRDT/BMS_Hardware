@@ -1418,6 +1418,12 @@ FQP27P06 -
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="+3V3">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -1450,6 +1456,19 @@ FQP27P06 -
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+3V3" prefix="+3V3">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -21326,6 +21345,189 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Boards">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find boards and modules: Arduino footprints, breadboards, non-RF modules, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="WIZ811MJ">
+<description>&lt;h3&gt;WIZnet W5100 Network Module with MagJack - WIZ811MJ&lt;/h3&gt;
+WIZnet's WIZ811MJ is a breakout board for the W5100 embedded TCP/IP chip. Also included on the board is a RJ-45 MagJack Connector (RJ45 with X'FMR).&lt;br&gt;&lt;br&gt;
+
+See http://www.sparkfun.com/commerce/product_info.php?products_id=9473 for more documentation and info.&lt;br&gt;
+&lt;B&gt;**UNPROVEN&lt;/b&gt;</description>
+<wire x1="-31.86" y1="-23.73" x2="-31.86" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-31.86" y1="1.27" x2="20.14" y2="1.27" width="0.127" layer="21"/>
+<wire x1="20.14" y1="1.27" x2="20.14" y2="-23.73" width="0.127" layer="21"/>
+<wire x1="20.14" y1="-23.73" x2="-31.86" y2="-23.73" width="0.127" layer="21"/>
+<wire x1="2.14" y1="-19.18" x2="23.34" y2="-19.18" width="0.127" layer="51"/>
+<wire x1="23.34" y1="-19.18" x2="23.34" y2="-3.28" width="0.127" layer="51"/>
+<wire x1="23.34" y1="-3.28" x2="2.14" y2="-3.28" width="0.127" layer="51"/>
+<wire x1="2.14" y1="-19.18" x2="2.14" y2="-3.28" width="0.127" layer="51"/>
+<pad name="40" x="-22.86" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="38" x="-20.32" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="36" x="-17.78" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="34" x="-15.24" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="32" x="-12.7" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="30" x="-10.16" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="28" x="-7.62" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="26" x="-5.08" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="24" x="-2.54" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="22" x="0" y="-22.46" drill="1.02" diameter="1.8796"/>
+<pad name="39" x="-22.86" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="37" x="-20.32" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="35" x="-17.78" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="33" x="-15.24" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="31" x="-12.7" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="29" x="-10.16" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="27" x="-7.62" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="25" x="-5.08" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="23" x="-2.54" y="-19.92" drill="1.02" diameter="1.8796"/>
+<pad name="21" x="0" y="-19.92" drill="1.02" diameter="1.8796" shape="square"/>
+<pad name="19" x="-22.86" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="17" x="-20.32" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="15" x="-17.78" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="13" x="-15.24" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="11" x="-12.7" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="9" x="-10.16" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="7" x="-7.62" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="5" x="-5.08" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="3" x="-2.54" y="0" drill="1.02" diameter="1.8796"/>
+<pad name="1" x="0" y="0" drill="1.02" diameter="1.8796" shape="square"/>
+<pad name="20" x="-22.86" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="18" x="-20.32" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="16" x="-17.78" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="14" x="-15.24" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="12" x="-12.7" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="10" x="-10.16" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="8" x="-7.62" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="6" x="-5.08" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="4" x="-2.54" y="-2.54" drill="1.02" diameter="1.8796"/>
+<pad name="2" x="0" y="-2.54" drill="1.02" diameter="1.8796"/>
+<text x="1.14" y="-1.73" size="1.27" layer="51">J1</text>
+<text x="1.14" y="-21.73" size="1.27" layer="51">J2</text>
+<text x="6.14" y="-0.73" size="1.27" layer="51">WIZnet</text>
+<text x="3.44" y="-23.33" size="1.27" layer="51">WIZ811MJ REV1.0</text>
+<text x="-30.59" y="-7.22" size="1.778" layer="25">&gt;Name</text>
+<text x="-30.59" y="-17.38" size="1.778" layer="27">&gt;Value</text>
+<hole x="-27.86" y="-19.73" drill="3"/>
+<hole x="-27.86" y="-2.73" drill="3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WIZ811MJ">
+<wire x1="-12.7" y1="30.48" x2="-12.7" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-33.02" x2="12.7" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-33.02" x2="12.7" y2="30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="30.48" x2="-12.7" y2="30.48" width="0.254" layer="94"/>
+<text x="-12.7" y="30.988" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="-35.56" size="1.778" layer="96">&gt;Value</text>
+<pin name="VCC@1" x="-15.24" y="27.94" length="short"/>
+<pin name="VCC@2" x="-15.24" y="25.4" length="short"/>
+<pin name="GND@1" x="-15.24" y="-20.32" length="short"/>
+<pin name="GND@2" x="-15.24" y="-22.86" length="short"/>
+<pin name="GND@3" x="-15.24" y="-25.4" length="short"/>
+<pin name="GND@4" x="-15.24" y="-27.94" length="short"/>
+<pin name="GND@5" x="-15.24" y="-30.48" length="short"/>
+<pin name="SCLK" x="15.24" y="20.32" length="short" rot="R180"/>
+<pin name="/SCS" x="15.24" y="17.78" length="short" rot="R180"/>
+<pin name="MOSI" x="15.24" y="15.24" length="short" rot="R180"/>
+<pin name="MISO" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="A14" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="A13" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="A12" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="A11" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="A10" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="A9" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="A8" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="A7" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="D7" x="-15.24" y="-12.7" length="short"/>
+<pin name="D6" x="-15.24" y="-10.16" length="short"/>
+<pin name="D5" x="-15.24" y="-7.62" length="short"/>
+<pin name="D4" x="-15.24" y="-5.08" length="short"/>
+<pin name="D3" x="-15.24" y="-2.54" length="short"/>
+<pin name="D2" x="-15.24" y="0" length="short"/>
+<pin name="D1" x="-15.24" y="2.54" length="short"/>
+<pin name="/RD" x="-15.24" y="12.7" length="short"/>
+<pin name="/CS" x="-15.24" y="10.16" length="short"/>
+<pin name="/WR" x="-15.24" y="15.24" length="short"/>
+<pin name="/INT" x="-15.24" y="17.78" length="short"/>
+<pin name="D0" x="-15.24" y="5.08" length="short"/>
+<pin name="/RESET" x="15.24" y="27.94" length="short" rot="R180"/>
+<pin name="A6" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="A5" x="15.24" y="-17.78" length="short" rot="R180"/>
+<pin name="A4" x="15.24" y="-20.32" length="short" rot="R180"/>
+<pin name="A3" x="15.24" y="-22.86" length="short" rot="R180"/>
+<pin name="A2" x="15.24" y="-25.4" length="short" rot="R180"/>
+<pin name="A1" x="15.24" y="-27.94" length="short" rot="R180"/>
+<pin name="A0" x="15.24" y="-30.48" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WIZ811MJ" prefix="U">
+<description>&lt;h3&gt;WIZnet W5100 Network Module with MagJack - WIZ811MJ&lt;/h3&gt;
+WIZnet's WIZ811MJ is a breakout board for the W5100 embedded TCP/IP chip. Also included on the board is a RJ-45 MagJack Connector (RJ45 with X'FMR).&lt;br&gt;&lt;br&gt;
+
+See http://www.sparkfun.com/commerce/product_info.php?products_id=9473 for more documentation and info.&lt;br&gt;
+&lt;B&gt;**UNPROVEN&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="WIZ811MJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WIZ811MJ">
+<connects>
+<connect gate="G$1" pin="/CS" pad="27"/>
+<connect gate="G$1" pin="/INT" pad="28"/>
+<connect gate="G$1" pin="/RD" pad="26"/>
+<connect gate="G$1" pin="/RESET" pad="22"/>
+<connect gate="G$1" pin="/SCS" pad="24"/>
+<connect gate="G$1" pin="/WR" pad="25"/>
+<connect gate="G$1" pin="A0" pad="31"/>
+<connect gate="G$1" pin="A1" pad="32"/>
+<connect gate="G$1" pin="A10" pad="15"/>
+<connect gate="G$1" pin="A11" pad="16"/>
+<connect gate="G$1" pin="A12" pad="17"/>
+<connect gate="G$1" pin="A13" pad="18"/>
+<connect gate="G$1" pin="A14" pad="19"/>
+<connect gate="G$1" pin="A2" pad="33"/>
+<connect gate="G$1" pin="A3" pad="34"/>
+<connect gate="G$1" pin="A4" pad="35"/>
+<connect gate="G$1" pin="A5" pad="36"/>
+<connect gate="G$1" pin="A6" pad="37"/>
+<connect gate="G$1" pin="A7" pad="38"/>
+<connect gate="G$1" pin="A8" pad="13"/>
+<connect gate="G$1" pin="A9" pad="14"/>
+<connect gate="G$1" pin="D0" pad="4"/>
+<connect gate="G$1" pin="D1" pad="3"/>
+<connect gate="G$1" pin="D2" pad="6"/>
+<connect gate="G$1" pin="D3" pad="5"/>
+<connect gate="G$1" pin="D4" pad="8"/>
+<connect gate="G$1" pin="D5" pad="7"/>
+<connect gate="G$1" pin="D6" pad="10"/>
+<connect gate="G$1" pin="D7" pad="9"/>
+<connect gate="G$1" pin="GND@1" pad="11"/>
+<connect gate="G$1" pin="GND@2" pad="29"/>
+<connect gate="G$1" pin="GND@3" pad="39"/>
+<connect gate="G$1" pin="GND@4" pad="40"/>
+<connect gate="G$1" pin="GND@5" pad="30"/>
+<connect gate="G$1" pin="MISO" pad="2"/>
+<connect gate="G$1" pin="MOSI" pad="1"/>
+<connect gate="G$1" pin="SCLK" pad="23"/>
+<connect gate="G$1" pin="VCC@1" pad="12"/>
+<connect gate="G$1" pin="VCC@2" pad="21"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21581,6 +21783,10 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <part name="RV1" library="SparkFun-Electromechanical" deviceset="POT" device="TRIM"/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND53" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="U1" library="SparkFun-Boards" deviceset="WIZ811MJ" device=""/>
+<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND54" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21659,6 +21865,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <wire x1="472.44" y1="106.68" x2="472.44" y2="193.04" width="0.1524" layer="94"/>
 <wire x1="472.44" y1="193.04" x2="416.56" y2="193.04" width="0.1524" layer="94"/>
 <text x="419.1" y="109.22" size="1.778" layer="94" font="vector">LCD Screen &amp; Power Supply Control</text>
+<text x="355.6" y="317.5" size="1.778" layer="94" font="vector">Note: 3V3 is output of Launchpad Vreg</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="17.78" y="27.94"/>
@@ -21948,6 +22155,10 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <instance part="RV1" gate="G$1" x="467.36" y="160.02" rot="R180"/>
 <instance part="SUPPLY11" gate="G$1" x="467.36" y="170.18"/>
 <instance part="GND53" gate="1" x="467.36" y="147.32"/>
+<instance part="U1" gate="G$1" x="429.26" y="269.24"/>
+<instance part="+3V1" gate="G$1" x="358.14" y="314.96"/>
+<instance part="+3V2" gate="G$1" x="411.48" y="302.26"/>
+<instance part="GND54" gate="1" x="411.48" y="233.68"/>
 </instances>
 <busses>
 </busses>
@@ -22409,6 +22620,28 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <pinref part="RV1" gate="G$1" pin="E"/>
 <pinref part="GND53" gate="1" pin="GND"/>
 <wire x1="467.36" y1="152.4" x2="467.36" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND@5"/>
+<wire x1="414.02" y1="238.76" x2="411.48" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="GND54" gate="1" pin="GND"/>
+<wire x1="411.48" y1="238.76" x2="411.48" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND@4"/>
+<wire x1="414.02" y1="241.3" x2="411.48" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="241.3" x2="411.48" y2="238.76" width="0.1524" layer="91"/>
+<junction x="411.48" y="238.76"/>
+<pinref part="U1" gate="G$1" pin="GND@3"/>
+<wire x1="414.02" y1="243.84" x2="411.48" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="243.84" x2="411.48" y2="241.3" width="0.1524" layer="91"/>
+<junction x="411.48" y="241.3"/>
+<pinref part="U1" gate="G$1" pin="GND@2"/>
+<wire x1="414.02" y1="246.38" x2="411.48" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="246.38" x2="411.48" y2="243.84" width="0.1524" layer="91"/>
+<junction x="411.48" y="243.84"/>
+<pinref part="U1" gate="G$1" pin="GND@1"/>
+<wire x1="414.02" y1="248.92" x2="411.48" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="248.92" x2="411.48" y2="246.38" width="0.1524" layer="91"/>
+<junction x="411.48" y="246.38"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -24415,11 +24648,16 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <label x="274.32" y="314.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$106" class="0">
+<net name="WIZNET_DATA_INT" class="0">
 <segment>
 <pinref part="U$13" gate="G$1" pin="P6.1"/>
-<wire x1="294.64" y1="243.84" x2="261.62" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="243.84" x2="274.32" y2="243.84" width="0.1524" layer="91"/>
 <label x="274.32" y="243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="/INT"/>
+<wire x1="414.02" y1="287.02" x2="393.7" y2="287.02" width="0.1524" layer="91"/>
+<label x="393.7" y="287.02" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$107" class="0">
@@ -24450,39 +24688,64 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <label x="274.32" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="WIZNET_RESET" class="0">
 <segment>
 <pinref part="U$13" gate="G$1" pin="P9.0"/>
 <wire x1="340.36" y1="246.38" x2="360.68" y2="246.38" width="0.1524" layer="91"/>
 <label x="342.9" y="246.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="/RESET"/>
+<wire x1="444.5" y1="297.18" x2="464.82" y2="297.18" width="0.1524" layer="91"/>
+<label x="447.04" y="297.18" size="1.778" layer="95" font="vector"/>
+</segment>
 </net>
-<net name="N$45" class="0">
+<net name="WIZNET_SS" class="0">
 <segment>
 <pinref part="U$13" gate="G$1" pin="P9.4"/>
 <wire x1="340.36" y1="256.54" x2="360.68" y2="256.54" width="0.1524" layer="91"/>
 <label x="342.9" y="256.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="/SCS"/>
+<wire x1="444.5" y1="287.02" x2="464.82" y2="287.02" width="0.1524" layer="91"/>
+<label x="447.04" y="287.02" size="1.778" layer="95" font="vector"/>
+</segment>
 </net>
-<net name="N$67" class="0">
+<net name="WIZNET_SCLK" class="0">
 <segment>
 <pinref part="U$13" gate="G$1" pin="P9.5"/>
 <wire x1="340.36" y1="259.08" x2="360.68" y2="259.08" width="0.1524" layer="91"/>
 <label x="342.9" y="259.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SCLK"/>
+<wire x1="444.5" y1="289.56" x2="464.82" y2="289.56" width="0.1524" layer="91"/>
+<label x="447.04" y="289.56" size="1.778" layer="95" font="vector"/>
+</segment>
 </net>
-<net name="N$68" class="0">
+<net name="WIZNET_MISO" class="0">
 <segment>
 <pinref part="U$13" gate="G$1" pin="P9.6"/>
 <wire x1="340.36" y1="261.62" x2="360.68" y2="261.62" width="0.1524" layer="91"/>
 <label x="342.9" y="261.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="MISO"/>
+<wire x1="444.5" y1="281.94" x2="464.82" y2="281.94" width="0.1524" layer="91"/>
+<label x="447.04" y="281.94" size="1.778" layer="95" font="vector"/>
+</segment>
 </net>
-<net name="N$93" class="0">
+<net name="WIZNET_MOSI" class="0">
 <segment>
 <pinref part="U$13" gate="G$1" pin="P9.7"/>
 <wire x1="340.36" y1="264.16" x2="360.68" y2="264.16" width="0.1524" layer="91"/>
 <label x="342.9" y="264.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="MOSI"/>
+<wire x1="444.5" y1="284.48" x2="464.82" y2="284.48" width="0.1524" layer="91"/>
+<label x="447.04" y="284.48" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="LCD_VBACK" class="0">
@@ -24639,6 +24902,36 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <pinref part="JP5" gate="G$1" pin="16"/>
 <wire x1="431.8" y1="182.88" x2="452.12" y2="182.88" width="0.1524" layer="91"/>
 <label x="434.34" y="182.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="U$13" gate="G$1" pin="3V3_4"/>
+<wire x1="340.36" y1="309.88" x2="358.14" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<wire x1="358.14" y1="309.88" x2="358.14" y2="312.42" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="3V3_3"/>
+<wire x1="340.36" y1="307.34" x2="358.14" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="307.34" x2="358.14" y2="309.88" width="0.1524" layer="91"/>
+<junction x="358.14" y="309.88"/>
+<pinref part="U$13" gate="G$1" pin="3V3_2"/>
+<wire x1="340.36" y1="304.8" x2="358.14" y2="304.8" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="304.8" x2="358.14" y2="307.34" width="0.1524" layer="91"/>
+<junction x="358.14" y="307.34"/>
+<pinref part="U$13" gate="G$1" pin="3V3_1"/>
+<wire x1="340.36" y1="302.26" x2="358.14" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="302.26" x2="358.14" y2="304.8" width="0.1524" layer="91"/>
+<junction x="358.14" y="304.8"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VCC@2"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="414.02" y1="294.64" x2="411.48" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="294.64" x2="411.48" y2="297.18" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VCC@1"/>
+<wire x1="411.48" y1="297.18" x2="411.48" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="297.18" x2="411.48" y2="297.18" width="0.1524" layer="91"/>
+<junction x="411.48" y="297.18"/>
 </segment>
 </net>
 </nets>
