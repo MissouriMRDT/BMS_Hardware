@@ -4177,6 +4177,10 @@ design rules under a new name.</description>
 <element name="JP5" library="SparkFun-Connectors" package="1X16_LONGPADS" value="" x="-257.81" y="-92.71"/>
 <element name="RV1" library="SparkFun-Electromechanical" package="TRIM_POT" value="" x="-257.81" y="-99.06"/>
 <element name="U1" library="SparkFun-Boards" package="WIZ811MJ" value="WIZ811MJ" x="-227.33" y="-104.14"/>
+<element name="R68" library="rcl" package="R1206" value="1k" x="-256.54" y="-132.08"/>
+<element name="R69" library="rcl" package="R1206" value="1M" x="-256.54" y="-138.43"/>
+<element name="R70" library="rcl" package="R1206" value="1M" x="-256.54" y="-144.78"/>
+<element name="R71" library="rcl" package="R1206" value="1M" x="-256.54" y="-151.13"/>
 </elements>
 <signals>
 <signal name="CELL_8_FILTER">
@@ -4290,6 +4294,8 @@ design rules under a new name.</description>
 <contactref element="U1" pad="39"/>
 <contactref element="U1" pad="29"/>
 <contactref element="U1" pad="11"/>
+<contactref element="U$1" pad="35"/>
+<contactref element="U$1" pad="36"/>
 <wire x1="-205.74" y1="-62.23" x2="-205.74" y2="-34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-205.74" y1="-64.77" x2="-205.74" y2="-62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="-205.74" y1="-74.93" x2="-205.74" y2="-64.77" width="0" layer="19" extent="1-1"/>
@@ -4368,7 +4374,9 @@ design rules under a new name.</description>
 <wire x1="169.67" y1="59.9" x2="169.67" y2="60.4" width="0" layer="19" extent="1-1"/>
 <wire x1="169.67" y1="59.4" x2="169.67" y2="59.9" width="0" layer="19" extent="1-1"/>
 <wire x1="169.67" y1="58.9" x2="169.67" y2="59.4" width="0" layer="19" extent="1-1"/>
-<wire x1="169.67" y1="56.4" x2="169.67" y2="58.9" width="0" layer="19" extent="1-1"/>
+<wire x1="169.67" y1="58.4" x2="169.67" y2="58.9" width="0" layer="19" extent="1-1"/>
+<wire x1="169.67" y1="57.9" x2="169.67" y2="58.4" width="0" layer="19" extent="1-1"/>
+<wire x1="169.67" y1="56.4" x2="169.67" y2="57.9" width="0" layer="19" extent="1-1"/>
 <wire x1="169.67" y1="53.4" x2="169.67" y2="56.4" width="0" layer="19" extent="1-1"/>
 <wire x1="173.23" y1="27.94" x2="155.575" y2="30.6" width="0" layer="19" extent="1-1"/>
 <wire x1="167.386" y1="5.715" x2="173.23" y2="27.94" width="0" layer="19" extent="1-1"/>
@@ -4806,8 +4814,14 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="31"/>
 <contactref element="IC1" pad="8"/>
 <contactref element="C9" pad="1"/>
+<contactref element="R71" pad="1"/>
+<contactref element="R70" pad="1"/>
+<contactref element="R69" pad="1"/>
 <wire x1="169.67" y1="55.9" x2="168.482" y2="69.556" width="0" layer="19" extent="1-1"/>
 <wire x1="-124.59" y1="139.7" x2="168.482" y2="69.556" width="0" layer="19" extent="1-1"/>
+<wire x1="-257.962" y1="-138.43" x2="-124.59" y2="139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-257.962" y1="-144.78" x2="-257.962" y2="-138.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-257.962" y1="-151.13" x2="-257.962" y2="-144.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BMS_VREF">
 <contactref element="U$1" pad="30"/>
@@ -5542,17 +5556,33 @@ design rules under a new name.</description>
 <contactref element="U1" pad="28"/>
 <wire x1="-248.92" y1="-39.37" x2="-234.95" y2="-126.6" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$107">
+<signal name="BMS_CSBI">
 <contactref element="U$13" pad="6.2"/>
+<contactref element="U$1" pad="44"/>
+<contactref element="R69" pad="2"/>
+<wire x1="-238.76" y1="-74.93" x2="169.67" y2="62.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-255.118" y1="-138.43" x2="-238.76" y2="-74.93" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$108">
+<signal name="BMS_SCLK">
 <contactref element="U$13" pad="6.3"/>
+<contactref element="U$1" pad="41"/>
+<contactref element="R71" pad="2"/>
+<wire x1="-236.22" y1="-77.47" x2="169.67" y2="60.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-255.118" y1="-151.13" x2="-236.22" y2="-77.47" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$109">
+<signal name="BMS_MOSI">
 <contactref element="U$13" pad="6.4"/>
+<contactref element="U$1" pad="42"/>
+<contactref element="R70" pad="2"/>
+<wire x1="-251.46" y1="-57.15" x2="169.67" y2="61.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-255.118" y1="-144.78" x2="-251.46" y2="-57.15" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$110">
+<signal name="BMS_MISO">
 <contactref element="U$13" pad="6.5"/>
+<contactref element="U$1" pad="43"/>
+<contactref element="R68" pad="1"/>
+<wire x1="-251.46" y1="-54.61" x2="169.67" y2="61.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-257.962" y1="-132.08" x2="-251.46" y2="-54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WIZNET_RESET">
 <contactref element="U$13" pad="9.0"/>
@@ -5652,6 +5682,8 @@ design rules under a new name.</description>
 <contactref element="U$13" pad="3V3_1"/>
 <contactref element="U1" pad="21"/>
 <contactref element="U1" pad="12"/>
+<contactref element="R68" pad="2"/>
+<wire x1="-227.33" y1="-124.06" x2="-255.118" y2="-132.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-240.03" y1="-106.68" x2="-227.33" y2="-124.06" width="0" layer="19" extent="1-1"/>
 <wire x1="-208.28" y1="-77.47" x2="-240.03" y2="-106.68" width="0" layer="19" extent="1-1"/>
 <wire x1="-208.28" y1="-74.93" x2="-208.28" y2="-77.47" width="0" layer="19" extent="1-1"/>
