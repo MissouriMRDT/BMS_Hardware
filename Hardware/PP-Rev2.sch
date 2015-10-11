@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -21819,6 +21833,71 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="MRDT-2014-All">
+<packages>
+<package name="J_2CONHC">
+<pad name="PIN1-1" x="-5.08" y="-3.05" drill="1.6" shape="square"/>
+<pad name="PIN1-2" x="-5.08" y="7.11" drill="1.6" shape="square"/>
+<pad name="PIN2-2" x="5.08" y="7.11" drill="1.6" shape="square"/>
+<pad name="PIN2-1" x="5.08" y="-3.05" drill="1.6" shape="square"/>
+<wire x1="-10.92" y1="-9.5" x2="-10.92" y2="9.5" width="0.127" layer="21"/>
+<wire x1="-10.92" y1="-9.5" x2="10.92" y2="-9.5" width="0.127" layer="21"/>
+<wire x1="10.92" y1="-9.5" x2="10.92" y2="9.5" width="0.127" layer="21"/>
+<wire x1="10.92" y1="9.5" x2="-10.92" y2="9.5" width="0.127" layer="21"/>
+<wire x1="-12" y1="10" x2="-12" y2="-10" width="0.127" layer="39"/>
+<wire x1="-12" y1="-10" x2="12" y2="-10" width="0.127" layer="39"/>
+<wire x1="12" y1="-10" x2="12" y2="10" width="0.127" layer="39"/>
+<wire x1="12" y1="10" x2="-12" y2="10" width="0.127" layer="39"/>
+<text x="13" y="8" size="1.27" layer="25">&gt;NAME</text>
+<text x="13" y="6" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="J_2CONNECTHC">
+<pin name="2-1" x="-7.62" y="-2.54" visible="off" length="middle"/>
+<pin name="2-2" x="-7.62" y="-5.08" visible="off" length="middle"/>
+<pin name="1-1" x="-7.62" y="2.54" visible="off" length="middle"/>
+<pin name="1-2" x="-7.62" y="5.08" visible="off" length="middle"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<circle x="0" y="5.08" radius="1.27" width="0.254" layer="94"/>
+<circle x="0" y="-5.08" radius="1.27" width="0.254" layer="94"/>
+<text x="7.62" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="7.62" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="J_0399700102" prefix="J">
+<description>High Current Power Connector</description>
+<gates>
+<gate name="G$1" symbol="J_2CONNECTHC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="J_2CONHC">
+<connects>
+<connect gate="G$1" pin="1-1" pad="PIN1-1"/>
+<connect gate="G$1" pin="1-2" pad="PIN1-2"/>
+<connect gate="G$1" pin="2-1" pad="PIN2-1"/>
+<connect gate="G$1" pin="2-2" pad="PIN2-2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21966,8 +22045,6 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <part name="U$11" library="MRDT-2015-PowerBoard" deviceset="C_108CKH050M" device=""/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$12" library="2016PowerPackLibraries" deviceset="LTC4440" device=""/>
-<part name="CHARGER+" library="MRDT-2015-PowerBoard" deviceset="TERMINAL_HOLE" device=""/>
-<part name="CHARGER-" library="MRDT-2015-PowerBoard" deviceset="TERMINAL_HOLE" device=""/>
 <part name="R43" library="resistor" deviceset="R-US_" device="R1206" value="100kΩ"/>
 <part name="R44" library="resistor" deviceset="R-US_" device="R1206" value="10kΩ"/>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -22090,6 +22167,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <part name="C22" library="resistor" deviceset="C-US" device="C1206" value="1uF"/>
 <part name="U$15" library="MAX3077" deviceset="MAX3077" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
+<part name="J1" library="MRDT-2014-All" deviceset="J_0399700102" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22339,8 +22417,6 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 </instance>
 <instance part="GND28" gate="1" x="50.8" y="307.34"/>
 <instance part="U$12" gate="G$1" x="-35.56" y="279.4"/>
-<instance part="CHARGER+" gate="G$1" x="68.58" y="327.66"/>
-<instance part="CHARGER-" gate="G$1" x="86.36" y="327.66"/>
 <instance part="R43" gate="G$1" x="43.18" y="335.28" rot="R270"/>
 <instance part="R44" gate="G$1" x="43.18" y="350.52" rot="R270"/>
 <instance part="GND30" gate="1" x="33.02" y="347.98"/>
@@ -22479,6 +22555,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <instance part="C22" gate="G$1" x="449.58" y="248.92"/>
 <instance part="U$15" gate="G$1" x="454.66" y="269.24" rot="R180"/>
 <instance part="P+10" gate="1" x="449.58" y="256.54"/>
+<instance part="J1" gate="G$1" x="76.2" y="337.82" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -22746,10 +22823,16 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <wire x1="50.8" y1="312.42" x2="50.8" y2="309.88" width="0.1524" layer="91"/>
 <junction x="50.8" y="312.42"/>
 <pinref part="GND28" gate="1" pin="GND"/>
-<pinref part="CHARGER-" gate="G$1" pin="P$1"/>
 <wire x1="86.36" y1="327.66" x2="86.36" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="312.42" x2="55.88" y2="312.42" width="0.1524" layer="91"/>
 <junction x="55.88" y="312.42"/>
+<pinref part="J1" gate="G$1" pin="2-1"/>
+<wire x1="78.74" y1="330.2" x2="78.74" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="327.66" x2="81.28" y2="327.66" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2-2"/>
+<wire x1="81.28" y1="327.66" x2="86.36" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="330.2" x2="81.28" y2="327.66" width="0.1524" layer="91"/>
+<junction x="81.28" y="327.66"/>
 </segment>
 <segment>
 <pinref part="GND30" gate="1" pin="GND"/>
@@ -24045,7 +24128,6 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <wire x1="45.72" y1="325.12" x2="55.88" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="325.12" x2="55.88" y2="322.58" width="0.1524" layer="91"/>
 <junction x="45.72" y="325.12"/>
-<pinref part="CHARGER+" gate="G$1" pin="P$1"/>
 <wire x1="55.88" y1="325.12" x2="68.58" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="325.12" x2="68.58" y2="327.66" width="0.1524" layer="91"/>
 <junction x="55.88" y="325.12"/>
@@ -24053,6 +24135,13 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <wire x1="43.18" y1="330.2" x2="43.18" y2="325.12" width="0.1524" layer="91"/>
 <junction x="43.18" y="325.12"/>
 <label x="58.42" y="325.12" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="1-1"/>
+<wire x1="73.66" y1="330.2" x2="73.66" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="327.66" x2="71.12" y2="327.66" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1-2"/>
+<wire x1="71.12" y1="327.66" x2="68.58" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="330.2" x2="71.12" y2="327.66" width="0.1524" layer="91"/>
+<junction x="71.12" y="327.66"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="4"/>
