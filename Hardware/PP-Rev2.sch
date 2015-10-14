@@ -1418,12 +1418,6 @@ FQP27P06 -
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="+5V">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="+12V">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -1444,19 +1438,6 @@ FQP27P06 -
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+5V" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -22012,7 +21993,6 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <part name="C13" library="rcl" deviceset="C-US" device="C1206" value="100nF"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="MRDT-2015-BMS" deviceset="ACS770" device=""/>
-<part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="V_ARRAY" library="MRDT-2015-PowerBoard" deviceset="TERMINAL_HOLE" device=""/>
 <part name="IRLS3034-7P.2" library="MRDT-2015-BMS" deviceset="IRLS3034-7P" device=""/>
@@ -22033,7 +22013,6 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="U$4" library="MRDT-2015-BMS" deviceset="ACS770" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="U$5" library="2016PowerPackLibraries" deviceset="AGP4233" device="" value="AGP4233-223ME"/>
 <part name="U$3" library="MRDT-2015-PowerBoard" deviceset="C_108CKH050M" device=""/>
 <part name="U$6" library="MRDT-2015-PowerBoard" deviceset="C_108CKH050M" device=""/>
@@ -22161,13 +22140,14 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <part name="R72" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120 Ohm"/>
 <part name="R73" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120 Ohm"/>
 <part name="GND54" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="GND55" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND56" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C22" library="resistor" deviceset="C-US" device="C1206" value="1uF"/>
 <part name="U$15" library="MAX3077" deviceset="MAX3077" device=""/>
-<part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="J1" library="MRDT-2014-All" deviceset="J_0399700102" device=""/>
+<part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22369,7 +22349,6 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <instance part="C13" gate="G$1" x="-12.7" y="35.56"/>
 <instance part="GND20" gate="1" x="-12.7" y="25.4"/>
 <instance part="U$2" gate="G$1" x="-93.98" y="223.52" rot="R90"/>
-<instance part="P+1" gate="1" x="-91.44" y="248.92"/>
 <instance part="GND21" gate="1" x="-101.6" y="241.3"/>
 <instance part="V_ARRAY" gate="G$1" x="-116.84" y="213.36"/>
 <instance part="IRLS3034-7P.2" gate="G$1" x="50.8" y="228.6" rot="R90"/>
@@ -22390,7 +22369,6 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <instance part="GND26" gate="1" x="-7.62" y="203.2"/>
 <instance part="U$4" gate="G$1" x="-63.5" y="335.28" rot="R90"/>
 <instance part="GND29" gate="1" x="-73.66" y="363.22"/>
-<instance part="P+2" gate="1" x="-60.96" y="375.92"/>
 <instance part="U$5" gate="G$1" x="-7.62" y="325.12" rot="R90"/>
 <instance part="U$3" gate="G$1" x="-25.4" y="317.5" smashed="yes">
 <attribute name="NAME" x="-24.384" y="320.675" size="1.778" layer="95"/>
@@ -22549,13 +22527,14 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <instance part="R72" gate="G$1" x="434.34" y="264.16"/>
 <instance part="R73" gate="G$1" x="434.34" y="274.32"/>
 <instance part="GND54" gate="1" x="480.06" y="276.86"/>
-<instance part="P+9" gate="1" x="480.06" y="261.62"/>
 <instance part="GND55" gate="1" x="421.64" y="281.94"/>
-<instance part="GND56" gate="1" x="449.58" y="238.76"/>
-<instance part="C22" gate="G$1" x="449.58" y="248.92"/>
+<instance part="GND56" gate="1" x="472.44" y="246.38"/>
+<instance part="C22" gate="G$1" x="472.44" y="256.54"/>
 <instance part="U$15" gate="G$1" x="454.66" y="269.24" rot="R180"/>
-<instance part="P+10" gate="1" x="449.58" y="256.54"/>
 <instance part="J1" gate="G$1" x="76.2" y="337.82" rot="R90"/>
+<instance part="SUPPLY12" gate="G$1" x="474.98" y="261.62"/>
+<instance part="SUPPLY13" gate="G$1" x="-91.44" y="241.3"/>
+<instance part="SUPPLY14" gate="G$1" x="-60.96" y="353.06"/>
 </instances>
 <busses>
 </busses>
@@ -23052,9 +23031,9 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <pinref part="GND55" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND56" gate="1" pin="GND"/>
-<wire x1="449.58" y1="241.3" x2="449.58" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="GND56" gate="1" pin="GND"/>
+<wire x1="472.44" y1="251.46" x2="472.44" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -23956,31 +23935,6 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <junction x="-12.7" y="38.1"/>
 </segment>
 </net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="P+1" gate="1" pin="+5V"/>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="-91.44" y1="246.38" x2="-91.44" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="VCC"/>
-<pinref part="P+2" gate="1" pin="+5V"/>
-<wire x1="-60.96" y1="347.98" x2="-60.96" y2="373.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="469.9" y1="261.62" x2="474.98" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="474.98" y1="261.62" x2="474.98" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="P+9" gate="1" pin="+5V"/>
-<wire x1="474.98" y1="256.54" x2="480.06" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="480.06" y1="256.54" x2="480.06" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="U$15" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="C22" gate="G$1" pin="1"/>
-<pinref part="P+10" gate="1" pin="+5V"/>
-<wire x1="449.58" y1="251.46" x2="449.58" y2="254" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PACK_I_MEAS" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="VIOUT"/>
@@ -24422,6 +24376,25 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 <pinref part="SUPPLY11" gate="G$1" pin="5V"/>
 <pinref part="RV1" gate="G$1" pin="A"/>
 <wire x1="467.36" y1="170.18" x2="467.36" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$15" gate="G$1" pin="VCC"/>
+<pinref part="SUPPLY12" gate="G$1" pin="5V"/>
+<wire x1="469.9" y1="261.62" x2="472.44" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="472.44" y1="261.62" x2="474.98" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="472.44" y1="261.62" x2="472.44" y2="259.08" width="0.1524" layer="91"/>
+<junction x="472.44" y="261.62"/>
+</segment>
+<segment>
+<pinref part="SUPPLY14" gate="G$1" pin="5V"/>
+<pinref part="U$4" gate="G$1" pin="VCC"/>
+<wire x1="-60.96" y1="353.06" x2="-60.96" y2="347.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY13" gate="G$1" pin="5V"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
+<wire x1="-91.44" y1="241.3" x2="-91.44" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESTOP_1" class="0">
