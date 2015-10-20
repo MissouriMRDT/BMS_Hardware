@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16318,21 +16318,70 @@ Metric Code Size 5664</description>
 <pad name="P$1" x="27.15" y="10.1" drill="4.45" diameter="6.4516" shape="long"/>
 <pad name="P$2" x="8.65" y="32.6" drill="4.45" diameter="6.4516" shape="long"/>
 <polygon width="0.127" layer="46">
-<vertex x="14.525" y="3.35"/>
-<vertex x="21.275" y="3.35"/>
-<vertex x="21.275" y="4.35"/>
-<vertex x="14.525" y="4.35"/>
+<vertex x="14.525" y="4.0325"/>
+<vertex x="14.525" y="3.6675" curve="90"/>
+<vertex x="14.8425" y="3.35"/>
+<vertex x="20.9575" y="3.35" curve="90"/>
+<vertex x="21.275" y="3.6675"/>
+<vertex x="21.275" y="4.0325" curve="90"/>
+<vertex x="20.9575" y="4.35"/>
+<vertex x="14.8425" y="4.35" curve="90"/>
 </polygon>
 <polygon width="0.127" layer="46">
-<vertex x="14.525" y="38.35"/>
-<vertex x="21.275" y="38.35"/>
-<vertex x="21.275" y="39.35"/>
-<vertex x="14.525" y="39.35"/>
+<vertex x="14.525" y="39.0325"/>
+<vertex x="14.525" y="38.6675" curve="90"/>
+<vertex x="14.8425" y="38.35"/>
+<vertex x="20.9575" y="38.35" curve="90"/>
+<vertex x="21.275" y="38.6675"/>
+<vertex x="21.275" y="39.0325" curve="90"/>
+<vertex x="20.9575" y="39.35"/>
+<vertex x="14.8425" y="39.35" curve="90"/>
 </polygon>
 <wire x1="0" y1="0" x2="0" y2="42.2" width="0.127" layer="21"/>
 <wire x1="0" y1="42.2" x2="35.8" y2="42.2" width="0.127" layer="21"/>
 <wire x1="35.8" y1="42.2" x2="35.8" y2="0" width="0.127" layer="21"/>
 <wire x1="35.8" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<polygon width="0.127" layer="41">
+<vertex x="14.732" y="40.132"/>
+<vertex x="21.209" y="40.132" curve="-90"/>
+<vertex x="21.844" y="39.497"/>
+<vertex x="21.844" y="38.227" curve="-90"/>
+<vertex x="21.209" y="37.592"/>
+<vertex x="14.351" y="37.592" curve="-90"/>
+<vertex x="13.716" y="38.227"/>
+<vertex x="13.716" y="39.497" curve="-90"/>
+<vertex x="14.351" y="40.132"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="21.844" y="39.497"/>
+<vertex x="21.844" y="38.227" curve="-90"/>
+<vertex x="21.209" y="37.592"/>
+<vertex x="14.351" y="37.592" curve="-90"/>
+<vertex x="13.716" y="38.227"/>
+<vertex x="13.716" y="39.497" curve="-90"/>
+<vertex x="14.351" y="40.132"/>
+<vertex x="21.209" y="40.132" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="21.844" y="4.445"/>
+<vertex x="21.844" y="3.175" curve="-90"/>
+<vertex x="21.209" y="2.54"/>
+<vertex x="14.351" y="2.54" curve="-90"/>
+<vertex x="13.716" y="3.175"/>
+<vertex x="13.716" y="4.445" curve="-90"/>
+<vertex x="14.351" y="5.08"/>
+<vertex x="21.209" y="5.08" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="21.844" y="4.445"/>
+<vertex x="21.844" y="3.175" curve="-90"/>
+<vertex x="21.209" y="2.54"/>
+<vertex x="14.351" y="2.54" curve="-90"/>
+<vertex x="13.716" y="3.175"/>
+<vertex x="13.716" y="4.445" curve="-90"/>
+<vertex x="14.351" y="5.08"/>
+<vertex x="21.209" y="5.08" curve="-90"/>
+</polygon>
 </package>
 <package name="TO-247-VERT">
 <pad name="P$1" x="0" y="0" drill="2" diameter="3.81" shape="square"/>
@@ -21886,6 +21935,7 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
