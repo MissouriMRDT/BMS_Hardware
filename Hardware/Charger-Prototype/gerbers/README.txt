@@ -1,7 +1,7 @@
-BMS/Charger Rev 2
+Battery Charger Prototype
 Gerber RS274X and Excellon Drill Files
 
-Josh Jetter
+Jacob Lipina and Josh Jetter
 Mars Rover Design Team
 Missouri S&T
 October 20, 2015
