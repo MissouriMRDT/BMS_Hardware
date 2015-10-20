@@ -1,3 +1,6 @@
+BMS/Charger Rev 2
+Gerber RS274X and Excellon Drill Files
+
 Top Copper - *.GTL
 Bottom Copper - *.GBL
 Top Silkscreen - *.GTO
