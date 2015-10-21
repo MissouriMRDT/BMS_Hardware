@@ -38,3 +38,6 @@ Thumbs.db
 # SPICE log and simulation output files
 *.log
 *.raw
+
+# Hide gerber zipped files
+gerbers.zip
