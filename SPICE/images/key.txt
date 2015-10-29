@@ -10,9 +10,18 @@ Image 7: Output Voltage
 Image 8: Inductor Current on Startup
 Image 9: 100uF Output Capacitor Ripple Current
 Image 10: 27uF Output Capacitor Ripple Current
-Image 11: Output Ripple Voltage
 
 -------------------------------------------------------------
 
-Test 2: Synchronous buck converter; 1 Ohm load, 48V input, 25% duty cycle; Transient analysis, 100ms
+Test 2: Synchronous buck converter; 1 Ohm load, 48V input, 90% duty cycle; Transient analysis, 100ms
 
+Image 1: Top MOSFET Temperature Curve
+Image 2: Bottom MOSFET Temperature Curve
+Image 3: Top and Bottom MOSFET Temperature Curves
+Image 4: PWM Input Signals
+Image 5: Top and Bottom MOSFET Gate Signals
+Image 6: Switching Node Voltage
+Image 7: Output Voltage
+Image 8: Inductor Curret on Startup
+Image 9: 100uF Output Capacitor Ripple Current
+Image 10: 27uF Output Capactior Ripple Current

@@ -16727,12 +16727,6 @@ Metric Code Size 5664</description>
 <text x="44.577" y="6.7564" size="0.762" layer="51" font="vector" ratio="14">10.5</text>
 </package>
 <package name="PQFN5X6B">
-<polygon width="0.127" layer="1">
-<vertex x="1.83" y="3.16"/>
-<vertex x="-1.83" y="3.16"/>
-<vertex x="-1.83" y="-3.16"/>
-<vertex x="1.83" y="-3.16"/>
-</polygon>
 <smd name="P$8" x="2.375" y="1.9" dx="1" dy="0.5" layer="1"/>
 <smd name="P$7" x="2.375" y="0.63" dx="1" dy="0.5" layer="1"/>
 <smd name="P$6" x="2.375" y="-0.64" dx="1" dy="0.5" layer="1"/>
@@ -16747,6 +16741,7 @@ Metric Code Size 5664</description>
 <vertex x="-1.83" y="-3.16"/>
 <vertex x="1.83" y="-3.16"/>
 </polygon>
+<smd name="P$9" x="0" y="0" dx="3.81" dy="6.35" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -17275,7 +17270,7 @@ Launchpad</text>
 <devices>
 <device name="" package="PQFN5X6B">
 <connects>
-<connect gate="G$1" pin="D1" pad="P$5"/>
+<connect gate="G$1" pin="D1" pad="P$5 P$9"/>
 <connect gate="G$1" pin="D2" pad="P$6"/>
 <connect gate="G$1" pin="D3" pad="P$7"/>
 <connect gate="G$1" pin="D4" pad="P$8"/>
