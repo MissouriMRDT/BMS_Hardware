@@ -1,35 +1,46 @@
-# Eagle library backups
-*.l#1
-*.l#2
-*.l#3
-*.l#4
-*.l#5
-*.l#6
-*.l#7
-*.l#8
-*.l#9
+# Ignore list for Eagle, a PCB layout tool
 
-# Eagle schematic backups
-*.s#1
-*.s#2
-*.s#3
-*.s#4
-*.s#5
-*.s#6
-*.s#7
-*.s#8
-*.s#9
+# Backup files
+*.s#?
+*.b#?
+*.l#?
 
-# Eagle board backups
-*.b#1
-*.b#2
-*.b#3
-*.b#4
-*.b#5
-*.b#6
-*.b#7
-*.b#8
-*.b#9
+# Eagle project file
+# It contains a serial number and references to the file structure
+# on your computer.
+# comment the following line if you want to have your project file included.
+eagle.epf
+
+# Autorouter files
+*.pro
+*.job
+
+# CAM files
+*.$$$
+*.cmp
+*.ly2
+*.l15
+*.sol
+*.plc
+*.stc
+*.sts
+*.crc
+*.crs
+
+*.dri
+*.drl
+*.gpi
+*.pls
+
+*.drd
+*.drd.*
+
+*.info
+
+*.eps
+
+# file locks introduced since 7.x
+*.lck
 
 # MacOS Files
 Thumbs.db
