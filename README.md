@@ -1,7 +1,5 @@
-# Power-Pack
-Batteries + BMS + Chargers + Power Board = The Ultimate Mobile Power Source!
+Battery Management System- this year it DOES THINGS.
 
-Revision 2 (current revision) includes a passive balancing BMS based on the LTC-6802 analog front-end, and an integrated 40A buck-converter charger. Repo includes EAGLE design files and SPICE simulation files (for use in LTSpice) for the buck converter. See relevant documentation in repo for more information.
-
-Proposed changes for Revision 3 from Revision 2 are being tracked here:
-https://docs.google.com/document/d/1H1wknUghvzx-OPeS6XfjoPNAg2MLf4WDB2MBAkcWiYA/edit
+Right now we're on revision 1, which is the very basic BMS functionality: monitoring and reporting on the voltages and overall current of the battery pack; monitoring temperatures and controlling fans in response; indicators, including LED fuel gauge and buzzers; last but most important, the E-Stop. Based around the LTC6803, this board is streamlined, with inspiration taken from Zenith's BMS and Solar Car's designs.
+Future goals:
+	Onboard passive balancing
