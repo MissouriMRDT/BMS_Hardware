@@ -22659,21 +22659,21 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <part name="D17" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="16V" value="BAT46W"/>
 <part name="D18" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="16V" value="BAT46W"/>
 <part name="D19" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="16V" value="MMSZ5267B"/>
-<part name="R37" library="rcl" deviceset="R-US_" device="R1206" value="100R"/>
+<part name="R37" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="C13" library="rcl" deviceset="C-US" device="C1206" value="100nF"/>
+<part name="C13" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="V_ARRAY" library="MRDT-2015-PowerBoard" deviceset="TERMINAL_HOLE" device=""/>
 <part name="IRLS3034-7P" library="MRDT-2015-BMS" deviceset="IRLS3034-7P" device=""/>
 <part name="V_OUT" library="MRDT-2015-PowerBoard" deviceset="TERMINAL_HOLE" device=""/>
-<part name="R38" library="resistor" deviceset="R-US_" device="R1206" value="60kΩ"/>
+<part name="R38" library="resistor" deviceset="R-US_" device="R1206" value="60.4kΩ"/>
 <part name="R39" library="resistor" deviceset="R-US_" device="R1206" value="10kΩ"/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="R40" library="resistor" deviceset="R-US_" device="R1206" value="5kΩ"/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R41" library="resistor" deviceset="R-US_" device="R1206" value="60kΩ"/>
+<part name="R41" library="resistor" deviceset="R-US_" device="R1206" value="60.4kΩ"/>
 <part name="R42" library="resistor" deviceset="R-US_" device="R1206" value="10kΩ"/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$8" library="MRDT-2015-PowerBoard" deviceset="LT1910" device=""/>
@@ -22748,7 +22748,6 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <part name="GND56" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C22" library="resistor" deviceset="C-US" device="C1206" value="1uF"/>
 <part name="U$15" library="MAX3077" deviceset="MAX3077" device=""/>
-<part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="F1" library="2016PowerPackLibraries" deviceset="PTC2920" device=""/>
 <part name="C23" library="rcl" deviceset="CPOL-US" device="D" value="22uF"/>
 <part name="C24" library="rcl" deviceset="CPOL-US" device="D" value="22uF"/>
@@ -22777,15 +22776,15 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <part name="R9" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="R11" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
-<part name="R18" library="rcl" deviceset="R-US_" device="R1206" value="1M"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="R13" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="R15" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K"/>
-<part name="R19" library="rcl" deviceset="R-US_" device="R1206" value="1M"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="R1206" value="1M"/>
+<part name="R19" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R21" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="IRLS3034-7P1" library="MRDT-2015-BMS" deviceset="IRLS3034-7P" device=""/>
 <part name="U$1" library="MRDT-2017-BMS" deviceset="ACS759" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
@@ -22812,6 +22811,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="X6" library="con-molex" deviceset="22-23-2101" device=""/>
 <part name="X7" library="con-molex" deviceset="22-23-2101" device=""/>
+<part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23047,7 +23047,6 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <instance part="GND56" gate="1" x="591.82" y="-121.92"/>
 <instance part="C22" gate="G$1" x="591.82" y="-111.76"/>
 <instance part="U$15" gate="G$1" x="574.04" y="-99.06" rot="R180"/>
-<instance part="SUPPLY12" gate="G$1" x="594.36" y="-106.68"/>
 <instance part="F1" gate="G$1" x="147.32" y="-25.4"/>
 <instance part="C23" gate="G$1" x="579.12" y="-165.1"/>
 <instance part="C24" gate="G$1" x="579.12" y="-198.12"/>
@@ -23136,6 +23135,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <instance part="X7" gate="-8" x="421.64" y="-332.74"/>
 <instance part="X7" gate="-9" x="421.64" y="-335.28"/>
 <instance part="X7" gate="-10" x="421.64" y="-337.82"/>
+<instance part="+3V7" gate="G$1" x="607.06" y="-101.6"/>
 </instances>
 <busses>
 </busses>
@@ -23972,9 +23972,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <pinref part="U$1" gate="G$1" pin="VIOUT"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P5.5"/>
-<wire x1="421.64" y1="-93.98" x2="401.32" y2="-93.98" width="0.1524" layer="91"/>
-<label x="401.32" y="-93.98" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P4.5"/>
+<wire x1="401.32" y1="-73.66" x2="421.64" y2="-73.66" width="0.1524" layer="91"/>
+<label x="401.32" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -24006,9 +24006,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <label x="218.44" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P10.5"/>
-<wire x1="467.36" y1="-68.58" x2="487.68" y2="-68.58" width="0.1524" layer="91"/>
-<label x="469.9" y="-68.58" size="1.778" layer="95"/>
+<label x="401.32" y="-71.12" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P4.4"/>
+<wire x1="401.32" y1="-71.12" x2="421.64" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -24029,9 +24029,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <label x="73.66" y="-40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P10.4"/>
-<wire x1="467.36" y1="-71.12" x2="487.68" y2="-71.12" width="0.1524" layer="91"/>
-<label x="469.9" y="-71.12" size="1.778" layer="95"/>
+<label x="401.32" y="-66.04" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P4.2"/>
+<wire x1="421.64" y1="-66.04" x2="401.32" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PACK_GATE" class="0">
@@ -24167,15 +24167,6 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <junction x="403.86" y="-335.28"/>
 </segment>
 <segment>
-<pinref part="U$15" gate="G$1" pin="VCC"/>
-<pinref part="SUPPLY12" gate="G$1" pin="5V"/>
-<wire x1="589.28" y1="-106.68" x2="591.82" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="591.82" y1="-106.68" x2="594.36" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="591.82" y1="-106.68" x2="591.82" y2="-109.22" width="0.1524" layer="91"/>
-<junction x="591.82" y="-106.68"/>
-</segment>
-<segment>
 <wire x1="502.92" y1="-165.1" x2="500.38" y2="-165.1" width="0.1524" layer="91"/>
 <wire x1="500.38" y1="-165.1" x2="500.38" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
@@ -24204,20 +24195,6 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <pinref part="X5" gate="-2" pin="S"/>
 <wire x1="106.68" y1="-33.02" x2="111.76" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="-33.02" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ESTOP_1" class="0">
-<segment>
-<pinref part="U$13" gate="G$1" pin="P1.5"/>
-<wire x1="421.64" y1="-25.4" x2="401.32" y2="-25.4" width="0.1524" layer="91"/>
-<label x="401.32" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ESTOP_2" class="0">
-<segment>
-<pinref part="U$13" gate="G$1" pin="P1.6"/>
-<wire x1="421.64" y1="-27.94" x2="401.32" y2="-27.94" width="0.1524" layer="91"/>
-<label x="401.32" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LOGIC_POWER" class="0">
@@ -24500,9 +24477,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <label x="444.5" y="-269.24" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P10.0"/>
-<wire x1="467.36" y1="-81.28" x2="487.68" y2="-81.28" width="0.1524" layer="91"/>
-<label x="469.9" y="-81.28" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P4.1"/>
+<wire x1="421.64" y1="-63.5" x2="401.32" y2="-63.5" width="0.1524" layer="91"/>
+<label x="401.32" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_SER_IN" class="0">
@@ -24512,9 +24489,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <label x="444.5" y="-287.02" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P10.2"/>
-<wire x1="467.36" y1="-76.2" x2="487.68" y2="-76.2" width="0.1524" layer="91"/>
-<label x="469.9" y="-76.2" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P4.3"/>
+<wire x1="421.64" y1="-68.58" x2="401.32" y2="-68.58" width="0.1524" layer="91"/>
+<label x="401.32" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_RCK" class="0">
@@ -24524,9 +24501,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <label x="556.26" y="-269.24" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P10.1"/>
-<wire x1="467.36" y1="-78.74" x2="487.68" y2="-78.74" width="0.1524" layer="91"/>
-<label x="469.9" y="-78.74" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P6.1"/>
+<wire x1="421.64" y1="-104.14" x2="401.32" y2="-104.14" width="0.1524" layer="91"/>
+<label x="401.32" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_SRCK" class="0">
@@ -24536,9 +24513,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <label x="556.26" y="-287.02" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P10.3"/>
-<wire x1="467.36" y1="-73.66" x2="487.68" y2="-73.66" width="0.1524" layer="91"/>
-<label x="469.9" y="-73.66" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P3.2"/>
+<wire x1="421.64" y1="-48.26" x2="401.32" y2="-48.26" width="0.1524" layer="91"/>
+<label x="401.32" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -24570,9 +24547,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <label x="393.7" y="-200.66" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P5.7"/>
-<wire x1="421.64" y1="-99.06" x2="401.32" y2="-99.06" width="0.1524" layer="91"/>
-<label x="401.32" y="-99.06" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P8.5"/>
+<wire x1="467.36" y1="-109.22" x2="487.68" y2="-109.22" width="0.1524" layer="91"/>
+<label x="469.9" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BUZZ_1" class="0">
@@ -24582,9 +24559,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <label x="414.02" y="-210.82" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P5.6"/>
-<wire x1="421.64" y1="-96.52" x2="401.32" y2="-96.52" width="0.1524" layer="91"/>
-<label x="401.32" y="-96.52" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P8.6"/>
+<wire x1="467.36" y1="-106.68" x2="487.68" y2="-106.68" width="0.1524" layer="91"/>
+<label x="469.9" y="-106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GAUGE_ON" class="0">
@@ -24604,9 +24581,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <label x="441.96" y="-264.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P6.6"/>
-<wire x1="421.64" y1="-116.84" x2="401.32" y2="-116.84" width="0.1524" layer="91"/>
-<label x="401.32" y="-116.84" size="1.778" layer="95"/>
+<label x="401.32" y="-25.4" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P1.5"/>
+<wire x1="401.32" y1="-25.4" x2="421.64" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -24897,6 +24874,16 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <wire x1="236.22" y1="-292.1" x2="236.22" y2="-284.48" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="607.06" y1="-106.68" x2="607.06" y2="-104.14" width="0.1524" layer="91"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+<pinref part="U$15" gate="G$1" pin="VCC"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="589.28" y1="-106.68" x2="591.82" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="591.82" y1="-106.68" x2="591.82" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="591.82" y1="-106.68" x2="607.06" y2="-106.68" width="0.1524" layer="91"/>
+<junction x="591.82" y="-106.68"/>
+</segment>
 </net>
 <net name="N$35" class="0">
 <segment>
@@ -25013,9 +25000,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="P3.2"/>
-<wire x1="421.64" y1="-48.26" x2="401.32" y2="-48.26" width="0.1524" layer="91"/>
-<label x="401.32" y="-48.26" size="1.778" layer="95"/>
+<label x="401.32" y="-53.34" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P3.5"/>
+<wire x1="401.32" y1="-53.34" x2="421.64" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -25050,6 +25037,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <wire x1="101.6" y1="-33.02" x2="101.6" y2="-45.72" width="0.1524" layer="91"/>
 <label x="101.6" y="-50.8" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<label x="401.32" y="-60.96" size="1.778" layer="95"/>
+<pinref part="U$13" gate="G$1" pin="P4.0"/>
+<wire x1="421.64" y1="-60.96" x2="401.32" y2="-60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
 <segment>
 <pinref part="U$13" gate="G$1" pin="P3.3"/>
 <wire x1="421.64" y1="-50.8" x2="401.32" y2="-50.8" width="0.1524" layer="91"/>

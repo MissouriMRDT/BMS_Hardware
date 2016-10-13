@@ -41,3 +41,5 @@ Thumbs.db
 
 # Hide gerber zipped files
 gerbers.zip
+Hardware/Main-BMS/BMS-before routing.brd
+Hardware/Main-BMS/BMS-before routing.brd
