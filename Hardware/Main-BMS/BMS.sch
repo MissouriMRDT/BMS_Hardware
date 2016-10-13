@@ -22843,13 +22843,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <wire x1="386.08" y1="-7.62" x2="386.08" y2="-53.34" width="0.1524" layer="94"/>
 <wire x1="386.08" y1="-53.34" x2="256.54" y2="-53.34" width="0.1524" layer="94"/>
 <wire x1="256.54" y1="-53.34" x2="256.54" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="248.92" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-106.68" width="0.1524" layer="94"/>
-<wire x1="248.92" y1="-106.68" x2="248.92" y2="0" width="0.1524" layer="94"/>
-<text x="7.62" y="-104.14" size="2.54" layer="94" font="vector">Pack Switch</text>
-<text x="101.6" y="-5.08" size="1.778" layer="97">Main disconnect switch</text>
-<wire x1="5.08" y1="-106.68" x2="248.92" y2="-106.68" width="0.1524" layer="94"/>
-<text x="172.72" y="-101.6" size="2.54" layer="94" font="vector">E-Stop Connectors</text>
+<wire x1="248.92" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-114.3" width="0.1524" layer="94"/>
+<wire x1="248.92" y1="-114.3" x2="248.92" y2="-7.62" width="0.1524" layer="94"/>
+<text x="7.62" y="-111.76" size="2.54" layer="94" font="vector">Pack Switch</text>
+<text x="101.6" y="-12.7" size="1.778" layer="97">Main disconnect switch</text>
+<wire x1="5.08" y1="-114.3" x2="248.92" y2="-114.3" width="0.1524" layer="94"/>
+<text x="172.72" y="-109.22" size="2.54" layer="94" font="vector">E-Stop Connectors</text>
 <wire x1="614.68" y1="-144.78" x2="525.78" y2="-144.78" width="0.1524" layer="94"/>
 <wire x1="525.78" y1="-144.78" x2="525.78" y2="-231.14" width="0.1524" layer="94"/>
 <wire x1="525.78" y1="-231.14" x2="614.68" y2="-231.14" width="0.1524" layer="94"/>
@@ -22876,16 +22876,16 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <wire x1="391.16" y1="-7.62" x2="391.16" y2="-142.24" width="0.1524" layer="94"/>
 <text x="396.24" y="-139.7" size="3.81" layer="94" font="vector">Microcontroller and Ethernet</text>
 <wire x1="256.54" y1="-55.88" x2="256.54" y2="-101.6" width="0.1524" layer="94"/>
-<text x="114.3" y="-167.64" size="1.778" layer="95">CELL_8_FILTER</text>
-<text x="114.3" y="-172.72" size="1.778" layer="95">CELL_7_FILTER</text>
-<text x="114.3" y="-177.8" size="1.778" layer="95">CELL_6_FILTER</text>
-<text x="114.3" y="-182.88" size="1.778" layer="95">CELL_5_FILTER</text>
-<text x="114.3" y="-187.96" size="1.778" layer="95">CELL_4_FILTER</text>
-<text x="114.3" y="-190.5" size="1.778" layer="95">CELL_4_BAL</text>
-<text x="114.3" y="-185.42" size="1.778" layer="95">CELL_5_BAL</text>
-<text x="114.3" y="-180.34" size="1.778" layer="95">CELL_6_BAL</text>
-<text x="114.3" y="-175.26" size="1.778" layer="95">CELL_7_BAL</text>
-<text x="114.3" y="-170.18" size="1.778" layer="95">CELL_8_BAL</text>
+<text x="114.3" y="-175.26" size="1.778" layer="95">CELL_8_FILTER</text>
+<text x="114.3" y="-180.34" size="1.778" layer="95">CELL_7_FILTER</text>
+<text x="114.3" y="-185.42" size="1.778" layer="95">CELL_6_FILTER</text>
+<text x="114.3" y="-190.5" size="1.778" layer="95">CELL_5_FILTER</text>
+<text x="114.3" y="-195.58" size="1.778" layer="95">CELL_4_FILTER</text>
+<text x="114.3" y="-198.12" size="1.778" layer="95">CELL_4_BAL</text>
+<text x="114.3" y="-193.04" size="1.778" layer="95">CELL_5_BAL</text>
+<text x="114.3" y="-187.96" size="1.778" layer="95">CELL_6_BAL</text>
+<text x="114.3" y="-182.88" size="1.778" layer="95">CELL_7_BAL</text>
+<text x="114.3" y="-177.8" size="1.778" layer="95">CELL_8_BAL</text>
 <text x="271.78" y="-383.54" size="1.778" layer="95">CELL_1_BAL</text>
 <wire x1="256.54" y1="-345.44" x2="386.08" y2="-345.44" width="0.1524" layer="94"/>
 <wire x1="386.08" y1="-345.44" x2="386.08" y2="-391.16" width="0.1524" layer="94"/>
@@ -22893,26 +22893,26 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <wire x1="256.54" y1="-391.16" x2="256.54" y2="-345.44" width="0.1524" layer="94"/>
 <text x="271.78" y="-360.68" size="1.778" layer="95">CELL_1_FILTER</text>
 <text x="365.76" y="-360.68" size="1.778" layer="95">CELL_1</text>
-<text x="190.5" y="-182.88" size="1.778" layer="95">CELL_2_BAL</text>
-<text x="190.5" y="-190.5" size="1.778" layer="95">CELL_3_FILTER</text>
-<text x="190.5" y="-185.42" size="1.778" layer="95">CELL_2_FILTER</text>
-<text x="190.5" y="-180.34" size="1.778" layer="95">CELL_1_FILTER</text>
-<text x="190.5" y="-177.8" size="1.778" layer="95">CELL_1_BAL</text>
-<text x="190.5" y="-187.96" size="1.778" layer="95">CELL_3_BAL</text>
-<text x="187.96" y="-162.56" size="1.778" layer="91">BMS_VREG</text>
-<text x="187.96" y="-165.1" size="1.778" layer="91">BMS_VREF</text>
-<text x="182.88" y="-137.16" size="1.778" layer="91">BMS_CSBI</text>
-<text x="182.88" y="-139.7" size="1.778" layer="91">BMS_MISO</text>
-<text x="182.88" y="-142.24" size="1.778" layer="91">BMS_MOSI</text>
-<text x="182.88" y="-144.78" size="1.778" layer="91">BMS_SCLK</text>
-<wire x1="248.92" y1="-111.76" x2="5.08" y2="-111.76" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-111.76" x2="5.08" y2="-200.66" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-200.66" x2="248.92" y2="-200.66" width="0.1524" layer="94"/>
-<wire x1="248.92" y1="-200.66" x2="248.92" y2="-111.76" width="0.1524" layer="94"/>
-<text x="7.62" y="-198.12" size="2.54" layer="94" font="vector">Voltage Monitoring</text>
+<text x="190.5" y="-190.5" size="1.778" layer="95">CELL_2_BAL</text>
+<text x="190.5" y="-198.12" size="1.778" layer="95">CELL_3_FILTER</text>
+<text x="190.5" y="-193.04" size="1.778" layer="95">CELL_2_FILTER</text>
+<text x="190.5" y="-187.96" size="1.778" layer="95">CELL_1_FILTER</text>
+<text x="190.5" y="-185.42" size="1.778" layer="95">CELL_1_BAL</text>
+<text x="190.5" y="-195.58" size="1.778" layer="95">CELL_3_BAL</text>
+<text x="187.96" y="-170.18" size="1.778" layer="91">BMS_VREG</text>
+<text x="187.96" y="-172.72" size="1.778" layer="91">BMS_VREF</text>
+<text x="182.88" y="-144.78" size="1.778" layer="91">BMS_CSBI</text>
+<text x="182.88" y="-147.32" size="1.778" layer="91">BMS_MISO</text>
+<text x="182.88" y="-149.86" size="1.778" layer="91">BMS_MOSI</text>
+<text x="182.88" y="-152.4" size="1.778" layer="91">BMS_SCLK</text>
+<wire x1="248.92" y1="-119.38" x2="5.08" y2="-119.38" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-119.38" x2="5.08" y2="-208.28" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-208.28" x2="248.92" y2="-208.28" width="0.1524" layer="94"/>
+<wire x1="248.92" y1="-208.28" x2="248.92" y2="-119.38" width="0.1524" layer="94"/>
+<text x="7.62" y="-205.74" size="2.54" layer="94" font="vector">Voltage Monitoring</text>
 <text x="187.96" y="-276.86" size="2.54" layer="94" font="vector">Temperature sensors</text>
-<text x="114.3" y="-12.7" size="1.778" layer="97">Switch</text>
-<text x="101.6" y="-12.7" size="1.778" layer="97">Reset Coil</text>
+<text x="114.3" y="-20.32" size="1.778" layer="97">Switch</text>
+<text x="101.6" y="-20.32" size="1.778" layer="97">Reset Coil</text>
 </plain>
 <instances>
 <instance part="CELL-IN" gate="-1" x="198.12" y="-320.04" rot="MR0"/>
@@ -22946,33 +22946,33 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <instance part="D15" gate="G$1" x="294.64" y="-27.94" rot="R90"/>
 <instance part="GND10" gate="1" x="309.88" y="-38.1"/>
 <instance part="C8" gate="G$1" x="309.88" y="-27.94"/>
-<instance part="L1" gate="G$1" x="68.58" y="-144.78" rot="R90"/>
-<instance part="D17" gate="G$1" x="88.9" y="-149.86" rot="R90"/>
-<instance part="D18" gate="G$1" x="96.52" y="-149.86" rot="R90"/>
-<instance part="D19" gate="G$1" x="81.28" y="-149.86" rot="R90"/>
-<instance part="R37" gate="G$1" x="109.22" y="-144.78" rot="R180"/>
-<instance part="GND19" gate="1" x="88.9" y="-160.02"/>
-<instance part="C13" gate="G$1" x="119.38" y="-147.32"/>
-<instance part="GND20" gate="1" x="119.38" y="-157.48"/>
-<instance part="GND21" gate="1" x="38.1" y="-30.48"/>
-<instance part="V_ARRAY" gate="G$1" x="22.86" y="-58.42"/>
-<instance part="IRLS3034-7P" gate="G$1" x="165.1" y="-60.96" rot="R90"/>
-<instance part="V_OUT" gate="G$1" x="238.76" y="-48.26"/>
-<instance part="R38" gate="G$1" x="215.9" y="-63.5" rot="R270"/>
-<instance part="R39" gate="G$1" x="215.9" y="-78.74" rot="R270"/>
-<instance part="GND22" gate="1" x="215.9" y="-88.9"/>
-<instance part="LED1" gate="G$1" x="236.22" y="-63.5"/>
-<instance part="R40" gate="G$1" x="236.22" y="-78.74" rot="R270"/>
-<instance part="GND23" gate="1" x="236.22" y="-88.9"/>
-<instance part="R41" gate="G$1" x="68.58" y="-48.26" rot="R270"/>
-<instance part="R42" gate="G$1" x="68.58" y="-33.02" rot="R270"/>
-<instance part="GND24" gate="1" x="78.74" y="-30.48"/>
-<instance part="U$8" gate="G$1" x="124.46" y="-88.9"/>
-<instance part="GND25" gate="1" x="124.46" y="-99.06"/>
-<instance part="C14" gate="G$1" x="142.24" y="-63.5" rot="R270"/>
-<instance part="GND26" gate="1" x="132.08" y="-68.58"/>
-<instance part="JP3" gate="G$1" x="152.4" y="-99.06" rot="R90"/>
-<instance part="JP2" gate="G$1" x="165.1" y="-99.06" rot="R90"/>
+<instance part="L1" gate="G$1" x="68.58" y="-152.4" rot="R90"/>
+<instance part="D17" gate="G$1" x="88.9" y="-157.48" rot="R90"/>
+<instance part="D18" gate="G$1" x="96.52" y="-157.48" rot="R90"/>
+<instance part="D19" gate="G$1" x="81.28" y="-157.48" rot="R90"/>
+<instance part="R37" gate="G$1" x="109.22" y="-152.4" rot="R180"/>
+<instance part="GND19" gate="1" x="88.9" y="-167.64"/>
+<instance part="C13" gate="G$1" x="119.38" y="-154.94"/>
+<instance part="GND20" gate="1" x="119.38" y="-165.1"/>
+<instance part="GND21" gate="1" x="38.1" y="-38.1"/>
+<instance part="V_ARRAY" gate="G$1" x="22.86" y="-66.04"/>
+<instance part="IRLS3034-7P" gate="G$1" x="165.1" y="-68.58" rot="R90"/>
+<instance part="V_OUT" gate="G$1" x="238.76" y="-55.88"/>
+<instance part="R38" gate="G$1" x="215.9" y="-71.12" rot="R270"/>
+<instance part="R39" gate="G$1" x="215.9" y="-86.36" rot="R270"/>
+<instance part="GND22" gate="1" x="215.9" y="-96.52"/>
+<instance part="LED1" gate="G$1" x="236.22" y="-71.12"/>
+<instance part="R40" gate="G$1" x="236.22" y="-86.36" rot="R270"/>
+<instance part="GND23" gate="1" x="236.22" y="-96.52"/>
+<instance part="R41" gate="G$1" x="68.58" y="-55.88" rot="R270"/>
+<instance part="R42" gate="G$1" x="68.58" y="-40.64" rot="R270"/>
+<instance part="GND24" gate="1" x="78.74" y="-38.1"/>
+<instance part="U$8" gate="G$1" x="124.46" y="-96.52"/>
+<instance part="GND25" gate="1" x="124.46" y="-106.68"/>
+<instance part="C14" gate="G$1" x="142.24" y="-71.12" rot="R270"/>
+<instance part="GND26" gate="1" x="132.08" y="-76.2"/>
+<instance part="JP3" gate="G$1" x="152.4" y="-106.68" rot="R90"/>
+<instance part="JP2" gate="G$1" x="165.1" y="-106.68" rot="R90"/>
 <instance part="OKI-78SR-5V" gate="G$1" x="556.26" y="-160.02"/>
 <instance part="SUPPLY1" gate="G$1" x="607.06" y="-157.48"/>
 <instance part="GND33" gate="1" x="558.8" y="-175.26"/>
@@ -23013,8 +23013,8 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <instance part="Q10" gate="G$1" x="411.48" y="-200.66"/>
 <instance part="Q11" gate="G$1" x="431.8" y="-210.82"/>
 <instance part="SUPPLY7" gate="G$1" x="421.64" y="-162.56"/>
-<instance part="V_OUT1" gate="G$1" x="238.76" y="-22.86"/>
-<instance part="GND42" gate="1" x="238.76" y="-30.48"/>
+<instance part="V_OUT1" gate="G$1" x="238.76" y="-30.48"/>
+<instance part="GND42" gate="1" x="238.76" y="-38.1"/>
 <instance part="Q12" gate="G$1" x="482.6" y="-162.56" rot="MR90"/>
 <instance part="GND43" gate="1" x="474.98" y="-167.64"/>
 <instance part="Q13" gate="G$1" x="482.6" y="-180.34" rot="MR90"/>
@@ -23047,24 +23047,24 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <instance part="GND56" gate="1" x="591.82" y="-121.92"/>
 <instance part="C22" gate="G$1" x="591.82" y="-111.76"/>
 <instance part="U$15" gate="G$1" x="574.04" y="-99.06" rot="R180"/>
-<instance part="F1" gate="G$1" x="147.32" y="-25.4"/>
+<instance part="F1" gate="G$1" x="147.32" y="-33.02"/>
 <instance part="C23" gate="G$1" x="579.12" y="-165.1"/>
 <instance part="C24" gate="G$1" x="579.12" y="-198.12"/>
 <instance part="C17" gate="G$1" x="543.56" y="-165.1"/>
 <instance part="C18" gate="G$1" x="541.02" y="-198.12"/>
-<instance part="U$3" gate="G$1" x="157.48" y="-165.1"/>
+<instance part="U$3" gate="G$1" x="157.48" y="-172.72"/>
 <instance part="GND28" gate="1" x="368.3" y="-388.62"/>
 <instance part="D1" gate="G$1" x="294.64" y="-365.76" rot="R90"/>
 <instance part="GND1" gate="1" x="302.26" y="-375.92"/>
 <instance part="C1" gate="G$1" x="309.88" y="-365.76"/>
 <instance part="R1" gate="G$1" x="322.58" y="-360.68"/>
-<instance part="GND2" gate="1" x="215.9" y="-177.8"/>
-<instance part="+3V2" gate="G$1" x="200.66" y="-119.38"/>
-<instance part="LED3" gate="G$1" x="132.08" y="-22.86" rot="R180"/>
-<instance part="R20" gate="G$1" x="137.16" y="-15.24"/>
-<instance part="GND11" gate="1" x="144.78" y="-17.78"/>
-<instance part="R24" gate="G$1" x="180.34" y="-86.36"/>
-<instance part="GND27" gate="1" x="190.5" y="-86.36" rot="R90"/>
+<instance part="GND2" gate="1" x="215.9" y="-185.42"/>
+<instance part="+3V2" gate="G$1" x="200.66" y="-127"/>
+<instance part="LED3" gate="G$1" x="132.08" y="-30.48" rot="R180"/>
+<instance part="R20" gate="G$1" x="137.16" y="-22.86"/>
+<instance part="GND11" gate="1" x="144.78" y="-25.4"/>
+<instance part="R24" gate="G$1" x="180.34" y="-93.98"/>
+<instance part="GND27" gate="1" x="190.5" y="-93.98" rot="R90"/>
 <instance part="R2" gate="G$1" x="342.9" y="-383.54"/>
 <instance part="R3" gate="G$1" x="322.58" y="-312.42"/>
 <instance part="R4" gate="G$1" x="340.36" y="-335.28"/>
@@ -23075,17 +23075,17 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <instance part="R9" gate="G$1" x="322.58" y="-167.64"/>
 <instance part="R10" gate="G$1" x="337.82" y="-190.5"/>
 <instance part="R11" gate="G$1" x="322.58" y="-119.38"/>
-<instance part="R18" gate="G$1" x="210.82" y="-137.16" rot="R180"/>
+<instance part="R18" gate="G$1" x="210.82" y="-144.78" rot="R180"/>
 <instance part="R12" gate="G$1" x="337.82" y="-142.24"/>
 <instance part="R13" gate="G$1" x="322.58" y="-71.12"/>
 <instance part="R14" gate="G$1" x="335.28" y="-93.98"/>
 <instance part="R15" gate="G$1" x="322.58" y="-22.86"/>
 <instance part="R16" gate="G$1" x="335.28" y="-45.72"/>
-<instance part="R17" gate="G$1" x="200.66" y="-129.54" rot="R90"/>
-<instance part="R19" gate="G$1" x="210.82" y="-142.24" rot="R180"/>
-<instance part="R21" gate="G$1" x="210.82" y="-144.78" rot="R180"/>
-<instance part="IRLS3034-7P1" gate="G$1" x="190.5" y="-38.1" rot="R90"/>
-<instance part="U$1" gate="G$1" x="45.72" y="-48.26" rot="R90"/>
+<instance part="R17" gate="G$1" x="200.66" y="-137.16" rot="R90"/>
+<instance part="R19" gate="G$1" x="210.82" y="-149.86" rot="R180"/>
+<instance part="R21" gate="G$1" x="210.82" y="-152.4" rot="R180"/>
+<instance part="IRLS3034-7P1" gate="G$1" x="190.5" y="-45.72" rot="R90"/>
+<instance part="U$1" gate="G$1" x="45.72" y="-55.88" rot="R90"/>
 <instance part="+3V3" gate="G$1" x="607.06" y="-187.96"/>
 <instance part="SUPPLY6" gate="G$1" x="500.38" y="-160.02"/>
 <instance part="SUPPLY8" gate="G$1" x="500.38" y="-177.8"/>
@@ -23099,7 +23099,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <instance part="X3" gate="-2" x="505.46" y="-200.66"/>
 <instance part="X4" gate="-1" x="505.46" y="-215.9"/>
 <instance part="X4" gate="-2" x="505.46" y="-218.44"/>
-<instance part="+3V4" gate="G$1" x="48.26" y="-17.78"/>
+<instance part="+3V4" gate="G$1" x="48.26" y="-25.4"/>
 <instance part="+3V5" gate="G$1" x="203.2" y="-281.94"/>
 <instance part="+3V6" gate="G$1" x="236.22" y="-281.94"/>
 <instance part="GND12" gate="1" x="203.2" y="-307.34"/>
@@ -23108,13 +23108,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <instance part="U$4" gate="G$1" x="434.34" y="-182.88" rot="R90"/>
 <instance part="J1" gate="G$1" x="226.06" y="-294.64" rot="R180"/>
 <instance part="J2" gate="G$1" x="193.04" y="-294.64" rot="R180"/>
-<instance part="X5" gate="-1" x="109.22" y="-20.32" rot="R90"/>
-<instance part="X5" gate="-2" x="111.76" y="-20.32" rot="R90"/>
-<instance part="X5" gate="-3" x="114.3" y="-20.32" rot="R90"/>
-<instance part="X5" gate="-4" x="116.84" y="-20.32" rot="R90"/>
-<instance part="Q1" gate="G$1" x="101.6" y="-25.4" rot="MR90"/>
-<instance part="SUPPLY11" gate="G$1" x="106.68" y="-33.02"/>
-<instance part="GND14" gate="1" x="93.98" y="-30.48"/>
+<instance part="X5" gate="-1" x="109.22" y="-27.94" rot="R90"/>
+<instance part="X5" gate="-2" x="111.76" y="-27.94" rot="R90"/>
+<instance part="X5" gate="-3" x="114.3" y="-27.94" rot="R90"/>
+<instance part="X5" gate="-4" x="116.84" y="-27.94" rot="R90"/>
+<instance part="Q1" gate="G$1" x="101.6" y="-33.02" rot="MR90"/>
+<instance part="SUPPLY11" gate="G$1" x="106.68" y="-40.64"/>
+<instance part="GND14" gate="1" x="93.98" y="-38.1"/>
 <instance part="X6" gate="-1" x="436.88" y="-337.82" rot="R180"/>
 <instance part="X6" gate="-2" x="436.88" y="-335.28" rot="R180"/>
 <instance part="X6" gate="-3" x="436.88" y="-332.74" rot="R180"/>
@@ -23156,20 +23156,20 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="C8"/>
-<wire x1="137.16" y1="-167.64" x2="132.08" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-175.26" x2="132.08" y2="-175.26" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="C12"/>
-<wire x1="132.08" y1="-167.64" x2="114.3" y2="-167.64" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="-147.32" x2="132.08" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="-147.32" x2="132.08" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-175.26" x2="114.3" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-154.94" x2="132.08" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-154.94" x2="132.08" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="C11"/>
-<wire x1="132.08" y1="-152.4" x2="132.08" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="-157.48" x2="132.08" y2="-167.64" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="-152.4" x2="132.08" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-160.02" x2="132.08" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-165.1" x2="132.08" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-160.02" x2="132.08" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="C10"/>
-<wire x1="137.16" y1="-157.48" x2="132.08" y2="-157.48" width="0.1524" layer="91"/>
-<junction x="132.08" y="-152.4"/>
-<junction x="132.08" y="-157.48"/>
-<junction x="132.08" y="-167.64"/>
+<wire x1="137.16" y1="-165.1" x2="132.08" y2="-165.1" width="0.1524" layer="91"/>
+<junction x="132.08" y="-160.02"/>
+<junction x="132.08" y="-165.1"/>
+<junction x="132.08" y="-175.26"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -23217,56 +23217,56 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="D19" gate="G$1" pin="A"/>
-<wire x1="81.28" y1="-152.4" x2="81.28" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-160.02" x2="81.28" y2="-162.56" width="0.1524" layer="91"/>
 <pinref part="D17" gate="G$1" pin="A"/>
-<wire x1="81.28" y1="-154.94" x2="88.9" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-154.94" x2="88.9" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-162.56" x2="88.9" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-162.56" x2="88.9" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="D18" gate="G$1" pin="A"/>
-<wire x1="88.9" y1="-154.94" x2="96.52" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="-154.94" x2="96.52" y2="-152.4" width="0.1524" layer="91"/>
-<junction x="88.9" y="-154.94"/>
+<wire x1="88.9" y1="-162.56" x2="96.52" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-162.56" x2="96.52" y2="-160.02" width="0.1524" layer="91"/>
+<junction x="88.9" y="-162.56"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="88.9" y1="-154.94" x2="88.9" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-162.56" x2="88.9" y2="-165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="119.38" y1="-152.4" x2="119.38" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="-160.02" x2="119.38" y2="-162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="45.72" y1="-35.56" x2="45.72" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-25.4" x2="38.1" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-43.18" x2="45.72" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="38.1" y1="-25.4" x2="38.1" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-33.02" x2="38.1" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R39" gate="G$1" pin="2"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="215.9" y1="-86.36" x2="215.9" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-93.98" x2="215.9" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R40" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="236.22" y1="-86.36" x2="236.22" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-93.98" x2="236.22" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="-27.94" x2="68.58" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-25.4" x2="78.74" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-35.56" x2="68.58" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-33.02" x2="78.74" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="78.74" y1="-25.4" x2="78.74" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-33.02" x2="78.74" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="GND"/>
 <pinref part="GND25" gate="1" pin="GND"/>
-<wire x1="124.46" y1="-96.52" x2="124.46" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-104.14" x2="124.46" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="137.16" y1="-63.5" x2="132.08" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="-63.5" x2="132.08" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-71.12" x2="132.08" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-71.12" x2="132.08" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OKI-78SR-5V" gate="G$1" pin="GND"/>
@@ -23328,7 +23328,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <segment>
 <pinref part="V_OUT1" gate="G$1" pin="P$1"/>
 <pinref part="GND42" gate="1" pin="GND"/>
-<wire x1="238.76" y1="-22.86" x2="238.76" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-30.48" x2="238.76" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND43" gate="1" pin="GND"/>
@@ -23435,27 +23435,27 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="V-"/>
-<wire x1="177.8" y1="-175.26" x2="208.28" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-182.88" x2="208.28" y2="-182.88" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="GPIO2"/>
-<wire x1="208.28" y1="-175.26" x2="208.28" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="-160.02" x2="208.28" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="-149.86" x2="185.42" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-182.88" x2="208.28" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-167.64" x2="208.28" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-157.48" x2="185.42" y2="-157.48" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="GPIO1"/>
-<wire x1="185.42" y1="-149.86" x2="177.8" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="-152.4" x2="185.42" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="-152.4" x2="185.42" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-157.48" x2="177.8" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-160.02" x2="185.42" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-160.02" x2="185.42" y2="-157.48" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="215.9" y1="-175.26" x2="208.28" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-182.88" x2="208.28" y2="-182.88" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="TOS"/>
-<wire x1="177.8" y1="-160.02" x2="208.28" y2="-160.02" width="0.1524" layer="91"/>
-<junction x="185.42" y="-149.86"/>
-<junction x="208.28" y="-160.02"/>
-<junction x="208.28" y="-175.26"/>
+<wire x1="177.8" y1="-167.64" x2="208.28" y2="-167.64" width="0.1524" layer="91"/>
+<junction x="185.42" y="-157.48"/>
+<junction x="208.28" y="-167.64"/>
+<junction x="208.28" y="-182.88"/>
 </segment>
 <segment>
 <pinref part="GND27" gate="1" pin="GND"/>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="-86.36" x2="185.42" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="-93.98" x2="185.42" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -23472,13 +23472,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="-15.24" x2="142.24" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-22.86" x2="142.24" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="96.52" y1="-25.4" x2="93.98" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-33.02" x2="93.98" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="93.98" y1="-27.94" x2="93.98" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-35.56" x2="93.98" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_2_FILTER" class="0">
@@ -23503,13 +23503,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="C2"/>
-<wire x1="177.8" y1="-185.42" x2="205.74" y2="-185.42" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-193.04" x2="205.74" y2="-193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_2_BAL" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="S2"/>
-<wire x1="177.8" y1="-182.88" x2="205.74" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-190.5" x2="205.74" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="335.28" y1="-335.28" x2="271.78" y2="-335.28" width="0.1524" layer="91"/>
@@ -23558,7 +23558,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="C1"/>
-<wire x1="177.8" y1="-180.34" x2="205.74" y2="-180.34" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-187.96" x2="205.74" y2="-187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_1" class="0">
@@ -23585,7 +23585,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <net name="CELL_3_BAL" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="S3"/>
-<wire x1="177.8" y1="-187.96" x2="205.74" y2="-187.96" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-195.58" x2="205.74" y2="-195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="335.28" y1="-287.02" x2="271.78" y2="-287.02" width="0.1524" layer="91"/>
@@ -23615,13 +23615,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="C3"/>
-<wire x1="177.8" y1="-190.5" x2="205.74" y2="-190.5" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-198.12" x2="205.74" y2="-198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_4_BAL" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="S4"/>
-<wire x1="137.16" y1="-190.5" x2="114.3" y2="-190.5" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-198.12" x2="114.3" y2="-198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -23651,13 +23651,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="C4"/>
-<wire x1="137.16" y1="-187.96" x2="114.3" y2="-187.96" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-195.58" x2="114.3" y2="-195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_5_BAL" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="S5"/>
-<wire x1="137.16" y1="-185.42" x2="114.3" y2="-185.42" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-193.04" x2="114.3" y2="-193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="332.74" y1="-190.5" x2="271.78" y2="-190.5" width="0.1524" layer="91"/>
@@ -23687,13 +23687,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="C5"/>
-<wire x1="137.16" y1="-182.88" x2="114.3" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-190.5" x2="114.3" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_6_BAL" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="S6"/>
-<wire x1="137.16" y1="-180.34" x2="114.3" y2="-180.34" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-187.96" x2="114.3" y2="-187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -23723,13 +23723,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="C6"/>
-<wire x1="137.16" y1="-177.8" x2="114.3" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-185.42" x2="114.3" y2="-185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_7_BAL" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="S7"/>
-<wire x1="137.16" y1="-175.26" x2="114.3" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-182.88" x2="114.3" y2="-182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -23759,13 +23759,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="C7"/>
-<wire x1="137.16" y1="-172.72" x2="114.3" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-180.34" x2="114.3" y2="-180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_8_BAL" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="S8"/>
-<wire x1="137.16" y1="-170.18" x2="114.3" y2="-170.18" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-177.8" x2="114.3" y2="-177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="330.2" y1="-45.72" x2="271.78" y2="-45.72" width="0.1524" layer="91"/>
@@ -23786,13 +23786,13 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="-144.78" x2="48.26" y2="-144.78" width="0.1524" layer="91"/>
-<label x="48.26" y="-144.78" size="1.778" layer="95"/>
+<wire x1="60.96" y1="-152.4" x2="48.26" y2="-152.4" width="0.1524" layer="91"/>
+<label x="48.26" y="-152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="V_ARRAY" gate="G$1" pin="P$1"/>
-<wire x1="22.86" y1="-58.42" x2="35.56" y2="-58.42" width="0.1524" layer="91"/>
-<label x="25.4" y="-58.42" size="1.778" layer="95"/>
+<wire x1="22.86" y1="-66.04" x2="35.56" y2="-66.04" width="0.1524" layer="91"/>
+<label x="25.4" y="-66.04" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="IP+"/>
 </segment>
 <segment>
@@ -23914,61 +23914,61 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <net name="BMS_VREG" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="VREG"/>
-<wire x1="177.8" y1="-162.56" x2="215.9" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-162.56" x2="215.9" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-170.18" x2="215.9" y2="-170.18" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-170.18" x2="215.9" y2="-154.94" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="VMODE"/>
-<wire x1="215.9" y1="-147.32" x2="215.9" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-144.78" x2="215.9" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-142.24" x2="215.9" y2="-137.16" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="-147.32" x2="215.9" y2="-147.32" width="0.1524" layer="91"/>
-<junction x="215.9" y="-147.32"/>
+<wire x1="215.9" y1="-154.94" x2="215.9" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-152.4" x2="215.9" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-149.86" x2="215.9" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-154.94" x2="215.9" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="215.9" y="-154.94"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="R19" gate="G$1" pin="1"/>
-<junction x="215.9" y="-142.24"/>
+<junction x="215.9" y="-149.86"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<junction x="215.9" y="-144.78"/>
+<junction x="215.9" y="-152.4"/>
 </segment>
 </net>
 <net name="BMS_VREF" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="VREF"/>
-<wire x1="177.8" y1="-165.1" x2="200.66" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-172.72" x2="200.66" y2="-172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="-144.78" x2="81.28" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-152.4" x2="81.28" y2="-152.4" width="0.1524" layer="91"/>
 <pinref part="D19" gate="G$1" pin="C"/>
-<wire x1="81.28" y1="-144.78" x2="88.9" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-144.78" x2="96.52" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="-144.78" x2="104.14" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-147.32" x2="81.28" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="81.28" y="-144.78"/>
+<wire x1="81.28" y1="-152.4" x2="88.9" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-152.4" x2="96.52" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-152.4" x2="104.14" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-154.94" x2="81.28" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="81.28" y="-152.4"/>
 <pinref part="D17" gate="G$1" pin="C"/>
-<wire x1="88.9" y1="-147.32" x2="88.9" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="88.9" y="-144.78"/>
+<wire x1="88.9" y1="-154.94" x2="88.9" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="88.9" y="-152.4"/>
 <pinref part="D18" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="-147.32" x2="96.52" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="96.52" y="-144.78"/>
+<wire x1="96.52" y1="-154.94" x2="96.52" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="96.52" y="-152.4"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="R37" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="-144.78" x2="119.38" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-152.4" x2="119.38" y2="-152.4" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="-144.78" x2="137.16" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="119.38" y="-144.78"/>
+<wire x1="119.38" y1="-152.4" x2="137.16" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="119.38" y="-152.4"/>
 <pinref part="U$3" gate="G$1" pin="V+"/>
 </segment>
 </net>
 <net name="PACK_I_MEAS" class="0">
 <segment>
-<wire x1="43.18" y1="-35.56" x2="43.18" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-33.02" x2="15.24" y2="-33.02" width="0.1524" layer="91"/>
-<label x="15.24" y="-33.02" size="1.778" layer="95"/>
+<wire x1="43.18" y1="-43.18" x2="43.18" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-40.64" x2="15.24" y2="-40.64" width="0.1524" layer="91"/>
+<label x="15.24" y="-40.64" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="VIOUT"/>
 </segment>
 <segment>
@@ -23980,30 +23980,30 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <net name="N$34" class="0">
 <segment>
 <pinref part="IRLS3034-7P" gate="G$1" pin="GATE"/>
-<wire x1="170.18" y1="-86.36" x2="170.18" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-93.98" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="-73.66" x2="170.18" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="-91.44" x2="165.1" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="-86.36" x2="170.18" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-81.28" x2="170.18" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-99.06" x2="165.1" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-93.98" x2="170.18" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="-86.36" x2="170.18" y2="-86.36" width="0.1524" layer="91"/>
-<junction x="170.18" y="-86.36"/>
+<wire x1="175.26" y1="-93.98" x2="170.18" y2="-93.98" width="0.1524" layer="91"/>
+<junction x="170.18" y="-93.98"/>
 <pinref part="IRLS3034-7P1" gate="G$1" pin="GATE"/>
-<wire x1="195.58" y1="-48.26" x2="185.42" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="-48.26" x2="185.42" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="-73.66" x2="170.18" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="170.18" y="-73.66"/>
+<wire x1="195.58" y1="-55.88" x2="185.42" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-55.88" x2="185.42" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-81.28" x2="170.18" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="170.18" y="-81.28"/>
 </segment>
 </net>
 <net name="V_CHECK_OUT" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
 <pinref part="R39" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="-73.66" x2="215.9" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-71.12" x2="215.9" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-71.12" x2="233.68" y2="-71.12" width="0.1524" layer="91"/>
-<junction x="215.9" y="-71.12"/>
-<label x="218.44" y="-71.12" size="1.778" layer="95"/>
+<wire x1="215.9" y1="-81.28" x2="215.9" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-78.74" x2="215.9" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-78.74" x2="233.68" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="215.9" y="-78.74"/>
+<label x="218.44" y="-78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="401.32" y="-71.12" size="1.778" layer="95"/>
@@ -24015,18 +24015,18 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="R40" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="-73.66" x2="236.22" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-81.28" x2="236.22" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_CHECK_ARRAY" class="0">
 <segment>
 <pinref part="R42" gate="G$1" pin="2"/>
 <pinref part="R41" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="-38.1" x2="68.58" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-40.64" x2="68.58" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-40.64" x2="83.82" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="68.58" y="-40.64"/>
-<label x="73.66" y="-40.64" size="1.778" layer="95"/>
+<wire x1="68.58" y1="-45.72" x2="68.58" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-48.26" x2="68.58" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-48.26" x2="83.82" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="68.58" y="-48.26"/>
+<label x="73.66" y="-48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="401.32" y="-66.04" size="1.778" layer="95"/>
@@ -24036,9 +24036,9 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </net>
 <net name="PACK_GATE" class="0">
 <segment>
-<label x="81.28" y="-81.28" size="1.778" layer="95"/>
+<label x="81.28" y="-88.9" size="1.778" layer="95"/>
 <pinref part="U$8" gate="G$1" pin="IN"/>
-<wire x1="81.28" y1="-81.28" x2="106.68" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-88.9" x2="106.68" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$13" gate="G$1" pin="P5.2"/>
@@ -24193,8 +24193,8 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="5V"/>
 <pinref part="X5" gate="-2" pin="S"/>
-<wire x1="106.68" y1="-33.02" x2="111.76" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="-33.02" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-40.64" x2="111.76" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-40.64" x2="111.76" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LOGIC_POWER" class="0">
@@ -24208,8 +24208,8 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <junction x="543.56" y="-160.02"/>
 </segment>
 <segment>
-<wire x1="162.56" y1="-25.4" x2="177.8" y2="-25.4" width="0.1524" layer="91"/>
-<label x="165.1" y="-25.4" size="1.778" layer="95" font="vector"/>
+<wire x1="162.56" y1="-33.02" x2="177.8" y2="-33.02" width="0.1524" layer="91"/>
+<label x="165.1" y="-33.02" size="1.778" layer="95" font="vector"/>
 <pinref part="F1" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
@@ -24224,32 +24224,32 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </net>
 <net name="N$41" class="0">
 <segment>
-<wire x1="114.3" y1="-58.42" x2="114.3" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-58.42" x2="68.58" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-58.42" x2="114.3" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="-58.42" x2="149.86" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-66.04" x2="114.3" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-66.04" x2="68.58" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-66.04" x2="114.3" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-66.04" x2="149.86" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="V+"/>
-<wire x1="142.24" y1="-76.2" x2="149.86" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-76.2" x2="149.86" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="-83.82" x2="149.86" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-83.82" x2="149.86" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="SENSE"/>
-<wire x1="149.86" y1="-63.5" x2="149.86" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="-81.28" x2="149.86" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-81.28" x2="149.86" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="149.86" y="-76.2"/>
+<wire x1="149.86" y1="-71.12" x2="149.86" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="-88.9" x2="149.86" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-88.9" x2="149.86" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="149.86" y="-83.82"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="-63.5" x2="149.86" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="149.86" y="-63.5"/>
-<junction x="114.3" y="-58.42"/>
+<wire x1="144.78" y1="-71.12" x2="149.86" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="149.86" y="-71.12"/>
+<junction x="114.3" y="-66.04"/>
 <pinref part="IRLS3034-7P" gate="G$1" pin="DRAIN"/>
-<wire x1="157.48" y1="-58.42" x2="154.94" y2="-58.42" width="0.1524" layer="91"/>
-<junction x="149.86" y="-58.42"/>
+<wire x1="157.48" y1="-66.04" x2="154.94" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="149.86" y="-66.04"/>
 <pinref part="R41" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="-58.42" x2="149.86" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-53.34" x2="68.58" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-66.04" x2="149.86" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-60.96" x2="68.58" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="IRLS3034-7P1" gate="G$1" pin="DRAIN"/>
-<wire x1="182.88" y1="-35.56" x2="154.94" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="-35.56" x2="154.94" y2="-58.42" width="0.1524" layer="91"/>
-<junction x="154.94" y="-58.42"/>
+<wire x1="182.88" y1="-43.18" x2="154.94" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-43.18" x2="154.94" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="154.94" y="-66.04"/>
 <pinref part="U$1" gate="G$1" pin="IP-"/>
 <pinref part="X5" gate="-3" pin="S"/>
 </segment>
@@ -24758,7 +24758,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="CSBI"/>
-<wire x1="177.8" y1="-137.16" x2="205.74" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-144.78" x2="205.74" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -24770,7 +24770,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="SCKI"/>
-<wire x1="177.8" y1="-144.78" x2="205.74" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-152.4" x2="205.74" y2="-152.4" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -24782,7 +24782,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="SDI"/>
-<wire x1="177.8" y1="-142.24" x2="205.74" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-149.86" x2="205.74" y2="-149.86" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -24794,8 +24794,8 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="SDO"/>
-<wire x1="177.8" y1="-139.7" x2="200.66" y2="-139.7" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="-139.7" x2="200.66" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-147.32" x2="200.66" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-147.32" x2="200.66" y2="-142.24" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -24844,7 +24844,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 </segment>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="200.66" y1="-121.92" x2="200.66" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-129.54" x2="200.66" y2="-132.08" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -24860,7 +24860,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="48.26" y1="-20.32" x2="48.26" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-27.94" x2="48.26" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
@@ -24938,7 +24938,7 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <net name="CELL_1_BAL" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="S1"/>
-<wire x1="177.8" y1="-177.8" x2="205.74" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-185.42" x2="205.74" y2="-185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="337.82" y1="-383.54" x2="271.78" y2="-383.54" width="0.1524" layer="91"/>
@@ -24949,36 +24949,36 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <segment>
 <pinref part="U$8" gate="G$1" pin="GATE"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="-86.36" x2="149.86" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-86.36" x2="149.86" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="-93.98" x2="149.86" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-93.98" x2="149.86" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="-91.44" x2="152.4" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-99.06" x2="152.4" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="-86.36" x2="162.56" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-86.36" x2="162.56" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-93.98" x2="162.56" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-93.98" x2="162.56" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
 <pinref part="V_OUT" gate="G$1" pin="P$1"/>
-<wire x1="238.76" y1="-58.42" x2="238.76" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-58.42" x2="236.22" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-66.04" x2="238.76" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-66.04" x2="236.22" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="236.22" y1="-58.42" x2="238.76" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="-60.96" x2="236.22" y2="-58.42" width="0.1524" layer="91"/>
-<junction x="236.22" y="-58.42"/>
+<wire x1="236.22" y1="-66.04" x2="238.76" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-68.58" x2="236.22" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="236.22" y="-66.04"/>
 <pinref part="IRLS3034-7P" gate="G$1" pin="SOURCE"/>
-<wire x1="215.9" y1="-58.42" x2="200.66" y2="-58.42" width="0.1524" layer="91"/>
-<junction x="215.9" y="-58.42"/>
+<wire x1="215.9" y1="-66.04" x2="200.66" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="215.9" y="-66.04"/>
 <pinref part="IRLS3034-7P1" gate="G$1" pin="SOURCE"/>
-<wire x1="200.66" y1="-58.42" x2="175.26" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="-35.56" x2="200.66" y2="-58.42" width="0.1524" layer="91"/>
-<junction x="200.66" y="-58.42"/>
+<wire x1="200.66" y1="-66.04" x2="175.26" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-43.18" x2="200.66" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="200.66" y="-66.04"/>
 </segment>
 </net>
 <net name="TEMP_1" class="0">
@@ -25008,34 +25008,34 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <net name="N$2" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="116.84" y1="-25.4" x2="132.08" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-33.02" x2="132.08" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="P$1"/>
-<wire x1="132.08" y1="-25.4" x2="142.24" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="132.08" y="-25.4"/>
+<wire x1="132.08" y1="-33.02" x2="142.24" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="132.08" y="-33.02"/>
 <pinref part="X5" gate="-4" pin="S"/>
-<wire x1="116.84" y1="-25.4" x2="116.84" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-33.02" x2="116.84" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="132.08" y1="-15.24" x2="132.08" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-22.86" x2="132.08" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <pinref part="X5" gate="-1" pin="S"/>
-<wire x1="106.68" y1="-25.4" x2="109.22" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="-25.4" x2="109.22" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-33.02" x2="109.22" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-33.02" x2="109.22" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LOGIC_SWITCH" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="101.6" y1="-33.02" x2="101.6" y2="-45.72" width="0.1524" layer="91"/>
-<label x="101.6" y="-50.8" size="1.778" layer="95" rot="R90"/>
+<wire x1="101.6" y1="-40.64" x2="101.6" y2="-53.34" width="0.1524" layer="91"/>
+<label x="101.6" y="-58.42" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <label x="401.32" y="-60.96" size="1.778" layer="95"/>
