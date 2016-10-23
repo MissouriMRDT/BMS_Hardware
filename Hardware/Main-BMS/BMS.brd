@@ -12780,7 +12780,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.193" y="2.501" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C2" library="rcl" package="C0805" value="100nF" x="39.4" y="3.39" smashed="yes">
-<attribute name="NAME" x="38.33" y="1.01" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.584" y="1.518" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="38.13" y="0.85" size="1.27" layer="27"/>
 </element>
 <element name="D5" library="SparkFun-DiscreteSemi" package="SOD-323" value="PDZ7.5B" x="35.59" y="5.295" smashed="yes" rot="R270">
@@ -12789,7 +12789,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.193" y="6.311" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C3" library="rcl" package="C0805" value="100nF" x="39.4" y="7.2" smashed="yes">
-<attribute name="NAME" x="38.38" y="4.82" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.634" y="5.328" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="38.13" y="4.66" size="1.27" layer="27"/>
 </element>
 <element name="D7" library="SparkFun-DiscreteSemi" package="SOD-323" value="PDZ7.5B" x="35.59" y="9.105" smashed="yes" rot="R270">
@@ -12798,7 +12798,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.193" y="10.121" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C4" library="rcl" package="C0805" value="100nF" x="39.4" y="11.01" smashed="yes">
-<attribute name="NAME" x="38.33" y="8.63" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.584" y="9.138" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="38.13" y="8.47" size="1.27" layer="27"/>
 </element>
 <element name="D9" library="SparkFun-DiscreteSemi" package="SOD-323" value="PDZ7.5B" x="35.59" y="12.915" smashed="yes" rot="R270">
@@ -12807,7 +12807,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.193" y="13.931" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C5" library="rcl" package="C0805" value="100nF" x="39.4" y="14.82" smashed="yes">
-<attribute name="NAME" x="38.33" y="12.54" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.584" y="12.794" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="38.13" y="12.28" size="1.27" layer="27"/>
 </element>
 <element name="D11" library="SparkFun-DiscreteSemi" package="SOD-323" value="PDZ7.5B" x="35.59" y="16.725" smashed="yes" rot="R270">
@@ -12816,7 +12816,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.193" y="17.741" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C6" library="rcl" package="C0805" value="100nF" x="39.4" y="18.63" smashed="yes">
-<attribute name="NAME" x="38.23" y="16.35" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.738" y="16.604" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="38.13" y="16.09" size="1.27" layer="27"/>
 </element>
 <element name="D13" library="SparkFun-DiscreteSemi" package="SOD-323" value="PDZ7.5B" x="35.59" y="20.535" smashed="yes" rot="R270">
@@ -12825,7 +12825,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.193" y="21.551" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C7" library="rcl" package="C0805" value="100nF" x="39.4" y="22.44" smashed="yes">
-<attribute name="NAME" x="38.28" y="20.21" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.788" y="20.464" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="38.13" y="19.9" size="1.27" layer="27"/>
 </element>
 <element name="D15" library="SparkFun-DiscreteSemi" package="SOD-323" value="PDZ7.5B" x="35.59" y="24.345" smashed="yes" rot="R270">
@@ -12834,7 +12834,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.193" y="25.361" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C8" library="rcl" package="C0805" value="100nF" x="39.4" y="26.25" smashed="yes">
-<attribute name="NAME" x="38.28" y="23.87" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.788" y="24.378" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="38.13" y="23.71" size="1.27" layer="27"/>
 </element>
 <element name="L1" library="SparkFun-Passives" package="1210" value="BLM31PG330SN1L" x="50.01" y="26.75" smashed="yes">
@@ -12858,35 +12858,35 @@ design rules under a new name.</description>
 <element name="IRLS3034-7P" library="MRDT-2015-BMS" package="D2PAK-7" value="" x="53.95" y="91.82" rot="R90"/>
 <element name="V_OUT" library="MRDT-2015-PowerBoard" package="LARGE_TERMINAL_HOLE" value="TERMINAL_HOLE" x="77.24" y="86.36"/>
 <element name="R38" library="resistor" package="R1206" value="100kΩ" x="88.83" y="72.17" smashed="yes" rot="R270">
-<attribute name="NAME" x="91.589" y="70.435" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="91.589" y="70.435" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="86.417" y="73.567" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R39" library="resistor" package="R1206" value="10kΩ" x="88.83" y="65.6636" smashed="yes" rot="R270">
-<attribute name="NAME" x="87.3394" y="68.1516" size="1.27" layer="25"/>
+<attribute name="NAME" x="87.3394" y="68.1516" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="86.417" y="67.0606" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="LED1" library="SparkFun-LED" package="LED-1206" value="" x="74.28" y="70.84" smashed="yes">
-<attribute name="NAME" x="72.883" y="72.237" size="1.27" layer="25"/>
+<attribute name="NAME" x="72.883" y="72.237" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="73.264" y="69.062" size="0.4064" layer="27"/>
 </element>
 <element name="R40" library="rcl" package="R1206" value="5kΩ" x="75.79" y="66.374" smashed="yes" rot="R270">
-<attribute name="NAME" x="74.183" y="68.345" size="1.27" layer="25"/>
+<attribute name="NAME" x="74.183" y="68.345" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="73.377" y="67.771" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R41" library="resistor" package="R1206" value="100kΩ" x="61.82" y="67.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="60.789" y="70.641" size="1.27" layer="25"/>
+<attribute name="NAME" x="60.789" y="70.641" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="64.233" y="66.123" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R42" library="resistor" package="R1206" value="10kΩ" x="61.82" y="62.17" smashed="yes" rot="R90">
-<attribute name="NAME" x="61.043" y="58.195" size="1.27" layer="25"/>
+<attribute name="NAME" x="61.043" y="58.195" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="64.233" y="60.773" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$8" library="MRDT-2015-PowerBoard" package="SO8" value="LT1910" x="66.67" y="66.58" smashed="yes">
-<attribute name="NAME" x="67.659" y="62.225" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="67.659" y="62.225" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="71.115" y="64.675" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C14" library="rcl" package="C1206" value="10uF" x="57.93" y="67.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="56.352" y="70.376" size="1.27" layer="25"/>
+<attribute name="NAME" x="56.352" y="70.376" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="55.39" y="68.87" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP3" library="SparkFun-Connectors" package="MOLEX-1X2" value="M02POLAR" x="102.21" y="76.79"/>
@@ -12948,22 +12948,22 @@ design rules under a new name.</description>
 </element>
 <element name="Q11" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="100.42" y="82.28" smashed="yes">
 <attribute name="PROD_ID" value="TRANS-11151" x="226.15" y="-87.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="101.8345" y="82.126" size="1.27" layer="25"/>
+<attribute name="NAME" x="101.8345" y="82.126" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="99.304" y="83.5895" size="0.4064" layer="27"/>
 </element>
 <element name="Q12" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="118.25" y="66.42" smashed="yes">
 <attribute name="PROD_ID" value="TRANS-11151" x="247.79" y="-103.76" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="113.3165" y="65.744" size="1.27" layer="25"/>
+<attribute name="NAME" x="114.5865" y="65.998" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="117.134" y="67.7295" size="0.4064" layer="27"/>
 </element>
 <element name="Q13" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="117.95" y="74.62" smashed="yes">
 <attribute name="PROD_ID" value="TRANS-11151" x="251.3" y="-95.56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="113.3165" y="73.59" size="1.27" layer="25"/>
+<attribute name="NAME" x="114.3325" y="74.098" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="116.834" y="75.9295" size="0.4064" layer="27"/>
 </element>
 <element name="Q14" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="117.75" y="82.72" smashed="yes">
 <attribute name="PROD_ID" value="TRANS-11151" x="254.91" y="-87.46" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="112.8145" y="81.804" size="1.27" layer="25"/>
+<attribute name="NAME" x="114.0845" y="82.312" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="116.634" y="84.0295" size="0.4064" layer="27"/>
 </element>
 <element name="R58" library="rcl" package="R0805" value="200R" x="12.878" y="37.29" smashed="yes" rot="R270">
@@ -13008,15 +13008,18 @@ design rules under a new name.</description>
 </element>
 <element name="U$13" library="MRDT-Microcontrollers" package="MSP432R401R-LAUNCHPAD" value="MSP430R401R" x="61.33" y="-27.06"/>
 <element name="R72" library="SparkFun-Passives" package="1206" value="120 Ohm" x="118.502" y="29.42" smashed="yes">
-<attribute name="NAME" x="117.232" y="30.563" size="1.016" layer="25"/>
+<attribute name="NAME" x="113.676" y="29.039" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="117.105" y="27.896" size="0.4064" layer="27"/>
 </element>
 <element name="R73" library="SparkFun-Passives" package="1206" value="120 Ohm" x="124.678" y="29.822" smashed="yes" rot="R180">
-<attribute name="NAME" x="125.948" y="28.679" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="129.504" y="30.203" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="126.075" y="31.346" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="C22" library="rcl" package="C0805" value="1uF" x="126.212" y="20.874"/>
-<element name="U$15" library="MAX3077" package="MAX3070E" value="MAX3077" x="122.978" y="24.614" rot="R90"/>
+<element name="C22" library="rcl" package="C0805" value="1uF" x="126.212" y="20.874" smashed="yes">
+<attribute name="NAME" x="126.72" y="22.144" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="124.942" y="18.334" size="1.27" layer="27"/>
+</element>
+<element name="U$15" library="MAX3077" package="MAX3070E" value="MAX3077" x="122.978" y="24.614" smashed="yes" rot="R90"/>
 <element name="F1" library="2016PowerPackLibraries" package="2920" value="PTC2920" x="64.05" y="56.21" smashed="yes" rot="R270">
 <attribute name="NAME" x="67.55" y="55.71" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="59.55" y="56.21" size="1.27" layer="27" font="vector" rot="R270"/>
@@ -13035,24 +13038,24 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.193" y="-1.309" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C1" library="rcl" package="C0805" value="100nF" x="39.4" y="-0.42" smashed="yes">
-<attribute name="NAME" x="38.18" y="-2.8" size="1.27" layer="25"/>
+<attribute name="NAME" x="38.942" y="-2.546" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="38.13" y="-2.96" size="1.27" layer="27"/>
 </element>
 <element name="R1" library="rcl" package="R0805" value="100R" x="31.78" y="-0.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.415" y="-1.69" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="32.415" y="-1.69" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.415" y="2.12" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="LED3" library="SparkFun-LED" package="LED-1206" value="" x="84.05" y="70.87" smashed="yes">
-<attribute name="NAME" x="82.339" y="72.291" size="1.27" layer="25"/>
+<attribute name="NAME" x="82.339" y="72.291" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="83.034" y="69.092" size="0.4064" layer="27"/>
 </element>
 <element name="R20" library="rcl" package="R0805" value="5kΩ" x="85.64" y="66.093" smashed="yes" rot="R270">
-<attribute name="NAME" x="84.021" y="68.114" size="1.27" layer="25"/>
+<attribute name="NAME" x="84.021" y="68.114" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="83.227" y="67.49" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R24" library="SparkFun-Resistors" package="0603-RES" value="10K" x="96.43" y="72.32" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="RES-00824" x="-80.1" y="-49.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="94.192" y="73.939" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="94.192" y="73.939" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="95.287" y="73.336" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0603-RES" value="10K" x="26.7" y="-2.96" smashed="yes" rot="R270">
@@ -13061,7 +13064,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.557" y="-1.944" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R3" library="rcl" package="R0805" value="100R" x="31.78" y="3.39" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.415" y="2.12" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="32.415" y="2.12" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.415" y="5.93" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603-RES" value="10K" x="26.7" y="0.85" smashed="yes" rot="R270">
@@ -13070,7 +13073,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.557" y="1.866" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R5" library="rcl" package="R0805" value="100R" x="31.78" y="7.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.415" y="5.93" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="32.415" y="5.93" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.415" y="9.74" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0603-RES" value="10K" x="26.7" y="4.66" smashed="yes" rot="R270">
@@ -13079,7 +13082,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.557" y="5.676" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R7" library="rcl" package="R0805" value="100R" x="31.78" y="11.01" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.415" y="9.74" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="32.415" y="9.74" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.415" y="13.55" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R8" library="SparkFun-Resistors" package="0603-RES" value="10K" x="26.7" y="8.47" smashed="yes" rot="R270">
@@ -13088,7 +13091,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.557" y="9.486" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R9" library="rcl" package="R0805" value="100R" x="31.78" y="14.82" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.415" y="13.55" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="32.415" y="13.55" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.415" y="17.36" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R10" library="SparkFun-Resistors" package="0603-RES" value="10K" x="26.7" y="12.28" smashed="yes" rot="R270">
@@ -13097,7 +13100,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.557" y="13.296" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R11" library="rcl" package="R0805" value="100R" x="31.78" y="18.63" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.415" y="17.36" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="32.415" y="17.36" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.415" y="21.17" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R18" library="rcl" package="R0603" value="1M" x="58.74" y="2.14" smashed="yes">
@@ -13110,7 +13113,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.557" y="17.106" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R13" library="rcl" package="R0805" value="100R" x="31.78" y="22.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.415" y="21.17" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="32.669" y="21.17" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.415" y="24.98" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R14" library="SparkFun-Resistors" package="0603-RES" value="10K" x="26.7" y="19.9" smashed="yes" rot="R270">
@@ -13119,7 +13122,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.557" y="20.916" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R15" library="rcl" package="R0805" value="100R" x="31.78" y="26.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.415" y="24.98" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="32.669" y="24.98" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.415" y="28.79" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R16" library="SparkFun-Resistors" package="0603-RES" value="10K" x="26.7" y="23.71" smashed="yes" rot="R270">
@@ -13143,10 +13146,10 @@ design rules under a new name.</description>
 <element name="IRLS3034-7P1" library="MRDT-2015-BMS" package="D2PAK-7" value="" x="53.95" y="80.34" rot="R90"/>
 <element name="U$4" library="MRDT-2017-BMS" package="SMI-1324-TW-5V-2-R" value="SMI-1324-TW-5V-2-R" x="102.56" y="92.63" rot="R180"/>
 <element name="J1" library="MRDT-Connectors" package="MOLEX-70543-0002" value="SL03" x="123.312" y="3.512" smashed="yes" rot="R270">
-<attribute name="NAME" x="125.266" y="-1.529" size="1.27" layer="21"/>
+<attribute name="NAME" x="125.266" y="-1.529" size="0.8128" layer="21"/>
 </element>
 <element name="J2" library="MRDT-Connectors" package="MOLEX-70543-0002" value="SL03" x="123.2874" y="14.241" smashed="yes" rot="R270">
-<attribute name="NAME" x="125.0526" y="9.724" size="1.27" layer="21"/>
+<attribute name="NAME" x="125.0526" y="9.724" size="0.8128" layer="21"/>
 </element>
 <element name="X5" library="con-molex" package="22-23-2041" value="22-23-2041" x="45.95" y="62.85" rot="R270">
 <attribute name="MF" value="MOLEX" x="45.95" y="62.85" size="1.778" layer="27" rot="R270" display="off"/>
@@ -13161,53 +13164,53 @@ design rules under a new name.</description>
 </element>
 <element name="U$9" library="MRDT-Hardware" package="MRDT_LOGO" value="" x="16.8776" y="-19.3482"/>
 <element name="R22" library="rcl" package="R0805" value="10k" x="97" y="83" smashed="yes" rot="R270">
-<attribute name="NAME" x="94.46" y="84.651" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="94.46" y="84.651" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="94.46" y="83.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R23" library="rcl" package="R1206" value="10k" x="52.45" y="66.45" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.406" y="69.722" size="1.27" layer="25"/>
+<attribute name="NAME" x="51.406" y="69.722" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="49.91" y="67.72" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="Q2" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="72.5" y="66.75" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="TRANS-11151" x="72.5" y="66.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="73.0595" y="65.288" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="73.0595" y="65.288" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="71.1905" y="65.634" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R25" library="resistor" package="R1206" value="100kΩ" x="78.6" y="72.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="79.743" y="73.597" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="79.743" y="73.597" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="76.187" y="73.597" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R26" library="resistor" package="R1206" value="10kΩ" x="78.6" y="65.592" smashed="yes" rot="R270">
-<attribute name="NAME" x="77.537" y="68.059" size="1.27" layer="25"/>
+<attribute name="NAME" x="77.537" y="68.059" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="76.187" y="66.989" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="Q3" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="82.1" y="66.85" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="TRANS-11151" x="82.1" y="66.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="80.9645" y="64.05" size="1.27" layer="25"/>
+<attribute name="NAME" x="80.9645" y="64.05" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="80.7905" y="65.734" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R27" library="resistor" package="R1206" value="100kΩ" x="72" y="54.984" smashed="yes">
-<attribute name="NAME" x="70.603" y="56.127" size="1.27" layer="25"/>
+<attribute name="NAME" x="70.603" y="56.127" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="70.603" y="52.571" size="1.27" layer="27"/>
 </element>
 <element name="R28" library="resistor" package="R1206" value="10kΩ" x="77.4" y="54.984" smashed="yes">
-<attribute name="NAME" x="76.003" y="56.127" size="1.27" layer="25"/>
+<attribute name="NAME" x="76.003" y="56.127" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="76.003" y="52.571" size="1.27" layer="27"/>
 </element>
 <element name="R29" library="rcl" package="R0805" value="100k" x="118.288" y="86.65" smashed="yes">
-<attribute name="NAME" x="113.018" y="85.92" size="1.27" layer="25"/>
+<attribute name="NAME" x="113.78" y="86.174" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="117.018" y="84.11" size="1.27" layer="27"/>
 </element>
 <element name="R30" library="rcl" package="R0805" value="100k" x="118.188" y="78.65" smashed="yes">
-<attribute name="NAME" x="112.918" y="77.92" size="1.27" layer="25"/>
+<attribute name="NAME" x="113.934" y="78.174" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="116.918" y="76.11" size="1.27" layer="27"/>
 </element>
 <element name="R31" library="rcl" package="R0805" value="100k" x="118.234" y="70.65" smashed="yes">
-<attribute name="NAME" x="112.964" y="69.92" size="1.27" layer="25"/>
+<attribute name="NAME" x="114.234" y="70.174" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="116.964" y="68.11" size="1.27" layer="27"/>
 </element>
 <element name="R32" library="rcl" package="R0805" value="100k" x="118.688" y="62.35" smashed="yes">
-<attribute name="NAME" x="113.168" y="61.77" size="1.27" layer="25"/>
+<attribute name="NAME" x="114.438" y="61.77" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="117.418" y="59.81" size="1.27" layer="27"/>
 </element>
 <element name="R33" library="rcl" package="R0805" value="200R" x="44.75" y="69.9" smashed="yes">
@@ -13219,7 +13222,9 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value=" SWCH-08441" x="3.258" y="42.758" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="2.226" y="46.552" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="U$1" library="MRDT-Connectors" package="MOLEX-70543-0004" value="SL05" x="125.334" y="39.02" rot="R270"/>
+<element name="U$1" library="MRDT-Connectors" package="MOLEX-70543-0004" value="SL05" x="125.334" y="39.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="128.255" y="39.147" size="0.8128" layer="21" rot="R270"/>
+</element>
 <element name="D24" library="diode" package="SOD323-R" value="BAT46WJ" x="54.95" y="23.95" smashed="yes">
 <attribute name="NAME" x="57.45" y="23.5" size="1.016" layer="25"/>
 <attribute name="VALUE" x="53.85" y="21.65" size="1.27" layer="27"/>
@@ -13230,7 +13235,7 @@ design rules under a new name.</description>
 </element>
 <element name="Q15" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="117.95" y="90.5" smashed="yes">
 <attribute name="PROD_ID" value="TRANS-11151" x="117.95" y="90.5" size="1.016" layer="27" display="off"/>
-<attribute name="NAME" x="112.9625" y="89.928" size="1.27" layer="25"/>
+<attribute name="NAME" x="114.2325" y="90.182" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="116.834" y="91.8095" size="0.4064" layer="27"/>
 </element>
 <element name="H1" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="3.048" y="-24"/>
@@ -13239,28 +13244,28 @@ design rules under a new name.</description>
 <element name="H4" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="127" y="96"/>
 <element name="D4" library="SparkFun-DiscreteSemi" package="SOD-123" value="BZT52C15-7-F " x="75.946" y="61.976" smashed="yes">
 <attribute name="PROD_ID" value="DIO-12440" x="75.946" y="61.976" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="78.359" y="61.468" size="1.27" layer="25"/>
+<attribute name="NAME" x="78.359" y="61.468" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="74.93" y="60.579" size="0.4064" layer="27"/>
 </element>
 <element name="D6" library="SparkFun-DiscreteSemi" package="SOD-123" value="BZT52C15-7-F " x="75.438" y="58.42" smashed="yes">
 <attribute name="PROD_ID" value="DIO-12440" x="75.438" y="58.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="77.851" y="57.912" size="1.27" layer="25"/>
+<attribute name="NAME" x="77.851" y="57.912" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="74.422" y="57.023" size="0.4064" layer="27"/>
 </element>
 <element name="J3" library="MRDT-Connectors" package="APP45_PCB_VERT" value="APPPP45_PCB_VERT" x="130.048" y="-19.304" rot="R90">
 <attribute name="COLOR1" value="" x="130.048" y="-19.304" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$2" library="MRDT-Connectors" package="MOLEX-70543-0001" value="SL02-VERT" x="122.7328" y="66.6496" smashed="yes" rot="R270">
-<attribute name="NAME" x="125.1458" y="66.2686" size="1.27" layer="21" rot="R270"/>
+<attribute name="NAME" x="125.1458" y="66.2686" size="0.8128" layer="21" rot="R270"/>
 </element>
 <element name="U$5" library="MRDT-Connectors" package="MOLEX-70543-0001" value="SL02-VERT" x="122.7328" y="74.168" smashed="yes" rot="R270">
-<attribute name="NAME" x="125.1458" y="73.787" size="1.27" layer="21" rot="R270"/>
+<attribute name="NAME" x="125.1458" y="73.787" size="0.8128" layer="21" rot="R270"/>
 </element>
 <element name="U$6" library="MRDT-Connectors" package="MOLEX-70543-0001" value="SL02-VERT" x="122.682" y="81.788" smashed="yes" rot="R270">
-<attribute name="NAME" x="125.095" y="81.153" size="1.27" layer="21" rot="R270"/>
+<attribute name="NAME" x="125.095" y="81.153" size="0.8128" layer="21" rot="R270"/>
 </element>
 <element name="U$7" library="MRDT-Connectors" package="MOLEX-70543-0001" value="SL02-VERT" x="122.682" y="89.408" smashed="yes" rot="R270">
-<attribute name="NAME" x="125.095" y="88.773" size="1.27" layer="21" rot="R270"/>
+<attribute name="NAME" x="125.095" y="88.773" size="0.8128" layer="21" rot="R270"/>
 </element>
 <element name="U$10" library="MRDT-Connectors" package="MOLEX-70543-0009" value="SL10" x="20.8788" y="54.7116" rot="R270"/>
 <element name="U$11" library="MRDT-Connectors" package="MOLEX-70543-0009" value="SL10" x="24.3078" y="32.3088"/>
@@ -13268,7 +13273,9 @@ design rules under a new name.</description>
 <element name="U$14" library="MRDT-Connectors" package="MOLEX-70543-0008" value="SL09" x="14.224" y="12.954" rot="R90"/>
 <element name="U$16" library="MRDT-Connectors" package="MOLEX-70543-0001" value="SL02-VERT" x="2.286" y="33.274" rot="R270"/>
 <element name="U$17" library="sig" package="SANSONE-SIG" value="" x="20.574" y="-25.146"/>
-<element name="U$18" library="MRDT-Connectors" package="MOLEX-70543-0003" value="SL04" x="125.3236" y="53.5432" rot="R270"/>
+<element name="U$18" library="MRDT-Connectors" package="MOLEX-70543-0003" value="SL04" x="125.3236" y="53.5432" smashed="yes" rot="R270">
+<attribute name="NAME" x="128.4986" y="54.0512" size="0.8128" layer="21" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="CELL_8_FILTER">
