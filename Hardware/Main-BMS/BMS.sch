@@ -22663,7 +22663,7 @@ Most frame-mounted PCB's - M8</description>
 <part name="R39" library="resistor" deviceset="R-US_" device="R1206" value="10kΩ"/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="R40" library="rcl" deviceset="R-US_" device="R0805" value="5kΩ"/>
+<part name="R40" library="rcl" deviceset="R-US_" device="R1206" value="5kΩ"/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R41" library="resistor" deviceset="R-US_" device="R1206" value="100kΩ"/>
 <part name="R42" library="resistor" deviceset="R-US_" device="R1206" value="10kΩ"/>
