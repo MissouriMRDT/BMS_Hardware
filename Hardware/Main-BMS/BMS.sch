@@ -18886,6 +18886,50 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <hole x="-3.937" y="8.636" drill="3.4036"/>
 <hole x="3.937" y="8.636" drill="3.4036"/>
 </package>
+<package name="MOLEX_SL_04_TH">
+<hole x="-5.08" y="8.636" drill="3.4544"/>
+<hole x="5.08" y="8.636" drill="3.4544"/>
+<pad name="2" x="1.27" y="0" drill="1.1684"/>
+<pad name="1" x="3.81" y="0" drill="1.1684"/>
+<pad name="3" x="-1.27" y="0" drill="1.1684"/>
+<pad name="4" x="-3.81" y="0" drill="1.1684"/>
+<wire x1="-6.985" y1="13.208" x2="-2.54" y2="13.208" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="13.208" x2="2.54" y2="13.208" width="0.127" layer="21"/>
+<wire x1="2.54" y1="13.208" x2="6.985" y2="13.208" width="0.127" layer="21"/>
+<wire x1="6.985" y1="13.208" x2="6.985" y2="1.27" width="0.127" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="-6.985" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-6.985" y1="1.27" x2="-6.985" y2="13.208" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-1.27" x2="-5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="13.208" x2="-2.54" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="8.89" x2="-1.27" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="8.89" x2="1.27" y2="8.89" width="0.127" layer="21"/>
+<wire x1="1.27" y1="8.89" x2="2.54" y2="8.89" width="0.127" layer="21"/>
+<wire x1="2.54" y1="8.89" x2="2.54" y2="13.208" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="8.89" x2="-1.27" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="6.35" x2="1.27" y2="6.35" width="0.127" layer="21"/>
+<wire x1="1.27" y1="6.35" x2="1.27" y2="8.89" width="0.127" layer="21"/>
+<text x="-3.81" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="MOLEX-70543-0003">
+<pad name="1" x="3.81" y="0" drill="1.1" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="1.1"/>
+<pad name="3" x="-1.27" y="0" drill="1.1"/>
+<pad name="4" x="-3.81" y="0" drill="1.1"/>
+<wire x1="-6.35" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="6.35" y2="1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-1.27" x2="-6.35" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-1.27" x2="-6.35" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<text x="7.62" y="-0.635" size="1.27" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SL03">
@@ -18951,6 +18995,18 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="9" x="22.86" y="-12.7" length="middle" rot="R90"/>
 <text x="-1.016" y="-6.858" size="1.27" layer="94" rot="R90">&gt;NAME</text>
 <text x="0.254" y="1.27" size="1.27" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="SL04">
+<pin name="P$1" x="-7.62" y="7.62" length="middle"/>
+<pin name="P$2" x="-7.62" y="2.54" length="middle"/>
+<pin name="P$3" x="-7.62" y="-2.54" length="middle"/>
+<pin name="P$4" x="-7.62" y="-7.62" length="middle"/>
+<wire x1="-2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<text x="-2.54" y="11.43" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -19094,6 +19150,35 @@ Locking 3 pin connector with standard header spacing. Backward compatible with s
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SL04" prefix="J">
+<gates>
+<gate name="G$1" symbol="SL04" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_SL_04_TH">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VERT" package="MOLEX-70543-0003">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -22733,17 +22818,18 @@ Most frame-mounted PCB's - M8</description>
 <part name="U2" library="MRDT-ICs" deviceset="MAX*232" device="D" technology="3" value="MAX3232D"/>
 <part name="C44" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C45" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1u"/>
-<part name="C46" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1u"/>
+<part name="C46" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1u"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C47" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="C48" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="RS232_IND" library="MRDT-Connectors" deviceset="SL03" device=""/>
 <part name="RS232_PB" library="MRDT-Connectors" deviceset="SL03" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
+<part name="J1" library="MRDT-Connectors" deviceset="SL04" device="VERT"/>
+<part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23041,7 +23127,7 @@ Most frame-mounted PCB's - M8</description>
 <instance part="U$12" gate="G$1" x="187.96" y="-342.9" rot="R90"/>
 <instance part="U$14" gate="G$1" x="220.98" y="-342.9" rot="R90"/>
 <instance part="U$16" gate="G$1" x="416.56" y="-269.24" rot="MR180"/>
-<instance part="GND36" gate="1" x="594.36" y="-124.46"/>
+<instance part="GND36" gate="1" x="586.74" y="-134.62"/>
 <instance part="U2" gate="G$1" x="528.32" y="-99.06"/>
 <instance part="C44" gate="G$1" x="500.38" y="-83.82"/>
 <instance part="C45" gate="G$1" x="500.38" y="-96.52"/>
@@ -23052,10 +23138,11 @@ Most frame-mounted PCB's - M8</description>
 <instance part="C48" gate="G$1" x="548.64" y="-88.9" rot="R90"/>
 <instance part="GND16" gate="1" x="553.72" y="-83.82"/>
 <instance part="GND17" gate="1" x="553.72" y="-91.44"/>
-<instance part="RS232_IND" gate="G$1" x="607.06" y="-116.84"/>
 <instance part="RS232_PB" gate="G$1" x="607.06" y="-96.52"/>
 <instance part="GND18" gate="1" x="594.36" y="-104.14"/>
 <instance part="+3V7" gate="G$1" x="528.32" y="-55.88"/>
+<instance part="J1" gate="G$1" x="607.06" y="-124.46" rot="MR180"/>
+<instance part="SUPPLY14" gate="G$1" x="596.9" y="-116.84"/>
 </instances>
 <busses>
 </busses>
@@ -23430,10 +23517,9 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="594.36" y1="-99.06" x2="594.36" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RS232_IND" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="P$1"/>
 <pinref part="GND36" gate="1" pin="GND"/>
-<wire x1="599.44" y1="-119.38" x2="594.36" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="594.36" y1="-119.38" x2="594.36" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="599.44" y1="-132.08" x2="586.74" y2="-132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_2_FILTER" class="0">
@@ -24004,9 +24090,9 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="PACK_GATE" class="0">
 <segment>
-<label x="81.28" y="-99.06" size="1.778" layer="95"/>
 <pinref part="U$8" gate="G$1" pin="IN"/>
-<wire x1="81.28" y1="-99.06" x2="76.2" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-99.06" x2="76.2" y2="-99.06" width="0.1524" layer="91"/>
+<label x="68.58" y="-99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$13" gate="G$1" pin="P4.4"/>
@@ -24166,6 +24252,11 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="Q3" gate="G$1" pin="D"/>
 <pinref part="SUPPLY12" gate="G$1" pin="5V"/>
 <wire x1="124.46" y1="-17.78" x2="111.76" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="P$4"/>
+<pinref part="SUPPLY14" gate="G$1" pin="5V"/>
+<wire x1="599.44" y1="-116.84" x2="596.9" y2="-116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LOGIC_POWER" class="0">
@@ -24494,22 +24585,6 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="421.64" y1="-177.8" x2="421.64" y2="-195.58" width="0.1524" layer="91"/>
 <pinref part="Q11" gate="G$1" pin="D"/>
 <pinref part="U$4" gate="G$1" pin="GND"/>
-</segment>
-</net>
-<net name="BUZZ_1" class="0">
-<segment>
-<pinref part="Q11" gate="G$1" pin="G"/>
-<wire x1="414.02" y1="-200.66" x2="408.94" y2="-200.66" width="0.1524" layer="91"/>
-<label x="403.86" y="-200.66" size="1.778" layer="95" font="vector"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="408.94" y1="-200.66" x2="403.86" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="408.94" y1="-203.2" x2="408.94" y2="-200.66" width="0.1524" layer="91"/>
-<junction x="408.94" y="-200.66"/>
-</segment>
-<segment>
-<pinref part="U$13" gate="G$1" pin="P4.7"/>
-<wire x1="419.1" y1="-78.74" x2="421.64" y2="-78.74" width="0.1524" layer="91"/>
-<label x="419.1" y="-78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GAUGE_ON" class="0">
@@ -25099,9 +25174,9 @@ Most frame-mounted PCB's - M8</description>
 <label x="548.64" y="-119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RS232_IND" gate="G$1" pin="3"/>
-<wire x1="599.44" y1="-114.3" x2="591.82" y2="-114.3" width="0.1524" layer="91"/>
-<label x="591.82" y="-114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="584.2" y="-121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="P$3"/>
+<wire x1="599.44" y1="-121.92" x2="584.2" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RS232_RX_PB" class="0">
@@ -25123,9 +25198,25 @@ Most frame-mounted PCB's - M8</description>
 <label x="548.64" y="-104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="591.82" y="-116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="RS232_IND" gate="G$1" pin="2"/>
-<wire x1="599.44" y1="-116.84" x2="591.82" y2="-116.84" width="0.1524" layer="91"/>
+<label x="584.2" y="-127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="P$2"/>
+<wire x1="599.44" y1="-127" x2="584.2" y2="-127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BUZZER" class="0">
+<segment>
+<pinref part="U$13" gate="G$1" pin="P4.7"/>
+<wire x1="419.1" y1="-78.74" x2="421.64" y2="-78.74" width="0.1524" layer="91"/>
+<label x="419.1" y="-78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="Q11" gate="G$1" pin="G"/>
+<wire x1="414.02" y1="-200.66" x2="408.94" y2="-200.66" width="0.1524" layer="91"/>
+<label x="403.86" y="-200.66" size="1.778" layer="95" font="vector"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="408.94" y1="-200.66" x2="403.86" y2="-200.66" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="-203.2" x2="408.94" y2="-200.66" width="0.1524" layer="91"/>
+<junction x="408.94" y="-200.66"/>
 </segment>
 </net>
 </nets>

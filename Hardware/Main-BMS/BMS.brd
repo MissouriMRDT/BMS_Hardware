@@ -6,9 +6,10 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.02" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -2939,6 +2940,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-10.16" y1="2.54" x2="8.89" y2="2.54" width="0.127" layer="21"/>
 <wire x1="8.89" y1="2.54" x2="8.89" y2="1.27" width="0.127" layer="21"/>
 <text x="12.7" y="5.08" size="1.27" layer="21" rot="R270">&gt;NAME</text>
+</package>
+<package name="MOLEX-70543-0003">
+<pad name="1" x="3.81" y="0" drill="1.1" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="1.1"/>
+<pad name="3" x="-1.27" y="0" drill="1.1"/>
+<pad name="4" x="-3.81" y="0" drill="1.1"/>
+<wire x1="-6.35" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="6.35" y2="1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-1.27" x2="-6.35" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-1.27" x2="-6.35" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<text x="7.62" y="-0.635" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -13268,7 +13285,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="119.4562" y="83.2231" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="123.0122" y="84.455" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="C46" library="SparkFun-Passives" package="0805" value="0.1u" x="126.6952" y="72.2122" smashed="yes" rot="R270">
+<element name="C46" library="SparkFun-Passives" package="0805" value="1u" x="126.6952" y="72.2122" smashed="yes" rot="R270">
 <attribute name="NAME" x="128.0287" y="73.4822" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="125.2982" y="73.2282" size="0.4064" layer="27" rot="R270"/>
 </element>
@@ -13280,12 +13297,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="122.174" y="87.0077" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="119.888" y="83.7946" size="0.4064" layer="27"/>
 </element>
-<element name="RS232_IND" library="MRDT-Connectors" package="MOLEX-70543-0002" value="SL03" x="124.3584" y="53.1876" smashed="yes" rot="R270">
-<attribute name="NAME" x="127.7874" y="56.9976" size="0.8128" layer="21" rot="R270"/>
+<element name="RS232_PB" library="MRDT-Connectors" package="MOLEX-70543-0002" value="SL03" x="124.3076" y="66.6612" smashed="yes" rot="R270">
+<attribute name="NAME" x="127.7366" y="69.9632" size="0.8128" layer="21" rot="R270"/>
 </element>
-<element name="RS232_PB" library="MRDT-Connectors" package="MOLEX-70543-0002" value="SL03" x="124.3076" y="64.2112" smashed="yes" rot="R270">
-<attribute name="NAME" x="127.7366" y="67.5132" size="0.8128" layer="21" rot="R270"/>
-</element>
+<element name="J1" library="MRDT-Connectors" package="MOLEX-70543-0003" value="SL04VERT" x="124.36" y="54.24" rot="R270"/>
 </elements>
 <signals>
 <signal name="CELL_8_FILTER">
@@ -13490,10 +13505,10 @@ design rules under a new name.</description>
 <via x="125.0664" y="72.9502" extent="1-16" drill="0.6" shape="square"/>
 <via x="130.0382" y="25.8348" extent="1-16" drill="0.6" shape="square"/>
 <contactref element="RS232_PB" pad="1"/>
-<contactref element="RS232_IND" pad="1"/>
 <via x="124.247" y="36.8584" extent="1-16" drill="0.6" shape="square"/>
-<via x="124.3806" y="58.8024" extent="1-16" drill="0.6" shape="square"/>
+<via x="124.3806" y="61.2524" extent="1-16" drill="0.6" shape="square"/>
 <via x="124.4756" y="48.1304" extent="1-16" drill="0.6" shape="square"/>
+<contactref element="J1" pad="1"/>
 </signal>
 <signal name="CELL_2_FILTER">
 <contactref element="D3" pad="C"/>
@@ -14019,6 +14034,14 @@ design rules under a new name.</description>
 <wire x1="126.492" y1="116.332" x2="125.984" y2="115.824" width="1.27" layer="1"/>
 <wire x1="125.984" y1="115.824" x2="124.0028" y2="115.824" width="1.27" layer="1"/>
 <wire x1="124.0028" y1="115.824" x2="123.6726" y2="116.1542" width="1.27" layer="1"/>
+<contactref element="J1" pad="4"/>
+<wire x1="123.7234" y1="93.3958" x2="123.7234" y2="88.7534" width="0.8128" layer="16"/>
+<wire x1="123.7234" y1="88.7534" x2="120.65" y2="85.68" width="0.8128" layer="16"/>
+<wire x1="120.65" y1="85.68" x2="120.65" y2="71.06" width="0.8128" layer="16"/>
+<wire x1="120.65" y1="71.06" x2="122.42" y2="69.27" width="0.8128" layer="16"/>
+<via x="122.42" y="69.27" extent="1-16" drill="0.6"/>
+<wire x1="122.42" y1="69.27" x2="122.41" y2="60.05" width="0.8128" layer="1"/>
+<wire x1="122.41" y1="60.05" x2="124.36" y2="58.05" width="0.8128" layer="1"/>
 </signal>
 <signal name="LOGIC_POWER">
 <contactref element="OKI-78SR-5V" pad="1"/>
@@ -14341,24 +14364,6 @@ design rules under a new name.</description>
 <wire x1="69.469" y1="6.6802" x2="69.977" y2="6.1722" width="0.4064" layer="1"/>
 <wire x1="69.977" y1="6.1722" x2="69.977" y2="4.0948" width="0.4064" layer="1"/>
 <wire x1="69.977" y1="4.0948" x2="71.2106" y2="2.8612" width="0.4064" layer="1"/>
-</signal>
-<signal name="BUZZ_1">
-<contactref element="Q11" pad="1"/>
-<contactref element="R22" pad="2"/>
-<wire x1="100.7606" y1="110.6412" x2="100.7606" y2="108.2462" width="0.4064" layer="1"/>
-<wire x1="100.7606" y1="108.2462" x2="101.9906" y2="107.0162" width="0.4064" layer="1"/>
-<wire x1="101.9906" y1="107.0162" x2="106.9906" y2="107.0162" width="0.4064" layer="1"/>
-<wire x1="107.9906" y1="106.0162" x2="107.9906" y2="100.9802" width="0.4064" layer="1"/>
-<wire x1="100.7606" y1="110.6412" x2="98.2136" y2="110.6412" width="0.6096" layer="1"/>
-<wire x1="98.2136" y1="110.6412" x2="97.9906" y2="110.8282" width="0.6096" layer="1"/>
-<wire x1="106.9906" y1="107.0162" x2="107.9906" y2="106.0162" width="0.4064" layer="1"/>
-<contactref element="U$13" pad="4.7"/>
-<wire x1="107.9906" y1="100.9802" x2="86.8426" y2="79.8322" width="0.4064" layer="1"/>
-<via x="86.8426" y="79.8322" extent="1-16" drill="0.6"/>
-<wire x1="86.8426" y1="79.8322" x2="79.7306" y2="72.7202" width="0.4064" layer="16"/>
-<via x="79.7306" y="72.7202" extent="1-16" drill="0.6"/>
-<wire x1="79.7306" y1="72.7202" x2="79.7306" y2="36.7812" width="0.4064" layer="1"/>
-<wire x1="79.7306" y1="36.7812" x2="71.2106" y2="28.2612" width="0.4064" layer="1"/>
 </signal>
 <signal name="GAUGE_ON">
 <contactref element="IC2" pad="P$10"/>
@@ -14946,11 +14951,11 @@ design rules under a new name.</description>
 </signal>
 <signal name="RS232_TX_PB">
 <contactref element="U2" pad="14"/>
-<wire x1="123.7996" y1="75.1002" x2="123.7996" y2="69.7992" width="0.4064" layer="1"/>
-<wire x1="123.7996" y1="69.7992" x2="125.9586" y2="67.6402" width="0.4064" layer="1"/>
-<wire x1="125.9586" y1="67.6402" x2="125.9586" y2="65.8622" width="0.4064" layer="1"/>
+<wire x1="123.7996" y1="75.1002" x2="123.7996" y2="72.2492" width="0.4064" layer="1"/>
+<wire x1="123.7996" y1="72.2492" x2="125.9586" y2="70.0902" width="0.4064" layer="1"/>
+<wire x1="125.9586" y1="70.0902" x2="125.9586" y2="68.3122" width="0.4064" layer="1"/>
 <contactref element="RS232_PB" pad="2"/>
-<wire x1="125.9586" y1="65.8622" x2="124.3076" y2="64.2112" width="0.4064" layer="1"/>
+<wire x1="125.9586" y1="68.3122" x2="124.3076" y2="66.6612" width="0.4064" layer="1"/>
 </signal>
 <signal name="SER_TX_PB">
 <contactref element="U2" pad="11"/>
@@ -14991,19 +14996,20 @@ design rules under a new name.</description>
 </signal>
 <signal name="RS232_RX_IND">
 <contactref element="U2" pad="8"/>
-<contactref element="RS232_IND" pad="3"/>
 <wire x1="117.4496" y1="80.5002" x2="117.4496" y2="79.1972" width="0.4064" layer="1"/>
 <wire x1="117.4496" y1="79.1972" x2="118.8466" y2="77.8002" width="0.4064" layer="1"/>
 <wire x1="118.8466" y1="77.8002" x2="127.4826" y2="77.8002" width="0.4064" layer="1"/>
 <wire x1="127.4826" y1="77.8002" x2="128.4986" y2="76.7842" width="0.4064" layer="1"/>
-<wire x1="128.4986" y1="76.7842" x2="128.4986" y2="59.8678" width="0.4064" layer="1"/>
-<wire x1="128.4986" y1="59.8678" x2="124.3584" y2="55.7276" width="0.4064" layer="1"/>
+<wire x1="128.4986" y1="76.7842" x2="128.4986" y2="59.6386" width="0.4064" layer="1"/>
+<contactref element="J1" pad="3"/>
+<wire x1="128.4986" y1="59.6386" x2="128.4886" y2="59.6386" width="0.4064" layer="1"/>
+<wire x1="128.4886" y1="59.6386" x2="124.36" y2="55.51" width="0.4064" layer="1"/>
 </signal>
 <signal name="RS232_RX_PB">
 <contactref element="U2" pad="13"/>
 <contactref element="RS232_PB" pad="3"/>
-<wire x1="122.5296" y1="75.1002" x2="122.5296" y2="68.5292" width="0.4064" layer="1"/>
-<wire x1="122.5296" y1="68.5292" x2="124.3076" y2="66.7512" width="0.4064" layer="1"/>
+<wire x1="122.5296" y1="75.1002" x2="122.5296" y2="70.9792" width="0.4064" layer="1"/>
+<wire x1="122.5296" y1="70.9792" x2="124.3076" y2="69.2012" width="0.4064" layer="1"/>
 </signal>
 <signal name="RS232_TX_IND">
 <contactref element="U2" pad="7"/>
@@ -15011,9 +15017,27 @@ design rules under a new name.</description>
 <wire x1="118.7196" y1="79.4512" x2="119.3546" y2="78.8162" width="0.4064" layer="1"/>
 <wire x1="119.3546" y1="78.8162" x2="127.9906" y2="78.8162" width="0.4064" layer="1"/>
 <wire x1="127.9906" y1="78.8162" x2="129.5146" y2="77.2922" width="0.4064" layer="1"/>
-<wire x1="129.5146" y1="77.2922" x2="129.5146" y2="58.3438" width="0.4064" layer="1"/>
-<contactref element="RS232_IND" pad="2"/>
-<wire x1="129.5146" y1="58.3438" x2="124.3584" y2="53.1876" width="0.4064" layer="1"/>
+<wire x1="129.5146" y1="77.2922" x2="129.5146" y2="58.1246" width="0.4064" layer="1"/>
+<contactref element="J1" pad="2"/>
+<wire x1="129.5146" y1="58.1246" x2="124.36" y2="52.97" width="0.4064" layer="1"/>
+</signal>
+<signal name="BUZZER">
+<contactref element="U$13" pad="4.7"/>
+<contactref element="Q11" pad="1"/>
+<contactref element="R22" pad="2"/>
+<wire x1="100.7606" y1="110.6412" x2="100.7606" y2="108.2462" width="0.4064" layer="1"/>
+<wire x1="100.7606" y1="108.2462" x2="101.9906" y2="107.0162" width="0.4064" layer="1"/>
+<wire x1="101.9906" y1="107.0162" x2="106.9906" y2="107.0162" width="0.4064" layer="1"/>
+<wire x1="107.9906" y1="106.0162" x2="107.9906" y2="100.9802" width="0.4064" layer="1"/>
+<wire x1="100.7606" y1="110.6412" x2="98.2136" y2="110.6412" width="0.6096" layer="1"/>
+<wire x1="98.2136" y1="110.6412" x2="97.9906" y2="110.8282" width="0.6096" layer="1"/>
+<wire x1="106.9906" y1="107.0162" x2="107.9906" y2="106.0162" width="0.4064" layer="1"/>
+<wire x1="107.9906" y1="100.9802" x2="86.8426" y2="79.8322" width="0.4064" layer="1"/>
+<via x="86.8426" y="79.8322" extent="1-16" drill="0.6"/>
+<wire x1="86.8426" y1="79.8322" x2="79.7306" y2="72.7202" width="0.4064" layer="16"/>
+<via x="79.7306" y="72.7202" extent="1-16" drill="0.6"/>
+<wire x1="79.7306" y1="72.7202" x2="79.7306" y2="36.7812" width="0.4064" layer="1"/>
+<wire x1="79.7306" y1="36.7812" x2="71.2106" y2="28.2612" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>
