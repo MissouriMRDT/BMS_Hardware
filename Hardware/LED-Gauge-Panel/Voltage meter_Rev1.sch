@@ -1942,6 +1942,46 @@ IC needs to have legs bent before insertion.</description>
 <text x="-15.24" y="0" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-15.24" y="-1.27" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="CONN_IC_DIP_SOCKET_28POS">
+<wire x1="-19.05" y1="-1.27" x2="-19.05" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="-19.05" y1="-1.27" x2="-19.05" y2="1.27" width="0.2032" layer="21" curve="180"/>
+<wire x1="16.51" y1="-3.048" x2="16.51" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-19.05" y1="3.048" x2="-19.05" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-19.05" y1="3.048" x2="-18.796" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-19.05" y1="-3.048" x2="-18.796" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="16.51" y1="-3.048" x2="16.256" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="16.51" y1="3.048" x2="16.256" y2="3.048" width="0.2032" layer="21"/>
+<text x="-16.51" y="0" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-16.51" y="-1.27" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
+<smd name="15" x="15.24" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="16" x="12.7" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="17" x="10.16" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="18" x="7.62" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="19" x="5.08" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="20" x="2.54" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="21" x="0" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="22" x="-2.54" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="23" x="-5.08" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="24" x="-7.62" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="25" x="-10.16" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="26" x="-12.7" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="27" x="-15.24" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="28" x="-17.78" y="3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="13" x="12.7" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="12" x="10.16" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="11" x="7.62" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="10" x="5.08" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="9" x="2.54" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="8" x="0" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="7" x="-2.54" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="6" x="-5.08" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="5" x="-7.62" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="4" x="-10.16" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="3" x="-12.7" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="2" x="-15.24" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="1" x="-17.78" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<smd name="14" x="15.24" y="-3.81" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATMEGAXX8-28PIN">
@@ -1992,6 +2032,41 @@ This is the through-hole version of this chip.</description>
 </gates>
 <devices>
 <device name="" package="DIL28-3">
+<connects>
+<connect gate="G$1" pin="AREF" pad="21"/>
+<connect gate="G$1" pin="AVCC" pad="20"/>
+<connect gate="G$1" pin="GND@1" pad="8"/>
+<connect gate="G$1" pin="GND@2" pad="22"/>
+<connect gate="G$1" pin="PB0(ICP)" pad="14"/>
+<connect gate="G$1" pin="PB1(OC1A)" pad="15"/>
+<connect gate="G$1" pin="PB2(SS/OC1B)" pad="16"/>
+<connect gate="G$1" pin="PB3(MOSI/OC2)" pad="17"/>
+<connect gate="G$1" pin="PB4(MISO)" pad="18"/>
+<connect gate="G$1" pin="PB5(SCK)" pad="19"/>
+<connect gate="G$1" pin="PB6(XTAL1/TOSC1)" pad="9"/>
+<connect gate="G$1" pin="PB7(XTAL2/TOSC2)" pad="10"/>
+<connect gate="G$1" pin="PC0(ADC0)" pad="23"/>
+<connect gate="G$1" pin="PC1(ADC1)" pad="24"/>
+<connect gate="G$1" pin="PC2(ADC2)" pad="25"/>
+<connect gate="G$1" pin="PC3(ADC3)" pad="26"/>
+<connect gate="G$1" pin="PC4(ADC4/SDA)" pad="27"/>
+<connect gate="G$1" pin="PC5(ADC5/SCL)" pad="28"/>
+<connect gate="G$1" pin="PC6(/RESET)" pad="1"/>
+<connect gate="G$1" pin="PD0(RXD)" pad="2"/>
+<connect gate="G$1" pin="PD1(TXD)" pad="3"/>
+<connect gate="G$1" pin="PD2(INT0)" pad="4"/>
+<connect gate="G$1" pin="PD3(INT1)" pad="5"/>
+<connect gate="G$1" pin="PD4(XCK/T0)" pad="6"/>
+<connect gate="G$1" pin="PD5(T1)" pad="11"/>
+<connect gate="G$1" pin="PD6(AIN0)" pad="12"/>
+<connect gate="G$1" pin="PD7(AIN1)" pad="13"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DIL28-4" package="CONN_IC_DIP_SOCKET_28POS">
 <connects>
 <connect gate="G$1" pin="AREF" pad="21"/>
 <connect gate="G$1" pin="AVCC" pad="20"/>
@@ -2185,7 +2260,7 @@ This is the through-hole version of this chip.</description>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_PDIP" device=""/>
+<part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_PDIP" device="DIL28-4" value="ATMEGA328P_PDIPDIL28-4"/>
 <part name="S2" library="MRDT-UserInput" deviceset="PUSHBUTTON" device="VERT"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
