@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -190,13 +190,13 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <pad name="12" x="-6.35" y="7.62" drill="0.8" diameter="1.4224" rot="R180"/>
 <text x="-18.415" y="10.16" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.715" y="10.16" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-13.5445" y="5.9694"/>
 <vertex x="-13.3733" y="6.948"/>
 <vertex x="-9.3537" y="6.948"/>
 <vertex x="-9.476" y="5.9694"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-9.7632" y="1.0329"/>
 <vertex x="-8.7296" y="6.9034"/>
 <vertex x="-8.427" y="6.9114" curve="-104.731141"/>
@@ -204,7 +204,7 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="-8.8399" y="0.4893"/>
 <vertex x="-9.3047" y="0.4893"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-15.0369" y="1.0764"/>
 <vertex x="-14.0093" y="6.948"/>
 <vertex x="-14.2785" y="6.948" curve="77.705866"/>
@@ -220,13 +220,13 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="-10.3812" y="-0.3425"/>
 <vertex x="-14.7677" y="-0.3425"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-11.4821" y="-5.7003"/>
 <vertex x="-11.6533" y="-6.6789"/>
 <vertex x="-15.6729" y="-6.6789"/>
 <vertex x="-15.5506" y="-5.7003"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-15.3368" y="-0.7149"/>
 <vertex x="-16.2971" y="-6.6343"/>
 <vertex x="-16.5997" y="-6.6423" curve="-104.72259"/>
@@ -234,7 +234,7 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="-16.2601" y="-0.1713"/>
 <vertex x="-15.7953" y="-0.1713"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-10.0387" y="-0.9541"/>
 <vertex x="-11.0173" y="-6.6789"/>
 <vertex x="-10.7482" y="-6.6789" curve="77.701982"/>
@@ -294,13 +294,13 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="3.5622" y="-0.4159"/>
 <vertex x="2.9995" y="-0.4159"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="11.4555" y="5.9694"/>
 <vertex x="11.6267" y="6.948"/>
 <vertex x="15.6463" y="6.948"/>
 <vertex x="15.524" y="5.9694"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="15.2368" y="1.0329"/>
 <vertex x="16.2704" y="6.9034"/>
 <vertex x="16.573" y="6.9114" curve="-104.731141"/>
@@ -308,7 +308,7 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="16.1601" y="0.4893"/>
 <vertex x="15.6953" y="0.4893"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="9.9631" y="1.0764"/>
 <vertex x="10.9907" y="6.948"/>
 <vertex x="10.7215" y="6.948" curve="77.705866"/>
@@ -324,13 +324,13 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="14.6188" y="-0.3425"/>
 <vertex x="10.2323" y="-0.3425"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="13.5179" y="-5.7003"/>
 <vertex x="13.3467" y="-6.6789"/>
 <vertex x="9.3271" y="-6.6789"/>
 <vertex x="9.4494" y="-5.7003"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="9.6632" y="-0.7149"/>
 <vertex x="8.7029" y="-6.6343"/>
 <vertex x="8.4003" y="-6.6423" curve="-104.72259"/>
@@ -338,7 +338,7 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="8.7399" y="-0.1713"/>
 <vertex x="9.2047" y="-0.1713"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="14.9613" y="-0.9541"/>
 <vertex x="13.9827" y="-6.6789"/>
 <vertex x="14.2518" y="-6.6789" curve="77.701982"/>
@@ -676,10 +676,10 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <package name="MOLEX_SL_04_TH">
 <hole x="-5.08" y="8.636" drill="3.4544"/>
 <hole x="5.08" y="8.636" drill="3.4544"/>
-<pad name="2" x="1.27" y="0" drill="1.1684"/>
-<pad name="1" x="3.81" y="0" drill="1.1684"/>
-<pad name="3" x="-1.27" y="0" drill="1.1684"/>
-<pad name="4" x="-3.81" y="0" drill="1.1684"/>
+<pad name="2" x="-1.27" y="0" drill="1.1684"/>
+<pad name="1" x="-3.81" y="0" drill="1.1684" shape="square"/>
+<pad name="3" x="1.27" y="0" drill="1.1684"/>
+<pad name="4" x="3.81" y="0" drill="1.1684"/>
 <wire x1="-6.985" y1="13.208" x2="-2.54" y2="13.208" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="13.208" x2="2.54" y2="13.208" width="0.127" layer="21"/>
 <wire x1="2.54" y1="13.208" x2="6.985" y2="13.208" width="0.127" layer="21"/>

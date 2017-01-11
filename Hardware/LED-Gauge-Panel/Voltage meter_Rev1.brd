@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,6 +9,20 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -52,7 +66,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -191,13 +205,13 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <pad name="12" x="-6.35" y="7.62" drill="0.8" diameter="1.4224" rot="R180"/>
 <text x="-18.415" y="10.16" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.715" y="10.16" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-13.5445" y="5.9694"/>
 <vertex x="-13.3733" y="6.948"/>
 <vertex x="-9.3537" y="6.948"/>
 <vertex x="-9.476" y="5.9694"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-9.7632" y="1.0329"/>
 <vertex x="-8.7296" y="6.9034"/>
 <vertex x="-8.427" y="6.9114" curve="-104.731141"/>
@@ -205,7 +219,7 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="-8.8399" y="0.4893"/>
 <vertex x="-9.3047" y="0.4893"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-15.0369" y="1.0764"/>
 <vertex x="-14.0093" y="6.948"/>
 <vertex x="-14.2785" y="6.948" curve="77.705866"/>
@@ -221,13 +235,13 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="-10.3812" y="-0.3425"/>
 <vertex x="-14.7677" y="-0.3425"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-11.4821" y="-5.7003"/>
 <vertex x="-11.6533" y="-6.6789"/>
 <vertex x="-15.6729" y="-6.6789"/>
 <vertex x="-15.5506" y="-5.7003"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-15.3368" y="-0.7149"/>
 <vertex x="-16.2971" y="-6.6343"/>
 <vertex x="-16.5997" y="-6.6423" curve="-104.72259"/>
@@ -235,7 +249,7 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="-16.2601" y="-0.1713"/>
 <vertex x="-15.7953" y="-0.1713"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="-10.0387" y="-0.9541"/>
 <vertex x="-11.0173" y="-6.6789"/>
 <vertex x="-10.7482" y="-6.6789" curve="77.701982"/>
@@ -295,13 +309,13 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="3.5622" y="-0.4159"/>
 <vertex x="2.9995" y="-0.4159"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="11.4555" y="5.9694"/>
 <vertex x="11.6267" y="6.948"/>
 <vertex x="15.6463" y="6.948"/>
 <vertex x="15.524" y="5.9694"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="15.2368" y="1.0329"/>
 <vertex x="16.2704" y="6.9034"/>
 <vertex x="16.573" y="6.9114" curve="-104.731141"/>
@@ -309,7 +323,7 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="16.1601" y="0.4893"/>
 <vertex x="15.6953" y="0.4893"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="9.9631" y="1.0764"/>
 <vertex x="10.9907" y="6.948"/>
 <vertex x="10.7215" y="6.948" curve="77.705866"/>
@@ -325,13 +339,13 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="14.6188" y="-0.3425"/>
 <vertex x="10.2323" y="-0.3425"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="13.5179" y="-5.7003"/>
 <vertex x="13.3467" y="-6.6789"/>
 <vertex x="9.3271" y="-6.6789"/>
 <vertex x="9.4494" y="-5.7003"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="9.6632" y="-0.7149"/>
 <vertex x="8.7029" y="-6.6343"/>
 <vertex x="8.4003" y="-6.6423" curve="-104.72259"/>
@@ -339,7 +353,7 @@ Source: http://www.kingbright.com .. BA56-11EWA(Ver1189474895.pdf</description>
 <vertex x="8.7399" y="-0.1713"/>
 <vertex x="9.2047" y="-0.1713"/>
 </polygon>
-<polygon width="0.3976" layer="51" spacing="1.2428">
+<polygon width="0.3976" layer="21" spacing="1.2428">
 <vertex x="14.9613" y="-0.9541"/>
 <vertex x="13.9827" y="-6.6789"/>
 <vertex x="14.2518" y="-6.6789" curve="77.701982"/>
@@ -392,10 +406,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="MOLEX_SL_04_TH">
 <hole x="-5.08" y="8.636" drill="3.4544"/>
 <hole x="5.08" y="8.636" drill="3.4544"/>
-<pad name="2" x="1.27" y="0" drill="1.1684"/>
-<pad name="1" x="3.81" y="0" drill="1.1684"/>
-<pad name="3" x="-1.27" y="0" drill="1.1684"/>
-<pad name="4" x="-3.81" y="0" drill="1.1684"/>
+<pad name="2" x="-1.27" y="0" drill="1.1684"/>
+<pad name="1" x="-3.81" y="0" drill="1.1684" shape="square"/>
+<pad name="3" x="1.27" y="0" drill="1.1684"/>
+<pad name="4" x="3.81" y="0" drill="1.1684"/>
 <wire x1="-6.985" y1="13.208" x2="-2.54" y2="13.208" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="13.208" x2="2.54" y2="13.208" width="0.127" layer="21"/>
 <wire x1="2.54" y1="13.208" x2="6.985" y2="13.208" width="0.127" layer="21"/>
@@ -6062,6 +6076,9 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -6503,14 +6520,14 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="6.35" x2="13.97" y2="7.62" width="0.4064" layer="1"/>
 <wire x1="13.97" y1="7.62" x2="13.97" y2="8.89" width="0.4064" layer="1"/>
 <wire x1="13.97" y1="8.89" x2="15.24" y2="10.16" width="0.4064" layer="1"/>
-<wire x1="15.24" y1="10.16" x2="16.51" y2="10.16" width="0.4064" layer="1"/>
+<wire x1="15.24" y1="10.16" x2="16.51" y2="7.62" width="0.4064" layer="1"/>
 </signal>
 <signal name="232_TX">
 <contactref element="U2" pad="7"/>
 <contactref element="J1" pad="3"/>
 <wire x1="24.224" y1="5.715" x2="19.939" y2="5.715" width="0.4064" layer="1"/>
 <wire x1="19.939" y1="5.715" x2="18.034" y2="7.62" width="0.4064" layer="1"/>
-<wire x1="18.034" y1="7.62" x2="16.51" y2="7.62" width="0.4064" layer="1"/>
+<wire x1="18.034" y1="7.62" x2="16.51" y2="10.16" width="0.4064" layer="1"/>
 </signal>
 <signal name="SER_RX">
 <contactref element="U2" pad="12"/>
@@ -6550,7 +6567,7 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="15.24" x2="12.7" y2="12.7" width="0.8128" layer="1"/>
 <wire x1="12.7" y1="12.7" x2="12.7" y2="6.35" width="0.8128" layer="1"/>
 <wire x1="12.7" y1="6.35" x2="13.97" y2="5.08" width="0.8128" layer="1"/>
-<wire x1="13.97" y1="5.08" x2="16.51" y2="5.08" width="0.8128" layer="1"/>
+<wire x1="13.97" y1="5.08" x2="16.51" y2="12.7" width="0.8128" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="S2" pad="P$1"/>
