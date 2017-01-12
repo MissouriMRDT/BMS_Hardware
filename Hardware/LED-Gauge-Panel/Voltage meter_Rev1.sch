@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7617,6 +7617,42 @@ This is the through-hole version of this chip.</description>
 <rectangle x1="9.5123" y1="10.79626875" x2="9.67485625" y2="10.80135" layer="21"/>
 <rectangle x1="9.53261875" y1="10.80135" x2="9.67485625" y2="10.80643125" layer="21"/>
 </package>
+<package name="#8_SCREW">
+<description>BOLT DIA.: .162"
+HOLE DIA.: .17"
+HEAD DIA.: .265"</description>
+<hole x="0" y="0" drill="4.318"/>
+<circle x="0" y="0" radius="3.3655" width="0.127" layer="51"/>
+<dimension x1="2.033221875" y1="0.72615" x2="-2.033221875" y2="-0.72615" x3="-2.033221875" y3="-0.72615" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="5" visible="yes"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="2.159" y1="0" x2="0" y2="-2.159" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="0" y1="-2.159" x2="-2.159" y2="0" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<dimension x1="3.3655" y1="0" x2="-3.3655" y2="0" x3="-3.3655" y3="0" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="6" visible="yes"/>
+</package>
+<package name="#6_SCREW">
+<description>BOLT DIA.: .136"
+HOLE DIA.: .14"
+HEAD DIA.: .22"</description>
+<circle x="0" y="0" radius="1.778" width="0.0254" layer="20"/>
+<dimension x1="1.257234375" y1="1.257234375" x2="-1.257234375" y2="-1.257234375" x3="-1.257234375" y3="-1.257234375" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="6" visible="yes"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="51"/>
+<dimension x1="2.634715625" y1="0.9299" x2="-2.634715625" y2="-0.9299" x3="-2.634715625" y3="-0.9299" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="6" visible="yes"/>
+<wire x1="0" y1="-1.778" x2="-1.778" y2="0" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="-1.778" y1="0" x2="0" y2="1.778" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="1.778" y1="0" x2="0" y2="-1.778" width="0.127" layer="49" style="shortdash" curve="-90"/>
+</package>
+<package name="#4_SCREW">
+<hole x="0" y="0" drill="3.2639"/>
+<wire x1="0" y1="1.63195" x2="1.63195" y2="0" width="0.127" layer="51" style="shortdash" curve="-90"/>
+<wire x1="1.63195" y1="0" x2="0" y2="-1.63195" width="0.127" layer="51" style="shortdash" curve="-90"/>
+<wire x1="0" y1="-1.63195" x2="-1.63195" y2="0" width="0.127" layer="51" style="shortdash" curve="-90"/>
+<wire x1="-1.63195" y1="0" x2="0" y2="1.63195" width="0.127" layer="51" style="shortdash" curve="-90"/>
+<circle x="0" y="0" radius="2.3241" width="0.127" layer="51"/>
+<dimension x1="-1.284178125" y1="-1.284178125" x2="1.284178125" y2="1.284178125" x3="1.284178125" y3="1.284178125" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="6" visible="yes"/>
+<dimension x1="1.63195" y1="0" x2="-1.63195" y2="0" x3="-1.63195" y3="0" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="6" visible="yes"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MRDT_LOGO">
@@ -7626,6 +7662,14 @@ This is the through-hole version of this chip.</description>
 <wire x1="12.7" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
 <wire x1="0" y1="5.08" x2="0" y2="0" width="0.254" layer="94"/>
 </symbol>
+<symbol name="MOUNTING_HOLES">
+<text x="5.08" y="2.54" size="1.27" layer="94" align="center">MOUNTING
+HOLE</text>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="5.08" width="0.254" layer="94" style="shortdash"/>
+<wire x1="10.16" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="5.08" x2="0" y2="0" width="0.254" layer="94" style="shortdash"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MRDT_LOGO" prefix="LOGO">
@@ -7634,6 +7678,33 @@ This is the through-hole version of this chip.</description>
 </gates>
 <devices>
 <device name="" package="MRDT_LOGO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOUNTING_HOLE" prefix="H">
+<description>Mounting hole for M6 bolt.
+Standard use mounting hole for:
+Tiva C Connected - M6
+Anderson Powerpole Mounting Wing - M8
+Most frame-mounted PCB's - M8</description>
+<gates>
+<gate name="G$1" symbol="MOUNTING_HOLES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="#8" package="#8_SCREW">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="#6" package="#6_SCREW">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="#4" package="#4_SCREW">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7663,7 +7734,7 @@ This is the through-hole version of this chip.</description>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
 <part name="S2" library="MRDT-UserInput" deviceset="PUSHBUTTON" device="VERT"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="J1" library="MRDT-Connectors" deviceset="SL04" device=""/>
+<part name="BMS-DATA" library="MRDT-Connectors" deviceset="SL04" device=""/>
 <part name="U2" library="MRDT-ICs" deviceset="MAX*232" device="D" value="MAX232D"/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".1u"/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".1u"/>
@@ -7687,7 +7758,7 @@ This is the through-hole version of this chip.</description>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="con-molex" deviceset="22-23-2031" device=""/>
+<part name="PROG" library="con-molex" deviceset="22-23-2031" device=""/>
 <part name="X2" library="special" deviceset="XTAL/S" device="" value="16MHz"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="22pf"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="22pf"/>
@@ -7695,6 +7766,8 @@ This is the through-hole version of this chip.</description>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".1u"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="LOGO1" library="MRDT-Hardware" deviceset="MRDT_LOGO" device=""/>
+<part name="H1" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4"/>
+<part name="H4" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4"/>
 </parts>
 <sheets>
 <sheet>
@@ -7710,9 +7783,12 @@ This is the through-hole version of this chip.</description>
 <instance part="R4" gate="G$1" x="12.7" y="-2.54" rot="R90"/>
 <instance part="R5" gate="G$1" x="20.32" y="-2.54" rot="R270"/>
 <instance part="R7" gate="G$1" x="35.56" y="-2.54" rot="R90"/>
-<instance part="S2" gate="G$1" x="170.18" y="33.02"/>
+<instance part="S2" gate="G$1" x="170.18" y="33.02" smashed="yes">
+<attribute name="NAME" x="168.275" y="34.29" size="1.778" layer="95"/>
+<attribute name="VALUE" x="157.48" y="36.83" size="1.778" layer="96"/>
+</instance>
 <instance part="GND2" gate="1" x="55.88" y="-114.3"/>
-<instance part="J1" gate="G$1" x="185.42" y="25.4" rot="MR180"/>
+<instance part="BMS-DATA" gate="G$1" x="185.42" y="25.4" rot="MR180"/>
 <instance part="U2" gate="G$1" x="121.92" y="33.02"/>
 <instance part="C6" gate="G$1" x="93.98" y="48.26"/>
 <instance part="C7" gate="G$1" x="93.98" y="35.56"/>
@@ -7731,14 +7807,17 @@ This is the through-hole version of this chip.</description>
 <instance part="SUPPLY4" gate="G$1" x="165.1" y="33.02" rot="R90"/>
 <instance part="SUPPLY5" gate="G$1" x="38.1" y="86.36"/>
 <instance part="U1" gate="G$1" x="20.32" y="-60.96" rot="R90"/>
-<instance part="S1" gate="G$1" x="0" y="-104.14"/>
+<instance part="S1" gate="G$1" x="0" y="-104.14" smashed="yes">
+<attribute name="NAME" x="0.635" y="-107.95" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-2.54" y="-102.87" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY1" gate="G$1" x="121.92" y="71.12"/>
 <instance part="R1" gate="G$1" x="-30.48" y="-30.48" rot="R180"/>
 <instance part="R2" gate="G$1" x="-20.32" y="-33.02" rot="R180"/>
 <instance part="GND5" gate="1" x="-22.86" y="-60.96"/>
-<instance part="X1" gate="-1" x="-33.02" y="-53.34" rot="R270"/>
-<instance part="X1" gate="-2" x="-35.56" y="-53.34" rot="R270"/>
-<instance part="X1" gate="-3" x="-38.1" y="-53.34" rot="R270"/>
+<instance part="PROG" gate="-1" x="-33.02" y="-53.34" rot="R270"/>
+<instance part="PROG" gate="-2" x="-35.56" y="-53.34" rot="R270"/>
+<instance part="PROG" gate="-3" x="-38.1" y="-53.34" rot="R270"/>
 <instance part="X2" gate="G$1" x="25.4" y="-91.44" rot="R180"/>
 <instance part="C2" gate="G$1" x="38.1" y="-100.33" rot="R90"/>
 <instance part="C1" gate="G$1" x="38.1" y="-91.44" rot="R90"/>
@@ -7746,6 +7825,8 @@ This is the through-hole version of this chip.</description>
 <instance part="C4" gate="G$1" x="5.08" y="-88.9"/>
 <instance part="R3" gate="G$1" x="-5.08" y="-99.06" rot="R270"/>
 <instance part="LOGO1" gate="G$1" x="165.1" y="-15.24"/>
+<instance part="H1" gate="G$1" x="165.1" y="-25.4"/>
+<instance part="H4" gate="G$1" x="165.1" y="-48.26"/>
 </instances>
 <busses>
 </busses>
@@ -7932,7 +8013,7 @@ This is the through-hole version of this chip.</description>
 <segment>
 <wire x1="177.8" y1="17.78" x2="170.18" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="P$1"/>
+<pinref part="BMS-DATA" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND@2"/>
@@ -7960,7 +8041,7 @@ This is the through-hole version of this chip.</description>
 <wire x1="-33.02" y1="-50.8" x2="-22.86" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-50.8" x2="-22.86" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="PROG" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -8011,7 +8092,7 @@ This is the through-hole version of this chip.</description>
 <segment>
 <wire x1="177.8" y1="22.86" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
 <label x="172.72" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="P$2"/>
+<pinref part="BMS-DATA" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="R2IN"/>
@@ -8028,7 +8109,7 @@ This is the through-hole version of this chip.</description>
 <segment>
 <wire x1="177.8" y1="27.94" x2="172.72" y2="27.94" width="0.1524" layer="91"/>
 <label x="172.72" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="P$3"/>
+<pinref part="BMS-DATA" gate="G$1" pin="P$3"/>
 </segment>
 </net>
 <net name="SER_RX" class="0">
@@ -8061,7 +8142,7 @@ This is the through-hole version of this chip.</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="P$4"/>
+<pinref part="BMS-DATA" gate="G$1" pin="P$4"/>
 <pinref part="S2" gate="G$1" pin="S"/>
 <wire x1="175.26" y1="33.02" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
 </segment>
@@ -8178,7 +8259,7 @@ This is the through-hole version of this chip.</description>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="X1" gate="-3" pin="S"/>
+<pinref part="PROG" gate="-3" pin="S"/>
 <wire x1="-38.1" y1="-30.48" x2="-38.1" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-38.1" y1="-30.48" x2="-35.56" y2="-30.48" width="0.1524" layer="91"/>
@@ -8231,7 +8312,7 @@ This is the through-hole version of this chip.</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="PROG" gate="-2" pin="S"/>
 <wire x1="-25.4" y1="-33.02" x2="-35.56" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="-33.02" x2="-35.56" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
@@ -8241,4 +8322,10 @@ This is the through-hole version of this chip.</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
