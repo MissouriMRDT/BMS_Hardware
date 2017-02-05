@@ -18688,6 +18688,14 @@ Most frame-mounted PCB's - M8</description>
 <label x="231.14" y="-312.42" size="1.778" layer="95"/>
 <pinref part="PACK_SENSE" gate="G$1" pin="9"/>
 </segment>
+<segment>
+<pinref part="V_IN" gate="G$1" pin="P$1"/>
+<pinref part="IC1" gate="G$1" pin="IP-"/>
+<wire x1="17.78" y1="-58.42" x2="17.78" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-63.5" x2="17.78" y2="-68.58" width="0.1524" layer="91"/>
+<junction x="17.78" y="-63.5"/>
+<label x="17.78" y="-63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CELL_7" class="0">
 <segment>
