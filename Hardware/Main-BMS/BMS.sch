@@ -17519,31 +17519,28 @@ Most frame-mounted PCB's - M8</description>
 <parts>
 <part name="D13" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="5.6V" value="PDZ7.5B"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="D12" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="5.6V" value="PDZ7.5B"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
 <part name="D11" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="5.6V" value="PDZ7.5B"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
 <part name="D10" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="5.6V" value="PDZ7.5B"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
 <part name="D9" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="5.6V" value="PDZ7.5B"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C5" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
 <part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="5.6V" value="PDZ7.5B"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C4" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
 <part name="D7" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="5.6V" value="PDZ7.5B"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="16V" value="MMSZ5267B"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="V_IN" library="MRDT-2015-PowerBoard" deviceset="TERMINAL_HOLE" device=""/>
 <part name="Q3" library="MRDT-2015-BMS" deviceset="IRLS3034-7P" device=""/>
@@ -17552,7 +17549,7 @@ Most frame-mounted PCB's - M8</description>
 <part name="R11" library="rcl" deviceset="R-US_" device="R0805" value="100kΩ"/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="V_OUT_LED" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="R18" library="rcl" deviceset="R-US_" device="R0805" value="100Ω"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="R0805" value="330Ω"/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0805" value="1MΩ"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0805" value="100kΩ"/>
@@ -17575,7 +17572,7 @@ Most frame-mounted PCB's - M8</description>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="C14" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C14" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q6" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW" value="2N7002PW"/>
@@ -17610,33 +17607,30 @@ Most frame-mounted PCB's - M8</description>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="D14" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="5.6V" value="PDZ7.5B"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="R26" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
+<part name="R26" library="rcl" deviceset="R-US_" device="R0603" value="100R"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="LOG_PWR_LED" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="R9" library="rcl" deviceset="R-US_" device="R0805" value="330Ω"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="R34" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="R25" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
-<part name="R33" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="R24" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
-<part name="R32" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
-<part name="R31" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="R22" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
-<part name="R30" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="R29" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="R20" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
-<part name="R28" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="R19" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
-<part name="R27" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
+<part name="R34" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R25" library="rcl" deviceset="R-US_" device="R0603" value="100R"/>
+<part name="R33" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R24" library="rcl" deviceset="R-US_" device="R0603" value="100R"/>
+<part name="R32" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R23" library="rcl" deviceset="R-US_" device="R0603" value="100R"/>
+<part name="R31" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R22" library="rcl" deviceset="R-US_" device="R0603" value="100R"/>
+<part name="R30" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R21" library="rcl" deviceset="R-US_" device="R0603" value="100R"/>
+<part name="R29" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R20" library="rcl" deviceset="R-US_" device="R0603" value="100R"/>
+<part name="R28" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R19" library="rcl" deviceset="R-US_" device="R0603" value="100R"/>
+<part name="R27" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="10K"/>
-<part name="R16" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="R17" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="Q4" library="MRDT-2015-BMS" deviceset="IRLS3034-7P" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -17667,10 +17661,10 @@ Most frame-mounted PCB's - M8</description>
 <part name="D2" library="diode" deviceset="DIODE-" device="SOD323-R" value="BAT46WJ"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="SOD323-R" value="BAT46WJ"/>
 <part name="Q10" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW" value="2N7002PW"/>
-<part name="H1" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#6" value="MOUNTING_HOLE#6"/>
-<part name="H2" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#6" value="MOUNTING_HOLE#6"/>
-<part name="H3" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#6" value="MOUNTING_HOLE#6"/>
-<part name="H4" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#6" value="MOUNTING_HOLE#6"/>
+<part name="H1" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4" value="MOUNTING_HOLE#4"/>
+<part name="H2" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4" value="MOUNTING_HOLE#4"/>
+<part name="H3" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4" value="MOUNTING_HOLE#4"/>
+<part name="H4" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4" value="MOUNTING_HOLE#4"/>
 <part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="16V" value="BZT52C15-7-F "/>
 <part name="D5" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="16V" value="BZT52C15-7-F "/>
 <part name="FAN_1" library="MRDT-Connectors" deviceset="SL02-VERT" device=""/>
@@ -17703,6 +17697,12 @@ Most frame-mounted PCB's - M8</description>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="C21" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C22" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0805" value="100R"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="H5" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4" value="MOUNTING_HOLE#4"/>
+<part name="H6" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4" value="MOUNTING_HOLE#4"/>
 </parts>
 <sheets>
 <sheet>
@@ -17738,7 +17738,7 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="0" y1="0" x2="0" y2="-116.84" width="0.1524" layer="94"/>
 <wire x1="243.84" y1="-116.84" x2="243.84" y2="0" width="0.1524" layer="94"/>
 <text x="2.54" y="-114.3" size="2.54" layer="94" font="vector">Pack Switch</text>
-<text x="86.36" y="-15.24" size="1.778" layer="97">Main disconnect switch</text>
+<text x="53.34" y="-15.24" size="1.778" layer="97">Main disconnect switch</text>
 <wire x1="0" y1="-116.84" x2="243.84" y2="-116.84" width="0.1524" layer="94"/>
 <text x="45.72" y="-111.76" size="2.1844" layer="94" font="vector">E-Stop Connectors</text>
 <wire x1="609.6" y1="-137.16" x2="520.7" y2="-137.16" width="0.1524" layer="94"/>
@@ -17746,11 +17746,11 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="520.7" y1="-223.52" x2="609.6" y2="-223.52" width="0.1524" layer="94"/>
 <wire x1="609.6" y1="-223.52" x2="609.6" y2="-137.16" width="0.1524" layer="94"/>
 <text x="523.24" y="-220.98" size="2.54" layer="94" font="vector">Power Supply</text>
-<wire x1="386.08" y1="-228.6" x2="386.08" y2="-383.54" width="0.1524" layer="94"/>
-<wire x1="386.08" y1="-383.54" x2="609.6" y2="-383.54" width="0.1524" layer="94"/>
-<wire x1="609.6" y1="-383.54" x2="609.6" y2="-228.6" width="0.1524" layer="94"/>
+<wire x1="386.08" y1="-228.6" x2="386.08" y2="-340.36" width="0.1524" layer="94"/>
+<wire x1="386.08" y1="-340.36" x2="609.6" y2="-340.36" width="0.1524" layer="94"/>
+<wire x1="609.6" y1="-340.36" x2="609.6" y2="-228.6" width="0.1524" layer="94"/>
 <wire x1="386.08" y1="-228.6" x2="609.6" y2="-228.6" width="0.1524" layer="94"/>
-<text x="388.62" y="-381" size="2.54" layer="94" font="vector">LED SoC Indicator</text>
+<text x="388.62" y="-337.82" size="2.54" layer="94" font="vector">LED SoC Indicator</text>
 <wire x1="386.08" y1="-223.52" x2="386.08" y2="-137.16" width="0.1524" layer="94"/>
 <wire x1="386.08" y1="-137.16" x2="452.12" y2="-137.16" width="0.1524" layer="94"/>
 <wire x1="452.12" y1="-137.16" x2="452.12" y2="-223.52" width="0.1524" layer="94"/>
@@ -17776,9 +17776,9 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="0" y1="-210.82" x2="243.84" y2="-210.82" width="0.1524" layer="94"/>
 <wire x1="243.84" y1="-210.82" x2="243.84" y2="-121.92" width="0.1524" layer="94"/>
 <text x="2.54" y="-208.28" size="2.54" layer="94" font="vector">Voltage Monitoring</text>
-<text x="182.88" y="-269.24" size="2.54" layer="94" font="vector">Temperature sensors</text>
-<text x="107.696" y="-24.892" size="1.778" layer="97">Switch</text>
-<text x="98.806" y="-24.892" size="1.778" layer="97">Coil</text>
+<text x="563.88" y="-7.62" size="2.54" layer="94" font="vector">Temperature sensors</text>
+<text x="74.676" y="-24.892" size="1.778" layer="97">Switch</text>
+<text x="65.786" y="-24.892" size="1.778" layer="97">Coil</text>
 <text x="569.976" y="-103.632" size="2.54" layer="94" font="vector">Indicator Comm</text>
 <text x="569.722" y="-82.804" size="2.54" layer="94" font="vector">Power Board Comm</text>
 </plain>
@@ -17786,7 +17786,7 @@ Most frame-mounted PCB's - M8</description>
 <instance part="D13" gate="G$1" x="289.56" y="-309.88" rot="R90"/>
 <instance part="GND3" gate="1" x="304.8" y="-320.04"/>
 <instance part="C9" gate="G$1" x="304.8" y="-309.88"/>
-<instance part="GND4" gate="1" x="208.28" y="-337.82"/>
+<instance part="GND4" gate="1" x="43.18" y="-198.12"/>
 <instance part="D12" gate="G$1" x="289.56" y="-261.62" rot="R90"/>
 <instance part="GND5" gate="1" x="304.8" y="-271.78"/>
 <instance part="C8" gate="G$1" x="304.8" y="-261.62"/>
@@ -17805,11 +17805,8 @@ Most frame-mounted PCB's - M8</description>
 <instance part="D7" gate="G$1" x="289.56" y="-20.32" rot="R90"/>
 <instance part="GND10" gate="1" x="304.8" y="-30.48"/>
 <instance part="C3" gate="G$1" x="304.8" y="-20.32"/>
-<instance part="D1" gate="G$1" x="76.2" y="-160.02" rot="R90"/>
-<instance part="R6" gate="G$1" x="104.14" y="-154.94" rot="R180"/>
-<instance part="GND19" gate="1" x="83.82" y="-170.18"/>
-<instance part="C1" gate="G$1" x="114.3" y="-157.48"/>
-<instance part="GND20" gate="1" x="114.3" y="-167.64"/>
+<instance part="D1" gate="G$1" x="104.14" y="-157.48" rot="R90"/>
+<instance part="GND19" gate="1" x="111.76" y="-167.64"/>
 <instance part="GND21" gate="1" x="25.4" y="-88.9"/>
 <instance part="V_IN" gate="G$1" x="17.78" y="-58.42" rot="MR0"/>
 <instance part="Q3" gate="G$1" x="144.78" y="-71.12" rot="R90"/>
@@ -17820,21 +17817,21 @@ Most frame-mounted PCB's - M8</description>
 <instance part="V_OUT_LED" gate="G$1" x="226.06" y="-68.58"/>
 <instance part="R18" gate="G$1" x="226.06" y="-81.28" rot="R270"/>
 <instance part="GND23" gate="1" x="226.06" y="-111.76"/>
-<instance part="R2" gate="G$1" x="48.26" y="-55.88" rot="R270"/>
-<instance part="R1" gate="G$1" x="48.26" y="-40.64" rot="R270"/>
-<instance part="GND24" gate="1" x="58.42" y="-38.1"/>
+<instance part="R2" gate="G$1" x="167.64" y="-27.94" rot="R270"/>
+<instance part="R1" gate="G$1" x="167.64" y="-15.24" rot="R270"/>
+<instance part="GND24" gate="1" x="167.64" y="-5.08" rot="R180"/>
 <instance part="U1" gate="G$1" x="106.68" y="-101.6"/>
 <instance part="GND25" gate="1" x="106.68" y="-111.76"/>
 <instance part="C2" gate="G$1" x="124.46" y="-76.2" rot="R270"/>
 <instance part="GND26" gate="1" x="111.76" y="-81.28"/>
 <instance part="ESTOP_2" gate="G$1" x="66.04" y="-106.68" rot="R90"/>
 <instance part="ESTOP_1" gate="G$1" x="53.34" y="-106.68" rot="R90"/>
-<instance part="OKI-78SR-5V" gate="G$1" x="551.18" y="-152.4"/>
-<instance part="SUPPLY1" gate="G$1" x="601.98" y="-149.86"/>
-<instance part="GND33" gate="1" x="553.72" y="-167.64"/>
-<instance part="OKI-78SR-3V1" gate="G$1" x="551.18" y="-185.42"/>
-<instance part="GND35" gate="1" x="553.72" y="-200.66"/>
-<instance part="GND38" gate="1" x="241.3" y="-337.82"/>
+<instance part="OKI-78SR-5V" gate="G$1" x="561.34" y="-157.48"/>
+<instance part="SUPPLY1" gate="G$1" x="586.74" y="-154.94"/>
+<instance part="GND33" gate="1" x="563.88" y="-172.72"/>
+<instance part="OKI-78SR-3V1" gate="G$1" x="561.34" y="-190.5"/>
+<instance part="GND35" gate="1" x="563.88" y="-205.74"/>
+<instance part="GND38" gate="1" x="76.2" y="-198.12"/>
 <instance part="U4" gate="G$1" x="515.62" y="-256.54" rot="MR180"/>
 <instance part="SUPPLY3" gate="G$1" x="490.22" y="-254"/>
 <instance part="R50" gate="G$1" x="500.38" y="-254"/>
@@ -17876,22 +17873,22 @@ Most frame-mounted PCB's - M8</description>
 <instance part="R45" gate="G$1" x="469.9" y="-325.12" rot="MR90"/>
 <instance part="U3" gate="G$1" x="421.64" y="-124.46"/>
 <instance part="GND51" gate="1" x="482.6" y="-60.96"/>
-<instance part="F1" gate="G$1" x="160.02" y="-35.56"/>
-<instance part="C19" gate="G$1" x="574.04" y="-157.48"/>
-<instance part="C20" gate="G$1" x="574.04" y="-190.5"/>
-<instance part="C15" gate="G$1" x="538.48" y="-157.48"/>
-<instance part="C16" gate="G$1" x="538.48" y="-190.5"/>
-<instance part="U2" gate="G$1" x="152.4" y="-175.26"/>
+<instance part="F1" gate="G$1" x="132.08" y="-35.56"/>
+<instance part="C19" gate="G$1" x="579.12" y="-162.56"/>
+<instance part="C20" gate="G$1" x="579.12" y="-195.58"/>
+<instance part="C15" gate="G$1" x="548.64" y="-162.56"/>
+<instance part="C16" gate="G$1" x="548.64" y="-195.58"/>
+<instance part="U2" gate="G$1" x="170.18" y="-172.72"/>
 <instance part="GND28" gate="1" x="363.22" y="-381"/>
 <instance part="D14" gate="G$1" x="289.56" y="-358.14" rot="R90"/>
 <instance part="GND1" gate="1" x="297.18" y="-368.3"/>
 <instance part="C10" gate="G$1" x="304.8" y="-358.14"/>
 <instance part="R26" gate="G$1" x="317.5" y="-353.06"/>
-<instance part="GND2" gate="1" x="220.98" y="-187.96"/>
-<instance part="+3V2" gate="G$1" x="177.8" y="-127"/>
-<instance part="LOG_PWR_LED" gate="G$1" x="167.64" y="-7.62" rot="R270"/>
-<instance part="R9" gate="G$1" x="154.94" y="-7.62" rot="R180"/>
-<instance part="GND11" gate="1" x="144.78" y="-27.94"/>
+<instance part="GND2" gate="1" x="218.44" y="-185.42"/>
+<instance part="+3V2" gate="G$1" x="195.58" y="-124.46"/>
+<instance part="LOG_PWR_LED" gate="G$1" x="134.62" y="-7.62" rot="R270"/>
+<instance part="R9" gate="G$1" x="121.92" y="-7.62" rot="R180"/>
+<instance part="GND11" gate="1" x="111.76" y="-27.94"/>
 <instance part="R3" gate="G$1" x="81.28" y="-101.6" rot="R90"/>
 <instance part="R34" gate="G$1" x="337.82" y="-375.92"/>
 <instance part="R25" gate="G$1" x="317.5" y="-304.8"/>
@@ -17903,74 +17900,71 @@ Most frame-mounted PCB's - M8</description>
 <instance part="R22" gate="G$1" x="317.5" y="-160.02"/>
 <instance part="R30" gate="G$1" x="332.74" y="-182.88"/>
 <instance part="R21" gate="G$1" x="317.5" y="-111.76"/>
-<instance part="R15" gate="G$1" x="215.9" y="-149.86" rot="R180"/>
 <instance part="R29" gate="G$1" x="332.74" y="-134.62"/>
 <instance part="R20" gate="G$1" x="317.5" y="-63.5"/>
 <instance part="R28" gate="G$1" x="330.2" y="-86.36"/>
 <instance part="R19" gate="G$1" x="317.5" y="-15.24"/>
 <instance part="R27" gate="G$1" x="330.2" y="-38.1"/>
-<instance part="R12" gate="G$1" x="177.8" y="-137.16" rot="R90"/>
-<instance part="R16" gate="G$1" x="215.9" y="-154.94" rot="R180"/>
-<instance part="R17" gate="G$1" x="215.9" y="-160.02" rot="R180"/>
+<instance part="R12" gate="G$1" x="195.58" y="-134.62" rot="R90"/>
 <instance part="Q4" gate="G$1" x="154.94" y="-50.8" rot="R90"/>
-<instance part="+3V3" gate="G$1" x="601.98" y="-180.34"/>
+<instance part="+3V3" gate="G$1" x="586.74" y="-185.42"/>
 <instance part="SUPPLY6" gate="G$1" x="497.84" y="-144.78"/>
 <instance part="SUPPLY8" gate="G$1" x="497.84" y="-162.56"/>
 <instance part="SUPPLY9" gate="G$1" x="497.84" y="-180.34"/>
 <instance part="SUPPLY10" gate="G$1" x="497.84" y="-198.12"/>
 <instance part="+3V4" gate="G$1" x="43.18" y="-81.28" rot="MR0"/>
-<instance part="GND12" gate="1" x="198.12" y="-299.72"/>
+<instance part="GND12" gate="1" x="579.12" y="-38.1"/>
 <instance part="IC2" gate="G$1" x="406.4" y="-175.26" rot="R90"/>
-<instance part="TEMP_1" gate="G$1" x="187.96" y="-287.02" rot="R180"/>
-<instance part="Q1" gate="G$1" x="88.9" y="-40.64" smashed="yes" rot="MR0">
-<attribute name="NAME" x="91.44" y="-48.26" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="83.82" y="-48.26" size="1.778" layer="96" rot="MR90"/>
+<instance part="TEMP_1" gate="G$1" x="568.96" y="-25.4" rot="R180"/>
+<instance part="Q1" gate="G$1" x="55.88" y="-40.64" smashed="yes" rot="MR0">
+<attribute name="NAME" x="58.42" y="-48.26" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="50.8" y="-48.26" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="101.6" y="-40.64"/>
-<instance part="GND14" gate="1" x="88.9" y="-58.42"/>
+<instance part="SUPPLY11" gate="G$1" x="68.58" y="-40.64"/>
+<instance part="GND14" gate="1" x="55.88" y="-58.42"/>
 <instance part="R35" gate="G$1" x="403.86" y="-200.66" rot="R90"/>
-<instance part="R4" gate="G$1" x="93.98" y="-53.34" rot="R180"/>
+<instance part="R4" gate="G$1" x="60.96" y="-53.34" rot="R180"/>
 <instance part="Q5" gate="G$1" x="226.06" y="-93.98"/>
 <instance part="R13" gate="G$1" x="210.82" y="-81.28" rot="R270"/>
 <instance part="R14" gate="G$1" x="210.82" y="-101.6" rot="R270"/>
-<instance part="Q2" gate="G$1" x="144.78" y="-12.7" smashed="yes">
-<attribute name="NAME" x="142.24" y="-20.32" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="152.4" y="-22.86" size="1.778" layer="96" rot="R90"/>
+<instance part="Q2" gate="G$1" x="111.76" y="-12.7" smashed="yes">
+<attribute name="NAME" x="109.22" y="-20.32" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="119.38" y="-22.86" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="175.26" y="-7.62"/>
-<instance part="R7" gate="G$1" x="124.46" y="-30.48" rot="R90"/>
-<instance part="R8" gate="G$1" x="134.62" y="-22.86"/>
+<instance part="SUPPLY12" gate="G$1" x="142.24" y="-7.62"/>
+<instance part="R7" gate="G$1" x="91.44" y="-30.48" rot="R90"/>
+<instance part="R8" gate="G$1" x="101.6" y="-22.86"/>
 <instance part="R49" gate="G$1" x="472.44" y="-210.82" rot="R180"/>
 <instance part="R48" gate="G$1" x="472.44" y="-193.04" rot="R180"/>
 <instance part="R47" gate="G$1" x="472.44" y="-175.26" rot="R180"/>
 <instance part="R46" gate="G$1" x="472.44" y="-157.48" rot="R180"/>
 <instance part="IC1" gate="G$1" x="30.48" y="-73.66" rot="R270"/>
-<instance part="D2" gate="G$1" x="83.82" y="-160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="82.0674" y="-162.052" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="86.8934" y="-164.084" size="1.27" layer="96" rot="R90"/>
+<instance part="D2" gate="G$1" x="111.76" y="-157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="110.0074" y="-159.512" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="114.8334" y="-161.544" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="D3" gate="G$1" x="91.44" y="-160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="89.6874" y="-162.052" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="94.5134" y="-164.084" size="1.27" layer="96" rot="R90"/>
+<instance part="D3" gate="G$1" x="119.38" y="-157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="117.6274" y="-159.512" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="122.4534" y="-161.544" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="Q10" gate="G$1" x="480.06" y="-200.66" smashed="yes" rot="MR90">
 <attribute name="NAME" x="482.6" y="-198.12" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="483.108" y="-201.422" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="H1" gate="G$1" x="233.68" y="-220.98"/>
-<instance part="H2" gate="G$1" x="233.68" y="-228.6"/>
-<instance part="H3" gate="G$1" x="233.68" y="-236.22"/>
-<instance part="H4" gate="G$1" x="233.68" y="-243.84"/>
+<instance part="H1" gate="G$1" x="558.8" y="-27.94" rot="R180"/>
+<instance part="H2" gate="G$1" x="558.8" y="-20.32" rot="R180"/>
+<instance part="H3" gate="G$1" x="558.8" y="-12.7" rot="R180"/>
+<instance part="H4" gate="G$1" x="558.8" y="-5.08" rot="R180"/>
 <instance part="D6" gate="G$1" x="215.9" y="-101.6" rot="R90"/>
-<instance part="D5" gate="G$1" x="134.62" y="-17.78" rot="R180"/>
+<instance part="D5" gate="G$1" x="101.6" y="-17.78" rot="R180"/>
 <instance part="FAN_1" gate="G$1" x="513.08" y="-152.4" rot="R180"/>
 <instance part="FAN_2" gate="G$1" x="513.08" y="-170.18" rot="R180"/>
 <instance part="FAN_3" gate="G$1" x="513.08" y="-187.96" rot="R180"/>
 <instance part="FAN_4" gate="G$1" x="513.08" y="-205.74" rot="R180"/>
 <instance part="LED_SIG" gate="G$1" x="467.36" y="-299.72" rot="MR180"/>
 <instance part="LED_PWR" gate="G$1" x="495.3" y="-304.8" rot="MR0"/>
-<instance part="CHARGE_SENSE" gate="G$1" x="182.88" y="-335.28" rot="R90"/>
-<instance part="PACK_SENSE" gate="G$1" x="215.9" y="-335.28" rot="R90"/>
+<instance part="CHARGE_SENSE" gate="G$1" x="17.78" y="-195.58" rot="R90"/>
+<instance part="PACK_SENSE" gate="G$1" x="50.8" y="-195.58" rot="R90"/>
 <instance part="BUTTON" gate="G$1" x="426.72" y="-274.32" rot="MR180"/>
 <instance part="GND36" gate="1" x="581.66" y="-127"/>
 <instance part="U5" gate="G$1" x="523.24" y="-91.44"/>
@@ -17988,11 +17982,17 @@ Most frame-mounted PCB's - M8</description>
 <instance part="+3V7" gate="G$1" x="523.24" y="-48.26"/>
 <instance part="RS232-IND" gate="G$1" x="601.98" y="-116.84" rot="MR180"/>
 <instance part="SUPPLY14" gate="G$1" x="591.82" y="-109.22"/>
-<instance part="LOGIC_PWR" gate="G$1" x="106.68" y="-22.86" rot="R90"/>
+<instance part="LOGIC_PWR" gate="G$1" x="73.66" y="-22.86" rot="R90"/>
 <instance part="GND" gate="G$1" x="7.62" y="-58.42"/>
 <instance part="SUPPLY15" gate="G$1" x="469.9" y="-17.78"/>
 <instance part="SUPPLY2" gate="G$1" x="226.06" y="-60.96"/>
-<instance part="+3V1" gate="G$1" x="198.12" y="-274.32"/>
+<instance part="+3V1" gate="G$1" x="579.12" y="-12.7"/>
+<instance part="C21" gate="G$1" x="210.82" y="-172.72"/>
+<instance part="C22" gate="G$1" x="200.66" y="-175.26"/>
+<instance part="R5" gate="G$1" x="129.54" y="-152.4" rot="R180"/>
+<instance part="C1" gate="G$1" x="139.7" y="-157.48"/>
+<instance part="H5" gate="G$1" x="558.8" y="-35.56" rot="R180"/>
+<instance part="H6" gate="G$1" x="558.8" y="-43.18" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -18013,25 +18013,25 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="C8"/>
-<wire x1="132.08" y1="-177.8" x2="127" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-175.26" x2="144.78" y2="-175.26" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="C12"/>
-<wire x1="127" y1="-177.8" x2="109.22" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="-157.48" x2="127" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="127" y1="-157.48" x2="127" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-175.26" x2="142.24" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-154.94" x2="144.78" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-154.94" x2="144.78" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="C11"/>
-<wire x1="127" y1="-162.56" x2="127" y2="-167.64" width="0.1524" layer="91"/>
-<wire x1="127" y1="-167.64" x2="127" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="127" y1="-172.72" x2="127" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="-162.56" x2="127" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-160.02" x2="144.78" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-165.1" x2="144.78" y2="-170.18" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-170.18" x2="144.78" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-160.02" x2="144.78" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="C10"/>
-<wire x1="132.08" y1="-167.64" x2="127" y2="-167.64" width="0.1524" layer="91"/>
-<junction x="127" y="-162.56"/>
-<junction x="127" y="-167.64"/>
-<junction x="127" y="-177.8"/>
-<label x="109.22" y="-177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="-165.1" x2="144.78" y2="-165.1" width="0.1524" layer="91"/>
+<junction x="144.78" y="-160.02"/>
+<junction x="144.78" y="-165.1"/>
+<junction x="144.78" y="-175.26"/>
+<label x="142.24" y="-175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="C9"/>
-<wire x1="132.08" y1="-172.72" x2="127" y2="-172.72" width="0.1524" layer="91"/>
-<junction x="127" y="-172.72"/>
+<wire x1="149.86" y1="-170.18" x2="144.78" y2="-170.18" width="0.1524" layer="91"/>
+<junction x="144.78" y="-170.18"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -18041,10 +18041,10 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="304.8" y1="-317.5" x2="304.8" y2="-314.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="195.58" y1="-332.74" x2="208.28" y2="-332.74" width="0.1524" layer="91"/>
-<label x="198.12" y="-332.74" size="1.778" layer="95"/>
+<wire x1="30.48" y1="-193.04" x2="43.18" y2="-193.04" width="0.1524" layer="91"/>
+<label x="33.02" y="-193.04" size="1.778" layer="95"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="208.28" y1="-332.74" x2="208.28" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-193.04" x2="43.18" y2="-195.58" width="0.1524" layer="91"/>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -18079,21 +18079,19 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="76.2" y1="-162.56" x2="76.2" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-165.1" x2="83.82" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-165.1" x2="83.82" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-165.1" x2="91.44" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-165.1" x2="91.44" y2="-162.56" width="0.1524" layer="91"/>
-<junction x="83.82" y="-165.1"/>
+<wire x1="104.14" y1="-160.02" x2="104.14" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-162.56" x2="111.76" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-162.56" x2="111.76" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-162.56" x2="119.38" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="-162.56" x2="119.38" y2="-160.02" width="0.1524" layer="91"/>
+<junction x="111.76" y="-162.56"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="83.82" y1="-165.1" x2="83.82" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-162.56" x2="111.76" y2="-165.1" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-</segment>
-<segment>
+<wire x1="139.7" y1="-162.56" x2="119.38" y2="-162.56" width="0.1524" layer="91"/>
+<junction x="119.38" y="-162.56"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="114.3" y1="-162.56" x2="114.3" y2="-165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -18114,13 +18112,6 @@ Most frame-mounted PCB's - M8</description>
 <junction x="226.06" y="-109.22"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="-35.56" x2="48.26" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-33.02" x2="58.42" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="58.42" y1="-33.02" x2="58.42" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="106.68" y1="-109.22" x2="106.68" y2="-106.68" width="0.1524" layer="91"/>
@@ -18138,30 +18129,30 @@ Most frame-mounted PCB's - M8</description>
 <segment>
 <pinref part="OKI-78SR-5V" gate="G$1" pin="GND"/>
 <pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="553.72" y1="-165.1" x2="553.72" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="-170.18" x2="563.88" y2="-167.64" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="-"/>
-<wire x1="553.72" y1="-162.56" x2="553.72" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="-162.56" x2="553.72" y2="-162.56" width="0.1524" layer="91"/>
-<junction x="553.72" y="-162.56"/>
+<wire x1="563.88" y1="-167.64" x2="563.88" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="-167.64" x2="563.88" y2="-167.64" width="0.1524" layer="91"/>
+<junction x="563.88" y="-167.64"/>
 <pinref part="C19" gate="G$1" pin="-"/>
-<wire x1="574.04" y1="-162.56" x2="553.72" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="-167.64" x2="563.88" y2="-167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OKI-78SR-3V1" gate="G$1" pin="GND"/>
 <pinref part="GND35" gate="1" pin="GND"/>
-<wire x1="553.72" y1="-198.12" x2="553.72" y2="-195.58" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="-203.2" x2="563.88" y2="-200.66" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="-"/>
-<wire x1="553.72" y1="-195.58" x2="553.72" y2="-193.04" width="0.1524" layer="91"/>
-<wire x1="574.04" y1="-195.58" x2="553.72" y2="-195.58" width="0.1524" layer="91"/>
-<junction x="553.72" y="-195.58"/>
+<wire x1="563.88" y1="-200.66" x2="563.88" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="-200.66" x2="563.88" y2="-200.66" width="0.1524" layer="91"/>
+<junction x="563.88" y="-200.66"/>
 <pinref part="C16" gate="G$1" pin="-"/>
-<wire x1="553.72" y1="-195.58" x2="538.48" y2="-195.58" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="-200.66" x2="548.64" y2="-200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="-332.74" x2="241.3" y2="-332.74" width="0.1524" layer="91"/>
-<label x="231.14" y="-332.74" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-193.04" x2="76.2" y2="-193.04" width="0.1524" layer="91"/>
+<label x="66.04" y="-193.04" size="1.778" layer="95"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="241.3" y1="-332.74" x2="241.3" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-193.04" x2="76.2" y2="-195.58" width="0.1524" layer="91"/>
 <pinref part="PACK_SENSE" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -18278,32 +18269,44 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="V-"/>
-<wire x1="172.72" y1="-185.42" x2="175.26" y2="-185.42" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-182.88" x2="193.04" y2="-182.88" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="GPIO2"/>
-<wire x1="175.26" y1="-185.42" x2="175.26" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-182.88" x2="193.04" y2="-180.34" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="GPIO1"/>
-<wire x1="175.26" y1="-160.02" x2="172.72" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="-162.56" x2="175.26" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-162.56" x2="175.26" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-180.34" x2="193.04" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-157.48" x2="190.5" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-160.02" x2="193.04" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-160.02" x2="193.04" y2="-157.48" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="220.98" y1="-185.42" x2="175.26" y2="-185.42" width="0.1524" layer="91"/>
-<junction x="175.26" y="-160.02"/>
-<junction x="175.26" y="-185.42"/>
-<junction x="175.26" y="-162.56"/>
+<wire x1="218.44" y1="-182.88" x2="210.82" y2="-182.88" width="0.1524" layer="91"/>
+<junction x="193.04" y="-157.48"/>
+<junction x="193.04" y="-182.88"/>
+<junction x="193.04" y="-160.02"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="-182.88" x2="200.66" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-182.88" x2="193.04" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-180.34" x2="200.66" y2="-182.88" width="0.1524" layer="91"/>
+<junction x="200.66" y="-182.88"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="-177.8" x2="210.82" y2="-182.88" width="0.1524" layer="91"/>
+<junction x="210.82" y="-182.88"/>
+<pinref part="U2" gate="G$1" pin="NC"/>
+<wire x1="190.5" y1="-180.34" x2="193.04" y2="-180.34" width="0.1524" layer="91"/>
+<junction x="193.04" y="-180.34"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="195.58" y1="-289.56" x2="198.12" y2="-289.56" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="-289.56" x2="198.12" y2="-297.18" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="-27.94" x2="579.12" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="-27.94" x2="579.12" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="TEMP_1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="88.9" y1="-55.88" x2="88.9" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-55.88" x2="55.88" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="88.9" y1="-45.72" x2="88.9" y2="-53.34" width="0.1524" layer="91"/>
-<junction x="88.9" y="-53.34"/>
+<wire x1="55.88" y1="-45.72" x2="55.88" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="55.88" y="-53.34"/>
 </segment>
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
@@ -18348,14 +18351,19 @@ Most frame-mounted PCB's - M8</description>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="144.78" y1="-25.4" x2="144.78" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-25.4" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="-22.86" x2="144.78" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="-22.86" x2="144.78" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="144.78" y="-22.86"/>
+<wire x1="111.76" y1="-22.86" x2="111.76" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-22.86" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="111.76" y="-22.86"/>
 <pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="137.16" y1="-17.78" x2="144.78" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="144.78" y="-17.78"/>
+<wire x1="104.14" y1="-17.78" x2="111.76" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="111.76" y="-17.78"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="167.64" y1="-10.16" x2="167.64" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_2_FILTER" class="0">
@@ -18380,15 +18388,15 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="C2"/>
-<wire x1="172.72" y1="-195.58" x2="200.66" y2="-195.58" width="0.1524" layer="91"/>
-<label x="200.66" y="-195.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="-193.04" x2="198.12" y2="-193.04" width="0.1524" layer="91"/>
+<label x="198.12" y="-193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CELL_2_BAL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="S2"/>
-<wire x1="172.72" y1="-193.04" x2="200.66" y2="-193.04" width="0.1524" layer="91"/>
-<label x="200.66" y="-193.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="-190.5" x2="198.12" y2="-190.5" width="0.1524" layer="91"/>
+<label x="198.12" y="-190.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="330.2" y1="-327.66" x2="276.86" y2="-327.66" width="0.1524" layer="91"/>
@@ -18403,8 +18411,8 @@ Most frame-mounted PCB's - M8</description>
 <label x="363.22" y="-304.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="195.58" y1="-327.66" x2="208.28" y2="-327.66" width="0.1524" layer="91"/>
-<label x="198.12" y="-327.66" size="1.778" layer="95"/>
+<wire x1="30.48" y1="-187.96" x2="43.18" y2="-187.96" width="0.1524" layer="91"/>
+<label x="33.02" y="-187.96" size="1.778" layer="95"/>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="3"/>
 </segment>
 <segment>
@@ -18413,8 +18421,8 @@ Most frame-mounted PCB's - M8</description>
 <label x="363.22" y="-279.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="-327.66" x2="241.3" y2="-327.66" width="0.1524" layer="91"/>
-<label x="231.14" y="-327.66" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-187.96" x2="76.2" y2="-187.96" width="0.1524" layer="91"/>
+<label x="66.04" y="-187.96" size="1.778" layer="95"/>
 <pinref part="PACK_SENSE" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -18440,8 +18448,8 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="C1"/>
-<wire x1="172.72" y1="-190.5" x2="200.66" y2="-190.5" width="0.1524" layer="91"/>
-<label x="200.66" y="-190.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="-187.96" x2="198.12" y2="-187.96" width="0.1524" layer="91"/>
+<label x="198.12" y="-187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CELL_1" class="0">
@@ -18451,13 +18459,13 @@ Most frame-mounted PCB's - M8</description>
 <label x="363.22" y="-327.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="195.58" y1="-330.2" x2="208.28" y2="-330.2" width="0.1524" layer="91"/>
-<label x="198.12" y="-330.2" size="1.778" layer="95"/>
+<wire x1="30.48" y1="-190.5" x2="43.18" y2="-190.5" width="0.1524" layer="91"/>
+<label x="33.02" y="-190.5" size="1.778" layer="95"/>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="-330.2" x2="241.3" y2="-330.2" width="0.1524" layer="91"/>
-<label x="231.14" y="-330.2" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-190.5" x2="76.2" y2="-190.5" width="0.1524" layer="91"/>
+<label x="66.04" y="-190.5" size="1.778" layer="95"/>
 <pinref part="PACK_SENSE" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -18469,8 +18477,8 @@ Most frame-mounted PCB's - M8</description>
 <net name="CELL_3_BAL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="S3"/>
-<wire x1="172.72" y1="-198.12" x2="200.66" y2="-198.12" width="0.1524" layer="91"/>
-<label x="200.66" y="-198.12" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="-195.58" x2="198.12" y2="-195.58" width="0.1524" layer="91"/>
+<label x="198.12" y="-195.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="330.2" y1="-279.4" x2="276.86" y2="-279.4" width="0.1524" layer="91"/>
@@ -18500,15 +18508,15 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="C3"/>
-<wire x1="172.72" y1="-200.66" x2="200.66" y2="-200.66" width="0.1524" layer="91"/>
-<label x="200.66" y="-200.66" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="-198.12" x2="198.12" y2="-198.12" width="0.1524" layer="91"/>
+<label x="198.12" y="-198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CELL_4_BAL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="S4"/>
-<wire x1="132.08" y1="-200.66" x2="109.22" y2="-200.66" width="0.1524" layer="91"/>
-<label x="109.22" y="-200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="-198.12" x2="142.24" y2="-198.12" width="0.1524" layer="91"/>
+<label x="142.24" y="-198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R31" gate="G$1" pin="1"/>
@@ -18538,15 +18546,15 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="C4"/>
-<wire x1="132.08" y1="-198.12" x2="109.22" y2="-198.12" width="0.1524" layer="91"/>
-<label x="109.22" y="-198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="-195.58" x2="142.24" y2="-195.58" width="0.1524" layer="91"/>
+<label x="142.24" y="-195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CELL_5_BAL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="S5"/>
-<wire x1="132.08" y1="-195.58" x2="109.22" y2="-195.58" width="0.1524" layer="91"/>
-<label x="109.22" y="-195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="-193.04" x2="142.24" y2="-193.04" width="0.1524" layer="91"/>
+<label x="142.24" y="-193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="327.66" y1="-182.88" x2="276.86" y2="-182.88" width="0.1524" layer="91"/>
@@ -18576,15 +18584,15 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="C5"/>
-<wire x1="132.08" y1="-193.04" x2="109.22" y2="-193.04" width="0.1524" layer="91"/>
-<label x="109.22" y="-193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="-190.5" x2="142.24" y2="-190.5" width="0.1524" layer="91"/>
+<label x="142.24" y="-190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CELL_6_BAL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="S6"/>
-<wire x1="132.08" y1="-190.5" x2="109.22" y2="-190.5" width="0.1524" layer="91"/>
-<label x="109.22" y="-190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="-187.96" x2="142.24" y2="-187.96" width="0.1524" layer="91"/>
+<label x="142.24" y="-187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R29" gate="G$1" pin="1"/>
@@ -18614,15 +18622,15 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="C6"/>
-<wire x1="132.08" y1="-187.96" x2="109.22" y2="-187.96" width="0.1524" layer="91"/>
-<label x="109.22" y="-187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="-185.42" x2="142.24" y2="-185.42" width="0.1524" layer="91"/>
+<label x="142.24" y="-185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CELL_7_BAL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="S7"/>
-<wire x1="132.08" y1="-185.42" x2="109.22" y2="-185.42" width="0.1524" layer="91"/>
-<label x="109.22" y="-185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="-182.88" x2="142.24" y2="-182.88" width="0.1524" layer="91"/>
+<label x="142.24" y="-182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
@@ -18652,15 +18660,15 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="C7"/>
-<wire x1="132.08" y1="-182.88" x2="109.22" y2="-182.88" width="0.1524" layer="91"/>
-<label x="109.22" y="-182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="-180.34" x2="142.24" y2="-180.34" width="0.1524" layer="91"/>
+<label x="142.24" y="-180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CELL_8_BAL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="S8"/>
-<wire x1="132.08" y1="-180.34" x2="109.22" y2="-180.34" width="0.1524" layer="91"/>
-<label x="109.22" y="-180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="-177.8" x2="142.24" y2="-177.8" width="0.1524" layer="91"/>
+<label x="142.24" y="-177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="325.12" y1="-38.1" x2="276.86" y2="-38.1" width="0.1524" layer="91"/>
@@ -18670,8 +18678,8 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="CELL_8" class="0">
 <segment>
-<wire x1="195.58" y1="-312.42" x2="208.28" y2="-312.42" width="0.1524" layer="91"/>
-<label x="198.12" y="-312.42" size="1.778" layer="95"/>
+<wire x1="30.48" y1="-172.72" x2="43.18" y2="-172.72" width="0.1524" layer="91"/>
+<label x="33.02" y="-172.72" size="1.778" layer="95"/>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="9"/>
 </segment>
 <segment>
@@ -18681,23 +18689,15 @@ Most frame-mounted PCB's - M8</description>
 <label x="363.22" y="-15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="-312.42" x2="241.3" y2="-312.42" width="0.1524" layer="91"/>
-<label x="231.14" y="-312.42" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-172.72" x2="76.2" y2="-172.72" width="0.1524" layer="91"/>
+<label x="66.04" y="-172.72" size="1.778" layer="95"/>
 <pinref part="PACK_SENSE" gate="G$1" pin="9"/>
-</segment>
-<segment>
-<pinref part="V_IN" gate="G$1" pin="P$1"/>
-<pinref part="IC1" gate="G$1" pin="IP-"/>
-<wire x1="17.78" y1="-58.42" x2="17.78" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-63.5" x2="17.78" y2="-68.58" width="0.1524" layer="91"/>
-<junction x="17.78" y="-63.5"/>
-<label x="17.78" y="-63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CELL_7" class="0">
 <segment>
-<wire x1="195.58" y1="-314.96" x2="208.28" y2="-314.96" width="0.1524" layer="91"/>
-<label x="198.12" y="-314.96" size="1.778" layer="95"/>
+<wire x1="30.48" y1="-175.26" x2="43.18" y2="-175.26" width="0.1524" layer="91"/>
+<label x="33.02" y="-175.26" size="1.778" layer="95"/>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="8"/>
 </segment>
 <segment>
@@ -18713,15 +18713,15 @@ Most frame-mounted PCB's - M8</description>
 <label x="363.22" y="-38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="-314.96" x2="241.3" y2="-314.96" width="0.1524" layer="91"/>
-<label x="231.14" y="-314.96" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-175.26" x2="76.2" y2="-175.26" width="0.1524" layer="91"/>
+<label x="66.04" y="-175.26" size="1.778" layer="95"/>
 <pinref part="PACK_SENSE" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="CELL_6" class="0">
 <segment>
-<wire x1="195.58" y1="-317.5" x2="208.28" y2="-317.5" width="0.1524" layer="91"/>
-<label x="198.12" y="-317.5" size="1.778" layer="95"/>
+<wire x1="30.48" y1="-177.8" x2="43.18" y2="-177.8" width="0.1524" layer="91"/>
+<label x="33.02" y="-177.8" size="1.778" layer="95"/>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="7"/>
 </segment>
 <segment>
@@ -18735,15 +18735,15 @@ Most frame-mounted PCB's - M8</description>
 <label x="363.22" y="-86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="-317.5" x2="241.3" y2="-317.5" width="0.1524" layer="91"/>
-<label x="231.14" y="-317.5" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-177.8" x2="76.2" y2="-177.8" width="0.1524" layer="91"/>
+<label x="66.04" y="-177.8" size="1.778" layer="95"/>
 <pinref part="PACK_SENSE" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="CELL_5" class="0">
 <segment>
-<wire x1="195.58" y1="-320.04" x2="208.28" y2="-320.04" width="0.1524" layer="91"/>
-<label x="198.12" y="-320.04" size="1.778" layer="95"/>
+<wire x1="30.48" y1="-180.34" x2="43.18" y2="-180.34" width="0.1524" layer="91"/>
+<label x="33.02" y="-180.34" size="1.778" layer="95"/>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="6"/>
 </segment>
 <segment>
@@ -18757,15 +18757,15 @@ Most frame-mounted PCB's - M8</description>
 <label x="363.22" y="-134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="-320.04" x2="241.3" y2="-320.04" width="0.1524" layer="91"/>
-<label x="231.14" y="-320.04" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-180.34" x2="76.2" y2="-180.34" width="0.1524" layer="91"/>
+<label x="66.04" y="-180.34" size="1.778" layer="95"/>
 <pinref part="PACK_SENSE" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="CELL_4" class="0">
 <segment>
-<wire x1="195.58" y1="-322.58" x2="208.28" y2="-322.58" width="0.1524" layer="91"/>
-<label x="198.12" y="-322.58" size="1.778" layer="95"/>
+<wire x1="30.48" y1="-182.88" x2="43.18" y2="-182.88" width="0.1524" layer="91"/>
+<label x="33.02" y="-182.88" size="1.778" layer="95"/>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="5"/>
 </segment>
 <segment>
@@ -18779,15 +18779,15 @@ Most frame-mounted PCB's - M8</description>
 <label x="363.22" y="-182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="-322.58" x2="241.3" y2="-322.58" width="0.1524" layer="91"/>
-<label x="231.14" y="-322.58" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-182.88" x2="76.2" y2="-182.88" width="0.1524" layer="91"/>
+<label x="66.04" y="-182.88" size="1.778" layer="95"/>
 <pinref part="PACK_SENSE" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="CELL_3" class="0">
 <segment>
-<wire x1="195.58" y1="-325.12" x2="208.28" y2="-325.12" width="0.1524" layer="91"/>
-<label x="198.12" y="-325.12" size="1.778" layer="95"/>
+<wire x1="30.48" y1="-185.42" x2="43.18" y2="-185.42" width="0.1524" layer="91"/>
+<label x="33.02" y="-185.42" size="1.778" layer="95"/>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="4"/>
 </segment>
 <segment>
@@ -18801,45 +18801,25 @@ Most frame-mounted PCB's - M8</description>
 <label x="363.22" y="-231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="-325.12" x2="241.3" y2="-325.12" width="0.1524" layer="91"/>
-<label x="231.14" y="-325.12" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-185.42" x2="76.2" y2="-185.42" width="0.1524" layer="91"/>
+<label x="66.04" y="-185.42" size="1.778" layer="95"/>
 <pinref part="PACK_SENSE" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="BMS_VREG" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="VREG"/>
-<wire x1="172.72" y1="-172.72" x2="177.8" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-170.18" x2="195.58" y2="-170.18" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VMODE"/>
-<wire x1="177.8" y1="-172.72" x2="226.06" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="-157.48" x2="177.8" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="-157.48" x2="177.8" y2="-170.18" width="0.1524" layer="91"/>
-<junction x="177.8" y="-172.72"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="-170.18" x2="177.8" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-149.86" x2="226.06" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="-149.86" x2="226.06" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="-154.94" x2="226.06" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="-160.02" x2="226.06" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-154.94" x2="226.06" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="226.06" y="-154.94"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="-160.02" x2="226.06" y2="-160.02" width="0.1524" layer="91"/>
-<junction x="226.06" y="-160.02"/>
+<wire x1="190.5" y1="-154.94" x2="195.58" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-154.94" x2="195.58" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-167.64" x2="195.58" y2="-170.18" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="TOS"/>
-<wire x1="172.72" y1="-170.18" x2="177.8" y2="-170.18" width="0.1524" layer="91"/>
-<junction x="177.8" y="-170.18"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="-154.94" x2="114.3" y2="-154.94" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="-154.94" x2="132.08" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="114.3" y="-154.94"/>
-<pinref part="U2" gate="G$1" pin="V+"/>
+<wire x1="190.5" y1="-167.64" x2="195.58" y2="-167.64" width="0.1524" layer="91"/>
+<junction x="195.58" y="-167.64"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="-170.18" x2="195.58" y2="-170.18" width="0.1524" layer="91"/>
+<junction x="195.58" y="-170.18"/>
 </segment>
 </net>
 <net name="PACK_I_MEAS" class="0">
@@ -18888,11 +18868,10 @@ Most frame-mounted PCB's - M8</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="-45.72" x2="48.26" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-48.26" x2="48.26" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-48.26" x2="50.8" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="48.26" y="-48.26"/>
-<label x="50.8" y="-48.26" size="1.27" layer="95" xref="yes"/>
+<wire x1="167.64" y1="-20.32" x2="167.64" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-22.86" x2="170.18" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="167.64" y="-22.86"/>
+<label x="170.18" y="-22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <label x="414.02" y="-76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -18914,14 +18893,14 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="5V" class="0">
 <segment>
-<wire x1="601.98" y1="-152.4" x2="601.98" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="586.74" y1="-157.48" x2="586.74" y2="-154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
 <pinref part="OKI-78SR-5V" gate="G$1" pin="VO"/>
-<wire x1="563.88" y1="-152.4" x2="574.04" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="-157.48" x2="579.12" y2="-157.48" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="+"/>
-<wire x1="574.04" y1="-152.4" x2="601.98" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="574.04" y1="-154.94" x2="574.04" y2="-152.4" width="0.1524" layer="91"/>
-<junction x="574.04" y="-152.4"/>
+<wire x1="579.12" y1="-157.48" x2="586.74" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="-160.02" x2="579.12" y2="-157.48" width="0.1524" layer="91"/>
+<junction x="579.12" y="-157.48"/>
 </segment>
 <segment>
 <pinref part="R50" gate="G$1" pin="1"/>
@@ -19006,15 +18985,15 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="5V"/>
-<wire x1="101.6" y1="-40.64" x2="101.6" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="-43.18" x2="104.14" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-40.64" x2="68.58" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-43.18" x2="71.12" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="LOGIC_PWR" gate="G$1" pin="P$2"/>
-<wire x1="101.6" y1="-43.18" x2="104.14" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-43.18" x2="71.12" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LOG_PWR_LED" gate="G$1" pin="A"/>
 <pinref part="SUPPLY12" gate="G$1" pin="5V"/>
-<wire x1="175.26" y1="-7.62" x2="170.18" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="-7.62" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="5V_1"/>
@@ -19052,50 +19031,54 @@ Most frame-mounted PCB's - M8</description>
 <net name="LOGIC_POWER" class="0">
 <segment>
 <pinref part="OKI-78SR-5V" gate="G$1" pin="VI"/>
-<wire x1="535.94" y1="-152.4" x2="538.48" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="-157.48" x2="548.64" y2="-157.48" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="+"/>
-<wire x1="538.48" y1="-152.4" x2="543.56" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="-154.94" x2="538.48" y2="-152.4" width="0.1524" layer="91"/>
-<junction x="538.48" y="-152.4"/>
-<label x="535.94" y="-152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="548.64" y1="-157.48" x2="553.72" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="-160.02" x2="548.64" y2="-157.48" width="0.1524" layer="91"/>
+<junction x="548.64" y="-157.48"/>
+<label x="546.1" y="-157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="-35.56" x2="180.34" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-35.56" x2="167.64" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="P$2"/>
 <label x="180.34" y="-35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="-35.56" x2="180.34" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-33.02" x2="167.64" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="167.64" y="-35.56"/>
 </segment>
 <segment>
 <pinref part="OKI-78SR-3V1" gate="G$1" pin="VI"/>
-<wire x1="535.94" y1="-185.42" x2="538.48" y2="-185.42" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="-190.5" x2="548.64" y2="-190.5" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="+"/>
-<wire x1="538.48" y1="-185.42" x2="543.56" y2="-185.42" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="-187.96" x2="538.48" y2="-185.42" width="0.1524" layer="91"/>
-<junction x="538.48" y="-185.42"/>
-<label x="535.94" y="-185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="548.64" y1="-190.5" x2="553.72" y2="-190.5" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="-193.04" x2="548.64" y2="-190.5" width="0.1524" layer="91"/>
+<junction x="548.64" y="-190.5"/>
+<label x="546.1" y="-190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="-154.94" x2="91.44" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-154.94" x2="83.82" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-154.94" x2="76.2" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-154.94" x2="76.2" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="-152.4" x2="111.76" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-152.4" x2="104.14" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-152.4" x2="104.14" y2="-154.94" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="83.82" y1="-157.48" x2="83.82" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="83.82" y="-154.94"/>
+<wire x1="111.76" y1="-154.94" x2="111.76" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="111.76" y="-152.4"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="91.44" y1="-157.48" x2="91.44" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="91.44" y="-154.94"/>
-<wire x1="76.2" y1="-154.94" x2="66.04" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="76.2" y="-154.94"/>
-<label x="66.04" y="-154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="119.38" y1="-154.94" x2="119.38" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-152.4" x2="99.06" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="104.14" y="-152.4"/>
+<label x="99.06" y="-152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="-152.4" x2="124.46" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="119.38" y="-152.4"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
-<wire x1="109.22" y1="-68.58" x2="109.22" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-68.58" x2="109.22" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="-68.58" x2="129.54" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-68.58" x2="76.2" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-68.58" x2="76.2" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-68.58" x2="129.54" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="V+"/>
 <wire x1="124.46" y1="-88.9" x2="129.54" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-88.9" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
@@ -19107,21 +19090,17 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="127" y1="-76.2" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="129.54" y="-76.2"/>
-<junction x="109.22" y="-68.58"/>
+<junction x="76.2" y="-68.58"/>
 <pinref part="Q3" gate="G$1" pin="DRAIN"/>
 <wire x1="137.16" y1="-68.58" x2="134.62" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="129.54" y="-68.58"/>
-<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="-68.58" x2="129.54" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-60.96" x2="48.26" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="DRAIN"/>
 <wire x1="147.32" y1="-48.26" x2="134.62" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-48.26" x2="134.62" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="134.62" y="-68.58"/>
 <pinref part="LOGIC_PWR" gate="G$1" pin="P$3"/>
 <pinref part="IC1" gate="G$1" pin="IP+"/>
-<wire x1="43.18" y1="-68.58" x2="48.26" y2="-68.58" width="0.1524" layer="91"/>
-<junction x="48.26" y="-68.58"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -19340,9 +19319,9 @@ Most frame-mounted PCB's - M8</description>
 <label x="485.14" y="-210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="414.02" y="-48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="416.56" y1="-48.26" x2="414.02" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="P3.6"/>
+<label x="414.02" y="-50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="P3.7"/>
+<wire x1="414.02" y1="-50.8" x2="416.56" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAN_CTL_3" class="0">
@@ -19356,9 +19335,9 @@ Most frame-mounted PCB's - M8</description>
 <label x="485.14" y="-193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="414.02" y="-50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="P3.7"/>
-<wire x1="414.02" y1="-50.8" x2="416.56" y2="-50.8" width="0.1524" layer="91"/>
+<label x="414.02" y="-48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="P3.6"/>
+<wire x1="414.02" y1="-48.26" x2="416.56" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAN_CTL_2" class="0">
@@ -19449,27 +19428,21 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="BMS_CSBI" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="P5.4"/>
-<wire x1="414.02" y1="-83.82" x2="416.56" y2="-83.82" width="0.1524" layer="91"/>
-<label x="414.02" y="-83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="467.36" y="-73.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="P10.0"/>
+<wire x1="462.28" y1="-73.66" x2="467.36" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="CSBI"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="-149.86" x2="198.12" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="-149.86" x2="198.12" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="-147.32" x2="172.72" y2="-147.32" width="0.1524" layer="91"/>
-<label x="198.12" y="-147.32" size="1.778" layer="95" xref="yes"/>
+<wire x1="200.66" y1="-144.78" x2="190.5" y2="-144.78" width="0.1524" layer="91"/>
+<label x="200.66" y="-144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BMS_SCLK" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SCKI"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="-160.02" x2="180.34" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-160.02" x2="180.34" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-154.94" x2="172.72" y2="-154.94" width="0.1524" layer="91"/>
-<label x="180.34" y="-154.94" size="1.778" layer="95" xref="yes"/>
+<wire x1="200.66" y1="-152.4" x2="190.5" y2="-152.4" width="0.1524" layer="91"/>
+<label x="200.66" y="-152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <label x="467.36" y="-71.12" size="1.27" layer="95" xref="yes"/>
@@ -19485,11 +19458,8 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="SDI"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="-154.94" x2="195.58" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-154.94" x2="195.58" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-152.4" x2="172.72" y2="-152.4" width="0.1524" layer="91"/>
-<label x="195.58" y="-152.4" size="1.778" layer="95" xref="yes"/>
+<wire x1="200.66" y1="-149.86" x2="190.5" y2="-149.86" width="0.1524" layer="91"/>
+<label x="200.66" y="-149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BMS_MISO" class="0">
@@ -19500,26 +19470,28 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="SDO"/>
-<wire x1="172.72" y1="-149.86" x2="177.8" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="-149.86" x2="177.8" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-147.32" x2="195.58" y2="-147.32" width="0.1524" layer="91"/>
+<label x="200.66" y="-147.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<label x="177.8" y="-149.86" size="1.778" layer="95" xref="yes"/>
+<wire x1="195.58" y1="-147.32" x2="200.66" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-139.7" x2="195.58" y2="-147.32" width="0.1524" layer="91"/>
+<junction x="195.58" y="-147.32"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="177.8" y1="-129.54" x2="177.8" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-127" x2="195.58" y2="-129.54" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="601.98" y1="-185.42" x2="601.98" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="586.74" y1="-190.5" x2="586.74" y2="-187.96" width="0.1524" layer="91"/>
 <pinref part="OKI-78SR-3V1" gate="G$1" pin="VO"/>
-<wire x1="563.88" y1="-185.42" x2="574.04" y2="-185.42" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="-190.5" x2="579.12" y2="-190.5" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="+"/>
-<wire x1="574.04" y1="-185.42" x2="601.98" y2="-185.42" width="0.1524" layer="91"/>
-<wire x1="574.04" y1="-187.96" x2="574.04" y2="-185.42" width="0.1524" layer="91"/>
-<junction x="574.04" y="-185.42"/>
+<wire x1="579.12" y1="-190.5" x2="586.74" y2="-190.5" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="-193.04" x2="579.12" y2="-190.5" width="0.1524" layer="91"/>
+<junction x="579.12" y="-190.5"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -19540,16 +19512,16 @@ Most frame-mounted PCB's - M8</description>
 </segment>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="198.12" y1="-276.86" x2="198.12" y2="-284.48" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="-15.24" x2="579.12" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="TEMP_1" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="-284.48" x2="195.58" y2="-284.48" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="-22.86" x2="576.58" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_1_BAL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="S1"/>
-<wire x1="172.72" y1="-187.96" x2="200.66" y2="-187.96" width="0.1524" layer="91"/>
-<label x="200.66" y="-187.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="-185.42" x2="198.12" y2="-185.42" width="0.1524" layer="91"/>
+<label x="198.12" y="-185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="332.74" y1="-375.92" x2="276.86" y2="-375.92" width="0.1524" layer="91"/>
@@ -19578,9 +19550,9 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="TEMP_1" class="0">
 <segment>
-<wire x1="195.58" y1="-287.02" x2="203.2" y2="-287.02" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="-25.4" x2="584.2" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="TEMP_1" gate="G$1" pin="2"/>
-<label x="203.2" y="-287.02" size="1.27" layer="95" xref="yes"/>
+<label x="584.2" y="-25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <label x="414.02" y="-30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -19599,9 +19571,9 @@ Most frame-mounted PCB's - M8</description>
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<label x="99.06" y="-53.34" size="1.27" layer="95" xref="yes"/>
-<wire x1="96.52" y1="-40.64" x2="99.06" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="-40.64" x2="99.06" y2="-53.34" width="0.1524" layer="91"/>
+<label x="66.04" y="-53.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="63.5" y1="-40.64" x2="66.04" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-40.64" x2="66.04" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="414.02" y="-45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -19627,17 +19599,17 @@ Most frame-mounted PCB's - M8</description>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="-25.4" x2="124.46" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-25.4" x2="91.44" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="-22.86" x2="124.46" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-22.86" x2="124.46" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="124.46" y="-22.86"/>
+<wire x1="96.52" y1="-22.86" x2="91.44" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-22.86" x2="91.44" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="91.44" y="-22.86"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="124.46" y1="-17.78" x2="124.46" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-17.78" x2="91.44" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-12.7" x2="104.14" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="132.08" y1="-17.78" x2="124.46" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="124.46" y="-17.78"/>
+<wire x1="99.06" y1="-17.78" x2="91.44" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="91.44" y="-17.78"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -19782,9 +19754,9 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="BUZZER" class="0">
 <segment>
-<label x="467.36" y="-60.96" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="P10.5"/>
-<wire x1="467.36" y1="-60.96" x2="462.28" y2="-60.96" width="0.1524" layer="91"/>
+<label x="414.02" y="-91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="P5.7"/>
+<wire x1="416.56" y1="-91.44" x2="414.02" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q6" gate="G$1" pin="G"/>
@@ -19818,25 +19790,25 @@ Most frame-mounted PCB's - M8</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="LOG_PWR_LED" gate="G$1" pin="C"/>
-<wire x1="160.02" y1="-7.62" x2="162.56" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="127" y1="-7.62" x2="129.54" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="-7.62" x2="144.78" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-7.62" x2="111.76" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="-35.56" x2="124.46" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="P$1"/>
 <pinref part="LOGIC_PWR" gate="G$1" pin="P$4"/>
-<wire x1="114.3" y1="-35.56" x2="114.3" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-35.56" x2="114.3" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="124.46" y="-35.56"/>
+<wire x1="81.28" y1="-35.56" x2="81.28" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-35.56" x2="81.28" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="91.44" y="-35.56"/>
+<wire x1="91.44" y1="-35.56" x2="127" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -19856,10 +19828,10 @@ Most frame-mounted PCB's - M8</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="88.9" y1="-35.56" x2="88.9" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-35.56" x2="55.88" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="LOGIC_PWR" gate="G$1" pin="P$1"/>
-<wire x1="99.06" y1="-33.02" x2="99.06" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-33.02" x2="99.06" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-33.02" x2="66.04" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-33.02" x2="66.04" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -19867,6 +19839,24 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="IC1" gate="G$1" pin="IP-"/>
 <pinref part="V_IN" gate="G$1" pin="P$1"/>
 <wire x1="17.78" y1="-68.58" x2="17.78" y2="-58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VREF"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="-172.72" x2="200.66" y2="-172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="V+"/>
+<wire x1="134.62" y1="-152.4" x2="139.7" y2="-152.4" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="-152.4" x2="149.86" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="-154.94" x2="139.7" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="139.7" y="-152.4"/>
 </segment>
 </net>
 </nets>
