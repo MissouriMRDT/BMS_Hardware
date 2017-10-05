@@ -1,5 +1,7 @@
-Battery Management System- this year it DOES THINGS.
+Rover Battery Management System (BMS)
 
-Right now we're on revision 1, which is the very basic BMS functionality: monitoring and reporting on the voltages and overall current of the battery pack; monitoring temperatures and controlling fans in response; indicators, including LED fuel gauge and buzzers; last but most important, the E-Stop. Based around the LTC6803, this board is streamlined, with inspiration taken from Zenith's BMS and Solar Car's designs.
-Future goals:
-	Onboard passive balancing
+The BMS's functions include overcurrent and idle shutoff; pack voltage, current, and temperature sensing and reporting; and fan control based on measured temperature. The BMS is controlled by a TI MSP432 launchpad.
+
+The 2017/2018 BMS uses a simplified design for cell voltage measurement, consisting of a high-voltage analog mux and a resistor divider. The mux is disabled when readings are not in progress.
+
+Active balancing is not planned for this year, but may be explored in future. Passive balancing was determined to be ineffectually slow for the Rover's battery.
