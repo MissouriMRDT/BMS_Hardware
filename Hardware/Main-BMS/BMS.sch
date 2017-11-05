@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -15260,6 +15261,8 @@ Most frame-mounted PCB's - M8</description>
 <part name="D11" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-BZT52C3V6S" value="3.6V"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND28" library="supply1" deviceset="GND" device=""/>
+<part name="CHARGE_SENSE1" library="MRDT-Connectors" deviceset="SL09" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15497,6 +15500,8 @@ Most frame-mounted PCB's - M8</description>
 <instance part="D11" gate="G$1" x="579.12" y="-114.3" rot="R90"/>
 <instance part="GND20" gate="1" x="579.12" y="-121.92"/>
 <instance part="GND27" gate="1" x="584.2" y="-121.92"/>
+<instance part="GND28" gate="1" x="88.9" y="-198.12"/>
+<instance part="CHARGE_SENSE1" gate="G$1" x="63.5" y="-195.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -15804,6 +15809,13 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="579.12" y1="-116.84" x2="579.12" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND28" gate="1" pin="GND"/>
+<pinref part="CHARGE_SENSE1" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="-193.04" x2="88.9" y2="-193.04" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-193.04" x2="88.9" y2="-195.58" width="0.1524" layer="91"/>
+<label x="78.74" y="-193.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CELL_2_FILTER" class="0">
 <segment>
@@ -15843,6 +15855,12 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="48.26" y1="-187.96" x2="30.48" y2="-187.96" width="0.1524" layer="91"/>
 <label x="48.26" y="-187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<label x="78.74" y="-187.96" size="1.778" layer="95"/>
+<pinref part="CHARGE_SENSE1" gate="G$1" pin="3"/>
+<wire x1="93.98" y1="-187.96" x2="76.2" y2="-187.96" width="0.1524" layer="91"/>
+<label x="93.98" y="-187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CELL_1_FILTER" class="0">
 <segment>
@@ -15881,6 +15899,12 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="-190.5" x2="30.48" y2="-190.5" width="0.1524" layer="91"/>
 <label x="48.26" y="-190.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="78.74" y="-190.5" size="1.778" layer="95"/>
+<pinref part="CHARGE_SENSE1" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="-190.5" x2="76.2" y2="-190.5" width="0.1524" layer="91"/>
+<label x="93.98" y="-190.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CELL_3_FILTER" class="0">
@@ -16027,6 +16051,12 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="48.26" y1="-172.72" x2="30.48" y2="-172.72" width="0.1524" layer="91"/>
 <label x="48.26" y="-172.72" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<label x="78.74" y="-172.72" size="1.778" layer="95"/>
+<pinref part="CHARGE_SENSE1" gate="G$1" pin="9"/>
+<wire x1="93.98" y1="-172.72" x2="76.2" y2="-172.72" width="0.1524" layer="91"/>
+<label x="93.98" y="-172.72" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CELL_7" class="0">
 <segment>
@@ -16041,6 +16071,12 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="48.26" y1="-175.26" x2="30.48" y2="-175.26" width="0.1524" layer="91"/>
 <label x="48.26" y="-175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<label x="78.74" y="-175.26" size="1.778" layer="95"/>
+<pinref part="CHARGE_SENSE1" gate="G$1" pin="8"/>
+<wire x1="93.98" y1="-175.26" x2="76.2" y2="-175.26" width="0.1524" layer="91"/>
+<label x="93.98" y="-175.26" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CELL_6" class="0">
 <segment>
@@ -16053,6 +16089,12 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="7"/>
 <wire x1="30.48" y1="-177.8" x2="48.26" y2="-177.8" width="0.1524" layer="91"/>
 <label x="48.26" y="-177.8" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="78.74" y="-177.8" size="1.778" layer="95"/>
+<pinref part="CHARGE_SENSE1" gate="G$1" pin="7"/>
+<wire x1="76.2" y1="-177.8" x2="93.98" y2="-177.8" width="0.1524" layer="91"/>
+<label x="93.98" y="-177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CELL_5" class="0">
@@ -16067,6 +16109,12 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="48.26" y1="-180.34" x2="30.48" y2="-180.34" width="0.1524" layer="91"/>
 <label x="48.26" y="-180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<label x="78.74" y="-180.34" size="1.778" layer="95"/>
+<pinref part="CHARGE_SENSE1" gate="G$1" pin="6"/>
+<wire x1="93.98" y1="-180.34" x2="76.2" y2="-180.34" width="0.1524" layer="91"/>
+<label x="93.98" y="-180.34" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CELL_4" class="0">
 <segment>
@@ -16080,6 +16128,12 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="5"/>
 <label x="48.26" y="-182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="76.2" y1="-182.88" x2="93.98" y2="-182.88" width="0.1524" layer="91"/>
+<label x="78.74" y="-182.88" size="1.778" layer="95"/>
+<pinref part="CHARGE_SENSE1" gate="G$1" pin="5"/>
+<label x="93.98" y="-182.88" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CELL_3" class="0">
 <segment>
@@ -16092,6 +16146,12 @@ Most frame-mounted PCB's - M8</description>
 <label x="33.02" y="-185.42" size="1.778" layer="95"/>
 <pinref part="CHARGE_SENSE" gate="G$1" pin="4"/>
 <label x="48.26" y="-185.42" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="76.2" y1="-185.42" x2="93.98" y2="-185.42" width="0.1524" layer="91"/>
+<label x="78.74" y="-185.42" size="1.778" layer="95"/>
+<pinref part="CHARGE_SENSE1" gate="G$1" pin="4"/>
+<label x="93.98" y="-185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PACK_I_MEAS" class="0">
