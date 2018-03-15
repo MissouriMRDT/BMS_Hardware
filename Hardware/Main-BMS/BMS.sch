@@ -18475,6 +18475,9 @@ Most frame-mounted PCB's - M8</description>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10kΩ"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4kΩ"/>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="470pf"/>
+<part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="500"/>
 </parts>
 <sheets>
 <sheet>
@@ -18721,13 +18724,16 @@ Most frame-mounted PCB's - M8</description>
 <instance part="GND31" gate="1" x="139.7" y="-152.4"/>
 <instance part="GND32" gate="1" x="147.32" y="-152.4"/>
 <instance part="C14" gate="G$1" x="20.32" y="-144.78"/>
-<instance part="C21" gate="G$1" x="213.36" y="-170.18"/>
-<instance part="GND34" gate="1" x="213.36" y="-180.34"/>
+<instance part="C21" gate="G$1" x="238.76" y="-170.18"/>
+<instance part="GND34" gate="1" x="238.76" y="-180.34"/>
 <instance part="C22" gate="G$1" x="149.86" y="-190.5"/>
 <instance part="J2" gate="G$1" x="81.28" y="-99.06" rot="R180"/>
 <instance part="R7" gate="G$1" x="35.56" y="-104.14" rot="R270"/>
 <instance part="R8" gate="G$1" x="35.56" y="-86.36" rot="R270"/>
 <instance part="GND37" gate="1" x="35.56" y="-114.3"/>
+<instance part="C23" gate="G$1" x="208.28" y="-182.88"/>
+<instance part="GND38" gate="1" x="208.28" y="-193.04"/>
+<instance part="R12" gate="G$1" x="198.12" y="-177.8" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -19059,7 +19065,7 @@ Most frame-mounted PCB's - M8</description>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
 <pinref part="GND34" gate="1" pin="GND"/>
-<wire x1="213.36" y1="-175.26" x2="213.36" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-175.26" x2="238.76" y2="-177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="2"/>
@@ -19070,6 +19076,11 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 <wire x1="35.56" y1="-109.22" x2="35.56" y2="-111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="GND38" gate="1" pin="GND"/>
+<wire x1="208.28" y1="-187.96" x2="208.28" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CELL_2_FILTER" class="0">
@@ -19762,7 +19773,7 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="-167.64" x2="187.96" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="-167.64" x2="187.96" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-167.64" x2="187.96" y2="-167.64" width="0.1524" layer="91"/>
 <junction x="187.96" y="-167.64"/>
 </segment>
 </net>
@@ -19995,16 +20006,13 @@ Most frame-mounted PCB's - M8</description>
 <label x="414.02" y="-96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="OUT"/>
-<wire x1="180.34" y1="-177.8" x2="185.42" y2="-177.8" width="0.1524" layer="91"/>
-<label x="187.96" y="-177.8" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="-IN"/>
-<wire x1="185.42" y1="-177.8" x2="187.96" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-172.72" x2="147.32" y2="-172.72" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="-172.72" x2="147.32" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="-160.02" x2="185.42" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="-160.02" x2="185.42" y2="-177.8" width="0.1524" layer="91"/>
-<junction x="185.42" y="-177.8"/>
+<wire x1="203.2" y1="-177.8" x2="208.28" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<label x="213.36" y="-177.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="-177.8" x2="213.36" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-180.34" x2="208.28" y2="-177.8" width="0.1524" layer="91"/>
+<junction x="208.28" y="-177.8"/>
 </segment>
 </net>
 <net name="ADC_CELL_A2" class="0">
@@ -20138,6 +20146,20 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="-91.44" x2="35.56" y2="-99.06" width="0.1524" layer="91"/>
 <junction x="35.56" y="-99.06"/>
+</segment>
+</net>
+<net name="RC_FILTER" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="OUT"/>
+<wire x1="180.34" y1="-177.8" x2="185.42" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="-IN"/>
+<wire x1="185.42" y1="-177.8" x2="193.04" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-172.72" x2="147.32" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-172.72" x2="147.32" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-160.02" x2="185.42" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-160.02" x2="185.42" y2="-177.8" width="0.1524" layer="91"/>
+<junction x="185.42" y="-177.8"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
