@@ -856,4 +856,159 @@ Wire Notes Line
 	8500 1950 8500 500 
 Text Notes 6200 600  0    60   ~ 12
 Power Converters
+$Comp
+L MUX508 U?
+U 1 1 5AD0F453
+P 4450 6200
+F 0 "U?" H 4500 6150 60  0000 C CNN
+F 1 "MUX508" H 4650 7150 60  0000 C CNN
+F 2 "" H 4450 6200 60  0001 C CNN
+F 3 "" H 4450 6200 60  0001 C CNN
+	1    4450 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 5350 0    60   UnSpc ~ 12
+ADC_CELL_A0
+Text GLabel 4050 5500 0    60   UnSpc ~ 12
+ADC_CELL_EN
+Text GLabel 4050 5750 0    60   UnSpc ~ 12
+CELL_1_FILTER
+Text GLabel 4050 5900 0    60   UnSpc ~ 12
+CELL_2_FILTER
+Text GLabel 4050 6050 0    60   UnSpc ~ 12
+CELL_3_FILTER
+Text GLabel 4050 6200 0    60   UnSpc ~ 12
+CELL_4_FILTER
+Wire Wire Line
+	4250 5400 4100 5400
+Wire Wire Line
+	4100 5400 4100 5350
+Wire Wire Line
+	4100 5350 4050 5350
+Wire Wire Line
+	4250 5500 4050 5500
+Wire Wire Line
+	4250 5700 4150 5700
+Wire Wire Line
+	4150 5700 4150 5750
+Wire Wire Line
+	4150 5750 4050 5750
+Wire Wire Line
+	4250 5800 4100 5800
+Wire Wire Line
+	4100 5800 4100 5900
+Wire Wire Line
+	4100 5900 4050 5900
+Wire Wire Line
+	4100 6050 4050 6050
+Wire Wire Line
+	4250 6000 4150 6000
+Wire Wire Line
+	4150 6000 4150 6200
+Wire Wire Line
+	4150 6200 4050 6200
+Wire Wire Line
+	4250 5900 4150 5900
+Wire Wire Line
+	4150 5900 4150 5950
+Wire Wire Line
+	4150 5950 4100 5950
+Wire Wire Line
+	4100 5950 4100 6050
+Wire Wire Line
+	4250 5600 4150 5600
+Wire Wire Line
+	4150 5600 4150 5650
+Wire Wire Line
+	4150 5650 3050 5650
+$Comp
+L CP1 C?
+U 1 1 5AD1117A
+P 3050 5800
+F 0 "C?" H 3075 5900 50  0000 L CNN
+F 1 "CP1" H 3075 5700 50  0000 L CNN
+F 2 "" H 3050 5800 50  0001 C CNN
+F 3 "" H 3050 5800 50  0001 C CNN
+	1    3050 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5950 3050 6050
+Text GLabel 3050 6050 3    60   UnSpc ~ 12
+GND
+Text GLabel 5600 5200 2    60   UnSpc ~ 12
+ADC_CELL_A1
+Text GLabel 5600 5350 2    60   UnSpc ~ 12
+ADC_CELL_A2
+Text GLabel 5600 5500 2    60   UnSpc ~ 12
+GND
+Text GLabel 5600 5950 2    60   UnSpc ~ 12
+CELL_5_FILTER
+Text GLabel 5600 6100 2    60   UnSpc ~ 12
+CELL_6_FILTER
+Text GLabel 5600 6250 2    60   UnSpc ~ 12
+CELL_7_FILTER
+Text GLabel 5600 6400 2    60   UnSpc ~ 12
+CELL_8_FILTER
+Wire Wire Line
+	5250 5400 5300 5400
+Wire Wire Line
+	5300 5400 5300 5200
+Wire Wire Line
+	5300 5200 5600 5200
+Wire Wire Line
+	5250 5500 5350 5500
+Wire Wire Line
+	5350 5500 5350 5350
+Wire Wire Line
+	5350 5350 5600 5350
+Wire Wire Line
+	5250 5600 5400 5600
+Wire Wire Line
+	5400 5600 5400 5500
+Wire Wire Line
+	5400 5500 5600 5500
+Wire Wire Line
+	5250 5700 6550 5700
+Wire Wire Line
+	5250 5800 5550 5800
+Wire Wire Line
+	5550 5800 5550 5950
+Wire Wire Line
+	5550 5950 5600 5950
+Wire Wire Line
+	5250 5900 5500 5900
+Wire Wire Line
+	5500 5900 5500 6100
+Wire Wire Line
+	5500 6100 5600 6100
+Wire Wire Line
+	5250 6000 5450 6000
+Wire Wire Line
+	5450 6000 5450 6250
+Wire Wire Line
+	5450 6250 5600 6250
+Wire Wire Line
+	5250 6100 5400 6100
+Wire Wire Line
+	5400 5700 5400 6400
+Wire Wire Line
+	5400 6400 5600 6400
+$Comp
+L CP1 C?
+U 1 1 5AD12D3F
+P 6550 5850
+F 0 "C?" H 6575 5950 50  0000 L CNN
+F 1 "CP1" H 6575 5750 50  0000 L CNN
+F 2 "" H 6550 5850 50  0001 C CNN
+F 3 "" H 6550 5850 50  0001 C CNN
+	1    6550 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6550 6150 2    60   UnSpc ~ 12
+GND
+Wire Wire Line
+	6550 6000 6550 6150
+Connection ~ 5400 5700
+Connection ~ 5400 6100
 $EndSCHEMATC
