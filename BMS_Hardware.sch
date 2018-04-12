@@ -88,30 +88,648 @@ Wire Wire Line
 	1950 1450 1950 1650
 Wire Notes Line
 	2450 500  2450 2000
-Wire Notes Line
-	2450 2000 500  2000
-Text Notes 1150 700  0    60   ~ 12
+Text Notes 500  600  0    60   ~ 12
 Power Input
 $Comp
 L R R1
 U 1 1 5ACD595D
-P 2100 2750
-F 0 "R1" V 2180 2750 50  0000 C CNN
-F 1 "R" V 2100 2750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2030 2750 50  0001 C CNN
-F 3 "" H 2100 2750 50  0001 C CNN
-	1    2100 2750
+P 2250 2200
+F 0 "R1" V 2330 2200 50  0000 C CNN
+F 1 "100" V 2250 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 2200 50  0001 C CNN
+F 3 "" H 2250 2200 50  0001 C CNN
+	1    2250 2200
 	0    1    1    0   
 $EndComp
 $Comp
-L LT1910 U?
-U 1 1 5ACD5F48
-P 4950 2200
-F 0 "U?" H 5000 2150 60  0000 C CNN
-F 1 "LT1910" H 5100 2750 60  0000 C CNN
-F 2 "" H 4950 2200 60  0001 C CNN
-F 3 "" H 4950 2200 60  0001 C CNN
-	1    4950 2200
+L CP1 C?
+U 1 1 5ACFDED7
+P 1750 2350
+F 0 "C?" H 1775 2450 50  0000 L CNN
+F 1 "CP1" H 1775 2250 50  0000 L CNN
+F 2 "" H 1750 2350 50  0001 C CNN
+F 3 "" H 1750 2350 50  0001 C CNN
+	1    1750 2350
 	1    0    0    -1  
 $EndComp
+$Comp
+L D_Zener D?
+U 1 1 5ACFDF7D
+P 1400 2350
+F 0 "D?" H 1400 2450 50  0000 C CNN
+F 1 "D_Zener" H 1400 2250 50  0000 C CNN
+F 2 "" H 1400 2350 50  0001 C CNN
+F 3 "" H 1400 2350 50  0001 C CNN
+	1    1400 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 2200 2100 2200
+Connection ~ 1750 2200
+Text GLabel 2400 2200 2    60   UnSpc ~ 0
+CELL_1
+Wire Wire Line
+	1750 2500 1750 2650
+Text GLabel 1750 2650 0    60   UnSpc ~ 0
+GND
+Connection ~ 1400 2200
+Wire Wire Line
+	1400 2500 1400 2550
+Wire Wire Line
+	1400 2550 1750 2550
+Connection ~ 1750 2550
+Text GLabel 1200 2200 0    60   UnSpc ~ 0
+CELL_1_FILTER
+$Comp
+L R R?
+U 1 1 5ACFEC31
+P 2250 2900
+F 0 "R?" V 2330 2900 50  0000 C CNN
+F 1 "100" V 2250 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 2900 50  0001 C CNN
+F 3 "" H 2250 2900 50  0001 C CNN
+	1    2250 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5ACFEC37
+P 1750 3050
+F 0 "C?" H 1775 3150 50  0000 L CNN
+F 1 "CP1" H 1775 2950 50  0000 L CNN
+F 2 "" H 1750 3050 50  0001 C CNN
+F 3 "" H 1750 3050 50  0001 C CNN
+	1    1750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5ACFEC3D
+P 1400 3050
+F 0 "D?" H 1400 3150 50  0000 C CNN
+F 1 "D_Zener" H 1400 2950 50  0000 C CNN
+F 2 "" H 1400 3050 50  0001 C CNN
+F 3 "" H 1400 3050 50  0001 C CNN
+	1    1400 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 2900 2100 2900
+Connection ~ 1750 2900
+Text GLabel 2400 2900 2    60   UnSpc ~ 0
+CELL_2
+Wire Wire Line
+	1750 3200 1750 3350
+Text GLabel 1750 3350 0    60   UnSpc ~ 0
+GND
+Connection ~ 1400 2900
+Wire Wire Line
+	1400 3200 1400 3250
+Connection ~ 1750 3250
+Text GLabel 1200 2900 0    60   UnSpc ~ 0
+CELL_2_FILTER
+Text GLabel 1200 3250 0    60   UnSpc ~ 0
+CELL_1_FILTER
+Wire Wire Line
+	1400 3250 1200 3250
+$Comp
+L R R?
+U 1 1 5ACFF0AE
+P 2250 3600
+F 0 "R?" V 2330 3600 50  0000 C CNN
+F 1 "100" V 2250 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 3600 50  0001 C CNN
+F 3 "" H 2250 3600 50  0001 C CNN
+	1    2250 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5ACFF0B4
+P 1750 3750
+F 0 "C?" H 1775 3850 50  0000 L CNN
+F 1 "CP1" H 1775 3650 50  0000 L CNN
+F 2 "" H 1750 3750 50  0001 C CNN
+F 3 "" H 1750 3750 50  0001 C CNN
+	1    1750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5ACFF0BA
+P 1400 3750
+F 0 "D?" H 1400 3850 50  0000 C CNN
+F 1 "D_Zener" H 1400 3650 50  0000 C CNN
+F 2 "" H 1400 3750 50  0001 C CNN
+F 3 "" H 1400 3750 50  0001 C CNN
+	1    1400 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 3600 2100 3600
+Connection ~ 1750 3600
+Text GLabel 2400 3600 2    60   UnSpc ~ 0
+CELL_3
+Wire Wire Line
+	1750 3900 1750 4050
+Text GLabel 1750 4050 0    60   UnSpc ~ 0
+GND
+Connection ~ 1400 3600
+Wire Wire Line
+	1400 3900 1400 3950
+Connection ~ 1750 3950
+Text GLabel 1200 3600 0    60   UnSpc ~ 0
+CELL_3_FILTER
+Text GLabel 1200 3950 0    60   UnSpc ~ 0
+CELL_2_FILTER
+Wire Wire Line
+	1400 3950 1200 3950
+$Comp
+L R R?
+U 1 1 5ACFF356
+P 2250 4300
+F 0 "R?" V 2330 4300 50  0000 C CNN
+F 1 "100" V 2250 4300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 4300 50  0001 C CNN
+F 3 "" H 2250 4300 50  0001 C CNN
+	1    2250 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5ACFF35C
+P 1750 4450
+F 0 "C?" H 1775 4550 50  0000 L CNN
+F 1 "CP1" H 1775 4350 50  0000 L CNN
+F 2 "" H 1750 4450 50  0001 C CNN
+F 3 "" H 1750 4450 50  0001 C CNN
+	1    1750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5ACFF362
+P 1400 4450
+F 0 "D?" H 1400 4550 50  0000 C CNN
+F 1 "D_Zener" H 1400 4350 50  0000 C CNN
+F 2 "" H 1400 4450 50  0001 C CNN
+F 3 "" H 1400 4450 50  0001 C CNN
+	1    1400 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 4300 2100 4300
+Connection ~ 1750 4300
+Text GLabel 2400 4300 2    60   UnSpc ~ 0
+CELL_4
+Wire Wire Line
+	1750 4600 1750 4750
+Text GLabel 1750 4750 0    60   UnSpc ~ 0
+GND
+Connection ~ 1400 4300
+Wire Wire Line
+	1400 4600 1400 4650
+Connection ~ 1750 4650
+Text GLabel 1200 4300 0    60   UnSpc ~ 0
+CELL_4_FILTER
+Text GLabel 1200 4650 0    60   UnSpc ~ 0
+CELL_3_FILTER
+Wire Wire Line
+	1400 4650 1200 4650
+$Comp
+L R R?
+U 1 1 5ACFF4A2
+P 2250 5000
+F 0 "R?" V 2330 5000 50  0000 C CNN
+F 1 "100" V 2250 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 5000 50  0001 C CNN
+F 3 "" H 2250 5000 50  0001 C CNN
+	1    2250 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5ACFF4A8
+P 1750 5150
+F 0 "C?" H 1775 5250 50  0000 L CNN
+F 1 "CP1" H 1775 5050 50  0000 L CNN
+F 2 "" H 1750 5150 50  0001 C CNN
+F 3 "" H 1750 5150 50  0001 C CNN
+	1    1750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5ACFF4AE
+P 1400 5150
+F 0 "D?" H 1400 5250 50  0000 C CNN
+F 1 "D_Zener" H 1400 5050 50  0000 C CNN
+F 2 "" H 1400 5150 50  0001 C CNN
+F 3 "" H 1400 5150 50  0001 C CNN
+	1    1400 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 5000 2100 5000
+Connection ~ 1750 5000
+Text GLabel 2400 5000 2    60   UnSpc ~ 0
+CELL_5
+Wire Wire Line
+	1750 5300 1750 5450
+Text GLabel 1750 5450 0    60   UnSpc ~ 0
+GND
+Connection ~ 1400 5000
+Wire Wire Line
+	1400 5300 1400 5350
+Connection ~ 1750 5350
+Text GLabel 1200 5000 0    60   UnSpc ~ 0
+CELL_5_FILTER
+Text GLabel 1200 5350 0    60   UnSpc ~ 0
+CELL_4_FILTER
+Wire Wire Line
+	1400 5350 1200 5350
+$Comp
+L R R?
+U 1 1 5ACFFD30
+P 2250 5700
+F 0 "R?" V 2330 5700 50  0000 C CNN
+F 1 "100" V 2250 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 5700 50  0001 C CNN
+F 3 "" H 2250 5700 50  0001 C CNN
+	1    2250 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5ACFFD36
+P 1750 5850
+F 0 "C?" H 1775 5950 50  0000 L CNN
+F 1 "CP1" H 1775 5750 50  0000 L CNN
+F 2 "" H 1750 5850 50  0001 C CNN
+F 3 "" H 1750 5850 50  0001 C CNN
+	1    1750 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5ACFFD3C
+P 1400 5850
+F 0 "D?" H 1400 5950 50  0000 C CNN
+F 1 "D_Zener" H 1400 5750 50  0000 C CNN
+F 2 "" H 1400 5850 50  0001 C CNN
+F 3 "" H 1400 5850 50  0001 C CNN
+	1    1400 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 5700 2100 5700
+Connection ~ 1750 5700
+Text GLabel 2400 5700 2    60   UnSpc ~ 0
+CELL_6
+Wire Wire Line
+	1750 6000 1750 6150
+Text GLabel 1750 6150 0    60   UnSpc ~ 0
+GND
+Connection ~ 1400 5700
+Wire Wire Line
+	1400 6000 1400 6050
+Connection ~ 1750 6050
+Text GLabel 1200 5700 0    60   UnSpc ~ 0
+CELL_6_FILTER
+Text GLabel 1200 6050 0    60   UnSpc ~ 0
+CELL_5_FILTER
+Wire Wire Line
+	1400 6050 1200 6050
+$Comp
+L R R?
+U 1 1 5ACFFFF3
+P 2250 6400
+F 0 "R?" V 2330 6400 50  0000 C CNN
+F 1 "100" V 2250 6400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 6400 50  0001 C CNN
+F 3 "" H 2250 6400 50  0001 C CNN
+	1    2250 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5ACFFFF9
+P 1750 6550
+F 0 "C?" H 1775 6650 50  0000 L CNN
+F 1 "CP1" H 1775 6450 50  0000 L CNN
+F 2 "" H 1750 6550 50  0001 C CNN
+F 3 "" H 1750 6550 50  0001 C CNN
+	1    1750 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5ACFFFFF
+P 1400 6550
+F 0 "D?" H 1400 6650 50  0000 C CNN
+F 1 "D_Zener" H 1400 6450 50  0000 C CNN
+F 2 "" H 1400 6550 50  0001 C CNN
+F 3 "" H 1400 6550 50  0001 C CNN
+	1    1400 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 6400 2100 6400
+Connection ~ 1750 6400
+Text GLabel 2400 6400 2    60   UnSpc ~ 0
+CELL_7
+Wire Wire Line
+	1750 6700 1750 6850
+Text GLabel 1750 6850 0    60   UnSpc ~ 0
+GND
+Connection ~ 1400 6400
+Wire Wire Line
+	1400 6700 1400 6750
+Connection ~ 1750 6750
+Text GLabel 1200 6400 0    60   UnSpc ~ 0
+CELL_7_FILTER
+Text GLabel 1200 6750 0    60   UnSpc ~ 0
+CELL_6_FILTER
+Wire Wire Line
+	1400 6750 1200 6750
+$Comp
+L R R?
+U 1 1 5AD000C1
+P 2250 7100
+F 0 "R?" V 2330 7100 50  0000 C CNN
+F 1 "100" V 2250 7100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 7100 50  0001 C CNN
+F 3 "" H 2250 7100 50  0001 C CNN
+	1    2250 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5AD000C7
+P 1750 7250
+F 0 "C?" H 1775 7350 50  0000 L CNN
+F 1 "CP1" H 1775 7150 50  0000 L CNN
+F 2 "" H 1750 7250 50  0001 C CNN
+F 3 "" H 1750 7250 50  0001 C CNN
+	1    1750 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener D?
+U 1 1 5AD000CD
+P 1400 7250
+F 0 "D?" H 1400 7350 50  0000 C CNN
+F 1 "D_Zener" H 1400 7150 50  0000 C CNN
+F 2 "" H 1400 7250 50  0001 C CNN
+F 3 "" H 1400 7250 50  0001 C CNN
+	1    1400 7250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 7100 2100 7100
+Connection ~ 1750 7100
+Text GLabel 2400 7100 2    60   UnSpc ~ 0
+CELL_8
+Wire Wire Line
+	1750 7400 1750 7550
+Text GLabel 1750 7550 0    60   UnSpc ~ 0
+GND
+Connection ~ 1400 7100
+Wire Wire Line
+	1400 7400 1400 7450
+Connection ~ 1750 7450
+Text GLabel 1200 7100 0    60   UnSpc ~ 0
+CELL_8_FILTER
+Text GLabel 1200 7450 0    60   UnSpc ~ 0
+CELL_7_FILTER
+Wire Wire Line
+	1400 7450 1200 7450
+Wire Notes Line
+	2850 7700 500  7700
+$Comp
+L Molex_SL_2 U?
+U 1 1 5AD038BF
+P 3250 850
+F 0 "U?" H 3300 800 60  0001 C CNN
+F 1 "Molex_SL_2" H 3300 1100 60  0000 C CNN
+F 2 "" H 3250 750 60  0001 C CNN
+F 3 "" H 3250 750 60  0001 C CNN
+	1    3250 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N7002 Q?
+U 1 1 5AD03B1C
+P 4000 1000
+F 0 "Q?" H 4200 1075 50  0000 L CNN
+F 1 "2N7002" H 4200 1000 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4200 925 50  0001 L CIN
+F 3 "" H 4000 1000 50  0001 L CNN
+	1    4000 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AD03DF4
+P 4300 1300
+F 0 "R?" V 4380 1300 50  0000 C CNN
+F 1 "100K" V 4300 1300 50  0000 C CNN
+F 2 "" V 4230 1300 50  0001 C CNN
+F 3 "" H 4300 1300 50  0001 C CNN
+	1    4300 1300
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	2450 2000 500  2000
+Wire Notes Line
+	2850 2100 500  2100
+Wire Notes Line
+	2850 2100 2850 7700
+Wire Wire Line
+	4200 900  4550 900 
+Wire Wire Line
+	4450 900  4450 1300
+Connection ~ 4450 900 
+Wire Wire Line
+	3950 1300 4150 1300
+Wire Wire Line
+	4000 1300 4000 1200
+Connection ~ 4000 1300
+Text GLabel 3950 1300 0    60   Input ~ 0
+FAN_CTL_1
+Wire Wire Line
+	3450 1000 3600 1000
+Text GLabel 3600 1000 2    60   Input ~ 0
+5V
+Wire Wire Line
+	3800 900  3450 900 
+Text GLabel 4550 900  2    60   UnSpc ~ 0
+GND
+$Comp
+L Molex_SL_2 U?
+U 1 1 5AD08044
+P 3250 1750
+F 0 "U?" H 3300 1700 60  0001 C CNN
+F 1 "Molex_SL_2" H 3300 2000 60  0000 C CNN
+F 2 "" H 3250 1650 60  0001 C CNN
+F 3 "" H 3250 1650 60  0001 C CNN
+	1    3250 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N7002 Q?
+U 1 1 5AD0804A
+P 4000 1900
+F 0 "Q?" H 4200 1975 50  0000 L CNN
+F 1 "2N7002" H 4200 1900 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4200 1825 50  0001 L CIN
+F 3 "" H 4000 1900 50  0001 L CNN
+	1    4000 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AD08050
+P 4300 2200
+F 0 "R?" V 4380 2200 50  0000 C CNN
+F 1 "100K" V 4300 2200 50  0000 C CNN
+F 2 "" V 4230 2200 50  0001 C CNN
+F 3 "" H 4300 2200 50  0001 C CNN
+	1    4300 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 1800 4550 1800
+Wire Wire Line
+	4450 1800 4450 2200
+Connection ~ 4450 1800
+Wire Wire Line
+	3950 2200 4150 2200
+Wire Wire Line
+	4000 2200 4000 2100
+Connection ~ 4000 2200
+Text GLabel 3950 2200 0    60   Input ~ 0
+FAN_CTL_2
+Wire Wire Line
+	3450 1900 3600 1900
+Text GLabel 3600 1900 2    60   Input ~ 0
+5V
+Wire Wire Line
+	3800 1800 3450 1800
+Text GLabel 4550 1800 2    60   UnSpc ~ 0
+GND
+$Comp
+L Molex_SL_2 U?
+U 1 1 5AD08267
+P 3250 2700
+F 0 "U?" H 3300 2650 60  0001 C CNN
+F 1 "Molex_SL_2" H 3300 2950 60  0000 C CNN
+F 2 "" H 3250 2600 60  0001 C CNN
+F 3 "" H 3250 2600 60  0001 C CNN
+	1    3250 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N7002 Q?
+U 1 1 5AD0826D
+P 4000 2850
+F 0 "Q?" H 4200 2925 50  0000 L CNN
+F 1 "2N7002" H 4200 2850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4200 2775 50  0001 L CIN
+F 3 "" H 4000 2850 50  0001 L CNN
+	1    4000 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AD08273
+P 4300 3150
+F 0 "R?" V 4380 3150 50  0000 C CNN
+F 1 "100K" V 4300 3150 50  0000 C CNN
+F 2 "" V 4230 3150 50  0001 C CNN
+F 3 "" H 4300 3150 50  0001 C CNN
+	1    4300 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 2750 4550 2750
+Wire Wire Line
+	4450 2750 4450 3150
+Connection ~ 4450 2750
+Wire Wire Line
+	3950 3150 4150 3150
+Wire Wire Line
+	4000 3150 4000 3050
+Connection ~ 4000 3150
+Text GLabel 3950 3150 0    60   Input ~ 0
+FAN_CTL_3
+Wire Wire Line
+	3450 2850 3600 2850
+Text GLabel 3600 2850 2    60   Input ~ 0
+5V
+Wire Wire Line
+	3800 2750 3450 2750
+Text GLabel 4550 2750 2    60   UnSpc ~ 0
+GND
+$Comp
+L Molex_SL_2 U?
+U 1 1 5AD08A2A
+P 3250 3700
+F 0 "U?" H 3300 3650 60  0001 C CNN
+F 1 "Molex_SL_2" H 3300 3950 60  0000 C CNN
+F 2 "" H 3250 3600 60  0001 C CNN
+F 3 "" H 3250 3600 60  0001 C CNN
+	1    3250 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2N7002 Q?
+U 1 1 5AD08A30
+P 4000 3850
+F 0 "Q?" H 4200 3925 50  0000 L CNN
+F 1 "2N7002" H 4200 3850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4200 3775 50  0001 L CIN
+F 3 "" H 4000 3850 50  0001 L CNN
+	1    4000 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AD08A36
+P 4300 4150
+F 0 "R?" V 4380 4150 50  0000 C CNN
+F 1 "100K" V 4300 4150 50  0000 C CNN
+F 2 "" V 4230 4150 50  0001 C CNN
+F 3 "" H 4300 4150 50  0001 C CNN
+	1    4300 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 3750 4550 3750
+Wire Wire Line
+	4450 3750 4450 4150
+Connection ~ 4450 3750
+Wire Wire Line
+	3950 4150 4150 4150
+Wire Wire Line
+	4000 4150 4000 4050
+Connection ~ 4000 4150
+Text GLabel 3950 4150 0    60   Input ~ 0
+FAN_CTL_4
+Wire Wire Line
+	3450 3850 3600 3850
+Text GLabel 3600 3850 2    60   Input ~ 0
+5V
+Wire Wire Line
+	3800 3750 3450 3750
+Text GLabel 4550 3750 2    60   UnSpc ~ 0
+GND
+Wire Notes Line
+	2900 500  2900 4400
+Wire Notes Line
+	2900 4400 4900 4400
+Wire Notes Line
+	4900 4400 4900 500 
+Text Notes 2950 600  0    60   ~ 12
+Fan Power/Control
 $EndSCHEMATC
