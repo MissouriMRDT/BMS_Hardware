@@ -49,7 +49,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "BMS "
-Date "2018-04-10"
+Date "2018-04-15"
 Rev "3"
 Comp "Mars Rover Design Team"
 Comment1 ""
@@ -1791,4 +1791,116 @@ Text GLabel 4950 13500 0    60   Input ~ 0
 BUZZER
 Text Notes 3450 12750 0    98   ~ 20
 Buzzer Alarm\n
+Text Notes 6550 8600 0    98   ~ 20
+Communication\n
+$Comp
+L MAX_3232 U?
+U 1 1 5ADE935F
+P 7300 10250
+F 0 "U?" H 7350 10200 60  0000 C CNN
+F 1 "MAX_3232" H 7600 11100 60  0000 C CNN
+F 2 "" H 7300 9600 60  0001 C CNN
+F 3 "" H 7300 9600 60  0001 C CNN
+	1    7300 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 9500 8200 9500
+Wire Wire Line
+	8100 9600 8950 9600
+Text GLabel 8200 9300 2    60   Input ~ 0
+3V3
+$Comp
+L C_Small C?
+U 1 1 5ADF05D8
+P 8600 9800
+F 0 "C?" V 8650 9850 50  0000 L CNN
+F 1 "0.1u" V 8650 9600 50  0000 L CNN
+F 2 "" H 8600 9800 50  0001 C CNN
+F 3 "" H 8600 9800 50  0001 C CNN
+	1    8600 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5ADF238D
+P 8300 9700
+F 0 "C?" V 8350 9750 50  0000 L CNN
+F 1 "0.1u" V 8350 9500 50  0000 L CNN
+F 2 "" H 8300 9700 50  0001 C CNN
+F 3 "" H 8300 9700 50  0001 C CNN
+	1    8300 9700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 9700 8200 9700
+Wire Wire Line
+	8100 9800 8500 9800
+$Comp
+L C_Small C?
+U 1 1 5ADF2A7A
+P 8300 9500
+F 0 "C?" V 8350 9550 50  0000 L CNN
+F 1 "10u" V 8350 9300 50  0000 L CNN
+F 2 "" H 8300 9500 50  0001 C CNN
+F 3 "" H 8300 9500 50  0001 C CNN
+	1    8300 9500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 9300 8150 9300
+Wire Wire Line
+	8150 9300 8150 9500
+Connection ~ 8150 9500
+Wire Wire Line
+	8400 9500 8950 9500
+Wire Wire Line
+	8950 9500 8950 9950
+Wire Wire Line
+	8700 9800 8950 9800
+Connection ~ 8950 9800
+Wire Wire Line
+	8400 9700 8950 9700
+Connection ~ 8950 9700
+Connection ~ 8950 9600
+Text GLabel 8950 9950 2    60   UnSpc ~ 0
+GND
+$Comp
+L C_Small C?
+U 1 1 5ADF8410
+P 6900 9500
+F 0 "C?" V 6950 9550 50  0000 L CNN
+F 1 "0.1u" V 6950 9300 50  0000 L CNN
+F 2 "" H 6900 9500 50  0001 C CNN
+F 3 "" H 6900 9500 50  0001 C CNN
+	1    6900 9500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5ADF8522
+P 6900 9700
+F 0 "C?" V 6950 9750 50  0000 L CNN
+F 1 "0.1u" V 6950 9500 50  0000 L CNN
+F 2 "" H 6900 9700 50  0001 C CNN
+F 3 "" H 6900 9700 50  0001 C CNN
+	1    6900 9700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 9700 7000 9700
+Wire Wire Line
+	6800 9700 6650 9700
+Wire Wire Line
+	6650 9700 6650 9800
+Wire Wire Line
+	6650 9800 7100 9800
+Wire Wire Line
+	7100 9500 7000 9500
+Wire Wire Line
+	6800 9500 6650 9500
+Wire Wire Line
+	6650 9500 6650 9600
+Wire Wire Line
+	6650 9600 7100 9600
 $EndSCHEMATC
