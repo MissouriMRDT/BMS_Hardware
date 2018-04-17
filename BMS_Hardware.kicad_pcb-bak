@@ -3,16 +3,23 @@
   (general
     (links 273)
     (no_connects 265)
-    (area 0 0 0 0)
+    (area -46.618501 -66.0117 271.855001 114.375001)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 8)
     (tracks 0)
     (zones 0)
-    (modules 105)
+    (modules 109)
     (nets 131)
   )
 
   (page A4)
+  (title_block
+    (title BMS)
+    (date 2018-04-17)
+    (rev 3)
+    (company "Mars Rover Design Team")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -63,7 +70,8 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
-    (aux_axis_origin 0 0)
+    (aux_axis_origin 38.1 165.1)
+    (grid_origin 63.5 114.3)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
@@ -363,6 +371,39 @@
     (add_net V_OUT)
   )
 
+  (module MRDT_Drill_Holes:MOUTING_HOLE_D0.13in (layer F.Cu) (tedit 5AD6119B) (tstamp 5AD64BD4)
+    (at 115.57 43.18)
+    (fp_text reference REF** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value MOUTING_HOLE_D0.13in (at 0 -2) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask))
+  )
+
+  (module MRDT_Drill_Holes:MOUTING_HOLE_D0.13in (layer F.Cu) (tedit 5AD6119B) (tstamp 5AD64BB3)
+    (at 219.71 43.18)
+    (fp_text reference REF** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value MOUTING_HOLE_D0.13in (at 0 -2) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask))
+  )
+
+  (module MRDT_Drill_Holes:MOUTING_HOLE_D0.13in (layer F.Cu) (tedit 5AD6119B) (tstamp 5AD64BAD)
+    (at 266.7 106.68)
+    (fp_text reference REF** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value MOUTING_HOLE_D0.13in (at 0 -2) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask))
+  )
+
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5ACD55BF)
     (at -15.3924 42.6212 180)
     (descr "Resistor SMD 0805, hand soldering")
@@ -400,7 +441,7 @@
   )
 
   (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5ACD4FAD) (tstamp 5ACD55C4)
-    (at 25.7302 31.242)
+    (at 81.28 85.725)
     (path /5AD3D15A)
     (fp_text reference V1 (at 0 10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3831,7 +3872,7 @@
   )
 
   (module PFF_PSF_PSS_Leadforms:PFF_Leadform_5pins (layer F.Cu) (tedit 0) (tstamp 5AD6147A)
-    (at -36.6776 13.7414)
+    (at -38.1 12.7)
     (descr "Allegro, Hallsensor, Through hole, Package CB-PFF,")
     (tags "Allegro, Hallsensor, Through hole, Package CB-PFF,")
     (path /5AD433B8)
@@ -4393,10 +4434,10 @@
     )
   )
 
-  (module MRDT_Connectors:MOLEX_SL_2_Horizontal (layer F.Cu) (tedit 5AB8003E) (tstamp 5AD614BD)
+  (module MRDT_Connectors:MOLEX_SL_2_Horizontal (layer F.Cu) (tedit 5AD60998) (tstamp 5AD614BD)
     (at 86.1822 -5.3848)
     (path /5AD08044)
-    (fp_text reference U4 (at 0 2.54) (layer F.SilkS) hide
+    (fp_text reference Conn4 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value FAN_2 (at 1.27 2.286) (layer F.Fab)
@@ -5076,7 +5117,7 @@
   )
 
   (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5ACD4FAD) (tstamp 5AD61648)
-    (at 48.6918 58.293)
+    (at 254 85.725)
     (path /5ADB284E)
     (fp_text reference V3 (at 0 10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5087,5 +5128,25 @@
     (pad 1 thru_hole circle (at 0 0) (size 18.288 18.288) (drill 9.144) (layers *.Cu)
       (net 47 V_OUT))
   )
+
+  (module MRDT_Drill_Holes:MOUTING_HOLE_D0.13in (layer F.Cu) (tedit 5AD6119B) (tstamp 5AD64B72)
+    (at 68.58 106.68)
+    (fp_text reference REF** (at 0 2) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value MOUTING_HOLE_D0.13in (at 0 -2) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask))
+  )
+
+  (gr_arc (start 68.58 109.22) (end 68.58 114.3) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 266.7 109.22) (end 271.78 109.22) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 266.7 40.64) (end 266.7 35.56) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 68.58 40.64) (end 63.5 40.64) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 266.7 114.3) (end 68.58 114.3) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 271.78 109.22) (end 271.78 40.64) (layer Edge.Cuts) (width 0.15) (tstamp 5AD63545))
+  (gr_line (start 68.58 35.56) (end 266.7 35.56) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 63.5 109.22) (end 63.5 40.64) (layer Edge.Cuts) (width 0.15))
 
 )

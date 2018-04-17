@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/BMS-Charger-Hardware/BMS_Hardware.sch")
-    (date "4/17/2018 12:53:59 AM")
+    (date "4/17/2018 9:49:31 AM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -966,6 +966,8 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical transistors)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
     (library (logical MRDT_Devices)
@@ -976,8 +978,6 @@
       (uri C:\KiCad-Libraries-Hardware\Device\MRDT_Drill_Holes.lib))
     (library (logical MRDT_ICs)
       (uri C:\KiCad-Libraries-Hardware\Device\MRDT_ICs.lib))
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical MRDT_Shields)
       (uri C:\KiCad-Libraries-Hardware\Device\MRDT_Shields.lib)))
   (nets
