@@ -2172,7 +2172,7 @@ Wire Wire Line
 	800  2650 850  2650
 Connection ~ 850  2650
 Wire Wire Line
-	1500 2650 6450 2650
+	1450 2650 6450 2650
 Wire Notes Line
 	6300 1350 6300 4650
 Wire Notes Line
