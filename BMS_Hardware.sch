@@ -2152,22 +2152,14 @@ V_OUT
 $Comp
 L Anderson_2 C32
 U 1 1 5AD61B36
-P 950 3250
-F 0 "C32" V 1000 3150 60  0000 C CNN
-F 1 "Anderson_2" V 1400 3500 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1000 2700 60  0001 C CNN
-F 3 "" H 1000 2700 60  0001 C CNN
-	1    950  3250
-	0    1    1    0   
+P 1400 3300
+F 0 "C32" V 1450 3200 60  0000 C CNN
+F 1 "Anderson_2" V 1850 3550 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical" H 1450 2750 60  0001 C CNN
+F 3 "" H 1450 2750 60  0001 C CNN
+	1    1400 3300
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	850  3050 1050 3050
-Wire Wire Line
-	1050 3050 1050 3150
-Wire Wire Line
-	1500 3050 1300 3050
-Wire Wire Line
-	1300 3050 1300 3150
 Wire Wire Line
 	800  2650 850  2650
 Connection ~ 850  2650
@@ -2183,4 +2175,12 @@ Wire Notes Line
 	9100 3850 7500 3850
 Wire Notes Line
 	7500 3850 7500 2150
+Wire Wire Line
+	1500 3050 1300 3050
+Wire Wire Line
+	1300 3050 1300 3200
+Wire Wire Line
+	850  3050 1050 3050
+Wire Wire Line
+	1050 3050 1050 3200
 $EndSCHEMATC

@@ -2155,7 +2155,7 @@ U 1 1 5AD61B36
 P 950 3250
 F 0 "C32" V 1000 3150 60  0000 C CNN
 F 1 "Anderson_2" V 1400 3500 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1000 2700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical" H 1000 2700 60  0001 C CNN
 F 3 "" H 1000 2700 60  0001 C CNN
 	1    950  3250
 	0    1    1    0   
@@ -2172,7 +2172,7 @@ Wire Wire Line
 	800  2650 850  2650
 Connection ~ 850  2650
 Wire Wire Line
-	1500 2650 6450 2650
+	1450 2650 6450 2650
 Wire Notes Line
 	6300 1350 6300 4650
 Wire Notes Line
