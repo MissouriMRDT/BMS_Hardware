@@ -3,12 +3,12 @@
   (general
     (links 408)
     (no_connects 0)
-    (area 63.424999 38.024999 271.855001 114.375001)
+    (area 63.424999 37.08452 271.855001 114.375001)
     (thickness 1.6)
     (drawings 63)
     (tracks 742)
     (zones 0)
-    (modules 250)
+    (modules 249)
     (nets 131)
   )
 
@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.4064)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.4064)
     (user_trace_width 0.508)
@@ -73,21 +73,22 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 0.6 0.6)
-    (pad_drill 0.3)
+    (pad_size 18.288 18.288)
+    (pad_drill 9.144)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 38.1 165.1)
     (grid_origin 63.5 114.3)
     (visible_elements 7FFEF7FF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
-      (excludeedgelayer true)
+      (usegerberattributes true)
+      (excludeedgelayer false)
       (linewidth 0.100000)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
-      (useauxorigin false)
+      (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
@@ -101,9 +102,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "../Rev.3 2018 Gerbs/"))
   )
 
   (net 0 "")
@@ -2119,7 +2120,7 @@
       (net 1 GND) (zone_connect 2))
   )
 
-  (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD6958E) (tstamp 5ACD55C9)
+  (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD719AC) (tstamp 5ACD55C9)
     (at 254 50.8)
     (path /5AD3D2F1)
     (fp_text reference V2 (at 0 10.16) (layer F.Fab) hide
@@ -2128,7 +2129,7 @@
     (fp_text value BATT_PWR_VIA (at 0 -10.033) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 18.288 18.288) (drill 9.144) (layers *.Cu)
+    (pad 1 thru_hole circle (at 0 0) (size 18.288 18.288) (drill 9.144) (layers *.Cu *.Mask)
       (net 130 V_IN) (zone_connect 2))
   )
 
@@ -2176,17 +2177,18 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask))
   )
 
-  (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5ACD4FAD) (tstamp 5ACD55C4)
+  (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD71999) (tstamp 5ACD55C4)
     (at 81.28 85.725)
     (path /5AD3D15A)
+    (zone_connect 2)
     (fp_text reference V1 (at 0 10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value BATT_PWR_VIA (at 0 -10.033) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 18.288 18.288) (drill 9.144) (layers *.Cu)
-      (net 1 GND))
+    (pad 1 thru_hole circle (at 0 0) (size 18.288 18.288) (drill 9.144) (layers *.Cu *.Mask)
+      (net 1 GND) (zone_connect 2))
   )
 
   (module MRDT_Devices:BUZZER_SMI_1324_TW_5V_2_R (layer F.Cu) (tedit 5AD6DE10) (tstamp 5AD60BB2)
@@ -6348,7 +6350,7 @@
       (net 2 5V))
   )
 
-  (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5ACD4FAD) (tstamp 5AD61648)
+  (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD71A47) (tstamp 5AD61648)
     (at 254 85.725)
     (path /5ADB284E)
     (zone_connect 2)
@@ -6358,7 +6360,7 @@
     (fp_text value BATT_PWR_VIA (at 0 -10.033) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 18.288 18.288) (drill 9.144) (layers *.Cu)
+    (pad 1 thru_hole circle (at 0 0) (size 18.288 18.288) (drill 9.144) (layers *.Cu *.Mask)
       (net 45 V_OUT) (zone_connect 2))
   )
 
@@ -7391,19 +7393,6 @@
     (fp_line (start 1.09728 1.8796) (end -1.143 1.89992) (layer F.Cu) (width 0.15))
     (fp_line (start 0 -0.05588) (end 1.09728 1.8796) (layer F.Cu) (width 0.15))
     (fp_line (start -1.15316 1.91008) (end 0 -0.05588) (layer F.Cu) (width 0.15))
-  )
-
-  (module MRDT_Drill_Holes:Via_.6mm (layer F.Cu) (tedit 5AD6F917) (tstamp 5AD6F89E)
-    (at 278.003 68.961)
-    (zone_connect 2)
-    (fp_text reference V_IN (at -0.0508 -0.0508) (layer F.Fab) hide
-      (effects (font (size 0.127 0.127) (thickness 0.000003)))
-    )
-    (fp_text value Via_P1.27mm_5x5 (at 0.1016 0.2032) (layer F.Fab) hide
-      (effects (font (size 0.127 0.127) (thickness 0.00254)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
-      (zone_connect 2))
   )
 
   (module MRDT_Drill_Holes:Via_.6mm (layer F.Cu) (tedit 5AD70424) (tstamp 5AD703C7)
