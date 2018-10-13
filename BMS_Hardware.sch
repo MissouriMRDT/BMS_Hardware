@@ -2200,13 +2200,13 @@ F 3 "" H 12150 6900 60  0001 C CNN
 $EndComp
 Text GLabel 11350 6550 0    50   Input ~ 0
 SER_RX_PB
-Text GLabel 11350 6750 0    50   Input ~ 0
+Text GLabel 11350 6750 0    50   Output ~ 0
 SER_TX_PB
 Text GLabel 11350 6650 0    50   Input ~ 0
 ADC_CELL_A1
 Text GLabel 12350 5950 2    50   Input ~ 0
 5V
-Text GLabel 12350 6050 2    50   Input ~ 0
+Text GLabel 12350 6050 2    50   UnSpc ~ 0
 GND
 Text GLabel 12350 6150 2    50   Input ~ 0
 ADC_CELL_VOUT
@@ -2214,32 +2214,32 @@ Text GLabel 12350 6250 2    50   Input ~ 0
 ADC_CELL_A0
 Text GLabel 12350 6350 2    50   Input ~ 0
 ADC_CELL_A2
-Text GLabel 12350 6450 2    50   Input ~ 0
+Text GLabel 12350 6450 2    50   Output ~ 0
 ADC_CELL_EN
 Text GLabel 13700 5950 0    50   Input ~ 0
 V_CHECK_ARRAY
-Text GLabel 13700 6350 0    50   Input ~ 0
+Text GLabel 13700 6350 0    50   Output ~ 0
 LOGIC_SWITCH
-Text GLabel 13700 6450 0    50   Input ~ 0
+Text GLabel 13700 6450 0    50   Output ~ 0
 FAN_CTL_4
-Text GLabel 14700 5950 2    50   Input ~ 0
+Text GLabel 14700 5950 2    50   UnSpc ~ 0
 GND
 Text GLabel 14700 6050 2    50   Input ~ 0
 TEMP_1
 Text GLabel 14700 6450 2    50   Input ~ 0
 PACK_GATE
-Text GLabel 14700 6650 2    50   Input ~ 0
+Text GLabel 14700 6650 2    50   Output ~ 0
 BUZZER
-Text GLabel 14700 6150 2    50   Input ~ 0
+Text GLabel 14700 6150 2    50   Output ~ 0
 FAN_CTL_1
-Text GLabel 14700 6250 2    50   Input ~ 0
+Text GLabel 14700 6250 2    50   Output ~ 0
 FAN_CTL_2
 Text GLabel 14700 6750 2    50   Input ~ 0
 PACK_I_MEAS
 Text GLabel 14700 6850 2    50   Input ~ 0
 V_CHECK_OUT
-Text GLabel 14700 6550 2    50   Input ~ 0
+Text GLabel 14700 6550 2    50   Output ~ 0
 FAN_CTL_3
-Text GLabel 12250 9100 2    50   Input ~ 0
+Text GLabel 12250 9100 2    50   Output ~ 0
 SER_TX_IND
 $EndSCHEMATC
