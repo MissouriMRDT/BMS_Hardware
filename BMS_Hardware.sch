@@ -2179,42 +2179,42 @@ $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U?
 U 1 1 5C05E831
-P 11400 6350
-F 0 "U?" H 10950 7800 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 10750 7600 60  0000 L CNN
-F 2 "" H 11400 6350 60  0001 C CNN
-F 3 "" H 11400 6350 60  0001 C CNN
-	1    11400 6350
+P 11550 6900
+F 0 "U?" H 11100 8350 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 10900 8150 60  0000 L CNN
+F 2 "" H 11550 6900 60  0001 C CNN
+F 3 "" H 11550 6900 60  0001 C CNN
+	1    11550 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U?
 U 2 1 5C05EA00
-P 12000 6350
-F 0 "U?" H 11900 7650 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 11700 7500 60  0000 C CNN
-F 2 "" H 12000 6350 60  0001 C CNN
-F 3 "" H 12000 6350 60  0001 C CNN
-	2    12000 6350
+P 12150 6900
+F 0 "U?" H 12050 8200 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 11850 8050 60  0000 C CNN
+F 2 "" H 12150 6900 60  0001 C CNN
+F 3 "" H 12150 6900 60  0001 C CNN
+	2    12150 6900
 	-1   0    0    -1  
 $EndComp
-Text GLabel 11200 6000 0    50   Input ~ 0
+Text GLabel 11350 6550 0    50   Input ~ 0
 SER_RX_PB
-Text GLabel 11200 6200 0    50   Input ~ 0
+Text GLabel 11350 6750 0    50   Input ~ 0
 SER_TX_PB
-Text GLabel 11200 6100 0    50   Input ~ 0
+Text GLabel 11350 6650 0    50   Input ~ 0
 ADC_CELL_A1
-Text GLabel 12200 5400 2    50   Input ~ 0
+Text GLabel 12350 5950 2    50   Input ~ 0
 5V
-Text GLabel 12200 5500 2    50   Input ~ 0
+Text GLabel 12350 6050 2    50   Input ~ 0
 GND
-Text GLabel 12200 5600 2    50   Input ~ 0
+Text GLabel 12350 6150 2    50   Input ~ 0
 ADC_CELL_VOUT
-Text GLabel 12200 5700 2    50   Input ~ 0
+Text GLabel 12350 6250 2    50   Input ~ 0
 ADC_CELL_A0
-Text GLabel 12200 5800 2    50   Input ~ 0
+Text GLabel 12350 6350 2    50   Input ~ 0
 ADC_CELL_A2
-Text GLabel 12200 5900 2    50   Input ~ 0
+Text GLabel 12350 6450 2    50   Input ~ 0
 ADC_CELL_EN
 Text GLabel 13700 5950 0    50   Input ~ 0
 V_CHECK_ARRAY
