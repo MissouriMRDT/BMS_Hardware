@@ -23,28 +23,26 @@ Power Input
 $Comp
 L BMS_Hardware-rescue:D_Zener D1
 U 1 1 5ACFDF7D
-P 2900 5450
-F 0 "D1" H 2900 5550 50  0000 C CNN
-F 1 "7.5V" H 2900 5350 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2900 5450 50  0001 C CNN
-F 3 "" H 2900 5450 50  0001 C CNN
-	1    2900 5450
-	0    1    1    0   
+P 2750 5550
+F 0 "D1" H 2750 5650 50  0000 C CNN
+F 1 "7.5V" H 2750 5450 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2750 5550 50  0001 C CNN
+F 3 "" H 2750 5550 50  0001 C CNN
+	1    2750 5550
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2700 5300 2900 5300
-Connection ~ 3250 5300
+	2950 5700 2750 5700
+Connection ~ 2400 5700
 Wire Wire Line
-	3250 5600 3250 5650
-Text GLabel 3250 5750 0    60   UnSpc ~ 0
+	2400 5400 2400 5350
+Text GLabel 2400 5250 2    60   UnSpc ~ 0
 GND
-Connection ~ 2900 5300
+Connection ~ 2750 5700
 Wire Wire Line
-	2900 5600 2900 5650
+	2750 5400 2750 5350
 Wire Wire Line
-	2900 5650 3250 5650
-Text GLabel 2700 5300 0    60   Output ~ 0
-CELL_1_FILTER
+	2750 5350 2400 5350
 $Comp
 L BMS_Hardware-rescue:R R2
 U 1 1 5ACFEC31
@@ -1089,13 +1087,13 @@ Cell Filters
 $Comp
 L BMS_Hardware-rescue:C C1
 U 1 1 5ADAB430
-P 3250 5450
-F 0 "C1" H 3260 5520 50  0000 L CNN
-F 1 "100n" H 3260 5370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3250 5450 50  0001 C CNN
-F 3 "" H 3250 5450 50  0001 C CNN
-	1    3250 5450
-	1    0    0    -1  
+P 2400 5550
+F 0 "C1" H 2410 5620 50  0000 L CNN
+F 1 "100n" H 2410 5470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2400 5550 50  0001 C CNN
+F 3 "" H 2400 5550 50  0001 C CNN
+	1    2400 5550
+	-1   0    0    1   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:D_Zener D2
@@ -1600,11 +1598,11 @@ Wire Wire Line
 Wire Wire Line
 	1050 3050 1050 3200
 Wire Wire Line
-	3250 5300 3600 5300
+	2400 5700 2050 5700
 Wire Wire Line
-	2900 5300 3250 5300
+	2750 5700 2400 5700
 Wire Wire Line
-	3250 5650 3250 5750
+	2400 5350 2400 5250
 Wire Wire Line
 	-500 5900 -150 5900
 Wire Wire Line
@@ -2572,5 +2570,9 @@ Wire Wire Line
 	2000 10150 2750 10150
 Wire Wire Line
 	2050 9400 2800 9400
-Connection ~ 3250 5650
+Connection ~ 2400 5350
+Text GLabel 3750 5700 2    50   Output ~ 0
+CELL_1-GND
+Text GLabel 2050 5700 0    50   Input ~ 0
+CELL_1
 $EndSCHEMATC

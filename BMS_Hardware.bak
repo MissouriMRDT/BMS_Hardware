@@ -21,231 +21,219 @@ V_IN
 Text Notes 700  1700 0    98   ~ 20
 Power Input
 $Comp
-L BMS_Hardware-rescue:R R1
-U 1 1 5ACD595D
-P 2500 5250
-F 0 "R1" V 2580 5250 50  0000 C CNN
-F 1 "100" V 2500 5250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 5250 50  0001 C CNN
-F 3 "" H 2500 5250 50  0001 C CNN
-	1    2500 5250
-	0    1    1    0   
-$EndComp
-$Comp
 L BMS_Hardware-rescue:D_Zener D1
 U 1 1 5ACFDF7D
-P 1650 5400
-F 0 "D1" H 1650 5500 50  0000 C CNN
-F 1 "7.5V" H 1650 5300 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1650 5400 50  0001 C CNN
-F 3 "" H 1650 5400 50  0001 C CNN
-	1    1650 5400
+P 2900 5450
+F 0 "D1" H 2900 5550 50  0000 C CNN
+F 1 "7.5V" H 2900 5350 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2900 5450 50  0001 C CNN
+F 3 "" H 2900 5450 50  0001 C CNN
+	1    2900 5450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 5250 1650 5250
-Connection ~ 2000 5250
+	2700 5300 2900 5300
+Connection ~ 3250 5300
 Wire Wire Line
-	2000 5550 2000 5600
-Text GLabel 2000 5700 0    60   UnSpc ~ 0
+	3250 5600 3250 5650
+Text GLabel 3250 5750 0    60   UnSpc ~ 0
 GND
-Connection ~ 1650 5250
+Connection ~ 2900 5300
 Wire Wire Line
-	1650 5550 1650 5600
+	2900 5600 2900 5650
 Wire Wire Line
-	1650 5600 2000 5600
-Connection ~ 2000 5600
-Text GLabel 1450 5250 0    60   Output ~ 0
+	2900 5650 3250 5650
+Text GLabel 2700 5300 0    60   Output ~ 0
 CELL_1_FILTER
 $Comp
 L BMS_Hardware-rescue:R R2
 U 1 1 5ACFEC31
-P 2500 5950
-F 0 "R2" V 2580 5950 50  0000 C CNN
-F 1 "100" V 2500 5950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 5950 50  0001 C CNN
-F 3 "" H 2500 5950 50  0001 C CNN
-	1    2500 5950
+P 0 5900
+F 0 "R2" V 80  5900 50  0000 C CNN
+F 1 "100" V 0   5900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V -70 5900 50  0001 C CNN
+F 3 "" H 0   5900 50  0001 C CNN
+	1    0    5900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 5950 1650 5950
-Connection ~ 2000 5950
-Text GLabel 3250 6150 0    51   Input ~ 0
+	-1050 5900 -850 5900
+Connection ~ -500 5900
+Text GLabel 2050 6300 0    51   Input ~ 0
 CELL_2
-Text GLabel 2000 6400 0    60   UnSpc ~ 0
+Text GLabel -500 6350 0    60   UnSpc ~ 0
 GND
-Connection ~ 1650 5950
+Connection ~ -850 5900
 Wire Wire Line
-	1650 6250 1650 6300
-Text GLabel 1450 5950 0    60   Output ~ 0
+	-850 6200 -850 6250
+Text GLabel -1050 5900 0    60   Output ~ 0
 CELL_2_FILTER
-Text GLabel 1450 6300 0    60   Output ~ 0
+Text GLabel -1050 6250 0    60   Output ~ 0
 CELL_1_FILTER
 Wire Wire Line
-	1650 6300 1450 6300
+	-850 6250 -1050 6250
 $Comp
 L BMS_Hardware-rescue:R R3
 U 1 1 5ACFF0AE
-P 2500 6650
-F 0 "R3" V 2580 6650 50  0000 C CNN
-F 1 "100" V 2500 6650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 6650 50  0001 C CNN
-F 3 "" H 2500 6650 50  0001 C CNN
-	1    2500 6650
+P 0 6600
+F 0 "R3" V 80  6600 50  0000 C CNN
+F 1 "100" V 0   6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V -70 6600 50  0001 C CNN
+F 3 "" H 0   6600 50  0001 C CNN
+	1    0    6600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 6650 1650 6650
-Connection ~ 2000 6650
-Text GLabel 3250 6850 0    51   Input ~ 0
+	-1050 6600 -850 6600
+Connection ~ -500 6600
+Text GLabel 2050 7000 0    51   Input ~ 0
 CELL_3
-Text GLabel 2000 7100 0    60   UnSpc ~ 0
+Text GLabel -500 7050 0    60   UnSpc ~ 0
 GND
-Connection ~ 1650 6650
+Connection ~ -850 6600
 Wire Wire Line
-	1650 6950 1650 7000
-Text GLabel 1450 6650 0    60   Output ~ 0
+	-850 6900 -850 6950
+Text GLabel -1050 6600 0    60   Output ~ 0
 CELL_3_FILTER
-Text GLabel 1450 7000 0    60   Output ~ 0
+Text GLabel -1050 6950 0    60   Output ~ 0
 CELL_2_FILTER
 Wire Wire Line
-	1650 7000 1450 7000
+	-850 6950 -1050 6950
 $Comp
 L BMS_Hardware-rescue:R R4
 U 1 1 5ACFF356
-P 2500 7350
-F 0 "R4" V 2580 7350 50  0000 C CNN
-F 1 "100" V 2500 7350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 7350 50  0001 C CNN
-F 3 "" H 2500 7350 50  0001 C CNN
-	1    2500 7350
+P 100 7500
+F 0 "R4" V 180 7500 50  0000 C CNN
+F 1 "100" V 100 7500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 30  7500 50  0001 C CNN
+F 3 "" H 100 7500 50  0001 C CNN
+	1    100  7500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 7350 1650 7350
-Connection ~ 2000 7350
-Text GLabel 3250 7550 0    51   Input ~ 0
+	-950 7500 -750 7500
+Connection ~ -400 7500
+Text GLabel 2050 7700 0    51   Input ~ 0
 CELL_4
-Text GLabel 2000 7800 0    60   UnSpc ~ 0
+Text GLabel -400 7950 0    60   UnSpc ~ 0
 GND
-Connection ~ 1650 7350
+Connection ~ -750 7500
 Wire Wire Line
-	1650 7650 1650 7700
-Text GLabel 1450 7350 0    60   Output ~ 0
+	-750 7800 -750 7850
+Text GLabel -950 7500 0    60   Output ~ 0
 CELL_4_FILTER
-Text GLabel 1450 7700 0    60   Output ~ 0
+Text GLabel -950 7850 0    60   Output ~ 0
 CELL_3_FILTER
 Wire Wire Line
-	1650 7700 1450 7700
+	-750 7850 -950 7850
 $Comp
 L BMS_Hardware-rescue:R R5
 U 1 1 5ACFF4A2
-P 2500 8050
-F 0 "R5" V 2580 8050 50  0000 C CNN
-F 1 "100" V 2500 8050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 8050 50  0001 C CNN
-F 3 "" H 2500 8050 50  0001 C CNN
-	1    2500 8050
+P 100 8200
+F 0 "R5" V 180 8200 50  0000 C CNN
+F 1 "100" V 100 8200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 30  8200 50  0001 C CNN
+F 3 "" H 100 8200 50  0001 C CNN
+	1    100  8200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 8050 1650 8050
-Connection ~ 2000 8050
-Text GLabel 3250 8250 0    51   Input ~ 0
+	-950 8200 -750 8200
+Connection ~ -400 8200
+Text GLabel 2050 8400 0    51   Input ~ 0
 CELL_5
-Text GLabel 2000 8500 0    60   UnSpc ~ 0
+Text GLabel -400 8650 0    60   UnSpc ~ 0
 GND
-Connection ~ 1650 8050
+Connection ~ -750 8200
 Wire Wire Line
-	1650 8350 1650 8400
-Text GLabel 1450 8050 0    60   Output ~ 0
+	-750 8500 -750 8550
+Text GLabel -950 8200 0    60   Output ~ 0
 CELL_5_FILTER
-Text GLabel 1450 8400 0    60   Output ~ 0
+Text GLabel -950 8550 0    60   Output ~ 0
 CELL_4_FILTER
 Wire Wire Line
-	1650 8400 1450 8400
+	-750 8550 -950 8550
 $Comp
 L BMS_Hardware-rescue:R R6
 U 1 1 5ACFFD30
-P 2500 8750
-F 0 "R6" V 2580 8750 50  0000 C CNN
-F 1 "100" V 2500 8750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 8750 50  0001 C CNN
-F 3 "" H 2500 8750 50  0001 C CNN
-	1    2500 8750
+P 100 8900
+F 0 "R6" V 180 8900 50  0000 C CNN
+F 1 "100" V 100 8900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 30  8900 50  0001 C CNN
+F 3 "" H 100 8900 50  0001 C CNN
+	1    100  8900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 8750 1650 8750
-Connection ~ 2000 8750
-Text GLabel 3250 8950 0    51   Input ~ 0
+	-950 8900 -750 8900
+Connection ~ -400 8900
+Text GLabel 2050 9100 0    51   Input ~ 0
 CELL_6
-Text GLabel 2000 9200 0    60   UnSpc ~ 0
+Text GLabel -400 9350 0    60   UnSpc ~ 0
 GND
-Connection ~ 1650 8750
+Connection ~ -750 8900
 Wire Wire Line
-	1650 9050 1650 9100
-Text GLabel 1450 8750 0    60   Output ~ 0
+	-750 9200 -750 9250
+Text GLabel -950 8900 0    60   Output ~ 0
 CELL_6_FILTER
-Text GLabel 1450 9100 0    60   Output ~ 0
+Text GLabel -950 9250 0    60   Output ~ 0
 CELL_5_FILTER
 Wire Wire Line
-	1650 9100 1450 9100
+	-750 9250 -950 9250
 $Comp
 L BMS_Hardware-rescue:R R7
 U 1 1 5ACFFFF3
-P 2500 9450
-F 0 "R7" V 2580 9450 50  0000 C CNN
-F 1 "100" V 2500 9450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 9450 50  0001 C CNN
-F 3 "" H 2500 9450 50  0001 C CNN
-	1    2500 9450
+P 100 9600
+F 0 "R7" V 180 9600 50  0000 C CNN
+F 1 "100" V 100 9600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 30  9600 50  0001 C CNN
+F 3 "" H 100 9600 50  0001 C CNN
+	1    100  9600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 9450 1650 9450
-Connection ~ 2000 9450
-Text GLabel 3300 9950 0    51   Input ~ 0
+	-950 9600 -750 9600
+Connection ~ -400 9600
+Text GLabel 2000 9850 0    51   Input ~ 0
 CELL_7
-Text GLabel 2000 9900 0    60   UnSpc ~ 0
+Text GLabel -400 10050 0    60   UnSpc ~ 0
 GND
-Connection ~ 1650 9450
+Connection ~ -750 9600
 Wire Wire Line
-	1650 9750 1650 9800
-Text GLabel 1450 9450 0    60   Output ~ 0
+	-750 9900 -750 9950
+Text GLabel -950 9600 0    60   Output ~ 0
 CELL_7_FILTER
-Text GLabel 1450 9800 0    60   Output ~ 0
+Text GLabel -950 9950 0    60   Output ~ 0
 CELL_6_FILTER
 Wire Wire Line
-	1650 9800 1450 9800
+	-750 9950 -950 9950
 $Comp
 L BMS_Hardware-rescue:R R8
 U 1 1 5AD000C1
-P 2500 10150
-F 0 "R8" V 2580 10150 50  0000 C CNN
-F 1 "100" V 2500 10150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 10150 50  0001 C CNN
-F 3 "" H 2500 10150 50  0001 C CNN
-	1    2500 10150
+P 100 10300
+F 0 "R8" V 180 10300 50  0000 C CNN
+F 1 "100" V 100 10300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 30  10300 50  0001 C CNN
+F 3 "" H 100 10300 50  0001 C CNN
+	1    100  10300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 10150 1650 10150
-Connection ~ 2000 10150
-Text GLabel 3250 10950 0    51   Input ~ 0
+	-950 10300 -750 10300
+Connection ~ -400 10300
+Text GLabel 2050 10600 0    51   Input ~ 0
 CELL_8
-Text GLabel 2000 10600 0    60   UnSpc ~ 0
+Text GLabel -400 10750 0    60   UnSpc ~ 0
 GND
-Connection ~ 1650 10150
+Connection ~ -750 10300
 Wire Wire Line
-	1650 10450 1650 10500
-Text GLabel 1450 10150 0    60   Output ~ 0
+	-750 10600 -750 10650
+Text GLabel -950 10300 0    60   Output ~ 0
 CELL_8_FILTER
-Text GLabel 1450 10500 0    60   Output ~ 0
+Text GLabel -950 10650 0    60   Output ~ 0
 CELL_7_FILTER
 Wire Wire Line
-	1650 10500 1450 10500
+	-750 10650 -950 10650
 $Comp
 L BMS_Hardware-rescue:Molex_SL_2 U2
 U 1 1 5AD038BF
@@ -1096,171 +1084,171 @@ Connection ~ 15250 1600
 Connection ~ 15000 1900
 Connection ~ 14750 1900
 Connection ~ 14500 1900
-Text Notes 1350 5050 0    98   ~ 20
+Text Notes 2650 4950 0    98   ~ 20
 Cell Filters
 $Comp
 L BMS_Hardware-rescue:C C1
 U 1 1 5ADAB430
-P 2000 5400
-F 0 "C1" H 2010 5470 50  0000 L CNN
-F 1 "100n" H 2010 5320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 5400 50  0001 C CNN
-F 3 "" H 2000 5400 50  0001 C CNN
-	1    2000 5400
+P 3250 5450
+F 0 "C1" H 3260 5520 50  0000 L CNN
+F 1 "100n" H 3260 5370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3250 5450 50  0001 C CNN
+F 3 "" H 3250 5450 50  0001 C CNN
+	1    3250 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L BMS_Hardware-rescue:D_Zener D2
 U 1 1 5ADAC37B
-P 1650 6100
-F 0 "D2" H 1650 6200 50  0000 C CNN
-F 1 "7.5V" H 1650 6000 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1650 6100 50  0001 C CNN
-F 3 "" H 1650 6100 50  0001 C CNN
-	1    1650 6100
+P -850 6050
+F 0 "D2" H -850 6150 50  0000 C CNN
+F 1 "7.5V" H -850 5950 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H -850 6050 50  0001 C CNN
+F 3 "" H -850 6050 50  0001 C CNN
+	1    -850 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:D_Zener D3
 U 1 1 5ADAC435
-P 1650 6800
-F 0 "D3" H 1650 6900 50  0000 C CNN
-F 1 "7.5V" H 1650 6700 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1650 6800 50  0001 C CNN
-F 3 "" H 1650 6800 50  0001 C CNN
-	1    1650 6800
+P -850 6750
+F 0 "D3" H -850 6850 50  0000 C CNN
+F 1 "7.5V" H -850 6650 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H -850 6750 50  0001 C CNN
+F 3 "" H -850 6750 50  0001 C CNN
+	1    -850 6750
 	0    1    1    0   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:D_Zener D4
 U 1 1 5ADAC4F2
-P 1650 7500
-F 0 "D4" H 1650 7600 50  0000 C CNN
-F 1 "7.5V" H 1650 7400 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1650 7500 50  0001 C CNN
-F 3 "" H 1650 7500 50  0001 C CNN
-	1    1650 7500
+P -750 7650
+F 0 "D4" H -750 7750 50  0000 C CNN
+F 1 "7.5V" H -750 7550 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H -750 7650 50  0001 C CNN
+F 3 "" H -750 7650 50  0001 C CNN
+	1    -750 7650
 	0    1    1    0   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:D_Zener D5
 U 1 1 5ADAC6E2
-P 1650 8200
-F 0 "D5" H 1650 8300 50  0000 C CNN
-F 1 "7.5V" H 1650 8100 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1650 8200 50  0001 C CNN
-F 3 "" H 1650 8200 50  0001 C CNN
-	1    1650 8200
+P -750 8350
+F 0 "D5" H -750 8450 50  0000 C CNN
+F 1 "7.5V" H -750 8250 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H -750 8350 50  0001 C CNN
+F 3 "" H -750 8350 50  0001 C CNN
+	1    -750 8350
 	0    1    1    0   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:D_Zener D6
 U 1 1 5ADACAB9
-P 1650 8900
-F 0 "D6" H 1650 9000 50  0000 C CNN
-F 1 "7.5V" H 1650 8800 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1650 8900 50  0001 C CNN
-F 3 "" H 1650 8900 50  0001 C CNN
-	1    1650 8900
+P -750 9050
+F 0 "D6" H -750 9150 50  0000 C CNN
+F 1 "7.5V" H -750 8950 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H -750 9050 50  0001 C CNN
+F 3 "" H -750 9050 50  0001 C CNN
+	1    -750 9050
 	0    1    1    0   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:D_Zener D7
 U 1 1 5ADACB7F
-P 1650 9600
-F 0 "D7" H 1650 9700 50  0000 C CNN
-F 1 "7.5V" H 1650 9500 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1650 9600 50  0001 C CNN
-F 3 "" H 1650 9600 50  0001 C CNN
-	1    1650 9600
+P -750 9750
+F 0 "D7" H -750 9850 50  0000 C CNN
+F 1 "7.5V" H -750 9650 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H -750 9750 50  0001 C CNN
+F 3 "" H -750 9750 50  0001 C CNN
+	1    -750 9750
 	0    1    1    0   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:D_Zener D8
 U 1 1 5ADAD1E7
-P 1650 10300
-F 0 "D8" H 1650 10400 50  0000 C CNN
-F 1 "7.5V" H 1650 10200 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1650 10300 50  0001 C CNN
-F 3 "" H 1650 10300 50  0001 C CNN
-	1    1650 10300
+P -750 10450
+F 0 "D8" H -750 10550 50  0000 C CNN
+F 1 "7.5V" H -750 10350 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H -750 10450 50  0001 C CNN
+F 3 "" H -750 10450 50  0001 C CNN
+	1    -750 10450
 	0    1    1    0   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C2
 U 1 1 5ADAD689
-P 2000 6100
-F 0 "C2" H 2010 6170 50  0000 L CNN
-F 1 "100n" H 2010 6020 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 6100 50  0001 C CNN
-F 3 "" H 2000 6100 50  0001 C CNN
-	1    2000 6100
+P -500 6050
+F 0 "C2" H -490 6120 50  0000 L CNN
+F 1 "100n" H -490 5970 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H -500 6050 50  0001 C CNN
+F 3 "" H -500 6050 50  0001 C CNN
+	1    -500 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C3
 U 1 1 5ADAD752
-P 2000 6800
-F 0 "C3" H 2010 6870 50  0000 L CNN
-F 1 "100n" H 2010 6720 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 6800 50  0001 C CNN
-F 3 "" H 2000 6800 50  0001 C CNN
-	1    2000 6800
+P -500 6750
+F 0 "C3" H -490 6820 50  0000 L CNN
+F 1 "100n" H -490 6670 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H -500 6750 50  0001 C CNN
+F 3 "" H -500 6750 50  0001 C CNN
+	1    -500 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C4
 U 1 1 5ADAD920
-P 2000 7500
-F 0 "C4" H 2010 7570 50  0000 L CNN
-F 1 "100n" H 2010 7420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 7500 50  0001 C CNN
-F 3 "" H 2000 7500 50  0001 C CNN
-	1    2000 7500
+P -400 7650
+F 0 "C4" H -390 7720 50  0000 L CNN
+F 1 "100n" H -390 7570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H -400 7650 50  0001 C CNN
+F 3 "" H -400 7650 50  0001 C CNN
+	1    -400 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C5
 U 1 1 5ADADB3C
-P 2000 8200
-F 0 "C5" H 2010 8270 50  0000 L CNN
-F 1 "100n" H 2010 8120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 8200 50  0001 C CNN
-F 3 "" H 2000 8200 50  0001 C CNN
-	1    2000 8200
+P -400 8350
+F 0 "C5" H -390 8420 50  0000 L CNN
+F 1 "100n" H -390 8270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H -400 8350 50  0001 C CNN
+F 3 "" H -400 8350 50  0001 C CNN
+	1    -400 8350
 	1    0    0    -1  
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C6
 U 1 1 5ADADF76
-P 2000 8900
-F 0 "C6" H 2010 8970 50  0000 L CNN
-F 1 "100n" H 2010 8820 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 8900 50  0001 C CNN
-F 3 "" H 2000 8900 50  0001 C CNN
-	1    2000 8900
+P -400 9050
+F 0 "C6" H -390 9120 50  0000 L CNN
+F 1 "100n" H -390 8970 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H -400 9050 50  0001 C CNN
+F 3 "" H -400 9050 50  0001 C CNN
+	1    -400 9050
 	1    0    0    -1  
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C7
 U 1 1 5ADAE2C3
-P 2000 9600
-F 0 "C7" H 2010 9670 50  0000 L CNN
-F 1 "100n" H 2010 9520 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 9600 50  0001 C CNN
-F 3 "" H 2000 9600 50  0001 C CNN
-	1    2000 9600
+P -400 9750
+F 0 "C7" H -390 9820 50  0000 L CNN
+F 1 "100n" H -390 9670 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H -400 9750 50  0001 C CNN
+F 3 "" H -400 9750 50  0001 C CNN
+	1    -400 9750
 	1    0    0    -1  
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C8
 U 1 1 5ADAE3A5
-P 2000 10300
-F 0 "C8" H 2010 10370 50  0000 L CNN
-F 1 "100n" H 2010 10220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 10300 50  0001 C CNN
-F 3 "" H 2000 10300 50  0001 C CNN
-	1    2000 10300
+P -400 10450
+F 0 "C8" H -390 10520 50  0000 L CNN
+F 1 "100n" H -390 10370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H -400 10450 50  0001 C CNN
+F 3 "" H -400 10450 50  0001 C CNN
+	1    -400 10450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1612,39 +1600,39 @@ Wire Wire Line
 Wire Wire Line
 	1050 3050 1050 3200
 Wire Wire Line
-	2000 5250 2350 5250
+	3250 5300 3600 5300
 Wire Wire Line
-	1650 5250 2000 5250
+	2900 5300 3250 5300
 Wire Wire Line
-	2000 5600 2000 5700
+	3250 5650 3250 5750
 Wire Wire Line
-	2000 5950 2350 5950
+	-500 5900 -150 5900
 Wire Wire Line
-	1650 5950 2000 5950
+	-850 5900 -500 5900
 Wire Wire Line
-	2000 6650 2350 6650
+	-500 6600 -150 6600
 Wire Wire Line
-	1650 6650 2000 6650
+	-850 6600 -500 6600
 Wire Wire Line
-	2000 7350 2350 7350
+	-400 7500 -50  7500
 Wire Wire Line
-	1650 7350 2000 7350
+	-750 7500 -400 7500
 Wire Wire Line
-	2000 8050 2350 8050
+	-400 8200 -50  8200
 Wire Wire Line
-	1650 8050 2000 8050
+	-750 8200 -400 8200
 Wire Wire Line
-	2000 8750 2350 8750
+	-400 8900 -50  8900
 Wire Wire Line
-	1650 8750 2000 8750
+	-750 8900 -400 8900
 Wire Wire Line
-	2000 9450 2350 9450
+	-400 9600 -50  9600
 Wire Wire Line
-	1650 9450 2000 9450
+	-750 9600 -400 9600
 Wire Wire Line
-	2000 10150 2350 10150
+	-400 10300 -50  10300
 Wire Wire Line
-	1650 10150 2000 10150
+	-750 10300 -400 10300
 Wire Wire Line
 	7950 9250 8050 9250
 Wire Wire Line
@@ -1764,19 +1752,19 @@ Wire Wire Line
 Wire Wire Line
 	850  2650 850  3050
 Wire Wire Line
-	2000 6250 2000 6400
+	-500 6200 -500 6350
 Wire Wire Line
-	2000 6950 2000 7100
+	-500 6900 -500 7050
 Wire Wire Line
-	2000 7650 2000 7800
+	-400 7800 -400 7950
 Wire Wire Line
-	2000 8350 2000 8500
+	-400 8500 -400 8650
 Wire Wire Line
-	2000 9050 2000 9200
+	-400 9200 -400 9350
 Wire Wire Line
-	2000 9750 2000 9900
+	-400 9900 -400 10050
 Wire Wire Line
-	2000 10450 2000 10600
+	-400 10600 -400 10750
 $Comp
 L BMS_Hardware-rescue:R R29
 U 1 1 5BCEF41B
@@ -1941,7 +1929,7 @@ Wire Notes Line
 Wire Notes Line
 	6150 6600 10500 6600
 Wire Notes Line
-	550  11500 10500 11500
+	600  11350 10550 11350
 Wire Notes Line
 	15950 9950 10500 9950
 Wire Notes Line
@@ -1952,356 +1940,637 @@ Wire Notes Line
 	10500 8400 6150 8400
 Wire Notes Line
 	8400 8400 8400 6600
-Text GLabel 3250 10850 0    51   Input ~ 0
+Text GLabel 2550 10600 0    51   Input ~ 0
 CELL_7
-Text GLabel 3300 9850 0    51   Input ~ 0
+Text GLabel 2500 9850 0    51   Input ~ 0
 CELL_6
-Text GLabel 3250 8850 0    51   Input ~ 0
+Text GLabel 2550 9100 0    51   Input ~ 0
 CELL_5
-Text GLabel 3250 8150 0    51   Input ~ 0
+Text GLabel 2550 8400 0    51   Input ~ 0
 CELL_4
-Text GLabel 3250 7450 0    51   Input ~ 0
+Text GLabel 2550 7700 0    51   Input ~ 0
 CELL_3
-Text GLabel 3250 6750 0    51   Input ~ 0
+Text GLabel 2550 7000 0    51   Input ~ 0
 CELL_2
-Text GLabel 3250 6050 0    51   Input ~ 0
+Text GLabel 2550 6300 0    51   Input ~ 0
 CELL_1
 Text Label 12600 5300 0    87   ~ 0
 TM4C1294NCPDT
 $Comp
 L MRDT_ICs:INA132 U?
 U 1 1 5BCF3D75
-P 3850 5500
-F 0 "U?" H 3600 5315 50  0000 C CNN
-F 1 "INA132" H 3600 5224 50  0000 C CNN
-F 2 "" H 3850 5500 50  0001 C CNN
-F 3 "" H 3850 5500 50  0001 C CNN
-	1    3850 5500
+P 3900 5850
+F 0 "U?" H 3650 5665 50  0000 C CNN
+F 1 "INA132" H 3650 5574 50  0000 C CNN
+F 2 "" H 3900 5850 50  0001 C CNN
+F 3 "" H 3900 5850 50  0001 C CNN
+	1    3900 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_ICs:INA132 U?
 U 1 1 5BCF3E3D
-P 3850 6200
-F 0 "U?" H 3600 6015 50  0000 C CNN
-F 1 "INA132" H 3600 5924 50  0000 C CNN
-F 2 "" H 3850 6200 50  0001 C CNN
-F 3 "" H 3850 6200 50  0001 C CNN
-	1    3850 6200
+P 3900 6550
+F 0 "U?" H 3650 6365 50  0000 C CNN
+F 1 "INA132" H 3650 6274 50  0000 C CNN
+F 2 "" H 3900 6550 50  0001 C CNN
+F 3 "" H 3900 6550 50  0001 C CNN
+	1    3900 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_ICs:INA132 U?
 U 1 1 5BCF3F0B
-P 3850 6900
-F 0 "U?" H 3600 6715 50  0000 C CNN
-F 1 "INA132" H 3600 6624 50  0000 C CNN
-F 2 "" H 3850 6900 50  0001 C CNN
-F 3 "" H 3850 6900 50  0001 C CNN
-	1    3850 6900
+P 3900 7250
+F 0 "U?" H 3650 7065 50  0000 C CNN
+F 1 "INA132" H 3650 6974 50  0000 C CNN
+F 2 "" H 3900 7250 50  0001 C CNN
+F 3 "" H 3900 7250 50  0001 C CNN
+	1    3900 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_ICs:INA132 U?
 U 1 1 5BCF43BE
-P 3850 7600
-F 0 "U?" H 3600 7415 50  0000 C CNN
-F 1 "INA132" H 3600 7324 50  0000 C CNN
-F 2 "" H 3850 7600 50  0001 C CNN
-F 3 "" H 3850 7600 50  0001 C CNN
-	1    3850 7600
+P 3900 7950
+F 0 "U?" H 3650 7765 50  0000 C CNN
+F 1 "INA132" H 3650 7674 50  0000 C CNN
+F 2 "" H 3900 7950 50  0001 C CNN
+F 3 "" H 3900 7950 50  0001 C CNN
+	1    3900 7950
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_ICs:INA132 U?
 U 1 1 5BCF4486
-P 3850 8300
-F 0 "U?" H 3600 8115 50  0000 C CNN
-F 1 "INA132" H 3600 8024 50  0000 C CNN
-F 2 "" H 3850 8300 50  0001 C CNN
-F 3 "" H 3850 8300 50  0001 C CNN
-	1    3850 8300
+P 3900 8650
+F 0 "U?" H 3650 8465 50  0000 C CNN
+F 1 "INA132" H 3650 8374 50  0000 C CNN
+F 2 "" H 3900 8650 50  0001 C CNN
+F 3 "" H 3900 8650 50  0001 C CNN
+	1    3900 8650
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_ICs:INA132 U?
 U 1 1 5BCF55BB
-P 3900 9300
-F 0 "U?" H 3650 9115 50  0000 C CNN
-F 1 "INA132" H 3650 9024 50  0000 C CNN
-F 2 "" H 3900 9300 50  0001 C CNN
-F 3 "" H 3900 9300 50  0001 C CNN
-	1    3900 9300
+P 3900 9400
+F 0 "U?" H 3650 9215 50  0000 C CNN
+F 1 "INA132" H 3650 9124 50  0000 C CNN
+F 2 "" H 3900 9400 50  0001 C CNN
+F 3 "" H 3900 9400 50  0001 C CNN
+	1    3900 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_ICs:INA132 U?
 U 1 1 5BCF568F
-P 3850 10300
-F 0 "U?" H 3600 10115 50  0000 C CNN
-F 1 "INA132" H 3600 10024 50  0000 C CNN
-F 2 "" H 3850 10300 50  0001 C CNN
-F 3 "" H 3850 10300 50  0001 C CNN
-	1    3850 10300
+P 3900 10150
+F 0 "U?" H 3650 9965 50  0000 C CNN
+F 1 "INA132" H 3650 9874 50  0000 C CNN
+F 2 "" H 3900 10150 50  0001 C CNN
+F 3 "" H 3900 10150 50  0001 C CNN
+	1    3900 10150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 6050 2    50   Input ~ 0
+Text GLabel 4350 6400 2    50   Input ~ 0
 V_IN
-Text GLabel 4300 6750 2    50   Input ~ 0
+Text GLabel 4350 7100 2    50   Input ~ 0
 V_IN
-Text GLabel 4300 7450 2    50   Input ~ 0
+Text GLabel 4350 7800 2    50   Input ~ 0
 V_IN
-Text GLabel 4300 8150 2    50   Input ~ 0
+Text GLabel 4350 8500 2    50   Input ~ 0
 V_IN
-Text GLabel 4300 8850 2    50   Input ~ 0
+Text GLabel 4350 9200 2    50   Input ~ 0
 V_IN
-Text GLabel 4350 9850 2    50   Input ~ 0
+Text GLabel 4350 9950 2    50   Input ~ 0
 V_IN
-Text GLabel 4300 10850 2    50   Input ~ 0
+Text GLabel 4350 10700 2    50   Input ~ 0
 V_IN
 $Comp
 L BMS_Hardware-rescue:C C2
 U 1 1 5BD0EC8A
-P 4100 5900
-F 0 "C2" H 3985 5854 50  0000 R CNN
-F 1 "1u" H 3985 5945 50  0000 R CNN
-F 2 "" H 4138 5750 50  0001 C CNN
-F 3 "" H 4100 5900 50  0001 C CNN
-	1    4100 5900
+P 4150 6250
+F 0 "C2" H 4035 6204 50  0000 R CNN
+F 1 "1u" H 4035 6295 50  0000 R CNN
+F 2 "" H 4188 6100 50  0001 C CNN
+F 3 "" H 4150 6250 50  0001 C CNN
+	1    4150 6250
 	-1   0    0    1   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C3
 U 1 1 5BD0EE52
-P 4100 6600
-F 0 "C3" H 3985 6554 50  0000 R CNN
-F 1 "1u" H 3985 6645 50  0000 R CNN
-F 2 "" H 4138 6450 50  0001 C CNN
-F 3 "" H 4100 6600 50  0001 C CNN
-	1    4100 6600
+P 4150 6950
+F 0 "C3" H 4035 6904 50  0000 R CNN
+F 1 "1u" H 4035 6995 50  0000 R CNN
+F 2 "" H 4188 6800 50  0001 C CNN
+F 3 "" H 4150 6950 50  0001 C CNN
+	1    4150 6950
 	-1   0    0    1   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C4
 U 1 1 5BD0EF36
-P 4100 7300
-F 0 "C4" H 3985 7254 50  0000 R CNN
-F 1 "1u" H 3985 7345 50  0000 R CNN
-F 2 "" H 4138 7150 50  0001 C CNN
-F 3 "" H 4100 7300 50  0001 C CNN
-	1    4100 7300
+P 4150 7650
+F 0 "C4" H 4035 7604 50  0000 R CNN
+F 1 "1u" H 4035 7695 50  0000 R CNN
+F 2 "" H 4188 7500 50  0001 C CNN
+F 3 "" H 4150 7650 50  0001 C CNN
+	1    4150 7650
 	-1   0    0    1   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C5
 U 1 1 5BD0F595
-P 4100 8000
-F 0 "C5" H 3985 7954 50  0000 R CNN
-F 1 "1u" H 3985 8045 50  0000 R CNN
-F 2 "" H 4138 7850 50  0001 C CNN
-F 3 "" H 4100 8000 50  0001 C CNN
-	1    4100 8000
+P 4150 8350
+F 0 "C5" H 4035 8304 50  0000 R CNN
+F 1 "1u" H 4035 8395 50  0000 R CNN
+F 2 "" H 4188 8200 50  0001 C CNN
+F 3 "" H 4150 8350 50  0001 C CNN
+	1    4150 8350
 	-1   0    0    1   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C6
 U 1 1 5BD0F66D
-P 4100 8700
-F 0 "C6" H 3985 8654 50  0000 R CNN
-F 1 "1u" H 3985 8745 50  0000 R CNN
-F 2 "" H 4138 8550 50  0001 C CNN
-F 3 "" H 4100 8700 50  0001 C CNN
-	1    4100 8700
+P 4150 9050
+F 0 "C6" H 4035 9004 50  0000 R CNN
+F 1 "1u" H 4035 9095 50  0000 R CNN
+F 2 "" H 4188 8900 50  0001 C CNN
+F 3 "" H 4150 9050 50  0001 C CNN
+	1    4150 9050
 	-1   0    0    1   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C7
 U 1 1 5BD0F749
-P 4150 9700
-F 0 "C7" H 4035 9654 50  0000 R CNN
-F 1 "1u" H 4035 9745 50  0000 R CNN
-F 2 "" H 4188 9550 50  0001 C CNN
-F 3 "" H 4150 9700 50  0001 C CNN
-	1    4150 9700
+P 4150 9800
+F 0 "C7" H 4035 9754 50  0000 R CNN
+F 1 "1u" H 4035 9845 50  0000 R CNN
+F 2 "" H 4188 9650 50  0001 C CNN
+F 3 "" H 4150 9800 50  0001 C CNN
+	1    4150 9800
 	-1   0    0    1   
 $EndComp
 $Comp
 L BMS_Hardware-rescue:C C8
 U 1 1 5BD0FC13
-P 4100 10700
-F 0 "C8" H 3985 10654 50  0000 R CNN
-F 1 "1u" H 3985 10745 50  0000 R CNN
-F 2 "" H 4138 10550 50  0001 C CNN
-F 3 "" H 4100 10700 50  0001 C CNN
-	1    4100 10700
+P 4150 10550
+F 0 "C8" H 4035 10504 50  0000 R CNN
+F 1 "1u" H 4035 10595 50  0000 R CNN
+F 2 "" H 4188 10400 50  0001 C CNN
+F 3 "" H 4150 10550 50  0001 C CNN
+	1    4150 10550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3950 6050 4100 6050
-Text GLabel 4300 5750 2    50   UnSpc ~ 0
+	4000 6400 4150 6400
+Text GLabel 4350 6100 2    50   UnSpc ~ 0
 GND
-Text GLabel 4350 9550 2    50   UnSpc ~ 0
+Text GLabel 4350 9650 2    50   UnSpc ~ 0
 GND
-Text GLabel 4300 10550 2    50   UnSpc ~ 0
+Text GLabel 4350 10400 2    50   UnSpc ~ 0
 GND
-Text GLabel 4300 7150 2    50   UnSpc ~ 0
+Text GLabel 4350 7500 2    50   UnSpc ~ 0
 GND
-Text GLabel 4300 6450 2    50   UnSpc ~ 0
+Text GLabel 4350 6800 2    50   UnSpc ~ 0
 GND
-Text GLabel 4300 7850 2    50   UnSpc ~ 0
+Text GLabel 4350 8200 2    50   UnSpc ~ 0
 GND
-Text GLabel 4300 8550 2    50   UnSpc ~ 0
+Text GLabel 4350 8900 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	4100 6050 4300 6050
-Connection ~ 4100 6050
+	4150 6400 4350 6400
+Connection ~ 4150 6400
 Wire Wire Line
-	3950 6750 4100 6750
+	4000 7100 4150 7100
 Wire Wire Line
-	4300 6750 4100 6750
-Connection ~ 4100 6750
+	4350 7100 4150 7100
+Connection ~ 4150 7100
 Wire Wire Line
-	3950 7450 4100 7450
-Connection ~ 4100 7450
+	4000 7800 4150 7800
+Connection ~ 4150 7800
 Wire Wire Line
-	4100 7450 4300 7450
+	4150 7800 4350 7800
 Wire Wire Line
-	3950 8150 4100 8150
-Connection ~ 4100 8150
+	4000 8500 4150 8500
+Connection ~ 4150 8500
 Wire Wire Line
-	4100 8150 4300 8150
+	4150 8500 4350 8500
 Wire Wire Line
-	3950 8850 4100 8850
-Connection ~ 4100 8850
+	4000 9200 4150 9200
+Connection ~ 4150 9200
 Wire Wire Line
-	4100 8850 4300 8850
+	4150 9200 4350 9200
 Wire Wire Line
-	4000 9850 4150 9850
-Connection ~ 4150 9850
+	4000 9950 4150 9950
+Connection ~ 4150 9950
 Wire Wire Line
-	4150 9850 4350 9850
+	4150 9950 4350 9950
 Wire Wire Line
-	3950 10850 4100 10850
-Connection ~ 4100 10850
+	4000 10700 4150 10700
+Connection ~ 4150 10700
 Wire Wire Line
-	4100 10850 4300 10850
+	4150 10700 4350 10700
 Wire Wire Line
-	4100 10550 4300 10550
+	4150 10400 4350 10400
 Wire Wire Line
-	4150 9550 4350 9550
+	4150 9650 4350 9650
 Wire Wire Line
-	4100 8550 4300 8550
+	4150 8900 4350 8900
 Wire Wire Line
-	4100 7850 4300 7850
+	4150 8200 4350 8200
 Wire Wire Line
-	4100 7150 4300 7150
+	4150 7500 4350 7500
 Wire Wire Line
-	4100 6450 4300 6450
+	4150 6800 4350 6800
 Wire Wire Line
-	4300 5750 4100 5750
-Text GLabel 3250 11050 0    50   UnSpc ~ 0
+	4350 6100 4150 6100
+Text GLabel 3300 10900 0    50   UnSpc ~ 0
 GND
-Text GLabel 3300 10050 0    50   UnSpc ~ 0
+Text GLabel 3300 10150 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 9050 0    50   UnSpc ~ 0
+Text GLabel 3300 9400 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 8350 0    50   UnSpc ~ 0
+Text GLabel 3300 8700 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 7650 0    50   UnSpc ~ 0
+Text GLabel 3300 8000 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 6950 0    50   UnSpc ~ 0
+Text GLabel 3300 7300 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 6250 0    50   UnSpc ~ 0
+Text GLabel 3300 6600 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 10750 0    50   UnSpc ~ 0
+Text GLabel 3300 10600 0    50   UnSpc ~ 0
 GND
-Text GLabel 4300 10950 2    50   Output ~ 0
+Text GLabel 4600 10800 2    50   Output ~ 0
 CELL_8-7
 Wire Wire Line
-	3950 10950 4050 10950
+	4000 10800 4100 10800
 Wire Wire Line
-	3950 11050 4050 11050
+	4000 10900 4100 10900
 Wire Wire Line
-	4050 11050 4050 10950
-Connection ~ 4050 10950
+	4100 10900 4100 10800
+Connection ~ 4100 10800
 Wire Wire Line
-	4050 10950 4300 10950
-Text GLabel 3300 9750 0    50   UnSpc ~ 0
+	4100 10800 4350 10800
+Text GLabel 3300 9850 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 8750 0    50   UnSpc ~ 0
+Text GLabel 3300 9100 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 8050 0    50   UnSpc ~ 0
+Text GLabel 3300 8400 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 7350 0    50   UnSpc ~ 0
+Text GLabel 3300 7700 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 6650 0    50   UnSpc ~ 0
+Text GLabel 3300 7000 0    50   UnSpc ~ 0
 GND
-Text GLabel 3250 5950 0    50   UnSpc ~ 0
+Text GLabel 3300 6300 0    50   UnSpc ~ 0
 GND
-Text GLabel 4350 9950 2    50   Output ~ 0
+Text GLabel 4600 10050 2    50   Output ~ 0
 CELL_7-6
-Text GLabel 4300 8950 2    50   Output ~ 0
+Text GLabel 4650 9300 2    50   Output ~ 0
 CELL_6-5
-Text GLabel 4300 8250 2    50   Output ~ 0
+Text GLabel 4650 8600 2    50   Output ~ 0
 CELL_5-4
-Text GLabel 4300 7550 2    50   Output ~ 0
+Text GLabel 4650 7900 2    50   Output ~ 0
 CELL_4-3
-Text GLabel 4300 6850 2    50   Output ~ 0
+Text GLabel 4600 7200 2    50   Output ~ 0
 CELL_3-2
-Text GLabel 4300 6150 2    50   Output ~ 0
+Text GLabel 4600 6500 2    50   Output ~ 0
 CELL_2-1
 Wire Wire Line
-	4000 9950 4100 9950
-Wire Wire Line
-	4100 10050 4100 9950
-Wire Wire Line
 	4000 10050 4100 10050
-Connection ~ 4100 9950
 Wire Wire Line
-	4100 9950 4350 9950
+	4100 10150 4100 10050
 Wire Wire Line
-	3950 8950 4050 8950
+	4000 10150 4100 10150
+Connection ~ 4100 10050
 Wire Wire Line
-	3950 9050 4050 9050
+	4100 10050 4350 10050
 Wire Wire Line
-	4050 9050 4050 8950
-Connection ~ 4050 8950
+	4000 9300 4100 9300
 Wire Wire Line
-	4050 8950 4300 8950
+	4000 9400 4100 9400
 Wire Wire Line
-	3950 8250 4050 8250
+	4100 9400 4100 9300
+Connection ~ 4100 9300
 Wire Wire Line
-	3950 8350 4050 8350
+	4100 9300 4350 9300
 Wire Wire Line
-	4050 8350 4050 8250
-Connection ~ 4050 8250
+	4000 8600 4100 8600
 Wire Wire Line
-	4050 8250 4300 8250
+	4000 8700 4100 8700
 Wire Wire Line
-	3950 7550 4050 7550
+	4100 8700 4100 8600
+Connection ~ 4100 8600
 Wire Wire Line
-	3950 7650 4050 7650
+	4100 8600 4350 8600
 Wire Wire Line
-	4050 7650 4050 7550
-Connection ~ 4050 7550
+	4000 7900 4100 7900
 Wire Wire Line
-	4050 7550 4300 7550
+	4000 8000 4100 8000
 Wire Wire Line
-	3950 6850 4050 6850
+	4100 8000 4100 7900
+Connection ~ 4100 7900
 Wire Wire Line
-	3950 6950 4050 6950
+	4100 7900 4350 7900
 Wire Wire Line
-	4050 6950 4050 6850
-Connection ~ 4050 6850
+	4000 7200 4100 7200
 Wire Wire Line
-	4050 6850 4300 6850
+	4000 7300 4100 7300
 Wire Wire Line
-	3950 6150 4050 6150
+	4100 7300 4100 7200
+Connection ~ 4100 7200
 Wire Wire Line
-	3950 6250 4050 6250
+	4100 7200 4350 7200
 Wire Wire Line
-	4050 6250 4050 6150
-Connection ~ 4050 6150
+	4000 6500 4100 6500
 Wire Wire Line
-	4050 6150 4300 6150
+	4000 6600 4100 6600
+Wire Wire Line
+	4100 6600 4100 6500
+Connection ~ 4100 6500
+Wire Wire Line
+	4100 6500 4350 6500
+$Comp
+L BMS_Hardware-rescue:D_Zener D?
+U 1 1 5C098242
+P 2800 6450
+F 0 "D?" H 2800 6550 50  0000 C CNN
+F 1 "7.5V" H 2800 6350 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 6450 50  0001 C CNN
+F 3 "" H 2800 6450 50  0001 C CNN
+	1    2800 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 6400 3300 6400
+Connection ~ 2800 6600
+Wire Wire Line
+	3000 6300 2800 6300
+Wire Wire Line
+	3000 6300 3000 6400
+Wire Wire Line
+	2800 6300 2550 6300
+Connection ~ 2800 6300
+Wire Wire Line
+	3000 6600 3000 6500
+Wire Wire Line
+	3000 6600 2800 6600
+Wire Wire Line
+	3000 6500 3300 6500
+Wire Wire Line
+	3300 7100 3000 7100
+Wire Wire Line
+	3000 7100 3000 7000
+Wire Wire Line
+	3000 7000 2800 7000
+Wire Wire Line
+	3300 7200 3000 7200
+Wire Wire Line
+	3000 7200 3000 7300
+Wire Wire Line
+	3000 7300 2800 7300
+$Comp
+L BMS_Hardware-rescue:D_Zener D?
+U 1 1 5C257EAA
+P 2800 7150
+F 0 "D?" H 2800 7250 50  0000 C CNN
+F 1 "7.5V" H 2800 7050 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 7150 50  0001 C CNN
+F 3 "" H 2800 7150 50  0001 C CNN
+	1    2800 7150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2800 7300
+Connection ~ 2800 7000
+Wire Wire Line
+	2800 7000 2550 7000
+Wire Wire Line
+	3300 7800 3000 7800
+Wire Wire Line
+	3000 7800 3000 7700
+Wire Wire Line
+	3000 7700 2800 7700
+Wire Wire Line
+	3300 7900 3000 7900
+Wire Wire Line
+	3000 7900 3000 8000
+Wire Wire Line
+	3000 8000 2800 8000
+$Comp
+L BMS_Hardware-rescue:D_Zener D?
+U 1 1 5C28D3B1
+P 2800 7850
+F 0 "D?" H 2800 7950 50  0000 C CNN
+F 1 "7.5V" H 2800 7750 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 7850 50  0001 C CNN
+F 3 "" H 2800 7850 50  0001 C CNN
+	1    2800 7850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2800 8000
+Connection ~ 2800 7700
+Wire Wire Line
+	2800 7700 2550 7700
+Wire Wire Line
+	3300 8500 3000 8500
+Wire Wire Line
+	3000 8500 3000 8400
+Wire Wire Line
+	3000 8400 2800 8400
+Wire Wire Line
+	3000 8600 3000 8700
+Wire Wire Line
+	3000 8700 2800 8700
+Wire Wire Line
+	3000 8600 3300 8600
+$Comp
+L BMS_Hardware-rescue:D_Zener D?
+U 1 1 5C2E35F5
+P 2800 8550
+F 0 "D?" H 2800 8650 50  0000 C CNN
+F 1 "7.5V" H 2800 8450 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 8550 50  0001 C CNN
+F 3 "" H 2800 8550 50  0001 C CNN
+	1    2800 8550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2800 8700
+Connection ~ 2800 8400
+Wire Wire Line
+	2800 8400 2550 8400
+Wire Wire Line
+	3300 9200 3000 9200
+Wire Wire Line
+	3000 9200 3000 9100
+Wire Wire Line
+	3000 9100 2800 9100
+Wire Wire Line
+	3300 9300 3000 9300
+Wire Wire Line
+	3000 9300 3000 9400
+Wire Wire Line
+	3000 9400 2800 9400
+$Comp
+L BMS_Hardware-rescue:D_Zener D?
+U 1 1 5C31FB8D
+P 2800 9250
+F 0 "D?" H 2800 9350 50  0000 C CNN
+F 1 "7.5V" H 2800 9150 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 9250 50  0001 C CNN
+F 3 "" H 2800 9250 50  0001 C CNN
+	1    2800 9250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2800 9400
+Connection ~ 2800 9100
+Wire Wire Line
+	2800 9100 2550 9100
+Wire Wire Line
+	3300 9950 3000 9950
+Wire Wire Line
+	3000 9950 3000 9850
+Wire Wire Line
+	3000 9850 2750 9850
+Wire Wire Line
+	3300 10050 3000 10050
+Wire Wire Line
+	3000 10050 3000 10150
+Wire Wire Line
+	3000 10150 2750 10150
+$Comp
+L BMS_Hardware-rescue:D_Zener D?
+U 1 1 5C3600CA
+P 2750 10000
+F 0 "D?" H 2750 10100 50  0000 C CNN
+F 1 "7.5V" H 2750 9900 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2750 10000 50  0001 C CNN
+F 3 "" H 2750 10000 50  0001 C CNN
+	1    2750 10000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2750 10150
+Connection ~ 2750 9850
+Wire Wire Line
+	2750 9850 2500 9850
+Wire Wire Line
+	3300 10700 3000 10700
+Wire Wire Line
+	3000 10700 3000 10600
+Wire Wire Line
+	3000 10600 2800 10600
+Wire Wire Line
+	3300 10800 3000 10800
+Wire Wire Line
+	3000 10800 3000 10900
+Wire Wire Line
+	3000 10900 2800 10900
+$Comp
+L BMS_Hardware-rescue:D_Zener D?
+U 1 1 5C3A4330
+P 2800 10750
+F 0 "D?" H 2800 10850 50  0000 C CNN
+F 1 "7.5V" H 2800 10650 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 10750 50  0001 C CNN
+F 3 "" H 2800 10750 50  0001 C CNN
+	1    2800 10750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2800 10900
+Connection ~ 2800 10600
+Wire Wire Line
+	2800 10600 2550 10600
+$Comp
+L BMS_Hardware-rescue:C C?
+U 1 1 5C3A6E87
+P 2050 6450
+F 0 "C?" H 1935 6404 50  0000 R CNN
+F 1 "1u" H 1935 6495 50  0000 R CNN
+F 2 "" H 2088 6300 50  0001 C CNN
+F 3 "" H 2050 6450 50  0001 C CNN
+	1    2050 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 6600 2800 6600
+$Comp
+L BMS_Hardware-rescue:C C?
+U 1 1 5C3C9F1F
+P 2050 7150
+F 0 "C?" H 1935 7104 50  0000 R CNN
+F 1 "1u" H 1935 7195 50  0000 R CNN
+F 2 "" H 2088 7000 50  0001 C CNN
+F 3 "" H 2050 7150 50  0001 C CNN
+	1    2050 7150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 7300 2800 7300
+$Comp
+L BMS_Hardware-rescue:C C?
+U 1 1 5C3ED605
+P 2050 7850
+F 0 "C?" H 1935 7804 50  0000 R CNN
+F 1 "1u" H 1935 7895 50  0000 R CNN
+F 2 "" H 2088 7700 50  0001 C CNN
+F 3 "" H 2050 7850 50  0001 C CNN
+	1    2050 7850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 8000 2800 8000
+$Comp
+L BMS_Hardware-rescue:C C?
+U 1 1 5C411168
+P 2050 8550
+F 0 "C?" H 1935 8504 50  0000 R CNN
+F 1 "1u" H 1935 8595 50  0000 R CNN
+F 2 "" H 2088 8400 50  0001 C CNN
+F 3 "" H 2050 8550 50  0001 C CNN
+	1    2050 8550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 8700 2800 8700
+$Comp
+L BMS_Hardware-rescue:C C?
+U 1 1 5C4341C9
+P 2050 9250
+F 0 "C?" H 1935 9204 50  0000 R CNN
+F 1 "1u" H 1935 9295 50  0000 R CNN
+F 2 "" H 2088 9100 50  0001 C CNN
+F 3 "" H 2050 9250 50  0001 C CNN
+	1    2050 9250
+	-1   0    0    1   
+$EndComp
+$Comp
+L BMS_Hardware-rescue:C C?
+U 1 1 5C435004
+P 2000 10000
+F 0 "C?" H 1885 9954 50  0000 R CNN
+F 1 "1u" H 1885 10045 50  0000 R CNN
+F 2 "" H 2038 9850 50  0001 C CNN
+F 3 "" H 2000 10000 50  0001 C CNN
+	1    2000 10000
+	-1   0    0    1   
+$EndComp
+$Comp
+L BMS_Hardware-rescue:C C?
+U 1 1 5C435A9A
+P 2050 10750
+F 0 "C?" H 1935 10704 50  0000 R CNN
+F 1 "1u" H 1935 10795 50  0000 R CNN
+F 2 "" H 2088 10600 50  0001 C CNN
+F 3 "" H 2050 10750 50  0001 C CNN
+	1    2050 10750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 10900 2800 10900
+Wire Wire Line
+	2000 10150 2750 10150
+Wire Wire Line
+	2050 9400 2800 9400
+Connection ~ 3250 5650
 $EndSCHEMATC
