@@ -595,7 +595,7 @@ F 3 "" H 9750 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9600 3100 9600 3200
-Text GLabel 9900 3450 2    60   UnSpc ~ 0
+Text GLabel 9950 3450 2    60   UnSpc ~ 0
 GND
 Wire Wire Line
 	9600 2650 9600 2800
@@ -691,7 +691,7 @@ $Comp
 L BMS_Hardware-rescue:R R15
 U 1 1 5AD66D2F
 P 4800 1950
-F 0 "R15" V 4700 1950 50  0000 C CNN
+F 0 "R15" V 4900 1950 50  0000 C CNN
 F 1 "100k" V 4800 1950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4730 1950 50  0001 C CNN
 F 3 "" H 4800 1950 50  0001 C CNN
@@ -930,41 +930,41 @@ F 3 "" H 8600 6700 60  0001 C CNN
 	1    8600 6300
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7550 5450 2    55   Input ~ 0
+Text GLabel 7600 5450 2    55   Input ~ 0
 CELL_8
-Text GLabel 7550 5550 2    55   Input ~ 0
+Text GLabel 7600 5550 2    55   Input ~ 0
 CELL_7
-Text GLabel 7550 5650 2    55   Input ~ 0
+Text GLabel 7600 5650 2    55   Input ~ 0
 CELL_6
-Text GLabel 7550 5750 2    55   Input ~ 0
+Text GLabel 7600 5750 2    55   Input ~ 0
 CELL_5
-Text GLabel 7550 5850 2    55   Input ~ 0
+Text GLabel 7600 5850 2    55   Input ~ 0
 CELL_4
-Text GLabel 7550 5950 2    55   Input ~ 0
+Text GLabel 7600 5950 2    55   Input ~ 0
 CELL_3
-Text GLabel 7550 6050 2    55   Input ~ 0
+Text GLabel 7600 6050 2    55   Input ~ 0
 CELL_2
-Text GLabel 7550 6150 2    55   Input ~ 0
+Text GLabel 7600 6150 2    55   Input ~ 0
 CELL_1
-Text GLabel 7550 6250 2    60   UnSpc ~ 0
+Text GLabel 7600 6250 2    60   UnSpc ~ 0
 GND
-Text GLabel 8800 5450 2    55   Input ~ 0
+Text GLabel 8850 5450 2    55   Input ~ 0
 CELL_8
-Text GLabel 8800 5550 2    55   Input ~ 0
+Text GLabel 8850 5550 2    55   Input ~ 0
 CELL_7
-Text GLabel 8800 5650 2    55   Input ~ 0
+Text GLabel 8850 5650 2    55   Input ~ 0
 CELL_6
-Text GLabel 8800 5750 2    55   Input ~ 0
+Text GLabel 8850 5750 2    55   Input ~ 0
 CELL_5
-Text GLabel 8800 5850 2    55   Input ~ 0
+Text GLabel 8850 5850 2    55   Input ~ 0
 CELL_4
-Text GLabel 8800 5950 2    55   Input ~ 0
+Text GLabel 8850 5950 2    55   Input ~ 0
 CELL_3
-Text GLabel 8800 6050 2    55   Input ~ 0
+Text GLabel 8850 6050 2    55   Input ~ 0
 CELL_2
-Text GLabel 8800 6150 2    55   Input ~ 0
+Text GLabel 8850 6150 2    55   Input ~ 0
 CELL_1
-Text GLabel 8800 6250 2    60   UnSpc ~ 0
+Text GLabel 8850 6250 2    60   UnSpc ~ 0
 GND
 Text Notes 7450 5100 0    98   ~ 20
 Voltage Monitoring
@@ -1038,11 +1038,11 @@ F 3 "" H 11300 3700 60  0001 C CNN
 	1    11300 3700
 	-1   0    0    -1  
 $EndComp
-Text GLabel 11500 3450 2    49   Input ~ 0
+Text GLabel 11550 3450 2    49   Input ~ 0
 SER_TX_IND
-Text GLabel 11500 3650 2    49   UnSpc ~ 0
+Text GLabel 11550 3650 2    49   UnSpc ~ 0
 GND
-Text GLabel 11500 3550 2    49   Input ~ 0
+Text GLabel 11550 3550 2    49   Input ~ 0
 3V3
 $Comp
 L BMS_Hardware-rescue:Molex_SL_3 U11
@@ -1388,152 +1388,138 @@ F 3 "" H 9500 7500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U21
 U 3 1 5BDE4A75
 P 13900 6900
-F 0 "U?" H 13950 8250 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 13700 8100 60  0000 L CNN
+F 0 "U21" H 13550 8150 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 13200 8050 60  0000 L CNN
 F 2 "" H 13900 6900 60  0001 C CNN
 F 3 "" H 13900 6900 60  0001 C CNN
 	3    13900 6900
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U21
 U 4 1 5BDE4FD7
 P 14500 6900
-F 0 "U?" H 13950 8300 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 13900 8050 60  0000 C CNN
+F 0 "U21" H 14200 8150 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 14150 8050 60  0000 C CNN
 F 2 "" H 14500 6900 60  0001 C CNN
 F 3 "" H 14500 6900 60  0001 C CNN
 	4    14500 6900
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U21
 U 5 1 5BDE539E
 P 11450 9150
-F 0 "U?" H 11050 10500 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 10750 10400 60  0000 L CNN
+F 0 "U21" H 11050 10400 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 10700 10300 60  0000 L CNN
 F 2 "" H 11450 9150 60  0001 C CNN
 F 3 "" H 11450 9150 60  0001 C CNN
 	5    11450 9150
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U21
 U 6 1 5BDE54AD
 P 12050 9150
-F 0 "U?" H 11950 10550 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 11650 10400 60  0000 C CNN
+F 0 "U21" H 11850 10400 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 11800 10300 60  0000 C CNN
 F 2 "" H 12050 9150 60  0001 C CNN
 F 3 "" H 12050 9150 60  0001 C CNN
 	6    12050 9150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U21
 U 7 1 5BDE55CC
 P 14100 9150
-F 0 "U?" H 14050 10450 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 13650 10350 60  0000 L CNN
+F 0 "U21" H 13850 10400 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 13400 10300 60  0000 L CNN
 F 2 "" H 14100 9150 60  0001 C CNN
 F 3 "" H 14100 9150 60  0001 C CNN
 	7    14100 9150
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U21
 U 8 1 5BDE56EC
 P 14700 9150
-F 0 "U?" H 14700 10600 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 14500 10500 60  0000 C CNN
+F 0 "U21" H 14550 10400 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 14450 10300 60  0000 C CNN
 F 2 "" H 14700 9150 60  0001 C CNN
 F 3 "" H 14700 9150 60  0001 C CNN
 	8    14700 9150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U21
 U 1 1 5C05E831
 P 11550 6900
-F 0 "U?" H 11100 8350 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 10900 8150 60  0000 L CNN
+F 0 "U21" H 11200 8150 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 10800 8050 60  0000 L CNN
 F 2 "" H 11550 6900 60  0001 C CNN
 F 3 "" H 11550 6900 60  0001 C CNN
 	1    11550 6900
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U21
 U 2 1 5C05EA00
 P 12150 6900
-F 0 "U?" H 12050 8200 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 11850 8050 60  0000 C CNN
+F 0 "U21" H 12050 8150 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 11950 8050 60  0000 C CNN
 F 2 "" H 12150 6900 60  0001 C CNN
 F 3 "" H 12150 6900 60  0001 C CNN
 	2    12150 6900
 	-1   0    0    -1  
 $EndComp
-Text GLabel 11350 6550 0    50   Input ~ 0
-SER_RX_PB
-Text GLabel 11350 6750 0    50   Output ~ 0
-SER_TX_PB
-Text GLabel 11350 6650 0    50   Input ~ 0
-ADC_CELL_A1
-Text GLabel 12350 5950 2    50   Input ~ 0
+Text GLabel 12400 5950 2    50   Input ~ 0
 5V
-Text GLabel 12350 6050 2    50   UnSpc ~ 0
+Text GLabel 12400 6050 2    50   UnSpc ~ 0
 GND
-Text GLabel 12350 6150 2    50   Input ~ 0
-ADC_CELL_VOUT
-Text GLabel 12350 6250 2    50   Input ~ 0
-ADC_CELL_A0
-Text GLabel 12350 6350 2    50   Input ~ 0
-ADC_CELL_A2
-Text GLabel 12350 6450 2    50   Output ~ 0
-ADC_CELL_EN
-Text GLabel 13700 5950 0    50   Input ~ 0
+Text GLabel 13650 5950 0    50   Input ~ 0
 V_CHECK_ARRAY
-Text GLabel 13700 6350 0    50   Output ~ 0
+Text GLabel 13650 6350 0    50   Output ~ 0
 LOGIC_SWITCH
-Text GLabel 13700 6450 0    50   Output ~ 0
+Text GLabel 13650 6450 0    50   Output ~ 0
 FAN_CTL_4
-Text GLabel 14700 5950 2    50   UnSpc ~ 0
+Text GLabel 14750 5950 2    50   UnSpc ~ 0
 GND
-Text GLabel 14700 6050 2    50   Input ~ 0
+Text GLabel 14750 6050 2    50   Input ~ 0
 TEMP_1
-Text GLabel 14700 6450 2    50   Input ~ 0
+Text GLabel 14750 6450 2    50   Input ~ 0
 PACK_GATE
-Text GLabel 14700 6650 2    50   Output ~ 0
+Text GLabel 14750 6650 2    50   Output ~ 0
 BUZZER
-Text GLabel 14700 6150 2    50   Output ~ 0
+Text GLabel 14750 6150 2    50   Output ~ 0
 FAN_CTL_1
-Text GLabel 14700 6250 2    50   Output ~ 0
+Text GLabel 14750 6250 2    50   Output ~ 0
 FAN_CTL_2
-Text GLabel 14700 6750 2    50   Input ~ 0
+Text GLabel 14750 6750 2    50   Input ~ 0
 PACK_I_MEAS
-Text GLabel 14700 6850 2    50   Input ~ 0
+Text GLabel 14750 6850 2    50   Input ~ 0
 V_CHECK_OUT
-Text GLabel 14700 6550 2    50   Output ~ 0
+Text GLabel 14750 6550 2    50   Output ~ 0
 FAN_CTL_3
-Text GLabel 12250 9100 2    50   Output ~ 0
+Text GLabel 12300 9100 2    50   Output ~ 0
 SER_TX_IND
-Text GLabel 11250 8600 0    50   Input ~ 0
+Text GLabel 11200 8600 0    50   Input ~ 0
 CELL_8-7
-Text GLabel 11250 8700 0    50   Input ~ 0
+Text GLabel 11200 8700 0    50   Input ~ 0
 CELL_7-6
-Text GLabel 12250 8400 2    50   Input ~ 0
+Text GLabel 12300 8400 2    50   Input ~ 0
 CELL_6-5
-Text GLabel 12250 8500 2    50   Input ~ 0
+Text GLabel 12300 8500 2    50   Input ~ 0
 CELL_5-4
-Text GLabel 12250 8600 2    50   Input ~ 0
+Text GLabel 12300 8600 2    50   Input ~ 0
 CELL_4-3
-Text GLabel 12250 8700 2    50   Input ~ 0
+Text GLabel 12300 8700 2    50   Input ~ 0
 CELL_3-2
-Text GLabel 12250 8800 2    50   Input ~ 0
+Text GLabel 12300 8800 2    50   Input ~ 0
 CELL_2-1
-Text GLabel 12250 8900 2    50   Input ~ 0
+Text GLabel 12300 8900 2    50   Input ~ 0
 CELL_1-GND
 Wire Notes Line
 	10500 2450 15950 2450
@@ -1565,13 +1551,11 @@ Text GLabel 2550 7000 0    51   Input ~ 0
 CELL_2
 Text GLabel 2550 6300 0    51   Input ~ 0
 CELL_1
-Text Label 12600 5300 0    87   ~ 0
-TM4C1294NCPDT
 $Comp
-L MRDT_ICs:INA132 U?
+L MRDT_ICs:INA132 U3
 U 1 1 5BCF3D75
 P 3900 5850
-F 0 "U?" H 3650 5665 50  0000 C CNN
+F 0 "U3" H 3650 5665 50  0000 C CNN
 F 1 "INA132" H 3650 5574 50  0000 C CNN
 F 2 "" H 3900 5850 50  0001 C CNN
 F 3 "" H 3900 5850 50  0001 C CNN
@@ -1579,10 +1563,10 @@ F 3 "" H 3900 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:INA132 U?
+L MRDT_ICs:INA132 U9
 U 1 1 5BCF3E3D
 P 3900 6550
-F 0 "U?" H 3650 6365 50  0000 C CNN
+F 0 "U9" H 3650 6365 50  0000 C CNN
 F 1 "INA132" H 3650 6274 50  0000 C CNN
 F 2 "" H 3900 6550 50  0001 C CNN
 F 3 "" H 3900 6550 50  0001 C CNN
@@ -1590,10 +1574,10 @@ F 3 "" H 3900 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:INA132 U?
+L MRDT_ICs:INA132 U13
 U 1 1 5BCF3F0B
 P 3900 7250
-F 0 "U?" H 3650 7065 50  0000 C CNN
+F 0 "U13" H 3650 7065 50  0000 C CNN
 F 1 "INA132" H 3650 6974 50  0000 C CNN
 F 2 "" H 3900 7250 50  0001 C CNN
 F 3 "" H 3900 7250 50  0001 C CNN
@@ -1601,10 +1585,10 @@ F 3 "" H 3900 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:INA132 U?
+L MRDT_ICs:INA132 U14
 U 1 1 5BCF43BE
 P 3900 7950
-F 0 "U?" H 3650 7765 50  0000 C CNN
+F 0 "U14" H 3650 7765 50  0000 C CNN
 F 1 "INA132" H 3650 7674 50  0000 C CNN
 F 2 "" H 3900 7950 50  0001 C CNN
 F 3 "" H 3900 7950 50  0001 C CNN
@@ -1612,10 +1596,10 @@ F 3 "" H 3900 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:INA132 U?
+L MRDT_ICs:INA132 U15
 U 1 1 5BCF4486
 P 3900 8650
-F 0 "U?" H 3650 8465 50  0000 C CNN
+F 0 "U15" H 3650 8465 50  0000 C CNN
 F 1 "INA132" H 3650 8374 50  0000 C CNN
 F 2 "" H 3900 8650 50  0001 C CNN
 F 3 "" H 3900 8650 50  0001 C CNN
@@ -1623,10 +1607,10 @@ F 3 "" H 3900 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:INA132 U?
+L MRDT_ICs:INA132 U19
 U 1 1 5BCF55BB
 P 3900 9400
-F 0 "U?" H 3650 9215 50  0000 C CNN
+F 0 "U19" H 3650 9215 50  0000 C CNN
 F 1 "INA132" H 3650 9124 50  0000 C CNN
 F 2 "" H 3900 9400 50  0001 C CNN
 F 3 "" H 3900 9400 50  0001 C CNN
@@ -1634,10 +1618,10 @@ F 3 "" H 3900 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:INA132 U?
+L MRDT_ICs:INA132 U20
 U 1 1 5BCF568F
 P 3900 10150
-F 0 "U?" H 3650 9965 50  0000 C CNN
+F 0 "U20" H 3650 9965 50  0000 C CNN
 F 1 "INA132" H 3650 9874 50  0000 C CNN
 F 2 "" H 3900 10150 50  0001 C CNN
 F 3 "" H 3900 10150 50  0001 C CNN
@@ -1845,7 +1829,7 @@ Text GLabel 5300 7600 2    50   Output ~ 0
 CELL_4-3
 Text GLabel 5300 6900 2    50   Output ~ 0
 CELL_3-2
-Text GLabel 5350 6200 2    50   Output ~ 0
+Text GLabel 5300 6200 2    50   Output ~ 0
 CELL_2-1
 Wire Wire Line
 	4000 10050 4100 10050
@@ -1890,10 +1874,10 @@ Wire Wire Line
 	4100 6600 4100 6500
 Connection ~ 4100 6500
 $Comp
-L BMS_Hardware-rescue:D_Zener D?
+L BMS_Hardware-rescue:D_Zener D2
 U 1 1 5C098242
 P 2800 6450
-F 0 "D?" H 2800 6550 50  0000 C CNN
+F 0 "D2" H 2800 6550 50  0000 C CNN
 F 1 "7.5V" H 2800 6350 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 6450 50  0001 C CNN
 F 3 "" H 2800 6450 50  0001 C CNN
@@ -1929,10 +1913,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 7300 2800 7300
 $Comp
-L BMS_Hardware-rescue:D_Zener D?
+L BMS_Hardware-rescue:D_Zener D3
 U 1 1 5C257EAA
 P 2800 7150
-F 0 "D?" H 2800 7250 50  0000 C CNN
+F 0 "D3" H 2800 7250 50  0000 C CNN
 F 1 "7.5V" H 2800 7050 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 7150 50  0001 C CNN
 F 3 "" H 2800 7150 50  0001 C CNN
@@ -1956,10 +1940,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 8000 2800 8000
 $Comp
-L BMS_Hardware-rescue:D_Zener D?
+L BMS_Hardware-rescue:D_Zener D4
 U 1 1 5C28D3B1
 P 2800 7850
-F 0 "D?" H 2800 7950 50  0000 C CNN
+F 0 "D4" H 2800 7950 50  0000 C CNN
 F 1 "7.5V" H 2800 7750 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 7850 50  0001 C CNN
 F 3 "" H 2800 7850 50  0001 C CNN
@@ -1983,10 +1967,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 8600 3300 8600
 $Comp
-L BMS_Hardware-rescue:D_Zener D?
+L BMS_Hardware-rescue:D_Zener D5
 U 1 1 5C2E35F5
 P 2800 8550
-F 0 "D?" H 2800 8650 50  0000 C CNN
+F 0 "D5" H 2800 8650 50  0000 C CNN
 F 1 "7.5V" H 2800 8450 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 8550 50  0001 C CNN
 F 3 "" H 2800 8550 50  0001 C CNN
@@ -2010,10 +1994,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 9400 2800 9400
 $Comp
-L BMS_Hardware-rescue:D_Zener D?
+L BMS_Hardware-rescue:D_Zener D6
 U 1 1 5C31FB8D
 P 2800 9250
-F 0 "D?" H 2800 9350 50  0000 C CNN
+F 0 "D6" H 2800 9350 50  0000 C CNN
 F 1 "7.5V" H 2800 9150 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 9250 50  0001 C CNN
 F 3 "" H 2800 9250 50  0001 C CNN
@@ -2035,10 +2019,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 10050 3000 10150
 $Comp
-L BMS_Hardware-rescue:D_Zener D?
+L BMS_Hardware-rescue:D_Zener D7
 U 1 1 5C3600CA
 P 2800 10000
-F 0 "D?" H 2800 10100 50  0000 C CNN
+F 0 "D7" H 2800 10100 50  0000 C CNN
 F 1 "7.5V" H 2800 9900 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 10000 50  0001 C CNN
 F 3 "" H 2800 10000 50  0001 C CNN
@@ -2058,10 +2042,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 10900 2800 10900
 $Comp
-L BMS_Hardware-rescue:D_Zener D?
+L BMS_Hardware-rescue:D_Zener D8
 U 1 1 5C3A4330
 P 2800 10750
-F 0 "D?" H 2800 10850 50  0000 C CNN
+F 0 "D8" H 2800 10850 50  0000 C CNN
 F 1 "7.5V" H 2800 10650 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 2800 10750 50  0001 C CNN
 F 3 "" H 2800 10750 50  0001 C CNN
@@ -2073,10 +2057,10 @@ Connection ~ 2800 10600
 Wire Wire Line
 	2800 10600 2550 10600
 $Comp
-L BMS_Hardware-rescue:C C?
+L BMS_Hardware-rescue:C C9
 U 1 1 5C3A6E87
 P 2050 6450
-F 0 "C?" H 1935 6404 50  0000 R CNN
+F 0 "C9" H 1935 6404 50  0000 R CNN
 F 1 "1u" H 1935 6495 50  0000 R CNN
 F 2 "" H 2088 6300 50  0001 C CNN
 F 3 "" H 2050 6450 50  0001 C CNN
@@ -2086,10 +2070,10 @@ $EndComp
 Wire Wire Line
 	2050 6600 2800 6600
 $Comp
-L BMS_Hardware-rescue:C C?
+L BMS_Hardware-rescue:C C11
 U 1 1 5C3C9F1F
 P 2050 7150
-F 0 "C?" H 1935 7104 50  0000 R CNN
+F 0 "C11" H 1935 7104 50  0000 R CNN
 F 1 "1u" H 1935 7195 50  0000 R CNN
 F 2 "" H 2088 7000 50  0001 C CNN
 F 3 "" H 2050 7150 50  0001 C CNN
@@ -2099,10 +2083,10 @@ $EndComp
 Wire Wire Line
 	2050 7300 2800 7300
 $Comp
-L BMS_Hardware-rescue:C C?
+L BMS_Hardware-rescue:C C12
 U 1 1 5C3ED605
 P 2050 7850
-F 0 "C?" H 1935 7804 50  0000 R CNN
+F 0 "C12" H 1935 7804 50  0000 R CNN
 F 1 "1u" H 1935 7895 50  0000 R CNN
 F 2 "" H 2088 7700 50  0001 C CNN
 F 3 "" H 2050 7850 50  0001 C CNN
@@ -2112,10 +2096,10 @@ $EndComp
 Wire Wire Line
 	2050 8000 2800 8000
 $Comp
-L BMS_Hardware-rescue:C C?
+L BMS_Hardware-rescue:C C13
 U 1 1 5C411168
 P 2050 8550
-F 0 "C?" H 1935 8504 50  0000 R CNN
+F 0 "C13" H 1935 8504 50  0000 R CNN
 F 1 "1u" H 1935 8595 50  0000 R CNN
 F 2 "" H 2088 8400 50  0001 C CNN
 F 3 "" H 2050 8550 50  0001 C CNN
@@ -2125,10 +2109,10 @@ $EndComp
 Wire Wire Line
 	2050 8700 2800 8700
 $Comp
-L BMS_Hardware-rescue:C C?
+L BMS_Hardware-rescue:C C14
 U 1 1 5C4341C9
 P 2050 9250
-F 0 "C?" H 1935 9204 50  0000 R CNN
+F 0 "C14" H 1935 9204 50  0000 R CNN
 F 1 "1u" H 1935 9295 50  0000 R CNN
 F 2 "" H 2088 9100 50  0001 C CNN
 F 3 "" H 2050 9250 50  0001 C CNN
@@ -2136,10 +2120,10 @@ F 3 "" H 2050 9250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BMS_Hardware-rescue:C C?
+L BMS_Hardware-rescue:C C15
 U 1 1 5C435004
 P 2050 10000
-F 0 "C?" H 1935 9954 50  0000 R CNN
+F 0 "C15" H 1935 9954 50  0000 R CNN
 F 1 "1u" H 1935 10045 50  0000 R CNN
 F 2 "" H 2088 9850 50  0001 C CNN
 F 3 "" H 2050 10000 50  0001 C CNN
@@ -2147,10 +2131,10 @@ F 3 "" H 2050 10000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BMS_Hardware-rescue:C C?
+L BMS_Hardware-rescue:C C16
 U 1 1 5C435A9A
 P 2050 10750
-F 0 "C?" H 1935 10704 50  0000 R CNN
+F 0 "C16" H 1935 10704 50  0000 R CNN
 F 1 "1u" H 1935 10795 50  0000 R CNN
 F 2 "" H 2088 10600 50  0001 C CNN
 F 3 "" H 2050 10750 50  0001 C CNN
@@ -2167,22 +2151,22 @@ CELL_1-GND
 Text GLabel 2050 5700 0    50   Input ~ 0
 CELL_1
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R1
 U 1 1 5BC6068A
 P 3150 5550
-F 0 "R?" H 3220 5596 50  0000 L CNN
-F 1 "21.5k" H 3220 5505 50  0000 L CNN
+F 0 "R1" H 3220 5596 50  0000 L CNN
+F 1 "10k" H 3220 5505 50  0000 L CNN
 F 2 "" V 3080 5550 50  0001 C CNN
 F 3 "" H 3150 5550 50  0001 C CNN
 	1    3150 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R2
 U 1 1 5BC607C0
 P 3450 5550
-F 0 "R?" H 3520 5596 50  0000 L CNN
-F 1 "78.7k" H 3520 5505 50  0000 L CNN
+F 0 "R2" H 3520 5596 50  0000 L CNN
+F 1 "36.5k" H 3520 5505 50  0000 L CNN
 F 2 "" V 3380 5550 50  0001 C CNN
 F 3 "" H 3450 5550 50  0001 C CNN
 	1    3450 5550
@@ -2190,28 +2174,28 @@ F 3 "" H 3450 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 5400 3450 5400
-Text GLabel 3450 5700 2    50   UnSpc ~ 0
+Text GLabel 3550 5700 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	2750 5700 3150 5700
 Connection ~ 2750 5700
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R3
 U 1 1 5BCEE4B8
 P 4750 6350
-F 0 "R?" H 4820 6396 50  0000 L CNN
-F 1 "21.5k" H 4820 6305 50  0000 L CNN
+F 0 "R3" H 4820 6396 50  0000 L CNN
+F 1 "10k" H 4820 6305 50  0000 L CNN
 F 2 "" V 4680 6350 50  0001 C CNN
 F 3 "" H 4750 6350 50  0001 C CNN
 	1    4750 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R17
 U 1 1 5BCEE4BE
 P 5050 6350
-F 0 "R?" H 5120 6396 50  0000 L CNN
-F 1 "78.7k" H 5120 6305 50  0000 L CNN
+F 0 "R17" H 5120 6396 50  0000 L CNN
+F 1 "36.5k" H 5120 6305 50  0000 L CNN
 F 2 "" V 4980 6350 50  0001 C CNN
 F 3 "" H 5050 6350 50  0001 C CNN
 	1    5050 6350
@@ -2219,27 +2203,27 @@ F 3 "" H 5050 6350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 6200 5050 6200
-Text GLabel 5050 6500 2    50   UnSpc ~ 0
+Text GLabel 5150 6500 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	4100 6500 4750 6500
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R4
 U 1 1 5BD150DC
 P 4750 7050
-F 0 "R?" H 4820 7096 50  0000 L CNN
-F 1 "21.5k" H 4820 7005 50  0000 L CNN
+F 0 "R4" H 4820 7096 50  0000 L CNN
+F 1 "10k" H 4820 7005 50  0000 L CNN
 F 2 "" V 4680 7050 50  0001 C CNN
 F 3 "" H 4750 7050 50  0001 C CNN
 	1    4750 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R21
 U 1 1 5BD150E3
 P 5050 7050
-F 0 "R?" H 5120 7096 50  0000 L CNN
-F 1 "78.7k" H 5120 7005 50  0000 L CNN
+F 0 "R21" H 5120 7096 50  0000 L CNN
+F 1 "36.5k" H 5120 7005 50  0000 L CNN
 F 2 "" V 4980 7050 50  0001 C CNN
 F 3 "" H 5050 7050 50  0001 C CNN
 	1    5050 7050
@@ -2247,27 +2231,27 @@ F 3 "" H 5050 7050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 6900 5050 6900
-Text GLabel 5050 7200 2    50   UnSpc ~ 0
+Text GLabel 5150 7200 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	4100 7200 4750 7200
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R5
 U 1 1 5BD39A0D
 P 4750 7750
-F 0 "R?" H 4820 7796 50  0000 L CNN
-F 1 "21.5k" H 4820 7705 50  0000 L CNN
+F 0 "R5" H 4820 7796 50  0000 L CNN
+F 1 "10k" H 4820 7705 50  0000 L CNN
 F 2 "" V 4680 7750 50  0001 C CNN
 F 3 "" H 4750 7750 50  0001 C CNN
 	1    4750 7750
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R30
 U 1 1 5BD39A14
 P 5050 7750
-F 0 "R?" H 5120 7796 50  0000 L CNN
-F 1 "78.7k" H 5120 7705 50  0000 L CNN
+F 0 "R30" H 5120 7796 50  0000 L CNN
+F 1 "36.5k" H 5120 7705 50  0000 L CNN
 F 2 "" V 4980 7750 50  0001 C CNN
 F 3 "" H 5050 7750 50  0001 C CNN
 	1    5050 7750
@@ -2275,27 +2259,27 @@ F 3 "" H 5050 7750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 7600 5050 7600
-Text GLabel 5050 7900 2    50   UnSpc ~ 0
+Text GLabel 5150 7900 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	4100 7900 4750 7900
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R6
 U 1 1 5BD5E193
 P 4750 8450
-F 0 "R?" H 4820 8496 50  0000 L CNN
-F 1 "21.5k" H 4820 8405 50  0000 L CNN
+F 0 "R6" H 4820 8496 50  0000 L CNN
+F 1 "10k" H 4820 8405 50  0000 L CNN
 F 2 "" V 4680 8450 50  0001 C CNN
 F 3 "" H 4750 8450 50  0001 C CNN
 	1    4750 8450
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R31
 U 1 1 5BD5E19A
 P 5050 8450
-F 0 "R?" H 5120 8496 50  0000 L CNN
-F 1 "78.7k" H 5120 8405 50  0000 L CNN
+F 0 "R31" H 5120 8496 50  0000 L CNN
+F 1 "36.5k" H 5120 8405 50  0000 L CNN
 F 2 "" V 4980 8450 50  0001 C CNN
 F 3 "" H 5050 8450 50  0001 C CNN
 	1    5050 8450
@@ -2303,27 +2287,27 @@ F 3 "" H 5050 8450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 8300 5050 8300
-Text GLabel 5050 8600 2    50   UnSpc ~ 0
+Text GLabel 5150 8600 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	4100 8600 4750 8600
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R7
 U 1 1 5BD83526
 P 4750 9150
-F 0 "R?" H 4820 9196 50  0000 L CNN
-F 1 "21.5k" H 4820 9105 50  0000 L CNN
+F 0 "R7" H 4820 9196 50  0000 L CNN
+F 1 "10k" H 4820 9105 50  0000 L CNN
 F 2 "" V 4680 9150 50  0001 C CNN
 F 3 "" H 4750 9150 50  0001 C CNN
 	1    4750 9150
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R32
 U 1 1 5BD8352D
 P 5050 9150
-F 0 "R?" H 5120 9196 50  0000 L CNN
-F 1 "78.7k" H 5120 9105 50  0000 L CNN
+F 0 "R32" H 5120 9196 50  0000 L CNN
+F 1 "36.5k" H 5120 9105 50  0000 L CNN
 F 2 "" V 4980 9150 50  0001 C CNN
 F 3 "" H 5050 9150 50  0001 C CNN
 	1    5050 9150
@@ -2331,27 +2315,27 @@ F 3 "" H 5050 9150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 9000 5050 9000
-Text GLabel 5050 9300 2    50   UnSpc ~ 0
+Text GLabel 5150 9300 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	4100 9300 4750 9300
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R8
 U 1 1 5BDA8E62
 P 4750 9900
-F 0 "R?" H 4820 9946 50  0000 L CNN
-F 1 "21.5k" H 4820 9855 50  0000 L CNN
+F 0 "R8" H 4820 9946 50  0000 L CNN
+F 1 "10k" H 4820 9855 50  0000 L CNN
 F 2 "" V 4680 9900 50  0001 C CNN
 F 3 "" H 4750 9900 50  0001 C CNN
 	1    4750 9900
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R33
 U 1 1 5BDA8E69
 P 5050 9900
-F 0 "R?" H 5120 9946 50  0000 L CNN
-F 1 "78.7k" H 5120 9855 50  0000 L CNN
+F 0 "R33" H 5120 9946 50  0000 L CNN
+F 1 "36.5k" H 5120 9855 50  0000 L CNN
 F 2 "" V 4980 9900 50  0001 C CNN
 F 3 "" H 5050 9900 50  0001 C CNN
 	1    5050 9900
@@ -2359,27 +2343,27 @@ F 3 "" H 5050 9900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 9750 5050 9750
-Text GLabel 5050 10050 2    50   UnSpc ~ 0
+Text GLabel 5150 10050 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	4100 10050 4750 10050
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R16
 U 1 1 5BDCE51F
 P 4750 10650
-F 0 "R?" H 4820 10696 50  0000 L CNN
-F 1 "21.5k" H 4820 10605 50  0000 L CNN
+F 0 "R16" H 4820 10696 50  0000 L CNN
+F 1 "10k" H 4820 10605 50  0000 L CNN
 F 2 "" V 4680 10650 50  0001 C CNN
 F 3 "" H 4750 10650 50  0001 C CNN
 	1    4750 10650
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Hardware-rescue:R R?
+L BMS_Hardware-rescue:R R34
 U 1 1 5BDCE526
 P 5050 10650
-F 0 "R?" H 5120 10696 50  0000 L CNN
-F 1 "78.7k" H 5120 10605 50  0000 L CNN
+F 0 "R34" H 5120 10696 50  0000 L CNN
+F 1 "36.5k" H 5120 10605 50  0000 L CNN
 F 2 "" V 4980 10650 50  0001 C CNN
 F 3 "" H 5050 10650 50  0001 C CNN
 	1    5050 10650
@@ -2387,7 +2371,7 @@ F 3 "" H 5050 10650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 10500 5050 10500
-Text GLabel 5050 10800 2    50   UnSpc ~ 0
+Text GLabel 5150 10800 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	4100 10800 4750 10800
@@ -2434,13 +2418,13 @@ Wire Wire Line
 Connection ~ 2800 9850
 Wire Wire Line
 	2800 10150 3000 10150
-Text GLabel 3150 5100 0    50   Input ~ 0
+Text GLabel 3150 5050 0    50   Input ~ 0
 3V3
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D12
 U 1 1 5BCDE88D
 P 3150 5250
-F 0 "D?" V 3104 5329 50  0000 L CNN
+F 0 "D12" V 3104 5329 50  0000 L CNN
 F 1 "D_Schottky" V 3195 5329 50  0000 L CNN
 F 2 "" H 3150 5250 50  0001 C CNN
 F 3 "~" H 3150 5250 50  0001 C CNN
@@ -2451,10 +2435,10 @@ Connection ~ 3150 5400
 Text GLabel 4750 5900 0    50   Input ~ 0
 3V3
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D14
 U 1 1 5BDC82AB
 P 4750 6050
-F 0 "D?" V 4704 6129 50  0000 L CNN
+F 0 "D14" V 4704 6129 50  0000 L CNN
 F 1 "D_Schottky" V 4795 6129 50  0000 L CNN
 F 2 "" H 4750 6050 50  0001 C CNN
 F 3 "~" H 4750 6050 50  0001 C CNN
@@ -2462,10 +2446,10 @@ F 3 "~" H 4750 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D15
 U 1 1 5BE0A38D
 P 4750 6750
-F 0 "D?" V 4704 6829 50  0000 L CNN
+F 0 "D15" V 4704 6829 50  0000 L CNN
 F 1 "D_Schottky" V 4795 6829 50  0000 L CNN
 F 2 "" H 4750 6750 50  0001 C CNN
 F 3 "~" H 4750 6750 50  0001 C CNN
@@ -2473,10 +2457,10 @@ F 3 "~" H 4750 6750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D16
 U 1 1 5BE0A481
 P 4750 7450
-F 0 "D?" V 4704 7529 50  0000 L CNN
+F 0 "D16" V 4704 7529 50  0000 L CNN
 F 1 "D_Schottky" V 4795 7529 50  0000 L CNN
 F 2 "" H 4750 7450 50  0001 C CNN
 F 3 "~" H 4750 7450 50  0001 C CNN
@@ -2484,10 +2468,10 @@ F 3 "~" H 4750 7450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D17
 U 1 1 5BE0A65B
 P 4750 8150
-F 0 "D?" V 4704 8229 50  0000 L CNN
+F 0 "D17" V 4704 8229 50  0000 L CNN
 F 1 "D_Schottky" V 4795 8229 50  0000 L CNN
 F 2 "" H 4750 8150 50  0001 C CNN
 F 3 "~" H 4750 8150 50  0001 C CNN
@@ -2495,10 +2479,10 @@ F 3 "~" H 4750 8150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D18
 U 1 1 5BE0A751
 P 4750 8850
-F 0 "D?" V 4704 8929 50  0000 L CNN
+F 0 "D18" V 4704 8929 50  0000 L CNN
 F 1 "D_Schottky" V 4795 8929 50  0000 L CNN
 F 2 "" H 4750 8850 50  0001 C CNN
 F 3 "~" H 4750 8850 50  0001 C CNN
@@ -2506,10 +2490,10 @@ F 3 "~" H 4750 8850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D19
 U 1 1 5BE0B244
 P 4750 9600
-F 0 "D?" V 4704 9679 50  0000 L CNN
+F 0 "D19" V 4704 9679 50  0000 L CNN
 F 1 "D_Schottky" V 4795 9679 50  0000 L CNN
 F 2 "" H 4750 9600 50  0001 C CNN
 F 3 "~" H 4750 9600 50  0001 C CNN
@@ -2517,10 +2501,10 @@ F 3 "~" H 4750 9600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D20
 U 1 1 5BE0B346
 P 4750 10350
-F 0 "D?" V 4704 10429 50  0000 L CNN
+F 0 "D20" V 4704 10429 50  0000 L CNN
 F 1 "D_Schottky" V 4795 10429 50  0000 L CNN
 F 2 "" H 4750 10350 50  0001 C CNN
 F 3 "~" H 4750 10350 50  0001 C CNN
@@ -2540,9 +2524,6 @@ Text GLabel 4750 9450 0    50   Input ~ 0
 Text GLabel 4750 10200 0    50   Input ~ 0
 3V3
 Connection ~ 4750 6200
-Wire Wire Line
-	5050 6200 5350 6200
-Connection ~ 5050 6200
 Wire Wire Line
 	3450 5400 3700 5400
 Connection ~ 3450 5400
@@ -2578,10 +2559,10 @@ Wire Wire Line
 Wire Wire Line
 	9600 3200 9300 3200
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D22
 U 1 1 5C0B6592
 P 9300 3350
-F 0 "D?" V 9346 3271 50  0000 R CNN
+F 0 "D22" V 9346 3271 50  0000 R CNN
 F 1 "D_Schottky" H 9255 3271 50  0000 R CNN
 F 2 "" H 9300 3350 50  0001 C CNN
 F 3 "~" H 9300 3350 50  0001 C CNN
@@ -2591,36 +2572,36 @@ $EndComp
 Wire Wire Line
 	9600 3200 9600 3450
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D13
 U 1 1 5C11FFF1
 P 4650 1750
-F 0 "D?" V 4696 1671 50  0000 R CNN
+F 0 "D13" V 4696 1671 50  0000 R CNN
 F 1 "D_Schottky" H 4605 1671 50  0000 R CNN
 F 2 "" H 4650 1750 50  0001 C CNN
 F 3 "~" H 4650 1750 50  0001 C CNN
 	1    4650 1750
 	1    0    0    -1  
 $EndComp
-Text GLabel 9300 3500 3    49   Input ~ 0
+Text GLabel 9300 3550 3    49   Input ~ 0
 3V3
-Text GLabel 4500 1750 0    49   Input ~ 0
+Text GLabel 4450 1750 0    49   Input ~ 0
 3V3
 Wire Wire Line
 	4050 1200 4050 2650
 Wire Wire Line
 	15150 3900 15450 3900
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D23
 U 1 1 5C286B97
 P 15450 4050
-F 0 "D?" V 15496 3971 50  0000 R CNN
+F 0 "D23" V 15496 3971 50  0000 R CNN
 F 1 "D_Schottky" H 15405 3971 50  0000 R CNN
 F 2 "" H 15450 4050 50  0001 C CNN
 F 3 "~" H 15450 4050 50  0001 C CNN
 	1    15450 4050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 15450 4200 3    49   Input ~ 0
+Text GLabel 15450 4250 3    49   Input ~ 0
 3V3
 Wire Wire Line
 	5550 3800 5650 3800
@@ -2632,16 +2613,206 @@ Connection ~ 5650 3800
 Wire Wire Line
 	5650 3800 5850 3800
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D21
 U 1 1 5C39F088
 P 5450 4000
-F 0 "D?" V 5496 3921 50  0000 R CNN
+F 0 "D21" V 5496 3921 50  0000 R CNN
 F 1 "D_Schottky" H 5405 3921 50  0000 R CNN
 F 2 "" H 5450 4000 50  0001 C CNN
 F 3 "~" H 5450 4000 50  0001 C CNN
 	1    5450 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5300 4000 0    49   Input ~ 0
+Text GLabel 5250 4000 0    49   Input ~ 0
 3V3
+Wire Wire Line
+	5300 6200 5050 6200
+Connection ~ 5050 6200
+NoConn ~ 11250 9100
+NoConn ~ 11250 9000
+NoConn ~ 11250 8900
+NoConn ~ 11250 8800
+NoConn ~ 11250 8500
+Wire Wire Line
+	12350 6050 12400 6050
+Wire Wire Line
+	12350 5950 12400 5950
+NoConn ~ 12350 6550
+NoConn ~ 12350 6650
+NoConn ~ 12350 6750
+NoConn ~ 12350 6850
+NoConn ~ 11350 6850
+NoConn ~ 11350 6450
+NoConn ~ 11350 6350
+NoConn ~ 11350 6250
+NoConn ~ 11350 6150
+NoConn ~ 11350 6050
+NoConn ~ 11350 5950
+NoConn ~ 13700 6850
+NoConn ~ 13700 6750
+NoConn ~ 13700 6650
+NoConn ~ 13700 6550
+NoConn ~ 13700 6250
+NoConn ~ 13700 6150
+NoConn ~ 13700 6050
+NoConn ~ 14700 6350
+NoConn ~ 14900 8300
+NoConn ~ 14900 8400
+NoConn ~ 14900 8500
+NoConn ~ 14900 8600
+NoConn ~ 14900 8700
+NoConn ~ 14900 8900
+NoConn ~ 14900 8800
+NoConn ~ 14900 9000
+NoConn ~ 14900 9100
+NoConn ~ 13900 9100
+NoConn ~ 13900 9000
+NoConn ~ 13900 8900
+NoConn ~ 13900 8800
+NoConn ~ 13900 8700
+NoConn ~ 13900 8600
+NoConn ~ 13900 8500
+NoConn ~ 13900 8400
+NoConn ~ 13900 8300
+NoConn ~ 13900 8200
+NoConn ~ 12250 9000
+NoConn ~ 11250 8200
+NoConn ~ 11250 8300
+NoConn ~ 11250 8400
+Wire Wire Line
+	13650 5950 13700 5950
+Wire Wire Line
+	13650 6350 13700 6350
+Wire Wire Line
+	13700 6450 13650 6450
+Wire Wire Line
+	14700 5950 14750 5950
+Wire Wire Line
+	14750 6050 14700 6050
+Wire Wire Line
+	14700 6150 14750 6150
+Wire Wire Line
+	14750 6250 14700 6250
+Wire Wire Line
+	14700 6450 14750 6450
+Wire Wire Line
+	14750 6550 14700 6550
+Wire Wire Line
+	14700 6650 14750 6650
+Wire Wire Line
+	14750 6750 14700 6750
+Wire Wire Line
+	14700 6850 14750 6850
+Wire Wire Line
+	12250 8400 12300 8400
+Wire Wire Line
+	12300 8500 12250 8500
+Wire Wire Line
+	12250 8600 12300 8600
+Wire Wire Line
+	12300 8700 12250 8700
+Wire Wire Line
+	12250 8800 12300 8800
+Wire Wire Line
+	12300 8900 12250 8900
+Wire Wire Line
+	12250 9100 12300 9100
+Wire Wire Line
+	11200 8600 11250 8600
+Wire Wire Line
+	11250 8700 11200 8700
+Wire Wire Line
+	3150 5100 3150 5050
+Wire Wire Line
+	4450 1750 4500 1750
+Wire Wire Line
+	5250 4000 5300 4000
+Wire Wire Line
+	9300 3500 9300 3550
+Wire Wire Line
+	9900 3450 9950 3450
+Wire Wire Line
+	15450 4200 15450 4250
+Wire Wire Line
+	11550 3650 11500 3650
+Wire Wire Line
+	11500 3550 11550 3550
+Wire Wire Line
+	11550 3450 11500 3450
+Wire Wire Line
+	8800 5450 8850 5450
+Wire Wire Line
+	8850 5550 8800 5550
+Wire Wire Line
+	8800 5650 8850 5650
+Wire Wire Line
+	8850 5750 8800 5750
+Wire Wire Line
+	8800 5850 8850 5850
+Wire Wire Line
+	8850 5950 8800 5950
+Wire Wire Line
+	8800 6050 8850 6050
+Wire Wire Line
+	8850 6150 8800 6150
+Wire Wire Line
+	8800 6250 8850 6250
+Wire Wire Line
+	7550 5450 7600 5450
+Wire Wire Line
+	7600 5550 7550 5550
+Wire Wire Line
+	7550 5650 7600 5650
+Wire Wire Line
+	7600 5750 7550 5750
+Wire Wire Line
+	7550 5850 7600 5850
+Wire Wire Line
+	7600 5950 7550 5950
+Wire Wire Line
+	7550 6050 7600 6050
+Wire Wire Line
+	7600 6150 7550 6150
+Wire Wire Line
+	7550 6250 7600 6250
+Wire Wire Line
+	5050 7900 5150 7900
+Wire Wire Line
+	5050 7200 5150 7200
+Wire Wire Line
+	5050 6500 5150 6500
+Wire Wire Line
+	3550 5700 3450 5700
+Wire Wire Line
+	5150 8600 5050 8600
+Wire Wire Line
+	5050 9300 5150 9300
+Wire Wire Line
+	5150 10050 5050 10050
+Wire Wire Line
+	5050 10800 5150 10800
+NoConn ~ 4000 10600
+NoConn ~ 4000 9850
+NoConn ~ 4000 9100
+NoConn ~ 4000 8400
+NoConn ~ 4000 7700
+NoConn ~ 4000 7000
+NoConn ~ 4000 6300
+NoConn ~ 4550 3350
+NoConn ~ 4550 3650
+NoConn ~ 12350 6150
+NoConn ~ 12350 6250
+NoConn ~ 12350 6350
+NoConn ~ 12350 6450
+NoConn ~ 11350 6550
+NoConn ~ 11350 6650
+NoConn ~ 11350 6750
+Text GLabel 12250 8200 2    50   Input ~ 0
+5V
+Text GLabel 12250 8300 2    50   UnSpc ~ 0
+GND
+Text Notes 12800 5250 0    50   ~ 0
+TM4C1294NCPDT
+Text GLabel 14900 8200 2    50   UnSpc ~ 0
+GND
 $EndSCHEMATC
