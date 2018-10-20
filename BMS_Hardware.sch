@@ -514,23 +514,21 @@ $EndComp
 $Comp
 L BMS_Hardware-rescue:R R18
 U 1 1 5AD54C65
-P 5600 3800
-F 0 "R18" V 5500 3800 50  0000 C CNN
-F 1 "4k" V 5600 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5530 3800 50  0001 C CNN
-F 3 "" H 5600 3800 50  0001 C CNN
-	1    5600 3800
+P 5400 3800
+F 0 "R18" V 5300 3800 50  0000 C CNN
+F 1 "4k" V 5400 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5330 3800 50  0001 C CNN
+F 3 "" H 5400 3800 50  0001 C CNN
+	1    5400 3800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5850 3800 5750 3800
 Connection ~ 5850 3800
 Wire Wire Line
 	5850 4100 5850 4150
 Connection ~ 5850 4150
 Wire Wire Line
-	5450 3800 5400 3800
-Text GLabel 5400 3800 0    60   Input ~ 0
+	5250 3800 5200 3800
+Text GLabel 5200 3800 0    60   Input ~ 0
 V_OUT
 $Comp
 L BMS_Hardware-rescue:2N7002 Q7
@@ -617,8 +615,6 @@ F 3 "" H 4200 1000 60  0001 C CNN
 	1    4200 1000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4050 1200 4050 2650
 Connection ~ 4050 2650
 Wire Wire Line
 	3850 1200 3850 1250
@@ -2581,17 +2577,15 @@ Wire Wire Line
 	8800 2650 9600 2650
 Wire Wire Line
 	9600 3200 9300 3200
-Wire Wire Line
-	9300 3200 9300 3400
 $Comp
 L Device:D_Schottky D?
 U 1 1 5C0B6592
-P 9300 3550
-F 0 "D?" V 9346 3471 50  0000 R CNN
-F 1 "D_Schottky" V 9255 3471 50  0000 R CNN
-F 2 "" H 9300 3550 50  0001 C CNN
-F 3 "~" H 9300 3550 50  0001 C CNN
-	1    9300 3550
+P 9300 3350
+F 0 "D?" V 9346 3271 50  0000 R CNN
+F 1 "D_Schottky" H 9255 3271 50  0000 R CNN
+F 2 "" H 9300 3350 50  0001 C CNN
+F 3 "~" H 9300 3350 50  0001 C CNN
+	1    9300 3350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -2599,12 +2593,55 @@ Wire Wire Line
 $Comp
 L Device:D_Schottky D?
 U 1 1 5C11FFF1
-P 4200 1750
-F 0 "D?" V 4246 1671 50  0000 R CNN
-F 1 "D_Schottky" V 4155 1671 50  0000 R CNN
-F 2 "" H 4200 1750 50  0001 C CNN
-F 3 "~" H 4200 1750 50  0001 C CNN
-	1    4200 1750
+P 4650 1750
+F 0 "D?" V 4696 1671 50  0000 R CNN
+F 1 "D_Schottky" H 4605 1671 50  0000 R CNN
+F 2 "" H 4650 1750 50  0001 C CNN
+F 3 "~" H 4650 1750 50  0001 C CNN
+	1    4650 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9300 3500 3    49   Input ~ 0
+3V3
+Text GLabel 4500 1750 0    49   Input ~ 0
+3V3
+Wire Wire Line
+	4050 1200 4050 2650
+Wire Wire Line
+	15150 3900 15450 3900
+$Comp
+L Device:D_Schottky D?
+U 1 1 5C286B97
+P 15450 4050
+F 0 "D?" V 15496 3971 50  0000 R CNN
+F 1 "D_Schottky" H 15405 3971 50  0000 R CNN
+F 2 "" H 15450 4050 50  0001 C CNN
+F 3 "~" H 15450 4050 50  0001 C CNN
+	1    15450 4050
 	0    -1   -1   0   
 $EndComp
+Text GLabel 15450 4200 3    49   Input ~ 0
+3V3
+Wire Wire Line
+	5550 3800 5650 3800
+Wire Wire Line
+	5650 4000 5600 4000
+Wire Wire Line
+	5650 3800 5650 4000
+Connection ~ 5650 3800
+Wire Wire Line
+	5650 3800 5850 3800
+$Comp
+L Device:D_Schottky D?
+U 1 1 5C39F088
+P 5450 4000
+F 0 "D?" V 5496 3921 50  0000 R CNN
+F 1 "D_Schottky" H 5405 3921 50  0000 R CNN
+F 2 "" H 5450 4000 50  0001 C CNN
+F 3 "~" H 5450 4000 50  0001 C CNN
+	1    5450 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 4000 0    49   Input ~ 0
+3V3
 $EndSCHEMATC
