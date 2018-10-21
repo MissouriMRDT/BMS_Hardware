@@ -1,4 +1,5 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
 *.000
@@ -8,14 +9,9 @@
 *~
 _autosave-*
 *.tmp
-
-# Netlist files (exported from Eeschema)
-*.net
+*-save.pro
+*-save.kicad_pcb
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
-
-# Exported BOM files
-*.xml
-*.csv
