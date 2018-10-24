@@ -895,7 +895,7 @@ Connection ~ 15250 1600
 Connection ~ 15000 1900
 Connection ~ 14750 1900
 Connection ~ 14500 1900
-Text Notes 2650 4950 0    98   ~ 20
+Text Notes 3250 5000 0    98   ~ 20
 Cell Filters
 $Comp
 L BMS_Hardware-rescue:C C1
@@ -1025,7 +1025,7 @@ Text GLabel 7600 7800 0    60   Input ~ 0
 BUZZER
 Text Notes 6850 6850 0    98   ~ 20
 Buzzer Alarm\n
-Text Notes 10900 2600 0    98   ~ 20
+Text Notes 10900 2750 0    98   ~ 20
 Communication\n
 $Comp
 L BMS_Hardware-rescue:Molex_SL_3 U17
