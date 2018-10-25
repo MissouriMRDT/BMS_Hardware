@@ -1774,7 +1774,7 @@
   )
 
   (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD71971) (tstamp 5BCCE3AA)
-    (at 61.6585 105.791)
+    (at 57.1627 110.3376)
     (path /5AD3D15A)
     (fp_text reference V1 (at 0 10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1787,7 +1787,7 @@
   )
 
   (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD71971) (tstamp 5BCCE3AF)
-    (at 232.7656 105.156)
+    (at 235.3945 109.6899)
     (path /5AD3D2F1)
     (fp_text reference V2 (at 0 10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
