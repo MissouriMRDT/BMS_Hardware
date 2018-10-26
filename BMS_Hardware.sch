@@ -269,17 +269,6 @@ GND
 Text Notes 7650 8600 0    98   ~ 20
 Fan Power/Control
 $Comp
-L BMS_Hardware-rescue:OKI U16
-U 1 1 5AD0BE28
-P 11650 1300
-F 0 "U16" H 11500 1050 60  0001 C CNN
-F 1 "OKI" H 11800 1650 60  0000 C CNN
-F 2 "MRDT_Devices:OKI_Horizontal" H 11400 1200 60  0001 C CNN
-F 3 "" H 11400 1200 60  0001 C CNN
-	1    11650 1300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L BMS_Hardware-rescue:OKI U18
 U 1 1 5AD0C9A8
 P 14100 1300
@@ -289,17 +278,6 @@ F 2 "MRDT_Devices:OKI_Horizontal" H 13850 1200 60  0001 C CNN
 F 3 "" H 13850 1200 60  0001 C CNN
 	1    14100 1300
 	0    -1   -1   0   
-$EndComp
-$Comp
-L BMS_Hardware-rescue:CP1 C17
-U 1 1 5AD0CE84
-P 11150 1750
-F 0 "C17" H 11175 1850 50  0000 L CNN
-F 1 "22u 50V" H 11175 1650 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 11150 1750 50  0001 C CNN
-F 3 "" H 11150 1750 50  0001 C CNN
-	1    11150 1750
-	1    0    0    -1  
 $EndComp
 $Comp
 L BMS_Hardware-rescue:CP1 C26
@@ -313,15 +291,9 @@ F 3 "" H 13600 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11000 1600 11150 1600
-Wire Wire Line
-	11400 1600 11400 1500
-Wire Wire Line
 	13450 1600 13600 1600
 Wire Wire Line
 	13850 1600 13850 1500
-Wire Wire Line
-	11600 1600 11600 1500
 Wire Wire Line
 	14050 1600 14050 1500
 Wire Wire Line
@@ -334,20 +306,6 @@ GND
 Text GLabel 15400 1600 2    60   Output ~ 0
 5V
 Connection ~ 13600 1600
-Wire Wire Line
-	11500 1500 11500 1900
-Wire Wire Line
-	11150 1900 11500 1900
-Connection ~ 11500 1900
-Text GLabel 11500 1950 3    60   UnSpc ~ 0
-GND
-Wire Wire Line
-	11000 1600 11000 1550
-Connection ~ 11150 1600
-Text GLabel 11000 1550 1    60   Input ~ 0
-LOGIC_PWR
-Text GLabel 12950 1600 2    60   Output ~ 0
-3V3
 Wire Wire Line
 	13450 1600 13450 1550
 Text Notes 12450 700  0    98   ~ 20
@@ -747,61 +705,6 @@ Logic Power Switch
 Wire Notes Line
 	15950 4800 500  4800
 $Comp
-L BMS_Hardware-rescue:C C18
-U 1 1 5AD90889
-P 11800 1750
-F 0 "C18" H 11810 1820 50  0000 L CNN
-F 1 "10u" H 11810 1670 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11800 1750 50  0001 C CNN
-F 3 "" H 11800 1750 50  0001 C CNN
-	1    11800 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS_Hardware-rescue:C C19
-U 1 1 5AD90D28
-P 12050 1750
-F 0 "C19" H 12060 1820 50  0000 L CNN
-F 1 "10u" H 12060 1670 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12050 1750 50  0001 C CNN
-F 3 "" H 12050 1750 50  0001 C CNN
-	1    12050 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS_Hardware-rescue:C C20
-U 1 1 5AD90DE6
-P 12300 1750
-F 0 "C20" H 12310 1820 50  0000 L CNN
-F 1 "10u" H 12310 1670 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12300 1750 50  0001 C CNN
-F 3 "" H 12300 1750 50  0001 C CNN
-	1    12300 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS_Hardware-rescue:C C23
-U 1 1 5AD90EA5
-P 12550 1750
-F 0 "C23" H 12560 1820 50  0000 L CNN
-F 1 "10u" H 12560 1670 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12550 1750 50  0001 C CNN
-F 3 "" H 12550 1750 50  0001 C CNN
-	1    12550 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS_Hardware-rescue:C C24
-U 1 1 5AD916E3
-P 12800 1750
-F 0 "C24" H 12810 1820 50  0000 L CNN
-F 1 "0.1u" H 12810 1670 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12800 1750 50  0001 C CNN
-F 3 "" H 12800 1750 50  0001 C CNN
-	1    12800 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L BMS_Hardware-rescue:C C27
 U 1 1 5AD917AE
 P 14250 1750
@@ -859,21 +762,8 @@ $EndComp
 Connection ~ 14250 1900
 Wire Wire Line
 	14050 1600 14250 1600
-Wire Wire Line
-	11600 1600 11800 1600
-Text Notes 11750 1200 0    59   ~ 12
-3V3 OKI
 Text Notes 14200 1200 0    59   ~ 12
 5V OKI
-Connection ~ 11800 1900
-Connection ~ 12050 1900
-Connection ~ 12300 1900
-Connection ~ 12550 1900
-Connection ~ 12800 1600
-Connection ~ 12550 1600
-Connection ~ 12300 1600
-Connection ~ 12050 1600
-Connection ~ 11800 1600
 Connection ~ 14250 1600
 Connection ~ 14500 1600
 Connection ~ 14750 1600
@@ -1272,12 +1162,6 @@ Wire Wire Line
 Wire Wire Line
 	13600 1600 13850 1600
 Wire Wire Line
-	11500 1900 11500 1950
-Wire Wire Line
-	11500 1900 11800 1900
-Wire Wire Line
-	11150 1600 11400 1600
-Wire Wire Line
 	1500 2650 1500 3050
 Wire Wire Line
 	1500 2650 3300 2650
@@ -1303,24 +1187,6 @@ Wire Wire Line
 	4800 1750 4800 1800
 Wire Wire Line
 	14250 1900 14500 1900
-Wire Wire Line
-	11800 1900 12050 1900
-Wire Wire Line
-	12050 1900 12300 1900
-Wire Wire Line
-	12300 1900 12550 1900
-Wire Wire Line
-	12550 1900 12800 1900
-Wire Wire Line
-	12800 1600 12950 1600
-Wire Wire Line
-	12550 1600 12800 1600
-Wire Wire Line
-	12300 1600 12550 1600
-Wire Wire Line
-	12050 1600 12300 1600
-Wire Wire Line
-	11800 1600 12050 1600
 Wire Wire Line
 	14250 1600 14500 1600
 Wire Wire Line
