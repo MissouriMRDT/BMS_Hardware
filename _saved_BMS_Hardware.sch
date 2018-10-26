@@ -377,6 +377,7 @@ $EndComp
 $Comp
 L BMS_Hardware-rescue:ACS759ECB-200B-PFF-T U1
 U 1 1 5AD433B8
+<<<<<<< HEAD
 P 8900 2250
 F 0 "U1" H 9600 2300 60  0000 C CNN
 F 1 "ACS759ECB-200B-PFF-T" H 9200 2800 60  0000 C CNN
@@ -384,6 +385,15 @@ F 2 "BMS_Hardware:PFF_Leadform_5pins" H 8900 2250 60  0001 C CNN
 F 3 "" H 8900 2250 60  0001 C CNN
 	1    8900 2250
 	-1   0    0    1   
+=======
+P 8000 3050
+F 0 "U1" H 8700 3100 60  0000 C CNN
+F 1 "ACS759ECB-200B-PFF-T" H 8300 3600 60  0000 C CNN
+F 2 "PFF_PSF_PSS_Leadforms:PFF_Leadform_5pins" H 8000 3050 60  0001 C CNN
+F 3 "" H 8000 3050 60  0001 C CNN
+	1    8000 3050
+	1    0    0    -1  
+>>>>>>> 2b670a21f41294455571b84cf263221614968c3c
 $EndComp
 Wire Wire Line
 	850  2500 850  2650
@@ -391,6 +401,7 @@ Wire Wire Line
 	1500 2500 1500 2650
 Connection ~ 1500 2650
 Wire Wire Line
+<<<<<<< HEAD
 	8750 2050 8750 1900
 Text GLabel 8750 1900 2    60   Input ~ 0
 3V3
@@ -401,6 +412,18 @@ Wire Wire Line
 Text GLabel 8600 1750 2    60   UnSpc ~ 0
 GND
 Text GLabel 8450 1600 2    60   Output ~ 0
+=======
+	8150 3250 8150 3400
+Text GLabel 8150 3400 0    60   Input ~ 0
+3V3
+Wire Wire Line
+	8300 3250 8300 3550
+Wire Wire Line
+	8450 3250 8450 3700
+Text GLabel 8300 3550 0    60   UnSpc ~ 0
+GND
+Text GLabel 8450 3700 0    60   Output ~ 0
+>>>>>>> 2b670a21f41294455571b84cf263221614968c3c
 PACK_I_MEAS
 $Comp
 L BMS_Hardware-rescue:LT1910 U6
@@ -555,11 +578,30 @@ $EndComp
 Wire Wire Line
 	6800 2150 6350 2150
 Wire Wire Line
+<<<<<<< HEAD
 	6850 2650 7300 2650
 Wire Wire Line
 	7000 2450 7000 2950
 Wire Wire Line
 	3300 3650 3400 3650
+=======
+	6350 2150 6350 2650
+Connection ~ 6350 2650
+Wire Wire Line
+	6850 2650 7300 2650
+Wire Wire Line
+	7200 2150 7300 2150
+Wire Wire Line
+	7300 2150 7300 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	7000 2450 7000 2950
+Wire Wire Line
+	3300 3650 3400 3650
+Wire Wire Line
+	6650 2950 7000 2950
+Connection ~ 7000 2950
+>>>>>>> 2b670a21f41294455571b84cf263221614968c3c
 $Comp
 L BMS_Hardware-rescue:R R22
 U 1 1 5AD5C40D
@@ -708,6 +750,11 @@ Text Notes 8700 1500 0    98   ~ 20
 Power Output
 Wire Wire Line
 	3300 3650 3300 4450
+<<<<<<< HEAD
+=======
+Wire Wire Line
+	3300 4450 7000 4450
+>>>>>>> 2b670a21f41294455571b84cf263221614968c3c
 Wire Notes Line
 	2000 600  2000 2400
 Wire Notes Line
@@ -736,7 +783,11 @@ Wire Notes Line
 	550  4050 550  1550
 Wire Notes Line
 	550  1550 1850 1550
+<<<<<<< HEAD
 Text Notes 9350 3048 2    98   ~ 20
+=======
+Text Notes 7550 2350 0    98   ~ 20
+>>>>>>> 2b670a21f41294455571b84cf263221614968c3c
 Current Measurment
 Wire Notes Line
 	2000 2400 5750 2400
@@ -1228,6 +1279,7 @@ Wire Wire Line
 Wire Notes Line
 	6300 1350 6300 4650
 Wire Notes Line
+<<<<<<< HEAD
 	9400 3150 7800 3150
 Wire Notes Line
 	7800 3150 7800 1450
@@ -1235,6 +1287,15 @@ Wire Notes Line
 	7800 1450 9400 1450
 Wire Notes Line
 	9400 1450 9400 3150
+=======
+	7500 2150 9100 2150
+Wire Notes Line
+	9100 2150 9100 3850
+Wire Notes Line
+	9100 3850 7500 3850
+Wire Notes Line
+	7500 3850 7500 2150
+>>>>>>> 2b670a21f41294455571b84cf263221614968c3c
 Wire Wire Line
 	1500 3050 1300 3050
 Wire Wire Line
@@ -1298,6 +1359,17 @@ Wire Wire Line
 Wire Wire Line
 	5850 4150 5950 4150
 Wire Wire Line
+<<<<<<< HEAD
+=======
+	6350 2650 6450 2650
+Wire Wire Line
+	7300 2650 7800 2650
+Wire Wire Line
+	7000 2950 7000 4450
+Wire Wire Line
+	4050 2650 6350 2650
+Wire Wire Line
+>>>>>>> 2b670a21f41294455571b84cf263221614968c3c
 	3250 1950 3250 2050
 Wire Wire Line
 	4800 1750 4800 1800
@@ -2530,9 +2602,18 @@ Connection ~ 4750 10500
 Wire Wire Line
 	5050 10500 5300 10500
 Connection ~ 5050 10500
+<<<<<<< HEAD
 Wire Wire Line
 	9600 2650 9700 2650
 Wire Wire Line
+=======
+Connection ~ 9600 2650
+Wire Wire Line
+	9600 2650 9700 2650
+Wire Wire Line
+	8800 2650 9600 2650
+Wire Wire Line
+>>>>>>> 2b670a21f41294455571b84cf263221614968c3c
 	9600 3200 9300 3200
 $Comp
 L Device:D_Schottky D22
@@ -2791,6 +2872,7 @@ Text Notes 12800 5250 0    50   ~ 0
 TM4C1294NCPDT
 Text GLabel 14900 8200 2    50   UnSpc ~ 0
 GND
+<<<<<<< HEAD
 Wire Wire Line
 	6350 2650 6450 2650
 Wire Wire Line
@@ -2815,4 +2897,6 @@ Connection ~ 7000 2950
 Connection ~ 6350 2650
 Connection ~ 7300 2650
 Connection ~ 9600 2650
+=======
+>>>>>>> 2b670a21f41294455571b84cf263221614968c3c
 $EndSCHEMATC

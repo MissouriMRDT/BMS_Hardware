@@ -380,7 +380,7 @@ U 1 1 5AD433B8
 P 8000 3050
 F 0 "U1" H 8700 3100 60  0000 C CNN
 F 1 "ACS759ECB-200B-PFF-T" H 8300 3600 60  0000 C CNN
-F 2 "PFF_PSF_PSS_Leadforms:PFF_Leadform_5pins" H 8000 3050 60  0001 C CNN
+F 2 "BMS_Hardware:PFF_Leadform_5pins" H 8000 3050 60  0001 C CNN
 F 3 "" H 8000 3050 60  0001 C CNN
 	1    8000 3050
 	1    0    0    -1  
@@ -895,7 +895,7 @@ Connection ~ 15250 1600
 Connection ~ 15000 1900
 Connection ~ 14750 1900
 Connection ~ 14500 1900
-Text Notes 2650 5000 0    98   ~ 20
+Text Notes 3250 5000 0    98   ~ 20
 Cell Filters
 $Comp
 L BMS_Hardware-rescue:C C1
