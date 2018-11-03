@@ -660,7 +660,7 @@ Text GLabel 4850 1750 2    60   Output ~ 0
 V_CHECK_ARRAY
 Text GLabel 9700 2650 2    60   Output ~ 0
 V_OUT
-Text Notes 7250 1500 0    98   ~ 20
+Text Notes 8550 1500 0    98   ~ 20
 Power Output
 Wire Wire Line
 	3300 3650 3300 4450
