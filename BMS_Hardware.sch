@@ -335,12 +335,12 @@ $EndComp
 $Comp
 L BMS_Hardware-rescue:ACS759ECB-200B-PFF-T U1
 U 1 1 5AD433B8
-P 8900 2250
-F 0 "U1" H 9600 2300 60  0000 C CNN
-F 1 "ACS759ECB-200B-PFF-T" H 9200 2800 60  0000 C CNN
-F 2 "BMS_Hardware:PFF_Leadform_5pins" H 8900 2250 60  0001 C CNN
-F 3 "" H 8900 2250 60  0001 C CNN
-	1    8900 2250
+P 7450 2250
+F 0 "U1" H 8150 2300 60  0000 C CNN
+F 1 "ACS759ECB-200B-PFF-T" H 7750 2800 60  0000 C CNN
+F 2 "BMS_Hardware:PFF_Leadform_5pins" H 7450 2250 60  0001 C CNN
+F 3 "" H 7450 2250 60  0001 C CNN
+	1    7450 2250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -349,16 +349,16 @@ Wire Wire Line
 	1500 2500 1500 2650
 Connection ~ 1500 2650
 Wire Wire Line
-	8750 2050 8750 1900
-Text GLabel 8750 1900 2    60   Input ~ 0
+	7300 2050 7300 1900
+Text GLabel 7300 1900 2    60   Input ~ 0
 3V3
 Wire Wire Line
-	8600 2050 8600 1750
+	7150 2050 7150 1750
 Wire Wire Line
-	8450 2050 8450 1600
-Text GLabel 8600 1750 2    60   UnSpc ~ 0
+	7000 2050 7000 1600
+Text GLabel 7150 1750 2    60   UnSpc ~ 0
 GND
-Text GLabel 8450 1600 2    60   Output ~ 0
+Text GLabel 7000 1600 2    60   Output ~ 0
 PACK_I_MEAS
 $Comp
 L BMS_Hardware-rescue:LT1910 U6
@@ -394,7 +394,6 @@ Wire Wire Line
 	3300 3500 3400 3500
 Wire Wire Line
 	3300 2650 3300 3150
-Connection ~ 3300 2650
 Wire Wire Line
 	3400 3350 3300 3350
 Connection ~ 3300 3350
@@ -489,33 +488,33 @@ Wire Wire Line
 Text GLabel 5200 3800 0    60   Input ~ 0
 V_OUT
 $Comp
-L BMS_Hardware-rescue:2N7002 Q7
+L Device:Q_NMOS_GDS Q7
 U 1 1 5AD56DEE
-P 7000 2250
-F 0 "Q7" H 7200 2325 50  0000 L CNN
-F 1 "IRLS3034-7P" H 7200 2250 50  0000 L CNN
-F 2 "MRDT_Actives:IRLS3034_TO-263-7_P" H 7200 2175 50  0001 L CIN
-F 3 "" H 7000 2250 50  0001 L CNN
-	1    7000 2250
+P 8850 2250
+F 0 "Q7" H 9050 2325 50  0000 L CNN
+F 1 "IRLS3034-7P" H 9050 2250 50  0000 L CNN
+F 2 "MRDT_Actives:IRLS3034_TO-263-7_P" H 9050 2175 50  0001 L CIN
+F 3 "" H 8850 2250 50  0001 L CNN
+	1    8850 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_Hardware-rescue:2N7002 Q6
+L Device:Q_NMOS_GDS Q6
 U 1 1 5AD56EC5
-P 6650 2750
-F 0 "Q6" H 6850 2825 50  0000 L CNN
-F 1 "IRLS3034-7P" H 6850 2750 50  0000 L CNN
-F 2 "MRDT_Actives:IRLS3034_TO-263-7_P" H 6850 2675 50  0001 L CIN
-F 3 "" H 6650 2750 50  0001 L CNN
-	1    6650 2750
+P 8500 2750
+F 0 "Q6" H 8700 2825 50  0000 L CNN
+F 1 "IRLS3034-7P" H 8700 2750 50  0000 L CNN
+F 2 "MRDT_Actives:IRLS3034_TO-263-7_P" H 8700 2675 50  0001 L CIN
+F 3 "" H 8500 2750 50  0001 L CNN
+	1    8500 2750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6800 2150 6350 2150
+	8650 2150 8350 2150
 Wire Wire Line
-	6850 2650 7300 2650
+	8700 2650 9150 2650
 Wire Wire Line
-	7000 2450 7000 2950
+	8850 2450 8850 2950
 Wire Wire Line
 	3300 3650 3400 3650
 $Comp
@@ -562,7 +561,6 @@ F 3 "" H 4200 1000 60  0001 C CNN
 	1    4200 1000
 	0    -1   -1   0   
 $EndComp
-Connection ~ 4050 2650
 Wire Wire Line
 	3850 1200 3850 1250
 Wire Wire Line
@@ -660,9 +658,9 @@ Wire Wire Line
 Connection ~ 4800 1750
 Text GLabel 4850 1750 2    60   Output ~ 0
 V_CHECK_ARRAY
-Text GLabel 9800 2650 2    60   Output ~ 0
+Text GLabel 9700 2650 2    60   Output ~ 0
 V_OUT
-Text Notes 8700 1500 0    98   ~ 20
+Text Notes 7250 1500 0    98   ~ 20
 Power Output
 Wire Wire Line
 	3300 3650 3300 4450
@@ -694,7 +692,7 @@ Wire Notes Line
 	550  4050 550  1550
 Wire Notes Line
 	550  1550 1850 1550
-Text Notes 9350 3048 2    98   ~ 20
+Text Notes 7900 3048 2    98   ~ 20
 Current Measurment
 Wire Notes Line
 	2000 2400 5750 2400
@@ -950,17 +948,16 @@ Pack Power Control
 $Comp
 L BMS_Hardware-rescue:BATT_PWR_VIA V3
 U 1 1 5ADB284E
-P 9700 2350
-F 0 "V3" H 9850 2400 60  0000 C CNN
-F 1 "BATT_PWR_VIA" H 9700 2550 60  0000 C CNN
-F 2 "MRDT_Drill_Holes:BATT_PWR_VIA" H 9700 2350 60  0001 C CNN
-F 3 "" H 9700 2350 60  0001 C CNN
-	1    9700 2350
+P 9600 2350
+F 0 "V3" H 9750 2400 60  0000 C CNN
+F 1 "BATT_PWR_VIA" H 9600 2550 60  0000 C CNN
+F 2 "MRDT_Drill_Holes:BATT_PWR_VIA" H 9600 2350 60  0001 C CNN
+F 3 "" H 9600 2350 60  0001 C CNN
+	1    9600 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 2550 9700 2650
-Connection ~ 9700 2650
+	9600 2550 9600 2650
 Wire Notes Line
 	15950 9950 15950 500 
 Text Notes 12600 5100 0    98   ~ 20
@@ -1118,13 +1115,13 @@ Wire Wire Line
 Wire Notes Line
 	6300 1350 6300 4650
 Wire Notes Line
-	9400 3150 7800 3150
+	7950 3150 6350 3150
 Wire Notes Line
-	7800 3150 7800 1450
+	6350 3150 6350 1450
 Wire Notes Line
-	7800 1450 9400 1450
+	6350 1450 7950 1450
 Wire Notes Line
-	9400 1450 9400 3150
+	7950 1450 7950 3150
 Wire Wire Line
 	1500 3050 1300 3050
 Wire Wire Line
@@ -1165,8 +1162,6 @@ Wire Wire Line
 	1500 2650 1500 3050
 Wire Wire Line
 	1500 2650 3300 2650
-Wire Wire Line
-	3300 2650 4050 2650
 Wire Wire Line
 	3300 3350 3300 3500
 Wire Wire Line
@@ -1210,7 +1205,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 1250 4850 1250
 Wire Wire Line
-	9700 2650 9800 2650
+	9600 2650 9700 2650
 Wire Wire Line
 	14450 4300 14450 4400
 Wire Wire Line
@@ -2386,8 +2381,6 @@ Wire Wire Line
 	5050 10500 5300 10500
 Connection ~ 5050 10500
 Wire Wire Line
-	9600 2650 9700 2650
-Wire Wire Line
 	9600 3200 9300 3200
 $Comp
 L Device:D_Schottky D22
@@ -2417,8 +2410,6 @@ Text GLabel 9300 3550 3    49   Input ~ 0
 3V3
 Text GLabel 4450 1750 0    49   Input ~ 0
 3V3
-Wire Wire Line
-	4050 1200 4050 2650
 Wire Wire Line
 	15150 3900 15450 3900
 $Comp
@@ -2642,29 +2633,13 @@ TM4C1294NCPDT
 Text GLabel 14900 8200 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	6350 2650 6450 2650
+	8200 2650 8300 2650
 Wire Wire Line
-	3300 4450 7000 4450
+	8500 2950 8850 2950
 Wire Wire Line
-	8100 2650 7300 2650
+	9050 2150 9150 2150
 Wire Wire Line
-	4050 2650 6350 2650
-Wire Wire Line
-	9600 2650 9100 2650
-Wire Wire Line
-	7000 2950 7000 4450
-Wire Wire Line
-	6650 2950 7000 2950
-Wire Wire Line
-	6350 2150 6350 2650
-Wire Wire Line
-	7200 2150 7300 2150
-Wire Wire Line
-	7300 2150 7300 2650
-Connection ~ 7000 2950
-Connection ~ 6350 2650
-Connection ~ 7300 2650
-Connection ~ 9600 2650
+	9150 2150 9150 2650
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U21
 U 2 1 5C05EA00
@@ -2681,4 +2656,34 @@ Wire Wire Line
 NoConn ~ 14700 6750
 NoConn ~ 14700 6850
 NoConn ~ 13700 5950
+Wire Wire Line
+	3300 4450 8500 4450
+Connection ~ 8500 2950
+Wire Wire Line
+	6650 2650 3300 2650
+Connection ~ 3300 2650
+Wire Wire Line
+	4050 1200 4050 2450
+Wire Wire Line
+	4050 2450 6100 2450
+Wire Wire Line
+	6100 2450 6100 1150
+Wire Wire Line
+	6100 1150 8350 1150
+Wire Wire Line
+	8200 2150 8200 2650
+Wire Wire Line
+	9600 2650 9150 2650
+Connection ~ 9150 2650
+Wire Wire Line
+	8200 2650 7650 2650
+Connection ~ 8200 2650
+Connection ~ 9600 2650
+Wire Wire Line
+	8500 2950 8500 4450
+Wire Wire Line
+	8350 1150 8350 2150
+Connection ~ 8350 2150
+Wire Wire Line
+	8350 2150 8200 2150
 $EndSCHEMATC
