@@ -1105,7 +1105,7 @@ U 1 1 5AD61B36
 P 1400 3300
 F 0 "C32" V 1450 3200 60  0000 C CNN
 F 1 "Anderson_2" V 1850 3550 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical" H 1450 2750 60  0001 C CNN
+F 2 "BMS_Hardware:Vertical Anderson Double" H 1450 2750 60  0001 C CNN
 F 3 "" H 1450 2750 60  0001 C CNN
 	1    1400 3300
 	0    -1   1    0   
@@ -1309,22 +1309,11 @@ F 3 "" H 11550 6900 60  0001 C CNN
 	1    11550 6900
 	1    0    0    -1  
 $EndComp
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U21
-U 2 1 5C05EA00
-P 12150 6900
-F 0 "U21" H 12050 8150 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 11950 8050 60  0000 C CNN
-F 2 "BMS_Hardware:TM4C129E_Launchpad_FULL_Top_SMD" H 12150 6900 60  0001 C CNN
-F 3 "" H 12150 6900 60  0001 C CNN
-	2    12150 6900
-	-1   0    0    -1  
-$EndComp
 Text GLabel 12400 5950 2    50   Input ~ 0
 5V
 Text GLabel 12400 6050 2    50   UnSpc ~ 0
 GND
-Text GLabel 13650 5950 0    50   Input ~ 0
+Text GLabel 12400 6350 2    50   Input ~ 0
 V_CHECK_ARRAY
 Text GLabel 13650 6350 0    50   Output ~ 0
 LOGIC_SWITCH
@@ -1342,9 +1331,9 @@ Text GLabel 14750 6150 2    50   Output ~ 0
 FAN_CTL_1
 Text GLabel 14750 6250 2    50   Output ~ 0
 FAN_CTL_2
-Text GLabel 14750 6750 2    50   Input ~ 0
+Text GLabel 12400 6150 2    50   Input ~ 0
 PACK_I_MEAS
-Text GLabel 14750 6850 2    50   Input ~ 0
+Text GLabel 12400 6250 2    50   Input ~ 0
 V_CHECK_OUT
 Text GLabel 14750 6550 2    50   Output ~ 0
 FAN_CTL_3
@@ -2522,8 +2511,6 @@ NoConn ~ 11250 8200
 NoConn ~ 11250 8300
 NoConn ~ 11250 8400
 Wire Wire Line
-	13650 5950 13700 5950
-Wire Wire Line
 	13650 6350 13700 6350
 Wire Wire Line
 	13700 6450 13650 6450
@@ -2542,9 +2529,9 @@ Wire Wire Line
 Wire Wire Line
 	14700 6650 14750 6650
 Wire Wire Line
-	14750 6750 14700 6750
+	12400 6150 12350 6150
 Wire Wire Line
-	14700 6850 14750 6850
+	12350 6250 12400 6250
 Wire Wire Line
 	12250 8400 12300 8400
 Wire Wire Line
@@ -2642,9 +2629,6 @@ NoConn ~ 4000 7000
 NoConn ~ 4000 6300
 NoConn ~ 4550 3350
 NoConn ~ 4550 3650
-NoConn ~ 12350 6150
-NoConn ~ 12350 6250
-NoConn ~ 12350 6350
 NoConn ~ 12350 6450
 NoConn ~ 11350 6550
 NoConn ~ 11350 6650
@@ -2681,4 +2665,20 @@ Connection ~ 7000 2950
 Connection ~ 6350 2650
 Connection ~ 7300 2650
 Connection ~ 9600 2650
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U21
+U 2 1 5C05EA00
+P 12150 6900
+F 0 "U21" H 12050 8150 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 11950 8050 60  0000 C CNN
+F 2 "BMS_Hardware:TM4C129E_Launchpad_FULL_Top_SMD" H 12150 6900 60  0001 C CNN
+F 3 "" H 12150 6900 60  0001 C CNN
+	2    12150 6900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 6350 12400 6350
+NoConn ~ 14700 6750
+NoConn ~ 14700 6850
+NoConn ~ 13700 5950
 $EndSCHEMATC
