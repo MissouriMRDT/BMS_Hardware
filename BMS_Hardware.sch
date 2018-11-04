@@ -805,39 +805,39 @@ F 3 "" H 8600 6700 60  0001 C CNN
 	1    8600 6300
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7600 5450 2    55   Input ~ 0
-CELL_8
-Text GLabel 7600 5550 2    55   Input ~ 0
-CELL_7
-Text GLabel 7600 5650 2    55   Input ~ 0
-CELL_6
-Text GLabel 7600 5750 2    55   Input ~ 0
-CELL_5
-Text GLabel 7600 5850 2    55   Input ~ 0
-CELL_4
-Text GLabel 7600 5950 2    55   Input ~ 0
-CELL_3
-Text GLabel 7600 6050 2    55   Input ~ 0
-CELL_2
 Text GLabel 7600 6150 2    55   Input ~ 0
+CELL_8
+Text GLabel 7600 6050 2    55   Input ~ 0
+CELL_7
+Text GLabel 7600 5950 2    55   Input ~ 0
+CELL_6
+Text GLabel 7600 5850 2    55   Input ~ 0
+CELL_5
+Text GLabel 7600 5750 2    55   Input ~ 0
+CELL_4
+Text GLabel 7600 5650 2    55   Input ~ 0
+CELL_3
+Text GLabel 7600 5550 2    55   Input ~ 0
+CELL_2
+Text GLabel 7600 5450 2    55   Input ~ 0
 CELL_1
 Text GLabel 7600 6250 2    60   UnSpc ~ 0
 GND
-Text GLabel 8850 5450 2    55   Input ~ 0
-CELL_8
-Text GLabel 8850 5550 2    55   Input ~ 0
-CELL_7
-Text GLabel 8850 5650 2    55   Input ~ 0
-CELL_6
-Text GLabel 8850 5750 2    55   Input ~ 0
-CELL_5
-Text GLabel 8850 5850 2    55   Input ~ 0
-CELL_4
-Text GLabel 8850 5950 2    55   Input ~ 0
-CELL_3
-Text GLabel 8850 6050 2    55   Input ~ 0
-CELL_2
 Text GLabel 8850 6150 2    55   Input ~ 0
+CELL_8
+Text GLabel 8850 6050 2    55   Input ~ 0
+CELL_7
+Text GLabel 8850 5950 2    55   Input ~ 0
+CELL_6
+Text GLabel 8850 5850 2    55   Input ~ 0
+CELL_5
+Text GLabel 8850 5750 2    55   Input ~ 0
+CELL_4
+Text GLabel 8850 5650 2    55   Input ~ 0
+CELL_3
+Text GLabel 8850 5550 2    55   Input ~ 0
+CELL_2
+Text GLabel 8850 5450 2    55   Input ~ 0
 CELL_1
 Text GLabel 8850 6250 2    60   UnSpc ~ 0
 GND
@@ -2721,8 +2721,6 @@ Wire Wire Line
 Connection ~ 11450 1950
 Text GLabel 11450 2000 3    60   UnSpc ~ 0
 GND
-Text GLabel 12900 1650 2    60   Output ~ 0
-5V
 Connection ~ 11100 1650
 Wire Wire Line
 	10950 1650 10950 1600
@@ -2820,4 +2818,6 @@ Wire Wire Line
 	12250 1950 12500 1950
 Wire Wire Line
 	12000 1950 12250 1950
+Text GLabel 12900 1650 2    50   Input ~ 0
+3V3
 $EndSCHEMATC
