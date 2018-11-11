@@ -1310,9 +1310,9 @@ Text GLabel 12400 6050 2    50   UnSpc ~ 0
 GND
 Text GLabel 12400 6350 2    50   Input ~ 0
 V_CHECK_ARRAY
-Text GLabel 13650 6350 0    50   Output ~ 0
+Text GLabel 14750 6550 2    50   Output ~ 0
 LOGIC_SWITCH
-Text GLabel 13650 6450 0    50   Output ~ 0
+Text GLabel 13650 6350 0    50   Output ~ 0
 FAN_CTL_4
 Text GLabel 14750 5950 2    50   UnSpc ~ 0
 GND
@@ -1330,7 +1330,7 @@ Text GLabel 12400 6150 2    50   Input ~ 0
 PACK_I_MEAS
 Text GLabel 12400 6250 2    50   Input ~ 0
 V_CHECK_OUT
-Text GLabel 14750 6550 2    50   Output ~ 0
+Text GLabel 13650 6450 0    50   Output ~ 0
 FAN_CTL_3
 Text GLabel 12300 9100 2    50   Output ~ 0
 SER_TX_IND
@@ -2261,7 +2261,7 @@ F 3 "~" H 3050 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 3050 5550
-Text GLabel 4750 5900 0    50   Input ~ 0
+Text GLabel 4750 5900 2    50   Input ~ 0
 3V3
 $Comp
 L Device:D_Schottky D14
@@ -2340,17 +2340,17 @@ F 3 "~" H 4750 10350 50  0001 C CNN
 	1    4750 10350
 	0    1    1    0   
 $EndComp
-Text GLabel 4750 6600 0    50   Input ~ 0
+Text GLabel 4750 6600 2    50   Input ~ 0
 3V3
-Text GLabel 4750 7300 0    50   Input ~ 0
+Text GLabel 4750 7300 2    50   Input ~ 0
 3V3
-Text GLabel 4750 8000 0    50   Input ~ 0
+Text GLabel 4750 8000 2    50   Input ~ 0
 3V3
-Text GLabel 4750 8700 0    50   Input ~ 0
+Text GLabel 4750 8700 2    50   Input ~ 0
 3V3
-Text GLabel 4750 9450 0    50   Input ~ 0
+Text GLabel 4750 9450 2    50   Input ~ 0
 3V3
-Text GLabel 4750 10200 0    50   Input ~ 0
+Text GLabel 4750 10200 2    50   Input ~ 0
 3V3
 Connection ~ 4750 6200
 Wire Wire Line
