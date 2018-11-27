@@ -1457,20 +1457,20 @@ F 3 "" H 3900 10150 50  0001 C CNN
 	1    3900 10150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4350 6400 2    50   Input ~ 0
-V_IN
-Text GLabel 4350 7100 2    50   Input ~ 0
-V_IN
-Text GLabel 4350 7800 2    50   Input ~ 0
-V_IN
-Text GLabel 4350 8500 2    50   Input ~ 0
-V_IN
-Text GLabel 4350 9200 2    50   Input ~ 0
-V_IN
-Text GLabel 4350 9950 2    50   Input ~ 0
-V_IN
-Text GLabel 4350 10700 2    50   Input ~ 0
-V_IN
+Text GLabel 4450 6400 1    50   Input ~ 0
+LOGIC_PWR
+Text GLabel 4450 7100 1    50   Input ~ 0
+LOGIC_PWR
+Text GLabel 4450 7800 1    50   Input ~ 0
+LOGIC_PWR
+Text GLabel 4450 8500 1    50   Input ~ 0
+LOGIC_PWR
+Text GLabel 4450 9200 1    50   Input ~ 0
+LOGIC_PWR
+Text GLabel 4450 9950 1    50   Input ~ 0
+LOGIC_PWR
+Text GLabel 4450 10700 1    50   Input ~ 0
+LOGIC_PWR
 $Comp
 L BMS_Hardware-rescue:C C2
 U 1 1 5BD0EC8A
@@ -1550,67 +1550,39 @@ F 3 "" H 4150 10550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 6400 4150 6400
-Text GLabel 4350 6100 2    50   UnSpc ~ 0
+Text GLabel 4200 6100 2    50   UnSpc ~ 0
 GND
-Text GLabel 4350 9650 2    50   UnSpc ~ 0
+Text GLabel 4200 9650 2    50   UnSpc ~ 0
 GND
-Text GLabel 4350 10400 2    50   UnSpc ~ 0
+Text GLabel 4200 10400 2    50   UnSpc ~ 0
 GND
-Text GLabel 4350 7500 2    50   UnSpc ~ 0
+Text GLabel 4200 7500 2    50   UnSpc ~ 0
 GND
-Text GLabel 4350 6800 2    50   UnSpc ~ 0
+Text GLabel 4200 6800 2    50   UnSpc ~ 0
 GND
-Text GLabel 4350 8200 2    50   UnSpc ~ 0
+Text GLabel 4200 8200 2    50   UnSpc ~ 0
 GND
-Text GLabel 4350 8900 2    50   UnSpc ~ 0
+Text GLabel 4200 8900 2    50   UnSpc ~ 0
 GND
-Wire Wire Line
-	4150 6400 4350 6400
 Connection ~ 4150 6400
 Wire Wire Line
 	4000 7100 4150 7100
-Wire Wire Line
-	4350 7100 4150 7100
 Connection ~ 4150 7100
 Wire Wire Line
 	4000 7800 4150 7800
 Connection ~ 4150 7800
 Wire Wire Line
-	4150 7800 4350 7800
-Wire Wire Line
 	4000 8500 4150 8500
 Connection ~ 4150 8500
-Wire Wire Line
-	4150 8500 4350 8500
 Wire Wire Line
 	4000 9200 4150 9200
 Connection ~ 4150 9200
 Wire Wire Line
-	4150 9200 4350 9200
-Wire Wire Line
 	4000 9950 4150 9950
 Connection ~ 4150 9950
 Wire Wire Line
-	4150 9950 4350 9950
-Wire Wire Line
 	4000 10700 4150 10700
 Connection ~ 4150 10700
-Wire Wire Line
-	4150 10700 4350 10700
-Wire Wire Line
-	4150 10400 4350 10400
-Wire Wire Line
-	4150 9650 4350 9650
-Wire Wire Line
-	4150 8900 4350 8900
-Wire Wire Line
-	4150 8200 4350 8200
-Wire Wire Line
-	4150 7500 4350 7500
-Wire Wire Line
-	4150 6800 4350 6800
-Wire Wire Line
-	4350 6100 4150 6100
 Text GLabel 3300 10900 0    50   UnSpc ~ 0
 GND
 Text GLabel 3300 10150 0    50   UnSpc ~ 0
@@ -2834,4 +2806,32 @@ Wire Wire Line
 Wire Wire Line
 	9500 7800 9600 7800
 Connection ~ 9500 7800
+Wire Wire Line
+	4150 6100 4200 6100
+Wire Wire Line
+	4150 6800 4200 6800
+Wire Wire Line
+	4200 10400 4150 10400
+Wire Wire Line
+	4200 9650 4150 9650
+Wire Wire Line
+	4200 8900 4150 8900
+Wire Wire Line
+	4200 8200 4150 8200
+Wire Wire Line
+	4200 7500 4150 7500
+Wire Wire Line
+	4150 6400 4450 6400
+Wire Wire Line
+	4150 7100 4450 7100
+Wire Wire Line
+	4150 7800 4450 7800
+Wire Wire Line
+	4150 8500 4450 8500
+Wire Wire Line
+	4150 9200 4450 9200
+Wire Wire Line
+	4150 9950 4450 9950
+Wire Wire Line
+	4150 10700 4450 10700
 $EndSCHEMATC
