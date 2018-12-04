@@ -15,4 +15,5 @@
   (lib (name BMS_Hardware)(type Legacy)(uri "C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2018-19 Rover/BMSCharger_Hardware/BMS_Hardware.lib")(options " pwr_sym_only")(descr ""))
   (lib (name BMSLogicSwitch)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/BMSCharger_Hardware/BMSLogicSwitch.lib)(options "")(descr ""))
   (lib (name LogicSwitch)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/BMSCharger_Hardware/LogicSwitch.lib)(options "")(descr ""))
+  (lib (name BMS_Logic_Switch)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/BMSCharger_Hardware/BMS_Logic_Switch.lib)(options "")(descr ""))
 )
