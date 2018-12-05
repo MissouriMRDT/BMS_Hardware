@@ -2943,11 +2943,11 @@ Wire Wire Line
 	14900 8800 14950 8800
 Wire Wire Line
 	14900 8900 14950 8900
-Text GLabel 14950 8800 2    50   Output ~ 0
-SW_ERR
-Text GLabel 14950 8700 2    50   Output ~ 0
-SW_IND
 Text GLabel 14950 8900 2    50   Output ~ 0
+SW_ERR
+Text GLabel 14950 8800 2    50   Output ~ 0
+SW_IND
+Text GLabel 14950 8700 2    50   Output ~ 0
 PACK_V_IND
 NoConn ~ 14900 9000
 $Comp
