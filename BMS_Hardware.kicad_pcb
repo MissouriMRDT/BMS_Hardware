@@ -3,9 +3,9 @@
   (general
     (thickness 1.6)
     (drawings 39)
-    (tracks 1163)
+    (tracks 1161)
     (zones 0)
-    (modules 127)
+    (modules 130)
     (nets 122)
   )
 
@@ -348,6 +348,30 @@
     (add_net V_LOG_SENSE)
     (add_net V_OUT)
     (add_net V_OUT_SENSE)
+  )
+
+  (module MRDT_Drill_Holes:4_40_Hole (layer F.Cu) (tedit 5B784972) (tstamp 5C2C6C15)
+    (at 94.234 58.801)
+    (fp_text reference REF** (at -0.00508 0.50508) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 4_40_Hole (at -0.00508 -0.49492) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end -0.00508 4.01828) (layer F.SilkS) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.9464 2.9464) (drill 2.9464) (layers *.Cu *.Mask))
+  )
+
+  (module MRDT_Drill_Holes:4_40_Hole (layer F.Cu) (tedit 5B784972) (tstamp 5C2C6C00)
+    (at 47.244 121.666)
+    (fp_text reference REF** (at -0.00508 0.50508) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 4_40_Hole (at -0.00508 -0.49492) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end -0.00508 4.01828) (layer F.SilkS) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.9464 2.9464) (drill 2.9464) (layers *.Cu *.Mask))
   )
 
   (module Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B4B45C8) (tstamp 5BFE1642)
@@ -9887,6 +9911,18 @@
       (net 121 /V_IN))
   )
 
+  (module MRDT_Drill_Holes:4_40_Hole (layer F.Cu) (tedit 5B784972) (tstamp 5C2C6BE1)
+    (at 245.364 121.666)
+    (fp_text reference REF** (at -0.00508 0.50508) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 4_40_Hole (at -0.00508 -0.49492) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end -0.00508 4.01828) (layer F.SilkS) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.9464 2.9464) (drill 2.9464) (layers *.Cu *.Mask))
+  )
+
   (dimension 5.08 (width 0.3) (layer F.SilkS)
     (gr_text "5.080 mm" (at 247.904 116.01) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -10185,9 +10221,7 @@
   (via (at 233.68 125.73) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (via (at 237.49 125.73) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (via (at 241.3 125.73) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
-  (via (at 245.11 125.73) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (via (at 248.92 125.73) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
-  (via (at 248.92 121.92) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (via (at 248.92 118.11) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (via (at 248.92 114.3) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (via (at 248.92 110.49) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
