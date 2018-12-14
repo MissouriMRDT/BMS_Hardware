@@ -876,17 +876,6 @@ F 3 "" H 14800 4000 50  0001 C CNN
 	1    14800 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L BMS_Hardware-rescue:Anderson_2 C32
-U 1 1 5AD61B36
-P 1400 3300
-F 0 "C32" V 1450 3200 60  0000 C CNN
-F 1 "Anderson_2" V 1850 3550 60  0000 C CNN
-F 2 "BMS_Hardware:Vertical Anderson Double" H 1450 2750 60  0001 C CNN
-F 3 "" H 1450 2750 60  0001 C CNN
-	1    1400 3300
-	0    -1   1    0   
-$EndComp
 Connection ~ 850  2650
 Wire Notes Line
 	2450 1400 4050 1400
@@ -2837,7 +2826,7 @@ U 1 1 5C09F164
 P 6350 800
 F 0 "U5" H 6678 540 50  0000 L CNN
 F 1 "BMS_Logic_Switch" H 6678 449 50  0000 L CNN
-F 2 "" H 6350 800 50  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Vertical" H 6350 800 50  0001 C CNN
 F 3 "" H 6350 800 50  0001 C CNN
 	1    6350 800 
 	1    0    0    -1  
@@ -3193,24 +3182,24 @@ Wire Wire Line
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
 U 1 1 5C21AAA1
-P 1900 3700
-F 0 "Conn3" H 2106 4087 60  0000 C CNN
-F 1 "AndersonPP" H 2106 3981 60  0000 C CNN
-F 2 "" H 1750 3150 60  0001 C CNN
-F 3 "" H 1750 3150 60  0001 C CNN
-	1    1900 3700
-	1    0    0    -1  
+P 1150 3600
+F 0 "Conn3" H 1356 3987 60  0000 C CNN
+F 1 "AndersonPP" H 1356 3881 60  0001 C CNN
+F 2 "BMS_Hardware:Vertical Anderson Double" H 1000 3050 60  0001 C CNN
+F 3 "" H 1000 3050 60  0001 C CNN
+	1    1150 3600
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
 U 4 1 5C21ABD4
-P 1950 4100
-F 0 "Conn3" H 2156 4487 60  0000 C CNN
-F 1 "AndersonPP" H 2156 4381 60  0000 C CNN
-F 2 "" H 1800 3550 60  0001 C CNN
-F 3 "" H 1800 3550 60  0001 C CNN
-	4    1950 4100
-	1    0    0    -1  
+P 1400 3600
+F 0 "Conn3" H 1606 3987 60  0000 C CNN
+F 1 "AndersonPP" H 1550 3450 60  0001 C CNN
+F 2 "BMS_Hardware:Vertical Anderson Double" H 1250 3050 60  0001 C CNN
+F 3 "" H 1250 3050 60  0001 C CNN
+	4    1400 3600
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3700 2650 6450 2650
