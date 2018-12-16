@@ -5560,11 +5560,11 @@
   )
 
   (module BMS_Hardware:Brian_Dahlman_Sig_20.1mmX7.5mm (layer F.Cu) (tedit 5C008BA9) (tstamp 5C0DD201)
-    (at 179.3875 71.3105 357)
-    (fp_text reference G*** (at -0.508 1.778 357) (layer F.Fab) hide
+    (at 180.086 70.8025)
+    (fp_text reference G*** (at -0.508 1.778) (layer F.Fab) hide
       (effects (font (size 0.254 0.254) (thickness 0.0635)))
     )
-    (fp_text value LOGO (at 0 -2.286 357) (layer F.Fab) hide
+    (fp_text value LOGO (at 0 -2.286) (layer F.Fab) hide
       (effects (font (size 0.254 0.254) (thickness 0.0635)))
     )
     (fp_poly (pts (xy -0.440743 0.261587) (xy -0.444375 0.264282) (xy -0.446289 0.264419) (xy -0.452037 0.267229)
