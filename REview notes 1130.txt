@@ -1,8 +1,0 @@
-schematic
-add 3 new led indicators
-red-> sw_error 
-blue-> sw_ind 
-orange -> vout
-
-make grounds downward with power ports
-layout
