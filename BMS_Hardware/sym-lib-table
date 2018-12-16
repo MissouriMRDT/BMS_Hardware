@@ -1,5 +1,7 @@
 (sym_lib_table
-  (lib (name BMS_Hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/BMS_Hardware-rescue.lib)(options "")(descr ""))
+  (lib (name BMS_Hardware-rescue)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/BMSCharger_Hardware/Libraries/Symbols/BMS_Hardware-rescue.lib)(options "")(descr ""))
+  (lib (name BMS_INA132)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/BMSCharger_Hardware/Libraries/Symbols/BMS_INA132.lib)(options "")(descr ""))
+  (lib (name BMS_Logic_Switch)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/BMSCharger_Hardware/Libraries/Symbols/BMS_Logic_Switch.lib)(options "")(descr ""))
   (lib (name MRDT_Switches)(type Legacy)(uri C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Switches.lib)(options "")(descr ""))
   (lib (name MRDT_Silkscreens)(type Legacy)(uri C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Silkscreens.lib)(options "")(descr ""))
   (lib (name MRDT_Shields)(type Legacy)(uri C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Shields.lib)(options "")(descr ""))
@@ -11,9 +13,4 @@
   (lib (name MRDT_Devices)(type Legacy)(uri C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Devices.lib)(options "")(descr ""))
   (lib (name MRDT_Connectors)(type Legacy)(uri C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Connectors.lib)(options "")(descr ""))
   (lib (name MRDT_Actives)(type Legacy)(uri C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Actives.lib)(options "")(descr ""))
-  (lib (name BMS_INA132)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/BMSCharger_Hardware/BMS_INA132.lib)(options "")(descr ""))
-  (lib (name BMS_Hardware)(type Legacy)(uri "C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2018-19 Rover/BMSCharger_Hardware/BMS_Hardware.lib")(options " pwr_sym_only")(descr ""))
-  (lib (name BMSLogicSwitch)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/BMSCharger_Hardware/BMSLogicSwitch.lib)(options "")(descr ""))
-  (lib (name LogicSwitch)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/BMSCharger_Hardware/LogicSwitch.lib)(options "")(descr ""))
-  (lib (name BMS_Logic_Switch)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/BMSCharger_Hardware/BMS_Logic_Switch.lib)(options "")(descr ""))
 )
