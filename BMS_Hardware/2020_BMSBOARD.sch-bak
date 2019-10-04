@@ -141,8 +141,6 @@ Wire Wire Line
 Wire Notes Line
 	2800 1100 2800 3200
 Wire Notes Line
-	2800 3200 4450 3200
-Wire Notes Line
 	4450 1100 2800 1100
 Text Notes 2950 3050 0    79   ~ 16
 Current Measurement
@@ -161,8 +159,6 @@ Wire Wire Line
 	6000 1150 6000 2450
 Text GLabel 5050 1500 0    50   Input ~ 0
 LOGIC_SWITCH
-Wire Wire Line
-	4050 2450 4800 2450
 $Comp
 L power:GND #PWR?
 U 1 1 5D93BD3F
@@ -331,8 +327,6 @@ Wire Notes Line
 	7700 2400 7700 450 
 Wire Notes Line
 	7700 450  4450 450 
-Wire Notes Line
-	4450 450  4450 3200
 $Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 5D97AC20
@@ -484,58 +478,6 @@ F 3 "" H 9500 3800 50  0001 C CNN
 	1    9500 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 2450 4800 2900
-Connection ~ 4800 2450
-Wire Wire Line
-	4800 2450 6000 2450
-$Comp
-L Device:C C?
-U 1 1 5D994BB4
-P 4600 3150
-F 0 "C?" H 4650 3250 50  0000 L CNN
-F 1 "10u" H 4650 3050 50  0000 L CNN
-F 2 "" H 4638 3000 50  0001 C CNN
-F 3 "~" H 4600 3150 50  0001 C CNN
-	1    4600 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 3000 4600 2900
-Wire Wire Line
-	4600 2900 4800 2900
-$Comp
-L MRDT_ICs:LT1910 U?
-U 1 1 5D996D94
-P 6000 3150
-F 0 "U?" H 6375 3837 60  0000 C CNN
-F 1 "LT1910" H 6375 3731 60  0000 C CNN
-F 2 "" H 6000 3150 60  0001 C CNN
-F 3 "" H 6000 3150 60  0001 C CNN
-	1    6000 3150
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 2900 4950 2900
-Connection ~ 4800 2900
-Wire Wire Line
-	5050 2750 4950 2750
-Wire Wire Line
-	4950 2750 4950 2900
-Connection ~ 4950 2900
-Wire Wire Line
-	4950 2900 5050 2900
-Wire Wire Line
-	4600 3300 4600 3600
-Wire Wire Line
-	4600 3600 5600 3600
-Wire Wire Line
-	5600 3600 5600 3350
-NoConn ~ 6200 2750
-NoConn ~ 6200 3050
-Wire Wire Line
-	5600 3600 5850 3600
-Connection ~ 5600 3600
 $Comp
 L power:GND #PWR?
 U 1 1 5D9A0346
@@ -549,25 +491,17 @@ F 3 "" H 5850 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 3600 5850 3650
-Wire Wire Line
-	6200 2900 6400 2900
 $Comp
 L Device:R R?
 U 1 1 5D9A3771
-P 6400 3200
-F 0 "R?" V 6500 3100 50  0000 L CNN
-F 1 "10k" V 6400 3150 50  0000 L CNN
-F 2 "" V 6330 3200 50  0001 C CNN
-F 3 "~" H 6400 3200 50  0001 C CNN
-	1    6400 3200
+P 6400 3350
+F 0 "R?" V 6500 3250 50  0000 L CNN
+F 1 "10k" V 6400 3300 50  0000 L CNN
+F 2 "" V 6330 3350 50  0001 C CNN
+F 3 "~" H 6400 3350 50  0001 C CNN
+	1    6400 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6400 2900 6400 3050
-Wire Wire Line
-	6400 3350 6400 3600
-Wire Wire Line
-	6400 3600 5850 3600
 Connection ~ 5850 3600
 $Comp
 L MRDT_Connectors:Molex_SL_02 Conn?
@@ -582,13 +516,12 @@ F 3 "" H 6750 2600 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	6600 2900 6400 2900
-Connection ~ 6400 2900
 $Comp
 L BMS_Hardware-rescue:Molex_SL_04-MRDT_Connectors Conn?
 U 1 1 5D9AC271
 P 7450 2700
-F 0 "Conn?" V 7445 2672 60  0000 R CNN
-F 1 "Molex_SL_04-MRDT_Connectors" V 7339 2672 60  0000 R CNN
+F 0 "Conn?" H 7500 2650 60  0000 R CNN
+F 1 "E_STOP+LED" V 7600 3200 60  0000 R CNN
 F 2 "" H 7450 2700 60  0001 C CNN
 F 3 "" H 7450 2700 60  0001 C CNN
 	1    7450 2700
@@ -603,6 +536,119 @@ Wire Wire Line
 Wire Wire Line
 	7400 2900 7400 3600
 Wire Wire Line
-	7400 3600 6400 3600
+	7400 3600 7300 3600
+Text GLabel 7200 3000 0    50   Output ~ 0
+PACK_GATE
+$Comp
+L Device:R R?
+U 1 1 5D9B501D
+P 7100 3200
+F 0 "R?" V 7000 3200 50  0000 C CNN
+F 1 "4k" V 7100 3200 50  0000 C CNN
+F 2 "" V 7030 3200 50  0001 C CNN
+F 3 "~" H 7100 3200 50  0001 C CNN
+	1    7100 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 3200 7250 3200
+Text GLabel 6900 3200 0    50   Input ~ 0
+V_OUT
+Wire Wire Line
+	6900 3200 6950 3200
+$Comp
+L Device:R R?
+U 1 1 5D9B9F16
+P 7300 3400
+F 0 "R?" V 7200 3350 50  0000 L CNN
+F 1 "10k" V 7300 3350 50  0000 L CNN
+F 2 "" V 7230 3400 50  0001 C CNN
+F 3 "~" H 7300 3400 50  0001 C CNN
+	1    7300 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3250 7300 3200
+Connection ~ 7300 3200
+Wire Wire Line
+	7300 3550 7300 3600
+Connection ~ 7300 3600
+Text GLabel 5100 3150 0    50   Output ~ 0
+E-Stop_Gate
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 5D996D94
+P 6100 3250
+F 0 "U?" H 6475 3937 60  0000 C CNN
+F 1 "LT1910" H 6475 3831 60  0000 C CNN
+F 2 "" H 6100 3250 60  0001 C CNN
+F 3 "" H 6100 3250 60  0001 C CNN
+	1    6100 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3450 5700 3600
+Wire Wire Line
+	4050 2450 4850 2450
+Wire Wire Line
+	4550 2750 4550 2650
+$Comp
+L Device:C C?
+U 1 1 5D994BB4
+P 4550 2900
+F 0 "C?" H 4600 3000 50  0000 L CNN
+F 1 "10u" H 4600 2800 50  0000 L CNN
+F 2 "" H 4588 2750 50  0001 C CNN
+F 3 "~" H 4550 2900 50  0001 C CNN
+	1    4550 2900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2800 3200 4450 3200
+Wire Wire Line
+	4550 3050 4550 3600
+Wire Wire Line
+	4550 2650 4850 2650
+Wire Wire Line
+	4850 2650 4850 2450
+Connection ~ 4850 2450
+Wire Wire Line
+	4850 2450 6000 2450
+Wire Wire Line
+	5150 2850 5050 2850
+Wire Wire Line
+	5050 2850 5050 2650
+Connection ~ 4850 2650
+Wire Wire Line
+	5150 3000 5050 3000
+Wire Wire Line
+	5050 3000 5050 2850
+Connection ~ 5050 2850
+Wire Wire Line
+	6400 2900 6400 3000
+Wire Wire Line
+	6300 3000 6400 3000
+Wire Wire Line
+	5850 3600 6400 3600
+NoConn ~ 6300 3150
+NoConn ~ 6300 2850
+Wire Wire Line
+	6400 3200 6400 3000
+Connection ~ 6400 3000
+Wire Wire Line
+	6400 3500 6400 3600
 Connection ~ 6400 3600
+Wire Wire Line
+	6400 3600 7300 3600
+Wire Wire Line
+	4850 2650 5050 2650
+Wire Wire Line
+	5150 3150 5100 3150
+Connection ~ 5700 3600
+Wire Wire Line
+	5700 3600 5850 3600
+Wire Wire Line
+	4550 3600 5700 3600
+Wire Notes Line
+	4450 400  4450 3200
 $EndSCHEMATC
