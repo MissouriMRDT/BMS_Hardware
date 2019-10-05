@@ -48,17 +48,6 @@ F 3 "" H 1050 1850 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 5D92AA1E
-P 1500 2400
-F 0 "Conn?" H 1550 2150 60  0000 R CNN
-F 1 "AndersonPP" H 1750 2300 60  0000 R CNN
-F 2 "" H 1350 1850 60  0001 C CNN
-F 3 "" H 1350 1850 60  0001 C CNN
-	2    1500 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5D92DD99
 P 700 1800
@@ -247,19 +236,15 @@ Wire Wire Line
 Wire Wire Line
 	1250 3550 1200 3550
 Text GLabel 3300 2200 2    50   Output ~ 0
-Node_1
+PV
 Wire Wire Line
 	3300 2200 3200 2200
 Text GLabel 950  2950 2    50   Input ~ 0
-Node_1
+PV
 Text Notes 2460 2690 2    79   ~ 16
 E-Stop
 Text Notes 2600 700  2    138  ~ 28
 Pack Power Control
-Text GLabel 1700 1800 2    39   Output ~ 0
-IP
-Text GLabel 2100 2200 0    39   Input ~ 0
-IP
 Wire Wire Line
 	2200 2200 2100 2200
 Wire Wire Line
@@ -294,8 +279,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 1600 1600 1800
 Connection ~ 1600 1800
-Wire Wire Line
-	1600 1800 1700 1800
 Wire Wire Line
 	850  1600 850  1800
 Connection ~ 850  1800
@@ -387,7 +370,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 1700 7950 1700
 Text GLabel 7950 1700 0    50   Input ~ 0
-Node_1
+PV
 Wire Wire Line
 	8500 1400 8400 1400
 Text GLabel 8500 1400 2    50   Input ~ 0
@@ -595,10 +578,8 @@ F 3 "" H 5850 1700 50  0001 C CNN
 	1    5850 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5350 1600 2    50   Input ~ 0
-Node_1
-Wire Wire Line
-	5350 1600 5350 1400
+Text GLabel 5350 1500 3    50   Input ~ 0
+PV
 Wire Wire Line
 	5850 1300 5650 1300
 Wire Wire Line
@@ -1804,6 +1785,224 @@ Wire Notes Line
 	8990 2695 8990 6520
 Wire Notes Line
 	3900 2680 3900 6530
-Text Notes 5240 6850 2    118  ~ 24
+Text Notes 5250 6750 2    118  ~ 24
 Microcontroller
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 1 1 5E8F22FE
+P 4150 8150
+F 0 "U?" H 3850 9400 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 3450 9300 60  0000 L CNN
+F 2 "" H 4150 8150 60  0001 C CNN
+F 3 "" H 4150 8150 60  0001 C CNN
+	1    4150 8150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3950 7200
+NoConn ~ 3950 7300
+NoConn ~ 3950 7400
+NoConn ~ 3950 7500
+NoConn ~ 3950 7600
+NoConn ~ 3950 7700
+NoConn ~ 3950 7800
+NoConn ~ 3950 7900
+NoConn ~ 3950 8000
+NoConn ~ 3950 8100
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 2 1 5E96159F
+P 4850 8150
+F 0 "U?" H 5000 9450 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 4700 9350 60  0000 C CNN
+F 2 "" H 4850 8150 60  0001 C CNN
+F 3 "" H 4850 8150 60  0001 C CNN
+	2    4850 8150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E968D7C
+P 5100 7200
+F 0 "#PWR?" H 5100 7050 50  0001 C CNN
+F 1 "+5V" H 5115 7373 50  0000 C CNN
+F 2 "" H 5100 7200 50  0001 C CNN
+F 3 "" H 5100 7200 50  0001 C CNN
+	1    5100 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 7200 5100 7200
+$Comp
+L power:GND #PWR?
+U 1 1 5E975735
+P 5150 7300
+F 0 "#PWR?" H 5150 7050 50  0001 C CNN
+F 1 "GND" V 5155 7172 50  0000 R CNN
+F 2 "" H 5150 7300 50  0001 C CNN
+F 3 "" H 5150 7300 50  0001 C CNN
+	1    5150 7300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 750  4500 0    39   Input ~ 0
+CELL_8
+Text GLabel 750  4700 0    39   Input ~ 0
+CELL_7
+Text GLabel 750  4900 0    39   Input ~ 0
+CELL_6
+Text GLabel 750  5100 0    39   Input ~ 0
+CELL_5
+Text GLabel 750  5300 0    39   Input ~ 0
+CELL_4
+Text GLabel 750  5500 0    39   Input ~ 0
+CELL_3
+Text GLabel 750  5700 0    39   Input ~ 0
+CELL_2
+Text GLabel 750  6350 0    39   Input ~ 0
+CELL_1
+Wire Wire Line
+	750  6350 950  6350
+$Comp
+L Device:C C?
+U 1 1 5EA0D5EF
+P 950 6550
+F 0 "C?" H 850 6450 50  0000 L CNN
+F 1 "1u" H 850 6650 50  0000 L CNN
+F 2 "" H 988 6400 50  0001 C CNN
+F 3 "~" H 950 6550 50  0001 C CNN
+	1    950  6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6350 950  6400
+Wire Wire Line
+	950  6700 950  6750
+Wire Wire Line
+	950  6750 1150 6750
+Wire Wire Line
+	1350 6750 1350 6700
+$Comp
+L power:GND #PWR?
+U 1 1 5EA25801
+P 1150 6750
+F 0 "#PWR?" H 1150 6500 50  0001 C CNN
+F 1 "GND" H 1155 6577 50  0000 C CNN
+F 2 "" H 1150 6750 50  0001 C CNN
+F 3 "" H 1150 6750 50  0001 C CNN
+	1    1150 6750
+	1    0    0    -1  
+$EndComp
+Connection ~ 1150 6750
+Wire Wire Line
+	1150 6750 1350 6750
+$Comp
+L Device:D_Zener D?
+U 1 1 5EA26AE2
+P 1350 6550
+F 0 "D?" H 1300 6650 50  0000 L CNN
+F 1 "7.5V" H 1250 6450 50  0000 L CNN
+F 2 "" H 1350 6550 50  0001 C CNN
+F 3 "~" H 1350 6550 50  0001 C CNN
+	1    1350 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  6350 1350 6350
+Wire Wire Line
+	1350 6350 1350 6400
+Connection ~ 950  6350
+$Comp
+L Device:R R?
+U 1 1 5EA34941
+P 1600 6350
+F 0 "R?" V 1700 6400 50  0000 C CNN
+F 1 "10k" V 1600 6350 50  0000 C CNN
+F 2 "" V 1530 6350 50  0001 C CNN
+F 3 "~" H 1600 6350 50  0001 C CNN
+	1    1600 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 6350 1450 6350
+Connection ~ 1350 6350
+Wire Wire Line
+	1750 6350 1850 6350
+Wire Wire Line
+	1850 6350 1850 6400
+Connection ~ 1850 6350
+$Comp
+L Device:D_Zener D?
+U 1 1 5EA66203
+P 1850 6550
+F 0 "D?" H 1800 6650 50  0000 L CNN
+F 1 "D_Zener" H 1750 6450 50  0000 L CNN
+F 2 "" H 1850 6550 50  0001 C CNN
+F 3 "~" H 1850 6550 50  0001 C CNN
+	1    1850 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA7276D
+P 1850 6750
+F 0 "#PWR?" H 1850 6500 50  0001 C CNN
+F 1 "GND" H 1855 6577 50  0000 C CNN
+F 2 "" H 1850 6750 50  0001 C CNN
+F 3 "" H 1850 6750 50  0001 C CNN
+	1    1850 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA72D43
+P 2100 6750
+F 0 "#PWR?" H 2100 6500 50  0001 C CNN
+F 1 "GND" H 2105 6577 50  0000 C CNN
+F 2 "" H 2100 6750 50  0001 C CNN
+F 3 "" H 2100 6750 50  0001 C CNN
+	1    2100 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6700 1850 6750
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 4 1 5EAA3DB1
+P 1500 2400
+F 0 "Conn?" H 1550 2250 60  0000 R CNN
+F 1 "AndersonPP" H 1750 2350 60  0000 R CNN
+F 2 "" H 1350 1850 60  0001 C CNN
+F 3 "" H 1350 1850 60  0001 C CNN
+	4    1500 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 1800 2100 2200
+Wire Wire Line
+	1600 1800 2100 1800
+Wire Wire Line
+	5350 1400 5350 1500
+Wire Wire Line
+	5050 7300 5150 7300
+$Comp
+L Device:R R?
+U 1 1 5EAEE814
+P 2100 6550
+F 0 "R?" V 2200 6550 50  0000 L CNN
+F 1 "36.5k" V 2100 6450 50  0000 L CNN
+F 2 "" V 2030 6550 50  0001 C CNN
+F 3 "~" H 2100 6550 50  0001 C CNN
+	1    2100 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6350 2100 6400
+Wire Wire Line
+	2100 6700 2100 6750
+Wire Wire Line
+	1850 6350 2100 6350
+Wire Wire Line
+	2100 6350 2300 6350
+Connection ~ 2100 6350
+Text GLabel 2300 6350 2    39   Output ~ 0
+CELL_1-GND_SENSE
 $EndSCHEMATC
