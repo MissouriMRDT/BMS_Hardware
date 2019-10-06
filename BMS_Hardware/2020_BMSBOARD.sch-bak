@@ -48,17 +48,6 @@ F 3 "" H 1050 1850 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 5D92AA1E
-P 1500 2400
-F 0 "Conn?" H 1550 2150 60  0000 R CNN
-F 1 "AndersonPP" H 1750 2300 60  0000 R CNN
-F 2 "" H 1350 1850 60  0001 C CNN
-F 3 "" H 1350 1850 60  0001 C CNN
-	2    1500 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5D92DD99
 P 700 1800
@@ -247,19 +236,15 @@ Wire Wire Line
 Wire Wire Line
 	1250 3550 1200 3550
 Text GLabel 3300 2200 2    50   Output ~ 0
-Node_1
+PV
 Wire Wire Line
 	3300 2200 3200 2200
 Text GLabel 950  2950 2    50   Input ~ 0
-Node_1
+PV
 Text Notes 2460 2690 2    79   ~ 16
 E-Stop
 Text Notes 2600 700  2    138  ~ 28
 Pack Power Control
-Text GLabel 1700 1800 2    39   Output ~ 0
-IP
-Text GLabel 2100 2200 0    39   Input ~ 0
-IP
 Wire Wire Line
 	2200 2200 2100 2200
 Wire Wire Line
@@ -294,8 +279,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 1600 1600 1800
 Connection ~ 1600 1800
-Wire Wire Line
-	1600 1800 1700 1800
 Wire Wire Line
 	850  1600 850  1800
 Connection ~ 850  1800
@@ -387,7 +370,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 1700 7950 1700
 Text GLabel 7950 1700 0    50   Input ~ 0
-Node_1
+PV
 Wire Wire Line
 	8500 1400 8400 1400
 Text GLabel 8500 1400 2    50   Input ~ 0
@@ -595,10 +578,8 @@ F 3 "" H 5850 1700 50  0001 C CNN
 	1    5850 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5350 1600 2    50   Input ~ 0
-Node_1
-Wire Wire Line
-	5350 1600 5350 1400
+Text GLabel 5350 1500 3    50   Input ~ 0
+PV
 Wire Wire Line
 	5850 1300 5650 1300
 Wire Wire Line
@@ -1804,6 +1785,342 @@ Wire Notes Line
 	8990 2695 8990 6520
 Wire Notes Line
 	3900 2680 3900 6530
-Text Notes 5240 6850 2    118  ~ 24
+Text Notes 7800 6900 2    118  ~ 24
 Microcontroller
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 1 1 5E8F22FE
+P 6700 8300
+F 0 "U?" H 6400 9600 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 6000 9500 60  0000 L CNN
+F 2 "" H 6700 8300 60  0001 C CNN
+F 3 "" H 6700 8300 60  0001 C CNN
+	1    6700 8300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6500 7350
+NoConn ~ 6500 7450
+NoConn ~ 6500 7550
+NoConn ~ 6500 7650
+NoConn ~ 6500 7750
+NoConn ~ 6500 7850
+NoConn ~ 6500 7950
+NoConn ~ 6500 8050
+NoConn ~ 6500 8150
+NoConn ~ 6500 8250
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 2 1 5E96159F
+P 7400 8300
+F 0 "U?" H 7300 9600 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 7200 9500 60  0000 C CNN
+F 2 "" H 7400 8300 60  0001 C CNN
+F 3 "" H 7400 8300 60  0001 C CNN
+	2    7400 8300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E968D7C
+P 7650 7350
+F 0 "#PWR?" H 7650 7200 50  0001 C CNN
+F 1 "+5V" H 7665 7523 50  0000 C CNN
+F 2 "" H 7650 7350 50  0001 C CNN
+F 3 "" H 7650 7350 50  0001 C CNN
+	1    7650 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 7350 7650 7350
+$Comp
+L power:GND #PWR?
+U 1 1 5E975735
+P 7700 7450
+F 0 "#PWR?" H 7700 7200 50  0001 C CNN
+F 1 "GND" V 7705 7322 50  0000 R CNN
+F 2 "" H 7700 7450 50  0001 C CNN
+F 3 "" H 7700 7450 50  0001 C CNN
+	1    7700 7450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 750  4600 0    39   Input ~ 0
+CELL_8
+Text GLabel 750  5000 0    39   Input ~ 0
+CELL_7
+Text GLabel 750  5450 0    39   Input ~ 0
+CELL_6
+Text GLabel 750  5850 0    39   Input ~ 0
+CELL_5
+Text GLabel 750  6300 0    39   Input ~ 0
+CELL_4
+Text GLabel 750  6750 0    39   Input ~ 0
+CELL_3
+Text GLabel 750  7150 0    39   Input ~ 0
+CELL_2
+Text GLabel 900  7850 0    39   Input ~ 0
+CELL_1
+Wire Wire Line
+	900  7850 1100 7850
+$Comp
+L Device:C C?
+U 1 1 5EA0D5EF
+P 1100 8050
+F 0 "C?" H 1000 7950 50  0000 L CNN
+F 1 "1u" H 1000 8150 50  0000 L CNN
+F 2 "" H 1138 7900 50  0001 C CNN
+F 3 "~" H 1100 8050 50  0001 C CNN
+	1    1100 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 7850 1100 7900
+Wire Wire Line
+	1100 8200 1100 8250
+Wire Wire Line
+	1100 8250 1300 8250
+Wire Wire Line
+	1500 8250 1500 8200
+$Comp
+L power:GND #PWR?
+U 1 1 5EA25801
+P 1300 8250
+F 0 "#PWR?" H 1300 8000 50  0001 C CNN
+F 1 "GND" H 1305 8077 50  0000 C CNN
+F 2 "" H 1300 8250 50  0001 C CNN
+F 3 "" H 1300 8250 50  0001 C CNN
+	1    1300 8250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 8250
+Wire Wire Line
+	1300 8250 1500 8250
+$Comp
+L Device:D_Zener D?
+U 1 1 5EA26AE2
+P 1500 8050
+F 0 "D?" H 1450 8150 50  0000 L CNN
+F 1 "7.5V" H 1400 7950 50  0000 L CNN
+F 2 "" H 1500 8050 50  0001 C CNN
+F 3 "~" H 1500 8050 50  0001 C CNN
+	1    1500 8050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 7850 1500 7850
+Wire Wire Line
+	1500 7850 1500 7900
+Connection ~ 1100 7850
+$Comp
+L Device:R R?
+U 1 1 5EA34941
+P 1750 7850
+F 0 "R?" V 1850 7900 50  0000 C CNN
+F 1 "10k" V 1750 7850 50  0000 C CNN
+F 2 "" V 1680 7850 50  0001 C CNN
+F 3 "~" H 1750 7850 50  0001 C CNN
+	1    1750 7850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 7850 1600 7850
+Connection ~ 1500 7850
+Wire Wire Line
+	1900 7850 2000 7850
+Wire Wire Line
+	2000 7850 2000 7900
+Connection ~ 2000 7850
+$Comp
+L Device:D_Zener D?
+U 1 1 5EA66203
+P 2000 8050
+F 0 "D?" H 1950 8150 50  0000 L CNN
+F 1 "D_Zener" H 1900 7950 50  0000 L CNN
+F 2 "" H 2000 8050 50  0001 C CNN
+F 3 "~" H 2000 8050 50  0001 C CNN
+	1    2000 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA7276D
+P 2000 8250
+F 0 "#PWR?" H 2000 8000 50  0001 C CNN
+F 1 "GND" H 2005 8077 50  0000 C CNN
+F 2 "" H 2000 8250 50  0001 C CNN
+F 3 "" H 2000 8250 50  0001 C CNN
+	1    2000 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA72D43
+P 2250 8250
+F 0 "#PWR?" H 2250 8000 50  0001 C CNN
+F 1 "GND" H 2255 8077 50  0000 C CNN
+F 2 "" H 2250 8250 50  0001 C CNN
+F 3 "" H 2250 8250 50  0001 C CNN
+	1    2250 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 8200 2000 8250
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 4 1 5EAA3DB1
+P 1500 2400
+F 0 "Conn?" H 1550 2250 60  0000 R CNN
+F 1 "AndersonPP" H 1750 2350 60  0000 R CNN
+F 2 "" H 1350 1850 60  0001 C CNN
+F 3 "" H 1350 1850 60  0001 C CNN
+	4    1500 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 1800 2100 2200
+Wire Wire Line
+	1600 1800 2100 1800
+Wire Wire Line
+	5350 1400 5350 1500
+Wire Wire Line
+	7600 7450 7700 7450
+$Comp
+L Device:R R?
+U 1 1 5EAEE814
+P 2250 8050
+F 0 "R?" V 2350 8050 50  0000 L CNN
+F 1 "36.5k" V 2250 7950 50  0000 L CNN
+F 2 "" V 2180 8050 50  0001 C CNN
+F 3 "~" H 2250 8050 50  0001 C CNN
+	1    2250 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 7850 2250 7900
+Wire Wire Line
+	2250 8200 2250 8250
+Wire Wire Line
+	2000 7850 2250 7850
+Wire Wire Line
+	2250 7850 2450 7850
+Connection ~ 2250 7850
+Text GLabel 2450 7850 2    39   Output ~ 0
+CELL_1-GND_SENSE
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 3 1 5EB413A1
+P 8900 8300
+F 0 "U?" H 8950 9600 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 8200 9500 60  0000 L CNN
+F 2 "" H 8900 8300 60  0001 C CNN
+F 3 "" H 8900 8300 60  0001 C CNN
+	3    8900 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 4 1 5EB461DE
+P 9550 8300
+F 0 "U?" H 9750 9600 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 9350 9500 60  0000 C CNN
+F 2 "" H 9550 8300 60  0001 C CNN
+F 3 "" H 9550 8300 60  0001 C CNN
+	4    9550 8300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EB4D112
+P 9800 7350
+F 0 "#PWR?" H 9800 7100 50  0001 C CNN
+F 1 "GND" V 9805 7222 50  0000 R CNN
+F 2 "" H 9800 7350 50  0001 C CNN
+F 3 "" H 9800 7350 50  0001 C CNN
+	1    9800 7350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9800 7350 9750 7350
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 5 1 5EB5C834
+P 6650 9850
+F 0 "U?" H 6500 11200 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 6000 11100 60  0000 L CNN
+F 2 "" H 6650 9850 60  0001 C CNN
+F 3 "" H 6650 9850 60  0001 C CNN
+	5    6650 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 6 1 5EB607C5
+P 7300 9850
+F 0 "U?" H 7150 11200 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 7050 11100 60  0000 C CNN
+F 2 "" H 7300 9850 60  0001 C CNN
+F 3 "" H 7300 9850 60  0001 C CNN
+	6    7300 9850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EB74DC7
+P 7550 8900
+F 0 "#PWR?" H 7550 8750 50  0001 C CNN
+F 1 "+5V" H 7565 9073 50  0000 C CNN
+F 2 "" H 7550 8900 50  0001 C CNN
+F 3 "" H 7550 8900 50  0001 C CNN
+	1    7550 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 8900 7550 8900
+$Comp
+L power:GND #PWR?
+U 1 1 5EB84C3F
+P 7550 9000
+F 0 "#PWR?" H 7550 8750 50  0001 C CNN
+F 1 "GND" V 7555 8872 50  0000 R CNN
+F 2 "" H 7550 9000 50  0001 C CNN
+F 3 "" H 7550 9000 50  0001 C CNN
+	1    7550 9000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 7 1 5EB94AA4
+P 8900 9800
+F 0 "U?" H 8700 11100 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 8200 11000 60  0000 L CNN
+F 2 "" H 8900 9800 60  0001 C CNN
+F 3 "" H 8900 9800 60  0001 C CNN
+	7    8900 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 9000 7500 9000
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 8 1 5EBD95E0
+P 9550 9800
+F 0 "U?" H 9450 11100 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 9350 11000 60  0000 C CNN
+F 2 "" H 9550 9800 60  0001 C CNN
+F 3 "" H 9550 9800 60  0001 C CNN
+	8    9550 9800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBDF8FD
+P 9800 8850
+F 0 "#PWR?" H 9800 8600 50  0001 C CNN
+F 1 "GND" V 9805 8722 50  0000 R CNN
+F 2 "" H 9800 8850 50  0001 C CNN
+F 3 "" H 9800 8850 50  0001 C CNN
+	1    9800 8850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9800 8850 9750 8850
 $EndSCHEMATC
