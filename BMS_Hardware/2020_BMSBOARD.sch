@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Drill_Holes:BATT_PWR_VIA V1
+L 2020_BMSBOARD-rescue:BATT_PWR_VIA-MRDT_Drill_Holes V1
 U 1 1 5D928091
 P 850 1400
 F 0 "V1" H 978 1420 60  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "" H 850 1400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Drill_Holes:BATT_PWR_VIA V2
+L 2020_BMSBOARD-rescue:BATT_PWR_VIA-MRDT_Drill_Holes V2
 U 1 1 5D928D3D
 P 1600 1400
 F 0 "V2" H 1728 1420 60  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 1600 1400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L 2020_BMSBOARD-rescue:AndersonPP-MRDT_Connectors Conn1
 U 1 1 5D9296C4
 P 1200 2400
 F 0 "Conn1" H 1250 2700 60  0000 R CNN
@@ -113,7 +113,7 @@ F 3 "~" H 2500 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn2
+L 2020_BMSBOARD-rescue:Molex_SL_02-MRDT_Connectors Conn2
 U 1 1 5D9A7186
 P 2850 3200
 F 0 "Conn2" V 3100 3450 60  0000 R CNN
@@ -124,7 +124,7 @@ F 3 "" H 2850 3100 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_Hardware-rescue:Molex_SL_04-MRDT_Connectors Conn3
+L 2020_BMSBOARD-rescue:Molex_SL_04-MRDT_Connectors-BMS_Hardware-rescue Conn3
 U 1 1 5D9AC271
 P 3550 3200
 F 0 "Conn3" V 3800 3550 60  0000 R CNN
@@ -178,7 +178,7 @@ Wire Wire Line
 Text GLabel 1200 3550 0    50   Output ~ 0
 E-Stop_Gate
 $Comp
-L MRDT_ICs:LT1910 U1
+L 2020_BMSBOARD-rescue:LT1910-MRDT_ICs U1
 U 1 1 5D996D94
 P 2200 3650
 F 0 "U1" H 2575 4337 60  0000 C CNN
@@ -276,7 +276,7 @@ Wire Notes Line
 Wire Notes Line
 	3700 800  450  800 
 $Comp
-L MRDT_Drill_Holes:BATT_PWR_VIA V3
+L 2020_BMSBOARD-rescue:BATT_PWR_VIA-MRDT_Drill_Holes V3
 U 1 1 5D988895
 P 9500 1100
 F 0 "V3" H 9628 1120 60  0000 L CNN
@@ -360,7 +360,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 1000 8050 1700
 $Comp
-L BMS_Hardware-cache:Device_Q_NMOS_GDS Q3
+L 2020_BMSBOARD-rescue:Device_Q_NMOS_GDS-BMS_Hardware-cache Q3
 U 1 1 5D980165
 P 8400 1600
 F 0 "Q3" V 8350 1750 50  0000 C CNN
@@ -384,7 +384,7 @@ $EndComp
 Text Notes 3730 630  0    79   ~ 16
 Logic Power Switch
 $Comp
-L BMS_Hardware-rescue:Relay_SPST-MRDT_Switches SW1
+L 2020_BMSBOARD-rescue:Relay_SPST-MRDT_Switches-BMS_Hardware-rescue SW1
 U 1 1 5D928D53
 P 5000 1300
 F 0 "SW1" H 5578 1438 50  0000 L CNN
@@ -439,7 +439,7 @@ Connection ~ 4450 1750
 Wire Wire Line
 	4450 1750 4700 1750
 $Comp
-L BMS_Hardware-cache:2N7002 Q1
+L 2020_BMSBOARD-rescue:2N7002-BMS_Hardware-cache Q1
 U 1 1 5D9309B8
 P 4900 1800
 F 0 "Q1" H 5106 1846 50  0000 L CNN
@@ -756,7 +756,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 3780 6750 3780
 $Comp
-L MRDT_Devices:OKI U12
+L 2020_BMSBOARD-rescue:OKI-MRDT_Devices U12
 U 1 1 5DA97369
 P 7050 3880
 F 0 "U12" H 7100 3830 60  0001 C CNN
@@ -947,7 +947,7 @@ Temperature Sensor
 Text Notes 13690 2850 2    79   ~ 16
 Voltage Monitoring
 $Comp
-L MRDT_Devices:Buzzer B1
+L 2020_BMSBOARD-rescue:Buzzer-MRDT_Devices B1
 U 1 1 5E2F5F41
 P 9300 3510
 F 0 "B1" H 9350 3460 60  0000 C CNN
@@ -971,7 +971,7 @@ F 3 "" H 9600 3310 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Hardware-cache:2N7002 Q4
+L 2020_BMSBOARD-rescue:2N7002-BMS_Hardware-cache Q4
 U 1 1 5E2FEEF8
 P 9900 3510
 F 0 "Q4" H 10150 3560 50  0000 C CNN
@@ -1020,7 +1020,7 @@ F 3 "" H 10250 3760 50  0001 C CNN
 $EndComp
 Connection ~ 10250 3760
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn9
+L 2020_BMSBOARD-rescue:Molex_SL_03-MRDT_Connectors Conn9
 U 1 1 5E338BAA
 P 11440 3600
 F 0 "Conn9" H 11540 4100 60  0000 C CNN
@@ -1065,7 +1065,7 @@ Wire Notes Line
 Wire Notes Line
 	9040 2870 14890 2870
 $Comp
-L BMS_Hardware-rescue:Molex_SL_09-MRDT_Connectors Conn11
+L 2020_BMSBOARD-rescue:Molex_SL_09-MRDT_Connectors-BMS_Hardware-rescue Conn11
 U 1 1 5E1D4E30
 P 14130 3880
 F 0 "Conn11" V 14180 4630 60  0000 C CNN
@@ -1123,7 +1123,7 @@ Wire Wire Line
 Wire Notes Line
 	9060 4110 14890 4110
 $Comp
-L BMS_Hardware-rescue:Molex_SL_09-MRDT_Connectors Conn10
+L 2020_BMSBOARD-rescue:Molex_SL_09-MRDT_Connectors-BMS_Hardware-rescue Conn10
 U 1 1 5E1D38F6
 P 12940 3880
 F 0 "Conn10" V 12990 4630 60  0000 C CNN
@@ -1183,7 +1183,7 @@ Fan Power/Control
 Wire Notes Line
 	9040 4260 12410 4260
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn5
+L 2020_BMSBOARD-rescue:Molex_SL_02-MRDT_Connectors Conn5
 U 1 1 5E62A932
 P 9340 4720
 F 0 "Conn5" V 9590 4870 60  0000 C CNN
@@ -1207,7 +1207,7 @@ $EndComp
 Wire Wire Line
 	9540 4570 9640 4570
 $Comp
-L BMS_Hardware-cache:2N7002 Q5
+L 2020_BMSBOARD-rescue:2N7002-BMS_Hardware-cache Q5
 U 1 1 5E634A27
 P 9940 4770
 F 0 "Q5" V 10190 4870 50  0000 C CNN
@@ -1260,7 +1260,7 @@ F 3 "" H 10540 4670 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn7
+L 2020_BMSBOARD-rescue:Molex_SL_02-MRDT_Connectors Conn7
 U 1 1 5E66B9F8
 P 10990 4720
 F 0 "Conn7" V 11240 4870 60  0000 C CNN
@@ -1284,7 +1284,7 @@ $EndComp
 Wire Wire Line
 	11190 4570 11290 4570
 $Comp
-L BMS_Hardware-cache:2N7002 Q7
+L 2020_BMSBOARD-rescue:2N7002-BMS_Hardware-cache Q7
 U 1 1 5E66BA05
 P 11590 4770
 F 0 "Q7" V 11840 4870 50  0000 C CNN
@@ -1337,7 +1337,7 @@ F 3 "" H 12190 4670 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn6
+L 2020_BMSBOARD-rescue:Molex_SL_02-MRDT_Connectors Conn6
 U 1 1 5E683A7C
 P 9340 5720
 F 0 "Conn6" V 9590 5870 60  0000 C CNN
@@ -1361,7 +1361,7 @@ $EndComp
 Wire Wire Line
 	9540 5570 9640 5570
 $Comp
-L BMS_Hardware-cache:2N7002 Q6
+L 2020_BMSBOARD-rescue:2N7002-BMS_Hardware-cache Q6
 U 1 1 5E683A89
 P 9940 5770
 F 0 "Q6" V 10190 5870 50  0000 C CNN
@@ -1414,7 +1414,7 @@ F 3 "" H 10540 5670 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn8
+L 2020_BMSBOARD-rescue:Molex_SL_02-MRDT_Connectors Conn8
 U 1 1 5E690119
 P 10990 5720
 F 0 "Conn8" V 11240 5870 60  0000 C CNN
@@ -1438,7 +1438,7 @@ $EndComp
 Wire Wire Line
 	11190 5570 11290 5570
 $Comp
-L BMS_Hardware-cache:2N7002 Q8
+L 2020_BMSBOARD-rescue:2N7002-BMS_Hardware-cache Q8
 U 1 1 5E690126
 P 11590 5770
 F 0 "Q8" V 11840 5870 50  0000 C CNN
@@ -1509,7 +1509,7 @@ Wire Notes Line
 Wire Notes Line
 	9040 2695 9040 6520
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U11
+L 2020_BMSBOARD-rescue:TM4C129E_Launchpad-MRDT_Shields U11
 U 1 1 5E8F22FE
 P 4700 8350
 F 0 "U11" H 4400 9650 60  0000 L CNN
@@ -1530,7 +1530,7 @@ NoConn ~ 4500 8100
 NoConn ~ 4500 8200
 NoConn ~ 4500 8300
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U11
+L 2020_BMSBOARD-rescue:TM4C129E_Launchpad-MRDT_Shields U11
 U 2 1 5E96159F
 P 5400 8350
 F 0 "U11" H 5300 9650 60  0000 C CNN
@@ -1594,7 +1594,7 @@ $EndComp
 Wire Wire Line
 	2100 15400 2100 15450
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L 2020_BMSBOARD-rescue:AndersonPP-MRDT_Connectors Conn1
 U 4 1 5EAA3DB1
 P 1500 2400
 F 0 "Conn1" H 1550 2250 60  0000 R CNN
@@ -1609,7 +1609,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 7500 5700 7500
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U11
+L 2020_BMSBOARD-rescue:TM4C129E_Launchpad-MRDT_Shields U11
 U 3 1 5EB413A1
 P 7300 8400
 F 0 "U11" H 7350 9700 60  0000 L CNN
@@ -1620,7 +1620,7 @@ F 3 "" H 7300 8400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U11
+L 2020_BMSBOARD-rescue:TM4C129E_Launchpad-MRDT_Shields U11
 U 4 1 5EB461DE
 P 7950 8400
 F 0 "U11" H 8150 9700 60  0000 C CNN
@@ -1644,7 +1644,7 @@ $EndComp
 Wire Wire Line
 	8200 7450 8150 7450
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U11
+L 2020_BMSBOARD-rescue:TM4C129E_Launchpad-MRDT_Shields U11
 U 5 1 5EB5C834
 P 4700 9850
 F 0 "U11" H 4550 11200 60  0000 L CNN
@@ -1655,7 +1655,7 @@ F 3 "" H 4700 9850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U11
+L 2020_BMSBOARD-rescue:TM4C129E_Launchpad-MRDT_Shields U11
 U 6 1 5EB607C5
 P 5350 9850
 F 0 "U11" H 5200 11200 60  0000 C CNN
@@ -1690,7 +1690,7 @@ F 3 "" H 5600 9000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U11
+L 2020_BMSBOARD-rescue:TM4C129E_Launchpad-MRDT_Shields U11
 U 7 1 5EB94AA4
 P 7300 9850
 F 0 "U11" H 7100 11150 60  0000 L CNN
@@ -1703,7 +1703,7 @@ $EndComp
 Wire Wire Line
 	5600 9000 5550 9000
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U11
+L 2020_BMSBOARD-rescue:TM4C129E_Launchpad-MRDT_Shields U11
 U 8 1 5EBD95E0
 P 7950 9850
 F 0 "U11" H 7850 11150 60  0000 C CNN
@@ -1737,7 +1737,7 @@ Wire Notes Line
 Wire Notes Line
 	7010 6530 3900 6530
 $Comp
-L BMS_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn4
+L 2020_BMSBOARD-rescue:Molex_SL_03-MRDT_Connectors-BMS_Hardware-rescue Conn4
 U 1 1 5DAE28B0
 P 7570 5410
 F 0 "Conn4" V 7620 5560 60  0000 C CNN
@@ -3809,7 +3809,7 @@ F 3 "" H 4790 4130 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Devices:OKI U10
+L 2020_BMSBOARD-rescue:OKI-MRDT_Devices U10
 U 1 1 5DA4663D
 P 4590 3840
 F 0 "U10" H 4640 3790 60  0001 C CNN
@@ -3842,7 +3842,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 2200 3200 2200
 $Comp
-L MRDT_Sensors:ACS759ECB-200B-PFF-T U9
+L 2020_BMSBOARD-rescue:ACS759ECB-200B-PFF-T-MRDT_Sensors U9
 U 1 1 5D93BB0E
 P 3000 1800
 F 0 "U9" H 3700 1850 60  0000 C CNN
