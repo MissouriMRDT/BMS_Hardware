@@ -3723,6 +3723,6 @@ F 3 "~" H 9500 1550 50  0001 C CNN
 	1    9500 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 6450 1340 2    50   Output ~ 0
+Text GLabel 6450 1300 2    50   Output ~ 0
 LOGIC_PWR
 $EndSCHEMATC

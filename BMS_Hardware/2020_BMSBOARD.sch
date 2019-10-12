@@ -3725,4 +3725,16 @@ F 3 "~" H 9500 1550 50  0001 C CNN
 $EndComp
 Text GLabel 6450 1300 2    50   Output ~ 0
 LOGIC_PWR
+Text GLabel 2100 10410 2    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	2100 10410 2100 10520
+Text GLabel 2100 11760 2    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	2100 11760 2100 11870
+Text GLabel 2100 13110 2    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	2100 13110 2100 13220
 $EndSCHEMATC
