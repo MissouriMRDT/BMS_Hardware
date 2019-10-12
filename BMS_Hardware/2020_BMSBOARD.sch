@@ -413,7 +413,7 @@ U 1 1 5D93D25C
 P 6000 1300
 F 0 "F1" V 5775 1300 50  0000 C CNN
 F 1 "Polyfuse" V 5866 1300 50  0000 C CNN
-F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6050 1100 50  0001 L CNN
+F 2 "Fuse:Fuse_2920_7451Metric" H 6050 1100 50  0001 L CNN
 F 3 "~" H 6000 1300 50  0001 C CNN
 	1    6000 1300
 	0    1    1    0   
@@ -473,8 +473,6 @@ Wire Wire Line
 Connection ~ 5000 2100
 Wire Wire Line
 	5000 2100 5000 2150
-Text GLabel 6450 1300 2    50   Output ~ 0
-LOGIC_PWR
 $Comp
 L Device:R R46
 U 1 1 5D9669F9
@@ -569,17 +567,6 @@ Connection ~ 8050 1700
 Connection ~ 9150 1300
 Wire Wire Line
 	9150 1300 9150 1700
-$Comp
-L Device:R R49
-U 1 1 5D98AA88
-P 9500 1550
-F 0 "R49" V 9600 1500 50  0000 L CNN
-F 1 "100k" V 5250 -1350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9430 1550 50  0001 C CNN
-F 3 "~" H 9500 1550 50  0001 C CNN
-	1    9500 1550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 1800 9200 1800
 $Comp
@@ -755,33 +742,9 @@ Wire Wire Line
 	6550 3680 6550 3780
 Wire Wire Line
 	6550 3780 6750 3780
-$Comp
-L 2020_BMSBOARD-rescue:OKI-MRDT_Devices U12
-U 1 1 5DA97369
-P 7050 3880
-F 0 "U12" H 7100 3830 60  0001 C CNN
-F 1 "OKI" H 7150 4230 60  0000 C CNN
-F 2 "MRDT_Devices:OKI_Horizontal" H 6850 3780 60  0001 C CNN
-F 3 "" H 6850 3780 60  0001 C CNN
-	1    7050 3880
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 3780 6750 3780
 Connection ~ 6750 3780
-Wire Wire Line
-	6750 4080 7250 4080
-$Comp
-L power:GND #PWR059
-U 1 1 5DA97372
-P 7250 4130
-F 0 "#PWR059" H 7250 3880 50  0001 C CNN
-F 1 "GND" H 7255 3957 50  0000 C CNN
-F 2 "" H 7250 4130 50  0001 C CNN
-F 3 "" H 7250 4130 50  0001 C CNN
-	1    7250 4130
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C17
 U 1 1 5DA97378
@@ -862,12 +825,6 @@ Connection ~ 8100 4080
 Wire Wire Line
 	7700 4080 7900 4080
 Connection ~ 7900 4080
-Wire Wire Line
-	7250 4080 7700 4080
-Connection ~ 7700 4080
-Wire Wire Line
-	7250 4130 7250 4080
-Connection ~ 7250 4080
 Wire Wire Line
 	8650 3780 8500 3780
 Connection ~ 8500 3780
@@ -1764,8 +1721,6 @@ Wire Wire Line
 	3050 5770 3100 5770
 Wire Wire Line
 	3050 5470 3050 5770
-Wire Wire Line
-	3000 5470 3050 5470
 $Comp
 L Device:D_Zener D14
 U 1 1 5F4F1F72
@@ -1776,17 +1731,6 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3250 5470 50  0001 C CNN
 F 3 "~" H 3250 5470 50  0001 C CNN
 	1    3250 5470
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R36
-U 1 1 5F4F1F6C
-P 2850 5470
-F 0 "R36" V 2750 5470 50  0000 C CNN
-F 1 "10k" V 2850 5470 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2780 5470 50  0001 C CNN
-F 3 "~" H 2850 5470 50  0001 C CNN
-	1    2850 5470
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1750 5570 1900 5570
@@ -1816,17 +1760,6 @@ F 3 "" H 2100 5820 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 5770 2100 5820
-$Comp
-L power:+5V #PWR018
-U 1 1 5F4F1F50
-P 2100 5170
-F 0 "#PWR018" H 2100 5020 50  0001 C CNN
-F 1 "+5V" H 2100 5320 50  0000 C CNN
-F 2 "" H 2100 5170 50  0001 C CNN
-F 3 "" H 2100 5170 50  0001 C CNN
-	1    2100 5170
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R2
 U 1 1 5F4F1F4A
@@ -1961,9 +1894,6 @@ Wire Wire Line
 	1750 4920 2550 4920
 Wire Wire Line
 	2550 4920 2550 5470
-Connection ~ 2550 5470
-Wire Wire Line
-	2550 5470 2700 5470
 Text GLabel 3100 5770 2    39   Output ~ 8
 CELL8_SENSE
 Wire Wire Line
@@ -2058,8 +1988,6 @@ Wire Wire Line
 	2980 13820 2980 13520
 Wire Wire Line
 	3050 13820 2980 13820
-Wire Wire Line
-	2950 13520 2980 13520
 Text GLabel 1000 14650 0    39   Input ~ 0
 CELL_1
 Wire Wire Line
@@ -2149,15 +2077,10 @@ Wire Wire Line
 	2600 12970 1750 12970
 Wire Wire Line
 	2600 13520 2600 12970
-Wire Wire Line
-	2650 13520 2600 13520
 Connection ~ 1100 12070
 Connection ~ 1100 11420
 Wire Wire Line
 	1100 11420 1100 12070
-Wire Wire Line
-	2550 12170 2650 12170
-Connection ~ 2550 12170
 Wire Wire Line
 	2550 11620 2550 12170
 Wire Wire Line
@@ -2168,18 +2091,12 @@ Wire Wire Line
 	2500 12170 2550 12170
 Wire Wire Line
 	2550 10820 2500 10820
-Connection ~ 2550 10820
 Wire Wire Line
 	2550 10270 2550 10820
 Wire Wire Line
 	1750 10270 2550 10270
 Wire Wire Line
 	1750 10320 1750 10270
-Wire Wire Line
-	2650 10820 2550 10820
-Connection ~ 2550 9470
-Wire Wire Line
-	2650 9470 2550 9470
 Wire Wire Line
 	2550 8920 2550 9470
 Wire Wire Line
@@ -2190,15 +2107,12 @@ Wire Wire Line
 	2500 9470 2550 9470
 Wire Wire Line
 	2550 8120 2500 8120
-Connection ~ 2550 8120
 Wire Wire Line
 	2550 7570 2550 8120
 Wire Wire Line
 	1750 7570 2550 7570
 Wire Wire Line
 	1750 7620 1750 7570
-Wire Wire Line
-	2700 8120 2550 8120
 Wire Wire Line
 	2550 6820 2500 6820
 Connection ~ 2550 6820
@@ -2208,8 +2122,6 @@ Wire Wire Line
 	1750 6270 2550 6270
 Wire Wire Line
 	1750 6320 1750 6270
-Wire Wire Line
-	2700 6820 2550 6820
 Wire Wire Line
 	1100 6070 1100 6720
 Connection ~ 1100 6720
@@ -2225,8 +2137,6 @@ Wire Wire Line
 	3050 6820 3050 7120
 Text GLabel 3100 7120 2    39   Output ~ 0
 CELL7_SENSE
-Wire Wire Line
-	3000 6820 3050 6820
 $Comp
 L Device:D_Zener D15
 U 1 1 5F44A8A9
@@ -2237,17 +2147,6 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3250 6820 50  0001 C CNN
 F 3 "~" H 3250 6820 50  0001 C CNN
 	1    3250 6820
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R37
-U 1 1 5F44A8A3
-P 2850 6820
-F 0 "R37" V 2750 6820 50  0000 C CNN
-F 1 "10k" V 2850 6820 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2780 6820 50  0001 C CNN
-F 3 "~" H 2850 6820 50  0001 C CNN
-	1    2850 6820
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1750 6920 1900 6920
@@ -2288,17 +2187,6 @@ F 3 "" H 2100 7170 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 7120 2100 7170
-$Comp
-L power:+5V #PWR020
-U 1 1 5F44A887
-P 2100 6520
-F 0 "#PWR020" H 2100 6370 50  0001 C CNN
-F 1 "+5V" H 2100 6670 50  0000 C CNN
-F 2 "" H 2100 6520 50  0001 C CNN
-F 3 "" H 2100 6520 50  0001 C CNN
-	1    2100 6520
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R4
 U 1 1 5F44A881
@@ -2426,8 +2314,6 @@ Wire Wire Line
 	3050 8120 3050 8420
 Text GLabel 3100 8420 2    39   Output ~ 0
 CELL6_SENSE
-Wire Wire Line
-	3000 8120 3050 8120
 $Comp
 L Device:D_Zener D16
 U 1 1 5F3EE45E
@@ -2438,17 +2324,6 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3250 8120 50  0001 C CNN
 F 3 "~" H 3250 8120 50  0001 C CNN
 	1    3250 8120
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R38
-U 1 1 5F3EE458
-P 2850 8120
-F 0 "R38" V 2750 8120 50  0000 C CNN
-F 1 "10k" V 2850 8120 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2780 8120 50  0001 C CNN
-F 3 "~" H 2850 8120 50  0001 C CNN
-	1    2850 8120
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1750 8220 1900 8220
@@ -2489,17 +2364,6 @@ F 3 "" H 2100 8470 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 8420 2100 8470
-$Comp
-L power:+5V #PWR022
-U 1 1 5F3EE43C
-P 2100 7820
-F 0 "#PWR022" H 2100 7670 50  0001 C CNN
-F 1 "+5V" H 2100 7970 50  0000 C CNN
-F 2 "" H 2100 7820 50  0001 C CNN
-F 3 "" H 2100 7820 50  0001 C CNN
-	1    2100 7820
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R6
 U 1 1 5F3EE436
@@ -2628,8 +2492,6 @@ Wire Wire Line
 	3000 9470 3000 9770
 Text GLabel 3050 9770 2    39   Output ~ 0
 CELL5_SENSE
-Wire Wire Line
-	2950 9470 3000 9470
 $Comp
 L Device:D_Zener D10
 U 1 1 5F30A663
@@ -2640,17 +2502,6 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3200 9470 50  0001 C CNN
 F 3 "~" H 3200 9470 50  0001 C CNN
 	1    3200 9470
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R32
-U 1 1 5F30A65D
-P 2800 9470
-F 0 "R32" V 2700 9470 50  0000 C CNN
-F 1 "10k" V 2800 9470 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 9470 50  0001 C CNN
-F 3 "~" H 2800 9470 50  0001 C CNN
-	1    2800 9470
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1750 9570 1900 9570
@@ -2691,17 +2542,6 @@ F 3 "" H 2100 9820 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 9770 2100 9820
-$Comp
-L power:+5V #PWR024
-U 1 1 5F30A63F
-P 2100 9170
-F 0 "#PWR024" H 2100 9020 50  0001 C CNN
-F 1 "+5V" H 2100 9320 50  0000 C CNN
-F 2 "" H 2100 9170 50  0001 C CNN
-F 3 "" H 2100 9170 50  0001 C CNN
-	1    2100 9170
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R8
 U 1 1 5F30A639
@@ -2827,8 +2667,6 @@ Wire Wire Line
 	3000 10820 3000 11120
 Text GLabel 3050 11120 2    39   Output ~ 0
 CELL4_SENSE
-Wire Wire Line
-	2950 10820 3000 10820
 $Comp
 L Device:D_Zener D11
 U 1 1 5F1F041C
@@ -2839,17 +2677,6 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3200 10820 50  0001 C CNN
 F 3 "~" H 3200 10820 50  0001 C CNN
 	1    3200 10820
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R33
-U 1 1 5F1F0416
-P 2800 10820
-F 0 "R33" V 2700 10820 50  0000 C CNN
-F 1 "10k" V 2800 10820 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 10820 50  0001 C CNN
-F 3 "~" H 2800 10820 50  0001 C CNN
-	1    2800 10820
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1750 10920 1900 10920
@@ -2890,17 +2717,6 @@ F 3 "" H 2100 11170 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 11120 2100 11170
-$Comp
-L power:+5V #PWR026
-U 1 1 5F1F03F8
-P 2100 10520
-F 0 "#PWR026" H 2100 10370 50  0001 C CNN
-F 1 "+5V" H 2100 10670 50  0000 C CNN
-F 2 "" H 2100 10520 50  0001 C CNN
-F 3 "" H 2100 10520 50  0001 C CNN
-	1    2100 10520
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R10
 U 1 1 5F1F03F2
@@ -3026,8 +2842,6 @@ Wire Wire Line
 	3000 12170 3000 12470
 Text GLabel 3050 12470 2    39   Output ~ 0
 CELL3_SENSE
-Wire Wire Line
-	2950 12170 3000 12170
 $Comp
 L Device:D_Zener D12
 U 1 1 5F19A4CE
@@ -3038,17 +2852,6 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3200 12170 50  0001 C CNN
 F 3 "~" H 3200 12170 50  0001 C CNN
 	1    3200 12170
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R34
-U 1 1 5F19A4C8
-P 2800 12170
-F 0 "R34" V 2700 12170 50  0000 C CNN
-F 1 "10k" V 2800 12170 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 12170 50  0001 C CNN
-F 3 "~" H 2800 12170 50  0001 C CNN
-	1    2800 12170
-	0    1    1    0   
 $EndComp
 Text GLabel 3050 13820 2    39   Output ~ 0
 CELL2_SENSE
@@ -3062,17 +2865,6 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3200 13520 50  0001 C CNN
 F 3 "~" H 3200 13520 50  0001 C CNN
 	1    3200 13520
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R35
-U 1 1 5F1387D7
-P 2800 13520
-F 0 "R35" V 2700 13520 50  0000 C CNN
-F 1 "10k" V 2800 13520 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 13520 50  0001 C CNN
-F 3 "~" H 2800 13520 50  0001 C CNN
-	1    2800 13520
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1750 12270 1900 12270
@@ -3113,17 +2905,6 @@ F 3 "" H 2100 12520 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 12470 2100 12520
-$Comp
-L power:+5V #PWR028
-U 1 1 5EF9AC74
-P 2100 11870
-F 0 "#PWR028" H 2100 11720 50  0001 C CNN
-F 1 "+5V" H 2100 12020 50  0000 C CNN
-F 2 "" H 2100 11870 50  0001 C CNN
-F 3 "" H 2100 11870 50  0001 C CNN
-	1    2100 11870
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R12
 U 1 1 5EF9AC7A
@@ -3356,17 +3137,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 13620 50  
 F 3 "~" H 1450 13620 50  0001 C CNN
 	1    1450 13620
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR030
-U 1 1 5ED8DD42
-P 2100 13220
-F 0 "#PWR030" H 2100 13070 50  0001 C CNN
-F 1 "+5V" H 2100 13370 50  0000 C CNN
-F 2 "" H 2100 13220 50  0001 C CNN
-F 3 "" H 2100 13220 50  0001 C CNN
-	1    2100 13220
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2100 13820 2100 13870
@@ -3877,4 +3647,82 @@ F 3 "" H 4700 8350 60  0001 C CNN
 	1    4700 8350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2600 13520 2980 13520
+Wire Wire Line
+	2550 12170 3000 12170
+Connection ~ 2550 12170
+Wire Wire Line
+	2550 10820 3000 10820
+Connection ~ 2550 10820
+Wire Wire Line
+	2550 9470 3000 9470
+Connection ~ 2550 9470
+Wire Wire Line
+	2550 8120 3050 8120
+Connection ~ 2550 8120
+Wire Wire Line
+	2550 6820 3050 6820
+Wire Wire Line
+	2550 5470 3050 5470
+Connection ~ 2550 5470
+Text GLabel 2100 5060 2    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	2100 5060 2100 5170
+Text GLabel 2100 6410 2    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	2100 6410 2100 6520
+Text GLabel 2100 7710 2    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	2100 7710 2100 7820
+Text GLabel 2100 9060 2    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	2100 9060 2100 9170
+Connection ~ 7700 4080
+$Comp
+L 2020_BMSBOARD-rescue:OKI-MRDT_Devices U12
+U 1 1 5DA97369
+P 7050 3880
+F 0 "U12" H 7100 3830 60  0001 C CNN
+F 1 "OKI" H 7150 4230 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 6850 3780 60  0001 C CNN
+F 3 "" H 6850 3780 60  0001 C CNN
+	1    7050 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4080 7250 4080
+Wire Wire Line
+	7250 4080 7700 4080
+Connection ~ 7250 4080
+Wire Wire Line
+	7250 4130 7250 4080
+$Comp
+L power:GND #PWR059
+U 1 1 5DA97372
+P 7250 4130
+F 0 "#PWR059" H 7250 3880 50  0001 C CNN
+F 1 "GND" H 7255 3957 50  0000 C CNN
+F 2 "" H 7250 4130 50  0001 C CNN
+F 3 "" H 7250 4130 50  0001 C CNN
+	1    7250 4130
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R49
+U 1 1 5D98AA88
+P 9500 1550
+F 0 "R49" V 9600 1500 50  0000 L CNN
+F 1 "100k" V 5250 -1350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9430 1550 50  0001 C CNN
+F 3 "~" H 9500 1550 50  0001 C CNN
+	1    9500 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 1300 2    50   Output ~ 0
+LOGIC_PWR
 $EndSCHEMATC
