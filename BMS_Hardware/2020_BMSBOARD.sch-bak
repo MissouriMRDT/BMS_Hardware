@@ -360,17 +360,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 1000 8050 1700
 $Comp
-L 2020_BMSBOARD-rescue:Device_Q_NMOS_GDS-BMS_Hardware-cache Q3
-U 1 1 5D980165
-P 8400 1600
-F 0 "Q3" V 8350 1750 50  0000 C CNN
-F 1 "Device_Q_NMOS_GDS" V 8650 1550 50  0000 C CNN
-F 2 "MRDT_Actives:IRLS3034_TO-263-7_P" H 8600 1700 50  0001 C CNN
-F 3 "" H 8400 1600 50  0001 C CNN
-	1    8400 1600
-	0    -1   1    0   
-$EndComp
-$Comp
 L Device:Q_NMOS_GDS Q2
 U 1 1 5D97AC20
 P 8400 1100
@@ -562,7 +551,6 @@ Text Notes 8350 650  2    79   ~ 16
 Power Output
 Wire Wire Line
 	8400 1300 8400 1400
-Connection ~ 8400 1400
 Connection ~ 8050 1700
 Connection ~ 9150 1300
 Wire Wire Line
@@ -1693,19 +1681,6 @@ F 3 "~" H 5900 5990 50  0001 C CNN
 	1    5900 5990
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR040
-U 1 1 5F4F1F78
-P 3500 5470
-F 0 "#PWR040" H 3500 5220 50  0001 C CNN
-F 1 "GND" H 3505 5297 50  0000 C CNN
-F 2 "" H 3500 5470 50  0001 C CNN
-F 3 "" H 3500 5470 50  0001 C CNN
-	1    3500 5470
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 5470 3500 5470
 Text Notes 1170 4780 2    79   ~ 16
 Cell Filters
 Wire Notes Line
@@ -1715,83 +1690,7 @@ Wire Notes Line
 Wire Wire Line
 	4700 5780 4700 5830
 Wire Wire Line
-	3050 5470 3100 5470
-Wire Wire Line
-	3050 5770 3100 5770
-$Comp
-L Device:D_Zener D14
-U 1 1 5F4F1F72
-P 3250 5470
-F 0 "D14" H 3250 5686 50  0000 C CNN
-F 1 "D_Zener" H 3250 5595 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3250 5470 50  0001 C CNN
-F 3 "~" H 3250 5470 50  0001 C CNN
-	1    3250 5470
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 5570 1900 5570
-Connection ~ 1750 5570
-Wire Wire Line
-	1750 5620 1750 5570
-Wire Wire Line
-	1600 5570 1750 5570
-Wire Wire Line
-	1100 5870 1100 6070
-Wire Wire Line
 	1250 6070 1100 6070
-Wire Wire Line
-	1250 5570 1250 6070
-Text GLabel 800  5520 0    39   Input ~ 0
-CELL_8
-$Comp
-L power:GND #PWR019
-U 1 1 5F4F1F57
-P 2100 5820
-F 0 "#PWR019" H 2100 5570 50  0001 C CNN
-F 1 "GND" H 2105 5647 50  0000 C CNN
-F 2 "" H 2100 5820 50  0001 C CNN
-F 3 "" H 2100 5820 50  0001 C CNN
-	1    2100 5820
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 5770 2100 5820
-$Comp
-L Device:R R2
-U 1 1 5F4F1F4A
-P 1450 5570
-F 0 "R2" V 1550 5570 50  0000 C CNN
-F 1 "6.65M" V 1450 5570 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 5570 50  0001 C CNN
-F 3 "~" H 1450 5570 50  0001 C CNN
-	1    1450 5570
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5F4F1F44
-P 1450 5370
-F 0 "R1" V 1350 5370 50  0000 C CNN
-F 1 "6.65M" V 1450 5370 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 5370 50  0001 C CNN
-F 3 "~" H 1450 5370 50  0001 C CNN
-	1    1450 5370
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1250 5570 1300 5570
-$Comp
-L Device:R R16
-U 1 1 5F4F1F3D
-P 1750 5770
-F 0 "R16" V 1650 5770 50  0000 C CNN
-F 1 "3.32M" V 1750 5770 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1680 5770 50  0001 C CNN
-F 3 "~" H 1750 5770 50  0001 C CNN
-	1    1750 5770
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5F4F1F37
@@ -1805,28 +1704,6 @@ F 3 "" H 1750 5970 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1750 5920 1750 5970
-Wire Wire Line
-	1600 5370 1750 5370
-$Comp
-L Device:R R15
-U 1 1 5F4F1F2F
-P 1750 5120
-F 0 "R15" V 1850 5120 50  0000 C CNN
-F 1 "3.32M" V 1750 5120 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1680 5120 50  0001 C CNN
-F 3 "~" H 1750 5120 50  0001 C CNN
-	1    1750 5120
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1750 5270 1750 5370
-Connection ~ 1750 5370
-Wire Wire Line
-	1750 5370 1900 5370
-Wire Wire Line
-	2500 5470 2550 5470
-Wire Wire Line
-	1300 5370 1100 5370
 $Comp
 L power:GND #PWR02
 U 1 1 5F4F1F22
@@ -1839,58 +1716,7 @@ F 3 "" H 900 5970 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 5520 900  5520
-Wire Wire Line
-	1100 5520 1100 5370
-Connection ~ 900  5520
-Wire Wire Line
-	900  5520 800  5520
-$Comp
-L Device:C C2
-U 1 1 5F4F1F18
-P 900 5770
-F 0 "C2" H 950 5870 50  0000 L CNN
-F 1 "C" H 950 5670 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 938 5620 50  0001 C CNN
-F 3 "~" H 900 5770 50  0001 C CNN
-	1    900  5770
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	900  5920 900  5970
-Wire Wire Line
-	900  5520 900  5620
-Wire Wire Line
-	1100 5570 1100 5520
-Connection ~ 1100 5520
-$Comp
-L Device:D D1
-U 1 1 5F4F1F0C
-P 1100 5720
-F 0 "D1" V 1000 5770 50  0000 L CNN
-F 1 "D" V 1200 5770 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1100 5720 50  0001 C CNN
-F 3 "~" H 1100 5720 50  0001 C CNN
-	1    1100 5720
-	0    1    1    0   
-$EndComp
-$Comp
-L pspice:OPAMP U2
-U 1 1 5F4F1F5D
-P 2200 5470
-F 0 "U2" H 2350 5570 50  0000 L CNN
-F 1 "OPAMP" H 2350 5370 50  0000 L CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2200 5470 50  0001 C CNN
-F 3 "~" H 2200 5470 50  0001 C CNN
-	1    2200 5470
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 4970 1750 4920
-Wire Wire Line
-	1750 4920 2550 4920
-Text GLabel 3100 5770 2    39   Output ~ 8
-CELL8_SENSE
 Wire Wire Line
 	2800 3400 2800 3420
 $Comp
@@ -1967,7 +1793,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 1800 1600 1800
 Connection ~ 1600 1800
-Connection ~ 1100 6070
 Wire Wire Line
 	8200 9600 8150 9600
 Wire Wire Line
@@ -2151,30 +1976,6 @@ Wire Wire Line
 Text GLabel 800  6870 0    39   Input ~ 0
 CELL_7
 $Comp
-L pspice:OPAMP U3
-U 1 1 5F44A894
-P 2200 6820
-F 0 "U3" H 2350 6920 50  0000 L CNN
-F 1 "OPAMP" H 2350 6720 50  0000 L CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2200 6820 50  0001 C CNN
-F 3 "~" H 2200 6820 50  0001 C CNN
-	1    2200 6820
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 5F44A88E
-P 2100 7170
-F 0 "#PWR021" H 2100 6920 50  0001 C CNN
-F 1 "GND" H 2105 6997 50  0000 C CNN
-F 2 "" H 2100 7170 50  0001 C CNN
-F 3 "" H 2100 7170 50  0001 C CNN
-	1    2100 7170
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 7120 2100 7170
-$Comp
 L Device:R R4
 U 1 1 5F44A881
 P 1450 6920
@@ -2326,30 +2127,6 @@ Wire Wire Line
 	1250 8220 1250 8720
 Text GLabel 800  8170 0    39   Input ~ 0
 CELL_6
-$Comp
-L pspice:OPAMP U4
-U 1 1 5F3EE449
-P 2200 8120
-F 0 "U4" H 2350 8220 50  0000 L CNN
-F 1 "OPAMP" H 2350 8020 50  0000 L CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2200 8120 50  0001 C CNN
-F 3 "~" H 2200 8120 50  0001 C CNN
-	1    2200 8120
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR023
-U 1 1 5F3EE443
-P 2100 8470
-F 0 "#PWR023" H 2100 8220 50  0001 C CNN
-F 1 "GND" H 2105 8297 50  0000 C CNN
-F 2 "" H 2100 8470 50  0001 C CNN
-F 3 "" H 2100 8470 50  0001 C CNN
-	1    2100 8470
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 8420 2100 8470
 $Comp
 L Device:R R6
 U 1 1 5F3EE436
@@ -2504,30 +2281,6 @@ Wire Wire Line
 Text GLabel 800  9520 0    39   Input ~ 0
 CELL_5
 $Comp
-L pspice:OPAMP U5
-U 1 1 5F30A64C
-P 2200 9470
-F 0 "U5" H 2350 9570 50  0000 L CNN
-F 1 "OPAMP" H 2350 9370 50  0000 L CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2200 9470 50  0001 C CNN
-F 3 "~" H 2200 9470 50  0001 C CNN
-	1    2200 9470
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 5F30A646
-P 2100 9820
-F 0 "#PWR025" H 2100 9570 50  0001 C CNN
-F 1 "GND" H 2105 9647 50  0000 C CNN
-F 2 "" H 2100 9820 50  0001 C CNN
-F 3 "" H 2100 9820 50  0001 C CNN
-	1    2100 9820
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 9770 2100 9820
-$Comp
 L Device:R R8
 U 1 1 5F30A639
 P 1450 9570
@@ -2677,17 +2430,6 @@ Wire Wire Line
 	1250 10920 1250 11420
 Text GLabel 800  10870 0    39   Input ~ 0
 CELL_4
-$Comp
-L power:GND #PWR027
-U 1 1 5F1F03FF
-P 2100 11170
-F 0 "#PWR027" H 2100 10920 50  0001 C CNN
-F 1 "GND" H 2105 10997 50  0000 C CNN
-F 2 "" H 2100 11170 50  0001 C CNN
-F 3 "" H 2100 11170 50  0001 C CNN
-	1    2100 11170
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R10
 U 1 1 5F1F03F2
@@ -2851,30 +2593,6 @@ Wire Wire Line
 	1250 12270 1250 12770
 Text GLabel 800  12220 0    39   Input ~ 0
 CELL_3
-$Comp
-L pspice:OPAMP U7
-U 1 1 5EF9AC67
-P 2200 12170
-F 0 "U7" H 2350 12270 50  0000 L CNN
-F 1 "OPAMP" H 2350 12070 50  0000 L CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2200 12170 50  0001 C CNN
-F 3 "~" H 2200 12170 50  0001 C CNN
-	1    2200 12170
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR029
-U 1 1 5EF9AC6D
-P 2100 12520
-F 0 "#PWR029" H 2100 12270 50  0001 C CNN
-F 1 "GND" H 2105 12347 50  0000 C CNN
-F 2 "" H 2100 12520 50  0001 C CNN
-F 3 "" H 2100 12520 50  0001 C CNN
-	1    2100 12520
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 12470 2100 12520
 $Comp
 L Device:R R12
 U 1 1 5EF9AC7A
@@ -3109,30 +2827,6 @@ F 3 "~" H 1450 13620 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2100 13820 2100 13870
-$Comp
-L power:GND #PWR031
-U 1 1 5ED7D58E
-P 2100 13870
-F 0 "#PWR031" H 2100 13620 50  0001 C CNN
-F 1 "GND" H 2105 13697 50  0000 C CNN
-F 2 "" H 2100 13870 50  0001 C CNN
-F 3 "" H 2100 13870 50  0001 C CNN
-	1    2100 13870
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:OPAMP U8
-U 1 1 5ED7B4F8
-P 2200 13520
-F 0 "U8" H 2350 13620 50  0000 L CNN
-F 1 "OPAMP" H 2350 13420 50  0000 L CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2200 13520 50  0001 C CNN
-F 3 "~" H 2200 13520 50  0001 C CNN
-	1    2200 13520
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	1100 13920 1100 13970
 $Comp
 L Device:D D7
@@ -3259,8 +2953,6 @@ Wire Wire Line
 	8150 8150 8200 8150
 Text GLabel 8200 8350 2    39   Output ~ 0
 LOGIC_SWITCH
-Text GLabel 8200 8250 2    39   Input ~ 0
-PACK_GATE
 Text GLabel 8200 8150 2    39   Output ~ 0
 BUZZER
 Text GLabel 8200 7950 2    39   Input ~ 0
@@ -3273,8 +2965,6 @@ Wire Wire Line
 	8150 7650 8200 7650
 Text GLabel 8200 7650 2    39   Output ~ 0
 FAN_CTL_1
-NoConn ~ 8150 8050
-NoConn ~ 8150 7850
 NoConn ~ 8150 7550
 Wire Wire Line
 	7100 7950 7050 7950
@@ -3302,16 +2992,10 @@ NoConn ~ 5600 8000
 NoConn ~ 5600 7900
 Wire Wire Line
 	5650 7800 5600 7800
-Wire Wire Line
-	5650 7700 5600 7700
 Text GLabel 5650 7800 2    39   Input ~ 0
 V_LOG_SENSE
-Text GLabel 5650 7700 2    39   Input ~ 0
-V_OUT_SENSE
 Text Notes 6220 7835 2    39   ~ 0
 A1
-Text Notes 6220 7730 2    39   ~ 0
-A2
 Text Notes 6220 7630 2    39   ~ 0
 A3
 Wire Wire Line
@@ -3617,22 +3301,6 @@ F 3 "" H 4700 8350 60  0001 C CNN
 	1    4700 8350
 	1    0    0    -1  
 $EndComp
-Text GLabel 2100 5060 2    39   Input ~ 0
-LOGIC_PWR
-Wire Wire Line
-	2100 5060 2100 5170
-Text GLabel 2100 6410 2    39   Input ~ 0
-LOGIC_PWR
-Wire Wire Line
-	2100 6410 2100 6520
-Text GLabel 2100 7710 2    39   Input ~ 0
-LOGIC_PWR
-Wire Wire Line
-	2100 7710 2100 7820
-Text GLabel 2100 9060 2    39   Input ~ 0
-LOGIC_PWR
-Wire Wire Line
-	2100 9060 2100 9170
 Connection ~ 7700 4080
 $Comp
 L 2020_BMSBOARD-rescue:OKI-MRDT_Devices U12
@@ -3676,46 +3344,13 @@ F 3 "~" H 9500 1550 50  0001 C CNN
 $EndComp
 Text GLabel 6450 1300 2    50   Output ~ 0
 LOGIC_PWR
-Text GLabel 2100 10410 2    39   Input ~ 0
-LOGIC_PWR
-Wire Wire Line
-	2100 10410 2100 10520
-Text GLabel 2100 11760 2    39   Input ~ 0
-LOGIC_PWR
-Wire Wire Line
-	2100 11760 2100 11870
-Text GLabel 2100 13110 2    39   Input ~ 0
-LOGIC_PWR
-Wire Wire Line
-	2100 13110 2100 13220
-Wire Wire Line
-	2550 4920 2550 5470
-Wire Wire Line
-	3050 5470 3050 5770
-$Comp
-L Device:R R32
-U 1 1 5DAA1B28
-P 2780 5470
-F 0 "R32" V 2680 5480 50  0000 C CNN
-F 1 "10k" V 2780 5470 50  0000 C CNN
-F 2 "" V 2710 5470 50  0001 C CNN
-F 3 "~" H 2780 5470 50  0001 C CNN
-	1    2780 5470
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2930 5470 3050 5470
-Connection ~ 3050 5470
-Wire Wire Line
-	2630 5470 2550 5470
-Connection ~ 2550 5470
 $Comp
 L Device:R R33
 U 1 1 5DD1A957
 P 2780 6820
 F 0 "R33" V 2680 6830 50  0000 C CNN
 F 1 "10k" V 2780 6820 50  0000 C CNN
-F 2 "" V 2710 6820 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2710 6820 50  0001 C CNN
 F 3 "~" H 2780 6820 50  0001 C CNN
 	1    2780 6820
 	0    1    1    0   
@@ -3730,7 +3365,7 @@ U 1 1 5DD596A7
 P 2780 8120
 F 0 "R34" V 2680 8130 50  0000 C CNN
 F 1 "10k" V 2780 8120 50  0000 C CNN
-F 2 "" V 2710 8120 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2710 8120 50  0001 C CNN
 F 3 "~" H 2780 8120 50  0001 C CNN
 	1    2780 8120
 	0    1    1    0   
@@ -3747,7 +3382,7 @@ U 1 1 5DDD96F1
 P 2780 9470
 F 0 "R35" V 2680 9480 50  0000 C CNN
 F 1 "10k" V 2780 9470 50  0000 C CNN
-F 2 "" V 2710 9470 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2710 9470 50  0001 C CNN
 F 3 "~" H 2780 9470 50  0001 C CNN
 	1    2780 9470
 	0    1    1    0   
@@ -3758,29 +3393,16 @@ Connection ~ 2550 9470
 Wire Wire Line
 	2930 9470 3000 9470
 Connection ~ 3000 9470
-Wire Wire Line
-	2100 11120 2100 11170
 $Comp
 L Device:R R37
 U 1 1 5DF1AE2F
 P 2790 10820
 F 0 "R37" V 2690 10830 50  0000 C CNN
 F 1 "10k" V 2790 10830 50  0000 C CNN
-F 2 "" V 2720 10820 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2720 10820 50  0001 C CNN
 F 3 "~" H 2790 10820 50  0001 C CNN
 	1    2790 10820
 	0    1    1    0   
-$EndComp
-$Comp
-L pspice:OPAMP U6
-U 1 1 5F1F0405
-P 2200 10820
-F 0 "U6" H 2350 10920 50  0000 L CNN
-F 1 "OPAMP" H 2350 10720 50  0000 L CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2200 10820 50  0001 C CNN
-F 3 "~" H 2200 10820 50  0001 C CNN
-	1    2200 10820
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2550 10820 2500 10820
@@ -3796,7 +3418,7 @@ U 1 1 5E0E349D
 P 2780 12170
 F 0 "R36" V 2680 12180 50  0000 C CNN
 F 1 "10k" V 2780 12170 50  0000 C CNN
-F 2 "" V 2710 12170 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2710 12170 50  0001 C CNN
 F 3 "~" H 2780 12170 50  0001 C CNN
 	1    2780 12170
 	0    1    1    0   
@@ -3813,7 +3435,7 @@ U 1 1 5E1E9807
 P 2790 13520
 F 0 "R38" V 2690 13530 50  0000 C CNN
 F 1 "10k" V 2790 13530 50  0000 C CNN
-F 2 "" V 2720 13520 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2720 13520 50  0001 C CNN
 F 3 "~" H 2790 13520 50  0001 C CNN
 	1    2790 13520
 	0    1    1    0   
@@ -3826,4 +3448,379 @@ Wire Wire Line
 Wire Wire Line
 	2640 13520 2600 13520
 Connection ~ 2600 13520
+Text GLabel 8200 8250 2    39   Input ~ 0
+PACK_GATE
+NoConn ~ 8150 7850
+Text Notes 8780 8080 2    39   ~ 0
+A2
+Text GLabel 8200 8050 2    39   Input ~ 0
+V_OUT_SENSE
+Wire Wire Line
+	5650 7700 5600 7700
+Wire Wire Line
+	8200 8050 8150 8050
+NoConn ~ 5650 7700
+Connection ~ 8400 1400
+$Comp
+L 2020_BMSBOARD-rescue:Device_Q_NMOS_GDS-BMS_Hardware-cache Q3
+U 1 1 5D980165
+P 8400 1600
+F 0 "Q3" V 8350 1750 50  0000 C CNN
+F 1 "Device_Q_NMOS_GDS" V 8650 1550 50  0000 C CNN
+F 2 "MRDT_Actives:IRLS3034_TO-263-7_P" H 8600 1700 50  0001 C CNN
+F 3 "" H 8400 1600 50  0001 C CNN
+	1    8400 1600
+	0    -1   1    0   
+$EndComp
+Entry Wire Line
+	9050 550  9150 650 
+Connection ~ 1100 6070
+Connection ~ 2550 5470
+Wire Wire Line
+	2630 5470 2550 5470
+Connection ~ 3050 5470
+Wire Wire Line
+	2930 5470 3050 5470
+$Comp
+L Device:R R32
+U 1 1 5DAA1B28
+P 2780 5470
+F 0 "R32" V 2680 5480 50  0000 C CNN
+F 1 "10k" V 2780 5470 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2710 5470 50  0001 C CNN
+F 3 "~" H 2780 5470 50  0001 C CNN
+	1    2780 5470
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 5470 3050 5770
+Wire Wire Line
+	2550 4920 2550 5470
+Text GLabel 3100 5770 2    39   Output ~ 8
+CELL8_SENSE
+Wire Wire Line
+	1750 4920 2550 4920
+Wire Wire Line
+	1750 4970 1750 4920
+$Comp
+L Device:D D1
+U 1 1 5F4F1F0C
+P 1100 5720
+F 0 "D1" V 1000 5770 50  0000 L CNN
+F 1 "D" V 1200 5770 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1100 5720 50  0001 C CNN
+F 3 "~" H 1100 5720 50  0001 C CNN
+	1    1100 5720
+	0    1    1    0   
+$EndComp
+Connection ~ 1100 5520
+Wire Wire Line
+	1100 5570 1100 5520
+Wire Wire Line
+	900  5520 900  5620
+$Comp
+L Device:C C2
+U 1 1 5F4F1F18
+P 900 5770
+F 0 "C2" H 950 5870 50  0000 L CNN
+F 1 "C" H 950 5670 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 938 5620 50  0001 C CNN
+F 3 "~" H 900 5770 50  0001 C CNN
+	1    900  5770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  5520 800  5520
+Connection ~ 900  5520
+Wire Wire Line
+	1100 5520 1100 5370
+Wire Wire Line
+	1100 5520 900  5520
+Wire Wire Line
+	1300 5370 1100 5370
+Wire Wire Line
+	2500 5470 2550 5470
+Wire Wire Line
+	1750 5370 1900 5370
+Connection ~ 1750 5370
+Wire Wire Line
+	1750 5270 1750 5370
+$Comp
+L Device:R R15
+U 1 1 5F4F1F2F
+P 1750 5120
+F 0 "R15" V 1850 5120 50  0000 C CNN
+F 1 "3.32M" V 1750 5120 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1680 5120 50  0001 C CNN
+F 3 "~" H 1750 5120 50  0001 C CNN
+	1    1750 5120
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 5370 1750 5370
+$Comp
+L Device:R R16
+U 1 1 5F4F1F3D
+P 1750 5770
+F 0 "R16" V 1650 5770 50  0000 C CNN
+F 1 "3.32M" V 1750 5770 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1680 5770 50  0001 C CNN
+F 3 "~" H 1750 5770 50  0001 C CNN
+	1    1750 5770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5570 1300 5570
+$Comp
+L Device:R R1
+U 1 1 5F4F1F44
+P 1450 5370
+F 0 "R1" V 1350 5370 50  0000 C CNN
+F 1 "6.65M" V 1450 5370 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 5370 50  0001 C CNN
+F 3 "~" H 1450 5370 50  0001 C CNN
+	1    1450 5370
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F4F1F4A
+P 1450 5570
+F 0 "R2" V 1550 5570 50  0000 C CNN
+F 1 "6.65M" V 1450 5570 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 5570 50  0001 C CNN
+F 3 "~" H 1450 5570 50  0001 C CNN
+	1    1450 5570
+	0    1    1    0   
+$EndComp
+Text GLabel 800  5520 0    39   Input ~ 0
+CELL_8
+Wire Wire Line
+	1250 5570 1250 6070
+Wire Wire Line
+	1100 5870 1100 6070
+Wire Wire Line
+	1600 5570 1750 5570
+Wire Wire Line
+	1750 5620 1750 5570
+Connection ~ 1750 5570
+Wire Wire Line
+	1750 5570 1900 5570
+$Comp
+L Device:D_Zener D14
+U 1 1 5F4F1F72
+P 3250 5470
+F 0 "D14" H 3250 5686 50  0000 C CNN
+F 1 "D_Zener" H 3250 5595 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3250 5470 50  0001 C CNN
+F 3 "~" H 3250 5470 50  0001 C CNN
+	1    3250 5470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5770 3100 5770
+Wire Wire Line
+	3050 5470 3100 5470
+Wire Wire Line
+	3400 5470 3500 5470
+$Comp
+L power:GND #PWR040
+U 1 1 5F4F1F78
+P 3500 5470
+F 0 "#PWR040" H 3500 5220 50  0001 C CNN
+F 1 "GND" H 3505 5297 50  0000 C CNN
+F 2 "" H 3500 5470 50  0001 C CNN
+F 3 "" H 3500 5470 50  0001 C CNN
+	1    3500 5470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:L272 U2
+U 1 1 5DFFAB77
+P 2200 5470
+F 0 "U2" H 2200 5837 50  0000 C CNN
+F 1 "L272" H 2200 5746 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 5470 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 5470 50  0001 C CNN
+	1    2200 5470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:L272 U2
+U 2 1 5E147CD9
+P 2200 6820
+F 0 "U2" H 2200 7187 50  0000 C CNN
+F 1 "L272" H 2200 7096 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 6820 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 6820 50  0001 C CNN
+	2    2200 6820
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:L272 U4
+U 3 1 5E14B86C
+P 2900 6120
+F 0 "U4" H 2858 6166 50  0000 L CNN
+F 1 "L272" H 2858 6075 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2900 6120 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2900 6120 50  0001 C CNN
+	3    2900 6120
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E1539D0
+P 2800 6420
+F 0 "#PWR0101" H 2800 6170 50  0001 C CNN
+F 1 "GND" H 2805 6247 50  0000 C CNN
+F 2 "" H 2800 6420 50  0001 C CNN
+F 3 "" H 2800 6420 50  0001 C CNN
+	1    2800 6420
+	1    0    0    -1  
+$EndComp
+Text GLabel 2750 5790 0    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	2750 5790 2800 5790
+Wire Wire Line
+	2800 5790 2800 5820
+$Comp
+L Amplifier_Operational:L272 U3
+U 3 1 5E1DBB87
+P 2890 8770
+F 0 "U3" H 2848 8816 50  0000 L CNN
+F 1 "L272" H 2848 8725 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2890 8770 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2890 8770 50  0001 C CNN
+	3    2890 8770
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E1DBB8D
+P 2790 9070
+F 0 "#PWR0102" H 2790 8820 50  0001 C CNN
+F 1 "GND" H 2795 8897 50  0000 C CNN
+F 2 "" H 2790 9070 50  0001 C CNN
+F 3 "" H 2790 9070 50  0001 C CNN
+	1    2790 9070
+	1    0    0    -1  
+$EndComp
+Text GLabel 2740 8440 0    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	2740 8440 2790 8440
+Wire Wire Line
+	2790 8440 2790 8470
+$Comp
+L Amplifier_Operational:L272 U3
+U 1 1 5E2E78E8
+P 2200 8120
+F 0 "U3" H 2200 8487 50  0000 C CNN
+F 1 "L272" H 2200 8396 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 8120 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 8120 50  0001 C CNN
+	1    2200 8120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:L272 U3
+U 2 1 5E3F2AF1
+P 2200 9470
+F 0 "U3" H 2200 9837 50  0000 C CNN
+F 1 "L272" H 2200 9746 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 9470 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 9470 50  0001 C CNN
+	2    2200 9470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:L272 U4
+U 1 1 5E4BAD07
+P 2200 10820
+F 0 "U4" H 2200 11187 50  0000 C CNN
+F 1 "L272" H 2200 11096 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 10820 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 10820 50  0001 C CNN
+	1    2200 10820
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:L272 U4
+U 2 1 5E53E49B
+P 2200 12170
+F 0 "U4" H 2200 12537 50  0000 C CNN
+F 1 "L272" H 2200 12446 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 12170 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 12170 50  0001 C CNN
+	2    2200 12170
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:L272 U2
+U 3 1 5E541A8C
+P 2880 11410
+F 0 "U2" H 2838 11456 50  0000 L CNN
+F 1 "L272" H 2838 11365 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2880 11410 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2880 11410 50  0001 C CNN
+	3    2880 11410
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E541A92
+P 2780 11710
+F 0 "#PWR0103" H 2780 11460 50  0001 C CNN
+F 1 "GND" H 2785 11537 50  0000 C CNN
+F 2 "" H 2780 11710 50  0001 C CNN
+F 3 "" H 2780 11710 50  0001 C CNN
+	1    2780 11710
+	1    0    0    -1  
+$EndComp
+Text GLabel 2730 11080 0    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	2730 11080 2780 11080
+Wire Wire Line
+	2780 11080 2780 11110
+$Comp
+L Amplifier_Operational:L272 U5
+U 3 1 5E584CAA
+P 3550 14530
+F 0 "U5" H 3508 14576 50  0000 L CNN
+F 1 "L272" H 3508 14485 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3550 14530 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 3550 14530 50  0001 C CNN
+	3    3550 14530
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E584CB0
+P 3450 14830
+F 0 "#PWR0104" H 3450 14580 50  0001 C CNN
+F 1 "GND" H 3455 14657 50  0000 C CNN
+F 2 "" H 3450 14830 50  0001 C CNN
+F 3 "" H 3450 14830 50  0001 C CNN
+	1    3450 14830
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 14200 0    39   Input ~ 0
+LOGIC_PWR
+Wire Wire Line
+	3400 14200 3450 14200
+Wire Wire Line
+	3450 14200 3450 14230
+$Comp
+L Amplifier_Operational:L272 U5
+U 1 1 5E6091F9
+P 2200 13520
+F 0 "U5" H 2200 13887 50  0000 C CNN
+F 1 "L272" H 2200 13796 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 13520 50  0001 C CNN
+F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 13520 50  0001 C CNN
+	1    2200 13520
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
