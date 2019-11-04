@@ -2922,7 +2922,6 @@ NoConn ~ 4500 9600
 NoConn ~ 4500 9500
 NoConn ~ 4500 9200
 NoConn ~ 4500 9100
-NoConn ~ 4500 9000
 NoConn ~ 4500 8900
 Wire Wire Line
 	8150 9500 8200 9500
@@ -2949,11 +2948,9 @@ NoConn ~ 8150 9100
 NoConn ~ 8150 9000
 Wire Wire Line
 	8200 8350 8150 8350
-Wire Wire Line
-	8150 8150 8200 8150
 Text GLabel 8200 8350 2    39   Output ~ 0
 LOGIC_SWITCH
-Text GLabel 8200 8150 2    39   Output ~ 0
+Text GLabel 4400 8100 0    39   Output ~ 0
 BUZZER
 Text GLabel 8200 7950 2    39   Input ~ 0
 TEMP_D_OUT
@@ -2996,11 +2993,9 @@ Text GLabel 5650 7800 2    39   Input ~ 0
 V_LOG_SENSE
 Text Notes 6220 7835 2    39   ~ 0
 A1
-Text Notes 6220 7630 2    39   ~ 0
-A3
-Wire Wire Line
-	5600 7600 5650 7600
-Text GLabel 5650 7600 2    39   Input ~ 0
+Text Notes 3990 9030 2    39   ~ 0
+A13
+Text GLabel 4450 9000 0    39   Input ~ 0
 PACK_I_SENSE
 Wire Notes Line
 	3900 6950 8850 6950
@@ -3282,7 +3277,6 @@ F 3 "" H 5400 8350 60  0001 C CNN
 $EndComp
 NoConn ~ 4500 8300
 NoConn ~ 4500 8200
-NoConn ~ 4500 8100
 NoConn ~ 4500 8000
 NoConn ~ 4500 7900
 NoConn ~ 4500 7800
@@ -3823,4 +3817,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2880 11410 50  0001 C CNN
 	3    2880 11410
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4500 9000 4450 9000
+NoConn ~ 5600 7600
+Wire Wire Line
+	4500 8100 4400 8100
+NoConn ~ 8150 8150
 $EndSCHEMATC
