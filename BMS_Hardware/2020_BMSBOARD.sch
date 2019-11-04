@@ -3635,39 +3635,6 @@ F 3 "" H 3500 5470 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:L272 U2
-U 1 1 5DFFAB77
-P 2200 5470
-F 0 "U2" H 2200 5837 50  0000 C CNN
-F 1 "L272" H 2200 5746 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 5470 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 5470 50  0001 C CNN
-	1    2200 5470
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:L272 U2
-U 2 1 5E147CD9
-P 2200 6820
-F 0 "U2" H 2200 7187 50  0000 C CNN
-F 1 "L272" H 2200 7096 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 6820 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 6820 50  0001 C CNN
-	2    2200 6820
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:L272 U4
-U 3 1 5E14B86C
-P 2900 6120
-F 0 "U4" H 2858 6166 50  0000 L CNN
-F 1 "L272" H 2858 6075 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2900 6120 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2900 6120 50  0001 C CNN
-	3    2900 6120
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5E1539D0
 P 2800 6420
@@ -3684,17 +3651,6 @@ Wire Wire Line
 	2750 5790 2800 5790
 Wire Wire Line
 	2800 5790 2800 5820
-$Comp
-L Amplifier_Operational:L272 U3
-U 3 1 5E1DBB87
-P 2890 8770
-F 0 "U3" H 2848 8816 50  0000 L CNN
-F 1 "L272" H 2848 8725 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2890 8770 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2890 8770 50  0001 C CNN
-	3    2890 8770
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5E1DBB8D
@@ -3713,61 +3669,6 @@ Wire Wire Line
 Wire Wire Line
 	2790 8440 2790 8470
 $Comp
-L Amplifier_Operational:L272 U3
-U 1 1 5E2E78E8
-P 2200 8120
-F 0 "U3" H 2200 8487 50  0000 C CNN
-F 1 "L272" H 2200 8396 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 8120 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 8120 50  0001 C CNN
-	1    2200 8120
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:L272 U3
-U 2 1 5E3F2AF1
-P 2200 9470
-F 0 "U3" H 2200 9837 50  0000 C CNN
-F 1 "L272" H 2200 9746 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 9470 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 9470 50  0001 C CNN
-	2    2200 9470
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:L272 U4
-U 1 1 5E4BAD07
-P 2200 10820
-F 0 "U4" H 2200 11187 50  0000 C CNN
-F 1 "L272" H 2200 11096 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 10820 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 10820 50  0001 C CNN
-	1    2200 10820
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:L272 U4
-U 2 1 5E53E49B
-P 2200 12170
-F 0 "U4" H 2200 12537 50  0000 C CNN
-F 1 "L272" H 2200 12446 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 12170 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 12170 50  0001 C CNN
-	2    2200 12170
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:L272 U2
-U 3 1 5E541A8C
-P 2880 11410
-F 0 "U2" H 2838 11456 50  0000 L CNN
-F 1 "L272" H 2838 11365 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2880 11410 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2880 11410 50  0001 C CNN
-	3    2880 11410
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 5E541A92
 P 2780 11710
@@ -3784,17 +3685,6 @@ Wire Wire Line
 	2730 11080 2780 11080
 Wire Wire Line
 	2780 11080 2780 11110
-$Comp
-L Amplifier_Operational:L272 U5
-U 3 1 5E584CAA
-P 3550 14530
-F 0 "U5" H 3508 14576 50  0000 L CNN
-F 1 "L272" H 3508 14485 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3550 14530 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 3550 14530 50  0001 C CNN
-	3    3550 14530
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5E584CB0
@@ -3813,14 +3703,124 @@ Wire Wire Line
 Wire Wire Line
 	3450 14200 3450 14230
 $Comp
-L Amplifier_Operational:L272 U5
-U 1 1 5E6091F9
+L Amplifier_Operational:LM358 U2
+U 1 1 5DEF47EB
+P 2200 5470
+F 0 "U2" H 2200 5103 50  0000 C CNN
+F 1 "LM358" H 2200 5194 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 5470 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 5470 50  0001 C CNN
+	1    2200 5470
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U2
+U 2 1 5DF80A2D
+P 2200 6820
+F 0 "U2" H 2200 6453 50  0000 C CNN
+F 1 "LM358" H 2200 6544 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 6820 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 6820 50  0001 C CNN
+	2    2200 6820
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U4
+U 3 1 5DF842DF
+P 2900 6120
+F 0 "U4" H 2858 6166 50  0000 L CNN
+F 1 "LM358" H 2858 6075 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2900 6120 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2900 6120 50  0001 C CNN
+	3    2900 6120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U3
+U 3 1 5E00D908
+P 2890 8770
+F 0 "U3" H 2848 8816 50  0000 L CNN
+F 1 "LM358" H 2848 8725 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2890 8770 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2890 8770 50  0001 C CNN
+	3    2890 8770
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U3
+U 1 1 5E052CD3
+P 2200 8120
+F 0 "U3" H 2200 7753 50  0000 C CNN
+F 1 "LM358" H 2200 7844 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 8120 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 8120 50  0001 C CNN
+	1    2200 8120
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U3
+U 2 1 5E097C78
+P 2200 9470
+F 0 "U3" H 2200 9103 50  0000 C CNN
+F 1 "LM358" H 2200 9194 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 9470 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 9470 50  0001 C CNN
+	2    2200 9470
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U4
+U 1 1 5E0DD08C
+P 2200 10820
+F 0 "U4" H 2200 10453 50  0000 C CNN
+F 1 "LM358" H 2200 10544 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 10820 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 10820 50  0001 C CNN
+	1    2200 10820
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U4
+U 2 1 5E122C59
+P 2200 12170
+F 0 "U4" H 2200 11803 50  0000 C CNN
+F 1 "LM358" H 2200 11894 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 12170 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 12170 50  0001 C CNN
+	2    2200 12170
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U5
+U 1 1 5E169392
 P 2200 13520
-F 0 "U5" H 2200 13887 50  0000 C CNN
-F 1 "L272" H 2200 13796 50  0000 C CNN
+F 0 "U5" H 2200 13153 50  0000 C CNN
+F 1 "LM358" H 2200 13244 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 13520 50  0001 C CNN
-F 3 "www.st.com/resource/en/datasheet/l272.pdf" H 2200 13520 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 13520 50  0001 C CNN
 	1    2200 13520
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U5
+U 3 1 5E1AE12F
+P 3550 14530
+F 0 "U5" H 3508 14576 50  0000 L CNN
+F 1 "LM358" H 3508 14485 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3550 14530 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3550 14530 50  0001 C CNN
+	3    3550 14530
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U2
+U 3 1 5E1B22E8
+P 2880 11410
+F 0 "U2" H 2838 11456 50  0000 L CNN
+F 1 "LM358" H 2838 11365 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2880 11410 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2880 11410 50  0001 C CNN
+	3    2880 11410
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
