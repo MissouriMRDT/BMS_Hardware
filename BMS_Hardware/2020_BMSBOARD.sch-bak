@@ -2948,11 +2948,9 @@ NoConn ~ 8150 9100
 NoConn ~ 8150 9000
 Wire Wire Line
 	8200 8350 8150 8350
-Wire Wire Line
-	8150 8150 8200 8150
 Text GLabel 8200 8350 2    39   Output ~ 0
 LOGIC_SWITCH
-Text GLabel 8200 8150 2    39   Output ~ 0
+Text GLabel 4400 8100 0    39   Output ~ 0
 BUZZER
 Text GLabel 8200 7950 2    39   Input ~ 0
 TEMP_D_OUT
@@ -3279,7 +3277,6 @@ F 3 "" H 5400 8350 60  0001 C CNN
 $EndComp
 NoConn ~ 4500 8300
 NoConn ~ 4500 8200
-NoConn ~ 4500 8100
 NoConn ~ 4500 8000
 NoConn ~ 4500 7900
 NoConn ~ 4500 7800
@@ -3823,4 +3820,7 @@ $EndComp
 Wire Wire Line
 	4500 9000 4450 9000
 NoConn ~ 5600 7600
+Wire Wire Line
+	4500 8100 4400 8100
+NoConn ~ 8150 8150
 $EndSCHEMATC
