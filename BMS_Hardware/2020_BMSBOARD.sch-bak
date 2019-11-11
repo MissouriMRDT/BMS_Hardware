@@ -2934,15 +2934,12 @@ NoConn ~ 7100 9600
 NoConn ~ 7100 9700
 NoConn ~ 7100 9800
 NoConn ~ 8150 9800
-NoConn ~ 8150 9700
 NoConn ~ 8150 9400
 NoConn ~ 8150 9300
 NoConn ~ 8150 9100
 NoConn ~ 8150 9000
 Wire Wire Line
 	8200 8350 8150 8350
-Text GLabel 8200 8350 2    39   Output ~ 0
-LOGIC_SWITCH
 Text GLabel 4400 8100 0    39   Output ~ 0
 BUZZER
 Text GLabel 8200 7950 2    39   Input ~ 0
@@ -3756,28 +3753,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 10820 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U4
-U 2 1 5E122C59
-P 2200 12170
-F 0 "U4" H 2210 12490 50  0000 C CNN
-F 1 "LM358" H 2200 12570 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 12170 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 12170 50  0001 C CNN
-	2    2200 12170
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM358 U5
-U 1 1 5E169392
-P 2200 13520
-F 0 "U5" H 2230 13770 50  0000 C CNN
-F 1 "LM358" H 2210 13860 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 13520 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 13520 50  0001 C CNN
-	1    2200 13520
-	1    0    0    -1  
-$EndComp
-$Comp
 L Amplifier_Operational:LM358 U5
 U 3 1 5E1AE12F
 P 3550 14530
@@ -3823,4 +3798,31 @@ Wire Wire Line
 	8190 9600 8150 9600
 Wire Wire Line
 	8150 7950 8200 7950
+NoConn ~ 8200 8350
+Text GLabel 8190 9700 2    39   Output ~ 0
+LOGIC_SWITCH
+$Comp
+L Amplifier_Operational:LM358 U4
+U 2 1 5E122C59
+P 2200 12170
+F 0 "U4" H 2210 12490 50  0000 C CNN
+F 1 "LM358" H 2200 12570 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 12170 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 12170 50  0001 C CNN
+	2    2200 12170
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U5
+U 1 1 5E169392
+P 2200 13520
+F 0 "U5" H 2230 13770 50  0000 C CNN
+F 1 "LM358" H 2210 13860 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 13520 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 13520 50  0001 C CNN
+	1    2200 13520
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8190 9700 8150 9700
 $EndSCHEMATC

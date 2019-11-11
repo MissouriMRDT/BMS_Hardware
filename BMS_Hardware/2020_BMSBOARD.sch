@@ -3252,7 +3252,7 @@ F 1 "TM4C129E_Launchpad" H 5200 9550 60  0000 C CNN
 F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_TOP" H 5400 8350 60  0001 C CNN
 F 3 "" H 5400 8350 60  0001 C CNN
 	2    5400 8350
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 4500 8300
 NoConn ~ 4500 8200
@@ -3825,4 +3825,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 13520 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8190 9700 8150 9700
+Connection ~ 5600 9000
+Connection ~ 5600 8900
 $EndSCHEMATC
