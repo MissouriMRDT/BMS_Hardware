@@ -3530,23 +3530,23 @@ Text GLabel 4550 7325 0    39   Input ~ 0
 V_OUT_SENSE
 Wire Wire Line
 	4625 7325 4550 7325
-Text GLabel 5450 7325 2    39   Input ~ 0
+Text GLabel 5450 7825 2    39   Input ~ 0
 CELL7_SENSE
-Text GLabel 5450 7425 2    39   Input ~ 0
+Text GLabel 5450 7925 2    39   Input ~ 0
 CELL8_SENSE
 Text GLabel 4550 7425 0    39   Input ~ 0
 PACK_I_SENSE
-Text GLabel 4550 7525 0    39   Input ~ 0
-CELL_1-GND_SENSE
-Text GLabel 5450 7625 2    39   Input ~ 0
-CELL2_SENSE
-Text GLabel 5450 7725 2    39   Input ~ 0
-CELL3_SENSE
-Text GLabel 5450 7825 2    39   Input ~ 0
-CELL4_SENSE
-Text GLabel 5450 7925 2    39   Input ~ 0
-CELL5_SENSE
 Text GLabel 5450 7225 2    39   Input ~ 0
+CELL_1-GND_SENSE
+Text GLabel 5450 7325 2    39   Input ~ 0
+CELL2_SENSE
+Text GLabel 5450 7425 2    39   Input ~ 0
+CELL3_SENSE
+Text GLabel 5450 7525 2    39   Input ~ 0
+CELL4_SENSE
+Text GLabel 5450 7625 2    39   Input ~ 0
+CELL5_SENSE
+Text GLabel 5450 7725 2    39   Input ~ 0
 CELL6_SENSE
 Wire Wire Line
 	4550 7525 4625 7525
@@ -3564,13 +3564,13 @@ Wire Wire Line
 	5375 7325 5450 7325
 Wire Wire Line
 	5375 7425 5450 7425
-Text GLabel 4525 8475 0    39   Input ~ 0
+Text GLabel 4525 8375 0    39   Input ~ 0
 FAN_CTL_3
-Text GLabel 4525 8575 0    39   Input ~ 0
+Text GLabel 4525 8275 0    39   Input ~ 0
 FAN_CTL_4
-Text GLabel 4525 8275 0    39   Output ~ 0
+Text GLabel 4525 8575 0    39   Output ~ 0
 FAN_CTL_1
-Text GLabel 4525 8375 0    39   Output ~ 0
+Text GLabel 4525 8475 0    39   Output ~ 0
 FAN_CTL_2
 Wire Wire Line
 	4525 8275 4625 8275
@@ -3580,7 +3580,7 @@ Wire Wire Line
 	4525 8475 4625 8475
 Wire Wire Line
 	4525 8575 4625 8575
-Text GLabel 5450 7525 2    39   Input ~ 0
+Text GLabel 4550 7525 0    39   Input ~ 0
 TEMP_D_OUT
 Wire Wire Line
 	5375 7525 5450 7525
