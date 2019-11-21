@@ -3564,13 +3564,13 @@ Wire Wire Line
 	5375 7325 5450 7325
 Wire Wire Line
 	5375 7425 5450 7425
-Text GLabel 4525 8275 0    39   Input ~ 0
-FAN_CTL_3
 Text GLabel 4525 8375 0    39   Input ~ 0
+FAN_CTL_3
+Text GLabel 4525 8275 0    39   Input ~ 0
 FAN_CTL_4
-Text GLabel 4525 8475 0    39   Output ~ 0
-FAN_CTL_1
 Text GLabel 4525 8575 0    39   Output ~ 0
+FAN_CTL_1
+Text GLabel 4525 8475 0    39   Output ~ 0
 FAN_CTL_2
 Wire Wire Line
 	4525 8275 4625 8275
