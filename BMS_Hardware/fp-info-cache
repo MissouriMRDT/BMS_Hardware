@@ -1,4 +1,4 @@
-16551287673602549
+16548154493982634
 BMS_Hardware
 Alisa_Lazareva_15mmx11mm
 
@@ -49896,13 +49896,6 @@ MOLEX_SL_10_Vertical
 10
 10
 MRDT_Connectors
-Q36SR12020NRFA
-
-
-0
-8
-8
-MRDT_Connectors
 RP-SMA_Jack_Tru-Hole_Right-Angle
 
 
@@ -49937,13 +49930,6 @@ BUZZER_SMI_1324_TW_5V_2_R
 0
 2
 2
-MRDT_Devices
-DC_DC_Converter_Quarter_Brick
-
-
-0
-8
-8
 MRDT_Devices
 HX1198FNL
 
