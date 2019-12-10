@@ -1,53 +1,4 @@
-16548154493982634
-BMS_Hardware
-Alisa_Lazareva_15mmx11mm
-
-
-0
-0
-0
-BMS_Hardware
-Austin Ashbaugh 276mm x 207.3mm
-
-
-0
-0
-0
-BMS_Hardware
-Brian_Dahlman_Sig_20.1mmX7.5mm
-
-
-0
-0
-0
-BMS_Hardware
-LT1910_SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm
-SOIC, 8 Pin (http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx#page=8), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
-0
-8
-8
-BMS_Hardware
-PFF_Leadform_5pins
-Allegro, Hallsensor, Through hole, Package CB-PFF,
-Allegro, Hallsensor, Through hole, Package CB-PFF,
-0
-5
-5
-BMS_Hardware
-TM4C129E_Launchpad_FULL_Top_SMD
-
-
-0
-80
-74
-BMS_Hardware
-Vertical Anderson Double
-
-
-0
-2
-2
+16533076536816632
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49896,6 +49847,13 @@ MOLEX_SL_10_Vertical
 10
 10
 MRDT_Connectors
+Q36SR12020NRFA
+
+
+0
+8
+8
+MRDT_Connectors
 RP-SMA_Jack_Tru-Hole_Right-Angle
 
 
@@ -49917,13 +49875,6 @@ Solder Pad
 1
 1
 MRDT_Devices
-ABS25
-
-
-0
-4
-2
-MRDT_Devices
 BUZZER_SMI_1324_TW_5V_2_R
 
 
@@ -49931,12 +49882,12 @@ BUZZER_SMI_1324_TW_5V_2_R
 2
 2
 MRDT_Devices
-HX1198FNL
+DC_DC_Converter_Quarter_Brick
 
 
 0
-16
-16
+8
+8
 MRDT_Devices
 LDD-1500L_LED_DRIVER
 
@@ -49944,13 +49895,6 @@ LDD-1500L_LED_DRIVER
 0
 9
 9
-MRDT_Devices
-NX3225GA
-
-
-0
-4
-4
 MRDT_Devices
 OKI_Horizontal
 
@@ -50329,13 +50273,6 @@ TM4C123G_Booster
 0
 40
 39
-MRDT_Shields
-TM4C129Breakout_THT
-
-
-0
-56
-52
 MRDT_Shields
 TM4C129E_Launchpad_FULL_SMD_BOTTOM
 
