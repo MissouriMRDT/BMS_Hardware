@@ -1911,7 +1911,7 @@ F 3 "" H 6400 5650 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129Breakout U6
+L 2020_BMSBOARD-rescue:TM4C129Breakout-MRDT_Shields U6
 U 1 1 5DDF5A60
 P 4650 7950
 F 0 "U6" H 4850 8925 50  0000 C CNN
@@ -1922,7 +1922,7 @@ F 3 "" H 4450 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129Breakout U6
+L 2020_BMSBOARD-rescue:TM4C129Breakout-MRDT_Shields U6
 U 2 1 5DE421FA
 P 4650 9000
 F 0 "U6" H 4850 9975 50  0000 C CNN
@@ -1933,7 +1933,7 @@ F 3 "" H 4450 9250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129Breakout U6
+L 2020_BMSBOARD-rescue:TM4C129Breakout-MRDT_Shields U6
 U 3 1 5DECBFC1
 P 6750 7950
 F 0 "U6" H 6825 8925 50  0000 L CNN
@@ -1944,7 +1944,7 @@ F 3 "" H 6550 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129Breakout U6
+L 2020_BMSBOARD-rescue:TM4C129Breakout-MRDT_Shields U6
 U 5 1 5DF12217
 P 6750 8650
 F 0 "U6" H 7025 9225 50  0000 C CNN
@@ -1955,7 +1955,7 @@ F 3 "" H 6550 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129Breakout U6
+L 2020_BMSBOARD-rescue:TM4C129Breakout-MRDT_Shields U6
 U 4 1 5DF57C64
 P 7400 7950
 F 0 "U6" H 7575 8925 50  0000 C CNN
