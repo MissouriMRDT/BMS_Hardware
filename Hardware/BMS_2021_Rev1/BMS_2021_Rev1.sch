@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 4
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -13,12 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 18000 -3950 500  500 
-U 5F7539AB
-F0 "cellFilters" 50
-F1 "cellFilters.sch" 50
-$EndSheet
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 1 1 5F7D577A
@@ -232,9 +226,9 @@ Wire Notes Line
 	2150 500  2150 3150
 Wire Notes Line
 	2150 3150 450  3150
-Text HLabel 2550 750  0    50   Input ~ 0
+Text HLabel 2550 700  0    50   Input ~ 0
 V_in
-Text HLabel 2550 850  0    50   Input ~ 0
+Text HLabel 2550 900  0    50   Input ~ 0
 GND
 $Sheet
 S 850  3350 1250 2550
@@ -258,4 +252,76 @@ Text HLabel 7800 2150 2    50   Input ~ 0
 PE0_A3
 Wire Wire Line
 	7700 2150 7800 2150
+$Sheet
+S 2550 1350 750  300 
+U 5F7FDD72
+F0 "5V_BUCK" 50
+F1 "5V_BUCK.sch" 50
+$EndSheet
+Text HLabel 2550 1450 0    50   Input ~ 0
+PV
+Text HLabel 2550 1550 0    50   Input ~ 0
+GND
+Text HLabel 3300 1500 2    50   Output ~ 0
+5V
+Text HLabel 2550 2150 0    50   Input ~ 0
+PV
+Text HLabel 2550 2250 0    50   Input ~ 0
+GND
+Text HLabel 3300 2200 2    50   Output ~ 0
+3V3
+$Sheet
+S 2550 2050 750  300 
+U 5F7FE1CA
+F0 "3V3_BUCK" 50
+F1 "3V3_BUCK.sch" 50
+$EndSheet
+Text Notes 3550 1500 0    50   ~ 0
+not done
+Text Notes 3600 2250 0    50   ~ 0
+not done
+$Sheet
+S 2550 2650 1200 850 
+U 5F801232
+F0 "ESTOP" 50
+F1 "ESTOP.sch" 50
+$EndSheet
+$Sheet
+S 2550 3850 1200 850 
+U 5F80136E
+F0 "LOGIC_SWITCH" 50
+F1 "LOGIC_SWITCH.sch" 50
+$EndSheet
+Text Notes 3850 3100 0    50   ~ 0
+not done
+Text Notes 3800 4300 0    50   ~ 0
+not done
+$Sheet
+S 4400 1350 750  300 
+U 5F803423
+F0 "sheet5F80341A" 50
+F1 "5V_BUCK.sch" 50
+$EndSheet
+$Sheet
+S 4400 2050 750  300 
+U 5F80342B
+F0 "sheet5F80341B" 50
+F1 "3V3_BUCK.sch" 50
+$EndSheet
+Text Notes 5400 1500 0    50   ~ 0
+not done
+Text Notes 5450 2250 0    50   ~ 0
+not done
+Text HLabel 2550 800  0    50   Input ~ 0
+5V
+Text Notes 5400 800  0    50   ~ 0
+not done
+$Sheet
+S 4400 650  750  300 
+U 5F80341F
+F0 "FANS" 50
+F1 "FANS.sch" 50
+$EndSheet
+Text Notes 1100 6350 0    50   ~ 0
+ENTER RESISTOR VALUES\n
 $EndSCHEMATC
