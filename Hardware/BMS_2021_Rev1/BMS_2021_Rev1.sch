@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -22,122 +22,240 @@ $EndSheet
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 1 1 5F7D577A
-P 600 1650
-F 0 "Conn?" H 808 2037 60  0000 C CNN
-F 1 "AndersonPP" H 808 1931 60  0000 C CNN
-F 2 "" H 450 1100 60  0001 C CNN
-F 3 "" H 450 1100 60  0001 C CNN
-	1    600  1650
-	1    0    0    -1  
+P 1700 1750
+F 0 "Conn?" V 1750 1550 60  0000 C CNN
+F 1 "AndersonPP" V 1650 1600 60  0000 C CNN
+F 2 "" H 1550 1200 60  0001 C CNN
+F 3 "" H 1550 1200 60  0001 C CNN
+	1    1700 1750
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 4 1 5F7D6633
-P 600 1150
-F 0 "Conn?" H 808 1537 60  0000 C CNN
-F 1 "AndersonPP" H 808 1431 60  0000 C CNN
-F 2 "" H 450 600 60  0001 C CNN
-F 3 "" H 450 600 60  0001 C CNN
-	4    600  1150
-	1    0    0    -1  
+P 1150 1750
+F 0 "Conn?" V 1200 2150 60  0000 C CNN
+F 1 "AndersonPP" V 1100 2100 60  0000 C CNN
+F 2 "" H 1000 1200 60  0001 C CNN
+F 3 "" H 1000 1200 60  0001 C CNN
+	4    1150 1750
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_09 Conn?
 U 1 1 5F7D732D
-P 750 2050
-F 0 "Conn?" H 692 1863 60  0000 C CNN
-F 1 "Molex_SL_09" H 692 1969 60  0000 C CNN
-F 2 "" H 750 2450 60  0001 C CNN
-F 3 "" H 750 2450 60  0001 C CNN
-	1    750  2050
+P 700 2200
+F 0 "Conn?" H 642 2013 60  0000 C CNN
+F 1 "Molex_SL_09" H 642 2119 60  0000 C CNN
+F 2 "" H 700 2600 60  0001 C CNN
+F 3 "" H 700 2600 60  0001 C CNN
+	1    700  2200
 	-1   0    0    1   
 $EndComp
-Wire Notes Line
-	500  3150 1800 3150
-Wire Notes Line
-	1800 600  500  600 
-Wire Notes Line
-	1800 500  1800 3150
 Text Notes 500  600  0    50   ~ 10
 BATTERY
-Text GLabel 1100 2700 2    50   Input ~ 10
-cell_3
-Text GLabel 1100 2900 2    50   Input ~ 10
+Wire Wire Line
+	900  3050 1050 3050
+Wire Wire Line
+	900  2950 1400 2950
+Wire Wire Line
+	900  2850 1050 2850
+Wire Wire Line
+	900  2750 1400 2750
+Wire Wire Line
+	900  2650 1050 2650
+Wire Wire Line
+	900  2550 1400 2550
+Wire Wire Line
+	900  2450 1050 2450
+Wire Wire Line
+	900  2350 1400 2350
+Wire Wire Line
+	900  2250 1050 2250
+Text HLabel 1050 3050 2    50   Input ~ 0
 cell_1
-Text GLabel 1450 2800 2    50   Input ~ 10
+Text HLabel 1400 2950 2    50   Input ~ 0
 cell_2
-Text GLabel 1450 2600 2    50   Input ~ 10
+Text HLabel 1050 2850 2    50   Input ~ 0
+cell_3
+Text HLabel 1400 2750 2    50   Input ~ 0
 cell_4
-Text GLabel 1100 2500 2    50   Input ~ 10
+Text HLabel 1050 2650 2    50   Input ~ 0
 cell_5
-Text GLabel 1450 2400 2    50   Input ~ 10
+Text HLabel 1400 2550 2    50   Input ~ 0
 cell_6
-Text GLabel 1100 2300 2    50   Input ~ 10
+Text HLabel 1050 2450 2    50   Input ~ 0
 cell_7
-Text GLabel 1450 2200 2    50   Input ~ 10
+Text HLabel 1400 2350 2    50   Input ~ 0
 cell_8
-Text GLabel 1100 2100 2    50   Input ~ 10
+Text HLabel 1050 2250 2    50   Input ~ 0
 GND
+Wire Notes Line
+	7800 1950 7800 3950
+Wire Notes Line
+	7800 3950 9800 3950
+Wire Notes Line
+	9800 3950 9800 1950
+Wire Notes Line
+	9800 1950 7800 1950
+Text Notes 8000 2050 2    50   ~ 10
+TIVA
+Text HLabel 7700 3900 0    50   Input ~ 0
+cell_1_sense
+Text HLabel 7700 3200 0    50   Input ~ 0
+cell_8_sense
+Text HLabel 7700 3300 0    50   Input ~ 0
+cell_7_sense
+Text HLabel 7700 3400 0    50   Input ~ 0
+cell_6_sense
+Text HLabel 7700 3500 0    50   Input ~ 0
+cell_5_sense
+Text HLabel 7700 3600 0    50   Input ~ 0
+cell_4_sense
+Text HLabel 7700 3700 0    50   Input ~ 0
+cell_3_sense
+Text HLabel 7700 3800 0    50   Input ~ 0
+cell_2_sense
+Text HLabel 7800 3900 2    50   Input ~ 0
+PB4_A10
+Text HLabel 7800 3800 2    50   Input ~ 0
+PB5_A11
+Text HLabel 7800 3700 2    50   Input ~ 0
+PK0_A16
+Text HLabel 7800 3600 2    50   Input ~ 0
+PK1_A17
+Text HLabel 7800 3500 2    50   Input ~ 0
+PK2_A18
+Text HLabel 7800 3400 2    50   Input ~ 0
+PK3_A19
+Text HLabel 7800 3300 2    50   Input ~ 0
+PD4_A7
+Text HLabel 7800 3200 2    50   Input ~ 0
+PD5_A6
 Wire Wire Line
-	950  2900 1100 2900
+	7700 3200 7800 3200
 Wire Wire Line
-	950  2800 1450 2800
+	7700 3300 7800 3300
 Wire Wire Line
-	950  2700 1100 2700
+	7700 3400 7800 3400
 Wire Wire Line
-	950  2600 1450 2600
+	7700 3500 7800 3500
 Wire Wire Line
-	950  2500 1100 2500
+	7700 3600 7800 3600
 Wire Wire Line
-	950  2400 1450 2400
+	7700 3700 7800 3700
 Wire Wire Line
-	950  2300 1100 2300
+	7700 3800 7800 3800
 Wire Wire Line
-	950  2200 1450 2200
+	7700 3900 7800 3900
+Text HLabel 900  1250 0    50   Output ~ 0
+V_in
+Text HLabel 1750 1250 2    50   Output ~ 0
+GND
+Text HLabel 2100 5750 2    50   Output ~ 0
+cell_1_sense
+Text HLabel 850  5750 0    50   Input ~ 0
+cell_1
+Text HLabel 850  5650 0    50   Input ~ 0
+cell_2
+Text HLabel 850  5550 0    50   Input ~ 0
+cell_3
+Text HLabel 850  5450 0    50   Input ~ 0
+cell_4
+Text HLabel 850  5350 0    50   Input ~ 0
+cell_5
+Text HLabel 850  5250 0    50   Input ~ 0
+cell_6
+Text HLabel 850  5150 0    50   Input ~ 0
+cell_7
+Text HLabel 850  5050 0    50   Input ~ 0
+cell_8
+Text HLabel 2100 5050 2    50   Output ~ 0
+cell_8_sense
+Text HLabel 2100 5150 2    50   Output ~ 0
+cell_7_sense
+Text HLabel 2100 5250 2    50   Output ~ 0
+cell_6_sense
+Text HLabel 2100 5350 2    50   Output ~ 0
+cell_5_sense
+Text HLabel 2100 5450 2    50   Output ~ 0
+cell_4_sense
+Text HLabel 2100 5550 2    50   Output ~ 0
+cell_3_sense
+Text HLabel 2100 5650 2    50   Output ~ 0
+cell_2_sense
+Text HLabel 850  3500 0    50   Input ~ 0
+5V+
+Text HLabel 850  3600 0    50   Input ~ 0
+GND
+Wire Notes Line
+	450  600  2150 600 
+Wire Notes Line
+	450  500  2150 500 
+$Comp
+L power:+VDC #PWR?
+U 1 1 5F80802A
+P 1050 1100
+F 0 "#PWR?" H 1050 1000 50  0001 C CNN
+F 1 "+VDC" H 1050 1375 50  0000 C CNN
+F 2 "" H 1050 1100 50  0001 C CNN
+F 3 "" H 1050 1100 50  0001 C CNN
+	1    1050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-VDC #PWR?
+U 1 1 5F8089AD
+P 1600 1100
+F 0 "#PWR?" H 1600 1000 50  0001 C CNN
+F 1 "-VDC" H 1600 1375 50  0000 C CNN
+F 2 "" H 1600 1100 50  0001 C CNN
+F 3 "" H 1600 1100 50  0001 C CNN
+	1    1600 1100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	950  2100 1100 2100
+	1050 1100 1050 1250
+Wire Wire Line
+	900  1250 1050 1250
+Connection ~ 1050 1250
+Wire Wire Line
+	1050 1250 1050 1350
+Wire Wire Line
+	1600 1100 1600 1250
+Wire Wire Line
+	1600 1250 1750 1250
+Connection ~ 1600 1250
+Wire Wire Line
+	1600 1250 1600 1350
+Wire Notes Line
+	2150 500  2150 3150
+Wire Notes Line
+	2150 3150 450  3150
+Text HLabel 2550 750  0    50   Input ~ 0
+V_in
+Text HLabel 2550 850  0    50   Input ~ 0
+GND
 $Sheet
-S 2600 600  1250 2550
+S 850  3350 1250 2550
 U 5F7DC735
 F0 "CELL_FILTERS" 50
 F1 "CELL_FILTERS.sch" 50
 $EndSheet
-Text HLabel 2600 3000 0    50   Input ~ 0
-cell_1
-Text HLabel 2600 2900 0    50   Input ~ 0
-cell_2
-Text HLabel 2600 2800 0    50   Input ~ 0
-cell_3
-Text HLabel 2600 2700 0    50   Input ~ 0
-cell_4
-Text HLabel 2600 2600 0    50   Input ~ 0
-cell_5
-Text HLabel 2600 2500 0    50   Input ~ 0
-cell_6
-Text HLabel 2600 2400 0    50   Input ~ 0
-cell_7
-Text HLabel 2600 2300 0    50   Input ~ 0
-cell_8
-Text HLabel 2600 850  0    50   Input ~ 0
-GND
-Text HLabel 2600 750  0    50   Input ~ 0
-5V+
-Text HLabel 3850 3000 2    50   Output ~ 0
-cell_1_sense
-Text HLabel 3850 2900 2    50   Output ~ 0
-cell_2_sense
-Text HLabel 3850 2800 2    50   Output ~ 0
-cell_3_sense
-Text HLabel 3850 2700 2    50   Output ~ 0
-cell_4_sense
-Text HLabel 3850 2600 2    50   Output ~ 0
-cell_5_sense
-Text HLabel 3850 2500 2    50   Output ~ 0
-cell_6_sense
-Text HLabel 3850 2400 2    50   Output ~ 0
-cell_7_sense
-Text HLabel 3850 2300 2    50   Output ~ 0
-cell_8_sense
-Text Notes 650  3350 0    50   Italic 10
-change these labels to the other kind\n
+$Sheet
+S 2550 650  750  300 
+U 5F80E1AD
+F0 "CURRENT_SENSE" 50
+F1 "CURRENT_SENSE.sch" 50
+$EndSheet
+Text HLabel 3300 750  2    50   Output ~ 0
+PV
+Text HLabel 3300 850  2    50   Output ~ 0
+pack_i_sense
+Text HLabel 7700 2150 0    50   Input ~ 0
+pack_i_sense
+Text HLabel 7800 2150 2    50   Input ~ 0
+PE0_A3
+Wire Wire Line
+	7700 2150 7800 2150
 $EndSCHEMATC

@@ -1231,4 +1231,8 @@ cell_5_extension
 Text Notes 7150 5800 0    50   Italic 10
 diodes?
 Connection ~ 1400 6150
+Text Notes 7150 5550 0    50   Italic 10
+Questions: \nDiodes?\n
+Text Notes 7400 7750 2    79   ~ 16
+Cell Filters
 $EndSCHEMATC

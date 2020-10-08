@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -1233,4 +1233,6 @@ diodes?
 Connection ~ 1400 6150
 Text Notes 7150 5550 0    50   Italic 10
 Questions: \nDiodes?\n
+Text Notes 7400 7750 2    79   ~ 16
+Cell Filters
 $EndSCHEMATC
