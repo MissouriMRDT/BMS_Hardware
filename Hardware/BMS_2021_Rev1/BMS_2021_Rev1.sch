@@ -84,64 +84,24 @@ Text HLabel 1400 2350 2    50   Input ~ 0
 cell_8
 Text HLabel 1050 2250 2    50   Input ~ 0
 GND
-Wire Notes Line
-	7800 1950 7800 3950
-Wire Notes Line
-	7800 3950 9800 3950
-Wire Notes Line
-	9800 3950 9800 1950
-Wire Notes Line
-	9800 1950 7800 1950
-Text Notes 8000 2050 2    50   ~ 10
+Text Notes 6950 700  2    50   ~ 10
 TIVA
-Text HLabel 7700 3900 0    50   Input ~ 0
+Text HLabel 7600 3700 0    50   Input ~ 0
 cell_1_sense
-Text HLabel 7700 3200 0    50   Input ~ 0
+Text HLabel 8500 3500 2    50   Input ~ 0
 cell_8_sense
-Text HLabel 7700 3300 0    50   Input ~ 0
+Text HLabel 8500 3400 2    50   Input ~ 0
 cell_7_sense
-Text HLabel 7700 3400 0    50   Input ~ 0
+Text HLabel 7600 3200 0    50   Input ~ 0
 cell_6_sense
-Text HLabel 7700 3500 0    50   Input ~ 0
+Text HLabel 7600 3300 0    50   Input ~ 0
 cell_5_sense
-Text HLabel 7700 3600 0    50   Input ~ 0
+Text HLabel 7600 3400 0    50   Input ~ 0
 cell_4_sense
-Text HLabel 7700 3700 0    50   Input ~ 0
+Text HLabel 7600 3500 0    50   Input ~ 0
 cell_3_sense
-Text HLabel 7700 3800 0    50   Input ~ 0
+Text HLabel 7600 3600 0    50   Input ~ 0
 cell_2_sense
-Text HLabel 7800 3900 2    50   Input ~ 0
-PB4_A10
-Text HLabel 7800 3800 2    50   Input ~ 0
-PB5_A11
-Text HLabel 7800 3700 2    50   Input ~ 0
-PK0_A16
-Text HLabel 7800 3600 2    50   Input ~ 0
-PK1_A17
-Text HLabel 7800 3500 2    50   Input ~ 0
-PK2_A18
-Text HLabel 7800 3400 2    50   Input ~ 0
-PK3_A19
-Text HLabel 7800 3300 2    50   Input ~ 0
-PD4_A7
-Text HLabel 7800 3200 2    50   Input ~ 0
-PD5_A6
-Wire Wire Line
-	7700 3200 7800 3200
-Wire Wire Line
-	7700 3300 7800 3300
-Wire Wire Line
-	7700 3400 7800 3400
-Wire Wire Line
-	7700 3500 7800 3500
-Wire Wire Line
-	7700 3600 7800 3600
-Wire Wire Line
-	7700 3700 7800 3700
-Wire Wire Line
-	7700 3800 7800 3800
-Wire Wire Line
-	7700 3900 7800 3900
 Text HLabel 900  1250 0    50   Output ~ 0
 V_in
 Text HLabel 1750 1250 2    50   Output ~ 0
@@ -246,12 +206,8 @@ Text HLabel 3300 750  2    50   Output ~ 0
 PV
 Text HLabel 3300 850  2    50   Output ~ 0
 pack_i_sense
-Text HLabel 7700 2150 0    50   Input ~ 0
+Text HLabel 8500 1600 2    50   Input ~ 0
 pack_i_sense
-Text HLabel 7800 2150 2    50   Input ~ 0
-PE0_A3
-Wire Wire Line
-	7700 2150 7800 2150
 $Sheet
 S 2550 1350 750  300 
 U 5F7FDD72
@@ -324,4 +280,52 @@ F1 "FANS.sch" 50
 $EndSheet
 Text Notes 1100 6350 0    50   ~ 0
 ENTER RESISTOR VALUES\n
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 6 1 5F7FD340
+P 7800 3950
+F 0 "U?" H 7850 3900 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 7550 3800 60  0000 L CNN
+F 2 "" H 7800 3950 60  0001 C CNN
+F 3 "" H 7800 3950 60  0001 C CNN
+	6    7800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 5 1 5F805ECA
+P 8300 2950
+F 0 "U?" H 8400 2900 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 8550 2800 60  0000 C CNN
+F 2 "" H 8300 2950 60  0001 C CNN
+F 3 "" H 8300 2950 60  0001 C CNN
+	5    8300 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 1 1 5F814779
+P 7800 1850
+F 0 "U?" H 7800 1800 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 7600 1700 60  0000 L CNN
+F 2 "" H 7800 1850 60  0001 C CNN
+F 3 "" H 7800 1850 60  0001 C CNN
+	1    7800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 2 1 5F81CC17
+P 8300 850
+F 0 "U?" H 8400 800 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 8500 700 60  0000 C CNN
+F 2 "" H 8300 850 60  0001 C CNN
+F 3 "" H 8300 850 60  0001 C CNN
+	2    8300 850 
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	6650 500  6650 6700
+Wire Notes Line
+	6650 6700 7250 6700
 $EndSCHEMATC
