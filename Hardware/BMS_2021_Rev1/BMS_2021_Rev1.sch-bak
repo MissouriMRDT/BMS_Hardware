@@ -84,7 +84,7 @@ Text HLabel 1400 2350 2    50   Input ~ 0
 cell_8
 Text HLabel 1050 2250 2    50   Input ~ 0
 GND
-Text Notes 5850 3400 2    50   ~ 10
+Text Notes 6950 700  2    50   ~ 10
 TIVA
 Text HLabel 7600 3700 0    50   Input ~ 0
 cell_1_sense
@@ -234,8 +234,6 @@ F1 "3V3_BUCK.sch" 50
 $EndSheet
 Text Notes 3550 1500 0    50   ~ 0
 not done
-Text Notes 3600 2250 0    50   ~ 0
-not done
 $Sheet
 S 2550 2650 1200 850 
 U 5F801232
@@ -324,4 +322,8 @@ F 3 "" H 8300 850 60  0001 C CNN
 	2    8300 850 
 	-1   0    0    1   
 $EndComp
+Wire Notes Line
+	6650 500  6650 6700
+Wire Notes Line
+	6650 6700 7250 6700
 $EndSCHEMATC

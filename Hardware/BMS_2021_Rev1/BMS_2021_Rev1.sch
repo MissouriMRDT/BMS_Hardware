@@ -234,8 +234,6 @@ F1 "3V3_BUCK.sch" 50
 $EndSheet
 Text Notes 3550 1500 0    50   ~ 0
 not done
-Text Notes 3600 2250 0    50   ~ 0
-not done
 $Sheet
 S 2550 2650 1200 850 
 U 5F801232
@@ -328,4 +326,21 @@ Wire Notes Line
 	6650 500  6650 6700
 Wire Notes Line
 	6650 6700 7250 6700
+Text HLabel 4850 3450 0    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR?
+U 1 1 5F843586
+P 5150 3650
+F 0 "#PWR?" H 5150 3400 50  0001 C CNN
+F 1 "GND" H 5155 3477 50  0000 C CNN
+F 2 "" H 5150 3650 50  0001 C CNN
+F 3 "" H 5150 3650 50  0001 C CNN
+	1    5150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3450 5150 3450
+Wire Wire Line
+	5150 3450 5150 3650
 $EndSCHEMATC

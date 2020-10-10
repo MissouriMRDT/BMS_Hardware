@@ -13,4 +13,220 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MRDT_Devices:LM2576D2TR4 U?
+U 1 1 5F81E7A3
+P 3950 2900
+F 0 "U?" H 3950 3325 50  0000 C CNN
+F 1 "LM2576D2TR4" H 3950 3234 50  0000 C CNN
+F 2 "" H 3950 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 3950 3350 50  0001 C CNN
+F 4 "https://www.ti.com/lit/ds/symlink/lm2576.pdf?ts=1602173146469&ref_url=https%253A%252F%252Fwww.google.com%252F" H 3950 2900 50  0001 C CNN "Datasheet"
+	1    3950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2700 3000 2700
+Wire Wire Line
+	3000 2850 3450 2850
+Wire Wire Line
+	3450 3000 3000 3000
+Wire Wire Line
+	3000 2700 3000 2850
+Wire Wire Line
+	3000 2850 3000 3000
+Connection ~ 3000 2850
+Wire Wire Line
+	3000 3000 3000 3100
+Connection ~ 3000 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5F81FCA9
+P 3000 3100
+F 0 "#PWR?" H 3000 2850 50  0001 C CNN
+F 1 "GND" H 3005 2927 50  0000 C CNN
+F 2 "" H 3000 3100 50  0001 C CNN
+F 3 "" H 3000 3100 50  0001 C CNN
+	1    3000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2700 4600 2700
+Wire Wire Line
+	4600 2700 4600 2400
+Wire Wire Line
+	4600 2400 4750 2400
+Connection ~ 4600 2400
+$Comp
+L Device:C C?
+U 1 1 5F820126
+P 4900 2400
+F 0 "C?" V 4648 2400 50  0000 C CNN
+F 1 "100uF" V 4739 2400 50  0000 C CNN
+F 2 "" H 4938 2250 50  0001 C CNN
+F 3 "~" H 4900 2400 50  0001 C CNN
+	1    4900 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2400 5250 2400
+Wire Wire Line
+	5250 2400 5250 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5F821270
+P 5250 2450
+F 0 "#PWR?" H 5250 2200 50  0001 C CNN
+F 1 "GND" H 5255 2277 50  0000 C CNN
+F 2 "" H 5250 2450 50  0001 C CNN
+F 3 "" H 5250 2450 50  0001 C CNN
+	1    5250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2150 4600 2400
+Text HLabel 4600 2150 1    50   Input ~ 0
+PV
+Wire Wire Line
+	4450 2850 4700 2850
+Wire Wire Line
+	5050 2850 5100 2850
+Wire Wire Line
+	5100 3400 5100 2850
+Connection ~ 5100 2850
+$Comp
+L Device:L L?
+U 1 1 5F822146
+P 4900 2850
+F 0 "L?" V 4719 2850 50  0000 C CNN
+F 1 "100uH" V 4810 2850 50  0000 C CNN
+F 2 "" H 4900 2850 50  0001 C CNN
+F 3 "~" H 4900 2850 50  0001 C CNN
+	1    4900 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F822CD7
+P 4700 3000
+F 0 "D?" V 4654 3080 50  0000 L CNN
+F 1 "D_Schottky" V 4745 3080 50  0000 L CNN
+F 2 "" H 4700 3000 50  0001 C CNN
+F 3 "~" H 4700 3000 50  0001 C CNN
+	1    4700 3000
+	0    1    1    0   
+$EndComp
+Connection ~ 4700 2850
+Wire Wire Line
+	4700 2850 4750 2850
+Wire Wire Line
+	4500 3400 4500 3000
+Wire Wire Line
+	4500 3000 4450 3000
+Wire Wire Line
+	4500 3400 5100 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5F823CA3
+P 4700 3150
+F 0 "#PWR?" H 4700 2900 50  0001 C CNN
+F 1 "GND" H 4705 2977 50  0000 C CNN
+F 2 "" H 4700 3150 50  0001 C CNN
+F 3 "" H 4700 3150 50  0001 C CNN
+	1    4700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2850 5350 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5F8244A1
+P 6950 2950
+F 0 "#PWR?" H 6950 2700 50  0001 C CNN
+F 1 "GND" H 6955 2777 50  0000 C CNN
+F 2 "" H 6950 2950 50  0001 C CNN
+F 3 "" H 6950 2950 50  0001 C CNN
+	1    6950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3150 5350 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5F824760
+P 5350 3300
+F 0 "#PWR?" H 5350 3050 50  0001 C CNN
+F 1 "GND" H 5355 3127 50  0000 C CNN
+F 2 "" H 5350 3300 50  0001 C CNN
+F 3 "" H 5350 3300 50  0001 C CNN
+	1    5350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8249A5
+P 5350 3000
+F 0 "C?" H 5500 3000 50  0000 L CNN
+F 1 "1000uF" H 5450 2900 50  0000 L CNN
+F 2 "" H 5388 2850 50  0001 C CNN
+F 3 "~" H 5350 3000 50  0001 C CNN
+	1    5350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2850 5700 2700
+Wire Wire Line
+	5700 2850 5850 2850
+Wire Wire Line
+	6950 2850 6950 2950
+Wire Wire Line
+	5850 2850 5850 2900
+Connection ~ 5850 2850
+Wire Wire Line
+	5850 2850 6150 2850
+$Comp
+L MRDT_Connectors:Test_Point J?
+U 1 1 5F8265FE
+P 5850 2900
+F 0 "J?" H 5750 3100 60  0000 R CNN
+F 1 "Test_Point" H 5800 3200 60  0000 R CNN
+F 2 "" H 5850 2850 60  0001 C CNN
+F 3 "" H 5850 2850 60  0001 C CNN
+	1    5850 2900
+	-1   0    0    1   
+$EndComp
+Text HLabel 5700 2700 1    50   Output ~ 0
+3V3
+$Comp
+L Device:R R?
+U 1 1 5F829685
+P 6700 2850
+F 0 "R?" V 6493 2850 50  0000 C CNN
+F 1 "330" V 6584 2850 50  0000 C CNN
+F 2 "" V 6630 2850 50  0001 C CNN
+F 3 "~" H 6700 2850 50  0001 C CNN
+	1    6700 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 2850 6850 2850
+Wire Wire Line
+	6550 2850 6450 2850
+$Comp
+L Device:LED D?
+U 1 1 5F8286FC
+P 6300 2850
+F 0 "D?" H 6300 2500 50  0000 C CNN
+F 1 "LED" H 6300 2600 50  0000 C CNN
+F 2 "" H 6300 2850 50  0001 C CNN
+F 3 "~" H 6300 2850 50  0001 C CNN
+	1    6300 2850
+	-1   0    0    1   
+$EndComp
+Text Notes 6200 2750 0    50   ~ 0
+Green
+Wire Wire Line
+	5350 2850 5700 2850
+Connection ~ 5350 2850
+Connection ~ 5700 2850
 $EndSCHEMATC
