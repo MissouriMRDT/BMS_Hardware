@@ -139,7 +139,7 @@ cell_3_sense
 Text HLabel 2100 5650 2    50   Output ~ 0
 cell_2_sense
 Text HLabel 850  3500 0    50   Input ~ 0
-5V+
+PV
 Text HLabel 850  3600 0    50   Input ~ 0
 GND
 Wire Notes Line
@@ -251,12 +251,6 @@ not done
 Text Notes 3800 4300 0    50   ~ 0
 not done
 $Sheet
-S 4400 1350 750  300 
-U 5F803423
-F0 "sheet5F80341A" 50
-F1 "5V_BUCK.sch" 50
-$EndSheet
-$Sheet
 S 4400 2050 750  300 
 U 5F80342B
 F0 "sheet5F80341B" 50
@@ -343,4 +337,10 @@ Wire Wire Line
 	4850 3450 5150 3450
 Wire Wire Line
 	5150 3450 5150 3650
+$Sheet
+S 4400 1350 750  300 
+U 5F803423
+F0 "TEMP_SENSE" 50
+F1 "TEMP_SENSE.sch" 50
+$EndSheet
 $EndSCHEMATC
