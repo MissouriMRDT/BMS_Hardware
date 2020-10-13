@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 4 10
 Title ""
@@ -211,9 +211,25 @@ Wire Wire Line
 	5850 1900 5850 1800
 Connection ~ 5850 1800
 Wire Wire Line
-	5850 1800 6100 1800
+	5850 1800 5950 1800
 Text HLabel 6100 1800 2    50   Output ~ 0
 5V
 Text Notes 6400 2800 0    50   ~ 0
 Rtop/Rbot = Vout/Vref -1\n= 5/1.23 -1 *1.23 per LM2576 datasheet*\n=3.065
+$Comp
+L MRDT_Connectors:Test_Point J?
+U 1 1 5F861743
+P 5950 1650
+F 0 "J?" H 6028 1795 60  0000 L CNN
+F 1 "Test_Point" H 6028 1689 60  0000 L CNN
+F 2 "" H 5950 1600 60  0001 C CNN
+F 3 "" H 5950 1600 60  0001 C CNN
+	1    5950 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1650 5950 1800
+Connection ~ 5950 1800
+Wire Wire Line
+	5950 1800 6100 1800
 $EndSCHEMATC

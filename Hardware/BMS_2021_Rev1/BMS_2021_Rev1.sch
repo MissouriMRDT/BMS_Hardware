@@ -139,7 +139,7 @@ cell_3_sense
 Text HLabel 2100 5650 2    50   Output ~ 0
 cell_2_sense
 Text HLabel 850  3500 0    50   Input ~ 0
-PV
+5V
 Text HLabel 850  3600 0    50   Input ~ 0
 GND
 Wire Notes Line
@@ -206,8 +206,6 @@ Text HLabel 3300 750  2    50   Output ~ 0
 PV
 Text HLabel 3300 850  2    50   Output ~ 0
 pack_i_sense
-Text HLabel 8500 1600 2    50   Input ~ 0
-pack_i_sense
 $Sheet
 S 2550 1350 750  300 
 U 5F7FDD72
@@ -233,7 +231,7 @@ F0 "3V3_BUCK" 50
 F1 "3V3_BUCK.sch" 50
 $EndSheet
 Text Notes 3550 1500 0    50   ~ 0
-not done
+R values needed\n
 $Sheet
 S 2550 2650 1200 850 
 U 5F801232
@@ -250,26 +248,12 @@ Text Notes 3850 3100 0    50   ~ 0
 not done
 Text Notes 3800 4300 0    50   ~ 0
 not done
-$Sheet
-S 4400 2050 750  300 
-U 5F80342B
-F0 "sheet5F80341B" 50
-F1 "3V3_BUCK.sch" 50
-$EndSheet
 Text Notes 5400 1500 0    50   ~ 0
 not done
 Text Notes 5450 2250 0    50   ~ 0
 not done
 Text HLabel 2550 800  0    50   Input ~ 0
 5V
-Text Notes 5400 800  0    50   ~ 0
-not done
-$Sheet
-S 4400 650  750  300 
-U 5F80341F
-F0 "FANS" 50
-F1 "FANS.sch" 50
-$EndSheet
 Text Notes 1100 6350 0    50   ~ 0
 ENTER RESISTOR VALUES\n
 $Comp
@@ -298,23 +282,12 @@ $Comp
 L MRDT_Shields:TM4C129E_Launchpad U?
 U 1 1 5F814779
 P 7800 1850
-F 0 "U?" H 7800 1800 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 7600 1700 60  0000 L CNN
+F 0 "U?" H 7850 1700 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 7600 1800 60  0000 L CNN
 F 2 "" H 7800 1850 60  0001 C CNN
 F 3 "" H 7800 1850 60  0001 C CNN
 	1    7800 1850
 	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
-U 2 1 5F81CC17
-P 8300 850
-F 0 "U?" H 8400 800 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 8500 700 60  0000 C CNN
-F 2 "" H 8300 850 60  0001 C CNN
-F 3 "" H 8300 850 60  0001 C CNN
-	2    8300 850 
-	-1   0    0    1   
 $EndComp
 Wire Notes Line
 	6650 500  6650 6700
@@ -343,4 +316,79 @@ U 5F803423
 F0 "TEMP_SENSE" 50
 F1 "TEMP_SENSE.sch" 50
 $EndSheet
+Text HLabel 4400 700  0    50   Input ~ 0
+5V
+Text HLabel 4400 900  0    50   Input ~ 0
+GND
+Text HLabel 4400 800  0    50   Input ~ 0
+fan_control
+Text HLabel 4850 3250 0    50   Input ~ 0
+5V
+$Comp
+L power:+5V #PWR?
+U 1 1 5F86F576
+P 5000 3100
+F 0 "#PWR?" H 5000 2950 50  0001 C CNN
+F 1 "+5V" H 5015 3273 50  0000 C CNN
+F 2 "" H 5000 3100 50  0001 C CNN
+F 3 "" H 5000 3100 50  0001 C CNN
+	1    5000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3250 5000 3250
+Wire Wire Line
+	5000 3250 5000 3100
+Text HLabel 5350 3250 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	5350 3250 5500 3250
+Wire Wire Line
+	5500 3250 5500 3100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F870EB9
+P 5500 3100
+F 0 "#PWR?" H 5500 2950 50  0001 C CNN
+F 1 "+3V3" H 5515 3273 50  0000 C CNN
+F 2 "" H 5500 3100 50  0001 C CNN
+F 3 "" H 5500 3100 50  0001 C CNN
+	1    5500 3100
+	1    0    0    -1  
+$EndComp
+Text HLabel 8550 1100 2    50   Input ~ 0
+pack_i_sense
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 2 1 5F81CC17
+P 8350 1850
+F 0 "U?" H 8450 3100 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 8600 3000 60  0000 C CNN
+F 2 "" H 8350 1850 60  0001 C CNN
+F 3 "" H 8350 1850 60  0001 C CNN
+	2    8350 1850
+	-1   0    0    -1  
+$EndComp
+Text HLabel 8550 1200 2    50   Output ~ 0
+fan_control
+$Sheet
+S 4400 2050 750  300 
+U 5F80342B
+F0 "FB_LED_BUZZ" 50
+F1 "FEEDBACK_LED_BUZZ.sch" 50
+$EndSheet
+$Sheet
+S 4400 650  750  300 
+U 5F80341F
+F0 "FANS" 50
+F1 "FANS.sch" 50
+$EndSheet
+Text HLabel 4400 2200 0    50   Input ~ 0
+buzzer_control
+Text HLabel 8550 1300 2    50   Output ~ 0
+buzzer_control
+Text HLabel 4400 2100 0    50   Input ~ 0
+5V
+Text HLabel 4400 2300 0    50   Input ~ 0
+GND
 $EndSCHEMATC

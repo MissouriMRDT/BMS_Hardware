@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 3 10
 Title ""
@@ -97,22 +97,18 @@ Wire Wire Line
 Wire Wire Line
 	2300 1150 2400 1150
 Wire Wire Line
-	1900 1600 1800 1600
-Wire Wire Line
-	1800 1600 1800 1650
-Wire Wire Line
 	2500 1600 2700 1600
 Text HLabel 2700 1600 2    50   Input ~ 0
-PV
+5V
 $Comp
 L power:GND #PWR?
 U 1 1 5F83E3C7
-P 1800 1650
-F 0 "#PWR?" H 1800 1400 50  0001 C CNN
-F 1 "GND" H 1805 1477 50  0000 C CNN
-F 2 "" H 1800 1650 50  0001 C CNN
-F 3 "" H 1800 1650 50  0001 C CNN
-	1    1800 1650
+P 1750 1650
+F 0 "#PWR?" H 1750 1400 50  0001 C CNN
+F 1 "GND" H 1650 1650 50  0000 C CNN
+F 2 "" H 1750 1650 50  0001 C CNN
+F 3 "" H 1750 1650 50  0001 C CNN
+	1    1750 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -170,14 +166,25 @@ F 3 "" H 2200 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:OPAMP U?
-U 1 1 5F835DEC
+L Amplifier_Current:INA181 U?
+U 1 1 5F85CDFE
 P 2200 1700
 F 0 "U?" V 2154 2044 50  0000 L CNN
-F 1 "OPAMP" V 2245 2044 50  0000 L CNN
-F 2 "" H 2200 1700 50  0001 C CNN
-F 3 "~" H 2200 1700 50  0001 C CNN
+F 1 "INA181" V 2245 2044 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2250 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina181.pdf" H 2350 1850 50  0001 C CNN
 	1    2200 1700
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1900 1600 1850 1600
+Wire Wire Line
+	1750 1600 1750 1650
+Wire Wire Line
+	1900 1800 1850 1800
+Wire Wire Line
+	1850 1800 1850 1600
+Connection ~ 1850 1600
+Wire Wire Line
+	1750 1600 1850 1600
 $EndSCHEMATC
