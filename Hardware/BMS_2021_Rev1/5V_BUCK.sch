@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,207 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MRDT_Devices:LM2576D2TR4 U?
+U 1 1 5F8571AC
+P 3900 1850
+F 0 "U?" H 3900 2275 50  0000 C CNN
+F 1 "LM2576D2TR4" H 3900 2184 50  0000 C CNN
+F 2 "" H 3900 2300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 3900 2300 50  0001 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1650 3000 1650
+Wire Wire Line
+	3000 1650 3000 1800
+Wire Wire Line
+	3000 1800 3400 1800
+Wire Wire Line
+	3000 1800 3000 1950
+Wire Wire Line
+	3000 1950 3400 1950
+Connection ~ 3000 1800
+Wire Wire Line
+	3000 1950 3000 2000
+Connection ~ 3000 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5F857833
+P 3000 2000
+F 0 "#PWR?" H 3000 1750 50  0001 C CNN
+F 1 "GND" H 3005 1827 50  0000 C CNN
+F 2 "" H 3000 2000 50  0001 C CNN
+F 3 "" H 3000 2000 50  0001 C CNN
+	1    3000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1650 4500 1650
+Wire Wire Line
+	4500 1150 4650 1150
+Wire Wire Line
+	4650 1150 4650 1200
+Connection ~ 4500 1150
+Wire Wire Line
+	4500 1150 4500 1050
+$Comp
+L Device:C C?
+U 1 1 5F857E1E
+P 4650 1350
+F 0 "C?" H 4765 1396 50  0000 L CNN
+F 1 "100uF" H 4765 1305 50  0000 L CNN
+F 2 "" H 4688 1200 50  0001 C CNN
+F 3 "~" H 4650 1350 50  0001 C CNN
+	1    4650 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1150 4500 1650
+$Comp
+L power:GND #PWR?
+U 1 1 5F8585AC
+P 4650 1550
+F 0 "#PWR?" H 4650 1300 50  0001 C CNN
+F 1 "GND" H 4800 1500 50  0001 C CNN
+F 2 "" H 4650 1550 50  0001 C CNN
+F 3 "" H 4650 1550 50  0001 C CNN
+	1    4650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1550 4650 1500
+Text HLabel 4500 1050 1    50   Input ~ 0
+PV
+Wire Wire Line
+	5200 1800 5300 1800
+$Comp
+L Device:L L?
+U 1 1 5F858CDF
+P 5050 1800
+F 0 "L?" V 5224 1800 50  0000 C CNN
+F 1 "100uH" V 5130 1800 39  0000 C CNN
+F 2 "" H 5050 1800 50  0001 C CNN
+F 3 "~" H 5050 1800 50  0001 C CNN
+	1    5050 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 1800 5300 1950
+$Comp
+L Device:C C?
+U 1 1 5F859DD2
+P 5300 2100
+F 0 "C?" H 5100 2100 50  0000 L CNN
+F 1 "1000uF" H 4950 2000 50  0000 L CNN
+F 2 "" H 5338 1950 50  0001 C CNN
+F 3 "~" H 5300 2100 50  0001 C CNN
+	1    5300 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2250 5300 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5F85A557
+P 5300 2350
+F 0 "#PWR?" H 5300 2100 50  0001 C CNN
+F 1 "GND" H 5305 2177 50  0000 C CNN
+F 2 "" H 5300 2350 50  0001 C CNN
+F 3 "" H 5300 2350 50  0001 C CNN
+	1    5300 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1950 4500 1950
+Text GLabel 4500 1950 2    50   Output ~ 0
+FB
+Wire Wire Line
+	4400 1800 4800 1800
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F85CA3F
+P 4800 2100
+F 0 "D?" V 4750 1950 50  0000 L CNN
+F 1 "D_Schottky" V 4850 1600 50  0000 L CNN
+F 2 "" H 4800 2100 50  0001 C CNN
+F 3 "~" H 4800 2100 50  0001 C CNN
+	1    4800 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 1950 4800 1800
+Connection ~ 4800 1800
+Wire Wire Line
+	4800 1800 4900 1800
+Wire Wire Line
+	4800 2250 4800 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5F85E1FF
+P 4800 2350
+F 0 "#PWR?" H 4800 2100 50  0001 C CNN
+F 1 "GND" H 4805 2177 50  0000 C CNN
+F 2 "" H 4800 2350 50  0001 C CNN
+F 3 "" H 4800 2350 50  0001 C CNN
+	1    4800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F85E996
+P 5850 2450
+F 0 "R?" H 5920 2496 50  0000 L CNN
+F 1 "R" H 5920 2405 50  0000 L CNN
+F 2 "" V 5780 2450 50  0001 C CNN
+F 3 "~" H 5850 2450 50  0001 C CNN
+	1    5850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F85EE82
+P 5850 2050
+F 0 "R?" H 5920 2096 50  0000 L CNN
+F 1 "R" H 5920 2005 50  0000 L CNN
+F 2 "" V 5780 2050 50  0001 C CNN
+F 3 "~" H 5850 2050 50  0001 C CNN
+	1    5850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2300 5850 2250
+Wire Wire Line
+	5850 2600 5850 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5F86171B
+P 5850 2700
+F 0 "#PWR?" H 5850 2450 50  0001 C CNN
+F 1 "GND" H 5855 2527 50  0000 C CNN
+F 2 "" H 5850 2700 50  0001 C CNN
+F 3 "" H 5850 2700 50  0001 C CNN
+	1    5850 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 1800
+Wire Wire Line
+	5850 2250 5700 2250
+Connection ~ 5850 2250
+Wire Wire Line
+	5850 2250 5850 2200
+Text GLabel 5700 2250 0    50   Input ~ 0
+FB
+Wire Wire Line
+	5300 1800 5850 1800
+Wire Wire Line
+	5850 1900 5850 1800
+Connection ~ 5850 1800
+Wire Wire Line
+	5850 1800 6100 1800
+Text HLabel 6100 1800 2    50   Output ~ 0
+5V
+Text Notes 6400 2800 0    50   ~ 0
+Rtop/Rbot = Vout/Vref -1\n= 5/1.23 -1 *1.23 per LM2576 datasheet*\n=3.065
 $EndSCHEMATC
