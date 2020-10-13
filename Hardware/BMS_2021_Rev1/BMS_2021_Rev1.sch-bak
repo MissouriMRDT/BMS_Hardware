@@ -231,7 +231,7 @@ F0 "3V3_BUCK" 50
 F1 "3V3_BUCK.sch" 50
 $EndSheet
 Text Notes 3550 1500 0    50   ~ 0
-not done
+R values needed\n
 $Sheet
 S 2550 2650 1200 850 
 U 5F801232
