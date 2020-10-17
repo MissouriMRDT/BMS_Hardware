@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -140,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 2300 1900 2300
 Wire Wire Line
-	2200 2500 2200 2750
+	2200 2500 2200 2650
 $Comp
 L Device:R R?
 U 1 1 5F85658D
@@ -180,4 +180,11 @@ F 3 "https://www.ti.com/product/INA281" H 2450 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1750 1600 1900 1600
+Wire Wire Line
+	2200 2650 2525 2650
+Connection ~ 2200 2650
+Wire Wire Line
+	2200 2650 2200 2750
+Text HLabel 2525 2650 2    50   Output ~ 0
+pack_i_sense
 $EndSCHEMATC

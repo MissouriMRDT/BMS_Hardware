@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 9 10
+Sheet 6 11
 Title ""
 Date ""
 Rev ""
@@ -28,17 +28,6 @@ Wire Wire Line
 	1850 1600 2000 1600
 Wire Wire Line
 	2000 1600 2000 1350
-$Comp
-L power:+5V #PWR?
-U 1 1 5F889D03
-P 2000 1350
-F 0 "#PWR?" H 2000 1200 50  0001 C CNN
-F 1 "+5V" H 2015 1523 50  0000 C CNN
-F 2 "" H 2000 1350 50  0001 C CNN
-F 3 "" H 2000 1350 50  0001 C CNN
-	1    2000 1350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:Q_NMOS_DGS Q?
 U 1 1 5F88DE82
@@ -100,4 +89,6 @@ Wire Wire Line
 	1850 1700 2500 1700
 Text HLabel 2600 2150 0    50   Input ~ 0
 buzzer_control
+Text HLabel 2000 1350 1    50   Input ~ 0
+5V
 $EndSCHEMATC

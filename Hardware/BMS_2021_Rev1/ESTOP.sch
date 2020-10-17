@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 6 10
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,165 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 5F8B7AE9
+P 2850 2500
+F 0 "U?" H 3225 3187 60  0000 C CNN
+F 1 "LT1910" H 3225 3081 60  0000 C CNN
+F 2 "" H 2850 2500 60  0001 C CNN
+F 3 "" H 2850 2500 60  0001 C CNN
+	1    2850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2250 2400 2250
+Wire Wire Line
+	2400 2250 2400 2100
+Wire Wire Line
+	2400 2100 2650 2100
+Wire Wire Line
+	2400 2100 2400 1900
+Wire Wire Line
+	2400 1900 2250 1900
+Wire Wire Line
+	1900 1900 1900 2050
+Connection ~ 2400 2100
+Wire Wire Line
+	2250 1900 2250 1800
+Wire Wire Line
+	2250 1800 2300 1800
+Connection ~ 2250 1900
+Wire Wire Line
+	2250 1900 1900 1900
+$Comp
+L Device:C C?
+U 1 1 5F8B88FB
+P 1900 2200
+F 0 "C?" H 2015 2246 50  0000 L CNN
+F 1 "10uF" H 2015 2155 50  0000 L CNN
+F 2 "" H 1938 2050 50  0001 C CNN
+F 3 "~" H 1900 2200 50  0001 C CNN
+	1    1900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2350 1900 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5F8B8E29
+P 1900 2450
+F 0 "#PWR?" H 1900 2200 50  0001 C CNN
+F 1 "GND" H 1905 2277 50  0000 C CNN
+F 2 "" H 1900 2450 50  0001 C CNN
+F 3 "" H 1900 2450 50  0001 C CNN
+	1    1900 2450
+	1    0    0    -1  
+$EndComp
+Text HLabel 2300 1800 2    50   Input ~ 0
+PV
+Text HLabel 2650 2400 0    50   Output ~ 0
+E_STOP_GATE
+Wire Wire Line
+	3250 2950 4000 2950
+Connection ~ 4000 2950
+$Comp
+L Device:R R?
+U 1 1 5F8B9A73
+P 4000 2650
+F 0 "R?" H 4050 2650 50  0000 L CNN
+F 1 "10k" V 4000 2600 39  0000 L CNN
+F 2 "" V 3930 2650 50  0001 C CNN
+F 3 "~" H 4000 2650 50  0001 C CNN
+	1    4000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2800 4000 2950
+$Comp
+L MRDT_Connectors:Molex_SL_04 Conn?
+U 1 1 5F8BA191
+P 5350 1900
+F 0 "Conn?" V 5345 1872 60  0000 R CNN
+F 1 "Molex_SL_04" V 5239 1872 60  0000 R CNN
+F 2 "" H 5350 1900 60  0001 C CNN
+F 3 "" H 5350 1900 60  0001 C CNN
+	1    5350 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 2250 5000 2100
+Wire Wire Line
+	5100 2100 5100 2350
+Text HLabel 4850 2350 0    50   Input ~ 0
+pack_gate
+Wire Wire Line
+	4000 2950 5200 2950
+Wire Wire Line
+	3250 2700 3250 2950
+Wire Wire Line
+	4000 2500 4000 2250
+Wire Wire Line
+	3800 2250 4000 2250
+Connection ~ 4000 2250
+Wire Wire Line
+	4000 2250 5000 2250
+Wire Wire Line
+	5200 2100 5200 2500
+Connection ~ 5200 2950
+Wire Wire Line
+	5200 2950 5300 2950
+Wire Wire Line
+	5300 2950 5300 2100
+$Comp
+L Device:R R?
+U 1 1 5F8BD200
+P 5200 2700
+F 0 "R?" H 5040 2700 50  0000 L CNN
+F 1 "10k" V 5200 2650 39  0000 L CNN
+F 2 "" V 5130 2700 50  0001 C CNN
+F 3 "~" H 5200 2700 50  0001 C CNN
+	1    5200 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2850 5200 2950
+Wire Wire Line
+	5100 2500 5200 2500
+Connection ~ 5200 2500
+Wire Wire Line
+	5200 2500 5200 2550
+Wire Wire Line
+	4800 2500 4700 2500
+Wire Wire Line
+	5100 2350 4850 2350
+$Comp
+L Device:R R?
+U 1 1 5F8BD8B6
+P 4950 2500
+F 0 "R?" V 4850 2450 50  0000 L CNN
+F 1 "4k" V 4950 2460 39  0000 L CNN
+F 2 "" V 4880 2500 50  0001 C CNN
+F 3 "~" H 4950 2500 50  0001 C CNN
+	1    4950 2500
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3800 2100
+NoConn ~ 3800 2400
+Text HLabel 4700 2500 0    50   Output ~ 0
+V_out
+Wire Wire Line
+	3250 2950 3250 3050
+Connection ~ 3250 2950
+$Comp
+L power:GND #PWR?
+U 1 1 5F8C9892
+P 3250 3050
+F 0 "#PWR?" H 3250 2800 50  0001 C CNN
+F 1 "GND" H 3255 2877 50  0000 C CNN
+F 2 "" H 3250 3050 50  0001 C CNN
+F 3 "" H 3250 3050 50  0001 C CNN
+	1    3250 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

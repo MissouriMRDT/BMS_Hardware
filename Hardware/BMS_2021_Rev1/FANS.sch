@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 10 10
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -70,56 +70,12 @@ Wire Wire Line
 	3050 2350 3450 2350
 Wire Wire Line
 	2300 2000 2400 2000
-$Comp
-L power:+5V #PWR?
-U 1 1 5F873378
-P 2400 2000
-F 0 "#PWR?" H 2400 1850 50  0001 C CNN
-F 1 "+5V" V 2415 2128 50  0000 L CNN
-F 2 "" H 2400 2000 50  0001 C CNN
-F 3 "" H 2400 2000 50  0001 C CNN
-	1    2400 2000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2300 2200 2400 2200
-$Comp
-L power:+5V #PWR?
-U 1 1 5F873113
-P 2400 2200
-F 0 "#PWR?" H 2400 2050 50  0001 C CNN
-F 1 "+5V" V 2415 2328 50  0000 L CNN
-F 2 "" H 2400 2200 50  0001 C CNN
-F 3 "" H 2400 2200 50  0001 C CNN
-	1    2400 2200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2300 2400 2400 2400
-$Comp
-L power:+5V #PWR?
-U 1 1 5F873044
-P 2400 2400
-F 0 "#PWR?" H 2400 2250 50  0001 C CNN
-F 1 "+5V" V 2415 2528 50  0000 L CNN
-F 2 "" H 2400 2400 50  0001 C CNN
-F 3 "" H 2400 2400 50  0001 C CNN
-	1    2400 2400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2300 2600 2400 2600
-$Comp
-L power:+5V #PWR?
-U 1 1 5F872133
-P 2400 2600
-F 0 "#PWR?" H 2400 2450 50  0001 C CNN
-F 1 "+5V" V 2415 2728 50  0000 L CNN
-F 2 "" H 2400 2600 50  0001 C CNN
-F 3 "" H 2400 2600 50  0001 C CNN
-	1    2400 2600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2300 2100 3050 2100
 Wire Wire Line
@@ -150,4 +106,12 @@ F 3 "" H 2100 2250 60  0001 C CNN
 	1    2100 1950
 	-1   0    0    1   
 $EndComp
+Text HLabel 2400 2000 2    50   Input ~ 0
+5V
+Text HLabel 2400 2200 2    50   Input ~ 0
+5V
+Text HLabel 2400 2400 2    50   Input ~ 0
+5V
+Text HLabel 2400 2600 2    50   Input ~ 0
+5V
 $EndSCHEMATC

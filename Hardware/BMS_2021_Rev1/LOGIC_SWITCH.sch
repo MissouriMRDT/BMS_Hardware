@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 7 10
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,188 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1650 2400 0    50   Input ~ 0
+logic_switch
+Wire Wire Line
+	1650 2400 1700 2400
+Wire Wire Line
+	1700 2400 1700 2750
+Connection ~ 1700 2400
+Wire Wire Line
+	1700 2400 2000 2400
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5F8BB77C
+P 2200 2400
+F 0 "Q?" H 2404 2446 50  0000 L CNN
+F 1 "2N7000" H 2404 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 2325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 2400 50  0001 L CNN
+	1    2200 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2600 2300 2750
+Wire Wire Line
+	1700 2750 1800 2750
+$Comp
+L Device:R R?
+U 1 1 5F8BD0E6
+P 1950 2750
+F 0 "R?" V 1850 2750 50  0000 C CNN
+F 1 "10k" V 1950 2750 39  0000 C CNN
+F 2 "" V 1880 2750 50  0001 C CNN
+F 3 "~" H 1950 2750 50  0001 C CNN
+	1    1950 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 2750 2300 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5F8BD9DB
+P 2300 2850
+F 0 "#PWR?" H 2300 2600 50  0001 C CNN
+F 1 "GND" H 2305 2677 50  0000 C CNN
+F 2 "" H 2300 2850 50  0001 C CNN
+F 3 "" H 2300 2850 50  0001 C CNN
+	1    2300 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2750 2300 2850
+Connection ~ 2300 2750
+$Comp
+L MRDT_Switches:Relay_SPST SW?
+U 1 1 5F8BE4C1
+P 2250 1650
+F 0 "SW?" H 2828 1788 50  0000 L CNN
+F 1 "Relay_SPST" H 2828 1697 50  0000 L CNN
+F 2 "" H 2500 2050 50  0001 C CNN
+F 3 "" H 2500 2050 50  0001 C CNN
+	1    2250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F8C0147
+P 2450 1900
+F 0 "#PWR?" H 2450 1750 50  0001 C CNN
+F 1 "+5V" H 2465 2073 50  0000 C CNN
+F 2 "" H 2450 1900 50  0001 C CNN
+F 3 "" H 2450 1900 50  0001 C CNN
+	1    2450 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 1900 2450 1750
+Wire Wire Line
+	2300 1750 2300 2200
+Wire Wire Line
+	2600 1750 2600 1850
+Text HLabel 2600 1850 3    50   Input ~ 0
+PV
+Wire Wire Line
+	2750 1750 2750 1850
+Wire Wire Line
+	2750 1850 3100 1850
+$Comp
+L Device:Polyfuse F?
+U 1 1 5F8C10D5
+P 3250 1850
+F 0 "F?" V 3450 1850 50  0000 C CNN
+F 1 "Polyfuse" V 3350 1850 50  0000 C CNN
+F 2 "" H 3300 1650 50  0001 L CNN
+F 3 "~" H 3250 1850 50  0001 C CNN
+	1    3250 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 1850 3650 1850
+Wire Wire Line
+	3900 1850 3900 1750
+Wire Wire Line
+	3900 1750 3950 1750
+Text HLabel 3950 1750 2    50   Output ~ 0
+logic_power
+$Comp
+L Device:R R?
+U 1 1 5F8C18A1
+P 3650 2050
+F 0 "R?" H 3720 2088 50  0000 L CNN
+F 1 "1.01M" V 3650 1955 39  0000 L CNN
+F 2 "" V 3580 2050 50  0001 C CNN
+F 3 "~" H 3650 2050 50  0001 C CNN
+	1    3650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8C1C00
+P 3650 2550
+F 0 "R?" H 3720 2588 50  0000 L CNN
+F 1 "110k" V 3645 2485 39  0000 L CNN
+F 2 "" V 3580 2550 50  0001 C CNN
+F 3 "~" H 3650 2550 50  0001 C CNN
+	1    3650 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 1850
+Wire Wire Line
+	3100 1850 3350 1850
+Wire Wire Line
+	3650 1900 3650 1850
+Connection ~ 3650 1850
+Wire Wire Line
+	3650 1850 3900 1850
+Wire Wire Line
+	3650 2200 3650 2300
+Wire Wire Line
+	3650 2700 3650 2800
+Wire Wire Line
+	3650 2300 3850 2300
+Connection ~ 3650 2300
+Wire Wire Line
+	3650 2300 3650 2400
+Text HLabel 3850 2300 2    50   Output ~ 0
+logic_power_sense
+$Comp
+L power:GND #PWR?
+U 1 1 5F8C3759
+P 3650 2800
+F 0 "#PWR?" H 3650 2550 50  0001 C CNN
+F 1 "GND" H 3655 2627 50  0000 C CNN
+F 2 "" H 3650 2800 50  0001 C CNN
+F 3 "" H 3650 2800 50  0001 C CNN
+	1    3650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 5F8C4713
+P 3350 2300
+F 0 "D?" H 3350 2500 50  0000 C CNN
+F 1 "3V3_Zener" H 3400 2400 50  0000 C CNN
+F 2 "" H 3350 2300 50  0001 C CNN
+F 3 "~" H 3350 2300 50  0001 C CNN
+	1    3350 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 2300 3650 2300
+Wire Wire Line
+	3200 2300 3000 2300
+Wire Wire Line
+	3000 2300 3000 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5F8C556A
+P 3000 2500
+F 0 "#PWR?" H 3000 2250 50  0001 C CNN
+F 1 "GND" H 3005 2327 50  0000 C CNN
+F 2 "" H 3000 2500 50  0001 C CNN
+F 3 "" H 3000 2500 50  0001 C CNN
+	1    3000 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

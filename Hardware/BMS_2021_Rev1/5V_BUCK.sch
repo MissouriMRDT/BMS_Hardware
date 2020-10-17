@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 10
+Sheet 4 11
 Title ""
 Date ""
 Rev ""
@@ -85,7 +85,7 @@ $EndComp
 Wire Wire Line
 	4650 1550 4650 1500
 Text HLabel 4500 1050 1    50   Input ~ 0
-PV
+logic_power
 Wire Wire Line
 	5200 1800 5300 1800
 $Comp
@@ -164,8 +164,8 @@ $Comp
 L Device:R R?
 U 1 1 5F85E996
 P 5850 2450
-F 0 "R?" H 5920 2496 50  0000 L CNN
-F 1 "R" H 5920 2405 50  0000 L CNN
+F 0 "R?" H 5910 2450 50  0000 L CNN
+F 1 "997Ω" V 5845 2375 39  0000 L CNN
 F 2 "" V 5780 2450 50  0001 C CNN
 F 3 "~" H 5850 2450 50  0001 C CNN
 	1    5850 2450
@@ -175,8 +175,8 @@ $Comp
 L Device:R R?
 U 1 1 5F85EE82
 P 5850 2050
-F 0 "R?" H 5920 2096 50  0000 L CNN
-F 1 "R" H 5920 2005 50  0000 L CNN
+F 0 "R?" H 5910 2050 50  0000 L CNN
+F 1 "3.05k" V 5850 1970 39  0000 L CNN
 F 2 "" V 5780 2050 50  0001 C CNN
 F 3 "~" H 5850 2050 50  0001 C CNN
 	1    5850 2050
@@ -214,8 +214,6 @@ Wire Wire Line
 	5850 1800 5950 1800
 Text HLabel 6100 1800 2    50   Output ~ 0
 5V
-Text Notes 6400 2800 0    50   ~ 0
-Rtop/Rbot = Vout/Vref -1\n= 5/1.23 -1 *1.23 per LM2576 datasheet*\n=3.065
 $Comp
 L MRDT_Connectors:Test_Point J?
 U 1 1 5F861743
