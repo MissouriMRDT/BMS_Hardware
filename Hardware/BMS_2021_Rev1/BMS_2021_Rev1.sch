@@ -188,10 +188,6 @@ F1 "5V_BUCK.sch" 50
 F2 "logic_power" I L 2900 1375 50 
 F3 "5V" O R 3650 1375 50 
 $EndSheet
-Text Notes 5750 1450 0    50   ~ 0
-not done
-Text Notes 5800 2200 0    50   ~ 0
-not done
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U?
 U 6 1 5F7FD340
@@ -234,6 +230,7 @@ S 4750 1300 750  300
 U 5F803423
 F0 "TEMP_SENSE" 50
 F1 "TEMP_SENSE.sch" 50
+F2 "ser_tx_ind" I L 4750 1400 50 
 $EndSheet
 Text HLabel 8550 1100 2    50   Input ~ 0
 pack_i_sense
@@ -251,14 +248,6 @@ $EndComp
 Text HLabel 8550 1200 2    50   Output ~ 0
 fan_control
 $Sheet
-S 4750 2000 750  300 
-U 5F80342B
-F0 "FB_LED_BUZZ" 50
-F1 "FEEDBACK_LED_BUZZ.sch" 50
-F2 "buzzer_control" I L 4750 2150 50 
-F3 "5V" I L 4750 2075 50 
-$EndSheet
-$Sheet
 S 4750 600  750  300 
 U 5F80341F
 F0 "FANS" 50
@@ -269,14 +258,14 @@ $EndSheet
 Text HLabel 8550 1300 2    50   Output ~ 0
 buzzer_control
 $Sheet
-S 2900 2600 1200 850 
+S 2850 3850 1200 850 
 U 5F801232
 F0 "ESTOP" 50
 F1 "ESTOP.sch" 50
-F2 "PV" I L 2900 2675 50 
-F3 "E_STOP_GATE" O R 4100 2800 50 
-F4 "pack_gate" I L 2900 2800 50 
-F5 "V_out" O R 4100 2675 50 
+F2 "PV" I L 2850 3925 50 
+F3 "E_STOP_GATE" O R 4050 4050 50 
+F4 "pack_gate" I L 2850 4050 50 
+F5 "V_out" O R 4050 3925 50 
 $EndSheet
 Text HLabel 8550 1400 2    50   Input ~ 0
 logic_power_sense
@@ -304,27 +293,27 @@ Wire Wire Line
 Wire Wire Line
 	1600 1250 1775 1250
 $Sheet
-S 4500 2600 1175 850 
+S 4450 3850 1175 850 
 U 5F8CBCAE
 F0 "POWER_OUT" 50
 F1 "POWER_OUT.sch" 50
-F2 "E_STOP_GATE" I L 4500 2800 50 
-F3 "PV" I L 4500 2700 50 
-F4 "V_out" O R 5675 2700 50 
-F5 "V_out_sense" O R 5675 3375 50 
+F2 "E_STOP_GATE" I L 4450 4050 50 
+F3 "PV" I L 4450 3950 50 
+F4 "V_out" O R 5625 3950 50 
+F5 "V_out_sense" O R 5625 4625 50 
 $EndSheet
 $Sheet
-S 2900 3800 1200 850 
+S 2850 5050 1200 850 
 U 5F80136E
 F0 "LOGIC_SWITCH" 50
 F1 "LOGIC_SWITCH.sch" 50
-F2 "logic_switch" I L 2900 4275 50 
-F3 "PV" I L 2900 4175 50 
-F4 "logic_power" O R 4100 3875 50 
-F5 "logic_power_sense" O R 4100 4575 50 
+F2 "logic_switch" I L 2850 5525 50 
+F3 "PV" I L 2850 5425 50 
+F4 "logic_power" O R 4050 5125 50 
+F5 "logic_power_sense" O R 4050 5825 50 
 $EndSheet
 Wire Wire Line
-	4100 2800 4500 2800
+	4050 4050 4450 4050
 $Comp
 L power:+5V #PWR?
 U 1 1 5F8E2DA7
@@ -365,12 +354,12 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F8E614C
-P 4650 1975
-F 0 "#PWR?" H 4650 1825 50  0001 C CNN
-F 1 "+5V" H 4665 2148 50  0000 C CNN
-F 2 "" H 4650 1975 50  0001 C CNN
-F 3 "" H 4650 1975 50  0001 C CNN
-	1    4650 1975
+P 4650 2025
+F 0 "#PWR?" H 4650 1875 50  0001 C CNN
+F 1 "+5V" H 4665 2198 50  0000 C CNN
+F 2 "" H 4650 2025 50  0001 C CNN
+F 3 "" H 4650 2025 50  0001 C CNN
+	1    4650 2025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -380,11 +369,52 @@ Wire Wire Line
 Wire Wire Line
 	2775 725  2775 825 
 Wire Wire Line
-	4650 2075 4750 2075
+	4650 2125 4750 2125
 Wire Wire Line
-	4650 1975 4650 2075
+	4650 2025 4650 2125
 Wire Wire Line
 	3650 1375 3725 1375
 Text Notes 6675 2450 0    118  ~ 24
 put no connect on not used pin
+Text HLabel 8550 1500 2    50   Input ~ 0
+V_out_sense
+$Sheet
+S 4750 2050 1200 750 
+U 5F80342B
+F0 "FB_LED_BUZZ" 50
+F1 "FEEDBACK_LED_BUZZ.sch" 50
+F2 "buzzer_control" I L 4750 2200 50 
+F3 "5V" I L 4750 2125 50 
+F4 "FANS_IND" I L 4750 2300 50 
+F5 "V_out" I L 4750 2400 50 
+F6 "SW_ERR" I L 4750 2500 50 
+F7 "SW_IND" I L 4750 2600 50 
+$EndSheet
+NoConn ~ 7600 900 
+NoConn ~ 7600 1000
+NoConn ~ 7600 1100
+NoConn ~ 7600 1200
+NoConn ~ 7600 1300
+NoConn ~ 7600 1400
+NoConn ~ 7600 1500
+NoConn ~ 7600 1600
+NoConn ~ 7600 1700
+NoConn ~ 7600 1800
+NoConn ~ 8550 1800
+NoConn ~ 8550 1700
+NoConn ~ 8550 1600
+NoConn ~ 8550 1000
+NoConn ~ 8550 900 
+NoConn ~ 7600 3000
+NoConn ~ 7600 3100
+NoConn ~ 7600 3900
+NoConn ~ 7600 3800
+NoConn ~ 8500 3900
+NoConn ~ 8500 3800
+NoConn ~ 8500 3700
+NoConn ~ 8500 3600
+NoConn ~ 8500 3300
+NoConn ~ 8500 3200
+NoConn ~ 8500 3100
+NoConn ~ 8500 3000
 $EndSCHEMATC
