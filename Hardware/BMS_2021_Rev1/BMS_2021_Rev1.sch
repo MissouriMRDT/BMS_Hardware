@@ -80,8 +80,6 @@ Text HLabel 1400 2550 2    50   Input ~ 0
 cell_6
 Text HLabel 1050 2450 2    50   Input ~ 0
 cell_7
-Text HLabel 1400 2350 2    50   Input ~ 0
-cell_8
 Text HLabel 1050 2250 2    50   Input ~ 0
 GND
 Text Notes 6950 700  2    50   ~ 10
@@ -110,28 +108,6 @@ Wire Notes Line
 	450  600  2150 600 
 Wire Notes Line
 	450  500  2150 500 
-$Comp
-L power:+VDC #PWR?
-U 1 1 5F80802A
-P 1050 1100
-F 0 "#PWR?" H 1050 1000 50  0001 C CNN
-F 1 "+VDC" H 1050 1375 50  0000 C CNN
-F 2 "" H 1050 1100 50  0001 C CNN
-F 3 "" H 1050 1100 50  0001 C CNN
-	1    1050 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-VDC #PWR?
-U 1 1 5F8089AD
-P 1600 1100
-F 0 "#PWR?" H 1600 1000 50  0001 C CNN
-F 1 "-VDC" H 1600 1375 50  0000 C CNN
-F 2 "" H 1600 1100 50  0001 C CNN
-F 3 "" H 1600 1100 50  0001 C CNN
-	1    1600 1100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1050 1100 1050 1250
 Wire Wire Line
@@ -374,8 +350,6 @@ Wire Wire Line
 	4650 2025 4650 2125
 Wire Wire Line
 	3650 1375 3725 1375
-Text Notes 6675 2450 0    118  ~ 24
-put no connect on not used pin
 Text HLabel 8550 1500 2    50   Input ~ 0
 V_out_sense
 $Sheet
@@ -417,4 +391,77 @@ NoConn ~ 8500 3300
 NoConn ~ 8500 3200
 NoConn ~ 8500 3100
 NoConn ~ 8500 3000
+Wire Wire Line
+	3650 2075 3800 2075
+Wire Wire Line
+	3800 2075 3800 1925
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F8BECFF
+P 3800 1925
+F 0 "#PWR?" H 3800 1775 50  0001 C CNN
+F 1 "+3V3" H 3815 2098 50  0000 C CNN
+F 2 "" H 3800 1925 50  0001 C CNN
+F 3 "" H 3800 1925 50  0001 C CNN
+	1    3800 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:BATT_PWR_VIA V?
+U 1 1 5F8BF1E3
+P 1050 900
+F 0 "V?" H 800 950 60  0000 L CNN
+F 1 "BATT_PWR_VIA" H 375 825 60  0000 L CNN
+F 2 "" H 1050 900 60  0001 C CNN
+F 3 "" H 1050 900 60  0001 C CNN
+	1    1050 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:BATT_PWR_VIA V?
+U 1 1 5F8BFF95
+P 1600 900
+F 0 "V?" H 1728 920 60  0000 L CNN
+F 1 "BATT_PWR_VIA" H 1728 814 60  0000 L CNN
+F 2 "" H 1600 900 60  0001 C CNN
+F 3 "" H 1600 900 60  0001 C CNN
+	1    1600 900 
+	1    0    0    -1  
+$EndComp
+Text Label 850  5050 2    50   ~ 0
+cell_8
+Text Label 1400 2350 0    50   ~ 0
+cell_8
+$Comp
+L MRDT_Drill_Holes:BATT_PWR_VIA V?
+U 1 1 5F8EC3A8
+P 5725 3500
+F 0 "V?" H 5853 3520 60  0000 L CNN
+F 1 "BATT_PWR_VIA" H 5853 3414 60  0000 L CNN
+F 2 "" H 5725 3500 60  0001 C CNN
+F 3 "" H 5725 3500 60  0001 C CNN
+	1    5725 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 3950 5725 3950
+Wire Wire Line
+	5725 3950 5725 3725
+Wire Wire Line
+	5725 3725 4125 3725
+Wire Wire Line
+	4125 3725 4125 3925
+Wire Wire Line
+	4125 3925 4050 3925
+Connection ~ 5725 3725
+Wire Wire Line
+	5725 3725 5725 3700
+Text Notes 10200 2000 0    50   ~ 10
+insert tiva headers
+Text Notes 10200 2100 0    50   ~ 10
+power tiva
+Text Notes 10200 2200 0    50   ~ 10
+ground tiva\n
+Text Notes 6875 2500 0    50   ~ 10
+pack gate\nsw_err\nsw_ind\nser_tx_ind? (analog??) [temp_out???]
 $EndSCHEMATC

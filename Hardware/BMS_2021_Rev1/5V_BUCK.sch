@@ -230,4 +230,6 @@ Wire Wire Line
 Connection ~ 5950 1800
 Wire Wire Line
 	5950 1800 6100 1800
+Text Notes 3275 2350 0    50   ~ 10
+look @ ic suffix?\n
 $EndSCHEMATC

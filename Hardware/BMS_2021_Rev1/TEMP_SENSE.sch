@@ -29,8 +29,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 1800 3600 1550
 Wire Wire Line
-	3250 2000 3600 2000
-Wire Wire Line
 	3600 2000 3600 2150
 $Comp
 L power:+3V3 #PWR?
@@ -60,4 +58,6 @@ Wire Wire Line
 	3700 1900 3700 1950
 Wire Wire Line
 	3200 1900 3700 1900
+Wire Wire Line
+	3200 2000 3600 2000
 $EndSCHEMATC
