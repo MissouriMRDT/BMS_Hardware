@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 5 11
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -30,17 +30,14 @@ Wire Wire Line
 	3600 1800 3600 1550
 Wire Wire Line
 	3600 2000 3600 2150
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F8BA79F
-P 3600 1550
-F 0 "#PWR?" H 3600 1400 50  0001 C CNN
-F 1 "+3V3" H 3615 1723 50  0000 C CNN
-F 2 "" H 3600 1550 50  0001 C CNN
-F 3 "" H 3600 1550 50  0001 C CNN
-	1    3600 1550
-	1    0    0    -1  
-$EndComp
+Text HLabel 3600 2150 3    50   Input ~ 0
+temp_sense
+Wire Wire Line
+	3700 1900 3700 1950
+Wire Wire Line
+	3200 1900 3700 1900
+Wire Wire Line
+	3200 2000 3600 2000
 $Comp
 L power:GND #PWR?
 U 1 1 5F8BABB1
@@ -52,12 +49,6 @@ F 3 "" H 3700 1950 50  0001 C CNN
 	1    3700 1950
 	1    0    0    -1  
 $EndComp
-Text HLabel 3600 2150 3    50   Input ~ 0
-ser_tx_ind
-Wire Wire Line
-	3700 1900 3700 1950
-Wire Wire Line
-	3200 1900 3700 1900
-Wire Wire Line
-	3200 2000 3600 2000
+Text HLabel 3600 1550 1    50   Input ~ 0
+3V3
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 11 11
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -339,7 +339,7 @@ $EndComp
 Text HLabel 7000 1500 1    50   Input ~ 0
 FANS_IND
 Text HLabel 6500 1500 1    50   Input ~ 0
-V_out
+V_out_ind
 Text HLabel 6000 1500 1    50   Input ~ 0
 SW_ERR
 Text HLabel 5500 1500 1    50   Input ~ 0

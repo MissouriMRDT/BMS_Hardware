@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 11
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -184,7 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	950  4550 1100 4550
 Wire Wire Line
-	950  5400 950  4550
+	950  5400 950  5225
 $Comp
 L Device:R R?
 U 1 1 5F80B578
@@ -305,7 +305,7 @@ Wire Wire Line
 Wire Wire Line
 	950  2950 1100 2950
 Wire Wire Line
-	950  3800 950  2950
+	950  3800 950  3650
 $Comp
 L Device:R R?
 U 1 1 5F835290
@@ -424,7 +424,7 @@ Connection ~ 2250 1250
 Wire Wire Line
 	950  1350 1100 1350
 Wire Wire Line
-	950  2200 950  1350
+	950  2200 950  2050
 $Comp
 L Device:R R?
 U 1 1 5F83AB9A
@@ -663,8 +663,6 @@ Wire Wire Line
 	4000 4300 4250 4300
 Wire Wire Line
 	4200 5050 4350 5050
-Wire Wire Line
-	4200 5900 4200 5050
 $Comp
 L Device:R R?
 U 1 1 5F84F39D
@@ -784,8 +782,6 @@ Wire Wire Line
 	4000 2700 4250 2700
 Wire Wire Line
 	4200 3450 4350 3450
-Wire Wire Line
-	4200 4300 4200 3450
 $Comp
 L Device:R R?
 U 1 1 5F85511D
@@ -978,7 +974,7 @@ F 3 "" H 2100 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  7400 950  6150
+	950  7400 950  7000
 Wire Wire Line
 	950  6150 1100 6150
 Connection ~ 950  7400
@@ -988,8 +984,6 @@ Text HLabel 3050 7500 2    50   Output ~ 0
 cell_1_sense
 Wire Wire Line
 	750  600  1000 600 
-Wire Wire Line
-	1000 600  1000 200 
 Wire Wire Line
 	1000 200  1200 200 
 Connection ~ 1000 600 
@@ -1192,8 +1186,103 @@ F 3 "" H 2925 7975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2925 7975 2925 7925
-Text Notes -725 6700 0    50   ~ 10
-4.2 zener or schottky diode btwn circuits\n
 Text Notes 4300 6125 0    50   ~ 10
 r values
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F94485A
+P 950 6850
+F 0 "D?" V 900 7000 50  0000 R CNN
+F 1 "4V2_Schottky" V 975 7425 50  0000 R CNN
+F 2 "" H 950 6850 50  0001 C CNN
+F 3 "~" H 950 6850 50  0001 C CNN
+	1    950  6850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	950  6700 950  6150
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F94E7ED
+P 950 5075
+F 0 "D?" V 900 5225 50  0000 R CNN
+F 1 "4V2_Schottky" V 975 5650 50  0000 R CNN
+F 2 "" H 950 5075 50  0001 C CNN
+F 3 "~" H 950 5075 50  0001 C CNN
+	1    950  5075
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F954AC8
+P 950 3500
+F 0 "D?" V 900 3650 50  0000 R CNN
+F 1 "4V2_Schottky" V 975 4075 50  0000 R CNN
+F 2 "" H 950 3500 50  0001 C CNN
+F 3 "~" H 950 3500 50  0001 C CNN
+	1    950  3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F95AE2A
+P 950 1900
+F 0 "D?" V 900 2050 50  0000 R CNN
+F 1 "4V2_Schottky" V 975 2475 50  0000 R CNN
+F 2 "" H 950 1900 50  0001 C CNN
+F 3 "~" H 950 1900 50  0001 C CNN
+	1    950  1900
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F961402
+P 1000 375
+F 0 "D?" V 950 525 50  0000 R CNN
+F 1 "4V2_Schottky" V 1025 950 50  0000 R CNN
+F 2 "" H 1000 375 50  0001 C CNN
+F 3 "~" H 1000 375 50  0001 C CNN
+	1    1000 375 
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1000 200  1000 225 
+Wire Wire Line
+	950  4925 950  4550
+Wire Wire Line
+	950  3350 950  2950
+Wire Wire Line
+	950  1750 950  1350
+Wire Wire Line
+	1000 525  1000 600 
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F96E38C
+P 4200 5550
+F 0 "D?" V 4150 5700 50  0000 R CNN
+F 1 "4V2_Schottky" V 4225 6125 50  0000 R CNN
+F 2 "" H 4200 5550 50  0001 C CNN
+F 3 "~" H 4200 5550 50  0001 C CNN
+	1    4200 5550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4200 5050 4200 5400
+Wire Wire Line
+	4200 5700 4200 5900
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F97C0C8
+P 4200 3950
+F 0 "D?" V 4150 4100 50  0000 R CNN
+F 1 "4V2_Schottky" V 4225 4525 50  0000 R CNN
+F 2 "" H 4200 3950 50  0001 C CNN
+F 3 "~" H 4200 3950 50  0001 C CNN
+	1    4200 3950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4200 3450 4200 3800
+Wire Wire Line
+	4200 4100 4200 4300
 $EndSCHEMATC

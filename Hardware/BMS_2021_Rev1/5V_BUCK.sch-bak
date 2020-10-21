@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 11
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -230,4 +230,6 @@ Wire Wire Line
 Connection ~ 5950 1800
 Wire Wire Line
 	5950 1800 6100 1800
+Text Notes 3275 2350 0    50   ~ 10
+look @ ic suffix?\n
 $EndSCHEMATC

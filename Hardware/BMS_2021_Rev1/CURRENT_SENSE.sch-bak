@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 11
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -187,4 +187,8 @@ Wire Wire Line
 	2200 2650 2200 2750
 Text HLabel 2525 2650 2    50   Output ~ 0
 pack_i_sense
+Text Notes 4100 900  0    50   ~ 10
+<-- 50 mOhm\n
+Text Notes 4250 1875 0    50   ~ 10
+new IC: take voltage across shunt, done and dusted\n
 $EndSCHEMATC

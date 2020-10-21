@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 11 11
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -111,12 +111,6 @@ F 3 "~" H 3250 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3400 1850 3650 1850
-Wire Wire Line
-	3900 1850 3900 1750
-Wire Wire Line
-	3900 1750 3950 1750
-Text HLabel 3950 1750 2    50   Output ~ 0
-logic_power
 $Comp
 L Device:R R?
 U 1 1 5F8C18A1
@@ -139,14 +133,9 @@ F 3 "~" H 3650 2550 50  0001 C CNN
 	1    3650 2550
 	1    0    0    -1  
 $EndComp
-Connection ~ 3100 1850
-Wire Wire Line
-	3100 1850 3350 1850
 Wire Wire Line
 	3650 1900 3650 1850
 Connection ~ 3650 1850
-Wire Wire Line
-	3650 1850 3900 1850
 Wire Wire Line
 	3650 2200 3650 2300
 Wire Wire Line
@@ -197,4 +186,8 @@ F 3 "" H 3000 2500 50  0001 C CNN
 	1    3000 2500
 	1    0    0    -1  
 $EndComp
+Text HLabel 3950 1850 2    50   Output ~ 0
+logic_power
+Wire Wire Line
+	3650 1850 3950 1850
 $EndSCHEMATC

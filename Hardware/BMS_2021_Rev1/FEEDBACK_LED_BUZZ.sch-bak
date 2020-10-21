@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 6 11
+Sheet 11 10
 Title ""
 Date ""
 Rev ""
@@ -367,4 +367,14 @@ Text Notes 5200 1950 1    39   ~ 0
 green
 Text Notes 7200 1975 1    39   ~ 0
 orange
+Text Notes 5225 3175 0    50   ~ 10
+r values for leds w tiva power\n
+Text Notes 2475 1250 0    50   ~ 10
+get gud values\n
+Wire Notes Line
+	2800 1225 3100 1225
+Wire Notes Line
+	3100 1225 3100 1200
+Wire Notes Line
+	3100 1200 3075 1200
 $EndSCHEMATC

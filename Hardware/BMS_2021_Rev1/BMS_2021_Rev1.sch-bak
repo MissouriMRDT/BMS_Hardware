@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 11
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -35,55 +35,10 @@ F 3 "" H 1000 1200 60  0001 C CNN
 	4    1150 1750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_09 Conn?
-U 1 1 5F7D732D
-P 700 2200
-F 0 "Conn?" H 642 2013 60  0000 C CNN
-F 1 "Molex_SL_09" H 642 2119 60  0000 C CNN
-F 2 "" H 700 2600 60  0001 C CNN
-F 3 "" H 700 2600 60  0001 C CNN
-	1    700  2200
-	-1   0    0    1   
-$EndComp
 Text Notes 500  600  0    50   ~ 10
 BATTERY
 Wire Wire Line
 	900  3050 1050 3050
-Wire Wire Line
-	900  2950 1400 2950
-Wire Wire Line
-	900  2850 1050 2850
-Wire Wire Line
-	900  2750 1400 2750
-Wire Wire Line
-	900  2650 1050 2650
-Wire Wire Line
-	900  2550 1400 2550
-Wire Wire Line
-	900  2450 1050 2450
-Wire Wire Line
-	900  2350 1400 2350
-Wire Wire Line
-	900  2250 1050 2250
-Text HLabel 1050 3050 2    50   Input ~ 0
-cell_1
-Text HLabel 1400 2950 2    50   Input ~ 0
-cell_2
-Text HLabel 1050 2850 2    50   Input ~ 0
-cell_3
-Text HLabel 1400 2750 2    50   Input ~ 0
-cell_4
-Text HLabel 1050 2650 2    50   Input ~ 0
-cell_5
-Text HLabel 1400 2550 2    50   Input ~ 0
-cell_6
-Text HLabel 1050 2450 2    50   Input ~ 0
-cell_7
-Text HLabel 1400 2350 2    50   Input ~ 0
-cell_8
-Text HLabel 1050 2250 2    50   Input ~ 0
-GND
 Text Notes 6950 700  2    50   ~ 10
 TIVA
 Text HLabel 7600 3700 0    50   Input ~ 0
@@ -104,34 +59,10 @@ Text HLabel 7600 3600 0    50   Input ~ 0
 cell_2_sense
 Text HLabel 900  1250 0    50   Output ~ 0
 V_in
-Text HLabel 850  3500 0    50   Input ~ 0
-5V
 Wire Notes Line
 	450  600  2150 600 
 Wire Notes Line
 	450  500  2150 500 
-$Comp
-L power:+VDC #PWR?
-U 1 1 5F80802A
-P 1050 1100
-F 0 "#PWR?" H 1050 1000 50  0001 C CNN
-F 1 "+VDC" H 1050 1375 50  0000 C CNN
-F 2 "" H 1050 1100 50  0001 C CNN
-F 3 "" H 1050 1100 50  0001 C CNN
-	1    1050 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-VDC #PWR?
-U 1 1 5F8089AD
-P 1600 1100
-F 0 "#PWR?" H 1600 1000 50  0001 C CNN
-F 1 "-VDC" H 1600 1375 50  0000 C CNN
-F 2 "" H 1600 1100 50  0001 C CNN
-F 3 "" H 1600 1100 50  0001 C CNN
-	1    1600 1100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1050 1100 1050 1250
 Wire Wire Line
@@ -169,24 +100,25 @@ F14 "cell_7" I L 850 5150 50
 F15 "cell_8_sense" O R 2100 5050 50 
 F16 "cell_8" I L 850 5050 50 
 F17 "cell_1_sense" O R 2100 5750 50 
+F18 "5V" I L 850 3475 50 
 $EndSheet
 $Sheet
-S 2900 600  750  300 
+S 3050 1150 750  300 
 U 5F80E1AD
 F0 "CURRENT_SENSE" 50
 F1 "CURRENT_SENSE.sch" 50
-F2 "PV" O R 3650 700 50 
-F3 "V_in" I L 2900 675 50 
-F4 "5V" I L 2900 825 50 
-F5 "pack_i_sense" O R 3650 825 50 
+F2 "PV" O R 3800 1250 50 
+F3 "V_in" I L 3050 1225 50 
+F4 "5V" I L 3050 1375 50 
+F5 "pack_i_sense" O R 3800 1375 50 
 $EndSheet
 $Sheet
-S 2900 1300 750  300 
+S 3050 1850 750  300 
 U 5F7FDD72
 F0 "5V_BUCK" 50
 F1 "5V_BUCK.sch" 50
-F2 "logic_power" I L 2900 1375 50 
-F3 "5V" O R 3650 1375 50 
+F2 "logic_power" I L 3050 1925 50 
+F3 "5V" O R 3800 1925 50 
 $EndSheet
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U?
@@ -226,14 +158,12 @@ Wire Notes Line
 Wire Notes Line
 	6650 6700 7250 6700
 $Sheet
-S 4750 1300 750  300 
+S 4900 1850 750  300 
 U 5F803423
 F0 "TEMP_SENSE" 50
 F1 "TEMP_SENSE.sch" 50
-F2 "ser_tx_ind" I L 4750 1400 50 
+F2 "ser_tx_ind" I L 4900 1950 50 
 $EndSheet
-Text HLabel 8550 1100 2    50   Input ~ 0
-pack_i_sense
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U?
 U 2 1 5F81CC17
@@ -248,34 +178,32 @@ $EndComp
 Text HLabel 8550 1200 2    50   Output ~ 0
 fan_control
 $Sheet
-S 4750 600  750  300 
+S 4900 1150 750  300 
 U 5F80341F
 F0 "FANS" 50
 F1 "FANS.sch" 50
-F2 "fan_control" I L 4750 750 50 
-F3 "5V" I L 4750 675 50 
+F2 "fan_control" I L 4900 1300 50 
+F3 "5V" I L 4900 1225 50 
 $EndSheet
 Text HLabel 8550 1300 2    50   Output ~ 0
 buzzer_control
 $Sheet
-S 2850 3850 1200 850 
+S 3000 4400 1200 850 
 U 5F801232
 F0 "ESTOP" 50
 F1 "ESTOP.sch" 50
-F2 "PV" I L 2850 3925 50 
-F3 "E_STOP_GATE" O R 4050 4050 50 
-F4 "pack_gate" I L 2850 4050 50 
-F5 "V_out" O R 4050 3925 50 
+F2 "PV" I L 3000 4475 50 
+F3 "pack_gate" I L 3000 4600 50 
+F4 "V_out" O R 4200 4475 50 
+F5 "V_out_sense" O R 4200 4750 50 
 $EndSheet
-Text HLabel 8550 1400 2    50   Input ~ 0
-logic_power_sense
 $Sheet
-S 2900 2000 750  300 
+S 3050 2550 750  300 
 U 5F7FE1CA
 F0 "3V3_BUCK" 50
 F1 "3V3_BUCK.sch" 50
-F2 "logic_power" I L 2900 2075 50 
-F3 "3V3" O R 3650 2075 50 
+F2 "logic_power" I L 3050 2625 50 
+F3 "3V3" O R 3800 2625 50 
 $EndSheet
 $Comp
 L power:GND #PWR?
@@ -293,102 +221,86 @@ Wire Wire Line
 Wire Wire Line
 	1600 1250 1775 1250
 $Sheet
-S 4450 3850 1175 850 
-U 5F8CBCAE
-F0 "POWER_OUT" 50
-F1 "POWER_OUT.sch" 50
-F2 "E_STOP_GATE" I L 4450 4050 50 
-F3 "PV" I L 4450 3950 50 
-F4 "V_out" O R 5625 3950 50 
-F5 "V_out_sense" O R 5625 4625 50 
-$EndSheet
-$Sheet
-S 2850 5050 1200 850 
+S 3000 5600 1200 850 
 U 5F80136E
 F0 "LOGIC_SWITCH" 50
 F1 "LOGIC_SWITCH.sch" 50
-F2 "logic_switch" I L 2850 5525 50 
-F3 "PV" I L 2850 5425 50 
-F4 "logic_power" O R 4050 5125 50 
-F5 "logic_power_sense" O R 4050 5825 50 
+F2 "logic_switch" I L 3000 6075 50 
+F3 "PV" I L 3000 5975 50 
+F4 "logic_power" O R 4200 5675 50 
+F5 "logic_power_sense" O R 4200 6375 50 
 $EndSheet
-Wire Wire Line
-	4050 4050 4450 4050
 $Comp
 L power:+5V #PWR?
 U 1 1 5F8E2DA7
-P 4650 600
-F 0 "#PWR?" H 4650 450 50  0001 C CNN
-F 1 "+5V" H 4665 773 50  0000 C CNN
-F 2 "" H 4650 600 50  0001 C CNN
-F 3 "" H 4650 600 50  0001 C CNN
-	1    4650 600 
+P 4800 1150
+F 0 "#PWR?" H 4800 1000 50  0001 C CNN
+F 1 "+5V" H 4815 1323 50  0000 C CNN
+F 2 "" H 4800 1150 50  0001 C CNN
+F 3 "" H 4800 1150 50  0001 C CNN
+	1    4800 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 675  4650 675 
+	4900 1225 4800 1225
 Wire Wire Line
-	4650 675  4650 600 
+	4800 1225 4800 1150
 $Comp
 L power:+5V #PWR?
 U 1 1 5F8E59D9
-P 3725 1275
-F 0 "#PWR?" H 3725 1125 50  0001 C CNN
-F 1 "+5V" H 3740 1448 50  0000 C CNN
-F 2 "" H 3725 1275 50  0001 C CNN
-F 3 "" H 3725 1275 50  0001 C CNN
-	1    3725 1275
+P 3875 1825
+F 0 "#PWR?" H 3875 1675 50  0001 C CNN
+F 1 "+5V" H 3890 1998 50  0000 C CNN
+F 2 "" H 3875 1825 50  0001 C CNN
+F 3 "" H 3875 1825 50  0001 C CNN
+	1    3875 1825
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F8E5DE2
-P 2775 725
-F 0 "#PWR?" H 2775 575 50  0001 C CNN
-F 1 "+5V" H 2790 898 50  0000 C CNN
-F 2 "" H 2775 725 50  0001 C CNN
-F 3 "" H 2775 725 50  0001 C CNN
-	1    2775 725 
+P 2800 1275
+F 0 "#PWR?" H 2800 1125 50  0001 C CNN
+F 1 "+5V" H 2815 1448 50  0000 C CNN
+F 2 "" H 2800 1275 50  0001 C CNN
+F 3 "" H 2800 1275 50  0001 C CNN
+	1    2800 1275
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F8E614C
-P 4650 2025
-F 0 "#PWR?" H 4650 1875 50  0001 C CNN
-F 1 "+5V" H 4665 2198 50  0000 C CNN
-F 2 "" H 4650 2025 50  0001 C CNN
-F 3 "" H 4650 2025 50  0001 C CNN
-	1    4650 2025
+P 4800 2575
+F 0 "#PWR?" H 4800 2425 50  0001 C CNN
+F 1 "+5V" H 4815 2748 50  0000 C CNN
+F 2 "" H 4800 2575 50  0001 C CNN
+F 3 "" H 4800 2575 50  0001 C CNN
+	1    4800 2575
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3725 1275 3725 1375
+	3875 1825 3875 1925
 Wire Wire Line
-	2775 825  2900 825 
+	2800 1275 2800 1375
 Wire Wire Line
-	2775 725  2775 825 
+	4800 2675 4900 2675
 Wire Wire Line
-	4650 2125 4750 2125
+	4800 2575 4800 2675
 Wire Wire Line
-	4650 2025 4650 2125
-Wire Wire Line
-	3650 1375 3725 1375
-Text Notes 6675 2450 0    118  ~ 24
-put no connect on not used pin
+	3800 1925 3875 1925
 Text HLabel 8550 1500 2    50   Input ~ 0
 V_out_sense
 $Sheet
-S 4750 2050 1200 750 
+S 4900 2600 1200 750 
 U 5F80342B
 F0 "FB_LED_BUZZ" 50
 F1 "FEEDBACK_LED_BUZZ.sch" 50
-F2 "buzzer_control" I L 4750 2200 50 
-F3 "5V" I L 4750 2125 50 
-F4 "FANS_IND" I L 4750 2300 50 
-F5 "V_out" I L 4750 2400 50 
-F6 "SW_ERR" I L 4750 2500 50 
-F7 "SW_IND" I L 4750 2600 50 
+F2 "buzzer_control" I L 4900 2750 50 
+F3 "5V" I L 4900 2675 50 
+F4 "FANS_IND" I L 4900 2850 50 
+F5 "V_out" I L 4900 2950 50 
+F6 "SW_ERR" I L 4900 3050 50 
+F7 "SW_IND" I L 4900 3150 50 
 $EndSheet
 NoConn ~ 7600 900 
 NoConn ~ 7600 1000
@@ -417,4 +329,202 @@ NoConn ~ 8500 3300
 NoConn ~ 8500 3200
 NoConn ~ 8500 3100
 NoConn ~ 8500 3000
+Wire Wire Line
+	3800 2625 3950 2625
+Wire Wire Line
+	3950 2625 3950 2475
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F8BECFF
+P 3950 2475
+F 0 "#PWR?" H 3950 2325 50  0001 C CNN
+F 1 "+3V3" H 3965 2648 50  0000 C CNN
+F 2 "" H 3950 2475 50  0001 C CNN
+F 3 "" H 3950 2475 50  0001 C CNN
+	1    3950 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:BATT_PWR_VIA V?
+U 1 1 5F8BF1E3
+P 1050 900
+F 0 "V?" H 800 950 60  0000 L CNN
+F 1 "BATT_PWR_VIA" H 375 825 60  0000 L CNN
+F 2 "" H 1050 900 60  0001 C CNN
+F 3 "" H 1050 900 60  0001 C CNN
+	1    1050 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Drill_Holes:BATT_PWR_VIA V?
+U 1 1 5F8BFF95
+P 1600 900
+F 0 "V?" H 1728 920 60  0000 L CNN
+F 1 "BATT_PWR_VIA" H 1728 814 60  0000 L CNN
+F 2 "" H 1600 900 60  0001 C CNN
+F 3 "" H 1600 900 60  0001 C CNN
+	1    1600 900 
+	1    0    0    -1  
+$EndComp
+Text Label 850  5050 2    50   ~ 0
+cell_8
+$Comp
+L MRDT_Drill_Holes:BATT_PWR_VIA V?
+U 1 1 5F8EC3A8
+P 4425 4150
+F 0 "V?" H 4553 4170 60  0000 L CNN
+F 1 "BATT_PWR_VIA" H 4553 4064 60  0000 L CNN
+F 2 "" H 4425 4150 60  0001 C CNN
+F 3 "" H 4425 4150 60  0001 C CNN
+	1    4425 4150
+	1    0    0    -1  
+$EndComp
+Text Notes 10200 2000 0    50   ~ 10
+insert tiva headers
+Text Notes 10200 2100 0    50   ~ 10
+power tiva
+Text Notes 10200 2200 0    50   ~ 10
+ground tiva\n
+Text Notes 6875 2500 0    50   ~ 10
+pack gate\nsw_err\nsw_ind\nser_tx_ind? (analog??) [temp_out???]
+Text Label 850  5150 2    50   ~ 0
+cell_7
+$Comp
+L power:GND #PWR?
+U 1 1 5F90ACBE
+P 1850 2275
+F 0 "#PWR?" H 1850 2025 50  0001 C CNN
+F 1 "GND" H 1855 2102 50  0000 C CNN
+F 2 "" H 1850 2275 50  0001 C CNN
+F 3 "" H 1850 2275 50  0001 C CNN
+	1    1850 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2275 1850 2250
+Wire Wire Line
+	900  2250 1850 2250
+Text Label 1050 3050 0    50   ~ 0
+cell_1
+Text Label 1400 2950 0    50   ~ 0
+cell_2
+Text Label 1050 2850 0    50   ~ 0
+cell_3
+Text Label 1400 2750 0    50   ~ 0
+cell_4
+Text Label 1050 2650 0    50   ~ 0
+cell_5
+Text Label 1400 2550 0    50   ~ 0
+cell_6
+Text Label 1050 2450 0    50   ~ 0
+cell_7
+Text Label 1400 2350 0    50   ~ 0
+cell_8
+Wire Wire Line
+	900  2350 1400 2350
+Wire Wire Line
+	900  2450 1050 2450
+Wire Wire Line
+	900  2550 1400 2550
+Wire Wire Line
+	900  2650 1050 2650
+Wire Wire Line
+	900  2750 1400 2750
+Wire Wire Line
+	900  2850 1050 2850
+Wire Wire Line
+	900  2950 1400 2950
+$Comp
+L MRDT_Connectors:Molex_SL_09 Conn?
+U 1 1 5F7D732D
+P 700 2200
+F 0 "Conn?" H 642 2013 60  0000 C CNN
+F 1 "Molex_SL_09" H 642 2119 60  0000 C CNN
+F 2 "" H 700 2600 60  0001 C CNN
+F 3 "" H 700 2600 60  0001 C CNN
+	1    700  2200
+	-1   0    0    1   
+$EndComp
+Text Label 850  5350 2    50   ~ 0
+cell_5
+Text Label 850  5250 2    50   ~ 0
+cell_6
+Text Label 850  5450 2    50   ~ 0
+cell_4
+Text Label 850  5550 2    50   ~ 0
+cell_3
+Text Label 850  5650 2    50   ~ 0
+cell_2
+Text Label 850  5750 2    50   ~ 0
+cell_1
+Wire Wire Line
+	850  3475 700  3475
+Wire Wire Line
+	700  3475 700  3375
+$Comp
+L power:+5V #PWR?
+U 1 1 5F917BE1
+P 700 3375
+F 0 "#PWR?" H 700 3225 50  0001 C CNN
+F 1 "+5V" H 715 3548 50  0000 C CNN
+F 2 "" H 700 3375 50  0001 C CNN
+F 3 "" H 700 3375 50  0001 C CNN
+	1    700  3375
+	1    0    0    -1  
+$EndComp
+Text Label 2100 5750 0    50   ~ 0
+cell_1_sense
+Text Label 2100 5650 0    50   ~ 0
+cell_2_sense
+Text Label 2100 5550 0    50   ~ 0
+cell_3_sense
+Text Label 2100 5450 0    50   ~ 0
+cell_4_sense
+Text Label 2100 5350 0    50   ~ 0
+cell_5_sense
+Text Label 2100 5250 0    50   ~ 0
+cell_6_sense
+Text Label 2100 5150 0    50   ~ 0
+cell_7_sense
+Text Label 2100 5050 0    50   ~ 0
+cell_8_sense
+Wire Wire Line
+	4425 4475 4200 4475
+Wire Wire Line
+	4425 4350 4425 4475
+Wire Wire Line
+	2800 1375 3050 1375
+Wire Wire Line
+	3050 1225 2950 1225
+Wire Wire Line
+	2950 1225 2950 950 
+$Comp
+L MRDT_Drill_Holes:BATT_PWR_VIA V?
+U 1 1 5F9294A0
+P 2950 750
+F 0 "V?" H 3078 770 60  0000 L CNN
+F 1 "BATT_PWR_VIA" H 3078 664 60  0000 L CNN
+F 2 "" H 2950 750 60  0001 C CNN
+F 3 "" H 2950 750 60  0001 C CNN
+	1    2950 750 
+	1    0    0    -1  
+$EndComp
+Text Label 3800 1250 0    50   ~ 0
+PV
+Text Label 3000 4475 2    50   ~ 0
+PV
+Text Label 3800 1375 0    50   ~ 0
+pack_i_sense
+Text Label 8550 1100 0    50   ~ 0
+pack_i_sense
+Text Label 3050 1925 2    50   ~ 0
+logic_power
+Text Label 3050 2625 2    50   ~ 0
+logic_power
+Text Label 4200 5675 0    50   ~ 0
+logic_power
+Text Label 4200 6375 0    50   ~ 0
+logic_power_sense
+Text Label 8550 1400 0    50   ~ 0
+logic_power_sense
 $EndSCHEMATC
