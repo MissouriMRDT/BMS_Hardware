@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name BMS2021_ICs)(type Legacy)(uri C:/Users/maxwe/Documents/GitHub/BMS_Hardware/Documentation/Libraries/BMS2021_ICs.lib)(options "")(descr ""))
   (lib (name MRDT_BMS2021_ICs)(type Legacy)(uri C:/Users/maxwe/Documents/GitHub/BMS_Hardware/Documentation/Libraries/MRDT_BMS2021_ICs.lib)(options "")(descr ""))
+  (lib (name BMS_2021_Rev1-cache)(type Legacy)(uri ${KIPRJMOD}/BMS_2021_Rev1-cache.lib)(options "")(descr ""))
 )

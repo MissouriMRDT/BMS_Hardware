@@ -35,9 +35,9 @@ P 2700 1800
 AR Path="/5F80341F/5F88DE82" Ref="Q?"  Part="1" 
 AR Path="/5F80342B/5F88DE82" Ref="Q?"  Part="1" 
 F 0 "Q?" V 3042 1800 50  0000 C CNN
-F 1 "Q_NMOS_DGS" V 2951 1800 50  0000 C CNN
+F 1 "2N7002PW" V 2951 1800 50  0000 C CNN
 F 2 "" H 2900 1900 50  0001 C CNN
-F 3 "~" H 2700 1800 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/2N7002PW-115/2531274" H 2700 1800 50  0001 C CNN
 	1    2700 1800
 	0    -1   -1   0   
 $EndComp
@@ -162,7 +162,7 @@ $Comp
 L Device:R R?
 U 1 1 5F9CDBEE
 P 7000 2300
-F 0 "R?" H 7070 2346 50  0000 L CNN
+F 0 "R?" H 7075 2300 50  0000 L CNN
 F 1 "510" V 7000 2225 50  0000 L CNN
 F 2 "" V 6930 2300 50  0001 C CNN
 F 3 "~" H 7000 2300 50  0001 C CNN
@@ -201,7 +201,7 @@ $Comp
 L Device:R R?
 U 1 1 5F9CCDEC
 P 6500 2300
-F 0 "R?" H 6570 2346 50  0000 L CNN
+F 0 "R?" H 6575 2300 50  0000 L CNN
 F 1 "330" V 6500 2225 50  0000 L CNN
 F 2 "" V 6430 2300 50  0001 C CNN
 F 3 "~" H 6500 2300 50  0001 C CNN
@@ -345,14 +345,6 @@ Text Notes 5200 1950 1    39   ~ 0
 green
 Text Notes 7200 1975 1    39   ~ 0
 orange
-Text Notes 2475 1250 0    50   ~ 10
-get gud values\n
-Wire Notes Line
-	2800 1225 3100 1225
-Wire Notes Line
-	3100 1225 3100 1200
-Wire Notes Line
-	3100 1200 3075 1200
 $Comp
 L Device:R R?
 U 1 1 5FA7C5D8

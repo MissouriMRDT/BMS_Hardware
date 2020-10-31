@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L pspice:OPAMP U?
-U 1 1 5F7DE4F6
-P 1750 6050
-F 0 "U?" H 2094 6096 50  0000 L CNN
-F 1 "OPAMP" H 2094 6005 50  0000 L CNN
-F 2 "" H 1750 6050 50  0001 C CNN
-F 3 "~" H 1750 6050 50  0001 C CNN
-	1    1750 6050
-	1    0    0    -1  
-$EndComp
 Text HLabel 850  7400 0    50   Input ~ 0
 cell_1
 $Comp
@@ -31,22 +20,11 @@ L Device:R R?
 U 1 1 5F7ED1C3
 P 1250 6150
 F 0 "R?" V 1350 6150 50  0000 C CNN
-F 1 "8.2MOhms" V 1450 6100 50  0000 C CNN
+F 1 "8.2M" V 1250 6150 39  0000 C CNN
 F 2 "" V 1180 6150 50  0001 C CNN
 F 3 "~" H 1250 6150 50  0001 C CNN
 	1    1250 6150
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F7ED999
-P 900 7650
-F 0 "C?" H 1015 7696 50  0000 L CNN
-F 1 "C" H 1015 7605 50  0000 L CNN
-F 2 "" H 938 7500 50  0001 C CNN
-F 3 "~" H 900 7650 50  0001 C CNN
-	1    900  7650
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -57,17 +35,6 @@ F 1 "GND" H 905 7627 50  0000 C CNN
 F 2 "" H 900 7800 50  0001 C CNN
 F 3 "" H 900 7800 50  0001 C CNN
 	1    900  7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F7F03D7
-P 1650 6350
-F 0 "#PWR?" H 1650 6100 50  0001 C CNN
-F 1 "GND" H 1655 6177 50  0000 C CNN
-F 2 "" H 1650 6350 50  0001 C CNN
-F 3 "" H 1650 6350 50  0001 C CNN
-	1    1650 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -86,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 6050 2050 6050
 Wire Wire Line
-	2250 6050 2450 6050
+	2250 6050 2375 6050
 Connection ~ 2250 6050
 $Comp
 L Device:R R?
@@ -114,17 +81,6 @@ F 3 "" H 750 5700 50  0001 C CNN
 	1    750  5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5F7F2ACA
-P 750 5550
-F 0 "C?" H 865 5596 50  0000 L CNN
-F 1 "C" H 865 5505 50  0000 L CNN
-F 2 "" H 788 5400 50  0001 C CNN
-F 3 "~" H 750 5550 50  0001 C CNN
-	1    750  5550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	950  5950 1000 5950
 Wire Wire Line
@@ -136,8 +92,8 @@ $Comp
 L Device:R R?
 U 1 1 5F7F499B
 P 1250 5950
-F 0 "R?" V 1043 5950 50  0000 C CNN
-F 1 "8.2MOhms" V 1134 5950 50  0000 C CNN
+F 0 "R?" V 1150 5950 50  0000 C CNN
+F 1 "8.2M" V 1250 5950 39  0000 C CNN
 F 2 "" V 1180 5950 50  0001 C CNN
 F 3 "~" H 1250 5950 50  0001 C CNN
 	1    1250 5950
@@ -170,7 +126,7 @@ cell_2_sense
 Wire Wire Line
 	2250 5100 2250 4450
 Wire Wire Line
-	2250 4450 2450 4450
+	2250 4450 2375 4450
 Text HLabel 2450 4450 2    50   Output ~ 0
 cell_3_sense
 Connection ~ 950  5400
@@ -185,19 +141,6 @@ Wire Wire Line
 	950  4550 1100 4550
 Wire Wire Line
 	950  5400 950  5225
-$Comp
-L Device:R R?
-U 1 1 5F80B578
-P 1250 4550
-F 0 "R?" V 1150 4600 50  0000 C CNN
-F 1 "8.2MOhms" V 1050 4600 50  0000 C CNN
-F 2 "" V 1180 4550 50  0001 C CNN
-F 3 "~" H 1250 4550 50  0001 C CNN
-	1    1250 4550
-	0    -1   -1   0   
-$EndComp
-Connection ~ 1400 4550
-Connection ~ 1400 4350
 Wire Wire Line
 	1400 3850 1400 4350
 Wire Wire Line
@@ -219,17 +162,6 @@ Wire Wire Line
 	1400 3850 1500 3850
 Wire Wire Line
 	1400 4350 1450 4350
-$Comp
-L Device:R R?
-U 1 1 5F80B5B5
-P 1250 4350
-F 0 "R?" V 1043 4350 50  0000 C CNN
-F 1 "8.2MOhm" V 1134 4350 50  0000 C CNN
-F 2 "" V 1180 4350 50  0001 C CNN
-F 3 "~" H 1250 4350 50  0001 C CNN
-	1    1250 4350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1000 4350 1100 4350
 Connection ~ 1000 4350
@@ -237,17 +169,6 @@ Wire Wire Line
 	1000 3800 1000 4350
 Wire Wire Line
 	950  4350 1000 4350
-$Comp
-L Device:C C?
-U 1 1 5F80B5AA
-P 750 3950
-F 0 "C?" H 865 3996 50  0000 L CNN
-F 1 "C" H 865 3905 50  0000 L CNN
-F 2 "" H 788 3800 50  0001 C CNN
-F 3 "~" H 750 3950 50  0001 C CNN
-	1    750  3950
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F80B5A4
@@ -271,32 +192,10 @@ Wire Wire Line
 	1400 4550 1400 5100
 Wire Wire Line
 	1400 4550 1450 4550
-$Comp
-L power:GND #PWR?
-U 1 1 5F80B58A
-P 1650 4750
-F 0 "#PWR?" H 1650 4500 50  0001 C CNN
-F 1 "GND" H 1655 4577 50  0000 C CNN
-F 2 "" H 1650 4750 50  0001 C CNN
-F 3 "" H 1650 4750 50  0001 C CNN
-	1    1650 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:OPAMP U?
-U 1 1 5F80B571
-P 1750 4450
-F 0 "U?" H 2094 4496 50  0000 L CNN
-F 1 "OPAMP" H 2094 4405 50  0000 L CNN
-F 2 "" H 1750 4450 50  0001 C CNN
-F 3 "~" H 1750 4450 50  0001 C CNN
-	1    1750 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 3500 2250 2850
 Wire Wire Line
-	2250 2850 2450 2850
+	2250 2850 2375 2850
 Text HLabel 2450 2850 2    50   Output ~ 0
 cell_4_sense
 Connection ~ 2250 2850
@@ -306,19 +205,6 @@ Wire Wire Line
 	950  2950 1100 2950
 Wire Wire Line
 	950  3800 950  3650
-$Comp
-L Device:R R?
-U 1 1 5F835290
-P 1250 2950
-F 0 "R?" V 1150 3000 50  0000 C CNN
-F 1 "8.2MOhm" V 1050 3000 50  0000 C CNN
-F 2 "" V 1180 2950 50  0001 C CNN
-F 3 "~" H 1250 2950 50  0001 C CNN
-	1    1250 2950
-	0    -1   -1   0   
-$EndComp
-Connection ~ 1400 2950
-Connection ~ 1400 2750
 Wire Wire Line
 	1400 2250 1400 2750
 Wire Wire Line
@@ -340,17 +226,6 @@ Wire Wire Line
 	1400 2250 1500 2250
 Wire Wire Line
 	1400 2750 1450 2750
-$Comp
-L Device:R R?
-U 1 1 5F8352AF
-P 1250 2750
-F 0 "R?" V 1043 2750 50  0000 C CNN
-F 1 "8.2MOhm" V 1150 2700 50  0000 C CNN
-F 2 "" V 1180 2750 50  0001 C CNN
-F 3 "~" H 1250 2750 50  0001 C CNN
-	1    1250 2750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1000 2750 1100 2750
 Connection ~ 1000 2750
@@ -358,17 +233,6 @@ Wire Wire Line
 	1000 2200 1000 2750
 Wire Wire Line
 	950  2750 1000 2750
-$Comp
-L Device:C C?
-U 1 1 5F8352B9
-P 750 2350
-F 0 "C?" H 865 2396 50  0000 L CNN
-F 1 "C" H 865 2305 50  0000 L CNN
-F 2 "" H 788 2200 50  0001 C CNN
-F 3 "~" H 750 2350 50  0001 C CNN
-	1    750  2350
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F8352BF
@@ -392,32 +256,10 @@ Wire Wire Line
 	1400 2950 1400 3500
 Wire Wire Line
 	1400 2950 1450 2950
-$Comp
-L power:GND #PWR?
-U 1 1 5F8352D1
-P 1650 3150
-F 0 "#PWR?" H 1650 2900 50  0001 C CNN
-F 1 "GND" H 1655 2977 50  0000 C CNN
-F 2 "" H 1650 3150 50  0001 C CNN
-F 3 "" H 1650 3150 50  0001 C CNN
-	1    1650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:OPAMP U?
-U 1 1 5F8352D7
-P 1750 2850
-F 0 "U?" H 2094 2896 50  0000 L CNN
-F 1 "OPAMP" H 2094 2805 50  0000 L CNN
-F 2 "" H 1750 2850 50  0001 C CNN
-F 3 "~" H 1750 2850 50  0001 C CNN
-	1    1750 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 1900 2250 1250
 Wire Wire Line
-	2250 1250 2450 1250
+	2250 1250 2400 1250
 Text HLabel 2450 1250 2    50   Output ~ 0
 cell_5_sense
 Connection ~ 2250 1250
@@ -425,19 +267,6 @@ Wire Wire Line
 	950  1350 1100 1350
 Wire Wire Line
 	950  2200 950  2050
-$Comp
-L Device:R R?
-U 1 1 5F83AB9A
-P 1250 1350
-F 0 "R?" V 1350 1300 50  0000 C CNN
-F 1 "8.2MOhm" V 1450 1300 50  0000 C CNN
-F 2 "" V 1180 1350 50  0001 C CNN
-F 3 "~" H 1250 1350 50  0001 C CNN
-	1    1250 1350
-	0    1    1    0   
-$EndComp
-Connection ~ 1400 1350
-Connection ~ 1400 1150
 Wire Wire Line
 	1400 650  1400 1150
 Wire Wire Line
@@ -459,17 +288,6 @@ Wire Wire Line
 	1400 650  1500 650 
 Wire Wire Line
 	1400 1150 1450 1150
-$Comp
-L Device:R R?
-U 1 1 5F83ABB9
-P 1250 1150
-F 0 "R?" V 1457 1150 50  0000 C CNN
-F 1 "8.2MOhms" V 1366 1150 50  0000 C CNN
-F 2 "" V 1180 1150 50  0001 C CNN
-F 3 "~" H 1250 1150 50  0001 C CNN
-	1    1250 1150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1000 1150 1100 1150
 Connection ~ 1000 1150
@@ -482,7 +300,7 @@ L Device:C C?
 U 1 1 5F83ABC3
 P 750 750
 F 0 "C?" H 865 796 50  0000 L CNN
-F 1 "C" H 865 705 50  0000 L CNN
+F 1 "1u" H 865 705 50  0000 L CNN
 F 2 "" H 788 600 50  0001 C CNN
 F 3 "~" H 750 750 50  0001 C CNN
 	1    750  750 
@@ -511,32 +329,10 @@ Wire Wire Line
 	1400 1350 1400 1900
 Wire Wire Line
 	1400 1350 1450 1350
-$Comp
-L power:GND #PWR?
-U 1 1 5F83ABDB
-P 1650 1550
-F 0 "#PWR?" H 1650 1300 50  0001 C CNN
-F 1 "GND" H 1655 1377 50  0000 C CNN
-F 2 "" H 1650 1550 50  0001 C CNN
-F 3 "" H 1650 1550 50  0001 C CNN
-	1    1650 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:OPAMP U?
-U 1 1 5F83ABE1
-P 1750 1250
-F 0 "U?" H 2094 1296 50  0000 L CNN
-F 1 "OPAMP" H 2094 1205 50  0000 L CNN
-F 2 "" H 1750 1250 50  0001 C CNN
-F 3 "~" H 1750 1250 50  0001 C CNN
-	1    1750 1250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 7200 5500 6550
 Wire Wire Line
-	5500 6550 5700 6550
+	5500 6550 5650 6550
 Text HLabel 5700 6550 2    50   Output ~ 0
 cell_6_sense
 Connection ~ 5500 6550
@@ -544,19 +340,6 @@ Wire Wire Line
 	4000 5900 4250 5900
 Wire Wire Line
 	4200 6650 4350 6650
-$Comp
-L Device:R R?
-U 1 1 5F843EDE
-P 4500 6650
-F 0 "R?" V 4293 6650 50  0000 C CNN
-F 1 "R" V 4384 6650 50  0000 C CNN
-F 2 "" V 4430 6650 50  0001 C CNN
-F 3 "~" H 4500 6650 50  0001 C CNN
-	1    4500 6650
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4650 6650
-Connection ~ 4650 6450
 Wire Wire Line
 	4650 5950 4650 6450
 Wire Wire Line
@@ -578,17 +361,6 @@ Wire Wire Line
 	4650 5950 4750 5950
 Wire Wire Line
 	4650 6450 4700 6450
-$Comp
-L Device:R R?
-U 1 1 5F843EFD
-P 4500 6450
-F 0 "R?" V 4293 6450 50  0000 C CNN
-F 1 "R" V 4384 6450 50  0000 C CNN
-F 2 "" V 4430 6450 50  0001 C CNN
-F 3 "~" H 4500 6450 50  0001 C CNN
-	1    4500 6450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4250 6450 4350 6450
 Connection ~ 4250 6450
@@ -596,17 +368,6 @@ Wire Wire Line
 	4250 5900 4250 6450
 Wire Wire Line
 	4200 6450 4250 6450
-$Comp
-L Device:C C?
-U 1 1 5F843F07
-P 4000 6050
-F 0 "C?" H 4115 6096 50  0000 L CNN
-F 1 "C" H 4115 6005 50  0000 L CNN
-F 2 "" H 4038 5900 50  0001 C CNN
-F 3 "~" H 4000 6050 50  0001 C CNN
-	1    4000 6050
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F843F0D
@@ -630,32 +391,10 @@ Wire Wire Line
 	4650 6650 4650 7200
 Wire Wire Line
 	4650 6650 4700 6650
-$Comp
-L power:GND #PWR?
-U 1 1 5F843F1F
-P 4900 6850
-F 0 "#PWR?" H 4900 6600 50  0001 C CNN
-F 1 "GND" H 4905 6677 50  0000 C CNN
-F 2 "" H 4900 6850 50  0001 C CNN
-F 3 "" H 4900 6850 50  0001 C CNN
-	1    4900 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:OPAMP U?
-U 1 1 5F843F25
-P 5000 6550
-F 0 "U?" H 5344 6596 50  0000 L CNN
-F 1 "OPAMP" H 5344 6505 50  0000 L CNN
-F 2 "" H 5000 6550 50  0001 C CNN
-F 3 "~" H 5000 6550 50  0001 C CNN
-	1    5000 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 5600 5500 4950
 Wire Wire Line
-	5500 4950 5700 4950
+	5500 4950 5625 4950
 Text HLabel 5700 4950 2    50   Output ~ 0
 cell_7_sense
 Connection ~ 5500 4950
@@ -663,19 +402,6 @@ Wire Wire Line
 	4000 4300 4250 4300
 Wire Wire Line
 	4200 5050 4350 5050
-$Comp
-L Device:R R?
-U 1 1 5F84F39D
-P 4500 5050
-F 0 "R?" V 4293 5050 50  0000 C CNN
-F 1 "R" V 4384 5050 50  0000 C CNN
-F 2 "" V 4430 5050 50  0001 C CNN
-F 3 "~" H 4500 5050 50  0001 C CNN
-	1    4500 5050
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4650 5050
-Connection ~ 4650 4850
 Wire Wire Line
 	4650 4350 4650 4850
 Wire Wire Line
@@ -697,17 +423,6 @@ Wire Wire Line
 	4650 4350 4750 4350
 Wire Wire Line
 	4650 4850 4700 4850
-$Comp
-L Device:R R?
-U 1 1 5F84F3BC
-P 4500 4850
-F 0 "R?" V 4293 4850 50  0000 C CNN
-F 1 "R" V 4384 4850 50  0000 C CNN
-F 2 "" V 4430 4850 50  0001 C CNN
-F 3 "~" H 4500 4850 50  0001 C CNN
-	1    4500 4850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4250 4850 4350 4850
 Connection ~ 4250 4850
@@ -715,17 +430,6 @@ Wire Wire Line
 	4250 4300 4250 4850
 Wire Wire Line
 	4200 4850 4250 4850
-$Comp
-L Device:C C?
-U 1 1 5F84F3C6
-P 4000 4450
-F 0 "C?" H 4115 4496 50  0000 L CNN
-F 1 "C" H 4115 4405 50  0000 L CNN
-F 2 "" H 4038 4300 50  0001 C CNN
-F 3 "~" H 4000 4450 50  0001 C CNN
-	1    4000 4450
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F84F3CC
@@ -749,32 +453,10 @@ Wire Wire Line
 	4650 5050 4650 5600
 Wire Wire Line
 	4650 5050 4700 5050
-$Comp
-L power:GND #PWR?
-U 1 1 5F84F3DE
-P 4900 5250
-F 0 "#PWR?" H 4900 5000 50  0001 C CNN
-F 1 "GND" H 4905 5077 50  0000 C CNN
-F 2 "" H 4900 5250 50  0001 C CNN
-F 3 "" H 4900 5250 50  0001 C CNN
-	1    4900 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:OPAMP U?
-U 1 1 5F84F3E4
-P 5000 4950
-F 0 "U?" H 5344 4996 50  0000 L CNN
-F 1 "OPAMP" H 5344 4905 50  0000 L CNN
-F 2 "" H 5000 4950 50  0001 C CNN
-F 3 "~" H 5000 4950 50  0001 C CNN
-	1    5000 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 4000 5500 3350
 Wire Wire Line
-	5500 3350 5700 3350
+	5500 3350 5625 3350
 Text HLabel 5700 3350 2    50   Output ~ 0
 cell_8_sense
 Connection ~ 5500 3350
@@ -782,19 +464,6 @@ Wire Wire Line
 	4000 2700 4250 2700
 Wire Wire Line
 	4200 3450 4350 3450
-$Comp
-L Device:R R?
-U 1 1 5F85511D
-P 4500 3450
-F 0 "R?" V 4293 3450 50  0000 C CNN
-F 1 "R" V 4384 3450 50  0000 C CNN
-F 2 "" V 4430 3450 50  0001 C CNN
-F 3 "~" H 4500 3450 50  0001 C CNN
-	1    4500 3450
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4650 3450
-Connection ~ 4650 3250
 Wire Wire Line
 	4650 2750 4650 3250
 Wire Wire Line
@@ -816,17 +485,6 @@ Wire Wire Line
 	4650 2750 4750 2750
 Wire Wire Line
 	4650 3250 4700 3250
-$Comp
-L Device:R R?
-U 1 1 5F85513C
-P 4500 3250
-F 0 "R?" V 4293 3250 50  0000 C CNN
-F 1 "R" V 4384 3250 50  0000 C CNN
-F 2 "" V 4430 3250 50  0001 C CNN
-F 3 "~" H 4500 3250 50  0001 C CNN
-	1    4500 3250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4250 3250 4350 3250
 Connection ~ 4250 3250
@@ -834,17 +492,6 @@ Wire Wire Line
 	4250 2700 4250 3250
 Wire Wire Line
 	4200 3250 4250 3250
-$Comp
-L Device:C C?
-U 1 1 5F855146
-P 4000 2850
-F 0 "C?" H 4115 2896 50  0000 L CNN
-F 1 "C" H 4115 2805 50  0000 L CNN
-F 2 "" H 4038 2700 50  0001 C CNN
-F 3 "~" H 4000 2850 50  0001 C CNN
-	1    4000 2850
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F85514C
@@ -868,39 +515,6 @@ Wire Wire Line
 	4650 3450 4650 4000
 Wire Wire Line
 	4650 3450 4700 3450
-$Comp
-L power:GND #PWR?
-U 1 1 5F85515E
-P 4900 3650
-F 0 "#PWR?" H 4900 3400 50  0001 C CNN
-F 1 "GND" H 4905 3477 50  0000 C CNN
-F 2 "" H 4900 3650 50  0001 C CNN
-F 3 "" H 4900 3650 50  0001 C CNN
-	1    4900 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:OPAMP U?
-U 1 1 5F855164
-P 5000 3350
-F 0 "U?" H 5344 3396 50  0000 L CNN
-F 1 "OPAMP" H 5344 3305 50  0000 L CNN
-F 2 "" H 5000 3350 50  0001 C CNN
-F 3 "~" H 5000 3350 50  0001 C CNN
-	1    5000 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:OPAMP U?
-U 1 1 5F862315
-P 2200 7500
-F 0 "U?" H 2544 7546 50  0000 L CNN
-F 1 "OPAMP" H 2544 7455 50  0000 L CNN
-F 2 "" H 2200 7500 50  0001 C CNN
-F 3 "~" H 2200 7500 50  0001 C CNN
-	1    2200 7500
-	1    0    0    -1  
-$EndComp
 Connection ~ 950  2200
 Wire Wire Line
 	950  2200 1000 2200
@@ -962,17 +576,6 @@ F 3 "" H 1550 7800 50  0001 C CNN
 	1    1550 7800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F9104A5
-P 2100 7800
-F 0 "#PWR?" H 2100 7550 50  0001 C CNN
-F 1 "GND" H 2105 7627 50  0000 C CNN
-F 2 "" H 2100 7800 50  0001 C CNN
-F 3 "" H 2100 7800 50  0001 C CNN
-	1    2100 7800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	950  7400 950  7000
 Wire Wire Line
@@ -998,22 +601,6 @@ Text Notes 7150 5550 0    50   Italic 10
 Questions: \nDiodes?\n
 Text Notes 7400 7750 2    79   ~ 16
 Cell Filters
-Text HLabel 4900 6250 1    50   Input ~ 0
-5V
-Text HLabel 4900 4650 1    50   Input ~ 0
-5V
-Text HLabel 4900 3050 1    50   Input ~ 0
-5V
-Text HLabel 1650 950  1    50   Input ~ 0
-5V
-Text HLabel 1650 2550 1    50   Input ~ 0
-5V
-Text HLabel 1650 4150 1    50   Input ~ 0
-5V
-Text HLabel 1650 5750 1    50   Input ~ 0
-5V
-Text HLabel 2100 7200 1    50   Input ~ 0
-5V
 $Comp
 L Device:R R?
 U 1 1 5F932E92
@@ -1285,4 +872,560 @@ Wire Wire Line
 	4200 3450 4200 3800
 Wire Wire Line
 	4200 4100 4200 4300
+$Comp
+L Device:D_Zener D?
+U 1 1 5F940D73
+P 2375 6325
+F 0 "D?" V 2421 6245 50  0000 R CNN
+F 1 "3V3_Zener" V 2330 6245 50  0000 R CNN
+F 2 "" H 2375 6325 50  0001 C CNN
+F 3 "~" H 2375 6325 50  0001 C CNN
+	1    2375 6325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F940D7A
+P 2375 6525
+F 0 "#PWR?" H 2375 6275 50  0001 C CNN
+F 1 "GND" H 2380 6352 50  0000 C CNN
+F 2 "" H 2375 6525 50  0001 C CNN
+F 3 "" H 2375 6525 50  0001 C CNN
+	1    2375 6525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 6525 2375 6475
+Connection ~ 2375 6050
+Wire Wire Line
+	2375 6050 2450 6050
+Wire Wire Line
+	2375 6050 2375 6175
+Connection ~ 2375 6175
+Wire Wire Line
+	2375 6175 2375 6225
+Connection ~ 2375 4450
+Wire Wire Line
+	2375 4450 2450 4450
+$Comp
+L Device:D_Zener D?
+U 1 1 5F960087
+P 2375 4800
+F 0 "D?" V 2421 4720 50  0000 R CNN
+F 1 "3V3_Zener" V 2330 4720 50  0000 R CNN
+F 2 "" H 2375 4800 50  0001 C CNN
+F 3 "~" H 2375 4800 50  0001 C CNN
+	1    2375 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F96008E
+P 2375 5000
+F 0 "#PWR?" H 2375 4750 50  0001 C CNN
+F 1 "GND" H 2380 4827 50  0000 C CNN
+F 2 "" H 2375 5000 50  0001 C CNN
+F 3 "" H 2375 5000 50  0001 C CNN
+	1    2375 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 5000 2375 4950
+Wire Wire Line
+	2375 4450 2375 4650
+Connection ~ 2375 2850
+Wire Wire Line
+	2375 2850 2450 2850
+$Comp
+L Device:D_Zener D?
+U 1 1 5F96E751
+P 2375 3175
+F 0 "D?" V 2421 3095 50  0000 R CNN
+F 1 "3V3_Zener" V 2330 3095 50  0000 R CNN
+F 2 "" H 2375 3175 50  0001 C CNN
+F 3 "~" H 2375 3175 50  0001 C CNN
+	1    2375 3175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F96E758
+P 2375 3375
+F 0 "#PWR?" H 2375 3125 50  0001 C CNN
+F 1 "GND" H 2380 3202 50  0000 C CNN
+F 2 "" H 2375 3375 50  0001 C CNN
+F 3 "" H 2375 3375 50  0001 C CNN
+	1    2375 3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 3375 2375 3325
+Wire Wire Line
+	2375 2850 2375 3025
+Connection ~ 2400 1250
+Wire Wire Line
+	2400 1250 2450 1250
+$Comp
+L Device:D_Zener D?
+U 1 1 5F97DB3A
+P 2400 1600
+F 0 "D?" V 2446 1520 50  0000 R CNN
+F 1 "3V3_Zener" V 2355 1520 50  0000 R CNN
+F 2 "" H 2400 1600 50  0001 C CNN
+F 3 "~" H 2400 1600 50  0001 C CNN
+	1    2400 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F97DB41
+P 2400 1800
+F 0 "#PWR?" H 2400 1550 50  0001 C CNN
+F 1 "GND" H 2405 1627 50  0000 C CNN
+F 2 "" H 2400 1800 50  0001 C CNN
+F 3 "" H 2400 1800 50  0001 C CNN
+	1    2400 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1800 2400 1750
+Wire Wire Line
+	2400 1250 2400 1450
+Connection ~ 5650 6550
+Wire Wire Line
+	5650 6550 5700 6550
+$Comp
+L Device:D_Zener D?
+U 1 1 5F98D578
+P 5650 6900
+F 0 "D?" V 5696 6820 50  0000 R CNN
+F 1 "3V3_Zener" V 5605 6820 50  0000 R CNN
+F 2 "" H 5650 6900 50  0001 C CNN
+F 3 "~" H 5650 6900 50  0001 C CNN
+	1    5650 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F98D57F
+P 5650 7100
+F 0 "#PWR?" H 5650 6850 50  0001 C CNN
+F 1 "GND" H 5655 6927 50  0000 C CNN
+F 2 "" H 5650 7100 50  0001 C CNN
+F 3 "" H 5650 7100 50  0001 C CNN
+	1    5650 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 7100 5650 7050
+Wire Wire Line
+	5650 6550 5650 6750
+Connection ~ 5625 4950
+Wire Wire Line
+	5625 4950 5700 4950
+$Comp
+L Device:D_Zener D?
+U 1 1 5F99DDFA
+P 5625 5275
+F 0 "D?" V 5671 5195 50  0000 R CNN
+F 1 "3V3_Zener" V 5580 5195 50  0000 R CNN
+F 2 "" H 5625 5275 50  0001 C CNN
+F 3 "~" H 5625 5275 50  0001 C CNN
+	1    5625 5275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F99DE01
+P 5625 5475
+F 0 "#PWR?" H 5625 5225 50  0001 C CNN
+F 1 "GND" H 5630 5302 50  0000 C CNN
+F 2 "" H 5625 5475 50  0001 C CNN
+F 3 "" H 5625 5475 50  0001 C CNN
+	1    5625 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 5475 5625 5425
+Wire Wire Line
+	5625 4950 5625 5125
+Connection ~ 5625 3350
+Wire Wire Line
+	5625 3350 5700 3350
+$Comp
+L Device:D_Zener D?
+U 1 1 5F9AE31D
+P 5625 3650
+F 0 "D?" V 5671 3570 50  0000 R CNN
+F 1 "3V3_Zener" V 5580 3570 50  0000 R CNN
+F 2 "" H 5625 3650 50  0001 C CNN
+F 3 "~" H 5625 3650 50  0001 C CNN
+	1    5625 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9AE324
+P 5625 3850
+F 0 "#PWR?" H 5625 3600 50  0001 C CNN
+F 1 "GND" H 5630 3677 50  0000 C CNN
+F 2 "" H 5625 3850 50  0001 C CNN
+F 3 "" H 5625 3850 50  0001 C CNN
+	1    5625 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 3850 5625 3800
+Wire Wire Line
+	5625 3350 5625 3500
+$Comp
+L Device:R R?
+U 1 1 5FA39CA6
+P 1250 4550
+F 0 "R?" V 1350 4550 50  0000 C CNN
+F 1 "8.2M" V 1250 4550 39  0000 C CNN
+F 2 "" V 1180 4550 50  0001 C CNN
+F 3 "~" H 1250 4550 50  0001 C CNN
+	1    1250 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA39CAC
+P 1250 4350
+F 0 "R?" V 1150 4350 50  0000 C CNN
+F 1 "8.2M" V 1250 4350 39  0000 C CNN
+F 2 "" V 1180 4350 50  0001 C CNN
+F 3 "~" H 1250 4350 50  0001 C CNN
+	1    1250 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA4A050
+P 1250 2950
+F 0 "R?" V 1350 2950 50  0000 C CNN
+F 1 "8.2M" V 1250 2950 39  0000 C CNN
+F 2 "" V 1180 2950 50  0001 C CNN
+F 3 "~" H 1250 2950 50  0001 C CNN
+	1    1250 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA4A056
+P 1250 2750
+F 0 "R?" V 1150 2750 50  0000 C CNN
+F 1 "8.2M" V 1250 2750 39  0000 C CNN
+F 2 "" V 1180 2750 50  0001 C CNN
+F 3 "~" H 1250 2750 50  0001 C CNN
+	1    1250 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA5A210
+P 1250 1350
+F 0 "R?" V 1350 1350 50  0000 C CNN
+F 1 "8.2M" V 1250 1350 39  0000 C CNN
+F 2 "" V 1180 1350 50  0001 C CNN
+F 3 "~" H 1250 1350 50  0001 C CNN
+	1    1250 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA5A216
+P 1250 1150
+F 0 "R?" V 1150 1150 50  0000 C CNN
+F 1 "8.2M" V 1250 1150 39  0000 C CNN
+F 2 "" V 1180 1150 50  0001 C CNN
+F 3 "~" H 1250 1150 50  0001 C CNN
+	1    1250 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA6A524
+P 4500 6650
+F 0 "R?" V 4600 6650 50  0000 C CNN
+F 1 "8.2M" V 4500 6650 39  0000 C CNN
+F 2 "" V 4430 6650 50  0001 C CNN
+F 3 "~" H 4500 6650 50  0001 C CNN
+	1    4500 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA6A52A
+P 4500 6450
+F 0 "R?" V 4400 6450 50  0000 C CNN
+F 1 "8.2M" V 4500 6450 39  0000 C CNN
+F 2 "" V 4430 6450 50  0001 C CNN
+F 3 "~" H 4500 6450 50  0001 C CNN
+	1    4500 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA7A81A
+P 4500 5050
+F 0 "R?" V 4600 5050 50  0000 C CNN
+F 1 "8.2M" V 4500 5050 39  0000 C CNN
+F 2 "" V 4430 5050 50  0001 C CNN
+F 3 "~" H 4500 5050 50  0001 C CNN
+	1    4500 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA7A820
+P 4500 4850
+F 0 "R?" V 4400 4850 50  0000 C CNN
+F 1 "8.2M" V 4500 4850 39  0000 C CNN
+F 2 "" V 4430 4850 50  0001 C CNN
+F 3 "~" H 4500 4850 50  0001 C CNN
+	1    4500 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA8AA7A
+P 4500 3450
+F 0 "R?" V 4600 3450 50  0000 C CNN
+F 1 "8.2M" V 4500 3450 39  0000 C CNN
+F 2 "" V 4430 3450 50  0001 C CNN
+F 3 "~" H 4500 3450 50  0001 C CNN
+	1    4500 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA8AA80
+P 4500 3250
+F 0 "R?" V 4400 3250 50  0000 C CNN
+F 1 "8.2M" V 4500 3250 39  0000 C CNN
+F 2 "" V 4430 3250 50  0001 C CNN
+F 3 "~" H 4500 3250 50  0001 C CNN
+	1    4500 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L BMS2021_ICs:TL3474ACPWR U?
+U 1 1 5FACA6CB
+P 2100 7450
+F 0 "U?" H 2200 7767 50  0000 C CNN
+F 1 "TL3474ACPWR" H 2200 7676 50  0000 C CNN
+F 2 "" H 2325 7675 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 2325 7675 50  0001 C CNN
+	1    2100 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS2021_ICs:TL3474ACPWR U?
+U 5 1 5FACB20F
+P 5825 1625
+F 0 "U?" H 5825 1838 50  0000 C CNN
+F 1 "TL3474ACPWR" H 5825 1747 50  0000 C CNN
+F 2 "" H 6050 1850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 6050 1850 50  0001 C CNN
+	5    5825 1625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 2125 5400 2175
+Wire Wire Line
+	6125 1625 6225 1625
+Wire Wire Line
+	6225 1625 6225 1550
+$Comp
+L power:GND #PWR?
+U 1 1 5FAE6032
+P 5400 2175
+F 0 "#PWR?" H 5400 1925 50  0001 C CNN
+F 1 "GND" H 5405 2002 50  0000 C CNN
+F 2 "" H 5400 2175 50  0001 C CNN
+F 3 "" H 5400 2175 50  0001 C CNN
+	1    5400 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS2021_ICs:TL3474ACPWR U?
+U 2 1 5FAF7469
+P 1650 6000
+F 0 "U?" H 1750 6317 50  0000 C CNN
+F 1 "TL3474ACPWR" H 1750 6226 50  0000 C CNN
+F 2 "" H 1875 6225 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 1875 6225 50  0001 C CNN
+	2    1650 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS2021_ICs:TL3474ACPWR U?
+U 3 1 5FB0118C
+P 1650 4400
+F 0 "U?" H 1750 4717 50  0000 C CNN
+F 1 "TL3474ACPWR" H 1750 4626 50  0000 C CNN
+F 2 "" H 1875 4625 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 1875 4625 50  0001 C CNN
+	3    1650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS2021_ICs:TL3474ACPWR U?
+U 4 1 5FB0A886
+P 1650 2800
+F 0 "U?" H 1750 3117 50  0000 C CNN
+F 1 "TL3474ACPWR" H 1750 3026 50  0000 C CNN
+F 2 "" H 1875 3025 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 1875 3025 50  0001 C CNN
+	4    1650 2800
+	1    0    0    -1  
+$EndComp
+Text HLabel 6225 1550 1    50   Input ~ 0
+5V
+$Comp
+L BMS2021_ICs:TL3474ACPWR U?
+U 1 1 5FB1D74C
+P 1650 1200
+F 0 "U?" H 1750 1517 50  0000 C CNN
+F 1 "TL3474ACPWR" H 1750 1426 50  0000 C CNN
+F 2 "" H 1875 1425 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 1875 1425 50  0001 C CNN
+	1    1650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS2021_ICs:TL3474ACPWR U?
+U 2 1 5FB26CC5
+P 4900 6500
+F 0 "U?" H 5000 6817 50  0000 C CNN
+F 1 "TL3474ACPWR" H 5000 6726 50  0000 C CNN
+F 2 "" H 5125 6725 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 5125 6725 50  0001 C CNN
+	2    4900 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS2021_ICs:TL3474ACPWR U?
+U 3 1 5FB30457
+P 4900 4900
+F 0 "U?" H 5000 5217 50  0000 C CNN
+F 1 "TL3474ACPWR" H 5000 5126 50  0000 C CNN
+F 2 "" H 5125 5125 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 5125 5125 50  0001 C CNN
+	3    4900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS2021_ICs:TL3474ACPWR U?
+U 4 1 5FB4338B
+P 4900 3300
+F 0 "U?" H 5000 3617 50  0000 C CNN
+F 1 "TL3474ACPWR" H 5000 3526 50  0000 C CNN
+F 2 "" H 5125 3525 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 5125 3525 50  0001 C CNN
+	4    4900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS2021_ICs:TL3474ACPWR U?
+U 5 1 5FB43C8D
+P 5825 2125
+F 0 "U?" H 5825 1936 50  0000 C CNN
+F 1 "TL3474ACPWR" H 5825 2027 50  0000 C CNN
+F 2 "" H 6050 2350 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 6050 2350 50  0001 C CNN
+	5    5825 2125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6125 2125 6225 2125
+Wire Wire Line
+	6225 2125 6225 1625
+Connection ~ 6225 1625
+Wire Wire Line
+	5400 2125 5525 2125
+Wire Wire Line
+	5400 2125 5400 1625
+Wire Wire Line
+	5400 1625 5525 1625
+Connection ~ 5400 2125
+$Comp
+L Device:C C?
+U 1 1 5F9DF2BF
+P 750 2350
+F 0 "C?" H 865 2396 50  0000 L CNN
+F 1 "1u" H 865 2305 50  0000 L CNN
+F 2 "" H 788 2200 50  0001 C CNN
+F 3 "~" H 750 2350 50  0001 C CNN
+	1    750  2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F9F0397
+P 750 3950
+F 0 "C?" H 865 3996 50  0000 L CNN
+F 1 "1u" H 865 3905 50  0000 L CNN
+F 2 "" H 788 3800 50  0001 C CNN
+F 3 "~" H 750 3950 50  0001 C CNN
+	1    750  3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA09EAB
+P 750 5550
+F 0 "C?" H 865 5596 50  0000 L CNN
+F 1 "1u" H 865 5505 50  0000 L CNN
+F 2 "" H 788 5400 50  0001 C CNN
+F 3 "~" H 750 5550 50  0001 C CNN
+	1    750  5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA1B0C6
+P 900 7650
+F 0 "C?" H 1015 7696 50  0000 L CNN
+F 1 "1u" H 1015 7605 50  0000 L CNN
+F 2 "" H 938 7500 50  0001 C CNN
+F 3 "~" H 900 7650 50  0001 C CNN
+	1    900  7650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA2C1FC
+P 4000 6050
+F 0 "C?" H 4115 6096 50  0000 L CNN
+F 1 "1u" H 4115 6005 50  0000 L CNN
+F 2 "" H 4038 5900 50  0001 C CNN
+F 3 "~" H 4000 6050 50  0001 C CNN
+	1    4000 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA3D33C
+P 4000 4450
+F 0 "C?" H 4115 4496 50  0000 L CNN
+F 1 "1u" H 4115 4405 50  0000 L CNN
+F 2 "" H 4038 4300 50  0001 C CNN
+F 3 "~" H 4000 4450 50  0001 C CNN
+	1    4000 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA4E47B
+P 4000 2850
+F 0 "C?" H 4115 2896 50  0000 L CNN
+F 1 "1u" H 4115 2805 50  0000 L CNN
+F 2 "" H 4038 2700 50  0001 C CNN
+F 3 "~" H 4000 2850 50  0001 C CNN
+	1    4000 2850
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

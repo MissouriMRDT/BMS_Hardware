@@ -17,28 +17,6 @@ Text HLabel 900  850  0    50   Output ~ 0
 PV
 Text HLabel 3550 850  2    50   Input ~ 0
 V_in
-$Comp
-L Device:R R?
-U 1 1 5F83ACC9
-P 1800 850
-F 0 "R?" V 1700 850 50  0000 C CNN
-F 1 "5mΩ" V 1800 850 39  0000 C CNN
-F 2 "" V 1730 850 50  0001 C CNN
-F 3 "~" H 1800 850 50  0001 C CNN
-	1    1800 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F83B3DE
-P 2200 850
-F 0 "R?" V 2100 850 50  0000 C CNN
-F 1 "5mΩ" V 2200 850 39  0000 C CNN
-F 2 "" V 2130 850 50  0001 C CNN
-F 3 "~" H 2200 850 50  0001 C CNN
-	1    2200 850 
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2350 850  2450 850 
 Wire Wire Line
@@ -47,15 +25,15 @@ Wire Wire Line
 	2750 850  2850 850 
 Connection ~ 2850 850 
 Wire Wire Line
-	2850 850  3550 850 
+	2850 850  2925 850 
 $Comp
 L Device:R R?
 U 1 1 5F83BB72
 P 2600 850
 F 0 "R?" V 2500 850 50  0000 C CNN
-F 1 "5mΩ" V 2600 850 39  0000 C CNN
+F 1 "50mΩ" V 2600 850 39  0000 C CNN
 F 2 "" V 2530 850 50  0001 C CNN
-F 3 "~" H 2600 850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 2600 850 50  0001 C CNN
 	1    2600 850 
 	0    1    1    0   
 $EndComp
@@ -164,8 +142,8 @@ $Comp
 L MRDT_ICs:INA281 U?
 U 1 1 5F86B7DF
 P 2200 1600
-F 0 "U?" V 2254 1944 50  0000 L CNN
-F 1 "INA281" V 2345 1944 50  0000 L CNN
+F 0 "U?" V 2325 1725 50  0000 L CNN
+F 1 "INA281A" V 2425 1725 50  0000 L CNN
 F 2 "" H 2450 1800 50  0001 C CNN
 F 3 "https://www.ti.com/product/INA281" H 2450 1800 50  0001 C CNN
 	1    2200 1600
@@ -180,10 +158,6 @@ Wire Wire Line
 	1625 4525 1625 4625
 Text HLabel 2350 2400 2    50   Output ~ 0
 pack_i_sense
-Text Notes 4100 900  0    50   ~ 10
-<-- 50 mOhm\n
-Text Notes 4250 1875 0    50   ~ 10
-new IC: take voltage across shunt, done and dusted\n
 Wire Wire Line
 	900  850  1550 850 
 Wire Wire Line
@@ -205,4 +179,68 @@ Wire Wire Line
 	2200 2000 2200 2400
 Wire Wire Line
 	2200 2400 2350 2400
+$Comp
+L MRDT_Connectors:Test_Point J?
+U 1 1 5FA757F5
+P 2925 725
+F 0 "J?" H 3003 870 60  0000 L CNN
+F 1 "Test_Point" H 3003 764 60  0000 L CNN
+F 2 "" H 2925 675 60  0001 C CNN
+F 3 "" H 2925 675 60  0001 C CNN
+	1    2925 725 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 725  2925 850 
+Connection ~ 2925 850 
+Wire Wire Line
+	2925 850  3550 850 
+$Comp
+L MRDT_Connectors:Test_Point J?
+U 1 1 5FA7660C
+P 1475 725
+F 0 "J?" H 1325 875 60  0000 L CNN
+F 1 "Test_Point" H 1000 775 60  0000 L CNN
+F 2 "" H 1475 675 60  0001 C CNN
+F 3 "" H 1475 675 60  0001 C CNN
+	1    1475 725 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 725  1475 850 
+$Comp
+L MRDT_Connectors:Test_Point J?
+U 1 1 5FAAFB1B
+P 2075 2400
+F 0 "J?" V 2175 2500 60  0000 L CNN
+F 1 "Test_Point" V 1975 2325 60  0000 L CNN
+F 2 "" H 2075 2350 60  0001 C CNN
+F 3 "" H 2075 2350 60  0001 C CNN
+	1    2075 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2075 2400 2200 2400
+$Comp
+L Device:R R?
+U 1 1 5FAB1180
+P 2200 850
+F 0 "R?" V 2100 850 50  0000 C CNN
+F 1 "50mΩ" V 2200 850 39  0000 C CNN
+F 2 "" V 2130 850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 2200 850 50  0001 C CNN
+	1    2200 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FAB1A87
+P 1800 850
+F 0 "R?" V 1700 850 50  0000 C CNN
+F 1 "50mΩ" V 1800 850 39  0000 C CNN
+F 2 "" V 1730 850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 1800 850 50  0001 C CNN
+	1    1800 850 
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

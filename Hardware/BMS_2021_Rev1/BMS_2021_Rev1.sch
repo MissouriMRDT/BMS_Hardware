@@ -18,7 +18,7 @@ L MRDT_Connectors:AndersonPP Conn?
 U 1 1 5F7D577A
 P 1700 1750
 F 0 "Conn?" V 1750 1550 60  0000 C CNN
-F 1 "AndersonPP" V 1650 1600 60  0000 C CNN
+F 1 "V_in" V 1650 1600 60  0000 C CNN
 F 2 "" H 1550 1200 60  0001 C CNN
 F 3 "" H 1550 1200 60  0001 C CNN
 	1    1700 1750
@@ -29,7 +29,7 @@ L MRDT_Connectors:AndersonPP Conn?
 U 4 1 5F7D6633
 P 1150 1750
 F 0 "Conn?" V 1200 2150 60  0000 C CNN
-F 1 "AndersonPP" V 1100 2100 60  0000 C CNN
+F 1 "V_in" V 1100 2100 60  0000 C CNN
 F 2 "" H 1000 1200 60  0001 C CNN
 F 3 "" H 1000 1200 60  0001 C CNN
 	4    1150 1750
@@ -104,28 +104,6 @@ F1 "5V_BUCK.sch" 50
 F2 "logic_power" I L 3050 1925 50 
 F3 "5V" O R 3800 1925 50 
 $EndSheet
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
-U 6 1 5F7FD340
-P 7800 3950
-F 0 "U?" H 7850 3900 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 7550 3800 60  0000 L CNN
-F 2 "" H 7800 3950 60  0001 C CNN
-F 3 "" H 7800 3950 60  0001 C CNN
-	6    7800 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
-U 5 1 5F805ECA
-P 8300 2950
-F 0 "U?" H 8400 2900 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 8550 2800 60  0000 C CNN
-F 2 "" H 8300 2950 60  0001 C CNN
-F 3 "" H 8300 2950 60  0001 C CNN
-	5    8300 2950
-	-1   0    0    1   
-$EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U?
 U 1 1 5F814779
@@ -281,27 +259,16 @@ F5 "SW_ERR" I L 4900 3200 50
 F6 "SW_IND" I L 4900 3300 50 
 F7 "V_out_ind" I R 6100 2675 50 
 $EndSheet
-NoConn ~ 7600 900 
 NoConn ~ 7600 1500
 NoConn ~ 7600 1600
 NoConn ~ 7600 1700
 NoConn ~ 7600 1800
 NoConn ~ 8550 1800
 NoConn ~ 8550 1700
-NoConn ~ 8550 1000
-NoConn ~ 8550 900 
-NoConn ~ 7600 3000
-NoConn ~ 7600 3100
-NoConn ~ 7600 3900
-NoConn ~ 7600 3800
-NoConn ~ 8500 3900
-NoConn ~ 8500 3800
-NoConn ~ 8500 3700
-NoConn ~ 8500 3600
-NoConn ~ 8500 3300
-NoConn ~ 8500 3200
-NoConn ~ 8500 3100
-NoConn ~ 8500 3000
+NoConn ~ 7400 3550
+NoConn ~ 7400 3650
+NoConn ~ 7400 4450
+NoConn ~ 7400 4350
 Wire Wire Line
 	3800 2625 3950 2625
 Wire Wire Line
@@ -352,12 +319,6 @@ F 3 "" H 4425 4150 60  0001 C CNN
 	1    4425 4150
 	1    0    0    -1  
 $EndComp
-Text Notes 10200 2000 0    50   ~ 10
-insert tiva headers
-Text Notes 10200 2100 0    50   ~ 10
-power tiva
-Text Notes 10200 2200 0    50   ~ 10
-ground tiva\n
 Text Label 850  5150 2    50   ~ 0
 cell_7
 $Comp
@@ -410,7 +371,7 @@ L MRDT_Connectors:Molex_SL_09 Conn?
 U 1 1 5F7D732D
 P 700 2200
 F 0 "Conn?" H 642 2013 60  0000 C CNN
-F 1 "Molex_SL_09" H 642 2119 60  0000 C CNN
+F 1 "cell_filter" H 642 2119 60  0000 C CNN
 F 2 "" H 700 2600 60  0001 C CNN
 F 3 "" H 700 2600 60  0001 C CNN
 	1    700  2200
@@ -555,20 +516,145 @@ Text Label 4900 3200 2    50   ~ 0
 sw_err
 Text Label 4900 3300 2    50   ~ 0
 sw_ind
-Text Label 7600 3700 2    50   ~ 0
+Text Label 7400 4250 2    50   ~ 0
 cell_1_sense
-Text Label 7600 3600 2    50   ~ 0
+Text Label 7400 4150 2    50   ~ 0
 cell_2_sense
-Text Label 7600 3500 2    50   ~ 0
+Text Label 7400 4050 2    50   ~ 0
 cell_3_sense
-Text Label 7600 3400 2    50   ~ 0
+Text Label 7400 3950 2    50   ~ 0
 cell_4_sense
-Text Label 7600 3300 2    50   ~ 0
+Text Label 7400 3850 2    50   ~ 0
 cell_5_sense
-Text Label 7600 3200 2    50   ~ 0
+Text Label 7400 3750 2    50   ~ 0
 cell_6_sense
-Text Label 8500 3400 0    50   ~ 0
-cell_7_sense
-Text Label 8500 3500 0    50   ~ 0
+NoConn ~ 8550 900 
+Wire Wire Line
+	7600 900  7325 900 
+Wire Wire Line
+	7325 900  7325 725 
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F9B9AA6
+P 7325 725
+F 0 "#PWR?" H 7325 575 50  0001 C CNN
+F 1 "+3V3" H 7340 898 50  0000 C CNN
+F 2 "" H 7325 725 50  0001 C CNN
+F 3 "" H 7325 725 50  0001 C CNN
+	1    7325 725 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1000 9500 1000
+Wire Wire Line
+	9500 1000 9500 1050
+$Comp
+L power:GND #PWR?
+U 1 1 5F9BAFD2
+P 9500 1050
+F 0 "#PWR?" H 9500 800 50  0001 C CNN
+F 1 "GND" H 9505 877 50  0000 C CNN
+F 2 "" H 9500 1050 50  0001 C CNN
+F 3 "" H 9500 1050 50  0001 C CNN
+	1    9500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS_2021_Rev1-cache:MRDT_Shields_TM4C129E_Launchpad U?
+U 3 1 5FA5E750
+P 9200 3175
+F 0 "U?" H 9225 3025 60  0000 L CNN
+F 1 "MRDT_Shields_TM4C129E_Launchpad" H 8725 3125 60  0000 L CNN
+F 2 "" H 9200 3175 60  0001 C CNN
+F 3 "" H 9200 3175 60  0001 C CNN
+	3    9200 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS_2021_Rev1-cache:MRDT_Shields_TM4C129E_Launchpad U?
+U 4 1 5FA60370
+P 9750 3175
+F 0 "U?" H 9650 4400 60  0000 L CNN
+F 1 "MRDT_Shields_TM4C129E_Launchpad" H 9125 4325 60  0000 L CNN
+F 2 "" H 9750 3175 60  0001 C CNN
+F 3 "" H 9750 3175 60  0001 C CNN
+	4    9750 3175
+	-1   0    0    -1  
+$EndComp
+Text Label 8375 4050 0    50   ~ 0
 cell_8_sense
+Text Label 8375 3950 0    50   ~ 0
+cell_7_sense
+NoConn ~ 8375 3550
+NoConn ~ 8375 3650
+NoConn ~ 8375 3750
+NoConn ~ 8375 3850
+NoConn ~ 8375 4150
+NoConn ~ 8375 4250
+NoConn ~ 8375 4350
+NoConn ~ 8375 4450
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 5 1 5F805ECA
+P 8175 3500
+F 0 "U?" H 8275 3450 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 8425 3350 60  0000 C CNN
+F 2 "" H 8175 3500 60  0001 C CNN
+F 3 "" H 8175 3500 60  0001 C CNN
+	5    8175 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 6 1 5F7FD340
+P 7600 4500
+F 0 "U?" H 7650 4450 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 7350 4350 60  0000 L CNN
+F 2 "" H 7600 4500 60  0001 C CNN
+F 3 "" H 7600 4500 60  0001 C CNN
+	6    7600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS_2021_Rev1-cache:MRDT_Shields_TM4C129E_Launchpad U?
+U 7 1 5FA7F4A6
+P 9050 5625
+F 0 "U?" H 9075 5575 60  0000 L CNN
+F 1 "MRDT_Shields_TM4C129E_Launchpad" H 8650 5475 60  0000 L CNN
+F 2 "" H 9050 5625 60  0001 C CNN
+F 3 "" H 9050 5625 60  0001 C CNN
+	7    9050 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS_2021_Rev1-cache:MRDT_Shields_TM4C129E_Launchpad U?
+U 8 1 5FA81FAC
+P 9625 5625
+F 0 "U?" H 9675 5575 60  0000 L CNN
+F 1 "MRDT_Shields_TM4C129E_Launchpad" H 8900 6775 60  0000 L CNN
+F 2 "" H 9625 5625 60  0001 C CNN
+F 3 "" H 9625 5625 60  0001 C CNN
+	8    9625 5625
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 9825 4675
+NoConn ~ 9825 4775
+NoConn ~ 9825 4875
+NoConn ~ 9825 4975
+NoConn ~ 9825 5075
+NoConn ~ 9825 5175
+NoConn ~ 9825 5275
+NoConn ~ 9825 5375
+NoConn ~ 9825 5475
+NoConn ~ 9825 5575
+NoConn ~ 8850 5575
+NoConn ~ 8850 5475
+NoConn ~ 8850 5375
+NoConn ~ 8850 5275
+NoConn ~ 8850 5175
+NoConn ~ 8850 5075
+NoConn ~ 8850 4975
+NoConn ~ 8850 4875
+NoConn ~ 8850 4775
+NoConn ~ 8850 4675
 $EndSCHEMATC
