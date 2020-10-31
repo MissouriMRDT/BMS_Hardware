@@ -17,28 +17,6 @@ Text HLabel 900  850  0    50   Output ~ 0
 PV
 Text HLabel 3550 850  2    50   Input ~ 0
 V_in
-$Comp
-L Device:R R?
-U 1 1 5F83ACC9
-P 1800 850
-F 0 "R?" V 1700 850 50  0000 C CNN
-F 1 "5mΩ" V 1800 850 39  0000 C CNN
-F 2 "" V 1730 850 50  0001 C CNN
-F 3 "~" H 1800 850 50  0001 C CNN
-	1    1800 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F83B3DE
-P 2200 850
-F 0 "R?" V 2100 850 50  0000 C CNN
-F 1 "5mΩ" V 2200 850 39  0000 C CNN
-F 2 "" V 2130 850 50  0001 C CNN
-F 3 "~" H 2200 850 50  0001 C CNN
-	1    2200 850 
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2350 850  2450 850 
 Wire Wire Line
@@ -53,9 +31,9 @@ L Device:R R?
 U 1 1 5F83BB72
 P 2600 850
 F 0 "R?" V 2500 850 50  0000 C CNN
-F 1 "5mΩ" V 2600 850 39  0000 C CNN
+F 1 "50mΩ" V 2600 850 39  0000 C CNN
 F 2 "" V 2530 850 50  0001 C CNN
-F 3 "~" H 2600 850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 2600 850 50  0001 C CNN
 	1    2600 850 
 	0    1    1    0   
 $EndComp
@@ -180,17 +158,12 @@ Wire Wire Line
 	1625 4525 1625 4625
 Text HLabel 2350 2400 2    50   Output ~ 0
 pack_i_sense
-Text Notes 4100 900  0    50   ~ 10
-<-- 50 mOhm\n
-Wire Wire Line
-	900  850  1550 850 
 Wire Wire Line
 	1550 850  1550 1225
 Wire Wire Line
 	1550 1225 2100 1225
 Wire Wire Line
 	2100 1225 2100 1400
-Connection ~ 1550 850 
 Wire Wire Line
 	1550 850  1650 850 
 Wire Wire Line
@@ -230,6 +203,47 @@ F 3 "" H 1475 675 60  0001 C CNN
 	1    1475 725 
 	1    0    0    -1  
 $EndComp
+$Comp
+L MRDT_Connectors:Test_Point J?
+U 1 1 5FAAFB1B
+P 2075 2400
+F 0 "J?" V 2175 2500 60  0000 L CNN
+F 1 "Test_Point" V 1975 2325 60  0000 L CNN
+F 2 "" H 2075 2350 60  0001 C CNN
+F 3 "" H 2075 2350 60  0001 C CNN
+	1    2075 2400
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	1475 725  1475 850 
+	2075 2400 2200 2400
+$Comp
+L Device:R R?
+U 1 1 5FAB1180
+P 2200 850
+F 0 "R?" V 2100 850 50  0000 C CNN
+F 1 "50mΩ" V 2200 850 39  0000 C CNN
+F 2 "" V 2130 850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 2200 850 50  0001 C CNN
+	1    2200 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FAB1A87
+P 1800 850
+F 0 "R?" V 1700 850 50  0000 C CNN
+F 1 "50mΩ" V 1800 850 39  0000 C CNN
+F 2 "" V 1730 850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 1800 850 50  0001 C CNN
+	1    1800 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 850  1475 850 
+Connection ~ 1550 850 
+Wire Wire Line
+	1475 850  1475 725 
+Connection ~ 1475 850 
+Wire Wire Line
+	1475 850  900  850 
 $EndSCHEMATC

@@ -18,9 +18,9 @@ L Device:Q_NMOS_DGS Q?
 U 1 1 5F87380D
 P 3650 2450
 F 0 "Q?" V 3992 2450 50  0000 C CNN
-F 1 "Q_NMOS_DGS" V 3901 2450 50  0000 C CNN
+F 1 "2N7002PW" V 3901 2450 50  0000 C CNN
 F 2 "" H 3850 2550 50  0001 C CNN
-F 3 "~" H 3650 2450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/2N7002PW-115/2531274" H 3650 2450 50  0001 C CNN
 	1    3650 2450
 	0    -1   -1   0   
 $EndComp
@@ -114,6 +114,4 @@ Text HLabel 2400 2400 2    50   Input ~ 0
 5V
 Text HLabel 2400 2600 2    50   Input ~ 0
 5V
-Text Notes 4550 2250 0    50   ~ 10
-find mosfet with good current rating\n
 $EndSCHEMATC

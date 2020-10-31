@@ -1224,29 +1224,29 @@ $EndComp
 $Comp
 L BMS2021_ICs:TL3474ACPWR U?
 U 5 1 5FACB20F
-P 5825 1625
-F 0 "U?" H 5825 1838 50  0000 C CNN
-F 1 "TL3474ACPWR" H 5825 1747 50  0000 C CNN
-F 2 "" H 6050 1850 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 6050 1850 50  0001 C CNN
-	5    5825 1625
+P 4000 1125
+F 0 "U?" H 4000 1338 50  0000 C CNN
+F 1 "TL3474ACPWR" H 4000 1247 50  0000 C CNN
+F 2 "" H 4225 1350 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 4225 1350 50  0001 C CNN
+	5    4000 1125
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5400 2125 5400 2175
+	3575 1625 3575 1675
 Wire Wire Line
-	6125 1625 6225 1625
+	4300 1125 4400 1125
 Wire Wire Line
-	6225 1625 6225 1550
+	4400 1125 4400 1050
 $Comp
 L power:GND #PWR?
 U 1 1 5FAE6032
-P 5400 2175
-F 0 "#PWR?" H 5400 1925 50  0001 C CNN
-F 1 "GND" H 5405 2002 50  0000 C CNN
-F 2 "" H 5400 2175 50  0001 C CNN
-F 3 "" H 5400 2175 50  0001 C CNN
-	1    5400 2175
+P 3575 1675
+F 0 "#PWR?" H 3575 1425 50  0001 C CNN
+F 1 "GND" H 3580 1502 50  0000 C CNN
+F 2 "" H 3575 1675 50  0001 C CNN
+F 3 "" H 3575 1675 50  0001 C CNN
+	1    3575 1675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1282,7 +1282,7 @@ F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/56
 	4    1650 2800
 	1    0    0    -1  
 $EndComp
-Text HLabel 6225 1550 1    50   Input ~ 0
+Text HLabel 4400 1050 1    50   Input ~ 0
 5V
 $Comp
 L BMS2021_ICs:TL3474ACPWR U?
@@ -1331,26 +1331,26 @@ $EndComp
 $Comp
 L BMS2021_ICs:TL3474ACPWR U?
 U 5 1 5FB43C8D
-P 5825 2125
-F 0 "U?" H 5825 1936 50  0000 C CNN
-F 1 "TL3474ACPWR" H 5825 2027 50  0000 C CNN
-F 2 "" H 6050 2350 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 6050 2350 50  0001 C CNN
-	5    5825 2125
+P 4000 1625
+F 0 "U?" H 4000 1436 50  0000 C CNN
+F 1 "TL3474ACPWR" H 4000 1527 50  0000 C CNN
+F 2 "" H 4225 1850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/TL3474ACPWR/565640" H 4225 1850 50  0001 C CNN
+	5    4000 1625
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6125 2125 6225 2125
+	4300 1625 4400 1625
 Wire Wire Line
-	6225 2125 6225 1625
-Connection ~ 6225 1625
+	4400 1625 4400 1125
+Connection ~ 4400 1125
 Wire Wire Line
-	5400 2125 5525 2125
+	3575 1625 3700 1625
 Wire Wire Line
-	5400 2125 5400 1625
+	3575 1625 3575 1125
 Wire Wire Line
-	5400 1625 5525 1625
-Connection ~ 5400 2125
+	3575 1125 3700 1125
+Connection ~ 3575 1625
 $Comp
 L Device:C C?
 U 1 1 5F9DF2BF

@@ -238,6 +238,11 @@ Wire Wire Line
 	4850 3050 4950 3050
 Text HLabel 5100 3050 2    50   Output ~ 0
 3V3
+Wire Wire Line
+	4950 2900 4950 3050
+Connection ~ 4950 3050
+Wire Wire Line
+	4950 3050 5100 3050
 $Comp
 L MRDT_Connectors:Test_Point J?
 U 1 1 5F8CF542
@@ -251,9 +256,4 @@ F 3 "" H 4950 2850 60  0001 C CNN
 	1    4950 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 2900 4950 3050
-Connection ~ 4950 3050
-Wire Wire Line
-	4950 3050 5100 3050
 $EndSCHEMATC
