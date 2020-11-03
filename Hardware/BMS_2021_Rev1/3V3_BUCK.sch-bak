@@ -21,7 +21,7 @@ AR Path="/5F7FDD72/5F8CF4D4" Ref="U?"  Part="1"
 AR Path="/5F7FE1CA/5F8CF4D4" Ref="U8"  Part="1" 
 F 0 "U8" H 2900 3525 50  0000 C CNN
 F 1 "LM2576SX-3.3/NOPB" H 2900 3434 50  0000 C CNN
-F 2 "" H 2900 3550 50  0001 C CNN
+F 2 "MRDT_BMS2021:LM2576SX-3.3&slash_NOPB" H 2900 3550 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/texas-instruments/LM2576SX-3-3-NOPB/366792" H 2900 3550 50  0001 C CNN
 	1    2900 3100
 	1    0    0    -1  
@@ -104,7 +104,7 @@ AR Path="/5F7FDD72/5F8CF4FD" Ref="L?"  Part="1"
 AR Path="/5F7FE1CA/5F8CF4FD" Ref="L2"  Part="1" 
 F 0 "L2" V 4224 3050 50  0000 C CNN
 F 1 "100uH" V 4130 3050 39  0000 C CNN
-F 2 "" H 4050 3050 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 3050 50  0001 C CNN
 F 3 "~" H 4050 3050 50  0001 C CNN
 	1    4050 3050
 	0    -1   -1   0   
@@ -251,7 +251,7 @@ AR Path="/5F7FDD72/5F8CF542" Ref="J?"  Part="1"
 AR Path="/5F7FE1CA/5F8CF542" Ref="J5"  Part="1" 
 F 0 "J5" H 5028 3045 60  0000 L CNN
 F 1 "Test_Point" H 5028 2939 60  0000 L CNN
-F 2 "" H 4950 2850 60  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4950 2850 60  0001 C CNN
 F 3 "" H 4950 2850 60  0001 C CNN
 	1    4950 2900
 	1    0    0    -1  
