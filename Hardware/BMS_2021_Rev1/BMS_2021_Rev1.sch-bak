@@ -670,4 +670,6 @@ Wire Wire Line
 	2900 925  2950 925 
 Wire Wire Line
 	2950 925  2950 1225
+Text Notes 6600 7775 0    98   ~ 20
+Battery Management System 2021
 $EndSCHEMATC

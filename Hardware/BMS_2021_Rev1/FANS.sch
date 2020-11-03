@@ -19,7 +19,7 @@ U 1 1 5F87380D
 P 3650 2450
 F 0 "Q1" V 3992 2450 50  0000 C CNN
 F 1 "2N7002PW" V 3901 2450 50  0000 C CNN
-F 2 "" H 3850 2550 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 3850 2550 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/2N7002PW-115/2531274" H 3650 2450 50  0001 C CNN
 	1    3650 2450
 	0    -1   -1   0   
