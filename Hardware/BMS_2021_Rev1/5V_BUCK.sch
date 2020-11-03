@@ -20,7 +20,7 @@ P 3900 1850
 F 0 "U6" H 3900 2275 50  0000 C CNN
 F 1 "LM257SX-5.0/NOPB" H 3900 2184 50  0000 C CNN
 F 2 "" H 3900 2300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 3900 2300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/lm2575sx-5-0-nopb/366782" H 3900 2300 50  0001 C CNN
 	1    3900 1850
 	1    0    0    -1  
 $EndComp
@@ -64,7 +64,7 @@ U 1 1 5F857E1E
 P 4650 1350
 F 0 "C9" H 4765 1396 50  0000 L CNN
 F 1 "100u" H 4765 1305 50  0000 L CNN
-F 2 "" H 4688 1200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4688 1200 50  0001 C CNN
 F 3 "~" H 4650 1350 50  0001 C CNN
 	1    4650 1350
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 5F859DD2
 P 5300 2100
 F 0 "C10" H 5100 2100 50  0000 L CNN
 F 1 "1000u" H 4950 2000 50  0000 L CNN
-F 2 "" H 5338 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5338 1950 50  0001 C CNN
 F 3 "~" H 5300 2100 50  0001 C CNN
 	1    5300 2100
 	1    0    0    -1  

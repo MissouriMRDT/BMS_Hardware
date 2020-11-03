@@ -22,7 +22,7 @@ AR Path="/5F7FE1CA/5F8CF4D4" Ref="U8"  Part="1"
 F 0 "U8" H 2900 3525 50  0000 C CNN
 F 1 "LM2576SX-3.3/NOPB" H 2900 3434 50  0000 C CNN
 F 2 "" H 2900 3550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 2900 3550 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/LM2576SX-3-3-NOPB/366792" H 2900 3550 50  0001 C CNN
 	1    2900 3100
 	1    0    0    -1  
 $EndComp
@@ -70,7 +70,7 @@ AR Path="/5F7FDD72/5F8CF4ED" Ref="C?"  Part="1"
 AR Path="/5F7FE1CA/5F8CF4ED" Ref="C12"  Part="1" 
 F 0 "C12" H 3765 2646 50  0000 L CNN
 F 1 "100u" H 3765 2555 50  0000 L CNN
-F 2 "" H 3688 2450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3688 2450 50  0001 C CNN
 F 3 "~" H 3650 2600 50  0001 C CNN
 	1    3650 2600
 	1    0    0    -1  
@@ -119,7 +119,7 @@ AR Path="/5F7FDD72/5F8CF504" Ref="C?"  Part="1"
 AR Path="/5F7FE1CA/5F8CF504" Ref="C13"  Part="1" 
 F 0 "C13" H 4100 3350 50  0000 L CNN
 F 1 "1000u" H 3950 3250 50  0000 L CNN
-F 2 "" H 4338 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4338 3200 50  0001 C CNN
 F 3 "~" H 4300 3350 50  0001 C CNN
 	1    4300 3350
 	1    0    0    -1  
