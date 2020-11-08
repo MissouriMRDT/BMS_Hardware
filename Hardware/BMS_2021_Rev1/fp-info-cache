@@ -1,4 +1,4 @@
-18884369198439726
+18893992080630426
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56125,6 +56125,48 @@ TO-220-3 Horizontal RM 2.54mm
 0
 3
 3
+MRDT_BMS2021
+IRLB3034PBF
+
+
+0
+3
+3
+MRDT_BMS2021
+LM2575SX-5.0&slash_NOPB
+
+
+0
+6
+6
+MRDT_BMS2021
+LM2576SX-3.3&slash_NOPB
+
+
+0
+6
+6
+MRDT_BMS2021
+LT1910_SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm
+SOIC, 8 Pin (http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx#page=8), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+MRDT_BMS2021
+RB886CST2RA
+
+
+0
+2
+2
+MRDT_BMS2021
+TL3474ID
+
+
+0
+14
+14
 MRDT_Connectors
 Anderson_1_Horizontal
 

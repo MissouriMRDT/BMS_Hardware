@@ -36,7 +36,7 @@ AR Path="/5F80341F/5F88DE82" Ref="Q?"  Part="1"
 AR Path="/5F80342B/5F88DE82" Ref="Q5"  Part="1" 
 F 0 "Q5" V 3042 1800 50  0000 C CNN
 F 1 "2N7002PW" V 2951 1800 50  0000 C CNN
-F 2 "" H 2900 1900 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 2900 1900 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/nexperia-usa-inc/2N7002PW-115/2531274" H 2700 1800 50  0001 C CNN
 	1    2700 1800
 	0    -1   -1   0   
