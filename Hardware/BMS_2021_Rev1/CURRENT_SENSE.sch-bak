@@ -138,6 +138,14 @@ F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 
 	1    2200 850 
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1550 850  1475 850 
+Connection ~ 1550 850 
+Wire Wire Line
+	1475 850  1475 725 
+Connection ~ 1475 850 
+Wire Wire Line
+	1475 850  900  850 
 $Comp
 L Device:R R31
 U 1 1 5FAB1A87
@@ -149,12 +157,4 @@ F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 
 	1    1800 850 
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1550 850  1475 850 
-Connection ~ 1550 850 
-Wire Wire Line
-	1475 850  1475 725 
-Connection ~ 1475 850 
-Wire Wire Line
-	1475 850  900  850 
 $EndSCHEMATC

@@ -55,11 +55,11 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 5.08 5.08)
+    (pad_drill 4.104005)
     (pad_to_mask_clearance 0.05)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -369,7 +369,7 @@
   )
 
   (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD71971) (tstamp 5FA387D8)
-    (at 223.52 46.99)
+    (at 230.124 45.72)
     (path /5F8EC3A8)
     (fp_text reference V3 (at 0 10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -382,7 +382,7 @@
   )
 
   (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD71971) (tstamp 5FA387D3)
-    (at 60.96 80.01)
+    (at 52.324 85.344)
     (path /5F8BFF95)
     (fp_text reference V2 (at 0 10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -395,7 +395,7 @@
   )
 
   (module MRDT_Drill_Holes:BATT_PWR_VIA (layer F.Cu) (tedit 5AD71971) (tstamp 5FA387CE)
-    (at 223.52 80.01)
+    (at 230.124 81.788)
     (path /5F8BF1E3)
     (fp_text reference V1 (at 0 10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1008,7 +1008,7 @@
   )
 
   (module MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_TOP (layer F.Cu) (tedit 5C29560A) (tstamp 5FA3861D)
-    (at 88.9 -5.08)
+    (at 85.852 -14.732)
     (path /5F814779)
     (fp_text reference U1 (at 122.174 -0.762 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5025,7 +5025,7 @@
     )
   )
 
-  (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5DD8971D) (tstamp 5FA37E25)
+  (module MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side (layer F.Cu) (tedit 5FA99A3B) (tstamp 5FA37E25)
     (at 438.430001 89.154)
     (path /5F7D577A)
     (fp_text reference Conn2 (at 9.763 6.426) (layer F.SilkS)
@@ -5056,7 +5056,8 @@
     (fp_line (start -3.937 -1.524) (end -4.445 -1.524) (layer F.SilkS) (width 0.15))
     (fp_line (start 3.963 -3.074) (end -3.937 -3.074) (layer F.SilkS) (width 0.15))
     (fp_line (start 3.963 4.826) (end -3.937 4.826) (layer F.SilkS) (width 0.15))
-    (pad 2 thru_hole circle (at 7.913 0.026 270) (size 5.08 5.08) (drill 4.104006) (layers *.Cu *.Mask))
+    (pad 2 thru_hole circle (at 7.913 0.026 270) (size 5.08 5.08) (drill 4.104005) (layers *.Cu *.Mask)
+      (net 52 /V_in))
     (pad 1 thru_hole circle (at 0.013 0.026 270) (size 5.08 5.08) (drill 4.104006) (layers *.Cu *.Mask)
       (net 4 GND))
     (model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Connctors/Anderson_2_Vertcal_Side_by_Side.stp"
