@@ -32,7 +32,7 @@ U 1 1 5F83BB72
 P 2600 850
 F 0 "R33" V 2500 850 50  0000 C CNN
 F 1 "50mΩ" V 2600 850 39  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-247-2_Vertical" V 2530 850 50  0001 C CNN
+F 2 "MRDT_BMS2021:TO-247-2_Vertical_custom" V 2530 850 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 2600 850 50  0001 C CNN
 	1    2600 850 
 	0    1    1    0   
@@ -133,7 +133,7 @@ U 1 1 5FAB1180
 P 2200 850
 F 0 "R32" V 2100 850 50  0000 C CNN
 F 1 "50mΩ" V 2200 850 39  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-247-2_Vertical" V 2130 850 50  0001 C CNN
+F 2 "MRDT_BMS2021:TO-247-2_Vertical_custom" V 2130 850 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 2200 850 50  0001 C CNN
 	1    2200 850 
 	0    1    1    0   
@@ -152,7 +152,7 @@ U 1 1 5FAB1A87
 P 1800 850
 F 0 "R31" V 1700 850 50  0000 C CNN
 F 1 "50mΩ" V 1800 850 39  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-247-2_Vertical" V 1730 850 50  0001 C CNN
+F 2 "MRDT_BMS2021:TO-247-2_Vertical_custom" V 1730 850 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 1800 850 50  0001 C CNN
 	1    1800 850 
 	0    1    1    0   
