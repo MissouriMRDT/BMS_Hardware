@@ -24,8 +24,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 850  2850 850 
 Connection ~ 2850 850 
-Wire Wire Line
-	2850 850  2925 850 
 $Comp
 L Device:R R33
 U 1 1 5F83BB72
@@ -88,33 +86,6 @@ Wire Wire Line
 Wire Wire Line
 	2200 2400 2350 2400
 $Comp
-L MRDT_Connectors:Test_Point J3
-U 1 1 5FA757F5
-P 2925 725
-F 0 "J3" H 3003 870 60  0000 L CNN
-F 1 "Test_Point" H 3003 764 60  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 2925 675 60  0001 C CNN
-F 3 "" H 2925 675 60  0001 C CNN
-	1    2925 725 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2925 725  2925 850 
-Connection ~ 2925 850 
-Wire Wire Line
-	2925 850  3550 850 
-$Comp
-L MRDT_Connectors:Test_Point J1
-U 1 1 5FA7660C
-P 1475 725
-F 0 "J1" H 1325 875 60  0000 L CNN
-F 1 "Test_Point" H 1000 775 60  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 1475 675 60  0001 C CNN
-F 3 "" H 1475 675 60  0001 C CNN
-	1    1475 725 
-	1    0    0    -1  
-$EndComp
-$Comp
 L MRDT_Connectors:Test_Point J2
 U 1 1 5FAAFB1B
 P 2075 2400
@@ -138,14 +109,7 @@ F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 
 	1    2200 850 
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1550 850  1475 850 
 Connection ~ 1550 850 
-Wire Wire Line
-	1475 850  1475 725 
-Connection ~ 1475 850 
-Wire Wire Line
-	1475 850  900  850 
 $Comp
 L Device:R R31
 U 1 1 5FAB1A87
@@ -157,4 +121,8 @@ F 3 "https://www.digikey.com/en/products/detail/riedon/PF2472-0R05J1/2447851" H 
 	1    1800 850 
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	900  850  1550 850 
+Wire Wire Line
+	2850 850  3550 850 
 $EndSCHEMATC
