@@ -1,4 +1,4 @@
-update=11/12/2020 11:36:25 PM
+update=11/14/2020 4:13:59 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../../Documentation/BMS_2021_Rev1_netlist3.net
+LastNetListRead=../../Documentation/BMS_2021_Rev1_orientationChangeLT1910.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
