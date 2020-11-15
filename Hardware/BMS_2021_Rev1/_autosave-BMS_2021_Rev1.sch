@@ -432,8 +432,6 @@ Text Label 3000 4475 2    50   ~ 0
 PV
 Text Label 3800 1375 0    50   ~ 0
 pack_i_sense
-Text Label 9825 5475 0    50   ~ 0
-pack_i_sense
 Text Label 3050 1925 2    50   ~ 0
 logic_power
 Text Label 3050 2625 2    50   ~ 0
@@ -570,7 +568,6 @@ Text Label 8375 4050 0    50   ~ 0
 cell_8_sense
 Text Label 8375 3950 0    50   ~ 0
 cell_7_sense
-NoConn ~ 8375 3550
 NoConn ~ 8375 3650
 NoConn ~ 8375 3750
 NoConn ~ 8375 3850
@@ -729,5 +726,8 @@ F 3 "" H 700 3750 60  0001 C CNN
 $EndComp
 Wire Notes Line
 	2150 500  2150 4300
+Text Label 8375 3550 0    50   ~ 0
+pack_i_sense
+NoConn ~ 9825 5475
 NoConn ~ 8550 1400
 $EndSCHEMATC
