@@ -1,0 +1,233 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 4 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Devices:LM2576D2TR4 U6
+U 1 1 5F8571AC
+P 3900 1850
+F 0 "U6" H 3900 2275 50  0000 C CNN
+F 1 "LM257SX-5.0/NOPB" H 3900 2184 50  0000 C CNN
+F 2 "MRDT_BMS2021:LM2575SX-5.0&slash_NOPB" H 3900 2300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/lm2575sx-5-0-nopb/366782" H 3900 2300 50  0001 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1650 3000 1650
+Wire Wire Line
+	3000 1650 3000 1800
+Wire Wire Line
+	3000 1800 3400 1800
+Wire Wire Line
+	3000 1800 3000 1950
+Wire Wire Line
+	3000 1950 3400 1950
+Connection ~ 3000 1800
+Wire Wire Line
+	3000 1950 3000 2000
+Connection ~ 3000 1950
+$Comp
+L power:GND #PWR038
+U 1 1 5F857833
+P 3000 2000
+F 0 "#PWR038" H 3000 1750 50  0001 C CNN
+F 1 "GND" H 3005 1827 50  0000 C CNN
+F 2 "" H 3000 2000 50  0001 C CNN
+F 3 "" H 3000 2000 50  0001 C CNN
+	1    3000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1650 4500 1650
+Wire Wire Line
+	4500 1150 4650 1150
+Wire Wire Line
+	4650 1150 4650 1200
+Connection ~ 4500 1150
+Wire Wire Line
+	4500 1150 4500 1050
+$Comp
+L Device:C C9
+U 1 1 5F857E1E
+P 4650 1350
+F 0 "C9" H 4765 1396 50  0000 L CNN
+F 1 "100u" H 4765 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4688 1200 50  0001 C CNN
+F 3 "~" H 4650 1350 50  0001 C CNN
+	1    4650 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1150 4500 1650
+$Comp
+L power:GND #PWR039
+U 1 1 5F8585AC
+P 4650 1550
+F 0 "#PWR039" H 4650 1300 50  0001 C CNN
+F 1 "GND" H 4800 1500 50  0001 C CNN
+F 2 "" H 4650 1550 50  0001 C CNN
+F 3 "" H 4650 1550 50  0001 C CNN
+	1    4650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1550 4650 1500
+Text HLabel 4500 1050 1    50   Input ~ 0
+logic_power
+Wire Wire Line
+	5200 1800 5300 1800
+$Comp
+L Device:L L1
+U 1 1 5F858CDF
+P 5050 1800
+F 0 "L1" V 5224 1800 50  0000 C CNN
+F 1 "100uH" V 5130 1800 39  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5050 1800 50  0001 C CNN
+F 3 "~" H 5050 1800 50  0001 C CNN
+	1    5050 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 1800 5300 1950
+$Comp
+L Device:C C10
+U 1 1 5F859DD2
+P 5300 2100
+F 0 "C10" H 5100 2100 50  0000 L CNN
+F 1 "1000u" H 4950 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5338 1950 50  0001 C CNN
+F 3 "~" H 5300 2100 50  0001 C CNN
+	1    5300 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2250 5300 2350
+$Comp
+L power:GND #PWR041
+U 1 1 5F85A557
+P 5300 2350
+F 0 "#PWR041" H 5300 2100 50  0001 C CNN
+F 1 "GND" H 5305 2177 50  0000 C CNN
+F 2 "" H 5300 2350 50  0001 C CNN
+F 3 "" H 5300 2350 50  0001 C CNN
+	1    5300 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1950 4500 1950
+Text GLabel 4500 1950 2    50   Output ~ 0
+FB
+Wire Wire Line
+	4400 1800 4800 1800
+Wire Wire Line
+	4800 1950 4800 1800
+Connection ~ 4800 1800
+Wire Wire Line
+	4800 1800 4900 1800
+Wire Wire Line
+	4800 2250 4800 2350
+$Comp
+L power:GND #PWR040
+U 1 1 5F85E1FF
+P 4800 2350
+F 0 "#PWR040" H 4800 2100 50  0001 C CNN
+F 1 "GND" H 4805 2177 50  0000 C CNN
+F 2 "" H 4800 2350 50  0001 C CNN
+F 3 "" H 4800 2350 50  0001 C CNN
+	1    4800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 5F85E996
+P 5850 2450
+F 0 "R35" H 5910 2450 50  0000 L CNN
+F 1 "997Ω" V 5845 2375 39  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5780 2450 50  0001 C CNN
+F 3 "~" H 5850 2450 50  0001 C CNN
+	1    5850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5F85EE82
+P 5850 2050
+F 0 "R34" H 5910 2050 50  0000 L CNN
+F 1 "3.05k" V 5850 1970 39  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5780 2050 50  0001 C CNN
+F 3 "~" H 5850 2050 50  0001 C CNN
+	1    5850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2300 5850 2250
+Wire Wire Line
+	5850 2600 5850 2700
+$Comp
+L power:GND #PWR042
+U 1 1 5F86171B
+P 5850 2700
+F 0 "#PWR042" H 5850 2450 50  0001 C CNN
+F 1 "GND" H 5855 2527 50  0000 C CNN
+F 2 "" H 5850 2700 50  0001 C CNN
+F 3 "" H 5850 2700 50  0001 C CNN
+	1    5850 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 1800
+Wire Wire Line
+	5850 2250 5700 2250
+Connection ~ 5850 2250
+Wire Wire Line
+	5850 2250 5850 2200
+Text GLabel 5700 2250 0    50   Input ~ 0
+FB
+Wire Wire Line
+	5300 1800 5850 1800
+Wire Wire Line
+	5850 1900 5850 1800
+Connection ~ 5850 1800
+Wire Wire Line
+	5850 1800 5950 1800
+Text HLabel 6100 1800 2    50   Output ~ 0
+5V
+$Comp
+L MRDT_Connectors:Test_Point J4
+U 1 1 5F861743
+P 5950 1650
+F 0 "J4" H 6028 1795 60  0000 L CNN
+F 1 "Test_Point" H 6028 1689 60  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 5950 1600 60  0001 C CNN
+F 3 "" H 5950 1600 60  0001 C CNN
+	1    5950 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1650 5950 1800
+Connection ~ 5950 1800
+Wire Wire Line
+	5950 1800 6100 1800
+$Comp
+L Device:D_Schottky D16
+U 1 1 5F85CA3F
+P 4800 2100
+F 0 "D16" V 4750 1950 50  0000 L CNN
+F 1 "1N5822" V 4850 1775 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 4800 2100 50  0001 C CNN
+F 3 "~" H 4800 2100 50  0001 C CNN
+	1    4800 2100
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
