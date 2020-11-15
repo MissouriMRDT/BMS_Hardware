@@ -434,7 +434,7 @@ Text Label 3000 4475 2    50   ~ 0
 PV
 Text Label 3800 1375 0    50   ~ 0
 pack_i_sense
-Text Label 8550 1100 0    50   ~ 0
+Text Label 9825 5475 0    50   ~ 0
 pack_i_sense
 Text Label 3050 1925 2    50   ~ 0
 logic_power
@@ -448,7 +448,7 @@ Text Label 8550 1400 0    50   ~ 0
 logic_power_sense
 Text Label 4900 1375 2    50   ~ 0
 fan_control
-Text Label 8550 1200 0    50   ~ 0
+Text Label 9825 4875 0    50   ~ 0
 fan_control
 Text Label 4900 2075 2    50   ~ 0
 temp_sense(A)
@@ -481,7 +481,7 @@ Text Label 4900 2900 2    50   ~ 0
 buzzer_control
 Text Label 8550 1300 0    50   ~ 0
 buzzer_control
-Text Label 7600 1300 2    50   ~ 0
+Text Label 9825 5575 0    50   ~ 0
 pack_gate
 Text Label 7600 1100 2    50   ~ 0
 sw_err
@@ -626,16 +626,12 @@ F 3 "" H 9625 5625 60  0001 C CNN
 $EndComp
 NoConn ~ 9825 4675
 NoConn ~ 9825 4775
-NoConn ~ 9825 4875
 NoConn ~ 9825 4975
 NoConn ~ 9825 5075
 NoConn ~ 9825 5175
 NoConn ~ 9825 5275
 NoConn ~ 9825 5375
-NoConn ~ 9825 5475
-NoConn ~ 9825 5575
 NoConn ~ 8850 5575
-NoConn ~ 8850 5475
 NoConn ~ 8850 5375
 NoConn ~ 8850 5275
 NoConn ~ 8850 5175
@@ -672,4 +668,9 @@ Wire Wire Line
 	2950 925  2950 1225
 Text Notes 6600 7775 0    98   ~ 20
 Battery Management System 2021
+NoConn ~ 8550 1100
+NoConn ~ 8550 1200
+Text Label 8850 5475 2    50   ~ 0
+logic_switch
+NoConn ~ 7600 1300
 $EndSCHEMATC

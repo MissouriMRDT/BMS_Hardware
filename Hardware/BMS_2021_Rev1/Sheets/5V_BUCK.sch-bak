@@ -131,17 +131,6 @@ Text GLabel 4500 1950 2    50   Output ~ 0
 FB
 Wire Wire Line
 	4400 1800 4800 1800
-$Comp
-L Device:D_Schottky D16
-U 1 1 5F85CA3F
-P 4800 2100
-F 0 "D16" V 4750 1950 50  0000 L CNN
-F 1 "5V_Schottky" V 4850 1600 50  0000 L CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 4800 2100 50  0001 C CNN
-F 3 "~" H 4800 2100 50  0001 C CNN
-	1    4800 2100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4800 1950 4800 1800
 Connection ~ 4800 1800
@@ -230,4 +219,15 @@ Wire Wire Line
 Connection ~ 5950 1800
 Wire Wire Line
 	5950 1800 6100 1800
+$Comp
+L Device:D_Schottky D16
+U 1 1 5F85CA3F
+P 4800 2100
+F 0 "D16" V 4750 1950 50  0000 L CNN
+F 1 "1N5822" V 4850 1775 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 4800 2100 50  0001 C CNN
+F 3 "~" H 4800 2100 50  0001 C CNN
+	1    4800 2100
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

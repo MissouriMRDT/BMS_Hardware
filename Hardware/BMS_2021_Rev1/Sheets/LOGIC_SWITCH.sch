@@ -27,9 +27,9 @@ L Transistor_FET:2N7000 Q4
 U 1 1 5F8BB77C
 P 2200 2400
 F 0 "Q4" H 2404 2446 50  0000 L CNN
-F 1 "2N7000" H 2404 2355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 2325 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 2400 50  0001 L CNN
+F 1 "2N7002" H 2404 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2400 2325 50  0001 L CIN
+F 3 "https://www.digikey.com/en/products/detail/on-semiconductor/2N7002/244345" H 2200 2400 50  0001 L CNN
 	1    2200 2400
 	1    0    0    -1  
 $EndComp
