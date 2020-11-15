@@ -26,13 +26,13 @@ F 3 "" H 1550 1200 60  0001 C CNN
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn2
-U 4 1 5F7D6633
+U 2 1 5F7D6633
 P 1150 1750
 F 0 "Conn2" V 1200 2150 60  0000 C CNN
 F 1 "V_in" V 1100 2100 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1000 1200 60  0001 C CNN
 F 3 "" H 1000 1200 60  0001 C CNN
-	4    1150 1750
+	2    1150 1750
 	0    -1   -1   0   
 $EndComp
 Text Notes 500  600  0    50   ~ 10
