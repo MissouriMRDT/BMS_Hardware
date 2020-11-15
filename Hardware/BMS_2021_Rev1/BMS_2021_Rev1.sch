@@ -60,31 +60,29 @@ Connection ~ 1600 1250
 Wire Wire Line
 	1600 1250 1600 1350
 Wire Notes Line
-	2150 500  2150 3150
-Wire Notes Line
-	2150 3150 450  3150
+	2175 4300 475  4300
 $Sheet
-S 850  3350 1250 2550
+S 925  5100 1250 2550
 U 5F7DC735
 F0 "CELL_FILTERS" 50
 F1 "Sheets/CELL_FILTERS.sch" 50
-F2 "cell_1" I L 850 5750 50 
-F3 "cell_2" I L 850 5650 50 
-F4 "cell_2_sense" O R 2100 5650 50 
-F5 "cell_3_sense" O R 2100 5550 50 
-F6 "cell_3" I L 850 5550 50 
-F7 "cell_4_sense" O R 2100 5450 50 
-F8 "cell_4" I L 850 5450 50 
-F9 "cell_5_sense" O R 2100 5350 50 
-F10 "cell_5" I L 850 5350 50 
-F11 "cell_6_sense" O R 2100 5250 50 
-F12 "cell_6" I L 850 5250 50 
-F13 "cell_7_sense" O R 2100 5150 50 
-F14 "cell_7" I L 850 5150 50 
-F15 "cell_8_sense" O R 2100 5050 50 
-F16 "cell_8" I L 850 5050 50 
-F17 "cell_1_sense" O R 2100 5750 50 
-F18 "5V" I L 850 3475 50 
+F2 "cell_1" I L 925 7500 50 
+F3 "cell_2" I L 925 7400 50 
+F4 "cell_2_sense" O R 2175 7400 50 
+F5 "cell_3_sense" O R 2175 7300 50 
+F6 "cell_3" I L 925 7300 50 
+F7 "cell_4_sense" O R 2175 7200 50 
+F8 "cell_4" I L 925 7200 50 
+F9 "cell_5_sense" O R 2175 7100 50 
+F10 "cell_5" I L 925 7100 50 
+F11 "cell_6_sense" O R 2175 7000 50 
+F12 "cell_6" I L 925 7000 50 
+F13 "cell_7_sense" O R 2175 6900 50 
+F14 "cell_7" I L 925 6900 50 
+F15 "cell_8_sense" O R 2175 6800 50 
+F16 "cell_8" I L 925 6800 50 
+F17 "cell_1_sense" O R 2175 7500 50 
+F18 "5V" I L 925 5225 50 
 $EndSheet
 $Sheet
 S 3050 1150 750  300 
@@ -306,7 +304,7 @@ F 3 "" H 1600 900 60  0001 C CNN
 	1    1600 900 
 	1    0    0    -1  
 $EndComp
-Text Label 850  5050 2    50   ~ 0
+Text Label 925  6800 2    50   ~ 0
 cell_8
 $Comp
 L MRDT_Drill_Holes:BATT_PWR_VIA V3
@@ -319,7 +317,7 @@ F 3 "" H 4425 4150 60  0001 C CNN
 	1    4425 4150
 	1    0    0    -1  
 $EndComp
-Text Label 850  5150 2    50   ~ 0
+Text Label 925  6900 2    50   ~ 0
 cell_7
 $Comp
 L power:GND #PWR03
@@ -377,48 +375,48 @@ F 3 "" H 700 2600 60  0001 C CNN
 	1    700  2200
 	-1   0    0    1   
 $EndComp
-Text Label 850  5350 2    50   ~ 0
+Text Label 925  7100 2    50   ~ 0
 cell_5
-Text Label 850  5250 2    50   ~ 0
+Text Label 925  7000 2    50   ~ 0
 cell_6
-Text Label 850  5450 2    50   ~ 0
+Text Label 925  7200 2    50   ~ 0
 cell_4
-Text Label 850  5550 2    50   ~ 0
+Text Label 925  7300 2    50   ~ 0
 cell_3
-Text Label 850  5650 2    50   ~ 0
+Text Label 925  7400 2    50   ~ 0
 cell_2
-Text Label 850  5750 2    50   ~ 0
+Text Label 925  7500 2    50   ~ 0
 cell_1
 Wire Wire Line
-	850  3475 700  3475
+	925  5225 775  5225
 Wire Wire Line
-	700  3475 700  3375
+	775  5225 775  5125
 $Comp
 L power:+5V #PWR01
 U 1 1 5F917BE1
-P 700 3375
-F 0 "#PWR01" H 700 3225 50  0001 C CNN
-F 1 "+5V" H 715 3548 50  0000 C CNN
-F 2 "" H 700 3375 50  0001 C CNN
-F 3 "" H 700 3375 50  0001 C CNN
-	1    700  3375
+P 775 5125
+F 0 "#PWR01" H 775 4975 50  0001 C CNN
+F 1 "+5V" H 790 5298 50  0000 C CNN
+F 2 "" H 775 5125 50  0001 C CNN
+F 3 "" H 775 5125 50  0001 C CNN
+	1    775  5125
 	1    0    0    -1  
 $EndComp
-Text Label 2100 5750 0    50   ~ 0
+Text Label 2175 7500 0    50   ~ 0
 cell_1_sense
-Text Label 2100 5650 0    50   ~ 0
+Text Label 2175 7400 0    50   ~ 0
 cell_2_sense
-Text Label 2100 5550 0    50   ~ 0
+Text Label 2175 7300 0    50   ~ 0
 cell_3_sense
-Text Label 2100 5450 0    50   ~ 0
+Text Label 2175 7200 0    50   ~ 0
 cell_4_sense
-Text Label 2100 5350 0    50   ~ 0
+Text Label 2175 7100 0    50   ~ 0
 cell_5_sense
-Text Label 2100 5250 0    50   ~ 0
+Text Label 2175 7000 0    50   ~ 0
 cell_6_sense
-Text Label 2100 5150 0    50   ~ 0
+Text Label 2175 6900 0    50   ~ 0
 cell_7_sense
-Text Label 2100 5050 0    50   ~ 0
+Text Label 2175 6800 0    50   ~ 0
 cell_8_sense
 Wire Wire Line
 	4425 4475 4200 4475
@@ -444,7 +442,7 @@ Text Label 4200 5675 0    50   ~ 0
 logic_power
 Text Label 4200 6375 0    50   ~ 0
 logic_power_sense
-Text Label 8550 1400 0    50   ~ 0
+Text Label 8850 5575 2    50   ~ 0
 logic_power_sense
 Text Label 4900 1375 2    50   ~ 0
 fan_control
@@ -631,7 +629,6 @@ NoConn ~ 9825 5075
 NoConn ~ 9825 5175
 NoConn ~ 9825 5275
 NoConn ~ 9825 5375
-NoConn ~ 8850 5575
 NoConn ~ 8850 5375
 NoConn ~ 8850 5275
 NoConn ~ 8850 5175
@@ -672,5 +669,65 @@ NoConn ~ 8550 1100
 NoConn ~ 8550 1200
 Text Label 8850 5475 2    50   ~ 0
 logic_switch
-NoConn ~ 7600 1300
+Wire Wire Line
+	900  4200 1050 4200
+$Comp
+L power:GND #PWR068
+U 1 1 5FB68F88
+P 1850 3425
+F 0 "#PWR068" H 1850 3175 50  0001 C CNN
+F 1 "GND" H 1855 3252 50  0000 C CNN
+F 2 "" H 1850 3425 50  0001 C CNN
+F 3 "" H 1850 3425 50  0001 C CNN
+	1    1850 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3425 1850 3400
+Wire Wire Line
+	900  3400 1850 3400
+Text Label 1050 4200 0    50   ~ 0
+cell_1
+Text Label 1400 4100 0    50   ~ 0
+cell_2
+Text Label 1050 4000 0    50   ~ 0
+cell_3
+Text Label 1400 3900 0    50   ~ 0
+cell_4
+Text Label 1050 3800 0    50   ~ 0
+cell_5
+Text Label 1400 3700 0    50   ~ 0
+cell_6
+Text Label 1050 3600 0    50   ~ 0
+cell_7
+Text Label 1400 3500 0    50   ~ 0
+cell_8
+Wire Wire Line
+	900  3500 1400 3500
+Wire Wire Line
+	900  3600 1050 3600
+Wire Wire Line
+	900  3700 1400 3700
+Wire Wire Line
+	900  3800 1050 3800
+Wire Wire Line
+	900  3900 1400 3900
+Wire Wire Line
+	900  4000 1050 4000
+Wire Wire Line
+	900  4100 1400 4100
+$Comp
+L MRDT_Connectors:Molex_SL_09 Conn6
+U 1 1 5FB68F9F
+P 700 3350
+F 0 "Conn6" H 642 3163 60  0000 C CNN
+F 1 "cell_filter" H 642 3269 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_09_Vertical" H 700 3750 60  0001 C CNN
+F 3 "" H 700 3750 60  0001 C CNN
+	1    700  3350
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	2150 500  2150 4300
+NoConn ~ 8550 1400
 $EndSCHEMATC
