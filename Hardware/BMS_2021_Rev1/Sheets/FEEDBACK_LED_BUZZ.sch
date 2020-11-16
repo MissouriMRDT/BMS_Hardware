@@ -163,7 +163,7 @@ L Device:R R53
 U 1 1 5F9CDBEE
 P 7000 2300
 F 0 "R53" H 7075 2300 50  0000 L CNN
-F 1 "510" V 7000 2225 50  0000 L CNN
+F 1 "330" V 7000 2225 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6930 2300 50  0001 C CNN
 F 3 "~" H 7000 2300 50  0001 C CNN
 	1    7000 2300
@@ -340,11 +340,11 @@ blue\n
 Text Notes 6200 1925 1    39   ~ 0
 red
 Text Notes 6700 1975 1    39   ~ 0
-orange
+green
 Text Notes 5200 1950 1    39   ~ 0
 green
 Text Notes 7200 1975 1    39   ~ 0
-orange
+green\n
 $Comp
 L Device:R R50
 U 1 1 5FA7C5D8

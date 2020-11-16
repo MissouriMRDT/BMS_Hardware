@@ -153,7 +153,7 @@ AR Path="/5F7FDD72/5F8CF514" Ref="D?"  Part="1"
 AR Path="/5F7FE1CA/5F8CF514" Ref="D19"  Part="1" 
 F 0 "D19" V 3750 3150 50  0000 L CNN
 F 1 "1N5822" V 3850 3000 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3800 3350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 3800 3350 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/infineon-technologies/BAT1503WE6327HTSA1/1280914?s=N4IgTCBcDaIEIEEAqBGArAWgAwGYDqABCALoC%2BQA" H 3800 3350 50  0001 C CNN
 	1    3800 3350
 	0    1    1    0   
