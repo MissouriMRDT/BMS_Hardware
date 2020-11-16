@@ -142,7 +142,7 @@ $EndComp
 Wire Wire Line
 	3400 3200 3500 3200
 Text GLabel 3500 3200 2    50   Output ~ 0
-FB
+FB3
 Wire Wire Line
 	3400 3050 3800 3050
 $Comp
@@ -228,7 +228,7 @@ Connection ~ 4850 3500
 Wire Wire Line
 	4850 3500 4850 3450
 Text GLabel 4700 3500 0    50   Input ~ 0
-FB
+FB3
 Wire Wire Line
 	4300 3050 4850 3050
 Wire Wire Line

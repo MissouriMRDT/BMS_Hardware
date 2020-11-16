@@ -21,7 +21,7 @@ AR Path="/5F7FDD72/5F8CF4D4" Ref="U?"  Part="1"
 AR Path="/5F7FE1CA/5F8CF4D4" Ref="U8"  Part="1" 
 F 0 "U8" H 2900 3525 50  0000 C CNN
 F 1 "LM2576SX-3.3/NOPB" H 2900 3434 50  0000 C CNN
-F 2 "MRDT_BMS2021:LM2576SX-3.3&slash_NOPB" H 2900 3550 50  0001 C CNN
+F 2 "MRDT_Devices:LM2576" H 2900 3550 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/texas-instruments/LM2576SX-3-3-NOPB/366792" H 2900 3550 50  0001 C CNN
 	1    2900 3100
 	1    0    0    -1  

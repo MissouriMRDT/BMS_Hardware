@@ -469,7 +469,7 @@ Text Label 3000 6075 2    50   ~ 0
 logic_switch
 Text Label 4200 4750 0    50   ~ 0
 V_out_sense
-Text Label 8550 1500 0    50   ~ 0
+Text Label 9950 2825 0    50   ~ 0
 V_out_sense
 Text Label 3000 4600 2    50   ~ 0
 pack_gate
@@ -483,7 +483,7 @@ Text Label 7600 1100 2    50   ~ 0
 sw_err
 Text Label 7600 1200 2    50   ~ 0
 sw_ind
-Text Label 7600 1000 2    50   ~ 0
+Text Label 9950 2725 0    50   ~ 0
 temp_sense(A)
 Text Label 8550 1600 0    50   ~ 0
 V_out_ind
@@ -638,8 +638,6 @@ NoConn ~ 9950 2325
 NoConn ~ 9950 2425
 NoConn ~ 9950 2525
 NoConn ~ 9950 2625
-NoConn ~ 9950 2725
-NoConn ~ 9950 2825
 NoConn ~ 9950 2925
 NoConn ~ 9950 3025
 NoConn ~ 9950 3125
@@ -730,4 +728,7 @@ pack_i_sense
 NoConn ~ 9825 5475
 NoConn ~ 8550 1400
 NoConn ~ 8375 3650
+NoConn ~ 7600 1300
+NoConn ~ 7600 1000
+NoConn ~ 8550 1500
 $EndSCHEMATC

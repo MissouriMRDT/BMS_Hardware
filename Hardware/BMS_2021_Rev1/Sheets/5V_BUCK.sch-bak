@@ -128,7 +128,7 @@ $EndComp
 Wire Wire Line
 	4400 1950 4500 1950
 Text GLabel 4500 1950 2    50   Output ~ 0
-FB
+FB5
 Wire Wire Line
 	4400 1800 4800 1800
 Wire Wire Line
@@ -193,7 +193,7 @@ Connection ~ 5850 2250
 Wire Wire Line
 	5850 2250 5850 2200
 Text GLabel 5700 2250 0    50   Input ~ 0
-FB
+FB5
 Wire Wire Line
 	5300 1800 5850 1800
 Wire Wire Line
