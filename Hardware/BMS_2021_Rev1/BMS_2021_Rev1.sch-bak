@@ -475,7 +475,7 @@ Text Label 3000 4600 2    50   ~ 0
 pack_gate
 Text Label 4900 2900 2    50   ~ 0
 buzzer_control
-Text Label 8550 1300 0    50   ~ 0
+Text Label 9000 2825 2    50   ~ 0
 buzzer_control
 Text Label 9825 5575 0    50   ~ 0
 pack_gate
@@ -644,7 +644,6 @@ NoConn ~ 9950 3125
 NoConn ~ 9000 3125
 NoConn ~ 9000 3025
 NoConn ~ 9000 2925
-NoConn ~ 9000 2825
 NoConn ~ 9000 2725
 NoConn ~ 9000 2625
 NoConn ~ 9000 2525
@@ -731,4 +730,5 @@ NoConn ~ 8375 3650
 NoConn ~ 7600 1300
 NoConn ~ 7600 1000
 NoConn ~ 8550 1500
+NoConn ~ 8550 1300
 $EndSCHEMATC
