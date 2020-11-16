@@ -19,7 +19,7 @@ U 1 1 5F8571AC
 P 3900 1850
 F 0 "U6" H 3900 2275 50  0000 C CNN
 F 1 "LM257SX-5.0/NOPB" H 3900 2184 50  0000 C CNN
-F 2 "MRDT_BMS2021:LM2575SX-5.0&slash_NOPB" H 3900 2300 50  0001 C CNN
+F 2 "MRDT_Devices:LM2576" H 3900 2300 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/texas-instruments/lm2575sx-5-0-nopb/366782" H 3900 2300 50  0001 C CNN
 	1    3900 1850
 	1    0    0    -1  
