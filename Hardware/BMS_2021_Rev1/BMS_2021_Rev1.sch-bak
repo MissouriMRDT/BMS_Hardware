@@ -479,19 +479,19 @@ Text Label 9000 2825 2    50   ~ 0
 buzzer_control
 Text Label 9825 5575 0    50   ~ 0
 pack_gate
-Text Label 7600 1100 2    50   ~ 0
+Text Label 9950 2325 0    50   ~ 0
 sw_err
-Text Label 7600 1200 2    50   ~ 0
+Text Label 9000 2225 2    50   ~ 0
 sw_ind
 Text Label 9950 2725 0    50   ~ 0
 temp_sense(A)
-Text Label 8550 1600 0    50   ~ 0
+Text Label 9950 2425 0    50   ~ 0
 V_out_ind
 Text Label 6100 2675 0    50   ~ 0
 V_out_ind
 Text Notes 8925 1600 0    24   Italic 5
 if V_out_sense detects a usable voltage,\nV_out_ind sends out 3v3 to status LED
-Text Label 7600 1400 2    50   ~ 0
+Text Label 9950 2525 0    50   ~ 0
 FANS_IND
 Text Label 4900 3000 2    50   ~ 0
 FANS_IND
@@ -634,9 +634,6 @@ NoConn ~ 8850 4875
 NoConn ~ 8850 4775
 NoConn ~ 8850 4675
 NoConn ~ 9950 2225
-NoConn ~ 9950 2325
-NoConn ~ 9950 2425
-NoConn ~ 9950 2525
 NoConn ~ 9950 2625
 NoConn ~ 9950 2925
 NoConn ~ 9950 3025
@@ -649,7 +646,6 @@ NoConn ~ 9000 2625
 NoConn ~ 9000 2525
 NoConn ~ 9000 2425
 NoConn ~ 9000 2325
-NoConn ~ 9000 2225
 Text HLabel 2900 925  0    50   Input ~ 0
 V_in
 Wire Wire Line
@@ -731,4 +727,8 @@ NoConn ~ 7600 1300
 NoConn ~ 7600 1000
 NoConn ~ 8550 1500
 NoConn ~ 8550 1300
+NoConn ~ 8550 1600
+NoConn ~ 7600 1100
+NoConn ~ 7600 1400
+NoConn ~ 7600 1200
 $EndSCHEMATC
