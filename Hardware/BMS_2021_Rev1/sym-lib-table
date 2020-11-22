@@ -1,4 +1,8 @@
 (sym_lib_table
-  (lib (name BMS2021_ICs)(type Legacy)(uri C:/Users/maxwe/Documents/GitHub/BMS_Hardware/Documentation/Libraries/Symbols/BMS2021_ICs.lib)(options "")(descr ""))
-  (lib (name BMS_2021_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/BMS_2021_Rev1-rescue.lib)(options "")(descr ""))
+  (lib (name 2020-11-03_02-37-24)(type Legacy)(uri C:/Users/volun/Documents/GitHub/BMS_Hardware1/Documentation/Libraries/Symbols/2020-11-03_02-37-24.lib)(options "")(descr ""))
+  (lib (name 2020-11-03_03-01-29)(type Legacy)(uri C:/Users/volun/Documents/GitHub/BMS_Hardware1/Documentation/Libraries/Symbols/2020-11-03_03-01-29.lib)(options "")(descr ""))
+  (lib (name 2020-11-03_03-05-16)(type Legacy)(uri C:/Users/volun/Documents/GitHub/BMS_Hardware1/Documentation/Libraries/Symbols/2020-11-03_03-05-16.lib)(options "")(descr ""))
+  (lib (name 2020-11-13_05-29-37)(type Legacy)(uri C:/Users/volun/Documents/GitHub/BMS_Hardware1/Documentation/Libraries/Symbols/2020-11-13_05-29-37.lib)(options "")(descr ""))
+  (lib (name BMS2021_ICs)(type Legacy)(uri C:/Users/volun/Documents/GitHub/BMS_Hardware1/Documentation/Libraries/Symbols/BMS2021_ICs.lib)(options "")(descr ""))
+  (lib (name IRFS7530TRL7PP)(type Legacy)(uri C:/Users/volun/Documents/GitHub/BMS_Hardware1/Documentation/Libraries/Symbols/IRFS7530TRL7PP.lib)(options "")(descr ""))
 )
