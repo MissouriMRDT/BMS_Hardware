@@ -13,247 +13,179 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MRDT_Devices:LM2576D2TR4 U?
-U 1 1 5F8CF4D4
-P 2900 3100
-AR Path="/5F7FDD72/5F8CF4D4" Ref="U?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF4D4" Ref="U8"  Part="1" 
-F 0 "U8" H 2900 3525 50  0000 C CNN
-F 1 "LM2576SX-3.3/NOPB" H 2900 3434 50  0000 C CNN
-F 2 "MRDT_Devices:LM2576" H 2900 3550 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/texas-instruments/LM2576SX-3-3-NOPB/366792" H 2900 3550 50  0001 C CNN
-	1    2900 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 2900 2000 2900
-Wire Wire Line
-	2000 2900 2000 3050
-Wire Wire Line
-	2000 3050 2400 3050
-Wire Wire Line
-	2000 3050 2000 3200
-Wire Wire Line
-	2000 3200 2400 3200
-Connection ~ 2000 3050
-Wire Wire Line
-	2000 3200 2000 3250
-Connection ~ 2000 3200
-$Comp
-L power:GND #PWR?
-U 1 1 5F8CF4E2
-P 2000 3250
-AR Path="/5F7FDD72/5F8CF4E2" Ref="#PWR?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF4E2" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 2000 3000 50  0001 C CNN
-F 1 "GND" H 2005 3077 50  0000 C CNN
-F 2 "" H 2000 3250 50  0001 C CNN
-F 3 "" H 2000 3250 50  0001 C CNN
-	1    2000 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 2900 3500 2900
-Wire Wire Line
-	3500 2400 3650 2400
-Wire Wire Line
-	3650 2400 3650 2450
-Connection ~ 3500 2400
-Wire Wire Line
-	3500 2400 3500 2300
-$Comp
-L Device:C C?
-U 1 1 5F8CF4ED
-P 3650 2600
-AR Path="/5F7FDD72/5F8CF4ED" Ref="C?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF4ED" Ref="C12"  Part="1" 
-F 0 "C12" H 3765 2646 50  0000 L CNN
-F 1 "100u" H 3765 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3688 2450 50  0001 C CNN
-F 3 "~" H 3650 2600 50  0001 C CNN
-	1    3650 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 2400 3500 2900
-$Comp
-L power:GND #PWR?
-U 1 1 5F8CF4F4
-P 3650 2800
-AR Path="/5F7FDD72/5F8CF4F4" Ref="#PWR?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF4F4" Ref="#PWR051"  Part="1" 
-F 0 "#PWR051" H 3650 2550 50  0001 C CNN
-F 1 "GND" H 3800 2750 50  0001 C CNN
-F 2 "" H 3650 2800 50  0001 C CNN
-F 3 "" H 3650 2800 50  0001 C CNN
-	1    3650 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 2800 3650 2750
-Text HLabel 3500 2300 1    50   Input ~ 0
+Text HLabel 2675 3000 0    50   Input ~ 0
 logic_power
-Wire Wire Line
-	4200 3050 4300 3050
+Text HLabel 5150 3000 2    50   Output ~ 0
+3V3
 $Comp
-L Device:L L?
-U 1 1 5F8CF4FD
-P 4050 3050
-AR Path="/5F7FDD72/5F8CF4FD" Ref="L?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF4FD" Ref="L2"  Part="1" 
-F 0 "L2" V 4224 3050 50  0000 C CNN
-F 1 "100uH" V 4130 3050 39  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 3050 50  0001 C CNN
-F 3 "~" H 4050 3050 50  0001 C CNN
-	1    4050 3050
-	0    -1   -1   0   
+L MRDT_Devices:OKI U?
+U 1 1 5FBC36A5
+P 3075 3100
+AR Path="/5F7FDD72/5FBC36A5" Ref="U?"  Part="1" 
+AR Path="/5F7FE1CA/5FBC36A5" Ref="U6"  Part="1" 
+F 0 "U6" H 3125 3050 60  0001 C CNN
+F 1 "3V3_OKI" H 3275 3381 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 2875 3000 60  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-power-solutions-inc/OKI-78SR-3.3-1.5-W36H-C/811-3014-ND/4878851" H 2875 3000 60  0001 C CNN
+	1    3075 3100
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 3050 4300 3200
 $Comp
 L Device:C C?
-U 1 1 5F8CF504
-P 4300 3350
-AR Path="/5F7FDD72/5F8CF504" Ref="C?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF504" Ref="C13"  Part="1" 
-F 0 "C13" H 4100 3350 50  0000 L CNN
-F 1 "1000u" H 3950 3250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4338 3200 50  0001 C CNN
-F 3 "~" H 4300 3350 50  0001 C CNN
-	1    4300 3350
+U 1 1 5FBC36AB
+P 3800 3200
+AR Path="/5F7FDD72/5FBC36AB" Ref="C?"  Part="1" 
+AR Path="/5F7FE1CA/5FBC36AB" Ref="C17"  Part="1" 
+F 0 "C17" H 3825 3300 50  0000 L CNN
+F 1 "10u" H 3825 3100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3838 3050 50  0001 C CNN
+F 3 "~" H 3800 3200 50  0001 C CNN
+	1    3800 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 3500 4300 3600
+	3800 3050 3800 3000
+Wire Wire Line
+	5000 3000 5000 3050
+Wire Wire Line
+	3800 3000 4100 3000
+Wire Wire Line
+	4100 3000 4100 3050
+Connection ~ 4100 3000
+Wire Wire Line
+	4100 3000 4400 3000
+Wire Wire Line
+	4400 3000 4400 3050
+Connection ~ 4400 3000
+Wire Wire Line
+	4400 3000 4700 3000
+Wire Wire Line
+	4700 3000 4700 3050
+Connection ~ 4700 3000
+Wire Wire Line
+	4700 3000 5000 3000
+Connection ~ 3800 3000
+Wire Wire Line
+	3675 3000 3800 3000
+Wire Wire Line
+	5000 3350 5000 3400
+Wire Wire Line
+	5000 3400 4700 3400
+Wire Wire Line
+	4700 3400 4700 3350
+Wire Wire Line
+	4700 3400 4400 3400
+Wire Wire Line
+	4400 3400 4400 3350
+Connection ~ 4700 3400
+Wire Wire Line
+	4400 3400 4100 3400
+Wire Wire Line
+	4100 3400 4100 3350
+Connection ~ 4400 3400
+Wire Wire Line
+	4100 3400 3800 3400
+Wire Wire Line
+	3800 3400 3800 3350
+Connection ~ 4100 3400
+Wire Wire Line
+	3800 3400 3275 3400
+Wire Wire Line
+	3275 3400 3275 3300
+Connection ~ 3800 3400
+$Comp
+L Device:CP1 C?
+U 1 1 5FBC36CE
+P 2825 3200
+AR Path="/5F7FDD72/5FBC36CE" Ref="C?"  Part="1" 
+AR Path="/5F7FE1CA/5FBC36CE" Ref="C16"  Part="1" 
+F 0 "C16" H 2850 3300 50  0000 L CNN
+F 1 "22u 50V" H 2850 3075 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2825 3200 50  0001 C CNN
+F 3 "~" H 2825 3200 50  0001 C CNN
+	1    2825 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 3050 2825 3000
+Connection ~ 2825 3000
+Wire Wire Line
+	2825 3000 2875 3000
+Wire Wire Line
+	2825 3350 2825 3400
+Wire Wire Line
+	2825 3400 3275 3400
+Connection ~ 3275 3400
+Wire Wire Line
+	3275 3400 3275 3475
+Connection ~ 5000 3000
+Wire Wire Line
+	2675 3000 2825 3000
+Wire Wire Line
+	5000 3000 5150 3000
+$Comp
+L Device:C C?
+U 1 1 5FBC36DE
+P 4100 3200
+AR Path="/5F7FDD72/5FBC36DE" Ref="C?"  Part="1" 
+AR Path="/5F7FE1CA/5FBC36DE" Ref="C18"  Part="1" 
+F 0 "C18" H 4125 3300 50  0000 L CNN
+F 1 "10u" H 4125 3100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4138 3050 50  0001 C CNN
+F 3 "~" H 4100 3200 50  0001 C CNN
+	1    4100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FBC36E4
+P 4400 3200
+AR Path="/5F7FDD72/5FBC36E4" Ref="C?"  Part="1" 
+AR Path="/5F7FE1CA/5FBC36E4" Ref="C19"  Part="1" 
+F 0 "C19" H 4425 3300 50  0000 L CNN
+F 1 "10u" H 4425 3100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4438 3050 50  0001 C CNN
+F 3 "~" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FBC36EA
+P 4700 3200
+AR Path="/5F7FDD72/5FBC36EA" Ref="C?"  Part="1" 
+AR Path="/5F7FE1CA/5FBC36EA" Ref="C20"  Part="1" 
+F 0 "C20" H 4725 3300 50  0000 L CNN
+F 1 "10u" H 4725 3100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4738 3050 50  0001 C CNN
+F 3 "~" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FBC36F0
+P 5000 3200
+AR Path="/5F7FDD72/5FBC36F0" Ref="C?"  Part="1" 
+AR Path="/5F7FE1CA/5FBC36F0" Ref="C21"  Part="1" 
+F 0 "C21" H 5025 3300 50  0000 L CNN
+F 1 "0.1u" H 5025 3100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5038 3050 50  0001 C CNN
+F 3 "~" H 5000 3200 50  0001 C CNN
+	1    5000 3200
+	1    0    0    -1  
+$EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5F8CF50B
-P 4300 3600
-AR Path="/5F7FDD72/5F8CF50B" Ref="#PWR?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF50B" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 4300 3350 50  0001 C CNN
-F 1 "GND" H 4305 3427 50  0000 C CNN
-F 2 "" H 4300 3600 50  0001 C CNN
-F 3 "" H 4300 3600 50  0001 C CNN
-	1    4300 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 3200 3500 3200
-Text GLabel 3500 3200 2    50   Output ~ 0
-FB3
-Wire Wire Line
-	3400 3050 3800 3050
-$Comp
-L Device:D_Schottky D?
-U 1 1 5F8CF514
-P 3800 3350
-AR Path="/5F7FDD72/5F8CF514" Ref="D?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF514" Ref="D19"  Part="1" 
-F 0 "D19" V 3750 3150 50  0000 L CNN
-F 1 "1N5822" V 3850 3000 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 3800 3350 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/infineon-technologies/BAT1503WE6327HTSA1/1280914?s=N4IgTCBcDaIEIEEAqBGArAWgAwGYDqABCALoC%2BQA" H 3800 3350 50  0001 C CNN
-	1    3800 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3800 3200 3800 3050
-Connection ~ 3800 3050
-Wire Wire Line
-	3800 3050 3900 3050
-Wire Wire Line
-	3800 3500 3800 3600
-$Comp
-L power:GND #PWR?
-U 1 1 5F8CF51E
-P 3800 3600
-AR Path="/5F7FDD72/5F8CF51E" Ref="#PWR?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF51E" Ref="#PWR052"  Part="1" 
-F 0 "#PWR052" H 3800 3350 50  0001 C CNN
-F 1 "GND" H 3805 3427 50  0000 C CNN
-F 2 "" H 3800 3600 50  0001 C CNN
-F 3 "" H 3800 3600 50  0001 C CNN
-	1    3800 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F8CF524
-P 4850 3700
-AR Path="/5F7FDD72/5F8CF524" Ref="R?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF524" Ref="R43"  Part="1" 
-F 0 "R43" H 4915 3700 50  0000 L CNN
-F 1 "1.7k" V 4850 3635 39  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 3700 50  0001 C CNN
-F 3 "~" H 4850 3700 50  0001 C CNN
-	1    4850 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F8CF52A
-P 4850 3300
-AR Path="/5F7FDD72/5F8CF52A" Ref="R?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF52A" Ref="R42"  Part="1" 
-F 0 "R42" H 4920 3300 50  0000 L CNN
-F 1 "2.857k" V 4845 3200 39  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 3300 50  0001 C CNN
-F 3 "~" H 4850 3300 50  0001 C CNN
-	1    4850 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 3550 4850 3500
-Wire Wire Line
-	4850 3850 4850 3950
-$Comp
-L power:GND #PWR?
-U 1 1 5F8CF532
-P 4850 3950
-AR Path="/5F7FDD72/5F8CF532" Ref="#PWR?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF532" Ref="#PWR054"  Part="1" 
-F 0 "#PWR054" H 4850 3700 50  0001 C CNN
-F 1 "GND" H 4855 3777 50  0000 C CNN
-F 2 "" H 4850 3950 50  0001 C CNN
-F 3 "" H 4850 3950 50  0001 C CNN
-	1    4850 3950
-	1    0    0    -1  
-$EndComp
-Connection ~ 4300 3050
-Wire Wire Line
-	4850 3500 4700 3500
-Connection ~ 4850 3500
-Wire Wire Line
-	4850 3500 4850 3450
-Text GLabel 4700 3500 0    50   Input ~ 0
-FB3
-Wire Wire Line
-	4300 3050 4850 3050
-Wire Wire Line
-	4850 3150 4850 3050
-Connection ~ 4850 3050
-Wire Wire Line
-	4850 3050 4950 3050
-Text HLabel 5100 3050 2    50   Output ~ 0
-3V3
-Wire Wire Line
-	4950 2900 4950 3050
-Connection ~ 4950 3050
-Wire Wire Line
-	4950 3050 5100 3050
-$Comp
-L MRDT_Connectors:Test_Point J?
-U 1 1 5F8CF542
-P 4950 2900
-AR Path="/5F7FDD72/5F8CF542" Ref="J?"  Part="1" 
-AR Path="/5F7FE1CA/5F8CF542" Ref="J5"  Part="1" 
-F 0 "J5" H 5028 3045 60  0000 L CNN
-F 1 "Test_Point" H 5028 2939 60  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4950 2850 60  0001 C CNN
-F 3 "" H 4950 2850 60  0001 C CNN
-	1    4950 2900
+U 1 1 5FBC36F6
+P 3275 3475
+AR Path="/5F7FDD72/5FBC36F6" Ref="#PWR?"  Part="1" 
+AR Path="/5F7FE1CA/5FBC36F6" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 3275 3225 50  0001 C CNN
+F 1 "GND" H 3280 3302 50  0000 C CNN
+F 2 "" H 3275 3475 50  0001 C CNN
+F 3 "" H 3275 3475 50  0001 C CNN
+	1    3275 3475
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
