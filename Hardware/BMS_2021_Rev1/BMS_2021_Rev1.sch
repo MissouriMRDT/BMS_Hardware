@@ -609,7 +609,6 @@ F 3 "" H 9625 5625 60  0001 C CNN
 $EndComp
 NoConn ~ 9825 4675
 NoConn ~ 9825 4775
-NoConn ~ 9825 4975
 NoConn ~ 9825 5075
 NoConn ~ 9825 5175
 NoConn ~ 9825 5275
@@ -755,5 +754,7 @@ F 3 "" H 4825 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4900 3825 2    50   ~ 0
+LCD_TX
+Text Label 9825 4975 0    50   ~ 0
 LCD_TX
 $EndSCHEMATC
