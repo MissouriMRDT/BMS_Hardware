@@ -1438,10 +1438,6 @@ F 3 "" H 3625 1700 50  0001 C CNN
 	1    3625 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 1125 3625 1125
-Wire Wire Line
-	3625 1125 3625 1200
 $Comp
 L power:GND #PWR0107
 U 1 1 6001F9EB
@@ -1459,4 +1455,8 @@ Wire Wire Line
 	4400 1625 4400 1550
 Text HLabel 4400 1550 1    50   Input ~ 0
 5V
+Wire Wire Line
+	3700 1125 3625 1125
+Wire Wire Line
+	3625 1125 3625 1200
 $EndSCHEMATC

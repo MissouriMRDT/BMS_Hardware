@@ -23,7 +23,7 @@ U 1 1 5FBC36A5
 P 3075 3100
 AR Path="/5F7FDD72/5FBC36A5" Ref="U?"  Part="1" 
 AR Path="/5F7FE1CA/5FBC36A5" Ref="U6"  Part="1" 
-F 0 "U6" H 3125 3050 60  0001 C CNN
+F 0 "U6" H 3125 3050 60  0000 C CNN
 F 1 "3V3_OKI" H 3275 3381 60  0000 C CNN
 F 2 "MRDT_Devices:OKI_Horizontal" H 2875 3000 60  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/murata-power-solutions-inc/OKI-78SR-3.3-1.5-W36H-C/811-3014-ND/4878851" H 2875 3000 60  0001 C CNN
