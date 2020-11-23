@@ -18,12 +18,12 @@ cell_1
 $Comp
 L Device:R R8
 U 1 1 5F7ED1C3
-P 1250 6150
-F 0 "R8" V 1350 6150 50  0000 C CNN
-F 1 "8.2M" V 1250 6150 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1180 6150 50  0001 C CNN
-F 3 "~" H 1250 6150 50  0001 C CNN
-	1    1250 6150
+P 1250 6700
+F 0 "R8" V 1350 6700 50  0000 C CNN
+F 1 "8.2M" V 1250 6700 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1180 6700 50  0001 C CNN
+F 3 "~" H 1250 6700 50  0001 C CNN
+	1    1250 6700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -68,7 +68,7 @@ F 3 "~" H 1850 6700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2000 6700 2250 6700
-Text HLabel 950  5950 0    50   Input ~ 0
+Text HLabel 875  5950 0    50   Input ~ 0
 cell_2
 $Comp
 L power:GND #PWR015
@@ -81,13 +81,6 @@ F 3 "" H 750 5700 50  0001 C CNN
 	1    750  5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  5950 1000 5950
-Wire Wire Line
-	1000 5400 1000 5950
-Connection ~ 1000 5950
-Wire Wire Line
-	1000 5950 1100 5950
 $Comp
 L Device:R R7
 U 1 1 5F7F499B
@@ -132,15 +125,9 @@ cell_3_sense
 Connection ~ 950  5400
 Connection ~ 2250 4450
 Wire Wire Line
-	950  5400 1000 5400
-Wire Wire Line
 	750  5400 950  5400
 Wire Wire Line
 	750  3800 950  3800
-Wire Wire Line
-	950  4550 1100 4550
-Wire Wire Line
-	950  5400 950  5225
 Wire Wire Line
 	1400 3850 1400 4350
 Wire Wire Line
@@ -162,13 +149,6 @@ Wire Wire Line
 	1400 3850 1500 3850
 Wire Wire Line
 	1400 4350 1450 4350
-Wire Wire Line
-	1000 4350 1100 4350
-Connection ~ 1000 4350
-Wire Wire Line
-	1000 3800 1000 4350
-Wire Wire Line
-	950  4350 1000 4350
 $Comp
 L power:GND #PWR014
 U 1 1 5F80B5A4
@@ -180,7 +160,7 @@ F 3 "" H 750 4100 50  0001 C CNN
 	1    750  4100
 	1    0    0    -1  
 $EndComp
-Text HLabel 950  4350 0    50   Input ~ 0
+Text HLabel 875  4350 0    50   Input ~ 0
 cell_3
 Wire Wire Line
 	2000 5100 2250 5100
@@ -202,10 +182,6 @@ Connection ~ 2250 2850
 Wire Wire Line
 	750  2200 950  2200
 Wire Wire Line
-	950  2950 1100 2950
-Wire Wire Line
-	950  3800 950  3650
-Wire Wire Line
 	1400 2250 1400 2750
 Wire Wire Line
 	1800 2250 1900 2250
@@ -226,13 +202,6 @@ Wire Wire Line
 	1400 2250 1500 2250
 Wire Wire Line
 	1400 2750 1450 2750
-Wire Wire Line
-	1000 2750 1100 2750
-Connection ~ 1000 2750
-Wire Wire Line
-	1000 2200 1000 2750
-Wire Wire Line
-	950  2750 1000 2750
 $Comp
 L power:GND #PWR013
 U 1 1 5F8352BF
@@ -244,7 +213,7 @@ F 3 "" H 750 2500 50  0001 C CNN
 	1    750  2500
 	1    0    0    -1  
 $EndComp
-Text HLabel 950  2750 0    50   Input ~ 0
+Text HLabel 875  2750 0    50   Input ~ 0
 cell_4
 Wire Wire Line
 	2000 3500 2250 3500
@@ -257,16 +226,10 @@ Wire Wire Line
 Wire Wire Line
 	1400 2950 1450 2950
 Wire Wire Line
-	2250 1900 2250 1250
-Wire Wire Line
 	2250 1250 2400 1250
 Text HLabel 2450 1250 2    50   Output ~ 0
 cell_5_sense
 Connection ~ 2250 1250
-Wire Wire Line
-	950  1350 1100 1350
-Wire Wire Line
-	950  2200 950  2050
 Wire Wire Line
 	1400 650  1400 1150
 Wire Wire Line
@@ -288,13 +251,6 @@ Wire Wire Line
 	1400 650  1500 650 
 Wire Wire Line
 	1400 1150 1450 1150
-Wire Wire Line
-	1000 1150 1100 1150
-Connection ~ 1000 1150
-Wire Wire Line
-	1000 600  1000 1150
-Wire Wire Line
-	950  1150 1000 1150
 $Comp
 L Device:C C1
 U 1 1 5F83ABC3
@@ -317,7 +273,7 @@ F 3 "" H 750 900 50  0001 C CNN
 	1    750  900 
 	1    0    0    -1  
 $EndComp
-Text HLabel 950  1150 0    50   Input ~ 0
+Text HLabel 875  1150 0    50   Input ~ 0
 cell_5
 Wire Wire Line
 	2000 1900 2250 1900
@@ -326,18 +282,10 @@ Wire Wire Line
 Wire Wire Line
 	1400 1900 1700 1900
 Wire Wire Line
-	1400 1350 1400 1900
-Wire Wire Line
-	1400 1350 1450 1350
-Wire Wire Line
-	5500 7200 5500 6550
-Wire Wire Line
 	5500 6550 5650 6550
 Text HLabel 5700 6550 2    50   Output ~ 0
 cell_6_sense
 Connection ~ 5500 6550
-Wire Wire Line
-	4200 6650 4350 6650
 Wire Wire Line
 	4650 5950 4650 6450
 Wire Wire Line
@@ -397,8 +345,6 @@ Text HLabel 5700 4950 2    50   Output ~ 0
 cell_7_sense
 Connection ~ 5500 4950
 Wire Wire Line
-	4200 5050 4350 5050
-Wire Wire Line
 	4650 4350 4650 4850
 Wire Wire Line
 	5050 4350 5150 4350
@@ -430,7 +376,7 @@ F 3 "" H 4000 4600 50  0001 C CNN
 	1    4000 4600
 	1    0    0    -1  
 $EndComp
-Text HLabel 4200 4850 0    50   Input ~ 0
+Text HLabel 4125 4850 0    50   Input ~ 0
 cell_7
 Wire Wire Line
 	5250 5600 5500 5600
@@ -449,10 +395,6 @@ Wire Wire Line
 Text HLabel 5700 3350 2    50   Output ~ 0
 cell_8_sense
 Connection ~ 5500 3350
-Wire Wire Line
-	4000 2700 4250 2700
-Wire Wire Line
-	4200 3450 4350 3450
 Wire Wire Line
 	4650 2750 4650 3250
 Wire Wire Line
@@ -474,13 +416,6 @@ Wire Wire Line
 	4650 2750 4750 2750
 Wire Wire Line
 	4650 3250 4700 3250
-Wire Wire Line
-	4250 3250 4350 3250
-Connection ~ 4250 3250
-Wire Wire Line
-	4250 2700 4250 3250
-Wire Wire Line
-	4200 3250 4250 3250
 $Comp
 L power:GND #PWR028
 U 1 1 5F85514C
@@ -492,7 +427,7 @@ F 3 "" H 4000 3000 50  0001 C CNN
 	1    4000 3000
 	1    0    0    -1  
 $EndComp
-Text HLabel 4200 3250 0    50   Input ~ 0
+Text HLabel 4125 3250 0    50   Input ~ 0
 cell_8
 Wire Wire Line
 	5250 4000 5500 4000
@@ -504,12 +439,6 @@ Wire Wire Line
 	4650 3450 4650 4000
 Wire Wire Line
 	4650 3450 4700 3450
-Connection ~ 950  2200
-Wire Wire Line
-	950  2200 1000 2200
-Connection ~ 950  3800
-Wire Wire Line
-	950  3800 1000 3800
 Wire Wire Line
 	1750 7600 1750 8000
 Wire Wire Line
@@ -555,25 +484,19 @@ F 3 "" H 1550 7800 50  0001 C CNN
 	1    1550 7800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  7400 950  7000
-Wire Wire Line
-	950  6150 1100 6150
 Connection ~ 950  7400
 Wire Wire Line
 	950  7400 1150 7400
 Text HLabel 3050 7500 2    50   Output ~ 0
 cell_1_sense
 Wire Wire Line
-	750  600  1000 600 
+	750  600  950  600 
 Wire Wire Line
-	1000 200  1200 200 
-Connection ~ 1000 600 
-Text GLabel 1200 200  2    50   Output ~ 0
+	950  325  1150 325 
+Text GLabel 1150 325  2    50   Output ~ 0
 cell_5_extension
-Text GLabel 4200 6650 0    50   Input ~ 0
+Text GLabel 4200 7200 0    50   Input ~ 0
 cell_5_extension
-Connection ~ 1400 6150
 Text Notes 7400 7750 2    79   ~ 16
 Cell Filters
 $Comp
@@ -728,7 +651,7 @@ F 1 "3V3_Zener" V 2880 7695 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2925 7775 50  0001 C CNN
 F 3 "~" H 2925 7775 50  0001 C CNN
 	1    2925 7775
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2925 7625 2925 7500
@@ -751,96 +674,58 @@ Wire Wire Line
 $Comp
 L Device:D_Schottky D4
 U 1 1 5F94485A
-P 950 6850
-F 0 "D4" V 900 7000 50  0000 R CNN
-F 1 "5V_Schottky" V 975 7425 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 950 6850 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 6850 50  0001 C CNN
-	1    950  6850
+P 950 6350
+F 0 "D4" V 900 6500 50  0000 R CNN
+F 1 "5V_Schottky" V 975 6925 50  0000 R CNN
+F 2 "MRDT_BMS2021:RB886CST2RA" H 950 6350 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 6350 50  0001 C CNN
+	1    950  6350
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	950  6700 950  6150
 $Comp
 L Device:D_Schottky D3
 U 1 1 5F94E7ED
-P 950 5075
-F 0 "D3" V 900 5225 50  0000 R CNN
-F 1 "5V_Schottky" V 975 5650 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 950 5075 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 5075 50  0001 C CNN
-	1    950  5075
+P 950 4750
+F 0 "D3" V 900 4900 50  0000 R CNN
+F 1 "5V_Schottky" V 975 5325 50  0000 R CNN
+F 2 "MRDT_BMS2021:RB886CST2RA" H 950 4750 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 4750 50  0001 C CNN
+	1    950  4750
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:D_Schottky D2
 U 1 1 5F954AC8
-P 950 3500
-F 0 "D2" V 900 3650 50  0000 R CNN
-F 1 "5V_Schottky" V 975 4075 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 950 3500 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 3500 50  0001 C CNN
-	1    950  3500
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D1
-U 1 1 5F95AE2A
-P 950 1900
-F 0 "D1" V 900 2050 50  0000 R CNN
-F 1 "5V_Schottky" V 975 2475 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 950 1900 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 1900 50  0001 C CNN
-	1    950  1900
+P 950 3125
+F 0 "D2" V 900 3275 50  0000 R CNN
+F 1 "5V_Schottky" V 975 3700 50  0000 R CNN
+F 2 "MRDT_BMS2021:RB886CST2RA" H 950 3125 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 3125 50  0001 C CNN
+	1    950  3125
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:D_Schottky D5
 U 1 1 5F961402
-P 1000 375
-F 0 "D5" V 950 525 50  0000 R CNN
-F 1 "5V_Schottky" V 1025 950 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 1000 375 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 1000 375 50  0001 C CNN
-	1    1000 375 
+P 4250 6875
+F 0 "D5" V 4200 7025 50  0000 R CNN
+F 1 "5V_Schottky" V 4275 7450 50  0000 R CNN
+F 2 "MRDT_BMS2021:RB886CST2RA" H 4250 6875 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4250 6875 50  0001 C CNN
+	1    4250 6875
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	1000 200  1000 225 
-Wire Wire Line
-	950  4925 950  4550
-Wire Wire Line
-	950  3350 950  2950
-Wire Wire Line
-	950  1750 950  1350
-Wire Wire Line
-	1000 525  1000 600 
 $Comp
 L Device:D_Schottky D12
 U 1 1 5F96E38C
-P 4200 5550
-F 0 "D12" V 4150 5700 50  0000 R CNN
-F 1 "5V_Schottky" V 4225 6125 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 4200 5550 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4200 5550 50  0001 C CNN
-	1    4200 5550
+P 4200 5250
+F 0 "D12" V 4150 5400 50  0000 R CNN
+F 1 "5V_Schottky" V 4225 5825 50  0000 R CNN
+F 2 "MRDT_BMS2021:RB886CST2RA" H 4200 5250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4200 5250 50  0001 C CNN
+	1    4200 5250
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	4200 5050 4200 5400
-$Comp
-L Device:D_Schottky D11
-U 1 1 5F97C0C8
-P 4200 3950
-F 0 "D11" V 4150 4100 50  0000 R CNN
-F 1 "5V_Schottky" V 4225 4525 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 4200 3950 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4200 3950 50  0001 C CNN
-	1    4200 3950
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	4200 3450 4200 3800
 $Comp
 L Device:D_Zener D8
 U 1 1 5F940D73
@@ -850,7 +735,7 @@ F 1 "3V3_Zener" V 2330 6245 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2375 6325 50  0001 C CNN
 F 3 "~" H 2375 6325 50  0001 C CNN
 	1    2375 6325
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR024
@@ -882,7 +767,7 @@ F 1 "3V3_Zener" V 2330 4720 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2375 4800 50  0001 C CNN
 F 3 "~" H 2375 4800 50  0001 C CNN
 	1    2375 4800
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR023
@@ -911,7 +796,7 @@ F 1 "3V3_Zener" V 2330 3095 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2375 3175 50  0001 C CNN
 F 3 "~" H 2375 3175 50  0001 C CNN
 	1    2375 3175
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR022
@@ -940,7 +825,7 @@ F 1 "3V3_Zener" V 2355 1520 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2400 1600 50  0001 C CNN
 F 3 "~" H 2400 1600 50  0001 C CNN
 	1    2400 1600
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR025
@@ -969,7 +854,7 @@ F 1 "3V3_Zener" V 5605 6820 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5650 6900 50  0001 C CNN
 F 3 "~" H 5650 6900 50  0001 C CNN
 	1    5650 6900
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR036
@@ -998,7 +883,7 @@ F 1 "3V3_Zener" V 5580 5195 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5625 5275 50  0001 C CNN
 F 3 "~" H 5625 5275 50  0001 C CNN
 	1    5625 5275
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR035
@@ -1027,7 +912,7 @@ F 1 "3V3_Zener" V 5580 3570 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5625 3650 50  0001 C CNN
 F 3 "~" H 5625 3650 50  0001 C CNN
 	1    5625 3650
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR034
@@ -1047,12 +932,12 @@ Wire Wire Line
 $Comp
 L Device:R R6
 U 1 1 5FA39CA6
-P 1250 4550
-F 0 "R6" V 1350 4550 50  0000 C CNN
-F 1 "8.2M" V 1250 4550 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1180 4550 50  0001 C CNN
-F 3 "~" H 1250 4550 50  0001 C CNN
-	1    1250 4550
+P 1250 5100
+F 0 "R6" V 1350 5100 50  0000 C CNN
+F 1 "8.2M" V 1250 5100 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1180 5100 50  0001 C CNN
+F 3 "~" H 1250 5100 50  0001 C CNN
+	1    1250 5100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1069,12 +954,12 @@ $EndComp
 $Comp
 L Device:R R4
 U 1 1 5FA4A050
-P 1250 2950
-F 0 "R4" V 1350 2950 50  0000 C CNN
-F 1 "8.2M" V 1250 2950 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1180 2950 50  0001 C CNN
-F 3 "~" H 1250 2950 50  0001 C CNN
-	1    1250 2950
+P 1250 3500
+F 0 "R4" V 1350 3500 50  0000 C CNN
+F 1 "8.2M" V 1250 3500 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1180 3500 50  0001 C CNN
+F 3 "~" H 1250 3500 50  0001 C CNN
+	1    1250 3500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1086,17 +971,6 @@ F 1 "8.2M" V 1250 2750 39  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1180 2750 50  0001 C CNN
 F 3 "~" H 1250 2750 50  0001 C CNN
 	1    1250 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5FA5A210
-P 1250 1350
-F 0 "R2" V 1350 1350 50  0000 C CNN
-F 1 "8.2M" V 1250 1350 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1180 1350 50  0001 C CNN
-F 3 "~" H 1250 1350 50  0001 C CNN
-	1    1250 1350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1113,12 +987,12 @@ $EndComp
 $Comp
 L Device:R R24
 U 1 1 5FA6A524
-P 4500 6650
-F 0 "R24" V 4600 6650 50  0000 C CNN
-F 1 "8.2M" V 4500 6650 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 6650 50  0001 C CNN
-F 3 "~" H 4500 6650 50  0001 C CNN
-	1    4500 6650
+P 4500 7200
+F 0 "R24" V 4600 7200 50  0000 C CNN
+F 1 "8.2M" V 4500 7200 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 7200 50  0001 C CNN
+F 3 "~" H 4500 7200 50  0001 C CNN
+	1    4500 7200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1135,12 +1009,12 @@ $EndComp
 $Comp
 L Device:R R22
 U 1 1 5FA7A81A
-P 4500 5050
-F 0 "R22" V 4600 5050 50  0000 C CNN
-F 1 "8.2M" V 4500 5050 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 5050 50  0001 C CNN
-F 3 "~" H 4500 5050 50  0001 C CNN
-	1    4500 5050
+P 4500 5600
+F 0 "R22" V 4600 5600 50  0000 C CNN
+F 1 "8.2M" V 4500 5600 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 5600 50  0001 C CNN
+F 3 "~" H 4500 5600 50  0001 C CNN
+	1    4500 5600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1157,12 +1031,12 @@ $EndComp
 $Comp
 L Device:R R20
 U 1 1 5FA8AA7A
-P 4500 3450
-F 0 "R20" V 4600 3450 50  0000 C CNN
-F 1 "8.2M" V 4500 3450 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 3450 50  0001 C CNN
-F 3 "~" H 4500 3450 50  0001 C CNN
-	1    4500 3450
+P 4500 4000
+F 0 "R20" V 4600 4000 50  0000 C CNN
+F 1 "8.2M" V 4500 4000 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 4000 50  0001 C CNN
+F 3 "~" H 4500 4000 50  0001 C CNN
+	1    4500 4000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1177,22 +1051,9 @@ F 3 "~" H 4500 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3575 1625 3575 1675
-Wire Wire Line
 	4300 1125 4400 1125
 Wire Wire Line
 	4400 1125 4400 1050
-$Comp
-L power:GND #PWR027
-U 1 1 5FAE6032
-P 3575 1675
-F 0 "#PWR027" H 3575 1425 50  0001 C CNN
-F 1 "GND" H 3580 1502 50  0000 C CNN
-F 2 "" H 3575 1675 50  0001 C CNN
-F 3 "" H 3575 1675 50  0001 C CNN
-	1    3575 1675
-	1    0    0    -1  
-$EndComp
 $Comp
 L BMS2021_ICs:TL3474ACPWR U3
 U 4 1 5FAF7469
@@ -1239,16 +1100,6 @@ F 3 "" H 1875 1425 50  0001 C CNN
 	1    1650 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 1625 4400 1625
-Connection ~ 4400 1125
-Wire Wire Line
-	3575 1625 3700 1625
-Wire Wire Line
-	3575 1625 3575 1125
-Wire Wire Line
-	3575 1125 3700 1125
-Connection ~ 3575 1625
 $Comp
 L Device:C C2
 U 1 1 5F9DF2BF
@@ -1328,25 +1179,14 @@ F 3 "~" H 4000 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 5900 4200 5900
-Wire Wire Line
-	4200 5900 4200 5700
 Connection ~ 4200 5900
 Wire Wire Line
 	4200 5900 4250 5900
 Wire Wire Line
 	4000 4300 4200 4300
 Wire Wire Line
-	4200 4300 4200 4100
-Wire Wire Line
-	4200 4850 4250 4850
-Wire Wire Line
-	4200 4300 4250 4300
-Wire Wire Line
-	4250 4300 4250 4850
+	4200 4300 4200 4850
 Connection ~ 4200 4300
-Connection ~ 4250 4850
-Wire Wire Line
-	4250 4850 4350 4850
 Wire Wire Line
 	2500 7500 2600 7500
 Connection ~ 2600 7500
@@ -1388,7 +1228,7 @@ F 1 "TL3474ACPWR" H 4000 1050 50  0000 C CNN
 F 2 "MRDT_BMS2021:TL3474ID" H 4225 1350 50  0001 C CNN
 F 3 "" H 4225 1350 50  0001 C CNN
 	5    4000 1125
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L BMS2021_ICs:TL3474ACPWR U3
@@ -1399,7 +1239,7 @@ F 1 "TL3474ACPWR" H 4025 1550 50  0000 C CNN
 F 2 "MRDT_BMS2021:TL3474ID" H 4225 1850 50  0001 C CNN
 F 3 "" H 4225 1850 50  0001 C CNN
 	5    4000 1625
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L BMS2021_ICs:TL3474ACPWR U4
@@ -1424,5 +1264,199 @@ F 3 "" H 5125 6725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 1125 4400 1625
+	950  6700 1100 6700
+Wire Wire Line
+	950  5400 950  5950
+Wire Wire Line
+	950  5950 1100 5950
+Connection ~ 950  5950
+Wire Wire Line
+	950  5950 875  5950
+Connection ~ 1400 6700
+Wire Wire Line
+	950  5950 950  6200
+Wire Wire Line
+	950  6500 950  6700
+Wire Wire Line
+	950  6700 950  7400
+Connection ~ 950  6700
+Connection ~ 1400 5100
+Wire Wire Line
+	950  5100 1100 5100
+Wire Wire Line
+	950  4900 950  5100
+Connection ~ 950  5100
+Wire Wire Line
+	950  5100 950  5400
+Wire Wire Line
+	950  4350 950  4600
+Connection ~ 950  4350
+Wire Wire Line
+	950  4350 1100 4350
+Wire Wire Line
+	950  3800 950  4350
+Connection ~ 950  3800
+Wire Wire Line
+	950  3500 1100 3500
+Connection ~ 1400 3500
+Wire Wire Line
+	950  3275 950  3500
+Wire Wire Line
+	950  3500 950  3800
+Connection ~ 950  3500
+Wire Wire Line
+	950  2750 875  2750
+Wire Wire Line
+	950  2750 950  2975
+Wire Wire Line
+	950  2750 1100 2750
+Connection ~ 950  2750
+Wire Wire Line
+	950  2750 950  2200
+Connection ~ 950  2200
+Wire Wire Line
+	950  600  950  1150
+$Comp
+L Device:D_Schottky D1
+U 1 1 5F95AE2A
+P 950 1550
+F 0 "D1" V 900 1700 50  0000 R CNN
+F 1 "5V_Schottky" V 975 2125 50  0000 R CNN
+F 2 "MRDT_BMS2021:RB886CST2RA" H 950 1550 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 1550 50  0001 C CNN
+	1    950  1550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FA5A210
+P 1250 1900
+F 0 "R2" V 1350 1900 50  0000 C CNN
+F 1 "8.2M" V 1250 1900 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1180 1900 50  0001 C CNN
+F 3 "~" H 1250 1900 50  0001 C CNN
+	1    1250 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 1350 1450 1350
+Wire Wire Line
+	950  1900 1100 1900
+Connection ~ 1400 1900
+Connection ~ 950  1900
+Wire Wire Line
+	950  1900 950  2200
+Wire Wire Line
+	1400 1350 1400 1900
+Wire Wire Line
+	950  1700 950  1900
+Wire Wire Line
+	950  1150 950  1400
+Connection ~ 950  1150
+Wire Wire Line
+	950  1150 1100 1150
+Wire Wire Line
+	950  4350 875  4350
+Wire Wire Line
+	950  1150 875  1150
+Wire Wire Line
+	950  325  950  600 
+Connection ~ 950  600 
+Connection ~ 4650 7200
+Wire Wire Line
+	4200 7200 4250 7200
+Wire Wire Line
+	4250 7025 4250 7200
+Connection ~ 4250 7200
+Wire Wire Line
+	4250 7200 4350 7200
+Wire Wire Line
+	4250 6450 4250 6725
+Connection ~ 4650 5600
+Wire Wire Line
+	4200 5600 4350 5600
+Wire Wire Line
+	4200 5400 4200 5600
+Wire Wire Line
+	4200 5600 4200 5900
+Connection ~ 4200 5600
+Wire Wire Line
+	4200 5100 4200 4850
+Wire Wire Line
+	4200 4850 4125 4850
+Connection ~ 4200 4850
+Wire Wire Line
+	4200 4850 4350 4850
+Connection ~ 4650 4000
+Wire Wire Line
+	4200 4000 4350 4000
+$Comp
+L Device:D_Schottky D11
+U 1 1 5F97C0C8
+P 4200 3700
+F 0 "D11" V 4150 3850 50  0000 R CNN
+F 1 "5V_Schottky" V 4225 4275 50  0000 R CNN
+F 2 "MRDT_BMS2021:RB886CST2RA" H 4200 3700 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4200 3700 50  0001 C CNN
+	1    4200 3700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4200 3850 4200 4000
+Wire Wire Line
+	4200 4000 4200 4300
+Connection ~ 4200 4000
+Wire Wire Line
+	4200 3550 4200 3250
+Wire Wire Line
+	4200 3250 4125 3250
+Connection ~ 4200 3250
+Wire Wire Line
+	4200 3250 4350 3250
+Wire Wire Line
+	4000 2700 4000 2625
+Wire Wire Line
+	4000 2625 4200 2625
+Wire Wire Line
+	4200 2625 4200 3250
+Wire Wire Line
+	2250 1250 2250 1900
+Wire Wire Line
+	5500 6550 5500 7200
+Wire Wire Line
+	3700 1625 3625 1625
+Wire Wire Line
+	3625 1625 3625 1700
+$Comp
+L power:GND #PWR0106
+U 1 1 6001F547
+P 3625 1700
+F 0 "#PWR0106" H 3625 1450 50  0001 C CNN
+F 1 "GND" H 3630 1527 50  0000 C CNN
+F 2 "" H 3625 1700 50  0001 C CNN
+F 3 "" H 3625 1700 50  0001 C CNN
+	1    3625 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1125 3625 1125
+Wire Wire Line
+	3625 1125 3625 1200
+$Comp
+L power:GND #PWR0107
+U 1 1 6001F9EB
+P 3625 1200
+F 0 "#PWR0107" H 3625 950 50  0001 C CNN
+F 1 "GND" H 3630 1027 50  0000 C CNN
+F 2 "" H 3625 1200 50  0001 C CNN
+F 3 "" H 3625 1200 50  0001 C CNN
+	1    3625 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1625 4400 1625
+Wire Wire Line
+	4400 1625 4400 1550
+Text HLabel 4400 1550 1    50   Input ~ 0
+5V
 $EndSCHEMATC

@@ -41,8 +41,6 @@ Wire Wire Line
 	900  3050 1050 3050
 Text Notes 6950 700  2    50   ~ 10
 TIVA
-Text HLabel 900  1250 0    50   Output ~ 0
-V_in
 Wire Notes Line
 	450  600  2150 600 
 Wire Notes Line
@@ -83,16 +81,6 @@ F15 "cell_8_sense" O R 2175 6800 50
 F16 "cell_8" I L 925 6800 50 
 F17 "cell_1_sense" O R 2175 7500 50 
 F18 "5V" I L 925 5225 50 
-$EndSheet
-$Sheet
-S 3050 1150 750  300 
-U 5F80E1AD
-F0 "CURRENT_SENSE" 50
-F1 "Sheets/CURRENT_SENSE.sch" 50
-F2 "PV" O R 3800 1250 50 
-F3 "V_in" I L 3050 1225 50 
-F4 "pack_i_sense" O R 3800 1375 50 
-F5 "3V3" I L 3050 1375 50 
 $EndSheet
 $Sheet
 S 3050 1850 750  300 
@@ -253,7 +241,6 @@ NoConn ~ 7600 1800
 NoConn ~ 8550 1800
 NoConn ~ 8550 1700
 NoConn ~ 7400 3550
-NoConn ~ 7400 3650
 NoConn ~ 7400 4450
 NoConn ~ 7400 4350
 Wire Wire Line
@@ -516,21 +503,6 @@ F 3 "" H 7325 725 50  0001 C CNN
 	1    7325 725 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 1000 9500 1000
-Wire Wire Line
-	9500 1000 9500 1050
-$Comp
-L power:GND #PWR011
-U 1 1 5F9BAFD2
-P 9500 1050
-F 0 "#PWR011" H 9500 800 50  0001 C CNN
-F 1 "GND" H 9505 877 50  0000 C CNN
-F 2 "" H 9500 1050 50  0001 C CNN
-F 3 "" H 9500 1050 50  0001 C CNN
-	1    9500 1050
-	1    0    0    -1  
-$EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 3 1 5FA5E750
@@ -562,7 +534,6 @@ NoConn ~ 8375 3850
 NoConn ~ 8375 4150
 NoConn ~ 8375 4250
 NoConn ~ 8375 4350
-NoConn ~ 8375 4450
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 5 1 5F805ECA
@@ -607,7 +578,6 @@ F 3 "" H 9625 5625 60  0001 C CNN
 	8    9625 5625
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 9825 4675
 NoConn ~ 9825 4775
 NoConn ~ 9825 5075
 NoConn ~ 9825 5175
@@ -621,7 +591,6 @@ NoConn ~ 8850 4975
 NoConn ~ 8850 4875
 NoConn ~ 8850 4775
 NoConn ~ 8850 4675
-NoConn ~ 9950 2225
 NoConn ~ 9950 2625
 NoConn ~ 9950 2925
 NoConn ~ 9950 3025
@@ -634,12 +603,8 @@ NoConn ~ 9000 2625
 NoConn ~ 9000 2525
 NoConn ~ 9000 2425
 NoConn ~ 9000 2325
-Text HLabel 2900 925  0    50   Input ~ 0
-V_in
 Wire Wire Line
 	2900 925  2950 925 
-Wire Wire Line
-	2950 925  2950 1225
 Text Notes 6600 7775 0    98   ~ 20
 Battery Management System 2021
 NoConn ~ 8550 1100
@@ -757,4 +722,95 @@ Text Label 4900 3825 2    50   ~ 0
 LCD_TX
 Text Label 9825 4975 0    50   ~ 0
 LCD_TX
+Wire Wire Line
+	8550 1000 8750 1000
+Wire Wire Line
+	8750 1000 8750 1025
+$Comp
+L power:GND #PWR0101
+U 1 1 5FD24EB2
+P 8750 1025
+F 0 "#PWR0101" H 8750 775 50  0001 C CNN
+F 1 "GND" H 8755 852 50  0000 C CNN
+F 2 "" H 8750 1025 50  0001 C CNN
+F 3 "" H 8750 1025 50  0001 C CNN
+	1    8750 1025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2225 10400 2225
+Wire Wire Line
+	10400 2225 10400 2250
+$Comp
+L power:GND #PWR0102
+U 1 1 5FD27455
+P 10400 2250
+F 0 "#PWR0102" H 10400 2000 50  0001 C CNN
+F 1 "GND" H 10405 2077 50  0000 C CNN
+F 2 "" H 10400 2250 50  0001 C CNN
+F 3 "" H 10400 2250 50  0001 C CNN
+	1    10400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3650 6775 3650
+Wire Wire Line
+	6775 3650 6775 3700
+$Comp
+L power:GND #PWR0103
+U 1 1 5FD29F50
+P 6775 3700
+F 0 "#PWR0103" H 6775 3450 50  0001 C CNN
+F 1 "GND" H 6780 3527 50  0000 C CNN
+F 2 "" H 6775 3700 50  0001 C CNN
+F 3 "" H 6775 3700 50  0001 C CNN
+	1    6775 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 4675 10450 4675
+Wire Wire Line
+	10450 4675 10450 4725
+$Comp
+L power:GND #PWR0104
+U 1 1 5FD2B9E7
+P 10450 4725
+F 0 "#PWR0104" H 10450 4475 50  0001 C CNN
+F 1 "GND" H 10455 4552 50  0000 C CNN
+F 2 "" H 10450 4725 50  0001 C CNN
+F 3 "" H 10450 4725 50  0001 C CNN
+	1    10450 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4450 8800 4275
+$Comp
+L power:+3V3 #PWR0105
+U 1 1 5FD2ED53
+P 8800 4275
+F 0 "#PWR0105" H 8800 4125 50  0001 C CNN
+F 1 "+3V3" H 8815 4448 50  0000 C CNN
+F 2 "" H 8800 4275 50  0001 C CNN
+F 3 "" H 8800 4275 50  0001 C CNN
+	1    8800 4275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8375 4450 8800 4450
+Wire Wire Line
+	2950 925  2950 1225
+$Sheet
+S 3050 1150 750  300 
+U 5F80E1AD
+F0 "CURRENT_SENSE" 50
+F1 "Sheets/CURRENT_SENSE.sch" 50
+F2 "PV" O R 3800 1250 50 
+F3 "pack_i_sense" O R 3800 1375 50 
+F4 "3V3" I L 3050 1375 50 
+F5 "V_in" I L 3050 1225 50 
+$EndSheet
+Text Label 2900 925  2    50   ~ 0
+V_in
+Text Label 900  1250 2    50   ~ 0
+V_in
 $EndSCHEMATC
