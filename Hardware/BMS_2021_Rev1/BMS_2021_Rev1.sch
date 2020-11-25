@@ -688,7 +688,7 @@ $Sheet
 S 4900 3650 550  225 
 U 5FBA3C42
 F0 "LCD" 50
-F1 "LCD.sch" 50
+F1 "Sheets/LCD.sch" 50
 F2 "LCD_TX" I L 4900 3825 50 
 F3 "3V3" I L 4900 3700 50 
 $EndSheet
