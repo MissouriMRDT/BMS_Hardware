@@ -445,29 +445,29 @@ Text Label 3000 6075 2    50   ~ 0
 logic_switch
 Text Label 4200 4750 0    50   ~ 0
 V_out_sense
-Text Label 9950 2825 0    50   ~ 0
+Text Label 9900 2725 0    50   ~ 0
 V_out_sense
 Text Label 3000 4600 2    50   ~ 0
 pack_gate
 Text Label 4900 2900 2    50   ~ 0
 buzzer_control
-Text Label 9000 2825 2    50   ~ 0
+Text Label 8400 4350 0    50   ~ 0
 buzzer_control
 Text Label 9825 5575 0    50   ~ 0
 pack_gate
-Text Label 9950 2325 0    50   ~ 0
+Text Label 9900 2225 0    50   ~ 0
 sw_err
-Text Label 9000 2225 2    50   ~ 0
+Text Label 8950 2125 2    50   ~ 0
 sw_ind
-Text Label 9950 2725 0    50   ~ 0
+Text Label 9900 2625 0    50   ~ 0
 temp_sense(A)
-Text Label 9950 2425 0    50   ~ 0
+Text Label 9900 2325 0    50   ~ 0
 V_out_ind
 Text Label 6100 2675 0    50   ~ 0
 V_out_ind
 Text Notes 8925 1600 0    24   Italic 5
 if V_out_sense detects a usable voltage,\nV_out_ind sends out 3v3 to status LED
-Text Label 9950 2525 0    50   ~ 0
+Text Label 9900 2425 0    50   ~ 0
 FANS_IND
 Text Label 4900 3000 2    50   ~ 0
 FANS_IND
@@ -506,43 +506,42 @@ $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 3 1 5FA5E750
-P 9200 3175
-F 0 "U1" H 9225 3025 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 8725 3125 60  0000 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_TOP" H 9200 3175 60  0001 C CNN
-F 3 "" H 9200 3175 60  0001 C CNN
-	3    9200 3175
+P 9150 3050
+F 0 "U1" H 9175 2900 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 8675 3000 60  0000 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_TOP" H 9150 3050 60  0001 C CNN
+F 3 "" H 9150 3050 60  0001 C CNN
+	3    9150 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 4 1 5FA60370
-P 9750 3175
-F 0 "U1" H 9650 4400 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 9125 4325 60  0000 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_TOP" H 9750 3175 60  0001 C CNN
-F 3 "" H 9750 3175 60  0001 C CNN
-	4    9750 3175
+P 9700 3075
+F 0 "U1" H 9600 4300 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 9075 4225 60  0000 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_TOP" H 9700 3075 60  0001 C CNN
+F 3 "" H 9700 3075 60  0001 C CNN
+	4    9700 3075
 	-1   0    0    -1  
 $EndComp
-Text Label 8375 4050 0    50   ~ 0
+Text Label 8400 3950 0    50   ~ 0
 cell_8_sense
-Text Label 8375 3950 0    50   ~ 0
+Text Label 8400 4050 0    50   ~ 0
 cell_7_sense
-NoConn ~ 8375 3750
-NoConn ~ 8375 3850
-NoConn ~ 8375 4150
-NoConn ~ 8375 4250
-NoConn ~ 8375 4350
+NoConn ~ 8400 3750
+NoConn ~ 8400 3850
+NoConn ~ 8400 4150
+NoConn ~ 8400 4250
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 5 1 5F805ECA
-P 8175 3500
-F 0 "U1" H 8275 3450 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 8425 3350 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_TOP" H 8175 3500 60  0001 C CNN
-F 3 "" H 8175 3500 60  0001 C CNN
-	5    8175 3500
+P 8200 3500
+F 0 "U1" H 8300 3450 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 8450 3350 60  0000 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_TOP" H 8200 3500 60  0001 C CNN
+F 3 "" H 8200 3500 60  0001 C CNN
+	5    8200 3500
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -591,18 +590,18 @@ NoConn ~ 8850 4975
 NoConn ~ 8850 4875
 NoConn ~ 8850 4775
 NoConn ~ 8850 4675
-NoConn ~ 9950 2625
-NoConn ~ 9950 2925
-NoConn ~ 9950 3025
-NoConn ~ 9950 3125
-NoConn ~ 9000 3125
-NoConn ~ 9000 3025
-NoConn ~ 9000 2925
-NoConn ~ 9000 2725
-NoConn ~ 9000 2625
-NoConn ~ 9000 2525
-NoConn ~ 9000 2425
-NoConn ~ 9000 2325
+NoConn ~ 9900 2525
+NoConn ~ 9900 2825
+NoConn ~ 9900 2925
+NoConn ~ 9900 3025
+NoConn ~ 8950 3000
+NoConn ~ 8950 2900
+NoConn ~ 8950 2800
+NoConn ~ 8950 2600
+NoConn ~ 8950 2500
+NoConn ~ 8950 2400
+NoConn ~ 8950 2300
+NoConn ~ 8950 2200
 Wire Wire Line
 	2900 925  2950 925 
 Text Notes 6600 7775 0    98   ~ 20
@@ -671,11 +670,11 @@ F 3 "" H 700 3750 60  0001 C CNN
 $EndComp
 Wire Notes Line
 	2150 500  2150 4300
-Text Label 8375 3550 0    50   ~ 0
+Text Label 8400 3550 0    50   ~ 0
 pack_i_sense
 NoConn ~ 9825 5475
 NoConn ~ 8550 1400
-NoConn ~ 8375 3650
+NoConn ~ 8400 3650
 NoConn ~ 7600 1300
 NoConn ~ 7600 1000
 NoConn ~ 8550 1500
@@ -738,18 +737,18 @@ F 3 "" H 8750 1025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 2225 10400 2225
+	9900 2125 10350 2125
 Wire Wire Line
-	10400 2225 10400 2250
+	10350 2125 10350 2150
 $Comp
 L power:GND #PWR0102
 U 1 1 5FD27455
-P 10400 2250
-F 0 "#PWR0102" H 10400 2000 50  0001 C CNN
-F 1 "GND" H 10405 2077 50  0000 C CNN
-F 2 "" H 10400 2250 50  0001 C CNN
-F 3 "" H 10400 2250 50  0001 C CNN
-	1    10400 2250
+P 10350 2150
+F 0 "#PWR0102" H 10350 1900 50  0001 C CNN
+F 1 "GND" H 10355 1977 50  0000 C CNN
+F 2 "" H 10350 2150 50  0001 C CNN
+F 3 "" H 10350 2150 50  0001 C CNN
+	1    10350 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -796,8 +795,6 @@ F 3 "" H 8800 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8375 4450 8800 4450
-Wire Wire Line
 	2950 925  2950 1225
 $Sheet
 S 3050 1150 750  300 
@@ -813,4 +810,7 @@ Text Label 2900 925  2    50   ~ 0
 V_in
 Text Label 900  1250 2    50   ~ 0
 V_in
+Wire Wire Line
+	8400 4450 8800 4450
+NoConn ~ 8950 2700
 $EndSCHEMATC

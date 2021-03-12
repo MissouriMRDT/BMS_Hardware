@@ -456,17 +456,6 @@ F 3 "~" H 1550 7650 50  0001 C CNN
 	1    1550 7650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R9
-U 1 1 5F8E982C
-P 1300 7400
-F 0 "R9" V 1200 7400 50  0000 C CNN
-F 1 "10k" V 1300 7400 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 7400 50  0001 C CNN
-F 3 "~" H 1300 7400 50  0001 C CNN
-	1    1300 7400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	900  7400 950  7400
 Wire Wire Line
@@ -1459,4 +1448,15 @@ Wire Wire Line
 	3700 1125 3625 1125
 Wire Wire Line
 	3625 1125 3625 1200
+$Comp
+L Device:R R9
+U 1 1 5F8E982C
+P 1300 7400
+F 0 "R9" V 1200 7400 50  0000 C CNN
+F 1 "10k" V 1300 7400 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 7400 50  0001 C CNN
+F 3 "~" H 1300 7400 50  0001 C CNN
+	1    1300 7400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
