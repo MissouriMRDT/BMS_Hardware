@@ -127,11 +127,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_Schottky
+# Device_D_Schottky_KAK
 #
-DEF Device_D_Schottky D 0 40 N N 1 F N
+DEF Device_D_Schottky_KAK D 0 0 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Schottky" 0 -100 50 H V C CNN
+F1 "Device_D_Schottky_KAK" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -141,11 +141,13 @@ $FPLIST
  D_*
 $ENDFPLIST
 DRAW
-P 2 0 1 0 50 0 -50 0 N
+C -150 0 10 0 1 0 F
+P 3 0 1 0 -150 100 -150 0 100 0 N
 P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
+X K 1 -250 100 100 R 50 50 1 1 P
+X A 2 200 0 100 L 50 50 1 1 P
+X K 3 -250 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -661,61 +661,6 @@ $EndComp
 Wire Wire Line
 	2925 7975 2925 7925
 $Comp
-L Device:D_Schottky D4
-U 1 1 5F94485A
-P 950 6350
-F 0 "D4" V 900 6500 50  0000 R CNN
-F 1 "5V_Schottky" V 975 6925 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-416" H 950 6350 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 6350 50  0001 C CNN
-	1    950  6350
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D3
-U 1 1 5F94E7ED
-P 950 4750
-F 0 "D3" V 900 4900 50  0000 R CNN
-F 1 "5V_Schottky" V 975 5325 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-416" H 950 4750 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 4750 50  0001 C CNN
-	1    950  4750
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D2
-U 1 1 5F954AC8
-P 950 3125
-F 0 "D2" V 900 3275 50  0000 R CNN
-F 1 "5V_Schottky" V 975 3700 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-416" H 950 3125 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 3125 50  0001 C CNN
-	1    950  3125
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D5
-U 1 1 5F961402
-P 4250 6875
-F 0 "D5" V 4200 7025 50  0000 R CNN
-F 1 "5V_Schottky" V 4275 7450 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-416" H 4250 6875 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4250 6875 50  0001 C CNN
-	1    4250 6875
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D12
-U 1 1 5F96E38C
-P 4200 5250
-F 0 "D12" V 4150 5400 50  0000 R CNN
-F 1 "5V_Schottky" V 4225 5825 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-416" H 4200 5250 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4200 5250 50  0001 C CNN
-	1    4200 5250
-	0    -1   1    0   
-$EndComp
-$Comp
 L Device:D_Zener D8
 U 1 1 5F940D73
 P 2375 6325
@@ -1263,22 +1208,13 @@ Wire Wire Line
 	950  5950 875  5950
 Connection ~ 1400 6700
 Wire Wire Line
-	950  5950 950  6200
-Wire Wire Line
-	950  6500 950  6700
-Wire Wire Line
 	950  6700 950  7400
 Connection ~ 950  6700
 Connection ~ 1400 5100
 Wire Wire Line
 	950  5100 1100 5100
 Wire Wire Line
-	950  4900 950  5100
-Connection ~ 950  5100
-Wire Wire Line
 	950  5100 950  5400
-Wire Wire Line
-	950  4350 950  4600
 Connection ~ 950  4350
 Wire Wire Line
 	950  4350 1100 4350
@@ -1289,14 +1225,7 @@ Wire Wire Line
 	950  3500 1100 3500
 Connection ~ 1400 3500
 Wire Wire Line
-	950  3275 950  3500
-Wire Wire Line
-	950  3500 950  3800
-Connection ~ 950  3500
-Wire Wire Line
 	950  2750 875  2750
-Wire Wire Line
-	950  2750 950  2975
 Wire Wire Line
 	950  2750 1100 2750
 Connection ~ 950  2750
@@ -1305,17 +1234,6 @@ Wire Wire Line
 Connection ~ 950  2200
 Wire Wire Line
 	950  600  950  1150
-$Comp
-L Device:D_Schottky D1
-U 1 1 5F95AE2A
-P 950 1550
-F 0 "D1" V 900 1700 50  0000 R CNN
-F 1 "5V_Schottky" V 975 2125 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-416" H 950 1550 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 1550 50  0001 C CNN
-	1    950  1550
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:R R2
 U 1 1 5FA5A210
@@ -1332,15 +1250,8 @@ Wire Wire Line
 Wire Wire Line
 	950  1900 1100 1900
 Connection ~ 1400 1900
-Connection ~ 950  1900
-Wire Wire Line
-	950  1900 950  2200
 Wire Wire Line
 	1400 1350 1400 1900
-Wire Wire Line
-	950  1700 950  1900
-Wire Wire Line
-	950  1150 950  1400
 Connection ~ 950  1150
 Wire Wire Line
 	950  1150 1100 1150
@@ -1352,25 +1263,9 @@ Wire Wire Line
 	950  325  950  600 
 Connection ~ 950  600 
 Connection ~ 4650 7200
-Wire Wire Line
-	4200 7200 4250 7200
-Wire Wire Line
-	4250 7025 4250 7200
-Connection ~ 4250 7200
-Wire Wire Line
-	4250 7200 4350 7200
-Wire Wire Line
-	4250 6450 4250 6725
 Connection ~ 4650 5600
 Wire Wire Line
 	4200 5600 4350 5600
-Wire Wire Line
-	4200 5400 4200 5600
-Wire Wire Line
-	4200 5600 4200 5900
-Connection ~ 4200 5600
-Wire Wire Line
-	4200 5100 4200 4850
 Wire Wire Line
 	4200 4850 4125 4850
 Connection ~ 4200 4850
@@ -1379,24 +1274,8 @@ Wire Wire Line
 Connection ~ 4650 4000
 Wire Wire Line
 	4200 4000 4350 4000
-$Comp
-L Device:D_Schottky D11
-U 1 1 5F97C0C8
-P 4200 3700
-F 0 "D11" V 4150 3850 50  0000 R CNN
-F 1 "5V_Schottky" V 4225 4275 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-416" H 4200 3700 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4200 3700 50  0001 C CNN
-	1    4200 3700
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	4200 3850 4200 4000
 Wire Wire Line
 	4200 4000 4200 4300
-Connection ~ 4200 4000
-Wire Wire Line
-	4200 3550 4200 3250
 Wire Wire Line
 	4200 3250 4125 3250
 Connection ~ 4200 3250
@@ -1459,4 +1338,132 @@ F 3 "~" H 1300 7400 50  0001 C CNN
 	1    1300 7400
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:D_Schottky_KAK D4
+U 1 1 5F94485A
+P 950 6350
+F 0 "D4" V 900 6500 50  0000 R CNN
+F 1 "5V_Schottky" V 975 6925 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 950 6350 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 6350 50  0001 C CNN
+	1    950  6350
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	950  6550 950  6700
+Connection ~ 4200 4000
+$Comp
+L Device:D_Schottky_KAK D5
+U 1 1 5F961402
+P 4250 6900
+F 0 "D5" V 4200 7050 50  0000 R CNN
+F 1 "5V_Schottky" V 4275 7475 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 4250 6900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4250 6900 50  0001 C CNN
+	1    4250 6900
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_KAK D1
+U 1 1 5F95AE2A
+P 950 1550
+F 0 "D1" V 900 1700 50  0000 R CNN
+F 1 "5V_Schottky" V 975 2125 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 950 1550 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 1550 50  0001 C CNN
+	1    950  1550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_KAK D2
+U 1 1 5F954AC8
+P 950 3100
+F 0 "D2" V 900 3250 50  0000 R CNN
+F 1 "5V_Schottky" V 975 3675 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 950 3100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 3100 50  0001 C CNN
+	1    950  3100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	950  6100 950  5950
+Wire Wire Line
+	4200 3250 4200 3450
+Wire Wire Line
+	4200 3900 4200 4000
+$Comp
+L Device:D_Schottky_KAK D11
+U 1 1 5F97C0C8
+P 4200 3700
+F 0 "D11" V 4150 3850 50  0000 R CNN
+F 1 "5V_Schottky" V 4225 4275 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 4200 3700 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4200 3700 50  0001 C CNN
+	1    4200 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_KAK D12
+U 1 1 5F96E38C
+P 4200 5250
+F 0 "D12" V 4150 5400 50  0000 R CNN
+F 1 "5V_Schottky" V 4225 5825 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 4200 5250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4200 5250 50  0001 C CNN
+	1    4200 5250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4200 5450 4200 5600
+Connection ~ 4200 5600
+Wire Wire Line
+	4200 5600 4200 5900
+Wire Wire Line
+	4200 5000 4200 4850
+Wire Wire Line
+	4200 7200 4250 7200
+Wire Wire Line
+	4250 7100 4250 7200
+Connection ~ 4250 7200
+Wire Wire Line
+	4250 7200 4350 7200
+Wire Wire Line
+	4250 6650 4250 6450
+NoConn ~ 4150 6650
+NoConn ~ 4100 5000
+NoConn ~ 4100 3450
+NoConn ~ 850  6100
+$Comp
+L Device:D_Schottky_KAK D3
+U 1 1 5F94E7ED
+P 950 4750
+F 0 "D3" V 900 4900 50  0000 R CNN
+F 1 "5V_Schottky" V 975 5325 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 950 4750 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 4750 50  0001 C CNN
+	1    950  4750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	950  4500 950  4350
+Wire Wire Line
+	950  4950 950  5100
+Connection ~ 950  5100
+NoConn ~ 850  4500
+Wire Wire Line
+	950  2850 950  2750
+Wire Wire Line
+	950  3300 950  3500
+Connection ~ 950  3500
+Wire Wire Line
+	950  3500 950  3800
+NoConn ~ 850  2850
+Wire Wire Line
+	950  1750 950  1900
+Connection ~ 950  1900
+Wire Wire Line
+	950  1900 950  2200
+Wire Wire Line
+	950  1300 950  1150
+NoConn ~ 850  1300
 $EndSCHEMATC
