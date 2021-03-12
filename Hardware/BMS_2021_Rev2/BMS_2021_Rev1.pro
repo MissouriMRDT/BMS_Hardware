@@ -1,4 +1,4 @@
-update=3/11/2021 10:30:01 PM
+update=3/11/2021 11:18:18 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../../Documentation/BMS_2021_Rev2.net
+LastNetListRead=../../Documentation/BMS_2021_Rev2_newschott.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
