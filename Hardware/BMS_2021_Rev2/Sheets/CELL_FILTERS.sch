@@ -456,17 +456,6 @@ F 3 "~" H 1550 7650 50  0001 C CNN
 	1    1550 7650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R9
-U 1 1 5F8E982C
-P 1300 7400
-F 0 "R9" V 1200 7400 50  0000 C CNN
-F 1 "10k" V 1300 7400 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 7400 50  0001 C CNN
-F 3 "~" H 1300 7400 50  0001 C CNN
-	1    1300 7400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	900  7400 950  7400
 Wire Wire Line
@@ -677,7 +666,7 @@ U 1 1 5F94485A
 P 950 6350
 F 0 "D4" V 900 6500 50  0000 R CNN
 F 1 "5V_Schottky" V 975 6925 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 950 6350 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 950 6350 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 6350 50  0001 C CNN
 	1    950  6350
 	0    -1   1    0   
@@ -688,7 +677,7 @@ U 1 1 5F94E7ED
 P 950 4750
 F 0 "D3" V 900 4900 50  0000 R CNN
 F 1 "5V_Schottky" V 975 5325 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 950 4750 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 950 4750 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 4750 50  0001 C CNN
 	1    950  4750
 	0    -1   1    0   
@@ -699,7 +688,7 @@ U 1 1 5F954AC8
 P 950 3125
 F 0 "D2" V 900 3275 50  0000 R CNN
 F 1 "5V_Schottky" V 975 3700 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 950 3125 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 950 3125 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 3125 50  0001 C CNN
 	1    950  3125
 	0    -1   1    0   
@@ -710,7 +699,7 @@ U 1 1 5F961402
 P 4250 6875
 F 0 "D5" V 4200 7025 50  0000 R CNN
 F 1 "5V_Schottky" V 4275 7450 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 4250 6875 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 4250 6875 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4250 6875 50  0001 C CNN
 	1    4250 6875
 	0    -1   1    0   
@@ -721,7 +710,7 @@ U 1 1 5F96E38C
 P 4200 5250
 F 0 "D12" V 4150 5400 50  0000 R CNN
 F 1 "5V_Schottky" V 4225 5825 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 4200 5250 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 4200 5250 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4200 5250 50  0001 C CNN
 	1    4200 5250
 	0    -1   1    0   
@@ -1322,7 +1311,7 @@ U 1 1 5F95AE2A
 P 950 1550
 F 0 "D1" V 900 1700 50  0000 R CNN
 F 1 "5V_Schottky" V 975 2125 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 950 1550 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 950 1550 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 950 1550 50  0001 C CNN
 	1    950  1550
 	0    -1   1    0   
@@ -1396,7 +1385,7 @@ U 1 1 5F97C0C8
 P 4200 3700
 F 0 "D11" V 4150 3850 50  0000 R CNN
 F 1 "5V_Schottky" V 4225 4275 50  0000 R CNN
-F 2 "MRDT_BMS2021:RB886CST2RA" H 4200 3700 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 4200 3700 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB886CST2R/2425005" H 4200 3700 50  0001 C CNN
 	1    4200 3700
 	0    -1   1    0   
@@ -1459,4 +1448,15 @@ Wire Wire Line
 	3700 1125 3625 1125
 Wire Wire Line
 	3625 1125 3625 1200
+$Comp
+L Device:R R9
+U 1 1 5F8E982C
+P 1300 7400
+F 0 "R9" V 1200 7400 50  0000 C CNN
+F 1 "10k" V 1300 7400 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 7400 50  0001 C CNN
+F 3 "~" H 1300 7400 50  0001 C CNN
+	1    1300 7400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

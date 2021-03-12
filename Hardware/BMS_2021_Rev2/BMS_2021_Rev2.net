@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\maxwe\Documents\GitHub\BMS_Hardware\Hardware\BMS_2021_Rev2\BMS_2021_Rev1.sch)
-    (date "3/11/2021 4:44:33 PM")
+    (date "3/11/2021 4:43:49 PM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
