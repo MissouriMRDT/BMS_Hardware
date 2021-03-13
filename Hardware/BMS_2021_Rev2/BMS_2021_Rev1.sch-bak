@@ -457,7 +457,7 @@ Text Label 9825 5575 0    50   ~ 0
 pack_gate
 Text Label 9900 2225 0    50   ~ 0
 sw_err
-Text Label 8950 2125 2    50   ~ 0
+Text Label 8950 2100 2    50   ~ 0
 sw_ind
 Text Label 9900 2625 0    50   ~ 0
 temp_sense(A)
