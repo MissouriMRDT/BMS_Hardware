@@ -1315,10 +1315,10 @@ Wire Wire Line
 	950  1300 950  1150
 NoConn ~ 850  1300
 $Comp
-L Amplifier_Operational:LM358 U10
+L Amplifier_Operational:LM358 U8
 U 1 1 6068D3FE
 P 2200 7500
-F 0 "U10" H 2200 7867 50  0000 C CNN
+F 0 "U8" H 2200 7867 50  0000 C CNN
 F 1 "LM358" H 2200 7776 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2200 7500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 7500 50  0001 C CNN
@@ -1326,10 +1326,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U9
+L Amplifier_Operational:LM358 U8
 U 2 1 60691E6C
 P 1750 6050
-F 0 "U9" H 1750 6417 50  0000 C CNN
+F 0 "U8" H 1750 6417 50  0000 C CNN
 F 1 "LM358" H 1750 6326 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1750 6050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1750 6050 50  0001 C CNN
@@ -1389,7 +1389,7 @@ U 5 1 5FB26CC5
 P 4000 1625
 F 0 "U3" H 4075 1475 50  0000 C CNN
 F 1 "TL3474ACPWR" H 4025 1550 50  0000 C CNN
-F 2 "MRDT_BMS2021:TL3474ID" H 4225 1850 50  0001 C CNN
+F 2 "" H 4225 1850 50  0001 C CNN
 F 3 "" H 4225 1850 50  0001 C CNN
 	5    4000 1625
 	-1   0    0    1   
@@ -1400,7 +1400,7 @@ U 5 1 5FACA6CB
 P 4000 1125
 F 0 "U4" H 4000 1200 50  0000 C CNN
 F 1 "TL3474ACPWR" H 4000 1050 50  0000 C CNN
-F 2 "MRDT_BMS2021:TL3474ID" H 4225 1350 50  0001 C CNN
+F 2 "" H 4225 1350 50  0001 C CNN
 F 3 "" H 4225 1350 50  0001 C CNN
 	5    4000 1125
 	-1   0    0    1   
@@ -1442,10 +1442,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1750 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U8
+L Amplifier_Operational:LM358 U9
 U 2 1 606D8C01
 P 1750 2850
-F 0 "U8" H 1750 3217 50  0000 C CNN
+F 0 "U9" H 1750 3217 50  0000 C CNN
 F 1 "LM358" H 1750 3126 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1750 2850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1750 2850 50  0001 C CNN
@@ -1483,10 +1483,10 @@ F 3 "" H 2350 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U8
+L Amplifier_Operational:LM358 U10
 U 1 1 607093A2
 P 1750 1250
-F 0 "U8" H 1750 1617 50  0000 C CNN
+F 0 "U10" H 1750 1617 50  0000 C CNN
 F 1 "LM358" H 1750 1526 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1750 1250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1750 1250 50  0001 C CNN
@@ -1494,10 +1494,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1750 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U11
+L Amplifier_Operational:LM358 U10
 U 2 1 6070B42B
 P 5000 6550
-F 0 "U11" H 5000 6917 50  0000 C CNN
+F 0 "U10" H 5000 6917 50  0000 C CNN
 F 1 "LM358" H 5000 6826 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5000 6550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5000 6550 50  0001 C CNN
@@ -1546,10 +1546,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5000 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U10
+L Amplifier_Operational:LM358 U11
 U 2 1 60737357
 P 5000 3350
-F 0 "U10" H 5000 3717 50  0000 C CNN
+F 0 "U11" H 5000 3717 50  0000 C CNN
 F 1 "LM358" H 5000 3626 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5000 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5000 3350 50  0001 C CNN
