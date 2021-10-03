@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MRDT_BMS2021_SILKSCREENS)(type KiCad)(uri C:/Users/maxwe/Documents/GitHub/BMS_Hardware/Documentation/Libraries/MRDT_BMS2021_SILKSCREENS.pretty)(options "")(descr ""))
+  (lib (name MRDT_BMS2021)(type KiCad)(uri C:/Users/maxwe/Documents/GitHub/BMS_Hardware/Documentation/Libraries/MRDT_BMS2021.pretty)(options "")(descr ""))
+)
