@@ -1,0 +1,256 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 1 1 61654B9D
+P 1650 2350
+F 0 "U?" H 1550 2200 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 1000 2300 60  0000 L CNN
+F 2 "" H 1650 2350 60  0001 C CNN
+F 3 "" H 1650 2350 60  0001 C CNN
+	1    1650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 2 1 616592EB
+P 2300 1350
+F 0 "U?" H 2331 1163 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 2150 1250 60  0000 C CNN
+F 2 "" H 2300 1350 60  0001 C CNN
+F 3 "" H 2300 1350 60  0001 C CNN
+	2    2300 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61662AFC
+P 2500 2200
+F 0 "#PWR?" H 2500 1950 50  0001 C CNN
+F 1 "GND" V 2505 2072 50  0000 R CNN
+F 2 "" H 2500 2200 50  0001 C CNN
+F 3 "" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61663354
+P 2500 2300
+F 0 "#PWR?" H 2500 2150 50  0001 C CNN
+F 1 "+5V" H 2515 2473 50  0000 C CNN
+F 2 "" H 2500 2300 50  0001 C CNN
+F 3 "" H 2500 2300 50  0001 C CNN
+	1    2500 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61663D60
+P 1450 1400
+F 0 "#PWR?" H 1450 1250 50  0001 C CNN
+F 1 "+3.3V" H 1465 1573 50  0000 C CNN
+F 2 "" H 1450 1400 50  0001 C CNN
+F 3 "" H 1450 1400 50  0001 C CNN
+	1    1450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 3 1 6166A4AD
+P 3750 2350
+F 0 "U?" H 3450 2200 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 3000 2300 60  0000 L CNN
+F 2 "" H 3750 2350 60  0001 C CNN
+F 3 "" H 3750 2350 60  0001 C CNN
+	3    3750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 4 1 6166E81A
+P 4400 1350
+F 0 "U?" H 4431 1163 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 4300 1250 60  0000 C CNN
+F 2 "" H 4400 1350 60  0001 C CNN
+F 3 "" H 4400 1350 60  0001 C CNN
+	4    4400 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 616769E5
+P 4600 2300
+F 0 "#PWR?" H 4600 2050 50  0001 C CNN
+F 1 "GND" H 4605 2127 50  0000 C CNN
+F 2 "" H 4600 2300 50  0001 C CNN
+F 3 "" H 4600 2300 50  0001 C CNN
+	1    4600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 5 1 6167714E
+P 1550 3850
+F 0 "U?" H 1200 3700 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 650 3800 60  0000 L CNN
+F 2 "" H 1550 3850 60  0001 C CNN
+F 3 "" H 1550 3850 60  0001 C CNN
+	5    1550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 6 1 6167A547
+P 2200 2850
+F 0 "U?" H 2250 2750 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 1700 2650 60  0000 L CNN
+F 2 "" H 2200 2850 60  0001 C CNN
+F 3 "" H 2200 2850 60  0001 C CNN
+	6    2200 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 7 1 6167E7C0
+P 3700 3800
+F 0 "U?" H 3400 3650 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 3000 3750 60  0000 L CNN
+F 2 "" H 3700 3800 60  0001 C CNN
+F 3 "" H 3700 3800 60  0001 C CNN
+	7    3700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 8 1 61681C45
+P 4350 2800
+F 0 "U?" H 4350 2700 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 4350 2600 60  0000 C CNN
+F 2 "" H 4350 2800 60  0001 C CNN
+F 3 "" H 4350 2800 60  0001 C CNN
+	8    4350 2800
+	-1   0    0    1   
+$EndComp
+Text Notes 2500 800  0    79   ~ 16
+Microcontroller
+Text Notes 2700 900  0    39   ~ 0
+TM4C1294NCPDT
+$Comp
+L power:GND #PWR?
+U 1 1 616B2052
+P 4550 3750
+F 0 "#PWR?" H 4550 3500 50  0001 C CNN
+F 1 "GND" H 4555 3577 50  0000 C CNN
+F 2 "" H 4550 3750 50  0001 C CNN
+F 3 "" H 4550 3750 50  0001 C CNN
+	1    4550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 616B320E
+P 2400 3700
+F 0 "#PWR?" H 2400 3450 50  0001 C CNN
+F 1 "GND" V 2405 3572 50  0000 R CNN
+F 2 "" H 2400 3700 50  0001 C CNN
+F 3 "" H 2400 3700 50  0001 C CNN
+	1    2400 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 616B3839
+P 1350 2900
+F 0 "#PWR?" H 1350 2750 50  0001 C CNN
+F 1 "+3.3V" V 1365 3028 50  0000 L CNN
+F 2 "" H 1350 2900 50  0001 C CNN
+F 3 "" H 1350 2900 50  0001 C CNN
+	1    1350 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 616B4974
+P 2400 3800
+F 0 "#PWR?" H 2400 3650 50  0001 C CNN
+F 1 "+5V" V 2415 3928 50  0000 L CNN
+F 2 "" H 2400 3800 50  0001 C CNN
+F 3 "" H 2400 3800 50  0001 C CNN
+	1    2400 3800
+	0    1    1    0   
+$EndComp
+$Sheet
+S 6150 1150 1100 650 
+U 61597FAE
+F0 "Current Measurement" 50
+F1 "Sheets/ Current Measure.sch" 50
+$EndSheet
+$Sheet
+S 7900 1150 1100 650 
+U 61598C14
+F0 "Power Input" 50
+F1 "Sheets/ Power Input.sch" 50
+$EndSheet
+$Sheet
+S 6150 2150 1100 550 
+U 615992E0
+F0 "Logic Power Switch" 50
+F1 "Sheets/ Logic Power Switch.sch" 50
+$EndSheet
+$Sheet
+S 7900 2150 1050 550 
+U 61599970
+F0 "ESTOP" 50
+F1 "Sheets/ ESTOP.sch" 50
+$EndSheet
+$Sheet
+S 6150 3050 1100 550 
+U 61599F8A
+F0 "Power Output" 50
+F1 "Sheets/ Power Output.sch" 50
+$EndSheet
+$Sheet
+S 7900 3050 1100 550 
+U 6159A5AF
+F0 "Cell Filters" 50
+F1 "Sheets/ Cell Filters.sch" 50
+$EndSheet
+$Sheet
+S 6150 3950 1100 550 
+U 6159AC23
+F0 "Fan Power/ Control" 50
+F1 "Sheets/ Fan Power/ Control.sch" 50
+$EndSheet
+$Sheet
+S 7900 3950 1100 550 
+U 6159B256
+F0 "Buzzer Alarm" 50
+F1 "Sheets/ Buzzer Alarm.sch" 50
+$EndSheet
+$Sheet
+S 6150 4850 1100 550 
+U 6159B89B
+F0 "Voltage Converters" 50
+F1 "Sheets/ Voltage Converters.sch" 50
+$EndSheet
+$Sheet
+S 7900 4850 1100 550 
+U 6159BF2E
+F0 "Voltage Indicators" 50
+F1 "Sheets/ Voltage Indicators.sch" 50
+$EndSheet
+$EndSCHEMATC
