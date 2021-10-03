@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name BMS2021_ICs)(type Legacy)(uri C:/Users/maxwe/Documents/GitHub/BMS_Hardware/Documentation/Libraries/Symbols/BMS2021_ICs.lib)(options "")(descr ""))
-  (lib (name BMS_2021_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/BMS_2021_Rev1-rescue.lib)(options "")(descr ""))
-)
