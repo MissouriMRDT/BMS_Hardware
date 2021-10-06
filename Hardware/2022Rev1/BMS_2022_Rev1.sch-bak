@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields-BMS_2022_Rev1-rescue U?
 U 1 1 61654B9D
 P 1900 2300
 F 0 "U?" H 1800 2150 60  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 1900 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields-BMS_2022_Rev1-rescue U?
 U 2 1 616592EB
 P 2550 1300
 F 0 "U?" H 2581 1113 60  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 1700 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields-BMS_2022_Rev1-rescue U?
 U 3 1 6166A4AD
 P 4000 2300
 F 0 "U?" H 3700 2150 60  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "" H 4000 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields-BMS_2022_Rev1-rescue U?
 U 4 1 6166E81A
 P 4650 1300
 F 0 "U?" H 4681 1113 60  0000 C CNN
@@ -102,7 +102,7 @@ F 3 "" H 4850 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields-BMS_2022_Rev1-rescue U?
 U 5 1 6167714E
 P 1800 3800
 F 0 "U?" H 1450 3650 60  0000 L CNN
@@ -113,7 +113,7 @@ F 3 "" H 1800 3800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields-BMS_2022_Rev1-rescue U?
 U 6 1 6167A547
 P 2450 2800
 F 0 "U?" H 2500 2700 60  0000 L CNN
@@ -124,7 +124,7 @@ F 3 "" H 2450 2800 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields-BMS_2022_Rev1-rescue U?
 U 7 1 6167E7C0
 P 3950 3750
 F 0 "U?" H 3650 3600 60  0000 L CNN
@@ -135,7 +135,7 @@ F 3 "" H 3950 3750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L BMS_2022_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields-BMS_2022_Rev1-rescue U?
 U 8 1 61681C45
 P 4600 2750
 F 0 "U?" H 4600 2650 60  0000 C CNN
@@ -196,7 +196,7 @@ $EndComp
 Wire Notes Line
 	5500 550  5500 4200
 $Comp
-L BMS_2022_Rev1-rescue:Relay_SPST-MRDT_Switches SW?
+L BMS_2022_Rev1-rescue:Relay_SPST-MRDT_Switches-BMS_2022_Rev1-rescue SW?
 U 1 1 615D9803
 P 7600 1700
 F 0 "SW?" H 7800 2200 50  0000 L CNN
@@ -349,7 +349,7 @@ $EndComp
 Text Notes 7550 700  0    79   ~ 16
 BMS Logic Switch
 $Comp
-L BMS_2022_Rev1-rescue:LT1910-MRDT_ICs U?
+L BMS_2022_Rev1-rescue:LT1910-MRDT_ICs-BMS_2022_Rev1-rescue U?
 U 1 1 615F422C
 P 13350 2000
 F 0 "U?" H 13725 2687 60  0000 C CNN
@@ -371,7 +371,7 @@ F 3 "" H 12950 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_2022_Rev1-rescue:Molex_SL_02-MRDT_Connectors Conn?
+L BMS_2022_Rev1-rescue:Molex_SL_02-MRDT_Connectors-BMS_2022_Rev1-rescue Conn?
 U 1 1 61621E48
 P 14850 1550
 F 0 "Conn?" V 14845 1522 60  0000 R CNN
@@ -382,7 +382,7 @@ F 3 "" H 14850 1450 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_2022_Rev1-rescue:Molex_SL_04-MRDT_Connectors Conn?
+L BMS_2022_Rev1-rescue:Molex_SL_04-MRDT_Connectors-BMS_2022_Rev1-rescue Conn?
 U 1 1 616261DF
 P 15700 1550
 F 0 "Conn?" V 15695 1522 60  0000 R CNN
@@ -600,28 +600,19 @@ Wire Wire Line
 	2950 5300 3050 5300
 Wire Wire Line
 	2950 5300 2950 5750
-Wire Wire Line
-	2650 5750 2100 5750
-Wire Wire Line
-	2100 5750 2100 5600
-Wire Wire Line
-	1900 5300 1300 5300
 $Comp
 L power:+5V #PWR?
 U 1 1 6169F3FD
-P 1550 5200
-F 0 "#PWR?" H 1550 5050 50  0001 C CNN
-F 1 "+5V" H 1565 5373 50  0000 C CNN
-F 2 "" H 1550 5200 50  0001 C CNN
-F 3 "" H 1550 5200 50  0001 C CNN
-	1    1550 5200
+P 1550 5050
+F 0 "#PWR?" H 1550 4900 50  0001 C CNN
+F 1 "+5V" H 1565 5223 50  0000 C CNN
+F 2 "" H 1550 5050 50  0001 C CNN
+F 3 "" H 1550 5050 50  0001 C CNN
+	1    1550 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 5200 1550 5200
-Wire Wire Line
-	1800 5750 2100 5750
-Connection ~ 2100 5750
+	1300 5050 1550 5050
 Wire Notes Line
 	500  7250 6150 7250
 Text Notes 1900 7400 0    79   ~ 16
@@ -629,7 +620,7 @@ LED Indicators
 Text Notes 7550 4450 0    79   ~ 16
 Communication
 $Comp
-L BMS_2022_Rev1-rescue:Molex_SL_03-MRDT_Connectors Conn?
+L BMS_2022_Rev1-rescue:Molex_SL_03-MRDT_Connectors-BMS_2022_Rev1-rescue Conn?
 U 1 1 616B838E
 P 7150 5350
 F 0 "Conn?" H 7550 5400 60  0000 C CNN
@@ -668,7 +659,7 @@ Wire Notes Line
 Text Notes 12400 4450 0    79   ~ 16
 Voltage Converters
 $Comp
-L BMS_2022_Rev1-rescue:OKI-MRDT_Devices U?
+L BMS_2022_Rev1-rescue:OKI-MRDT_Devices-BMS_2022_Rev1-rescue U?
 U 1 1 616CC6DB
 P 11650 5050
 F 0 "U?" H 11700 5000 60  0001 C CNN
@@ -731,7 +722,7 @@ Wire Wire Line
 	13250 4950 13350 4950
 Connection ~ 13250 4950
 $Comp
-L BMS_2022_Rev1-rescue:OKI-MRDT_Devices U?
+L BMS_2022_Rev1-rescue:OKI-MRDT_Devices-BMS_2022_Rev1-rescue U?
 U 1 1 616EC1FA
 P 15650 5000
 F 0 "U?" H 15700 4950 60  0001 C CNN
@@ -1063,4 +1054,128 @@ Wire Wire Line
 	1800 8150 1800 8100
 Wire Wire Line
 	1300 8150 1300 8000
+$Comp
+L MRDT_Connectors:Molex_SL_08 Conn?
+U 1 1 615C0315
+P 1100 5000
+F 0 "Conn?" H 1042 4813 60  0000 C CNN
+F 1 "Molex_SL_08" H 1042 4919 60  0000 C CNN
+F 2 "" H 1100 5300 60  0001 C CNN
+F 3 "" H 1100 5300 60  0001 C CNN
+	1    1100 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1300 5350 1800 5350
+Wire Wire Line
+	1300 5150 1800 5150
+Wire Wire Line
+	1800 5150 1800 5300
+Wire Wire Line
+	1800 5300 1900 5300
+Connection ~ 1800 5300
+Wire Wire Line
+	1800 5300 1800 5350
+Wire Wire Line
+	1300 5550 1800 5550
+Wire Wire Line
+	1800 5550 1800 5350
+Connection ~ 1800 5350
+Wire Wire Line
+	1300 5750 1800 5750
+Wire Wire Line
+	1800 5750 1800 5550
+Connection ~ 1800 5550
+Wire Wire Line
+	2100 5600 2100 5750
+Wire Wire Line
+	2100 5850 2150 5850
+Wire Wire Line
+	2650 5750 2100 5750
+Connection ~ 2100 5750
+Wire Wire Line
+	2100 5750 2100 5850
+Wire Wire Line
+	1300 5250 1550 5250
+Wire Wire Line
+	1550 5250 1550 5050
+Connection ~ 1550 5050
+Wire Wire Line
+	1300 5450 1550 5450
+Wire Wire Line
+	1550 5450 1550 5250
+Connection ~ 1550 5250
+Wire Wire Line
+	1300 5650 1550 5650
+Wire Wire Line
+	1550 5650 1550 5450
+Connection ~ 1550 5450
+Text Notes 8950 6300 0    79   ~ 16
+Cell Filter
+$Comp
+L MRDT_ICs:INA132 U?
+U 1 1 615F2456
+P 9100 7300
+F 0 "U?" H 9325 7875 50  0000 C CNN
+F 1 "INA132" H 9325 7784 50  0000 C CNN
+F 2 "" H 8950 7400 50  0001 C CNN
+F 3 "" H 8950 7400 50  0001 C CNN
+	1    9100 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6163A247
+P 7800 7100
+F 0 "C?" H 7915 7146 50  0000 L CNN
+F 1 "C" H 7915 7055 50  0000 L CNN
+F 2 "" H 7838 6950 50  0001 C CNN
+F 3 "~" H 7800 7100 50  0001 C CNN
+	1    7800 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61641781
+P 8700 7300
+F 0 "#PWR?" H 8700 7050 50  0001 C CNN
+F 1 "GND" H 8705 7127 50  0000 C CNN
+F 2 "" H 8700 7300 50  0001 C CNN
+F 3 "" H 8700 7300 50  0001 C CNN
+	1    8700 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 7300 8700 7250
+Wire Wire Line
+	8700 7250 8900 7250
+Wire Wire Line
+	8700 7250 8700 7150
+Wire Wire Line
+	8700 7150 8900 7150
+Connection ~ 8700 7250
+$Comp
+L Device:D D?
+U 1 1 616CA4DC
+P 8350 7100
+F 0 "D?" V 8304 7180 50  0000 L CNN
+F 1 "D" V 8395 7180 50  0000 L CNN
+F 2 "" H 8350 7100 50  0001 C CNN
+F 3 "~" H 8350 7100 50  0001 C CNN
+	1    8350 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61716149
+P 7800 7350
+F 0 "#PWR?" H 7800 7100 50  0001 C CNN
+F 1 "GND" H 7805 7177 50  0000 C CNN
+F 2 "" H 7800 7350 50  0001 C CNN
+F 3 "" H 7800 7350 50  0001 C CNN
+	1    7800 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 7350 7800 7250
 $EndSCHEMATC
