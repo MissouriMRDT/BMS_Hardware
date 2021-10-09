@@ -418,11 +418,11 @@ X ~ 8 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MRDT_Connectors_Molex_SL_09
+# MRDT_Connectors_Molex_uF_S_09
 #
-DEF MRDT_Connectors_Molex_SL_09 Conn 0 40 Y Y 1 F N
+DEF MRDT_Connectors_Molex_uF_S_09 Conn 0 40 Y Y 1 F N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "MRDT_Connectors_Molex_SL_09" 50 950 60 H V C CNN
+F1 "MRDT_Connectors_Molex_uF_S_09" 50 950 60 H V C CNN
 F2 "" 0 400 60 H I C CNN
 F3 "" 0 400 60 H I C CNN
 DRAW
