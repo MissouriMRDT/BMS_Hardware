@@ -20,20 +20,6 @@ X V+ 8 950 400 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS_2022_Rev1-rescue_Molex_SL_02-MRDT_Connectors-BMS_2022_Rev1-rescue
-#
-DEF BMS_2022_Rev1-rescue_Molex_SL_02-MRDT_Connectors-BMS_2022_Rev1-rescue Conn 0 40 Y Y 1 F N
-F0 "Conn" 150 -50 60 H V C CNN
-F1 "BMS_2022_Rev1-rescue_Molex_SL_02-MRDT_Connectors-BMS_2022_Rev1-rescue" 50 250 60 H V C CNN
-F2 "" 0 -100 60 H I C CNN
-F3 "" 0 -100 60 H I C CNN
-DRAW
-S 0 200 100 0 0 1 0 N
-X ~ 1 -200 150 200 R 50 50 1 1 I
-X ~ 2 -200 50 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # BMS_2022_Rev1-rescue_Molex_SL_03-MRDT_Connectors-BMS_2022_Rev1-rescue
 #
 DEF BMS_2022_Rev1-rescue_Molex_SL_03-MRDT_Connectors-BMS_2022_Rev1-rescue Conn 0 40 Y Y 1 F N
