@@ -522,8 +522,6 @@ F 3 "" H 3950 6150 50  0001 C CNN
 	1    3950 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3200 6150 3500 6150
 Connection ~ 3850 6150
 Wire Wire Line
 	3850 6150 3950 6150
@@ -887,22 +885,20 @@ F 3 "~" H 3850 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 6150 3500 6000
-Wire Wire Line
-	3500 5700 3500 5600
+	3300 6800 3400 6800
 $Comp
 L Device:R R8
 U 1 1 616059CC
-P 3500 5850
-F 0 "R8" H 3570 5896 50  0000 L CNN
-F 1 "100" V 3500 5800 50  0000 L CNN
-F 2 "" V 3430 5850 50  0001 C CNN
-F 3 "~" H 3500 5850 50  0001 C CNN
-	1    3500 5850
-	1    0    0    -1  
+P 3150 6800
+F 0 "R8" H 3220 6846 50  0000 L CNN
+F 1 "100" V 3150 6750 50  0000 L CNN
+F 2 "" V 3080 6800 50  0001 C CNN
+F 3 "~" H 3150 6800 50  0001 C CNN
+	1    3150 6800
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3500 5300 3500 5250
+	3700 6800 3750 6800
 Wire Wire Line
 	3850 8150 3850 8100
 Wire Wire Line
@@ -946,12 +942,8 @@ Connection ~ 2700 6400
 Wire Wire Line
 	3000 6450 3000 6600
 Wire Wire Line
-	3000 6700 3050 6700
-Wire Wire Line
 	3550 6600 3000 6600
 Connection ~ 3000 6600
-Wire Wire Line
-	3000 6600 3000 6700
 Wire Wire Line
 	2200 6100 2450 6100
 Wire Wire Line
@@ -1224,7 +1216,7 @@ Text GLabel 17550 4850 1    59   Input ~ 0
 LOG_PWR
 Text GLabel 19650 2400 0    59   Input ~ 0
 BUZZER
-Text GLabel 3050 6700 2    59   Input ~ 0
+Text GLabel 3750 6800 2    59   Input ~ 0
 FAN_CTL
 Text GLabel 7450 5400 1    59   Input ~ 0
 SER_TX_IND
@@ -1236,8 +1228,6 @@ Text GLabel 3350 8100 1    59   Input ~ 0
 SW_ERR
 Text GLabel 3850 8100 1    59   Input ~ 0
 V_OUT
-Text GLabel 3500 5250 1    59   Input ~ 0
-FAN_PWR
 Wire Wire Line
 	2600 1400 2650 1400
 Wire Wire Line
@@ -1437,7 +1427,7 @@ Text GLabel 5050 2000 2    59   Output ~ 0
 BUZZER
 Text GLabel 5050 2100 2    59   Input ~ 0
 PACK_GATE
-Text GLabel 5050 2200 2    59   Output ~ 0
+Text GLabel 6750 2200 1    59   Input ~ 0
 LOGIC_SWITCH
 Wire Wire Line
 	2600 1500 2750 1500
@@ -1637,9 +1627,6 @@ F 3 "" H 10900 7850 50  0001 C CNN
 	1    10900 7850
 	1    0    0    -1  
 $EndComp
-Connection ~ 3500 6150
-Wire Wire Line
-	3500 6150 3850 6150
 $Comp
 L Device:LED D7
 U 1 1 619D9A58
@@ -1687,13 +1674,13 @@ $EndComp
 $Comp
 L Device:LED D2
 U 1 1 61C99EFA
-P 3500 5450
-F 0 "D2" V 3539 5332 50  0000 R CNN
-F 1 "LED" V 3448 5332 50  0000 R CNN
-F 2 "" H 3500 5450 50  0001 C CNN
-F 3 "~" H 3500 5450 50  0001 C CNN
-	1    3500 5450
-	0    -1   -1   0   
+P 3550 6800
+F 0 "D2" V 3589 6682 50  0000 R CNN
+F 1 "LED" V 3498 6682 50  0000 R CNN
+F 2 "" H 3550 6800 50  0001 C CNN
+F 3 "~" H 3550 6800 50  0001 C CNN
+	1    3550 6800
+	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	9250 12950 9250 13000
@@ -3020,4 +3007,11 @@ F 3 "~" H 7200 2250 50  0001 C CNN
 	1    7200 2250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3000 6600 3000 6800
+Wire Wire Line
+	3200 6150 3850 6150
+Wire Wire Line
+	6750 2250 6750 2200
+Connection ~ 6750 2250
 $EndSCHEMATC
