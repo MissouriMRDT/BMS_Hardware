@@ -33,37 +33,6 @@ X V+ 8 950 400 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS_2022_Rev1-rescue_Molex_SL_03-MRDT_Connectors-BMS_2022_Rev1-rescue
-#
-DEF BMS_2022_Rev1-rescue_Molex_SL_03-MRDT_Connectors-BMS_2022_Rev1-rescue Conn 0 40 Y Y 1 F N
-F0 "Conn" 150 -50 60 H V C CNN
-F1 "BMS_2022_Rev1-rescue_Molex_SL_03-MRDT_Connectors-BMS_2022_Rev1-rescue" 50 350 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S 0 300 100 0 0 1 0 N
-X ~ 1 -200 250 200 R 50 50 1 1 I
-X ~ 2 -200 150 200 R 50 50 1 1 I
-X ~ 3 -200 50 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# BMS_2022_Rev1-rescue_Molex_SL_04-MRDT_Connectors-BMS_2022_Rev1-rescue
-#
-DEF BMS_2022_Rev1-rescue_Molex_SL_04-MRDT_Connectors-BMS_2022_Rev1-rescue Conn 0 40 Y Y 1 F N
-F0 "Conn" 150 -50 60 H V C CNN
-F1 "BMS_2022_Rev1-rescue_Molex_SL_04-MRDT_Connectors-BMS_2022_Rev1-rescue" 50 450 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S 0 400 100 0 0 1 0 N
-X ~ 1 -200 350 200 R 50 50 1 1 I
-X ~ 2 -200 250 200 R 50 50 1 1 I
-X ~ 3 -200 150 200 R 50 50 1 1 I
-X ~ 4 -200 50 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # BMS_2022_Rev1-rescue_Molex_uF_S_09-MRDT_Connectors
 #
 DEF BMS_2022_Rev1-rescue_Molex_uF_S_09-MRDT_Connectors Conn 0 40 Y Y 1 F N
@@ -458,6 +427,39 @@ X ~ 5 -200 350 200 R 50 50 1 1 I
 X ~ 6 -200 250 200 R 50 50 1 1 I
 X ~ 7 -200 150 200 R 50 50 1 1 I
 X ~ 8 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors_Molex_uF_SV_03
+#
+DEF MRDT_Connectors_Molex_uF_SV_03 J 0 40 Y Y 1 F N
+F0 "J" -100 320 50 H V L BNN
+F1 "MRDT_Connectors_Molex_uF_SV_03" -250 -200 50 H V L BNN
+F2 "MRDT_Connectors:MOLEX_uF_S_03_Vertical" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "MOLEX" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -100 -100 100 300 0 0 10 f
+X 1 1 -200 200 100 R 40 40 0 0 P
+X 2 2 -200 100 100 R 40 40 0 0 P
+X 3 3 -200 0 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors_Molex_uF_SV_04
+#
+DEF MRDT_Connectors_Molex_uF_SV_04 J 0 40 Y Y 1 F N
+F0 "J" -100 320 50 H V L BNN
+F1 "MRDT_Connectors_Molex_uF_SV_04" -300 -300 50 H V L BNN
+F2 "MRDT_Connectors:MOLEX_uF_S_04_Vertical" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "MOLEX" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -100 -200 100 300 0 0 10 f
+X 1 1 -200 200 100 R 40 40 0 0 P
+X 2 2 -200 100 100 R 40 40 0 0 P
+X 3 3 -200 0 100 R 40 40 0 0 P
+X 4 4 -200 -100 100 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
