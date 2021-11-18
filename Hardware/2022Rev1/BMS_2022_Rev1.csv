@@ -27,7 +27,7 @@ Reference, Value, Footprint, Datasheet, MANUFACTURER, MAXIMUM_PACKAGE_HEIGHT, PA
 "D4","LED","LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder","~"
 "D2","LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
 "SW2","SW_SP3T","MRDT_Switches:3P1T_Switch","~"
-"9V1","Battery","","~"
+"9V1","Battery","MRDT_Connectors:MOLEX_uF_S_02_Vertical","~"
 "R16","820","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
 "R11","10k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
 "R10","100k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
