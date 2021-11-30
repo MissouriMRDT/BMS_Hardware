@@ -770,37 +770,37 @@ F 3 "" H 10950 10350 50  0001 C CNN
 	1    10950 10350
 	1    0    0    -1  
 $EndComp
-Text GLabel 2500 4900 0    59   Input ~ 0
+Text GLabel 4100 4700 2    59   Input ~ 0
 PACK_I_SENSE
-Text GLabel 2500 4800 0    59   Input ~ 0
+Text GLabel 4100 4800 2    59   Input ~ 0
 V_OUT_SENSE
-Text GLabel 2500 5300 0    59   Input ~ 0
+Text GLabel 4100 5200 2    59   Input ~ 0
 TEMP_D_OUT
 Text GLabel 4100 4000 2    59   Output ~ 0
 BUZZER
 Text GLabel 4100 3900 2    59   Input ~ 0
 PACK_GATE
-Text GLabel 4100 4800 2    59   Input ~ 0
+Text GLabel 2500 5400 0    59   Input ~ 0
 CELL_8_7_SENSE
-Text GLabel 4100 4700 2    59   Input ~ 0
+Text GLabel 2500 5500 0    59   Input ~ 0
 CELL_7_6_SENSE
-Text GLabel 4100 4900 2    59   Input ~ 0
+Text GLabel 2500 5300 0    59   Input ~ 0
 CELL_6_5_SENSE
-Text GLabel 4100 5000 2    59   Input ~ 0
+Text GLabel 2500 5200 0    59   Input ~ 0
 CELL_5_4_SENSE
-Text GLabel 4100 5100 2    59   Input ~ 0
+Text GLabel 2500 5100 0    59   Input ~ 0
 CELL_4_3_SENSE
-Text GLabel 4100 5200 2    59   Input ~ 0
+Text GLabel 2500 5000 0    59   Input ~ 0
 CELL_3_2_SENSE
-Text GLabel 4100 5300 2    59   Input ~ 0
+Text GLabel 2500 4900 0    59   Input ~ 0
 CELL_2_1_SENSE
-Text GLabel 4100 5400 2    59   Input ~ 0
+Text GLabel 2500 4800 0    59   Input ~ 0
 CELL_1_GND_SENSE
 Text GLabel 2500 3200 0    59   Output ~ 0
 SER_TX_IND
-Text GLabel 2500 5400 0    59   Output ~ 0
+Text GLabel 4100 5100 2    59   Output ~ 0
 SW_IND
-Text GLabel 2500 5500 0    59   Output ~ 0
+Text GLabel 4100 5000 2    59   Output ~ 0
 SW_ERR
 NoConn ~ 17200 2350
 NoConn ~ 17200 2050
@@ -2630,7 +2630,7 @@ F 3 "" H 9250 7550 60  0001 C CNN
 	1    9250 7250
 	-1   0    0    1   
 $EndComp
-Text GLabel 2500 4700 0    59   Output ~ 0
+Text GLabel 4100 4900 2    59   Output ~ 0
 FAN_CTL
 $Comp
 L MRDT_Shields:Teensy4.1_DEV-16771 U1
@@ -2859,9 +2859,9 @@ NoConn ~ 4100 4100
 NoConn ~ 4100 4300
 NoConn ~ 4100 4400
 NoConn ~ 4100 5500
-NoConn ~ 2500 5200
-NoConn ~ 2500 5100
-NoConn ~ 2500 5000
+NoConn ~ 2500 4700
+NoConn ~ 4100 5300
+NoConn ~ 4100 5400
 NoConn ~ 2500 4500
 NoConn ~ 2500 4400
 NoConn ~ 2500 4300
