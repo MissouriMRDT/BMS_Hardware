@@ -772,17 +772,17 @@ F 3 "" H 10950 10350 50  0001 C CNN
 $EndComp
 Text GLabel 4100 4700 2    59   Input ~ 0
 PACK_I_SENSE
-Text GLabel 4100 4800 2    59   Input ~ 0
+Text GLabel 4100 5400 2    59   Input ~ 0
 V_OUT_SENSE
 Text GLabel 4100 5200 2    59   Input ~ 0
 TEMP_D_OUT
-Text GLabel 4100 4000 2    59   Output ~ 0
+Text GLabel 4100 3900 2    59   Output ~ 0
 BUZZER
-Text GLabel 4100 3900 2    59   Input ~ 0
+Text GLabel 4100 4000 2    59   Input ~ 0
 PACK_GATE
-Text GLabel 2500 5400 0    59   Input ~ 0
-CELL_8_7_SENSE
 Text GLabel 2500 5500 0    59   Input ~ 0
+CELL_8_7_SENSE
+Text GLabel 2500 5400 0    59   Input ~ 0
 CELL_7_6_SENSE
 Text GLabel 2500 5300 0    59   Input ~ 0
 CELL_6_5_SENSE
@@ -2527,8 +2527,8 @@ NoConn ~ 4100 4300
 NoConn ~ 4100 4400
 NoConn ~ 4100 5500
 NoConn ~ 2500 4700
-NoConn ~ 4100 5300
-NoConn ~ 4100 5400
+NoConn ~ 5300 5350
+NoConn ~ 4850 5200
 NoConn ~ 2500 4500
 NoConn ~ 2500 4400
 NoConn ~ 2500 4300
