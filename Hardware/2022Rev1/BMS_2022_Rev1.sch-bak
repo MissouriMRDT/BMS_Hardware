@@ -20,13 +20,13 @@ Teensy 4.1_DEV-16771 Microcontroller
 $Comp
 L Device:Fuse F1
 U 1 1 615E54F1
-P 11100 2350
-F 0 "F1" V 10900 2350 50  0000 C CNN
-F 1 "Fuse" V 10994 2350 50  0000 C CNN
-F 2 "Fuse:Fuse_2920_7451Metric" V 11030 2350 50  0001 C CNN
-F 3 "~" H 11100 2350 50  0001 C CNN
-	1    11100 2350
-	0    1    1    0   
+P 11250 2700
+F 0 "F1" V 11050 2700 50  0000 C CNN
+F 1 "Fuse" V 11144 2700 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric" V 11180 2700 50  0001 C CNN
+F 3 "~" H 11250 2700 50  0001 C CNN
+	1    11250 2700
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR08
@@ -772,13 +772,13 @@ F 3 "" H 10950 10350 50  0001 C CNN
 $EndComp
 Text GLabel 4100 4700 2    59   Input ~ 0
 PACK_I_SENSE
-Text GLabel 4100 4800 2    59   Input ~ 0
+Text GLabel 4100 5400 2    59   Input ~ 0
 V_OUT_SENSE
 Text GLabel 4100 5200 2    59   Input ~ 0
 TEMP_D_OUT
-Text GLabel 4100 4000 2    59   Output ~ 0
+Text GLabel 4100 3900 2    59   Output ~ 0
 BUZZER
-Text GLabel 4100 3900 2    59   Input ~ 0
+Text GLabel 4100 4000 2    59   Input ~ 0
 PACK_GATE
 Text GLabel 2500 5500 0    59   Input ~ 0
 CELL_8_7_SENSE
@@ -892,17 +892,6 @@ F 3 "~" H 10825 4775 50  0001 C CNN
 	1    11450 4600
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:Battery 9V1
-U 1 1 61946A64
-P 10850 5100
-F 0 "9V1" H 10958 5146 50  0000 L CNN
-F 1 "Battery" H 10958 5055 50  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_uF_S_02_Vertical" V 10850 5160 50  0001 C CNN
-F 3 "~" V 10850 5160 50  0001 C CNN
-	1    10850 5100
-	1    0    0    -1  
-$EndComp
 NoConn ~ 11250 4600
 Text GLabel 15000 12700 2    50   Output ~ 0
 CELL_1_GND_SENSE
@@ -1003,7 +992,7 @@ Wire Wire Line
 Text Notes 12550 1650 0    79   ~ 16
 Power Output
 Wire Wire Line
-	11250 4500 11250 2350
+	11250 4500 11250 2850
 Connection ~ 11250 2350
 Wire Wire Line
 	11250 2350 11600 2350
@@ -1019,7 +1008,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 4700 10850 4900
 Wire Wire Line
-	10850 5300 10850 5400
+	10850 5000 10850 5100
 Wire Wire Line
 	15550 4800 15550 5550
 Wire Wire Line
@@ -1038,12 +1027,12 @@ Connection ~ 12000 4750
 $Comp
 L power:GND #PWR0101
 U 1 1 619D0C40
-P 10850 5400
-F 0 "#PWR0101" H 10850 5150 50  0001 C CNN
-F 1 "GND" H 10855 5227 50  0000 C CNN
-F 2 "" H 10850 5400 50  0001 C CNN
-F 3 "" H 10850 5400 50  0001 C CNN
-	1    10850 5400
+P 10850 5100
+F 0 "#PWR0101" H 10850 4850 50  0001 C CNN
+F 1 "GND" H 10855 4927 50  0000 C CNN
+F 2 "" H 10850 5100 50  0001 C CNN
+F 3 "" H 10850 5100 50  0001 C CNN
+	1    10850 5100
 	1    0    0    -1  
 $EndComp
 Text GLabel 15950 2350 0    59   Output ~ 0
@@ -2192,8 +2181,6 @@ F 3 "" H 7250 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10950 2350 10850 2350
-Wire Wire Line
 	3100 10200 2850 10200
 Text GLabel 14100 15350 2    59   Input ~ 0
 CELL_1
@@ -2527,8 +2514,8 @@ NoConn ~ 4100 4300
 NoConn ~ 4100 4400
 NoConn ~ 4100 5500
 NoConn ~ 2500 4700
-NoConn ~ 4100 5300
-NoConn ~ 4100 5400
+NoConn ~ 5300 5350
+NoConn ~ 4850 5200
 NoConn ~ 2500 4500
 NoConn ~ 2500 4400
 NoConn ~ 2500 4300
@@ -2925,5 +2912,20 @@ F 2 "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm" H 6500 13950 50  0001 C CNN
 F 3 "~" H 6500 13950 50  0001 C CNN
 	1    6500 13950
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11250 2550 11250 2350
+Wire Wire Line
+	10850 2350 11250 2350
+$Comp
+L MRDT_Connectors:Molex_uF_S_02 Conn5
+U 1 1 61B237B3
+P 10650 4850
+F 0 "Conn5" H 10592 4663 60  0000 C CNN
+F 1 "Molex_uF_S_02" H 10592 4769 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_uF_S_02_Horizontal" H 10650 4750 60  0001 C CNN
+F 3 "" H 10650 4750 60  0001 C CNN
+	1    10650 4850
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
