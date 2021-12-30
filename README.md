@@ -1,5 +1,6 @@
-Battery Management System- this year it DOES THINGS.
+Battery Management System- this year it DOES THINGS (for real though!).
 
-Right now we're on revision 1, which is the very basic BMS functionality: monitoring and reporting on the voltages and overall current of the battery pack; monitoring temperatures and controlling fans in response; indicators, including LED fuel gauge and buzzers; last but most important, the E-Stop. Based around the LTC6803, this board is streamlined, with inspiration taken from Zenith's BMS and Solar Car's designs.
-Future goals:
-	Onboard passive balancing
+New for 2022:
+-Designed to monitor an 8s8p LiPo battery pack at a max 33.6V @ 160A peak.
+-The Cell Monitoring circuit uses the AS358MTR-E1 Op-Amp as it could be powered off of pack voltage.
+-Teensy 4.1 used as microcontroller for the board.
