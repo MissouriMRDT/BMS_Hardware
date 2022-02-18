@@ -892,7 +892,7 @@ F 3 "~" H 10825 4775 50  0001 C CNN
 	1    11450 4600
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 11250 4600
+NoConn ~ 11250 4700
 Text GLabel 15000 12700 2    50   Output ~ 0
 CELL_1_GND_SENSE
 Wire Wire Line
@@ -1004,9 +1004,7 @@ Wire Wire Line
 	11250 1900 11250 2350
 Connection ~ 15950 2050
 Wire Wire Line
-	10850 4700 11250 4700
-Wire Wire Line
-	10850 4700 10850 4900
+	10850 4600 11250 4600
 Wire Wire Line
 	10850 5000 10850 5100
 Wire Wire Line
@@ -2149,13 +2147,13 @@ Wire Wire Line
 	7250 2900 7700 2900
 $Comp
 L MRDT_Connectors:AndersonPP Conn4
-U 2 1 61626AD4
+U 4 1 61626AD4
 P 8750 3450
 F 0 "Conn4" V 9011 3422 60  0000 R CNN
 F 1 "AndersonPP" V 8905 3422 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 8600 2900 60  0001 C CNN
 F 3 "" H 8600 2900 60  0001 C CNN
-	2    8750 3450
+	4    8750 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2514,8 +2512,8 @@ NoConn ~ 4100 4300
 NoConn ~ 4100 4400
 NoConn ~ 4100 5500
 NoConn ~ 2500 4700
-NoConn ~ 5300 5350
-NoConn ~ 4850 5200
+NoConn ~ 4100 5300
+NoConn ~ 4100 4800
 NoConn ~ 2500 4500
 NoConn ~ 2500 4400
 NoConn ~ 2500 4300
@@ -2923,9 +2921,11 @@ U 1 1 61B237B3
 P 10650 4850
 F 0 "Conn5" H 10592 4663 60  0000 C CNN
 F 1 "Molex_uF_S_02" H 10592 4769 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_uF_S_02_Horizontal" H 10650 4750 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_uF_S_02_Vertical" H 10650 4750 60  0001 C CNN
 F 3 "" H 10650 4750 60  0001 C CNN
 	1    10650 4850
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	10850 4600 10850 4900
 $EndSCHEMATC
