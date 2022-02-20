@@ -1,4 +1,4 @@
-update=2/17/2022 9:51:23 PM
+update=2/19/2022 9:06:51 PM
 version=1
 last_client=kicad
 [general]
@@ -26,7 +26,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=BMS_2022_Rev1.net
-CopperLayerCount=4
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -77,13 +77,13 @@ Name=F(Vin).Cu
 Type=1
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=2nd_Layer_(Pack).Cu
-Type=1
-Enabled=1
+Name=In1.Cu
+Type=0
+Enabled=0
 [pcbnew/Layer.In2.Cu]
-Name=3rd_Layer_(Vout).Cu
-Type=1
-Enabled=1
+Name=In2.Cu
+Type=0
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
