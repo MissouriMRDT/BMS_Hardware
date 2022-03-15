@@ -381,8 +381,6 @@ Wire Wire Line
 Wire Wire Line
 	16950 4800 16400 4800
 Connection ~ 16400 4800
-Wire Wire Line
-	13050 4750 12500 4750
 Connection ~ 12500 4750
 $Comp
 L power:+3.3V #PWR015
@@ -520,8 +518,6 @@ Connection ~ 18600 5100
 Wire Wire Line
 	18600 4800 17750 4800
 Connection ~ 18600 4800
-Wire Wire Line
-	13850 4750 14400 4750
 Connection ~ 14400 4750
 Text Notes 3700 7600 0    79   ~ 0
 Green
@@ -2450,17 +2446,6 @@ F 3 "" H 17000 2450 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BMS_2022_Rev1-rescue:OKI-MRDT_Devices U2
-U 1 1 6288AB76
-P 13250 4850
-F 0 "U2" H 13300 4800 60  0001 C CNN
-F 1 "OKI" H 13450 5131 60  0000 C CNN
-F 2 "MRDT_Devices:OKI_Horizontal" H 13050 4750 60  0001 C CNN
-F 3 "" H 13050 4750 60  0001 C CNN
-	1    13250 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L BMS_2022_Rev1-rescue:OKI-MRDT_Devices U4
 U 1 1 6288C24C
 P 17150 4900
@@ -2928,4 +2913,23 @@ F 3 "" H 10650 4750 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	10850 4600 10850 4900
+$Comp
+L MRDT_Devices:TSR1-2433 U2
+U 1 1 6240065B
+P 13450 4750
+F 0 "U2" V 13617 4572 50  0000 R CNN
+F 1 "TSR1-2433" V 13850 4750 50  0001 C CNN
+F 2 "MRDT_Devices:TSR_1-2433" H 13750 4850 50  0001 C CNN
+F 3 "" H 13750 4850 50  0001 C CNN
+	1    13450 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13450 4750 13450 5050
+Wire Wire Line
+	12500 4750 13350 4750
+Wire Wire Line
+	13550 4750 14400 4750
+Text Notes 12800 4350 0    50   ~ 0
+3.3V Buck Converter TSR1-2433
 $EndSCHEMATC
