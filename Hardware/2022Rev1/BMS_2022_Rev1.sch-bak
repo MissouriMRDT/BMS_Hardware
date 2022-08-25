@@ -381,8 +381,6 @@ Wire Wire Line
 Wire Wire Line
 	16950 4800 16400 4800
 Connection ~ 16400 4800
-Wire Wire Line
-	13050 4750 12500 4750
 Connection ~ 12500 4750
 $Comp
 L power:+3.3V #PWR015
@@ -520,8 +518,6 @@ Connection ~ 18600 5100
 Wire Wire Line
 	18600 4800 17750 4800
 Connection ~ 18600 4800
-Wire Wire Line
-	13850 4750 14400 4750
 Connection ~ 14400 4750
 Text Notes 3700 7600 0    79   ~ 0
 Green
@@ -892,7 +888,7 @@ F 3 "~" H 10825 4775 50  0001 C CNN
 	1    11450 4600
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 11250 4600
+NoConn ~ 11250 4700
 Text GLabel 15000 12700 2    50   Output ~ 0
 CELL_1_GND_SENSE
 Wire Wire Line
@@ -1004,9 +1000,7 @@ Wire Wire Line
 	11250 1900 11250 2350
 Connection ~ 15950 2050
 Wire Wire Line
-	10850 4700 11250 4700
-Wire Wire Line
-	10850 4700 10850 4900
+	10850 4600 11250 4600
 Wire Wire Line
 	10850 5000 10850 5100
 Wire Wire Line
@@ -2128,7 +2122,7 @@ Wire Wire Line
 Text GLabel 10200 3400 2    59   Output ~ 0
 PACK_I_SENSE
 $Comp
-L MRDT_Sensors:ACS759ECB-200B-PFF-T U5
+L BMS_2022_Rev1-rescue:ACS759ECB-200B-PFF-T-MRDT_Sensors U5
 U 1 1 6163FF04
 P 10650 2750
 F 0 "U5" H 10950 3291 60  0000 C CNN
@@ -2148,18 +2142,18 @@ Wire Wire Line
 Wire Wire Line
 	7250 2900 7700 2900
 $Comp
-L MRDT_Connectors:AndersonPP Conn4
-U 2 1 61626AD4
+L BMS_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn4
+U 4 1 61626AD4
 P 8750 3450
 F 0 "Conn4" V 9011 3422 60  0000 R CNN
 F 1 "AndersonPP" V 8905 3422 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 8600 2900 60  0001 C CNN
 F 3 "" H 8600 2900 60  0001 C CNN
-	2    8750 3450
+	4    8750 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn4
+L BMS_2022_Rev1-rescue:AndersonPP-MRDT_Connectors Conn4
 U 1 1 616252E5
 P 7800 3450
 F 0 "Conn4" V 8061 3422 60  0000 R CNN
@@ -2236,7 +2230,7 @@ Connection ~ 10600 15200
 Wire Wire Line
 	10600 15200 11250 15200
 $Comp
-L MRDT_Connectors:Molex_uF_SV_03 J1
+L BMS_2022_Rev1-rescue:Molex_uF_SV_03-MRDT_Connectors J1
 U 1 1 62335026
 P 2650 10100
 F 0 "J1" H 2593 9833 50  0000 C CNN
@@ -2248,7 +2242,7 @@ F 4 "MOLEX" H 2650 10100 50  0001 L BNN "MANUFACTURER"
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_uF_SV_03 J2
+L BMS_2022_Rev1-rescue:Molex_uF_SV_03-MRDT_Connectors J2
 U 1 1 62365ECD
 P 18600 9900
 F 0 "J2" H 18750 9650 50  0000 C CNN
@@ -2262,7 +2256,7 @@ $EndComp
 Wire Wire Line
 	18800 10150 18800 10100
 $Comp
-L MRDT_Connectors:Molex_uF_SV_04 J3
+L BMS_2022_Rev1-rescue:Molex_uF_SV_04-MRDT_Connectors J3
 U 1 1 6239943E
 P 19200 2000
 F 0 "J3" V 19189 1770 50  0000 R CNN
@@ -2274,7 +2268,7 @@ F 4 "MOLEX" H 19200 2000 50  0001 L BNN "MANUFACTURER"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_08 Conn1
+L BMS_2022_Rev1-rescue:Molex_SL_08-MRDT_Connectors Conn1
 U 1 1 623C06A0
 P 9250 7250
 F 0 "Conn1" H 9192 7063 60  0000 C CNN
@@ -2287,7 +2281,7 @@ $EndComp
 Text GLabel 4100 4900 2    59   Output ~ 0
 FAN_CTL
 $Comp
-L MRDT_Shields:Teensy4.1_DEV-16771 U1
+L BMS_2022_Rev1-rescue:Teensy4.1_DEV-16771-MRDT_Shields U1
 U 1 1 61CA2455
 P 3300 3900
 F 0 "U1" H 3300 6067 50  0000 C CNN
@@ -2317,7 +2311,7 @@ F 3 "~" V 5200 1375 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_uF_SV_06 J5
+L BMS_2022_Rev1-rescue:Molex_uF_SV_06-MRDT_Connectors J5
 U 1 1 6231E906
 P 5200 2950
 F 0 "J5" V 5097 3280 50  0000 L CNN
@@ -2408,7 +2402,7 @@ Wire Wire Line
 NoConn ~ 5000 950 
 NoConn ~ 4900 950 
 $Comp
-L MRDT_Drill_Holes:BATT_PWR_VIA V1
+L BMS_2022_Rev1-rescue:BATT_PWR_VIA-MRDT_Drill_Holes V1
 U 1 1 626BB698
 P 7700 2300
 F 0 "V1" H 7828 2320 60  0000 L CNN
@@ -2419,7 +2413,7 @@ F 3 "" H 7700 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Drill_Holes:BATT_PWR_VIA V2
+L BMS_2022_Rev1-rescue:BATT_PWR_VIA-MRDT_Drill_Holes V2
 U 1 1 626BC03A
 P 8650 2300
 F 0 "V2" H 8778 2320 60  0000 L CNN
@@ -2430,7 +2424,7 @@ F 3 "" H 8650 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Drill_Holes:BATT_PWR_VIA V3
+L BMS_2022_Rev1-rescue:BATT_PWR_VIA-MRDT_Drill_Holes V3
 U 1 1 626BDA6D
 P 13000 2100
 F 0 "V3" H 13128 2120 60  0000 L CNN
@@ -2441,7 +2435,7 @@ F 3 "" H 13000 2100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:LT1910 U3
+L BMS_2022_Rev1-rescue:LT1910-MRDT_ICs U3
 U 1 1 628117D4
 P 17000 2450
 F 0 "U3" H 17375 3137 60  0000 C CNN
@@ -2452,18 +2446,7 @@ F 3 "" H 17000 2450 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Devices:OKI U2
-U 1 1 6288AB76
-P 13250 4850
-F 0 "U2" H 13300 4800 60  0001 C CNN
-F 1 "OKI" H 13450 5131 60  0000 C CNN
-F 2 "MRDT_Devices:OKI_Horizontal" H 13050 4750 60  0001 C CNN
-F 3 "" H 13050 4750 60  0001 C CNN
-	1    13250 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Devices:OKI U4
+L BMS_2022_Rev1-rescue:OKI-MRDT_Devices U4
 U 1 1 6288C24C
 P 17150 4900
 F 0 "U4" H 17200 4850 60  0001 C CNN
@@ -2474,7 +2457,7 @@ F 3 "" H 16950 4800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_uF_S_09 Conn2
+L BMS_2022_Rev1-rescue:Molex_uF_S_09-MRDT_Connectors Conn2
 U 1 1 62B0DD4A
 P 9250 10400
 F 0 "Conn2" H 9192 11497 60  0000 C CNN
@@ -2485,7 +2468,7 @@ F 3 "" H 9250 10800 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_uF_S_09 Conn3
+L BMS_2022_Rev1-rescue:Molex_uF_S_09-MRDT_Connectors Conn3
 U 1 1 62B0F18D
 P 10700 10400
 F 0 "Conn3" H 10642 11497 60  0000 C CNN
@@ -2514,8 +2497,8 @@ NoConn ~ 4100 4300
 NoConn ~ 4100 4400
 NoConn ~ 4100 5500
 NoConn ~ 2500 4700
-NoConn ~ 5300 5350
-NoConn ~ 4850 5200
+NoConn ~ 4100 5300
+NoConn ~ 4100 4800
 NoConn ~ 2500 4500
 NoConn ~ 2500 4400
 NoConn ~ 2500 4300
@@ -2918,14 +2901,35 @@ Wire Wire Line
 Wire Wire Line
 	10850 2350 11250 2350
 $Comp
-L MRDT_Connectors:Molex_uF_S_02 Conn5
+L BMS_2022_Rev1-rescue:Molex_uF_S_02-MRDT_Connectors Conn5
 U 1 1 61B237B3
 P 10650 4850
 F 0 "Conn5" H 10592 4663 60  0000 C CNN
 F 1 "Molex_uF_S_02" H 10592 4769 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_uF_S_02_Horizontal" H 10650 4750 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_uF_S_02_Vertical" H 10650 4750 60  0001 C CNN
 F 3 "" H 10650 4750 60  0001 C CNN
 	1    10650 4850
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	10850 4600 10850 4900
+$Comp
+L MRDT_Devices:TSR1-2433 U2
+U 1 1 6240065B
+P 13450 4750
+F 0 "U2" V 13617 4572 50  0000 R CNN
+F 1 "TSR1-2433" V 13850 4750 50  0001 C CNN
+F 2 "MRDT_Devices:TSR_1-2433" H 13750 4850 50  0001 C CNN
+F 3 "" H 13750 4850 50  0001 C CNN
+	1    13450 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13450 4750 13450 5050
+Wire Wire Line
+	12500 4750 13350 4750
+Wire Wire Line
+	13550 4750 14400 4750
+Text Notes 12800 4350 0    50   ~ 0
+3.3V Buck Converter TSR1-2433
 $EndSCHEMATC
