@@ -29,3 +29,4 @@ _autosave-*
 Hardware/2023Rev1/\#auto_saved_files\#
 *.zip
 
+*.kicad_sch-bak
