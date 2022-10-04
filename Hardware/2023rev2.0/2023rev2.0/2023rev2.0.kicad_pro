@@ -1,5 +1,28 @@
 {
   "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "other_line_width": 0.15,
+        "silk_line_width": 0.15,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {
+        "min_copper_edge_clearance": 0.0,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0
+      },
+      "track_widths": [],
+      "via_dimensions": []
+    },
     "layer_presets": []
   },
   "boards": [],
@@ -216,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2023Rev1.kicad_pro",
+    "filename": "2023rev2.0.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -256,7 +279,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 1,
+    "annotate_start_num": 0,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -287,7 +310,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "../../Documentation/",
+    "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -295,7 +318,7 @@
   },
   "sheets": [
     [
-      "62a5013b-27bd-4648-9844-b43a50a9ebdc",
+      "c97bf40f-1374-4602-8fe5-f17d988d3ba5",
       ""
     ]
   ],
