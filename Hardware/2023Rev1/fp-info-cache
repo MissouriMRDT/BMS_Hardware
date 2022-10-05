@@ -1,4 +1,4 @@
-20747328432979570
+20748995589199623
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57673,6 +57673,13 @@ ABM3B-8.000MHZ-10-1-U-T
 4
 4
 MRDT_Actives
+DO-214AC
+<b>SURFACE MOUNT GENERAL RECTIFIER</b> JEDEC DO-214AC molded platic body<p>Method 2026<br>Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf
+
+0
+2
+2
+MRDT_Actives
 IRFZ44ESTRLPBF
 TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
 D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
@@ -58639,13 +58646,6 @@ LAUNCHXL_F28069M_J5_THT_TOP
 40
 39
 MRDT_Shields
-MODULE_DEV-16771
-
-
-0
-65
-65
-MRDT_Shields
 RASPBERRY_PI_HEADERS
 
 
@@ -58778,6 +58778,13 @@ TM4C129E_Launchpad_X9_THT_TOP
 0
 40
 39
+MRDT_Shields
+Teensy_4_1
+
+
+0
+65
+65
 MRDT_Shields
 Teensy_4_1_Vertical
 
