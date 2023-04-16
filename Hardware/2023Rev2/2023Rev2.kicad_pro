@@ -410,7 +410,7 @@
       "idf": "",
       "netlist": "./",
       "specctra_dsn": "",
-      "step": "",
+      "step": "2023Rev2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
