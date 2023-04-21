@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "BMS_Symbols")(type "KiCad")(uri "C:/GitHub/BMS_Hardware/Documentation/Libraries/Symbols/BMS_Symbols.kicad_sym")(options "")(descr ""))
+)
