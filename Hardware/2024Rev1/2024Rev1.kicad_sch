@@ -4864,8 +4864,8 @@
     (property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" (at 139.7 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e6f4c80-d842-4696-bb1c-a614b0221d6a))
-    (pin "2" (uuid e2056e53-0580-4eee-bdc9-63d61f7ee305))
+    (pin "1" (uuid 22090768-323c-4fc7-9c5a-03eca80694ce))
+    (pin "2" (uuid 1eab2f25-23d2-4383-b2cd-b969ff2c753e))
     (instances
       (project "2024Rev1"
         (path "/62a5013b-27bd-4648-9844-b43a50a9ebdc"
