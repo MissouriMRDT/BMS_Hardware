@@ -1,3 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "Signatures")(type "KiCad")(uri "C:/GitHub/BMS_Hardware/Documentation/Libraries/Footprints/Signatures")(options "")(descr ""))
+  (lib (name "Sigtature")(type "KiCad")(uri "${KIPRJMOD}/Sigtature.pretty")(options "")(descr ""))
 )
