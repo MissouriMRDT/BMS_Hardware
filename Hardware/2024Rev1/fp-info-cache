@@ -1,4 +1,4 @@
-22606106332616841
+22608568846493878
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62902,6 +62902,13 @@ USEQGSEAN8L180
 36
 30
 MRDT_Passives
+3528SMD_Diode
+
+
+0
+2
+2
+MRDT_Passives
 ATC_Fuse_Block
 
 Fuse ATC
@@ -63659,6 +63666,13 @@ z_sig_Sam_Thompson_Sig_20.0mmX13.1mm
 0
 MRDT_Silkscreens
 z_sig_SanfanLiu_sig21.8mmx12.3mm1
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Tyler_Nguyen_15mmx20mm
 
 
 0
